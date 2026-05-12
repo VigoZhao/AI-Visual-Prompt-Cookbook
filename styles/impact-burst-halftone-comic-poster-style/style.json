@@ -1,0 +1,97 @@
+{
+  "style_name": "Impact Burst Halftone Comic Poster Style",
+  "style_slug": "impact-burst-halftone-comic-poster-style",
+  "version": "2026.05.12",
+  "status": "stable",
+  "updated_at": "2026-05-12",
+  "summary": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Layout: use a bold cropped comic-poster composition. Put a huge condensed cream block-letter headline reading \"{MAIN_TEXT}\" across the upper band, with \"{SECONDARY_TEXT}\" as tiny impact microcopy if it stays clean. Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground. Add {ACCENT_SYMBOL} as a graphic impact mark. Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logo, licensed character, photorealism, realistic portrait, 3D render, glossy gradient, airbrush shading, polished vector logo, corporate minimal poster, soft pastel palette, long paragraphs, crowded typography, clean digital texture, no grain",
+  "variables": {
+    "SUBJECT": "main illustrated subject",
+    "SUBJECT_ACTION": "main chaotic action or reaction",
+    "PRODUCT_OR_PROP": "oversized object, product, tool, weapon, camera, device, or prop",
+    "LOCATION": "flat poster setting or symbolic backdrop",
+    "BACKGROUND_ELEMENTS": "speech bursts, smoke puffs, starbursts, cyan blocks, yellow corner shapes, impact marks",
+    "MAIN_TEXT": "short comic headline, e.g. ZAP!, CRASH!, BANG!, WHAM!",
+    "SECONDARY_TEXT": "tiny impact caption or small supporting word",
+    "ACCENT_SYMBOL": "sparkle, starburst, lightning slash, jagged separator, small smoke puff",
+    "WARDROBE_STYLE": "simple flat-color wardrobe or stylized body treatment",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Raygun Static",
+      "variables": {
+        "SUBJECT": "a manic orange-and-cream comic inventor with spiky black hair",
+        "SUBJECT_ACTION": "grinning in shock while testing a sputtering device",
+        "PRODUCT_OR_PROP": "oversized muted-olive retro ray camera with a huge black lens",
+        "LOCATION": "flat cyan poster window under a black impact field",
+        "BACKGROUND_ELEMENTS": "yellow jagged corner speech burst, off-white smoke puffs, small sparkle marks, rough paper speckles",
+        "MAIN_TEXT": "ZAP!",
+        "SECONDARY_TEXT": "STATIC",
+        "ACCENT_SYMBOL": "white four-point sparkle and tiny lightning slash",
+        "WARDROBE_STYLE": "flat orange jacket, cream negative-space highlights, black ink hair and eyebrows",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 poster in impact-burst-halftone-comic-poster-style. Scene: a manic orange-and-cream comic inventor with spiky black hair grinning in shock while testing a sputtering oversized muted-olive retro ray camera with a huge black lens, in a flat cyan poster window under a black impact field. Push the huge cream headline \"ZAP!\" across the upper-left band, place the inventor off-center, and let the ray camera angle through the middle foreground. Include a yellow jagged corner speech burst, off-white smoke puffs, small sparkle marks, rough paper speckles, thick black contour lines, flat hot-orange and aged-cream shapes, cyan backdrop, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.",
+      "prompt_9x16": "Create a vertical 9:16 poster in impact-burst-halftone-comic-poster-style. Scene: a manic orange-and-cream comic inventor with spiky black hair grinning in shock while testing a sputtering oversized muted-olive retro ray camera with a huge black lens, in a flat cyan poster window under a black impact field. Include a yellow jagged corner speech burst, off-white smoke puffs, small sparkle marks, rough paper speckles. Put a huge condensed cream block-letter headline reading \"ZAP!\" across the upper band and tiny supporting text \"STATIC\" only if it stays clean. Use thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design."
+    },
+    {
+      "case_name": "Skateboard Crash",
+      "variables": {
+        "SUBJECT": "a wide-eyed punk skater drawn in hot orange and aged cream",
+        "SUBJECT_ACTION": "falling backward in a frozen impact pose",
+        "PRODUCT_OR_PROP": "oversized olive skateboard wheel and deck crossing the foreground",
+        "LOCATION": "flat cyan street-poster backdrop",
+        "BACKGROUND_ELEMENTS": "black upper field, yellow burst, smoke puffs, white star impacts, gritty halftone",
+        "MAIN_TEXT": "CRASH!",
+        "SECONDARY_TEXT": "IMPACT",
+        "ACCENT_SYMBOL": "jagged wheel-speed slash",
+        "WARDROBE_STYLE": "orange torn jacket, cream highlights, black hair silhouette, chunky comic shoes",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 poster in impact-burst-halftone-comic-poster-style. Scene: a wide-eyed punk skater drawn in hot orange and aged cream falling backward in a frozen impact pose, with an oversized olive skateboard wheel and deck crossing the foreground, in a flat cyan street-poster backdrop. Push the cream headline \"CRASH!\" across the upper-left band, place the skater off-center, and let the skateboard deck and wheel cut through the center. Include a black upper field, yellow burst, smoke puffs, white star impacts, gritty halftone, and jagged wheel-speed slashes. Use thick uneven black contour lines, flat hot-orange and aged-cream shapes, saturated cyan backdrop, lemon-yellow corner burst, muted olive prop color, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.",
+      "prompt_9x16": "Create a vertical 9:16 poster in impact-burst-halftone-comic-poster-style. Scene: a wide-eyed punk skater drawn in hot orange and aged cream falling backward in a frozen impact pose, with an oversized olive skateboard wheel and deck crossing the foreground, in a flat cyan street-poster backdrop. Include a black upper field, yellow burst, smoke puffs, white star impacts, gritty halftone, and jagged wheel-speed slashes. Put a huge condensed cream block-letter headline reading \"CRASH!\" across the upper band and tiny supporting text \"IMPACT\" only if it stays clean. Use thick uneven black contour lines, flat hot-orange and aged-cream shapes, saturated cyan backdrop, lemon-yellow corner burst, muted olive prop color, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design."
+    },
+    {
+      "case_name": "Soda Overload",
+      "variables": {
+        "SUBJECT": "a comic cashier with a huge toothy grin",
+        "SUBJECT_ACTION": "getting blasted by a fizzy spray",
+        "PRODUCT_OR_PROP": "oversized olive soda siphon with a black circular nozzle",
+        "LOCATION": "flat convenience-store poster abstraction",
+        "BACKGROUND_ELEMENTS": "cyan rectangle, yellow fizz burst, cream bubbles, black top banner, print speckles",
+        "MAIN_TEXT": "POP!",
+        "SECONDARY_TEXT": "FIZZ",
+        "ACCENT_SYMBOL": "cream bubble cluster",
+        "WARDROBE_STYLE": "orange apron shape, cream shirt blocks, black eyebrow marks",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 poster in impact-burst-halftone-comic-poster-style. Scene: a comic cashier with a huge toothy grin getting blasted by a fizzy spray from an oversized olive soda siphon with a black circular nozzle, in a flat convenience-store poster abstraction. Push the cream headline \"POP!\" across the upper-left band, place the cashier off-center, and let the soda siphon cut through the middle foreground. Include a cyan rectangle, yellow fizz burst, cream bubbles, black top banner, print speckles, off-white smoke puffs, and white sparkle impacts. Use thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow corner burst, muted olive prop color, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.",
+      "prompt_9x16": "Create a vertical 9:16 poster in impact-burst-halftone-comic-poster-style. Scene: a comic cashier with a huge toothy grin getting blasted by a fizzy spray from an oversized olive soda siphon with a black circular nozzle, in a flat convenience-store poster abstraction. Include a cyan rectangle, yellow fizz burst, cream bubbles, black top banner, print speckles, off-white smoke puffs, and white sparkle impacts. Put a huge condensed cream block-letter headline reading \"POP!\" across the upper band and tiny supporting text \"FIZZ\" only if it stays clean. Use thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow corner burst, muted olive prop color, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design."
+    },
+    {
+      "case_name": "Drum Hit",
+      "variables": {
+        "SUBJECT": "an orange-and-cream garage drummer with wild black hair",
+        "SUBJECT_ACTION": "leaning into a huge cymbal strike",
+        "PRODUCT_OR_PROP": "oversized muted-olive kick drum and black circular drum head",
+        "LOCATION": "flat gig-poster stage abstraction",
+        "BACKGROUND_ELEMENTS": "cyan stage block, yellow sound burst, smoke puffs, white sparkles, distressed black field",
+        "MAIN_TEXT": "BANG!",
+        "SECONDARY_TEXT": "LOUD",
+        "ACCENT_SYMBOL": "white starburst and broken sound rings",
+        "WARDROBE_STYLE": "flat orange vest, cream arms, black graphic hair, chunky ink outlines",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 poster in impact-burst-halftone-comic-poster-style. Scene: an orange-and-cream garage drummer with wild black hair leaning into a huge cymbal strike, interacting with an oversized muted-olive kick drum and black circular drum head, in a flat gig-poster stage abstraction. Push the cream headline \"BANG!\" across the upper-left band, place the drummer off-center, and let the oversized kick drum cut through the center foreground. Include a cyan stage block, yellow sound burst, smoke puffs, white sparkles, distressed black field, white starburst, and broken sound rings. Use thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow corner burst, muted olive prop color, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.",
+      "prompt_9x16": "Create a vertical 9:16 poster in impact-burst-halftone-comic-poster-style. Scene: an orange-and-cream garage drummer with wild black hair leaning into a huge cymbal strike, interacting with an oversized muted-olive kick drum and black circular drum head, in a flat gig-poster stage abstraction. Include a cyan stage block, yellow sound burst, smoke puffs, white sparkles, distressed black field, white starburst, and broken sound rings. Put a huge condensed cream block-letter headline reading \"BANG!\" across the upper band and tiny supporting text \"LOUD\" only if it stays clean. Use thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow corner burst, muted olive prop color, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design."
+    }
+  ],
+  "license": "CC BY 4.0"
+}

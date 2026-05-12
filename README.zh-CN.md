@@ -33,43 +33,54 @@ styles/<style-slug>/
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster preview"></a>
+<h3>Impact Burst Halftone Comic Poster</h3>
+<p>一种响亮的复古漫画海报系统：厚重黑色墨线、扁平高饱和色块、超大冲击字体、夸张插画主体、对角道具、对话爆裂形、烟雾团、半色调网点和做旧丝网印刷颗粒。</p>
+<p><a href="styles/impact-burst-halftone-comic-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/impact-burst-halftone-comic-poster-style">目录</a> · <a href="styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg">9:16 预览</a></p>
+</td>
+<td width="50%" valign="top">
 <a href="styles/sunburst-fisheye-bubble-type-poster-style"><img src="styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg" alt="Sunburst Fisheye Bubble Type Poster preview"></a>
 <h3>Sunburst Fisheye Bubble Type Poster</h3>
 <p>一种超低机位鱼眼夏日生活方式海报风格：近距离摄影主体、饱和钴蓝天空、巨大的拱形柠檬黄色泡泡字体、暖橙色文字阴影、Y2K 配饰和明显的模拟胶片颗粒。</p>
 <p><a href="styles/sunburst-fisheye-bubble-type-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style">目录</a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg">9:16 预览</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="styles/backseat-transit-doodle-letter-poster-style"><img src="styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg" alt="Backseat Transit Doodle Letter Poster preview"></a>
-<h3>Backseat Transit Doodle Letter Poster</h3>
-<p>一种把真实乘客视角交通照片转化为高能旅行海报的风格：后视中央人物、电光黄色剪影光晕、巨大的黄橙色手绘字母、漫画放射线、紫色音乐符号、贴纸图标和青白色云朵涂鸦。</p>
-<p><a href="styles/backseat-transit-doodle-letter-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/backseat-transit-doodle-letter-poster-style">目录</a> · <a href="styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg">9:16 预览</a></p>
 </td>
 </tr>
 </table>
 
 ## 风格索引
 
-1. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-2. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-3. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-4. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-5. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-6. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-7. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-8. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-9. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-10. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-11. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-12. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-13. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-14. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-15. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-16. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-17. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-18. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-19. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+2. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+3. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+4. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+5. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+6. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+7. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+8. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+9. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+10. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+11. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+12. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+13. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+14. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+15. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+16. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+17. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+18. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+19. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+20. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## 风格目录
+
+### Impact Burst Halftone Comic Poster
+
+<a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" width="720" alt="Impact Burst Halftone Comic Poster preview"></a>
+
+一种响亮的复古漫画海报系统：厚重黑色墨线、扁平高饱和色块、超大冲击字体、夸张插画主体、对角道具、对话爆裂形、烟雾团、半色调网点和做旧丝网印刷颗粒。
+
+文件：[style.json](styles/impact-burst-halftone-comic-poster-style/style.json) · [16:9 预览](styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg) · [目录](styles/impact-burst-halftone-comic-poster-style)
+
+---
 
 ### Sunburst Fisheye Bubble Type Poster
 
