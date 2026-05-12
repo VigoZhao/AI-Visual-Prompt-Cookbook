@@ -1,0 +1,99 @@
+{
+  "style_name": "mountain-trail-monster-doodle-poster-style",
+  "style_slug": "mountain-trail-monster-doodle-poster-style",
+  "version": "1.0.0",
+  "summary": "A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Mountain Trail Monster Doodle Poster\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse a realistic candid outdoor hiking photograph as the base layer, with natural daylight, real mountain or trail detail, trees, sky, rocks, and a believable person in practical outdoor clothing. Keep the person photographic and naturally integrated into the landscape.\n\nOverlay one flat hand-drawn red cartoon monster companion beside the person. The monster should have thick black contour lines, brick-red fill, simple dark red shadow shapes, oversized white eyes, tiny pupils, sharp white teeth, pale blue sweat drops, and simplified claw hands. Let one arm or claw physically interact with the person, backpack, bottle, map, trail sign, or prop.\n\nAdd oversized irregular comic lettering across the upper sky or mountain area. Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful Spanish travel-poster feeling. Add a tiny handwritten note near the headline and a few sparse squiggles, arrows, underlines, or motion marks.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror, blood, violence, 3D mascot, plush toy, full cartoon background, corporate layout, minimalist typography, dense text, studio portrait, and low-detail mountains.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror monster, blood, violence, 3D mascot, plush toy, glossy fur, full cartoon background, corporate layout, minimalist typography, tiny unreadable text, studio portrait, luxury fashion shoot, dark horror mood, low-detail mountains, abstract background",
+  "variables": {
+    "SUBJECT": "main hiker, traveler, athlete, explorer, or outdoor person",
+    "SUBJECT_ACTION": "standing, looking up, pausing, holding a bottle, checking a map, climbing, resting, or reacting to the cartoon companion",
+    "PRODUCT_OR_PROP": "water bottle, hiking pole, backpack, map, snack, camera, cap, or trail marker",
+    "LOCATION": "mountain trail, canyon overlook, alpine forest, cliff path, desert ridge, volcano trail, or scenic outdoor viewpoint",
+    "BACKGROUND_ELEMENTS": "distant cliffs, layered mountains, pine trees, blue sky, rocky ground, trail grass, shadows, and natural daylight",
+    "MAIN_TEXT": "large Spanish or playful comic headline integrated across the sky",
+    "SECONDARY_TEXT": "small handwritten side note, mock trail label, tiny phrase, or diary annotation",
+    "ACCENT_SYMBOL": "small squiggle, underline, speed mark, sweat drop, star, arrow, or outline echo",
+    "WARDROBE_STYLE": "practical hiking outfit, outdoor streetwear, utility pants, T-shirt, backpack straps, trail shoes, watch, and cap",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Canyon Water Break",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Volcano Snack Stop",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Alpine Map Panic",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Desert Ridge Buddy",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror monster, blood, violence, 3D mascot, plush toy, glossy fur, full cartoon background, corporate layout, minimalist typography, tiny unreadable text, studio portrait, luxury fashion shoot, dark horror mood, low-detail mountains, abstract background",
+      "prompt_16x9": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "mountain-trail-monster-doodle-poster-style"
+  }
+}

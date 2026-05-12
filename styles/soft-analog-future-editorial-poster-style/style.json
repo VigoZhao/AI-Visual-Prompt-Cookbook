@@ -1,0 +1,99 @@
+{
+  "style_name": "Soft Analog Future Editorial Poster",
+  "style_slug": "soft-analog-future-editorial-poster-style",
+  "version": "1.0.0",
+  "summary": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in soft-analog-future-editorial-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} is supported by a calm analog-future system that helps them {SUBJECT_ACTION}. The hero prop is {PRODUCT_OR_PROP} placed in {LOCATION}. Include {BACKGROUND_ELEMENTS} as restrained editorial details. If people are visible, wardrobe and styling should be {WARDROBE_STYLE}.\n\nTypography: set the main headline as very large black neo-grotesk type reading \"{MAIN_TEXT}\". Add \"{SECONDARY_TEXT}\" as tiny editorial microcopy, numbered list text, date/issue style labels, or bilingual captioning. Use {ACCENT_SYMBOL} as a sparse graphic mark.\n\nVisual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents, and quiet negative space. Keep the design premium, readable, and editorial.\n\nAvoid: watermark, logo, creator ID, QR code, platform UI, copied brand mark, glossy cyberpunk, dark sci-fi, neon gamer interface, childish mascot, busy collage, unreadable text, and cluttered typography.",
+  "negative_prompt": "watermark, logo, creator ID, QR code, platform UI, copied brand mark, glossy cyberpunk, neon gamer interface, dark dystopian scene, childish mascot, crowded collage, heavy gradient background, decorative blobs, unreadable typography, over-rendered chrome, harsh spotlight, chaotic composition",
+  "variables": {
+    "SUBJECT": "main person, field, discipline, audience, or symbolic focus",
+    "SUBJECT_ACTION": "what the system helps the subject do or understand",
+    "PRODUCT_OR_PROP": "retro-future device, workstation, instrument, archive object, display, console, or product-like prop",
+    "LOCATION": "studio, archive desk, greenhouse lab, civic model room, classroom, clinic, observatory, or quiet workspace",
+    "BACKGROUND_ELEMENTS": "paper texture, thin rules, metadata blocks, issue date, numbered list, botanical details, translucent UI panel, dotted halftone, small crosshair marks",
+    "MAIN_TEXT": "large poster headline",
+    "SECONDARY_TEXT": "small bilingual caption, numbered benefit list, issue/date label, or editorial microcopy",
+    "ACCENT_SYMBOL": "thin line, plus sign, bracketed number, crosshair star, dotted square, or small separator",
+    "WARDROBE_STYLE": "if people appear: quiet utilitarian studio clothing, lab coat, soft workwear, or minimal neutral layers",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Research Desk Companion",
+      "variables": {
+        "SUBJECT": "climate researcher",
+        "SUBJECT_ACTION": "compare field notes, satellite sketches, and future coastline scenarios",
+        "PRODUCT_OR_PROP": "cream retro desktop terminal with a translucent map-analysis panel",
+        "LOCATION": "quiet archive desk with paper files and specimen trays",
+        "BACKGROUND_ELEMENTS": "thin top rule, issue block, numbered insight list, pressed blue flowers, dotted square, small crosshair mark",
+        "MAIN_TEXT": "Better maps reveal better choices.",
+        "SECONDARY_TEXT": "観察する。比べる。決める。 / 01 + Read the coast / 02 + Think in systems",
+        "ACCENT_SYMBOL": "bracketed numbers and a tiny crosshair star",
+        "WARDROBE_STYLE": "neutral field jacket, soft gray shirt, practical research clothing",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Studio Learning Terminal",
+      "variables": {
+        "SUBJECT": "lifelong learner",
+        "SUBJECT_ACTION": "turn short questions into structured lessons and practice paths",
+        "PRODUCT_OR_PROP": "compact beige learning terminal with a floating lesson card",
+        "LOCATION": "sunlit studio classroom with notebooks and small tools",
+        "BACKGROUND_ELEMENTS": "lower editorial band, tiny bilingual caption, thin dividers, blue botanical stems, soft screen glow",
+        "MAIN_TEXT": "Small lessons open large doors.",
+        "SECONDARY_TEXT": "考える。書く。学ぶ。つくる。 / BUILT FOR DEEPER PRACTICE",
+        "ACCENT_SYMBOL": "small plus signs and a horizontal rule",
+        "WARDROBE_STYLE": "relaxed neutral knit, simple studio apron, minimal workwear",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Garden Health Console",
+      "variables": {
+        "SUBJECT": "community health team",
+        "SUBJECT_ACTION": "detect weak signals, explain care options, and coordinate follow-up",
+        "PRODUCT_OR_PROP": "retro diagnostic console with pale blue health-signal interface",
+        "LOCATION": "greenhouse clinic corner with warm daylight",
+        "BACKGROUND_ELEMENTS": "botanical foreground, date label, issue-style metadata, fine rules, dotted halftone block",
+        "MAIN_TEXT": "Care begins with clearer signals.",
+        "SECONDARY_TEXT": "気づく。支える。つなぐ。 / 01 + Notice early / 02 + Explain clearly",
+        "ACCENT_SYMBOL": "dotted square and small plus separator",
+        "WARDROBE_STYLE": "soft white coat over neutral clothing, calm clinical workwear",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Civic Planning Machine",
+      "variables": {
+        "SUBJECT": "public design studio",
+        "SUBJECT_ACTION": "ask better questions about streets, schools, parks, and shared resources",
+        "PRODUCT_OR_PROP": "analog city-planning computer with miniature civic model and floating planning window",
+        "LOCATION": "quiet model room with paper maps and architectural blocks",
+        "BACKGROUND_ELEMENTS": "top rule, small issue number, lower navigation list, blue flowers crossing the device edge, subtle paper grain",
+        "MAIN_TEXT": "Sharper questions build kinder cities.",
+        "SECONDARY_TEXT": "まちを考える。未来をつくる。 / 01 + Listen wider / 02 + Plan together",
+        "ACCENT_SYMBOL": "thin rule and bracketed list numbers",
+        "WARDROBE_STYLE": "neutral architect workwear, linen overshirt, clean minimal layers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "soft-analog-future-editorial-poster-style"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "style_name": "urban-transit-doodle-diary-style",
+  "style_slug": "urban-transit-doodle-diary-style",
+  "version": "1.0.0",
+  "summary": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text \"{MAIN_TEXT}\", secondary text \"{SECONDARY_TEXT}\", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, clean vector poster, fully animated scene, polished ad layout, luxury fashion shoot, empty background, sterile studio, perfect typography, corporate brochure, glossy mascot illustration",
+  "variables": {
+    "SUBJECT": "main person, group, object, or scene focus",
+    "SUBJECT_ACTION": "what the subject is doing",
+    "PRODUCT_OR_PROP": "object, product, ticket, bag, food, device, or symbolic hand prop",
+    "LOCATION": "dense public urban location such as metro, bus, market, hallway, escalator, diner, or station platform",
+    "BACKGROUND_ELEMENTS": "realistic crowd, signage, rails, doors, lights, posters, floor markings, reflections, and compressed phone-photo details",
+    "MAIN_TEXT": "large handwritten diary title or location note",
+    "SECONDARY_TEXT": "small handwritten date, route, mood note, or short repeated annotation",
+    "ACCENT_SYMBOL": "simple doodled underline, star, circle, arrow, spark, stamp, or route marker",
+    "WARDROBE_STYLE": "casual streetwear, backpacks, hoodies, caps, work jackets, sneakers, practical city clothes",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Night Bus Queue",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Convenience Store Midnight",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Market Escalator Rush",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Rainy Platform Friends",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "urban-transit-doodle-diary-style"
+  }
+}

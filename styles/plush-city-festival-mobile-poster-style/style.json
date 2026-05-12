@@ -1,0 +1,99 @@
+{
+  "style_name": "Plush City Festival Mobile Poster",
+  "style_slug": "plush-city-festival-mobile-poster-style",
+  "version": "1.0.0",
+  "summary": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Plush City Festival Mobile Poster\" style.\n\nEvent name: {EVENT_NAME}.\nCity or district: {CITY_OR_DISTRICT}.\nPrimary mascot: {PRIMARY_MASCOT}.\nSecondary mascot: {SECONDARY_MASCOT}.\nMascot action: {MASCOT_ACTION}.\nLandmarks: {LANDMARKS}.\nSky and weather: {SKY_AND_WEATHER}.\nGround plane: {GROUND_PLANE}.\nDate range: {DATE_RANGE}.\nLocation text: {LOCATION_TEXT}.\nCTA text: {CTA_TEXT}.\nTop micro text: {TOP_MICRO_TEXT}.\n\nUse a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground. Put the event name in large bold white rounded sans-serif typography across the top sky area. Place clear date and location information near the bottom of the visual card.\n\nFor vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text. Add subtle mobile UI elements such as a back arrow and three-dot menu at the top. Keep everything cheerful, readable, family-friendly, sunny, civic, and polished.\n\nAvoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.",
+  "negative_prompt": "Avoid dark atmosphere, scary characters, realistic animal fur, gritty realism, cyberpunk city, luxury branding, tiny unreadable event title, cluttered small text, abstract background, flat vector-only mascots, and dull weather.",
+  "variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action or pose",
+    "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small supporting text or microcopy",
+    "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+    "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+    "ASPECT_RATIO": "9:16 vertical mobile poster or 16:9 horizontal event banner"
+  },
+  "example_cases": [
+    {
+      "case_name": "Cherry Market Day",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Harbor Light Fest",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Library Picnic Week",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Winter Cocoa Street",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "plush-city-festival-mobile-poster-style"
+  }
+}

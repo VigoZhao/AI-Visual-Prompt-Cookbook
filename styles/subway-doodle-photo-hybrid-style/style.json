@@ -1,0 +1,99 @@
+{
+  "style_name": "Subway Doodle Photo Hybrid",
+  "style_slug": "subway-doodle-photo-hybrid-style",
+  "version": "1.0.0",
+  "summary": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Subway Doodle Photo Hybrid\" style.\n\nTransit scene: {TRANSIT_SCENE}.\nCity or line: {CITY_OR_LINE}.\nCrowd: {CROWD_DESCRIPTION}.\nMain photo subject: {MAIN_PHOTO_SUBJECT}.\nIllustrated face style: {ILLUSTRATED_FACE_STYLE}.\nForeground doodle: {FOREGROUND_DOODLE}.\nHandwritten text: \"{HANDWRITTEN_TEXT}\".\nSignage text: \"{SIGNAGE_TEXT}\".\nColor accents: {COLOR_ACCENTS}.\nPhoto tone: {PHOTO_TONE}.\n\nUse a realistic phone-shot public transportation photograph as the base layer. Frame the scene through train doors, bus doors, a station platform, or a transit window. Keep the environment documentary: gray metal, fluorescent lighting, route signs, safety strips, platform edge, crowded people, reflections, phone-camera grain, and slight social-media compression.\n\nPaint expressive cartoon doodles directly over the photo. Replace some real faces with loose hand-drawn cartoon heads, exaggerated noses, red cheeks, messy hair, crooked smiles, and thick sketchy outlines. Add a large foreground cartoon gesture entering from the lower edge or side, such as a hot-pink thumbs-up, pointing finger, peace sign, phone, or ticket. Add casual white handwritten notes near the upper-left.\n\nThe final image should feel like a real transit snapshot that someone humorously drew over, mixing documentary urban realism with playful comic chaos.\n\nAvoid clean vector illustration, fully illustrated backgrounds, luxury editorial polish, empty trains, perfect symmetry, branded mascots, overly clean typography, watermarks, usernames, QR codes, platform logos, creator IDs, and app marks.",
+  "negative_prompt": "Avoid clean vector-only illustration, polished advertising layout, empty vehicle, luxury lighting, perfect studio composition, fully fictional cartoon background, 3D mascots, sterile UI, brand logos, watermarks, usernames, platform logos, creator IDs, QR codes, app marks, realistic identifiable celebrities, and tiny unreadable doodle details.",
+  "variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action or pose",
+    "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small supporting text or microcopy",
+    "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+    "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+    "ASPECT_RATIO": "9:16 vertical social post or 16:9 horizontal editorial banner"
+  },
+  "example_cases": [
+    {
+      "case_name": "Shanghai Metro Crew",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Night Bus Friends",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Airport Train Rush",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Market Tram Stop",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "subway-doodle-photo-hybrid-style"
+  }
+}

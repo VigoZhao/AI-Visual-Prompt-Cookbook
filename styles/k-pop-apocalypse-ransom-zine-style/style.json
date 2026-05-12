@@ -1,0 +1,99 @@
+{
+  "style_name": "k-pop-apocalypse-ransom-zine-style",
+  "style_slug": "k-pop-apocalypse-ransom-zine-style",
+  "version": "1.0.0",
+  "summary": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} K-pop apocalypse ransom zine poster featuring {SUBJECT} {SUBJECT_ACTION}, styled in {WARDROBE_STYLE}, with {PRODUCT_OR_PROP}. Use a dark crumpled black paper background with {BACKGROUND_ELEMENTS}. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"{MAIN_TEXT}\" as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading \"{SECONDARY_TEXT}\". Use acid lime, electric blue, alert red, paper white, and ink black. Add {ACCENT_SYMBOL} near the portrait. Finish with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text.",
+  "negative_prompt": "minimalist design, clean corporate layout, smooth gradients, luxury editorial polish, pastel lifestyle palette, glossy 3D typography, elegant serif masthead, empty whitespace, platform watermark, username, QR code, creator ID, app logo, copied publication logo, exact source text, exact source name",
+  "variables": {
+    "SUBJECT": "main subject, performer, model, musician, dancer, stylist, or youth-culture character",
+    "SUBJECT_ACTION": "looking off-frame, posing with attitude, holding a prop, leaning into the camera, or standing in a cutout portrait pose",
+    "PRODUCT_OR_PROP": "compact camera, wired earbuds, lip gloss, denim jacket, cassette, charm bag, safety pin accessory, or styling prop",
+    "LOCATION": "studio wall, backstage corner, bedroom mirror, subway entrance, alley poster wall, roof landing, or DIY magazine set",
+    "BACKGROUND_ELEMENTS": "crumpled black paper, distressed denim texture, torn white paper edges, photocopy grain, halftone noise, tape marks, and rough scanned shadows",
+    "MAIN_TEXT": "oversized warped headline or sticker headline",
+    "SECONDARY_TEXT": "short editorial caption, mock issue line, styling note, lyric-like fragment, or repeated microcopy",
+    "ACCENT_SYMBOL": "red star, diagonal sticker block, torn label, arrow tab, barcode stripe, or paper shard",
+    "WARDROBE_STYLE": "post-apocalyptic K-pop styling, distressed denim, glossy makeup, messy hair, bright accessory accents, layered streetwear",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Subway Idol Signal",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 K-pop apocalypse ransom zine poster featuring an underground pop performer looking up and sideways with messy windblown hair, styled in a distressed denim halter, silver clips, glossy makeup, and wired earbuds, holding a compact camera. Use a dark crumpled black paper background with torn labels, photocopy grain, tape shadows, and rough scanned texture. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"STATIC POP\" as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading \"late train beauty / no soft landing / signal still loud\". Use acid lime, electric blue, alert red, paper white, and ink black. Add a red star and blue sticker tab near the portrait. Finish with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text.",
+      "prompt_16x9": "Create a horizontal 16:9 K-pop apocalypse ransom zine poster featuring an underground pop performer looking up and sideways with messy windblown hair, styled in a distressed denim halter, silver clips, glossy makeup, and wired earbuds, holding a compact camera. Use a dark crumpled black paper background with torn labels, photocopy grain, tape shadows, and rough scanned texture. Place the subject as a large center-right portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"STATIC POP\" as a tilted collage layer across the left and top, plus smaller sticker blocks and side editorial captions reading \"late train beauty / no soft landing / signal still loud\". Use acid lime, electric blue, alert red, paper white, and ink black. Add a red star and blue sticker tab near the portrait. Finish with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text."
+    },
+    {
+      "case_name": "Rooftop Bunker Stylist",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 K-pop apocalypse ransom zine poster featuring a fashion stylist leaning forward with a survival-pop pose, styled in a ripped black jacket, neon scarf, patched skirt, and glossy red lip, holding a charm bag with safety pin accessories. Use a dark crumpled black paper background with charcoal paper folds, torn white scraps, distressed fabric texture, photocopy grain, and rough scanned shadows. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"BUNKER FIT\" as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading \"utility glamour / storm proof gloss / still on point\". Use acid lime, electric blue, alert red, paper white, and ink black. Add a diagonal lime banner and barcode stripe near the portrait. Finish with a saturated bottom masthead strip, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text.",
+      "prompt_16x9": "Create a horizontal 16:9 K-pop apocalypse ransom zine poster featuring a fashion stylist leaning forward with a survival-pop pose, styled in a ripped black jacket, neon scarf, patched skirt, and glossy red lip, holding a charm bag with safety pin accessories. Use a dark crumpled black paper background with charcoal paper folds, torn white scraps, distressed fabric texture, photocopy grain, and rough scanned shadows. Place the subject as a large center-right portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"BUNKER FIT\" as a tilted collage layer across the left and top, plus smaller sticker blocks and side editorial captions reading \"utility glamour / storm proof gloss / still on point\". Use acid lime, electric blue, alert red, paper white, and ink black. Add a diagonal lime banner and barcode stripe near the portrait. Finish with a saturated bottom masthead strip, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text."
+    },
+    {
+      "case_name": "Mirror Room Vocalist",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 K-pop apocalypse ransom zine poster featuring a bedroom vocalist staring off-frame while fixing a hair clip, styled in a yellow ribbon top, denim arm warmers, chrome earrings, and glossy makeup, holding lip gloss and a cracked hand mirror. Use a dark crumpled black paper background with black wrinkled backdrop texture, tape marks, paper scraps, scan grain, and rough shadows. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"RIPPED SIGNAL\" as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading \"gloss in the blackout / voice note / tomorrow cancelled\". Use acid lime, electric blue, alert red, paper white, and ink black. Add an alert red slash label and paper shards near the portrait. Finish with a saturated bottom masthead strip, photocopy grain, halftone speckles, scan noise, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text.",
+      "prompt_16x9": "Create a horizontal 16:9 K-pop apocalypse ransom zine poster featuring a bedroom vocalist staring off-frame while fixing a hair clip, styled in a yellow ribbon top, denim arm warmers, chrome earrings, and glossy makeup, holding lip gloss and a cracked hand mirror. Use a dark crumpled black paper background with black wrinkled backdrop texture, tape marks, paper scraps, scan grain, and rough shadows. Place the subject as a large center-right portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"RIPPED SIGNAL\" as a tilted collage layer across the left and top, plus smaller sticker blocks and side editorial captions reading \"gloss in the blackout / voice note / tomorrow cancelled\". Use acid lime, electric blue, alert red, paper white, and ink black. Add an alert red slash label and paper shards near the portrait. Finish with a saturated bottom masthead strip, photocopy grain, halftone speckles, scan noise, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text."
+    },
+    {
+      "case_name": "Alley Choreography Note",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 K-pop apocalypse ransom zine poster featuring a dance captain pausing mid-rehearsal and looking past camera, styled in a cropped denim vest, orange scarf, black ribbon ties, smudged eye makeup, and fingerless gloves, holding a mini cassette recorder. Use a dark crumpled black paper background with distressed black paper, torn stickers, photocopied fabric grain, rough halftone noise, and scanned shadows. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"LAST LOOK\" as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading \"final take / ripped hem / radio weather warning\". Use acid lime, electric blue, alert red, paper white, and ink black. Add a blue out-tab and red star stamp near the portrait. Finish with a saturated bottom masthead strip, photocopy grain, halftone speckles, scan noise, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text.",
+      "prompt_16x9": "Create a horizontal 16:9 K-pop apocalypse ransom zine poster featuring a dance captain pausing mid-rehearsal and looking past camera, styled in a cropped denim vest, orange scarf, black ribbon ties, smudged eye makeup, and fingerless gloves, holding a mini cassette recorder. Use a dark crumpled black paper background with distressed black paper, torn stickers, photocopied fabric grain, rough halftone noise, and scanned shadows. Place the subject as a large center-right portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"LAST LOOK\" as a tilted collage layer across the left and top, plus smaller sticker blocks and side editorial captions reading \"final take / ripped hem / radio weather warning\". Use acid lime, electric blue, alert red, paper white, and ink black. Add a blue out-tab and red star stamp near the portrait. Finish with a saturated bottom masthead strip, photocopy grain, halftone speckles, scan noise, and DIY magazine collage energy. No watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "k-pop-apocalypse-ransom-zine-style"
+  }
+}

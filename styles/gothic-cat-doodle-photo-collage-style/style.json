@@ -1,0 +1,99 @@
+{
+  "style_name": "gothic-cat-doodle-photo-collage-style",
+  "style_slug": "gothic-cat-doodle-photo-collage-style",
+  "version": "1.0.0",
+  "summary": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Gothic Cat Doodle Photo Collage\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProp or small secondary element: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse a realistic low-angle architectural photograph as the base layer. Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky. Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights. Make the creature interact physically with the building, wrapping around arches, towers, windows, or rooflines.\n\nAdd huge cream-white bubble graffiti lettering across the top of the frame, with thick cobalt blue outline, warm yellow offset shadow, chalky glow, and imperfect hand-drawn spacing. Add small doodle circles, swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, glossy fur, full cartoon background, clean corporate layout, luxury editorial fashion, minimalist typography, tiny unreadable text, horror mood, dystopian city, low-detail architecture, abstract backdrop",
+  "variables": {
+    "SUBJECT": "oversized illustrated animal, mascot, creature, or playful character",
+    "SUBJECT_ACTION": "climbing, wrapping around, peeking over, hugging, guarding, or interacting with the architecture",
+    "PRODUCT_OR_PROP": "small human figure, tiny mascot, sign, portal, object, or campaign prop placed within the architecture",
+    "LOCATION": "real landmark, cathedral, museum, university building, old theater, city hall, station, or monumental street facade",
+    "BACKGROUND_ELEMENTS": "bare trees, sky, stone details, towers, arches, windows, ornament, street texture, and small secondary characters",
+    "MAIN_TEXT": "large rounded bubble-letter title integrated across the top of the frame",
+    "SECONDARY_TEXT": "tiny character label, small handwritten note, date, or playful location tag",
+    "ACCENT_SYMBOL": "hand-drawn dots, swooshes, sparks, motion curves, circles, or comic marks",
+    "WARDROBE_STYLE": "casual streetwear or simplified cartoon clothing for small secondary figures",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Cathedral Cat Parade",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Museum Dragon Day",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Station Fox Rush",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "",
+      "prompt_16x9": ""
+    },
+    {
+      "case_name": "Library Monster Study",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, glossy fur, full cartoon background, clean corporate layout, luxury editorial fashion, minimalist typography, tiny unreadable text, horror mood, dystopian city, low-detail architecture, abstract backdrop",
+      "prompt_16x9": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "gothic-cat-doodle-photo-collage-style"
+  }
+}

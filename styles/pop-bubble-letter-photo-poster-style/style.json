@@ -1,0 +1,99 @@
+{
+  "style_name": "Pop Bubble Letter Photo Poster Style",
+  "style_slug": "pop-bubble-letter-photo-poster-style",
+  "version": "1.0.0",
+  "summary": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in pop-bubble-letter-photo-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with or carrying {PRODUCT_OR_PROP}, in {LOCATION}. Style the subject with {WARDROBE_STYLE}. Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.\n\nLayout: center the subject on the vertical axis and surround them with {BACKGROUND_ELEMENTS}. Build the poster from oversized flat bubble-letter forms spelling or suggesting \"{MAIN_TEXT}\". Crop the letters hard against the frame edges. Layer some letter shapes behind the subject and some in the foreground over the lower frame while keeping the face and main gesture unobstructed.\n\nGraphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and {ACCENT_SYMBOL}. Keep the bubbles bold, rounded, inflated, vector-like, and pop-art.\n\nText: use \"{MAIN_TEXT}\" as the large bubble-letter graphic word. Add \"{SECONDARY_TEXT}\" only as tiny editorial caption text if needed. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, or app marks.",
+  "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface marks, copied reference person, copied outfit, copied exact text, long paragraphs, crowded small text, 3D balloon letters, chrome typography, glossy plastic render, clay mascot, muted pastel-only palette, thin-line doodles, busy street background, horror, dystopian, grunge, cyberpunk, luxury minimalist editorial",
+  "variables": {
+    "SUBJECT": "main person, model, performer, maker, athlete, student, traveler, or product ambassador",
+    "SUBJECT_ACTION": "standing still, leaning back, looking upward, closing eyes in sunlight, holding a prop, stepping forward, or posing calmly",
+    "PRODUCT_OR_PROP": "camera, headphones, drink bottle, book, bouquet, transit card, compact mirror, sunglasses, or featured product",
+    "LOCATION": "painted wall, studio set, public plaza, gallery exterior, market stall, campus courtyard, subway entrance, or clean event backdrop",
+    "BACKGROUND_ELEMENTS": "dark green negative-space panel, oversized cropped bubble letters, white sparkle marks, oval shine highlights, candy-colored abstract shapes",
+    "MAIN_TEXT": "short bubble-letter word or graphic headline such as WOW, POP, OPEN, BLOOM, WAVE, or PLAY",
+    "SECONDARY_TEXT": "tiny editorial caption, campaign note, date line, or short supporting phrase",
+    "ACCENT_SYMBOL": "four-point sparkle, oval highlight, curved underline, star separator, or small rounded sticker shape",
+    "WARDROBE_STYLE": "bold striped knit, saturated trousers, color-block streetwear, mod fashion layers, clean editorial styling, or retro pop styling",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Gallery Sun Pop",
+      "variables": {
+        "SUBJECT": "a young gallery host",
+        "SUBJECT_ACTION": "standing calmly with chin lifted toward sunlight",
+        "PRODUCT_OR_PROP": "a compact silver camera",
+        "LOCATION": "a painted outdoor gallery wall",
+        "BACKGROUND_ELEMENTS": "deep evergreen negative-space panel, huge cropped hot-pink and candy-yellow bubble letters, white sparkle marks, oval shine highlights",
+        "MAIN_TEXT": "OPEN",
+        "SECONDARY_TEXT": "gallery noon / color wall",
+        "ACCENT_SYMBOL": "white four-point sparkle separators",
+        "WARDROBE_STYLE": "red-and-cream striped mockneck, golden trousers, and clean mod styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in pop-bubble-letter-photo-poster-style. Scene: a young gallery host standing calmly with chin lifted toward sunlight, holding a compact silver camera, against a painted outdoor gallery wall. Style the subject with a red-and-cream striped mockneck, golden trousers, and clean mod styling. Use real photographic portrait detail, low-angle editorial framing, bright direct sun, crisp skin and fabric texture, and a calm confident expression. Place the subject slightly off-center but dominant, with a deep evergreen negative-space field around the face and torso. Stretch huge cropped hot-pink, candy-yellow, leaf-green, and powder-blue bubble letters spelling \"OPEN\" across the full width. Layer some letter forms behind the subject and some across the lower foreground. Add white four-point sparkle separators and cream oval shine highlights. Add tiny caption text \"gallery noon / color wall\" only if it stays clean and unobtrusive. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in pop-bubble-letter-photo-poster-style. Scene: a young gallery host standing calmly with chin lifted toward sunlight, holding a compact silver camera, against a painted outdoor gallery wall. Style the subject with a red-and-cream striped mockneck, golden trousers, and clean mod styling. Use real photographic portrait detail, low-angle editorial framing, bright direct sun, crisp skin and fabric texture, and a calm confident expression. Center the subject from waist to head, face in the upper-middle, surrounded by a deep evergreen negative-space panel, huge cropped hot-pink and candy-yellow bubble letters spelling \"OPEN\", white sparkle marks, and oval shine highlights. Layer some bubble shapes behind the subject and some over the lower foreground while keeping the face and camera unobstructed. Thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, cream-white oval highlights. Add tiny caption text \"gallery noon / color wall\" only if it stays clean and unobtrusive. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Campus Candy Club",
+      "variables": {
+        "SUBJECT": "a campus radio DJ",
+        "SUBJECT_ACTION": "leaning back with eyes closed while listening",
+        "PRODUCT_OR_PROP": "yellow headphones and a tiny recorder",
+        "LOCATION": "a sunny campus courtyard stage wall",
+        "BACKGROUND_ELEMENTS": "dark green central field, cropped orange and powder-blue bubble letters, hot-pink side shapes, oval highlights, white star separators",
+        "MAIN_TEXT": "BOP",
+        "SECONDARY_TEXT": "campus set / lunch break mix",
+        "ACCENT_SYMBOL": "cream oval highlights and small star separators",
+        "WARDROBE_STYLE": "lime cardigan, white tee, red skirt or trousers, and playful retro accessories",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in pop-bubble-letter-photo-poster-style. Scene: a campus radio DJ leaning back with eyes closed while listening, holding yellow headphones and a tiny recorder, in a sunny campus courtyard stage wall. Style the subject with a lime cardigan, white tee, red skirt or trousers, and playful retro accessories. Use a real photographic subject with low-angle editorial framing, warm direct sunlight, and saturated wardrobe detail. Place the subject near center, framed by a dark green central field and wide cropped orange, powder-blue, hot-pink, and candy-yellow bubble letters spelling \"BOP\" across the full banner. Add thick black outlines, cream oval highlights, and white star separators. Keep the face and headphones clear while foreground bubbles overlap the lower edge. Add tiny caption text \"campus set / lunch break mix\" only as clean microcopy. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in pop-bubble-letter-photo-poster-style. Scene: a campus radio DJ leaning back with eyes closed while listening, holding yellow headphones and a tiny recorder, in a sunny campus courtyard stage wall. Style the subject with a lime cardigan, white tee, red skirt or trousers, and playful retro accessories. Use a real photographic subject with low-angle editorial framing, warm direct sunlight, and saturated wardrobe detail. Center the subject on the vertical axis and surround them with a dark green central field, cropped orange and powder-blue bubble letters spelling \"BOP\", hot-pink side shapes, oval highlights, and white star separators. Use thick black outlines, smooth flat fills, candy yellow, hot pink, leaf green, tangerine orange, tomato red, and powder blue. Let large foreground bubble shapes cover only the lower frame, not the face or headphones. Add tiny caption text \"campus set / lunch break mix\" only as clean microcopy. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Market Bloom Frame",
+      "variables": {
+        "SUBJECT": "a flower market stylist",
+        "SUBJECT_ACTION": "holding a bouquet low while looking upward",
+        "PRODUCT_OR_PROP": "a wrapped bouquet and small price tag",
+        "LOCATION": "a clean pop-up flower market backdrop",
+        "BACKGROUND_ELEMENTS": "deep green negative space, huge yellow and pink bubble forms, cropped leaf-green letter shapes, white sparkle marks, cream oval highlights",
+        "MAIN_TEXT": "BLOOM",
+        "SECONDARY_TEXT": "fresh color / weekend stand",
+        "ACCENT_SYMBOL": "rounded sticker dots and sparkle separators",
+        "WARDROBE_STYLE": "blue striped shirt, tomato-red vest, cream trousers, and bright market styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in pop-bubble-letter-photo-poster-style. Scene: a flower market stylist holding a bouquet low while looking upward, with a wrapped bouquet and small price tag, at a clean pop-up flower market backdrop. Style the subject with a blue striped shirt, tomato-red vest, cream trousers, and bright market styling. Use real photographic portrait detail, low-angle editorial framing, bright sunlight, and crisp fabric and flower texture. Place the subject slightly right of center, surrounded by deep green negative space and huge cropped yellow, hot-pink, leaf-green, orange, and powder-blue bubble forms spelling \"BLOOM\" across the banner. Use thick black outlines, cream oval highlights, rounded sticker dots, and white sparkle separators. Keep the face readable and let bubble forms create a dense pop-art frame. Add tiny caption text \"fresh color / weekend stand\" only if subtle. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in pop-bubble-letter-photo-poster-style. Scene: a flower market stylist holding a bouquet low while looking upward, with a wrapped bouquet and small price tag, at a clean pop-up flower market backdrop. Style the subject with a blue striped shirt, tomato-red vest, cream trousers, and bright market styling. Use real photographic portrait detail, low-angle editorial framing, bright sunlight, and crisp fabric and flower texture. Center the subject, then surround them with deep green negative space, huge yellow and pink bubble forms spelling \"BLOOM\", cropped leaf-green letter shapes, white sparkle marks, cream oval highlights, rounded sticker dots, and thick black outlines. Let the foreground bubble letters overlap the bouquet and lower frame slightly while keeping the face and upper body readable. Add tiny caption text \"fresh color / weekend stand\" only if subtle. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Transit Wave Poster",
+      "variables": {
+        "SUBJECT": "a city commuter",
+        "SUBJECT_ACTION": "stepping forward and lifting a transit card toward the sun",
+        "PRODUCT_OR_PROP": "a bright transit card and tote bag",
+        "LOCATION": "a graphic subway entrance campaign wall",
+        "BACKGROUND_ELEMENTS": "dark green center panel, oversized powder-blue wave letters, yellow cropped corner bubbles, hot-pink side field, orange edge shapes, white sparkles",
+        "MAIN_TEXT": "WAVE",
+        "SECONDARY_TEXT": "next stop / color route",
+        "ACCENT_SYMBOL": "curved underline and four-point sparkles",
+        "WARDROBE_STYLE": "orange ribbed top, cobalt trousers, white tote, and clean urban pop styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in pop-bubble-letter-photo-poster-style. Scene: a city commuter stepping forward and lifting a transit card toward the sun, carrying a bright transit card and tote bag, in front of a graphic subway entrance campaign wall. Style the subject with an orange ribbed top, cobalt trousers, white tote, and clean urban pop styling. Use real photographic portrait detail, low-angle editorial framing, direct sunlight, and saturated fabric texture. Place the subject slightly left of center with a dark green field behind the face and torso. Stretch oversized powder-blue wave letters spelling \"WAVE\" across the lower and right frame, with yellow cropped corner bubbles, hot-pink side fields, orange edge shapes, white sparkles, cream oval highlights, and thick black outlines. Add tiny caption text \"next stop / color route\" only as clean microcopy. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in pop-bubble-letter-photo-poster-style. Scene: a city commuter stepping forward and lifting a transit card toward the sun, carrying a bright transit card and tote bag, in front of a graphic subway entrance campaign wall. Style the subject with an orange ribbed top, cobalt trousers, white tote, and clean urban pop styling. Use real photographic portrait detail, low-angle editorial framing, direct sunlight, and saturated fabric texture. Center the subject from waist to head. Build a dense frame from a dark green center panel, oversized powder-blue wave letters spelling \"WAVE\", yellow cropped corner bubbles, hot-pink side field, orange edge shapes, white sparkles, cream oval highlights, and thick black outlines. Layer some bubble forms over the lower frame while preserving the face, raised card, and tote silhouette. Add tiny caption text \"next stop / color route\" only as clean microcopy. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "pop-bubble-letter-photo-poster-style"
+  }
+}

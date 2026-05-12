@@ -1,0 +1,99 @@
+{
+  "style_name": "y2k-grunge-hiphop-cutout-poster-style",
+  "style_slug": "y2k-grunge-hiphop-cutout-poster-style",
+  "version": "1.0.0",
+  "summary": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a Y2K grunge hip-hop cutout poster featuring {SUBJECT} {SUBJECT_ACTION}, wearing {WARDROBE_STYLE}, holding or interacting with {PRODUCT_OR_PROP}. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white grunge wall background with {BACKGROUND_ELEMENTS}. Add a huge acid yellow retro serif headline reading \"{MAIN_TEXT}\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"{SECONDARY_TEXT}\", small inset photo frames, barcode-like graphic elements, and {ACCENT_SYMBOL}. The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout. Do not include watermarks, usernames, QR codes, platform logos, or app marks. Aspect ratio: {ASPECT_RATIO}.",
+  "negative_prompt": "clean minimalist design, luxury editorial style, smooth gradient background, polished corporate poster, modern sans-serif-only layout, sterile studio lighting, glossy 3D text, empty whitespace, clean vector illustration, watermark, username, QR code, platform logo, app interface marks",
+  "variables": {
+    "SUBJECT": "main subject, artist, dancer, musician, skater, model, or youth culture figure",
+    "SUBJECT_ACTION": "sitting, leaning, holding a prop, looking away, posing casually, or performing a relaxed streetwear pose",
+    "PRODUCT_OR_PROP": "cassette player, headphones, soda can, compact camera, skateboard, magazine, CD player, or portable music device",
+    "LOCATION": "street wall, underground club, bedroom studio, subway corner, record shop, rehearsal room, or back alley",
+    "BACKGROUND_ELEMENTS": "black-and-white grunge wall texture, graffiti-like marks, photocopy noise, rough concrete, scanned poster grain",
+    "MAIN_TEXT": "large acid yellow retro headline",
+    "SECONDARY_TEXT": "small editorial text, lyric fragments, event notes, mixed-language microcopy, or tracklist-style text",
+    "ACCENT_SYMBOL": "triangle arrows, diagonal blocks, barcode-like marks, small stickers, cropped inset frames",
+    "WARDROBE_STYLE": "oversized Y2K streetwear, baggy denim, graphic tee, bucket hat, cap, headphones, chunky shoes",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Subway Beatmaker",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 Y2K grunge hip-hop cutout poster featuring a young beatmaker sitting low and holding a compact cassette player, wearing an oversized white graphic tee, baggy denim, black bucket hat, and wired headphones. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white subway station wall background with rough concrete, photocopy noise, old sticker residue, and scanned poster grain. Add a huge acid yellow retro serif headline reading \"BASS LOOP\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"late train rhythm / sidewalk mix / after-hours session\", small inset photo frames, barcode-like graphic elements, yellow triangle arrows, and portable music props. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark.",
+      "prompt_16x9": "Create a horizontal 16:9 Y2K grunge hip-hop cutout poster featuring a young beatmaker sitting low and holding a compact cassette player, wearing an oversized white graphic tee, baggy denim, black bucket hat, and wired headphones. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white subway station wall background with rough concrete, photocopy noise, old sticker residue, and scanned poster grain. Add a huge acid yellow retro serif headline reading \"BASS LOOP\" across the top-left and behind the subject. Add a bright acid yellow information strip along the bottom with small editorial text reading \"late train rhythm / sidewalk mix / after-hours session\", small inset photo frames, barcode-like graphic elements, yellow triangle arrows, and portable music props. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Record Shop Dancer",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 Y2K grunge hip-hop cutout poster featuring a street dancer leaning against a record crate while looking away, wearing an oversized cyan jersey, dark cargo pants, and chunky sneakers, holding a vinyl record sleeve and headphones. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white record shop wall background with torn flyers, photocopy grain, rough halftone patches, and scanned poster texture. Add a huge acid yellow retro serif headline reading \"SIDE B\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"crate dust / spin back / floor signal\", small inset photo frames, barcode-like graphic elements, cropped stickers, and diagonal yellow blocks. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark.",
+      "prompt_16x9": "Create a horizontal 16:9 Y2K grunge hip-hop cutout poster featuring a street dancer leaning against a record crate while looking away, wearing an oversized cyan jersey, dark cargo pants, and chunky sneakers, holding a vinyl record sleeve and headphones. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white record shop wall background with torn flyers, photocopy grain, rough halftone patches, and scanned poster texture. Add a huge acid yellow retro serif headline reading \"SIDE B\" across the top-left, partially hidden behind the subject. Add a bright acid yellow information strip along the bottom with small editorial text reading \"crate dust / spin back / floor signal\", small inset photo frames, barcode-like graphic elements, cropped stickers, and diagonal yellow blocks. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Skate Alley Vocalist",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 Y2K grunge hip-hop cutout poster featuring an underground vocalist sitting on a curb with one shoe close to camera, holding a soda can and a small microphone, wearing a black cap, oversized yellow tee, and wide-leg denim. Place the subject as a large central photo cutout with an irregular white sticker-like outline and exaggerated foreground perspective. Use a dirty black-and-white painted brick alley background with graffiti remnants, heavy xerox texture, rough concrete, and scanned poster grain. Add a huge acid yellow retro serif headline reading \"NO SKIP\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"raw take / curb echo / night cut\", small inset photo frames, barcode-like graphic elements, triangle pointers, and sticker frames. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark.",
+      "prompt_16x9": "Create a horizontal 16:9 Y2K grunge hip-hop cutout poster featuring an underground vocalist sitting on a curb with one shoe close to camera, holding a soda can and a small microphone, wearing a black cap, oversized yellow tee, and wide-leg denim. Place the subject as a large central photo cutout with an irregular white sticker-like outline and exaggerated foreground perspective. Use a dirty black-and-white painted brick alley background with graffiti remnants, heavy xerox texture, rough concrete, and scanned poster grain. Add a huge acid yellow retro serif headline reading \"NO SKIP\" across the top-left, partially hidden behind the subject. Add a bright acid yellow information strip along the bottom with small editorial text reading \"raw take / curb echo / night cut\", small inset photo frames, barcode-like graphic elements, triangle pointers, and sticker frames. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Bedroom Studio DJ",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_9x16": "Create a vertical 9:16 Y2K grunge hip-hop cutout poster featuring a bedroom studio DJ sitting on the floor and plugging in headphones, wearing an oversized black hoodie, baggy jeans, and silver headphones, surrounded by a portable CD player, tangled cables, and a mini mixer. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white bedroom studio wall background with monochrome wall posters, rough scan grain, old tape labels, photocopy noise, and concrete-like texture. Add a huge acid yellow retro serif headline reading \"MIX DOWN\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"room tone / demo pass / midnight bounce\", small inset photo frames, barcode-like graphic elements, yellow arrows, and tiny contact-sheet photos. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark.",
+      "prompt_16x9": "Create a horizontal 16:9 Y2K grunge hip-hop cutout poster featuring a bedroom studio DJ sitting on the floor and plugging in headphones, wearing an oversized black hoodie, baggy jeans, and silver headphones, surrounded by a portable CD player, tangled cables, and a mini mixer. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white bedroom studio wall background with monochrome wall posters, rough scan grain, old tape labels, photocopy noise, and concrete-like texture. Add a huge acid yellow retro serif headline reading \"MIX DOWN\" across the top-left, partially hidden behind the subject. Add a bright acid yellow information strip along the bottom with small editorial text reading \"room tone / demo pass / midnight bounce\", small inset photo frames, barcode-like graphic elements, yellow arrows, and tiny contact-sheet photos. Early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, cyan and magenta print noise. No watermark, username, QR code, platform logo, or app mark."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "y2k-grunge-hiphop-cutout-poster-style"
+  }
+}

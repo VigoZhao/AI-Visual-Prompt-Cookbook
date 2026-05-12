@@ -1,0 +1,112 @@
+{
+  "style_name": "Sunburst Fisheye Bubble Type Poster Style",
+  "style_slug": "sunburst-fisheye-bubble-type-poster-style",
+  "version": "2026.05.11",
+  "status": "stable",
+  "updated_at": "2026-05-11",
+  "summary": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in sunburst-fisheye-bubble-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set, give every case a visibly different face, hair, body language, and styling details.\n\nPhotography: {LENS_STYLE}. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.\n\nLayout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts. Build the poster around a huge arched bubble headline reading \"{MAIN_TEXT}\" in lemon yellow across the top and side edges. The letters should feel inflated, hand-painted, warped by perspective, and partly cropped by the frame. Use golden orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.\n\nTexture: add {TEXTURE_LEVEL}, slight lens flare, color fringing, and analog poster compression. Add \"{SECONDARY_TEXT}\" only as tiny editorial microcopy if it stays clean and unobtrusive.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.",
+  "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, long paragraphs, crowded small text, chrome lettering, metallic text, glossy 3D balloon type, clean corporate minimal layout, muted pastel-only palette, luxury studio editorial, night scene, cyberpunk, horror, dystopian, overly smooth digital photo, no grain, flat vector-only poster",
+  "variables": {
+    "SUBJECT_IDENTITY": "specific adult character identity, including distinct hair, face, styling, and body language when generating a set",
+    "SUBJECT": "main person, traveler, skater, swimmer, musician, road-trip friend, product ambassador, or fashion model",
+    "SUBJECT_ACTION": "leaning into the fisheye lens, looking above camera, adjusting sunglasses, holding a prop, riding forward, stepping into sun, or turning in wind",
+    "PRODUCT_OR_PROP": "sunglasses, camera, drink can, skateboard, beach towel, flower pendant, cassette player, road map, surf wax, or featured product",
+    "LOCATION": "desert roadside, beach path, motel pool, coastal hill, festival field, gas station forecourt, flower meadow, or sunny parking lot",
+    "BACKGROUND_ELEMENTS": "cobalt sky, sun flare, distant van, dry hillside, palm fragments, checker pattern, pool tiles, flowers, road signs, or travel clutter",
+    "MAIN_TEXT": "short arched bubble headline such as SUNRISE, DAWN, SPLASH, GLOW, RUSH, NOON, or WAVE",
+    "SECONDARY_TEXT": "tiny editorial caption, date line, route note, issue code, or micro campaign text",
+    "ACCENT_SYMBOL": "cream shine slash, lens flare dot, tiny sunburst, checker strip, painted underline, or sparkle glint",
+    "WARDROBE_STYLE": "white tank, tinted sunglasses, hoop earrings, checker pants, surf-skate layers, nylon shorts, denim, striped knit, or Y2K summer accessories",
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "LENS_STYLE": "ultra-wide fisheye, action-camera barrel distortion, low-angle close portrait",
+    "TEXTURE_LEVEL": "heavy film grain, color bleed, halftone speckle, compressed social poster finish"
+  },
+  "example_cases": [
+    {
+      "case_name": "Desert Dawn Ride",
+      "variables": {
+        "SUBJECT_IDENTITY": "adult East Asian woman with a short copper bob haircut",
+        "SUBJECT": "a roadside fashion traveler",
+        "SUBJECT_ACTION": "leaning toward the fisheye camera and looking above the lens",
+        "PRODUCT_OR_PROP": "cobalt wraparound sunglasses and a small film camera",
+        "LOCATION": "a desert roadside pullout",
+        "BACKGROUND_ELEMENTS": "cobalt sky, distant white van, dusty hill, sun flare, and low wildflowers",
+        "MAIN_TEXT": "DAWN",
+        "SECONDARY_TEXT": "route 08 / early light",
+        "ACCENT_SYMBOL": "cream shine slash and lens flare dots",
+        "WARDROBE_STYLE": "white ribbed tank, checker trousers, hoop earrings, black cord necklace, and Y2K road-trip styling",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "LENS_STYLE": "ultra-wide fisheye, action-camera barrel distortion, low-angle close portrait",
+        "TEXTURE_LEVEL": "heavy film grain, color bleed, halftone speckle, compressed social poster finish"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-wide fisheye camera from a low position. Show adult East Asian woman with a short copper bob haircut, a roadside fashion traveler leaning toward the fisheye camera and looking above the lens, using or wearing cobalt wraparound sunglasses and a small film camera, in a desert roadside pullout. Include cobalt sky, distant white van, dusty hill, sun flare, and low wildflowers. Wardrobe: white ribbed tank, checker trousers, hoop earrings, black cord necklace, and Y2K road-trip styling. Place the subject dominant center-left or center-right with a close distorted crop, leaving a clean sky band for the headline. Stretch a huge lemon-yellow bubble headline \"DAWN\" across the sky as an arched warped banner, partly cropped at the left and right edges, with golden orange edge shading, cream shine slashes, and cream shine slash and lens flare dots. Use saturated cobalt sky, harsh direct sun, warm skin highlights, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"route 08 / early light\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-low-angle fisheye camera. Show adult East Asian woman with a short copper bob haircut, a roadside fashion traveler leaning toward the fisheye camera and looking above the lens, using or wearing cobalt wraparound sunglasses and a small film camera, in a desert roadside pullout. Include cobalt sky, distant white van, dusty hill, sun flare, and low wildflowers. Wardrobe: white ribbed tank, checker trousers, hoop earrings, black cord necklace, and Y2K road-trip styling. Put the face in the upper-middle and crop the body aggressively from a close action-camera perspective. Place a huge arched lemon-yellow bubble headline \"DAWN\" across the top and side edges, partly cropped by the frame, with golden orange shading, cream shine slashes, and cream shine slash and lens flare dots. Use saturated cobalt sky, harsh direct sun, warm skin highlights, crunchy shadows, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"route 08 / early light\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Motel Pool Splash",
+      "variables": {
+        "SUBJECT_IDENTITY": "adult Black male skater with a shaved head",
+        "SUBJECT": "a poolside skater",
+        "SUBJECT_ACTION": "crouching close to the lens while lifting a lemon soda can",
+        "PRODUCT_OR_PROP": "a yellow soda can, blue sunglasses, and a skateboard",
+        "LOCATION": "a retro motel pool deck",
+        "BACKGROUND_ELEMENTS": "hard blue sky, pool tiles, palm edge, sun umbrellas, and checker towel",
+        "MAIN_TEXT": "SPLASH",
+        "SECONDARY_TEXT": "pool hour / stay bright",
+        "ACCENT_SYMBOL": "tiny sunburst and painted underline",
+        "WARDROBE_STYLE": "cropped white tee, nylon shorts, striped socks, wristbands, tinted glasses, and summer skate styling",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "LENS_STYLE": "ultra-wide fisheye, action-camera barrel distortion, low-angle close portrait",
+        "TEXTURE_LEVEL": "heavy film grain, color bleed, halftone speckle, compressed social poster finish"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-wide fisheye camera from a low position. Show adult Black male skater with a shaved head, a poolside skater crouching close to the lens while lifting a lemon soda can, using or wearing a yellow soda can, blue sunglasses, and a skateboard, in a retro motel pool deck. Include hard blue sky, pool tiles, palm edge, sun umbrellas, and checker towel. Wardrobe: cropped white tee, nylon shorts, striped socks, wristbands, tinted glasses, and summer skate styling. Place the subject dominant center-left or center-right with a close distorted crop, leaving a clean sky band for the headline. Stretch a huge lemon-yellow bubble headline \"SPLASH\" across the sky as an arched warped banner, partly cropped at the left and right edges, with golden orange edge shading, cream shine slashes, and tiny sunburst and painted underline. Use saturated cobalt sky, harsh direct sun, warm skin highlights, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"pool hour / stay bright\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-low-angle fisheye camera. Show adult Black male skater with a shaved head, a poolside skater crouching close to the lens while lifting a lemon soda can, using or wearing a yellow soda can, blue sunglasses, and a skateboard, in a retro motel pool deck. Include hard blue sky, pool tiles, palm edge, sun umbrellas, and checker towel. Wardrobe: cropped white tee, nylon shorts, striped socks, wristbands, tinted glasses, and summer skate styling. Put the face in the upper-middle and crop the body aggressively from a close action-camera perspective. Place a huge arched lemon-yellow bubble headline \"SPLASH\" across the top and side edges, partly cropped by the frame, with golden orange shading, cream shine slashes, and tiny sunburst and painted underline. Use saturated cobalt sky, harsh direct sun, warm skin highlights, crunchy shadows, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"pool hour / stay bright\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Flower Field Glow",
+      "variables": {
+        "SUBJECT_IDENTITY": "adult South Asian indie singer with long dark curly hair",
+        "SUBJECT": "an indie singer",
+        "SUBJECT_ACTION": "turning in the wind while holding a cassette recorder",
+        "PRODUCT_OR_PROP": "a cassette recorder, flower pendant, and oval sunglasses",
+        "LOCATION": "a roadside flower field near a coastal hill",
+        "BACKGROUND_ELEMENTS": "blue sky, yellow flowers, distant parked car, hillside, and warm lens flare",
+        "MAIN_TEXT": "GLOW",
+        "SECONDARY_TEXT": "field note / golden hour",
+        "ACCENT_SYMBOL": "sparkle glint and cream letter highlights",
+        "WARDROBE_STYLE": "white sleeveless mesh top over tank, denim skirt, hoop earrings, layered necklaces, and soft Y2K festival styling",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "LENS_STYLE": "ultra-wide fisheye, action-camera barrel distortion, low-angle close portrait",
+        "TEXTURE_LEVEL": "heavy film grain, color bleed, halftone speckle, compressed social poster finish"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-wide fisheye camera from a low position. Show adult South Asian indie singer with long dark curly hair, an indie singer turning in the wind while holding a cassette recorder, using or wearing a cassette recorder, flower pendant, and oval sunglasses, in a roadside flower field near a coastal hill. Include blue sky, yellow flowers, distant parked car, hillside, and warm lens flare. Wardrobe: white sleeveless mesh top over tank, denim skirt, hoop earrings, layered necklaces, and soft Y2K festival styling. Place the subject dominant center-left or center-right with a close distorted crop, leaving a clean sky band for the headline. Stretch a huge lemon-yellow bubble headline \"GLOW\" across the sky as an arched warped banner, partly cropped at the left and right edges, with golden orange edge shading, cream shine slashes, and sparkle glint and cream letter highlights. Use saturated cobalt sky, harsh direct sun, warm skin highlights, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"field note / golden hour\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-low-angle fisheye camera. Show adult South Asian indie singer with long dark curly hair, an indie singer turning in the wind while holding a cassette recorder, using or wearing a cassette recorder, flower pendant, and oval sunglasses, in a roadside flower field near a coastal hill. Include blue sky, yellow flowers, distant parked car, hillside, and warm lens flare. Wardrobe: white sleeveless mesh top over tank, denim skirt, hoop earrings, layered necklaces, and soft Y2K festival styling. Put the face in the upper-middle and crop the body aggressively from a close action-camera perspective. Place a huge arched lemon-yellow bubble headline \"GLOW\" across the top and side edges, partly cropped by the frame, with golden orange shading, cream shine slashes, and sparkle glint and cream letter highlights. Use saturated cobalt sky, harsh direct sun, warm skin highlights, crunchy shadows, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"field note / golden hour\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    },
+    {
+      "case_name": "Coastal Rush Poster",
+      "variables": {
+        "SUBJECT_IDENTITY": "adult Latina coastal skateboarder with long black hair blown sideways",
+        "SUBJECT": "a coastal skateboarder",
+        "SUBJECT_ACTION": "stepping forward with board under one arm and hair blown sideways",
+        "PRODUCT_OR_PROP": "a skateboard, tinted sports sunglasses, and route map",
+        "LOCATION": "a cliffside road above the ocean",
+        "BACKGROUND_ELEMENTS": "cobalt sky, road barrier, ocean strip, dry grass, and parked van",
+        "MAIN_TEXT": "RUSH",
+        "SECONDARY_TEXT": "coast run / noon signal",
+        "ACCENT_SYMBOL": "checker strip and lens flare dot",
+        "WARDROBE_STYLE": "white tank, red wind shorts, checkered belt, blue sunglasses, and surf-skate accessories",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "LENS_STYLE": "ultra-wide fisheye, action-camera barrel distortion, low-angle close portrait",
+        "TEXTURE_LEVEL": "heavy film grain, color bleed, halftone speckle, compressed social poster finish"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-wide fisheye camera from a low position. Show adult Latina coastal skateboarder with long black hair blown sideways, a coastal skateboarder stepping forward with board under one arm and hair blown sideways, using or wearing a skateboard, tinted sports sunglasses, and route map, in a cliffside road above the ocean. Include cobalt sky, road barrier, ocean strip, dry grass, and parked van. Wardrobe: white tank, red wind shorts, checkered belt, blue sunglasses, and surf-skate accessories. Place the subject dominant center-left or center-right with a close distorted crop, leaving a clean sky band for the headline. Stretch a huge lemon-yellow bubble headline \"RUSH\" across the sky as an arched warped banner, partly cropped at the left and right edges, with golden orange edge shading, cream shine slashes, and checker strip and lens flare dot. Use saturated cobalt sky, harsh direct sun, warm skin highlights, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"coast run / noon signal\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in sunburst-fisheye-bubble-type-poster-style. Use an ultra-low-angle fisheye camera. Show adult Latina coastal skateboarder with long black hair blown sideways, a coastal skateboarder stepping forward with board under one arm and hair blown sideways, using or wearing a skateboard, tinted sports sunglasses, and route map, in a cliffside road above the ocean. Include cobalt sky, road barrier, ocean strip, dry grass, and parked van. Wardrobe: white tank, red wind shorts, checkered belt, blue sunglasses, and surf-skate accessories. Put the face in the upper-middle and crop the body aggressively from a close action-camera perspective. Place a huge arched lemon-yellow bubble headline \"RUSH\" across the top and side edges, partly cropped by the frame, with golden orange shading, cream shine slashes, and checker strip and lens flare dot. Use saturated cobalt sky, harsh direct sun, warm skin highlights, crunchy shadows, lens flare, color fringing, and heavy film grain, color bleed, halftone speckle, compressed social poster finish. Add \"coast run / noon signal\" only as tiny editorial microcopy. Make this subject visibly distinct from the other example cases. No watermark, username, creator ID, QR code, platform logo, or app mark."
+    }
+  ],
+  "license": "CC BY 4.0"
+}

@@ -1,0 +1,99 @@
+{
+  "style_name": "Tokyo Kawaii Travel Collage Poster",
+  "style_slug": "tokyo-kawaii-travel-collage-poster-style",
+  "version": "1.0.0",
+  "summary": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} poster in the \"Tokyo Kawaii Travel Collage Poster\" style.\n\nMain subject: {SUBJECT}.\nAction or pose: {SUBJECT_ACTION}.\nDestination: {DESTINATION}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nSpeech bubble text: \"{SPEECH_BUBBLE_TEXT}\".\nFood stickers: {FOOD_STICKERS}.\nTravel stickers: {TRAVEL_STICKERS}.\nCity background: {CITY_BACKGROUND}.\nBotanical elements: {BOTANICAL_ELEMENTS}.\n\nUse a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.\n\nLayer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.\n\nAdd a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area. The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.\n\nAvoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.",
+  "negative_prompt": "Avoid minimal layout, plain background, luxury travel advertisement, clean corporate grid, single typeface, low sticker density, empty negative space, realistic seamless photo composite, muted palette, sterile digital polish, and unreadable main headline.",
+  "variables": {
+    "SUBJECT": "main cutout person, character, model, traveler, idol, or fashion figure",
+    "SUBJECT_ACTION": "gesture or pose toward the viewer",
+    "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+    "MAIN_TEXT": "large destination headline",
+    "SECONDARY_TEXT": "small slogan, greeting, or travel phrase",
+    "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+    "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+    "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal banner"
+  },
+  "example_cases": [
+    {
+      "case_name": "Seoul Street Food",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Taipei Night Market",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Osaka Arcade Date",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Bangkok Flower Trip",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "tokyo-kawaii-travel-collage-poster-style"
+  }
+}

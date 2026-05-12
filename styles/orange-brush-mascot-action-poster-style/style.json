@@ -1,0 +1,99 @@
+{
+  "style_name": "orange-brush-mascot-action-poster-style",
+  "style_slug": "orange-brush-mascot-action-poster-style",
+  "version": "1.0.0",
+  "summary": "A sparse orange-white-black flat illustration system with a white mascot figure, oversized prop, rough black dry-brush linework, orange cheek circles, and screen-printed paper grain.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Use case: illustration-story\nAsset type: style growth sample / poster illustration\nPrimary request: Create a {ASPECT_RATIO} image in the \"Orange Brush Mascot Action Poster\" style using Image 2 as style reference only.\n\nInput images: Image 2: style reference for orange-white-black flat mascot illustration, rough dry-brush lines, oversized prop composition, screen-print grain.\nScene/backdrop: {LOCATION}.\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nStyle/medium: minimal flat editorial illustration, rough black dry-brush ink, screen-printed paper texture, white mascot shapes on saturated orange.\nComposition/framing: {ASPECT_RATIO}, tightly cropped poster frame, one giant prop overlapping the character, sparse negative space.\nLighting/mood: no realistic lighting, flat graphic contrast, playful and mischievous mood.\nColor palette: saturated orange, paper white, carbon black, orange cheek circles only.\nText (verbatim): {MAIN_TEXT}; keep text absent if value is \"none\".\nSecondary text: {SECONDARY_TEXT}; keep absent if value is \"none\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\nConstraints: preserve the reference style but create a new case; do not copy the exact original scene; no logos; no watermark.\nAvoid: watermark, username, creator ID, platform logo, QR code, app UI, polished vector art, gradients, 3D, photorealism, realistic human anatomy, complex scenery, many colors, anime, corporate mascot, sticker-pack polish.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, brand logo, polished vector icon, perfect clean line, gradients, 3D render, photorealism, realistic human face, glossy plastic mascot, plush toy, complex environment, dense props, many colors, neon palette, anime, manga screentone, corporate mascot, sticker sheet, decorative frame, readable UI text",
+  "variables": {
+    "SUBJECT": "main flat white mascot, face, hand, or simplified character",
+    "SUBJECT_ACTION": "spinning, peeking, pulling, bracing, catching, blowing, balancing, pointing, or reacting",
+    "PRODUCT_OR_PROP": "oversized basketball, camera, noodle bowl, kite, fan, record, umbrella, clock, flower, or other simple graphic prop",
+    "LOCATION": "empty orange poster field or ultra-minimal graphic stage",
+    "BACKGROUND_ELEMENTS": "paper grain, black motion ticks, white cutout burst, wind curl, sparse speed lines, or nothing",
+    "MAIN_TEXT": "usually none; optional one short black hand-brushed word only when needed",
+    "SECONDARY_TEXT": "usually none; optional tiny loose black side note",
+    "ACCENT_SYMBOL": "orange cheek circles, black dry-brush motion marks, rough circles, jagged white burst, or curved ear marks",
+    "WARDROBE_STYLE": "white block face and hands, black rectangle shorts or body, no realistic clothing, no detailed wardrobe",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Hoop Orbit",
+      "variables": {
+        "SUBJECT": "a white flat mascot figure with orange cheek circles",
+        "SUBJECT_ACTION": "spinning a giant orange basketball on two fingers while squinting",
+        "PRODUCT_OR_PROP": "oversized basketball drawn as a rough black dry-brush circle with loose panel lines",
+        "LOCATION": "empty orange poster field",
+        "BACKGROUND_ELEMENTS": "a few black motion ticks and sparse print speckles",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "black circular speed strokes and tiny orange cheek dots",
+        "WARDROBE_STYLE": "white cartoon hand shapes, white round face, black rectangle shorts, no realistic clothing",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Hoop Orbit. Subject: a white flat mascot figure with orange cheek circles. Action: spinning a giant orange basketball on two fingers while squinting. Prop: oversized basketball drawn as a rough black dry-brush circle with loose panel lines. Scene: empty orange poster field. Background marks: a few black motion ticks and sparse print speckles. Accent: black circular speed strokes and tiny orange cheek dots. Character styling: white cartoon hand shapes, white round face, black rectangle shorts, no realistic clothing. Text: none; do not include readable text. Spread the oversized ball on the left and the mascot on the right with both cropped by the wide frame. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text.",
+      "prompt_9x16": "Create a vertical 9:16 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Hoop Orbit. Subject: a white flat mascot figure with orange cheek circles. Action: spinning a giant orange basketball on two fingers while squinting. Prop: oversized basketball drawn as a rough black dry-brush circle with loose panel lines. Scene: empty orange poster field. Background marks: a few black motion ticks and sparse print speckles. Accent: black circular speed strokes and tiny orange cheek dots. Character styling: white cartoon hand shapes, white round face, black rectangle shorts, no realistic clothing. Text: none; do not include readable text. Stack the oversized ball and character vertically, with the ball dominating the upper half and the mascot partly cropped at the bottom. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text."
+    },
+    {
+      "case_name": "Camera Pop",
+      "variables": {
+        "SUBJECT": "a white flat mascot face peeking from behind a huge camera",
+        "SUBJECT_ACTION": "pressing the shutter while one eye disappears behind the lens",
+        "PRODUCT_OR_PROP": "oversized black brush camera with a large circular lens and orange flash shape",
+        "LOCATION": "empty orange poster field",
+        "BACKGROUND_ELEMENTS": "one white flash cutout shape and rough black click marks",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "jagged white flash burst and dry-brush click ticks",
+        "WARDROBE_STYLE": "white face, white fingers, black eyebrow marks, simple black lower block",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Camera Pop. Subject: a white flat mascot face peeking from behind a huge camera. Action: pressing the shutter while one eye disappears behind the lens. Prop: oversized black brush camera with a large circular lens and orange flash shape. Scene: empty orange poster field. Background marks: one white flash cutout shape and rough black click marks. Accent: jagged white flash burst and dry-brush click ticks. Character styling: white face, white fingers, black eyebrow marks, simple black lower block. Text: none; do not include readable text. Place the huge lens on one side and the white face peeking from the opposite side, both tightly cropped. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text.",
+      "prompt_9x16": "Create a vertical 9:16 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Camera Pop. Subject: a white flat mascot face peeking from behind a huge camera. Action: pressing the shutter while one eye disappears behind the lens. Prop: oversized black brush camera with a large circular lens and orange flash shape. Scene: empty orange poster field. Background marks: one white flash cutout shape and rough black click marks. Accent: jagged white flash burst and dry-brush click ticks. Character styling: white face, white fingers, black eyebrow marks, simple black lower block. Text: none; do not include readable text. Stack the camera and face vertically, crop the lens tightly, and keep the orange field sparse. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text."
+    },
+    {
+      "case_name": "Noodle Cyclone",
+      "variables": {
+        "SUBJECT": "a white flat mascot figure leaning over a giant bowl",
+        "SUBJECT_ACTION": "pulling one long noodle loop that becomes a swirling black line",
+        "PRODUCT_OR_PROP": "oversized orange noodle bowl with black scratchy rim and white steam shape",
+        "LOCATION": "empty orange poster field",
+        "BACKGROUND_ELEMENTS": "black steam curls, white negative-space steam, sparse paper grain",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "black noodle spiral and small orange cheek circles",
+        "WARDROBE_STYLE": "white rounded head, white hands, black closed eyes, black rectangle body",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Noodle Cyclone. Subject: a white flat mascot figure leaning over a giant bowl. Action: pulling one long noodle loop that becomes a swirling black line. Prop: oversized orange noodle bowl with black scratchy rim and white steam shape. Scene: empty orange poster field. Background marks: black steam curls, white negative-space steam, sparse paper grain. Accent: black noodle spiral and small orange cheek circles. Character styling: white rounded head, white hands, black closed eyes, black rectangle body. Text: none; do not include readable text. Stretch the bowl and noodle spiral across the wide frame, with the mascot leaning in from one side. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text.",
+      "prompt_9x16": "Create a vertical 9:16 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Noodle Cyclone. Subject: a white flat mascot figure leaning over a giant bowl. Action: pulling one long noodle loop that becomes a swirling black line. Prop: oversized orange noodle bowl with black scratchy rim and white steam shape. Scene: empty orange poster field. Background marks: black steam curls, white negative-space steam, sparse paper grain. Accent: black noodle spiral and small orange cheek circles. Character styling: white rounded head, white hands, black closed eyes, black rectangle body. Text: none; do not include readable text. Let the noodle spiral rise through the vertical crop and overlap the mascot face. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text."
+    },
+    {
+      "case_name": "Kite Signal",
+      "variables": {
+        "SUBJECT": "a white flat mascot figure bracing against a pulled string",
+        "SUBJECT_ACTION": "tugging a huge kite string with both hands, cheeks puffed",
+        "PRODUCT_OR_PROP": "oversized white kite cutout with black brush frame lines",
+        "LOCATION": "empty orange poster field",
+        "BACKGROUND_ELEMENTS": "black wind curls, orange field, rough paper speckles",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "curled black wind marks and jagged white kite edge",
+        "WARDROBE_STYLE": "white round head, white hands, black eyebrow slits, black shorts block",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Kite Signal. Subject: a white flat mascot figure bracing against a pulled string. Action: tugging a huge kite string with both hands, cheeks puffed. Prop: oversized white kite cutout with black brush frame lines. Scene: empty orange poster field. Background marks: black wind curls, orange field, rough paper speckles. Accent: curled black wind marks and jagged white kite edge. Character styling: white round head, white hands, black eyebrow slits, black shorts block. Text: none; do not include readable text. Put the kite cropped on the left and the mascot pulling from the right, connected by a tense diagonal black line. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text.",
+      "prompt_9x16": "Create a vertical 9:16 Orange Brush Mascot Action Poster image. Use Image 2 as style reference only: saturated orange full-bleed background, white flat mascot face and hands, rough black dry-brush linework, orange cheek circles, oversized graphic prop, sparse screen-print poster composition. Case: Kite Signal. Subject: a white flat mascot figure bracing against a pulled string. Action: tugging a huge kite string with both hands, cheeks puffed. Prop: oversized white kite cutout with black brush frame lines. Scene: empty orange poster field. Background marks: black wind curls, orange field, rough paper speckles. Accent: curled black wind marks and jagged white kite edge. Character styling: white round head, white hands, black eyebrow slits, black shorts block. Text: none; do not include readable text. Place the kite high in the vertical crop and the mascot low, with the string cutting diagonally through the orange space. Keep the palette strictly orange, white, and black. Avoid logos, watermark, usernames, creator IDs, QR codes, app UI, gradients, 3D, photorealism, polished vector lines, complex environment, extra colors, and dense text."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "orange-brush-mascot-action-poster-style"
+  }
+}

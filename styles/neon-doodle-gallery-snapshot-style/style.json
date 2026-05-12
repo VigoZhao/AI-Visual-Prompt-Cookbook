@@ -1,0 +1,99 @@
+{
+  "style_name": "Neon Doodle Gallery Snapshot",
+  "style_slug": "neon-doodle-gallery-snapshot-style",
+  "version": "1.0.0",
+  "summary": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Neon Doodle Gallery Snapshot\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProp or product: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain handwritten text: \"{MAIN_TEXT}\".\nSecondary handwritten text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe style: {WARDROBE_STYLE}.\n\nUse a realistic candid phone-photo as the base layer. The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.\n\nDraw a loud digital marker layer directly on top of the photo. Wrap the main subject with a thick hot-pink contour and a cyan offset glow. Add yellow-orange monster spikes, horns, rays, fins, or sunburst shapes around the silhouette. Scatter rough hand-drawn symbols around the frame: stars, paw prints, spiderweb corners, halos, abstract eyes, plants, flowers, scribble underlines, tally marks, arrows, hearts, and sticker-like blobs.\n\nPlace rough uppercase handwritten marker text in open areas, using white, yellow, or lime green. The text should feel funny, personal, distracted, and student-made. Preserve the contrast between a real candid photo and chaotic handmade doodles.\n\nAvoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, luxury editorial styling, perfect typography, empty sterile locations, identifiable celebrities, and tiny unreadable text.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, app mark, QR code, clean vector poster, fully illustrated scene, polished advertising layout, luxury editorial shoot, sterile studio, perfect typography, perfect sticker sheet, subtle doodles, empty background, corporate mascot, identifiable celebrity, real public figure, tiny unreadable text",
+  "variables": {
+    "SUBJECT": "main person, group, student, artist, friend, commuter, shopper, or quiet candid figure",
+    "SUBJECT_ACTION": "looking at art, studying, walking, waiting, browsing, reacting, hiding, laughing, or holding a prop",
+    "PRODUCT_OR_PROP": "notebook, tote bag, coffee, phone, headphones, sketchbook, jacket, snack, poster, camera, book, or exhibition card",
+    "LOCATION": "art gallery, campus hallway, library, studio critique room, classroom, night market, cafe, bookstore, museum, or city wall",
+    "BACKGROUND_ELEMENTS": "real photo details such as wall art, labels, shelves, posters, tables, lamps, signage, crowds, fabric, shadows, and phone-camera grain",
+    "MAIN_TEXT": "large hand-drawn caption or emotional headline",
+    "SECONDARY_TEXT": "small handwritten notes, repeated words, short joke, date-like label, or study annotation",
+    "ACCENT_SYMBOL": "star, paw print, spiderweb, halo, abstract eye, plant, flower, underline, arrow, tally mark, or scribble",
+    "WARDROBE_STYLE": "casual student streetwear, oversized shirt, hoodie, tote bag, loose trousers, jacket, headphones, sneakers, or art-school layers",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Gallery Deadline Monster",
+      "variables": {
+        "SUBJECT": "a tired art student seen from behind",
+        "SUBJECT_ACTION": "staring at exhibition panels during a campus gallery opening",
+        "PRODUCT_OR_PROP": "a white tote bag and folded exhibition card",
+        "LOCATION": "small campus art gallery",
+        "BACKGROUND_ELEMENTS": "black display panels, colorful student artworks, tiny wall labels, warm indoor shadows, crowded opening-night edges, and phone-camera grain",
+        "MAIN_TEXT": "DEADLINE MODE",
+        "SECONDARY_TEXT": "look normal / almost done",
+        "ACCENT_SYMBOL": "yellow monster spikes, white stars, paw prints, and cyan underlines",
+        "WARDROBE_STYLE": "oversized dark shirt, loose trousers, tote bag, casual art-school layers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Neon Doodle Gallery Snapshot style. Use a horizontal candid phone photo of a tired art student seen from behind in a small campus art gallery, staring at black display panels with colorful student artworks and tiny wall labels. Add a white tote bag, warm indoor shadows, and real phone-camera grain. Draw a loud neon marker layer: thick hot-pink body contour, cyan offset glow, yellow monster spikes, white stars, paw prints, cyan underlines, and rough handwritten marker text reading \"DEADLINE MODE\" with \"look normal / almost done\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Neon Doodle Gallery Snapshot style. Subject: a tired art student seen from behind, staring at exhibition panels during a campus gallery opening. Prop: a white tote bag and folded exhibition card. Location: small campus art gallery with black display panels, colorful student artworks, tiny wall labels, warm indoor shadows, crowded opening-night edges, and phone-camera grain. Add a thick hot-pink contour around the student with a cyan offset glow, yellow monster spikes radiating from the silhouette, white stars, paw prints, cyan underlines, scribbles, and rough handwritten marker text reading \"DEADLINE MODE\" with \"look normal / almost done\" as a smaller note. Keep the base image realistic and candid. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    },
+    {
+      "case_name": "Library Study Aura",
+      "variables": {
+        "SUBJECT": "a student wearing headphones at a library desk",
+        "SUBJECT_ACTION": "leaning over notes and trying to focus",
+        "PRODUCT_OR_PROP": "open notebook, iced coffee, laptop stickers, and highlighter",
+        "LOCATION": "university library study floor",
+        "BACKGROUND_ELEMENTS": "bookshelves, desk lamps, paper stacks, quiet students in the background, warm fluorescent light, shadows, and phone snapshot texture",
+        "MAIN_TEXT": "FOCUS PLEASE",
+        "SECONDARY_TEXT": "chapter 7 / no thoughts",
+        "ACCENT_SYMBOL": "halo, abstract eye, little plants, yellow stars, and orange scribble bars",
+        "WARDROBE_STYLE": "hoodie, headphones, loose shirt, tired campus styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Neon Doodle Gallery Snapshot style. Use a horizontal candid phone photo of a student wearing headphones at a university library desk, leaning over notes beside an open notebook, iced coffee, laptop stickers, and highlighter. Keep bookshelves, desk lamps, paper stacks, quiet background students, warm fluorescent light, and phone snapshot grain visible. Add a hot-pink contour, cyan offset glow, yellow aura spikes, halo, abstract eye, little plants, stars, orange scribble bars, and rough handwritten marker text reading \"FOCUS PLEASE\" with \"chapter 7 / no thoughts\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Neon Doodle Gallery Snapshot style. Subject: a student wearing headphones at a university library desk, leaning over notes and trying to focus. Props: open notebook, iced coffee, laptop stickers, and highlighter. Background elements: bookshelves, desk lamps, paper stacks, quiet students in the background, warm fluorescent light, shadows, and phone snapshot texture. Add a thick hot-pink contour around the student with cyan offset glow, yellow aura spikes, a doodled halo, abstract eye, little plants, yellow stars, orange scribble bars, and rough handwritten marker text reading \"FOCUS PLEASE\" with \"chapter 7 / no thoughts\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    },
+    {
+      "case_name": "Night Market Crush Notes",
+      "variables": {
+        "SUBJECT": "two friends walking through a night market",
+        "SUBJECT_ACTION": "sharing snacks and laughing under bright stall lights",
+        "PRODUCT_OR_PROP": "paper snack tray, soda cup, and phone",
+        "LOCATION": "busy night market walkway",
+        "BACKGROUND_ELEMENTS": "food stalls, plastic signs, glowing bulbs, steam, passing shoppers, wet pavement reflections, and phone-camera blur",
+        "MAIN_TEXT": "WHAT LOVE",
+        "SECONDARY_TEXT": "too loud / too cute",
+        "ACCENT_SYMBOL": "lime halo, yellow stars, pink hearts, spiderweb corner, and messy underlines",
+        "WARDROBE_STYLE": "casual streetwear, tote bags, loose pants, sneakers, light jackets",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Neon Doodle Gallery Snapshot style. Use a horizontal candid phone snapshot of two friends walking through a busy night market, sharing a paper snack tray and soda cup while laughing under bright food stall lights. Preserve plastic signs, glowing bulbs, steam, passing shoppers, wet pavement reflections, and phone-camera blur. Add hot-pink outlines, cyan offset glow, yellow spikes and rays, a lime halo, yellow stars, pink hearts, a spiderweb corner, messy underlines, and rough handwritten marker text reading \"WHAT LOVE\" with \"too loud / too cute\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Neon Doodle Gallery Snapshot style. Subject: two friends walking through a busy night market, sharing snacks and laughing under bright stall lights. Props: paper snack tray, soda cup, and phone. Background elements: food stalls, plastic signs, glowing bulbs, steam, passing shoppers, wet pavement reflections, and phone-camera blur. Add hot-pink outlines around the friends with cyan offset glow, yellow spikes and rays, a lime halo, yellow stars, pink hearts, a spiderweb corner, messy underlines, and rough handwritten marker text reading \"WHAT LOVE\" with \"too loud / too cute\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    },
+    {
+      "case_name": "Studio Critique Sparks",
+      "variables": {
+        "SUBJECT": "three design students around a wall of pinned sketches",
+        "SUBJECT_ACTION": "pointing at a poster during critique",
+        "PRODUCT_OR_PROP": "marker, masking tape, sketchbook, and pinned concept boards",
+        "LOCATION": "messy design studio critique wall",
+        "BACKGROUND_ELEMENTS": "foam boards, rough sketches, sticky notes, taped prints, stools, cables, fluorescent ceiling lights, and candid room clutter",
+        "MAIN_TEXT": "BIG IDEA?",
+        "SECONDARY_TEXT": "fix it later / maybe",
+        "ACCENT_SYMBOL": "yellow sparks, tally marks, abstract eye, paw prints, and cyan arrows",
+        "WARDROBE_STYLE": "art-school layers, hoodies, caps, loose trousers, sneakers, paint marks",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Neon Doodle Gallery Snapshot style. Use a horizontal candid phone photo of three design students around a messy studio critique wall, pointing at a poster among foam boards, rough sketches, sticky notes, taped prints, stools, cables, fluorescent lights, and room clutter. Add marker and masking tape props. Draw a hot-pink contour around the main student with cyan offset glow, yellow sparks and spikes, tally marks, abstract eye, paw prints, cyan arrows, scribble bars, and rough handwritten marker text reading \"BIG IDEA?\" with \"fix it later / maybe\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Neon Doodle Gallery Snapshot style. Subject: three design students around a messy critique wall, pointing at a poster during critique. Props: marker, masking tape, sketchbook, and pinned concept boards. Background elements: foam boards, rough sketches, sticky notes, taped prints, stools, cables, fluorescent ceiling lights, and candid room clutter. Add a thick hot-pink contour around the main student with cyan offset glow, yellow sparks and spikes, tally marks, abstract eye, paw prints, cyan arrows, scribble bars, and rough handwritten marker text reading \"BIG IDEA?\" with \"fix it later / maybe\" as a smaller note. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "neon-doodle-gallery-snapshot-style"
+  }
+}

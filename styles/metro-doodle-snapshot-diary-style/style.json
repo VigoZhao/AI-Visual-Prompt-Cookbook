@@ -1,0 +1,99 @@
+{
+  "style_name": "Metro Doodle Snapshot Diary",
+  "style_slug": "metro-doodle-snapshot-diary-style",
+  "version": "1.0.0",
+  "summary": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Metro Doodle Snapshot Diary\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nForeground prop or product: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain handwritten text: \"{MAIN_TEXT}\".\nSecondary handwritten text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe style: {WARDROBE_STYLE}.\n\nUse a realistic candid phone-photo as the base layer. The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections, crowd density, practical clothing, and imperfect handheld framing.\n\nDraw playful comic-marker doodles directly on top of the photo. Add saturated cartoon face overlays to selected people, thick black sketch outlines, red cheeks, exaggerated noses, messy hair, small sparks, arrows, underlines, and rough marker fill. Add one oversized illustrated foreground hand, ticket, transit card, phone, bag, food item, or gesture that overlaps the lower frame.\n\nPlace loose white handwritten diary text in natural negative space, usually near the upper-left. Keep the text personal, uneven, and marker-like. The final image should feel like a real city snapshot that someone humorously annotated afterward.\n\nAvoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, empty transit scenes, luxury lighting, perfect symmetry, branded mascots, identifiable celebrities, and tiny unreadable text.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, app mark, QR code, clean vector poster, fully illustrated background, polished advertising layout, luxury fashion shoot, empty train, sterile studio, perfect symmetry, glossy mascot illustration, identifiable celebrity, real public figure, tiny unreadable text",
+  "variables": {
+    "SUBJECT": "main person, group, object, or scene focus",
+    "SUBJECT_ACTION": "what the subject is doing",
+    "PRODUCT_OR_PROP": "object, ticket, transit card, phone, bag, food, or symbolic foreground doodle prop",
+    "LOCATION": "dense public urban transit or city location such as metro, bus, tram, platform, station gate, market, convenience store, or escalator",
+    "BACKGROUND_ELEMENTS": "realistic crowd, signage, rails, doors, lights, posters, floor markings, reflections, grime, compression, and phone-photo details",
+    "MAIN_TEXT": "main handwritten diary title",
+    "SECONDARY_TEXT": "small handwritten date, route, mood note, or supporting annotation",
+    "ACCENT_SYMBOL": "separator or decorative symbol such as underline, arrow, sparkle, circle, or route mark",
+    "WARDROBE_STYLE": "casual streetwear, backpacks, hoodies, caps, work jackets, sneakers, practical city clothes",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Shanghai Metro Crew",
+      "variables": {
+        "SUBJECT": "a packed group of young commuters and friends",
+        "SUBJECT_ACTION": "standing shoulder to shoulder inside a subway train doorway",
+        "PRODUCT_OR_PROP": "a giant hot-pink illustrated thumbs-up hand entering from the lower-left",
+        "LOCATION": "crowded Shanghai metro platform and train doorway",
+        "BACKGROUND_ELEMENTS": "Line 9-style station signage, metal train doors, fluorescent car lighting, handrails, platform gap warning strip, crowd, reflections, and phone-camera grain",
+        "MAIN_TEXT": "Shanghai Line 9",
+        "SECONDARY_TEXT": "day 11",
+        "ACCENT_SYMBOL": "underlines, route circle, and small spark marks",
+        "WARDROBE_STYLE": "casual streetwear, hoodies, backpacks, jackets, caps, tote bags, sneakers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Metro Doodle Snapshot Diary style. Use a horizontal crowded subway doorway composition with young commuters and friends centered inside the train. Add a giant hot-pink illustrated thumbs-up hand from the left foreground, colorful cartoon face overlays, thick black sketch outlines, red cheeks, messy hair, and white handwritten marker text reading \"Shanghai Line 9\" with \"day 11\" as a smaller note. Preserve realistic metro signage, metal doors, fluorescent lighting, platform gap warning strip, crowd density, reflections, and phone-camera grain. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Metro Doodle Snapshot Diary style. Subject: a packed group of young commuters and friends standing shoulder to shoulder inside a subway train doorway. Foreground prop: a giant hot-pink illustrated thumbs-up hand entering from the lower-left. Location: crowded Shanghai metro platform and train doorway. Include Line 9-style station signage, metal train doors, fluorescent car lighting, handrails, platform gap warning strip, crowd, reflections, and phone-camera grain. Add colorful cartoon face overlays, thick black sketch outlines, red cheeks, messy hair, white handwritten marker text reading \"Shanghai Line 9\" with \"day 11\" as a smaller note, underlines, a route circle, and small spark marks. Keep the image realistic and handheld. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    },
+    {
+      "case_name": "Night Bus Friends",
+      "variables": {
+        "SUBJECT": "friends and late-night commuters",
+        "SUBJECT_ACTION": "squeezing through a city bus door after work",
+        "PRODUCT_OR_PROP": "a large red cartoon peace-sign hand holding a small bus ticket",
+        "LOCATION": "late-night city bus entrance",
+        "BACKGROUND_ELEMENTS": "yellow grab poles, bus door frame, route sign, rain-specked windows, dim interior lights, reflective pavement, and phone-camera noise",
+        "MAIN_TEXT": "Night Bus",
+        "SECONDARY_TEXT": "last ride / still awake",
+        "ACCENT_SYMBOL": "circled route number, underlines, and sleepy spark marks",
+        "WARDROBE_STYLE": "hoodies, caps, canvas bags, office jackets, sneakers, practical city layers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Metro Doodle Snapshot Diary style. Use a horizontal late-night bus doorway scene with friends and commuters crowded around yellow grab poles and rain-specked windows. Add a large red cartoon peace-sign hand holding a small bus ticket from the left foreground, sleepy cartoon face overlays, thick black sketch outlines, neon hair colors, and white handwritten marker text reading \"Night Bus\" with \"last ride / still awake\" as a smaller note. Preserve dim bus lighting, route signage, reflections, and phone-camera noise. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Metro Doodle Snapshot Diary style. Subject: friends and late-night commuters squeezing through a city bus door after work. Foreground prop: a large red cartoon peace-sign hand holding a small bus ticket. Location: late-night city bus entrance with yellow grab poles, bus door frame, route sign, rain-specked windows, dim interior lights, reflective pavement, and phone-camera noise. Add sleepy but funny cartoon face overlays, bold eyebrows, blush, neon hair colors, thick black sketch outlines, white handwritten marker text reading \"Night Bus\" with \"last ride / still awake\" as a smaller note, a circled route number, underlines, and spark marks. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    },
+    {
+      "case_name": "Airport Train Rush",
+      "variables": {
+        "SUBJECT": "travelers with suitcases and backpacks",
+        "SUBJECT_ACTION": "packing into an airport express train doorway",
+        "PRODUCT_OR_PROP": "an oversized pink cartoon hand pointing at a luggage pile",
+        "LOCATION": "airport express train doorway",
+        "BACKGROUND_ELEMENTS": "stainless steel doors, bright train interior, route signage, suitcase clutter, backpack straps, handrails, and phone-photo texture",
+        "MAIN_TEXT": "Airport Express",
+        "SECONDARY_TEXT": "gate soon / don't miss it",
+        "ACCENT_SYMBOL": "arrows, urgency marks, and small stars",
+        "WARDROBE_STYLE": "travel jackets, caps, backpacks, rolling luggage, sneakers, comfortable layers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Metro Doodle Snapshot Diary style. Use a horizontal airport express train doorway with travelers, suitcases, backpacks, stainless steel doors, bright train lighting, route signage, and suitcase clutter. Add an oversized pink cartoon hand pointing at the luggage pile from the left foreground, wide-eyed cartoon face overlays, anxious smiles, colorful hair, thick black sketch outlines, and white handwritten marker text reading \"Airport Express\" with \"gate soon / don't miss it\" as a smaller note. Preserve phone-photo texture and real train details. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Metro Doodle Snapshot Diary style. Subject: travelers with suitcases and backpacks packing into an airport express train doorway. Foreground prop: an oversized pink cartoon hand pointing at a luggage pile. Location: airport express train doorway with stainless steel doors, bright train interior, route signage, suitcase clutter, backpack straps, handrails, and phone-photo texture. Add wide-eyed cartoon traveler face overlays, anxious smiles, colorful hair, thick black sketch outlines, white handwritten marker text reading \"Airport Express\" with \"gate soon / don't miss it\" as a smaller note, arrows, urgency marks, and small stars. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    },
+    {
+      "case_name": "Market Tram Stop",
+      "variables": {
+        "SUBJECT": "vendors, students, and shoppers",
+        "SUBJECT_ACTION": "waiting near an old tram entrance with bags and snacks",
+        "PRODUCT_OR_PROP": "a large coral-pink cartoon hand holding a transit card close to the lens",
+        "LOCATION": "old tram stop beside a busy market street",
+        "BACKGROUND_ELEMENTS": "tram doorway, market signs, snack bags, street platform edge, old vehicle paint, soft daylight, crowd density, and casual phone snapshot texture",
+        "MAIN_TEXT": "Market Loop",
+        "SECONDARY_TEXT": "tiny adventure",
+        "ACCENT_SYMBOL": "route circle, arrow marks, and hand-drawn stamp",
+        "WARDROBE_STYLE": "practical city layers, tote bags, hoodies, caps, plaid pants, sneakers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Metro Doodle Snapshot Diary style. Use a horizontal old tram stop beside a busy market street with vendors, students, shoppers, bags, snacks, market signs, old vehicle paint, and soft daylight. Add a large coral-pink cartoon hand holding a transit card from the left foreground, playful cartoon face overlays, exaggerated noses, big smiles, thick black sketch outlines, and white handwritten marker text reading \"Market Loop\" with \"tiny adventure\" as a smaller note. Preserve casual phone snapshot texture and real street-tram details. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes.",
+      "prompt_9x16": "Create a 9:16 image in the Metro Doodle Snapshot Diary style. Subject: vendors, students, and shoppers waiting near an old tram entrance with bags and snacks. Foreground prop: a large coral-pink cartoon hand holding a transit card close to the lens. Location: old tram stop beside a busy market street with tram doorway, market signs, snack bags, street platform edge, old vehicle paint, soft daylight, crowd density, and casual phone snapshot texture. Add playful cartoon face overlays, exaggerated noses, big smiles, hand-drawn hair, thick black sketch outlines, white handwritten marker text reading \"Market Loop\" with \"tiny adventure\" as a smaller note, a route circle, arrow marks, and a hand-drawn stamp. Avoid watermarks, usernames, platform logos, creator IDs, app marks, and QR codes."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "metro-doodle-snapshot-diary-style"
+  }
+}

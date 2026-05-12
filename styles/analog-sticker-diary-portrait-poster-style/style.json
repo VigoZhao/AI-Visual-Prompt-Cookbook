@@ -1,0 +1,99 @@
+{
+  "style_name": "Analog Sticker Diary Portrait Poster Style",
+  "style_slug": "analog-sticker-diary-portrait-poster-style",
+  "version": "1.0.0",
+  "summary": "A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in analog-sticker-diary-portrait-poster-style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nPrimary prop: {PRODUCT_OR_PROP}.\nImplied location: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary micro text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe styling: {WARDROBE_STYLE}.\n\nUse a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.\n\nMake the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while the sticker field feels busy and personal.\n\nThe image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight misregistration, and imperfect cutout edges.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic studio portrait.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D sticker render, clean vector art, corporate poster, minimalist layout, sterile white background, perfect typography, luxury editorial photo, photorealistic studio portrait, flat brand ad, low texture, empty background, plastic digital finish",
+  "variables": {
+    "SUBJECT": "main side-profile person, character, student, musician, traveler, or introspective figure",
+    "SUBJECT_ACTION": "quiet emotional action, listening, thinking, walking, studying, waiting, or holding a small prop",
+    "PRODUCT_OR_PROP": "headphones, phone, notebook, snack, ticket, pencil, lighter, drink, cassette, charm, or personal object",
+    "LOCATION": "implied diary setting such as cafe, bedroom desk, subway, rooftop, classroom, street corner, or night bus",
+    "BACKGROUND_ELEMENTS": "graph paper, paper scraps, stickers, tickets, snack labels, numbers, doodles, tape, stationery, and tiny icons",
+    "MAIN_TEXT": "large introspective hand-lettered headline",
+    "SECONDARY_TEXT": "small repeated labels, tiny diary notes, numbers, times, or sticker text",
+    "ACCENT_SYMBOL": "small flame, star, heart, teardrop, arrow, safety pin, fruit, ticket, or punctuation mark",
+    "WARDROBE_STYLE": "casual youth styling, hoodie, school jacket, headphones, scarf, denim, soft layers, or city streetwear",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Cafe Headphone Loop",
+      "variables": {
+        "SUBJECT": "a quiet young illustrator in side profile with short dark hair",
+        "SUBJECT_ACTION": "listening to music while staring past a rainy cafe window",
+        "PRODUCT_OR_PROP": "large cream over-ear headphones with tiny sticker decals",
+        "LOCATION": "small neighborhood cafe table",
+        "BACKGROUND_ELEMENTS": "graph paper, coffee receipt, pastry sticker, pencil, cherry icon, blue ticket stub, tiny time labels, tape marks, and phone charm",
+        "MAIN_TEXT": "WHAT DID I JUST HEAR",
+        "SECONDARY_TEXT": "loop 03 / rainy table / back soon",
+        "ACCENT_SYMBOL": "small flame sticker and blue teardrop marks",
+        "WARDROBE_STYLE": "navy school jacket, soft scarf, casual layered city clothes",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in analog-sticker-diary-portrait-poster-style. Subject: a quiet young illustrator in side profile with short dark hair. Subject action: listening to music while staring past a rainy cafe window. Primary prop: large cream over-ear headphones with tiny sticker decals. Implied location: small neighborhood cafe table. Background elements: graph paper, coffee receipt, pastry sticker, pencil, cherry icon, blue ticket stub, tiny time labels, tape marks, and phone charm. Main headline text: \"WHAT DID I JUST HEAR\". Secondary micro text: \"loop 03 / rainy table / back soon\". Accent symbol: small flame sticker and blue teardrop marks. Wardrobe styling: navy school jacket, soft scarf, casual layered city clothes. Use a horizontal banner composition with the portrait on the left, facing into a wide field of stickers and text, cream graph-paper notebook background, huge rough orange-red hand lettering with blue shadow, scanned paper grain, halftone speckles, smudges, tape, faded ink, and imperfect cutout edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait.",
+      "prompt_9x16": "Create a 9:16 image in analog-sticker-diary-portrait-poster-style. Subject: a quiet young illustrator in side profile with short dark hair. Subject action: listening to music while staring past a rainy cafe window. Primary prop: large cream over-ear headphones with tiny sticker decals. Implied location: small neighborhood cafe table. Background elements: graph paper, coffee receipt, pastry sticker, pencil, cherry icon, blue ticket stub, tiny time labels, tape marks, and phone charm. Main headline text: \"WHAT DID I JUST HEAR\". Secondary micro text: \"loop 03 / rainy table / back soon\". Accent symbol: small flame sticker and blue teardrop marks. Wardrobe styling: navy school jacket, soft scarf, casual layered city clothes. Use a vertical poster composition with a close-cropped side-profile portrait dominating the frame, cream graph-paper notebook background, dense sticker orbit, huge rough orange-red hand lettering with blue shadow, scanned paper grain, halftone speckles, smudges, tape, faded ink, and imperfect cutout edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait."
+    },
+    {
+      "case_name": "Subway Voice Memo",
+      "variables": {
+        "SUBJECT": "a young commuter with black bobbed hair and tired eyes",
+        "SUBJECT_ACTION": "holding a phone near the jaw as if recording a private voice memo",
+        "PRODUCT_OR_PROP": "red phone screen, transit card, and wired earbud sticker",
+        "LOCATION": "late subway ride implied through ticket scraps and route marks",
+        "BACKGROUND_ELEMENTS": "faded graph paper, route ticket, safety pin, ramen cup sticker, station number labels, checker scrap, blue pencil, and tiny arrows",
+        "MAIN_TEXT": "SAY IT AFTER THE STOP",
+        "SECONDARY_TEXT": "memo 1:52 / line back / no signal",
+        "ACCENT_SYMBOL": "black-and-white checker scrap and red dot marks",
+        "WARDROBE_STYLE": "dark hoodie, worn city jacket, headphones around the neck",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in analog-sticker-diary-portrait-poster-style. Subject: a young commuter with black bobbed hair and tired eyes. Subject action: holding a phone near the jaw as if recording a private voice memo. Primary prop: red phone screen, transit card, and wired earbud sticker. Implied location: late subway ride through ticket scraps and route marks. Background elements: faded graph paper, route ticket, safety pin, ramen cup sticker, station number labels, checker scrap, blue pencil, and tiny arrows. Main headline text: \"SAY IT AFTER THE STOP\". Secondary micro text: \"memo 1:52 / line back / no signal\". Accent symbol: black-and-white checker scrap and red dot marks. Wardrobe styling: dark hoodie, worn city jacket, headphones around the neck. Use a horizontal banner composition with portrait on the left and a wide sticker-text field on the right, cream graph-paper background, huge rough orange-red hand lettering with dark blue shadow, scanned paper grain, halftone speckles, smudges, faded ink, tape marks, and imperfect cutout edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait.",
+      "prompt_9x16": "Create a 9:16 image in analog-sticker-diary-portrait-poster-style. Subject: a young commuter with black bobbed hair and tired eyes. Subject action: holding a phone near the jaw as if recording a private voice memo. Primary prop: red phone screen, transit card, and wired earbud sticker. Implied location: late subway ride through ticket scraps and route marks. Background elements: faded graph paper, route ticket, safety pin, ramen cup sticker, station number labels, checker scrap, blue pencil, and tiny arrows. Main headline text: \"SAY IT AFTER THE STOP\". Secondary micro text: \"memo 1:52 / line back / no signal\". Accent symbol: black-and-white checker scrap and red dot marks. Wardrobe styling: dark hoodie, worn city jacket, headphones around the neck. Use a vertical close-cropped side-profile poster, cream graph-paper notebook background, dense personal-object sticker field, huge rough orange-red hand lettering with dark blue shadow, scanned paper grain, halftone speckles, smudges, faded ink, tape marks, and imperfect cutout edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait."
+    },
+    {
+      "case_name": "Bedroom Study Static",
+      "variables": {
+        "SUBJECT": "a student with long dark hair in a quiet side profile",
+        "SUBJECT_ACTION": "leaning over homework while listening to a late-night playlist",
+        "PRODUCT_OR_PROP": "open notebook, mechanical pencil, cassette label, and sticker-covered headphones",
+        "LOCATION": "messy bedroom study desk",
+        "BACKGROUND_ELEMENTS": "graph paper, eraser crumbs, library card, cookie sticker, desk lamp label, orange note strip, stars, number stickers, and folded paper scraps",
+        "MAIN_TEXT": "MY BRAIN IS BUFFERING",
+        "SECONDARY_TEXT": "23:40 / page 13 / try again",
+        "ACCENT_SYMBOL": "blue starburst and tiny sad-face sticker",
+        "WARDROBE_STYLE": "oversized sweater, soft collar, casual study clothes",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in analog-sticker-diary-portrait-poster-style. Subject: a student with long dark hair in a quiet side profile. Subject action: leaning over homework while listening to a late-night playlist. Primary prop: open notebook, mechanical pencil, cassette label, and sticker-covered headphones. Implied location: messy bedroom study desk. Background elements: graph paper, eraser crumbs, library card, cookie sticker, desk lamp label, orange note strip, stars, number stickers, and folded paper scraps. Main headline text: \"MY BRAIN IS BUFFERING\". Secondary micro text: \"23:40 / page 13 / try again\". Accent symbol: blue starburst and tiny sad-face sticker. Wardrobe styling: oversized sweater, soft collar, casual study clothes. Use a horizontal banner with the side-profile portrait on the left and a wide field of stationery stickers and hand-lettering on the right, cream graph-paper notebook background, distressed orange-red lettering with navy shadow, scanned paper grain, halftone speckles, smudges, tape, faded ink, and imperfect paper edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait.",
+      "prompt_9x16": "Create a 9:16 image in analog-sticker-diary-portrait-poster-style. Subject: a student with long dark hair in a quiet side profile. Subject action: leaning over homework while listening to a late-night playlist. Primary prop: open notebook, mechanical pencil, cassette label, and sticker-covered headphones. Implied location: messy bedroom study desk. Background elements: graph paper, eraser crumbs, library card, cookie sticker, desk lamp label, orange note strip, stars, number stickers, and folded paper scraps. Main headline text: \"MY BRAIN IS BUFFERING\". Secondary micro text: \"23:40 / page 13 / try again\". Accent symbol: blue starburst and tiny sad-face sticker. Wardrobe styling: oversized sweater, soft collar, casual study clothes. Use a vertical close-cropped portrait poster, cream graph-paper notebook background, dense sticker orbit, huge distressed orange-red hand lettering with navy shadow across hair and lower shoulder, scanned paper grain, halftone speckles, smudges, tape, faded ink, and imperfect paper edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait."
+    },
+    {
+      "case_name": "Rooftop Snack Signal",
+      "variables": {
+        "SUBJECT": "a young city kid with windblown dark hair in side profile",
+        "SUBJECT_ACTION": "looking over a rooftop edge while holding a snack packet",
+        "PRODUCT_OR_PROP": "orange soda bottle, snack wrapper, tiny radio, and stickered headphones",
+        "LOCATION": "after-school rooftop hangout implied by labels and sky-color scraps",
+        "BACKGROUND_ELEMENTS": "graph paper, cloud doodles, snack labels, bus ticket, lighter sticker, blue pencil, heart charm, fruit sticker, and time stamp numbers",
+        "MAIN_TEXT": "ARE YOU STILL THERE",
+        "SECONDARY_TEXT": "signal 07 / snack break / wind high",
+        "ACCENT_SYMBOL": "orange spark mark and small orbit planet",
+        "WARDROBE_STYLE": "dark zip jacket, striped collar, loose streetwear layers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in analog-sticker-diary-portrait-poster-style. Subject: a young city kid with windblown dark hair in side profile. Subject action: looking over a rooftop edge while holding a snack packet. Primary prop: orange soda bottle, snack wrapper, tiny radio, and stickered headphones. Implied location: after-school rooftop hangout through labels and sky-color scraps. Background elements: graph paper, cloud doodles, snack labels, bus ticket, lighter sticker, blue pencil, heart charm, fruit sticker, and time stamp numbers. Main headline text: \"ARE YOU STILL THERE\". Secondary micro text: \"signal 07 / snack break / wind high\". Accent symbol: orange spark mark and small orbit planet. Wardrobe styling: dark zip jacket, striped collar, loose streetwear layers. Use a horizontal banner composition with portrait on the left, wide open sticker field on the right, cream graph-paper notebook background, huge rough orange-red hand lettering with dark blue shadow, scanned paper grain, halftone speckles, smudges, tape marks, faded ink, and imperfect cutout edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait.",
+      "prompt_9x16": "Create a 9:16 image in analog-sticker-diary-portrait-poster-style. Subject: a young city kid with windblown dark hair in side profile. Subject action: looking over a rooftop edge while holding a snack packet. Primary prop: orange soda bottle, snack wrapper, tiny radio, and stickered headphones. Implied location: after-school rooftop hangout through labels and sky-color scraps. Background elements: graph paper, cloud doodles, snack labels, bus ticket, lighter sticker, blue pencil, heart charm, fruit sticker, and time stamp numbers. Main headline text: \"ARE YOU STILL THERE\". Secondary micro text: \"signal 07 / snack break / wind high\". Accent symbol: orange spark mark and small orbit planet. Wardrobe styling: dark zip jacket, striped collar, loose streetwear layers. Use a vertical close-cropped side-profile poster, cream graph-paper notebook background, dense sticker orbit around the portrait, huge rough orange-red hand lettering with dark blue shadow, scanned paper grain, halftone speckles, smudges, tape marks, faded ink, and imperfect cutout edges. Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, plain background, perfect typography, and photorealistic studio portrait."
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "analog-sticker-diary-portrait-poster-style"
+  }
+}

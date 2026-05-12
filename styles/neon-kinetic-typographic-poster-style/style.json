@@ -1,0 +1,99 @@
+{
+  "style_name": "Neon Kinetic Typographic Poster",
+  "style_slug": "neon-kinetic-typographic-poster-style",
+  "version": "1.0.0",
+  "summary": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} poster in the \"Neon Kinetic Typographic Poster\" style.\n\nMain subject: {SUBJECT}.\nAction: {SUBJECT_ACTION}.\nProp or product: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nWardrobe or styling: {WARDROBE_STYLE}.\n\nUse an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward. The subject should feel large, energetic, and close to the viewer.\n\nAdd oversized warped neon yellow typography using the main text \"{MAIN_TEXT}\". The letters should be ultra-bold, condensed, stretched, slanted, and partially cropped by the canvas edges. The typography should wrap around the composition and sit behind or partially around the subject.\n\nAdd a thin repeated uppercase text band reading \"{SECONDARY_TEXT}\", separated by \"{ACCENT_SYMBOL}\" symbols. The secondary text should run horizontally across the image like a campaign graphic stripe.\n\nUse electric neon yellow graphics, warm sunlit photographic tones, blue sky contrast, visible film grain, analog print texture, hard shadows, and an energetic youth-culture campaign poster mood.\n\nAvoid clean corporate design, small typography, flat illustration, pastel colors, luxury minimalism, and symmetrical static layout.",
+  "negative_prompt": "Avoid small typography, clean corporate layout, symmetrical centered poster design, flat vector illustration, pastel palette, luxury minimalism, soft studio lighting, plain white background, low contrast, overly polished 3D render, generic stock photo, tiny subject, unreadable clutter, and text that covers the subject's key action or product.",
+  "variables": {
+    "SUBJECT": "main human figure or object",
+    "SUBJECT_ACTION": "dynamic action performed by the subject",
+    "PRODUCT_OR_PROP": "object held, worn, used, or displayed by the subject",
+    "LOCATION": "outdoor environment or contextual scene",
+    "BACKGROUND_ELEMENTS": "sky, hills, architecture, crowd, stage lights, roads, rocks, grass, clouds, dust, or other secondary scenery",
+    "MAIN_TEXT": "large repeated headline word or phrase",
+    "SECONDARY_TEXT": "small repeating line of text",
+    "ACCENT_SYMBOL": "small separator icon such as diamond, dot, slash, star, or warning mark",
+    "WARDROBE_STYLE": "streetwear, outdoor fashion, sportswear, festival outfit, or editorial styling",
+    "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal banner"
+  },
+  "example_cases": [
+    {
+      "case_name": "Drink Campaign",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Skate Poster",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Music Festival",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    },
+    {
+      "case_name": "Trail Running",
+      "variables": {
+        "SUBJECT": "main subject",
+        "SUBJECT_ACTION": "main action or pose",
+        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+        "LOCATION": "environment or setting",
+        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+        "MAIN_TEXT": "main headline or graphic text",
+        "SECONDARY_TEXT": "small supporting text or microcopy",
+        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "",
+      "prompt_9x16": ""
+    }
+  ],
+  "related_styles": [],
+  "license": "CC BY 4.0",
+  "source": {
+    "original_folder": "neon-kinetic-typographic-poster-style"
+  }
+}

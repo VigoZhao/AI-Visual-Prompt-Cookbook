@@ -1,0 +1,97 @@
+{
+  "style_name": "Backseat Transit Doodle Letter Poster Style",
+  "style_slug": "backseat-transit-doodle-letter-poster-style",
+  "version": "2026.05.11",
+  "status": "stable",
+  "updated_at": "2026-05-11",
+  "summary": "A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in backseat-transit-doodle-letter-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, inside or on {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n\nGraphic overlay: trace the central subject with a thick electric yellow hand-drawn halo. Add oversized chunky hand-drawn letters spelling \"{MAIN_TEXT}\" around the subject, tilted and partly cropped by the frame. Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n\nAdd {ACCENT_SYMBOL}, purple music marks, yellow comic speed rays from the corners, cyan-white cloud or wind swooshes along the lower frame, small sticker bubbles, and playful motion strokes. Keep the overlays bold but preserve the subject silhouette, steering gesture, and forward window view.\n\nText: use \"{MAIN_TEXT}\" as the large illustrated word. Add \"{SECONDARY_TEXT}\" only as tiny clean sticker text if it does not clutter the image. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied brand logos, or copied jacket graphics.",
+  "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface marks, copied person, copied exact vehicle, copied brand logo, copied jacket graphic, long paragraphs, crowded small text, corporate transport ad, luxury car campaign, full vector illustration, 3D chrome letters, glossy balloon type, clay render, dark horror, dystopian chase, cyberpunk city, gritty crime scene, overlays blocking the subject, overlays blocking the windshield",
+  "variables": {
+    "SUBJECT": "main driver, rider, guide, commuter, musician, courier, or traveler seen from behind",
+    "SUBJECT_ACTION": "steering, tapping the horn, checking a mirror, pointing ahead, adjusting the radio, holding a map, or riding through the scene",
+    "PRODUCT_OR_PROP": "portable speaker, route card, camera, map, drink can, luggage tag, helmet, hand drum, ticket, or featured travel object",
+    "LOCATION": "tuk-tuk cabin, pedicab, tram, minibus, ferry deck, jeepney, taxi, cable car, shuttle, or compact city transport interior",
+    "BACKGROUND_ELEMENTS": "windshield view, side windows, textured roof, dashboard details, mirrors, small ornaments, road, market, harbor, hills, or city street outside",
+    "MAIN_TEXT": "short hand-drawn word such as AUTO, RIDE, GO, ZOOM, TAXI, JAM, ROLL, or DASH",
+    "SECONDARY_TEXT": "tiny route note, travel diary caption, date line, or small sticker label",
+    "ACCENT_SYMBOL": "yellow speed rays, purple music note, cyan cloud swoosh, orange feather icon, starburst, sticker bubble, or motion dash",
+    "WARDROBE_STYLE": "work jacket, sun-faded shirt, utility vest, travel layers, local textile scarf, helmet, cap, or casual road-trip styling",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Auto Radio Rush",
+      "variables": {
+        "SUBJECT": "an auto-rickshaw driver seen from behind",
+        "SUBJECT_ACTION": "steering forward while adjusting a tiny radio",
+        "PRODUCT_OR_PROP": "a portable radio and route card",
+        "LOCATION": "a colorful compact tuk-tuk cabin",
+        "BACKGROUND_ELEMENTS": "textured roof lining, bright windshield view, small mirrors, painted dashboard, side rails, roadside greenery, and warm cabin red details",
+        "MAIN_TEXT": "AUTO",
+        "SECONDARY_TEXT": "morning route / sound on",
+        "ACCENT_SYMBOL": "purple music notes and yellow speed rays",
+        "WARDROBE_STYLE": "olive work jacket, sun-faded collar, and casual driver styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in backseat-transit-doodle-letter-poster-style. Scene: an auto-rickshaw driver seen from behind steering forward while adjusting a tiny radio, with a portable radio and route card, inside a colorful compact tuk-tuk cabin. Include textured roof lining, bright windshield view, small mirrors, painted dashboard, side rails, roadside greenery, and warm cabin red details. Style the subject with an olive work jacket, sun-faded collar, and casual driver styling. Use a realistic passenger-seat travel photo: wide cabin framing, dashboard and window rails stretching across the image, the subject near the center, daylight visible through the windshield. Draw a thick electric yellow halo around the driver silhouette. Stretch huge hand-drawn letters spelling \"AUTO\" across both sides of the frame, tilted like sticker signage, with golden yellow fills, orange shadows, and burnt brown outlines. Add purple music notes and yellow speed rays, cyan-white cloud swooshes along the bottom corners, orange side icons, sticker bubbles, and playful motion strokes. Add tiny sticker text \"morning route / sound on\" only if clean and unobtrusive. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or copied jacket graphic.",
+      "prompt_9x16": "Create a vertical 9:16 image in backseat-transit-doodle-letter-poster-style. Scene: an auto-rickshaw driver seen from behind steering forward while adjusting a tiny radio, with a portable radio and route card, inside a colorful compact tuk-tuk cabin. Include textured roof lining, bright windshield view, small mirrors, painted dashboard, side rails, roadside greenery, and warm cabin red details. Style the subject with an olive work jacket, sun-faded collar, and casual driver styling. Use a realistic passenger-seat travel photo: tall cabin framing, the subject centered from the back, real daylight through the windshield, visible seat vinyl and dashboard texture. Draw a thick electric yellow halo around the driver silhouette. Arrange huge hand-drawn letters spelling \"AUTO\" around the subject, tilted and partly cropped by the frame, with golden yellow fills, orange shadows, and burnt brown outlines. Add purple music notes and yellow speed rays, cyan-white cloud swooshes across the bottom, orange side icons, sticker bubbles, and playful motion strokes. Add tiny sticker text \"morning route / sound on\" only if clean and unobtrusive. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or copied jacket graphic."
+    },
+    {
+      "case_name": "Harbor Tram Ride",
+      "variables": {
+        "SUBJECT": "a harbor tram conductor seen from behind",
+        "SUBJECT_ACTION": "checking the mirror while rolling past the waterfront",
+        "PRODUCT_OR_PROP": "a punch ticket and small bell",
+        "LOCATION": "a vintage open-air tram cabin",
+        "BACKGROUND_ELEMENTS": "wood bench backs, brass handrails, side windows, harbor water outside, ferry lights, route placards, and a bright coastal street ahead",
+        "MAIN_TEXT": "RIDE",
+        "SECONDARY_TEXT": "harbor line / seat two",
+        "ACCENT_SYMBOL": "cyan cloud swoosh and orange feather icons",
+        "WARDROBE_STYLE": "navy utility vest, striped shirt, cap, and transit-worker styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in backseat-transit-doodle-letter-poster-style. Scene: a harbor tram conductor seen from behind checking the mirror while rolling past the waterfront, with a punch ticket and small bell, inside a vintage open-air tram cabin. Include wood bench backs, brass handrails, side windows, harbor water outside, ferry lights, route placards, and a bright coastal street ahead. Style the subject with a navy utility vest, striped shirt, cap, and transit-worker styling. Use a realistic passenger-seat travel photo with wide cabin perspective, natural daylight, visible wood and brass texture, and a clear forward view. Draw a thick electric yellow halo around the conductor. Stretch huge tilted hand-drawn letters spelling \"RIDE\" across left and right sides, partly cropped by the frame, with golden yellow fills, orange shadows, and burnt brown outlines. Add cyan cloud swoosh and orange feather icons, purple music marks, yellow edge speed rays, sticker bubbles, and wind strokes along the lower corners. Add tiny sticker text \"harbor line / seat two\" only if clean. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or copied uniform mark.",
+      "prompt_9x16": "Create a vertical 9:16 image in backseat-transit-doodle-letter-poster-style. Scene: a harbor tram conductor seen from behind checking the mirror while rolling past the waterfront, with a punch ticket and small bell, inside a vintage open-air tram cabin. Include wood bench backs, brass handrails, side windows, harbor water outside, ferry lights, route placards, and a bright coastal street ahead. Style the subject with a navy utility vest, striped shirt, cap, and transit-worker styling. Use a realistic passenger-seat travel photo with tall cabin perspective, natural daylight, visible wood and brass texture, and a clear forward view. Draw a thick electric yellow halo around the conductor. Place huge tilted hand-drawn letters spelling \"RIDE\" around the subject, partly cropped by the frame, with golden yellow fills, orange shadows, and burnt brown outlines. Add cyan cloud swoosh and orange feather icons, purple music marks, yellow corner speed rays, sticker bubbles, and soft wind strokes along the lower frame. Add tiny sticker text \"harbor line / seat two\" only if clean. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or copied uniform mark."
+    },
+    {
+      "case_name": "Market Pedicab Jam",
+      "variables": {
+        "SUBJECT": "a night-market pedicab guide seen from the passenger seat",
+        "SUBJECT_ACTION": "pointing toward a food street while pedaling",
+        "PRODUCT_OR_PROP": "a lantern map and portable speaker",
+        "LOCATION": "a pedicab passenger view through a busy market lane",
+        "BACKGROUND_ELEMENTS": "neon food stalls, hanging signs without readable brand names, side canopy fabric, metal handlebar, baskets, wet pavement, and warm street lights",
+        "MAIN_TEXT": "JAM",
+        "SECONDARY_TEXT": "snack lane / last stop",
+        "ACCENT_SYMBOL": "hot magenta starburst and purple sound strokes",
+        "WARDROBE_STYLE": "yellow rain shell, black crossbody strap, and street-guide styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in backseat-transit-doodle-letter-poster-style. Scene: a night-market pedicab guide seen from the passenger seat pointing toward a food street while pedaling, with a lantern map and portable speaker, inside a pedicab passenger view through a busy market lane. Include neon food stalls, hanging signs without readable brand names, side canopy fabric, metal handlebar, baskets, wet pavement, and warm street lights. Style the subject with a yellow rain shell, black crossbody strap, and street-guide styling. Use a realistic passenger-seat travel photo with wide canopy framing, real street texture, warm night-market light, and the guide centered from behind. Draw a thick electric yellow halo around the subject. Stretch huge chunky hand-drawn letters spelling \"JAM\" across both sides of the frame, with golden yellow fills, orange shadows, burnt brown outlines, and cropped edges. Add hot magenta starburst and purple sound strokes, yellow speed rays, cyan-white steam cloud swooshes at the lower corners, orange side icons, and sticker bubbles. Add tiny sticker text \"snack lane / last stop\" only if unobtrusive. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or readable storefront brand.",
+      "prompt_9x16": "Create a vertical 9:16 image in backseat-transit-doodle-letter-poster-style. Scene: a night-market pedicab guide seen from the passenger seat pointing toward a food street while pedaling, with a lantern map and portable speaker, inside a pedicab passenger view through a busy market lane. Include neon food stalls, hanging signs without readable brand names, side canopy fabric, metal handlebar, baskets, wet pavement, and warm street lights. Style the subject with a yellow rain shell, black crossbody strap, and street-guide styling. Use a realistic passenger-seat travel photo with tall canopy framing, real street texture, warm night-market light, and the guide centered from behind. Draw a thick electric yellow halo around the subject. Add huge chunky hand-drawn letters spelling \"JAM\" diagonally around the subject, with golden yellow fills, orange shadows, burnt brown outlines, and cropped edges. Add hot magenta starburst and purple sound strokes, yellow speed rays, cyan-white steam cloud swooshes at the bottom, orange side icons, and sticker bubbles. Add tiny sticker text \"snack lane / last stop\" only if unobtrusive. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or readable storefront brand."
+    },
+    {
+      "case_name": "Mountain Shuttle Dash",
+      "variables": {
+        "SUBJECT": "a mountain shuttle driver seen from behind",
+        "SUBJECT_ACTION": "steering around a switchback with one hand on the wheel",
+        "PRODUCT_OR_PROP": "a folded trail map and metal thermos",
+        "LOCATION": "a small shuttle bus interior above a valley road",
+        "BACKGROUND_ELEMENTS": "wide front windshield, dashboard compass, hanging strap, fabric seat backs, pine trees, valley road, bright mountain sky, and side window reflections",
+        "MAIN_TEXT": "DASH",
+        "SECONDARY_TEXT": "ridge loop / window open",
+        "ACCENT_SYMBOL": "yellow corner rays and cyan-white wind swooshes",
+        "WARDROBE_STYLE": "canvas vest, rolled sleeves, cap, and outdoors transit styling",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in backseat-transit-doodle-letter-poster-style. Scene: a mountain shuttle driver seen from behind steering around a switchback with one hand on the wheel, with a folded trail map and metal thermos, inside a small shuttle bus interior above a valley road. Include a wide front windshield, dashboard compass, hanging strap, fabric seat backs, pine trees, valley road, bright mountain sky, and side window reflections. Style the subject with a canvas vest, rolled sleeves, cap, and outdoors transit styling. Use a realistic passenger-seat travel photo with wide bus interior framing, daylight through the windshield, real dashboard texture, and the driver centered from behind. Draw a thick electric yellow halo around the driver. Stretch huge tilted hand-drawn letters spelling \"DASH\" around the subject and across both sides, partly cropped by the frame, with golden yellow fills, orange shadows, and burnt brown outlines. Add yellow corner rays and cyan-white wind swooshes, purple motion ticks, orange wing icons, sticker bubbles, and playful speed marks. Add tiny sticker text \"ridge loop / window open\" only if clean. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or route-company branding.",
+      "prompt_9x16": "Create a vertical 9:16 image in backseat-transit-doodle-letter-poster-style. Scene: a mountain shuttle driver seen from behind steering around a switchback with one hand on the wheel, with a folded trail map and metal thermos, inside a small shuttle bus interior above a valley road. Include a wide front windshield, dashboard compass, hanging strap, fabric seat backs, pine trees, valley road, bright mountain sky, and side window reflections. Style the subject with a canvas vest, rolled sleeves, cap, and outdoors transit styling. Use a realistic passenger-seat travel photo with tall bus interior framing, daylight through the windshield, real dashboard texture, and the driver centered from behind. Draw a thick electric yellow halo around the driver. Arrange huge tilted hand-drawn letters spelling \"DASH\" around the subject, partly cropped by the sides, with golden yellow fills, orange shadows, and burnt brown outlines. Add yellow corner rays and cyan-white wind swooshes, purple motion ticks, orange wing icons, sticker bubbles, and playful speed marks. Add tiny sticker text \"ridge loop / window open\" only if clean. No watermark, username, creator ID, QR code, platform logo, app mark, copied brand logo, or route-company branding."
+    }
+  ],
+  "license": "CC BY 4.0"
+}
