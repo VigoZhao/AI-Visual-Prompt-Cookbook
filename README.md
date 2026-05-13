@@ -49,44 +49,55 @@ Latest uploads appear first. Each style keeps the repository lightweight: one JS
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
+<h3>Teenage Skate Scribble Screenprint Poster</h3>
+<p>A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.</p>
+<p><a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style">Folder</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16 preview</a></p>
+</td>
+<td width="50%" valign="top">
 <a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster preview"></a>
 <h3>Impact Burst Halftone Comic Poster</h3>
 <p>A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.</p>
 <p><a href="styles/impact-burst-halftone-comic-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/impact-burst-halftone-comic-poster-style">Folder</a> · <a href="styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg">9:16 preview</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="styles/sunburst-fisheye-bubble-type-poster-style"><img src="styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg" alt="Sunburst Fisheye Bubble Type Poster preview"></a>
-<h3>Sunburst Fisheye Bubble Type Poster</h3>
-<p>An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.</p>
-<p><a href="styles/sunburst-fisheye-bubble-type-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style">Folder</a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg">9:16 preview</a></p>
 </td>
 </tr>
 </table>
 
 ## Style Index
 
-1. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-2. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-3. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-4. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-5. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-6. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-7. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-8. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-9. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-10. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-11. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-12. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-13. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-14. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-15. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-16. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-17. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-18. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-19. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-20. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+2. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+3. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+4. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+5. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+6. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+7. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+8. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+9. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+10. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+11. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+12. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+13. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+14. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+15. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+16. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+17. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+18. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+19. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+20. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+21. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## Style Catalog
+
+### Teenage Skate Scribble Screenprint Poster
+
+<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" width="720" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
+
+A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.
+
+Files: [style.json](styles/teenage-skate-scribble-screenprint-poster-style/style.json) · [16:9 preview](styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg) · [9:16 preview](styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg) · [folder](styles/teenage-skate-scribble-screenprint-poster-style)
+
+---
 
 ### Impact Burst Halftone Comic Poster
 

@@ -1,0 +1,107 @@
+{
+  "style_name": "Teenage Skate Scribble Screenprint Poster Style",
+  "style_slug": "teenage-skate-scribble-screenprint-poster-style",
+  "version": "2026.05.13",
+  "status": "stable",
+  "updated_at": "2026-05-13",
+  "summary": "A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop sweeping across the lower third. Wrap loose red hand-lettered border words reading \"{MAIN_TEXT}\" around the edges, add small handwritten fragments reading \"{SECONDARY_TEXT}\", and include {ACCENT_SYMBOL}. Add {BACKGROUND_ELEMENTS}. Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration, and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo.",
+  "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, skateboard brand logo",
+  "variables": {
+    "SUBJECT": "main skateboarder, dancer, musician, courier, student, or youth culture figure",
+    "SUBJECT_ACTION": "crouching, kickflipping, carving, bending, balancing, pushing, leaning, or landing a trick",
+    "PRODUCT_OR_PROP": "skateboard, longboard, rail, cassette player, record sleeve, camera, backpack, or streetwear object",
+    "LOCATION": "cream paper poster field, rooftop concrete, schoolyard steps, record shop sidewalk, night market lane, or skate spot",
+    "BACKGROUND_ELEMENTS": "red hand-lettered border words, arrows, curls, rough paper grain, screen-print speckles, and sparse doodle marks",
+    "MAIN_TEXT": "short red handmade headline split around the poster edge",
+    "SECONDARY_TEXT": "tiny supporting handwritten fragments or repeated border notes",
+    "ACCENT_SYMBOL": "red arrow, looping underline, curled stroke, small star, or hand-drawn motion mark",
+    "WARDROBE_STYLE": "oversized navy top, baggy gray pants, ochre hands, brown shoes, streetwear layers, and rough posterized fabric",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "palette": {
+    "warm_cream_paper": "#F2E8DC",
+    "signal_red_lettering": "#D01F1D",
+    "deep_ink_navy": "#101A35",
+    "dusty_pants_gray": "#8B8580",
+    "skateboard_green": "#5E8F35",
+    "mustard_skin_ochre": "#D6923B",
+    "dry_ink_black": "#151515",
+    "shoe_brown": "#8A4E2A"
+  },
+  "example_cases": [
+    {
+      "case_name": "Rooftop Kickflip Bend",
+      "variables": {
+        "SUBJECT": "a young rooftop skateboarder",
+        "SUBJECT_ACTION": "folding into a deep crouch while catching a kickflip",
+        "PRODUCT_OR_PROP": "green skateboard with black trucks and rough ink wheels",
+        "LOCATION": "open cream paper poster field with hints of rooftop concrete",
+        "BACKGROUND_ELEMENTS": "red hand-lettered border words, looping arrows, rough paper grain, and scattered screen-print speckles",
+        "MAIN_TEXT": "CURB DREAM",
+        "SECONDARY_TEXT": "late sun / grip tape / loose wheels",
+        "ACCENT_SYMBOL": "red looping arrow under the board",
+        "WARDROBE_STYLE": "oversized deep navy sweatshirt, dusty gray baggy pants, ochre hands, brown skate shoes, rough posterized fabric",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Teenage Skate Scribble Screenprint Poster image. Case: Rooftop Kickflip Bend. Subject: a young rooftop skateboarder folding into a deep crouch while catching a kickflip with a green skateboard with black trucks and rough ink wheels. Scene: open cream paper poster field with hints of rooftop concrete. Background marks: red hand-lettered border words, looping arrows, rough paper grain, and scattered screen-print speckles. Main red border text: CURB DREAM. Secondary handwritten fragments: late sun / grip tape / loose wheels. Accent: red looping arrow under the board. Wardrobe and color styling: oversized deep navy sweatshirt, dusty gray baggy pants, ochre hands, brown skate shoes, rough posterized fabric. Stretch the action pose across the center, use the board as a wide green lower sweep, place red handwriting in the corners and side margins, and keep the print tactile with halftone dirt and dry black speckle. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling.",
+      "prompt_9x16": "Create a vertical 9:16 Teenage Skate Scribble Screenprint Poster image. Case: Rooftop Kickflip Bend. Subject: a young rooftop skateboarder folding into a deep crouch while catching a kickflip with a green skateboard with black trucks and rough ink wheels. Scene: open cream paper poster field with hints of rooftop concrete. Background marks: red hand-lettered border words, looping arrows, rough paper grain, and scattered screen-print speckles. Main red border text: CURB DREAM. Secondary handwritten fragments: late sun / grip tape / loose wheels. Accent: red looping arrow under the board. Wardrobe and color styling: oversized deep navy sweatshirt, dusty gray baggy pants, ochre hands, brown skate shoes, rough posterized fabric. Stack the bent body through the center, make the board sweep across the lower third, wrap red handwriting around all edges, and keep the print tactile with halftone dirt and dry black speckle. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling."
+    },
+    {
+      "case_name": "Record Store Push",
+      "variables": {
+        "SUBJECT": "a streetwear skater leaving a record shop",
+        "SUBJECT_ACTION": "pushing off with one foot while holding a record sleeve",
+        "PRODUCT_OR_PROP": "green longboard and black-and-white record sleeve",
+        "LOCATION": "cream poster field with a minimal record shop sidewalk cue",
+        "BACKGROUND_ELEMENTS": "red cursive border notes, small arrows, paper scuffs, and photocopy grain",
+        "MAIN_TEXT": "SIDEWALK SIDE B",
+        "SECONDARY_TEXT": "shop dust / second press / rolling home",
+        "ACCENT_SYMBOL": "red curl marks around the record sleeve",
+        "WARDROBE_STYLE": "loose navy jacket, washed gray pants, ochre hands, brown shoes, dark beanie, screen-print shadows",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Teenage Skate Scribble Screenprint Poster image. Case: Record Store Push. Subject: a streetwear skater leaving a record shop, pushing off with one foot while holding a record sleeve. Prop: green longboard and black-and-white record sleeve. Scene: cream poster field with a minimal record shop sidewalk cue. Background marks: red cursive border notes, small arrows, paper scuffs, and photocopy grain. Main red border text: SIDEWALK SIDE B. Secondary handwritten fragments: shop dust / second press / rolling home. Accent: red curl marks around the record sleeve. Wardrobe and color styling: loose navy jacket, washed gray pants, ochre hands, brown shoes, dark beanie, screen-print shadows. Crop the pushing pose wide across the center, let the green longboard run through the lower third, and put red handwritten words in the side margins and corners. Keep the finish rough, scanned, grainy, and handmade. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling.",
+      "prompt_9x16": "Create a vertical 9:16 Teenage Skate Scribble Screenprint Poster image. Case: Record Store Push. Subject: a streetwear skater leaving a record shop, pushing off with one foot while holding a record sleeve. Prop: green longboard and black-and-white record sleeve. Scene: cream poster field with a minimal record shop sidewalk cue. Background marks: red cursive border notes, small arrows, paper scuffs, and photocopy grain. Main red border text: SIDEWALK SIDE B. Secondary handwritten fragments: shop dust / second press / rolling home. Accent: red curl marks around the record sleeve. Wardrobe and color styling: loose navy jacket, washed gray pants, ochre hands, brown shoes, dark beanie, screen-print shadows. Use an oversized central cutout, low poster perspective, red edge lettering, and a green lower board sweep. Keep the finish rough, scanned, grainy, and handmade. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling."
+    },
+    {
+      "case_name": "Campus Rail Balance",
+      "variables": {
+        "SUBJECT": "an after-class student skater",
+        "SUBJECT_ACTION": "balancing sideways on a low rail with knees folded",
+        "PRODUCT_OR_PROP": "green rail and scraped skateboard tucked below the stance",
+        "LOCATION": "cream paper field with sparse schoolyard step hints",
+        "BACKGROUND_ELEMENTS": "red marker arrows, looping handwritten edge words, grain, and small ink skips",
+        "MAIN_TEXT": "AFTER CLASS",
+        "SECONDARY_TEXT": "bell rings / rail wax / no homework",
+        "ACCENT_SYMBOL": "red double arrow following the rail",
+        "WARDROBE_STYLE": "baggy navy overshirt, gray work pants, ochre hands, brown shoes, rough xerox shadows",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Teenage Skate Scribble Screenprint Poster image. Case: Campus Rail Balance. Subject: an after-class student skater balancing sideways on a low rail with knees folded. Prop: green rail and scraped skateboard tucked below the stance. Scene: cream paper field with sparse schoolyard step hints. Background marks: red marker arrows, looping handwritten edge words, grain, and small ink skips. Main red border text: AFTER CLASS. Secondary handwritten fragments: bell rings / rail wax / no homework. Accent: red double arrow following the rail. Wardrobe and color styling: baggy navy overshirt, gray work pants, ochre hands, brown shoes, rough xerox shadows. Use a wide cropped pose across the center, keep the green rail as a strong lower diagonal sweep, and arrange red handwritten text in the corners and along the edges. Use gritty halftone dirt and tactile screen-print texture. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling.",
+      "prompt_9x16": "Create a vertical 9:16 Teenage Skate Scribble Screenprint Poster image. Case: Campus Rail Balance. Subject: an after-class student skater balancing sideways on a low rail with knees folded. Prop: green rail and scraped skateboard tucked below the stance. Scene: cream paper field with sparse schoolyard step hints. Background marks: red marker arrows, looping handwritten edge words, grain, and small ink skips. Main red border text: AFTER CLASS. Secondary handwritten fragments: bell rings / rail wax / no homework. Accent: red double arrow following the rail. Wardrobe and color styling: baggy navy overshirt, gray work pants, ochre hands, brown shoes, rough xerox shadows. Make the subject large and compressed in the center, wrap red handwriting around the poster border, and keep the green rail as a strong lower diagonal sweep. Use gritty halftone dirt and tactile screen-print texture. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling."
+    },
+    {
+      "case_name": "Night Market Roll",
+      "variables": {
+        "SUBJECT": "a night market courier skater",
+        "SUBJECT_ACTION": "leaning low into a fast carve with one hand near the pavement",
+        "PRODUCT_OR_PROP": "green cruiser board and small delivery backpack",
+        "LOCATION": "cream paper poster field with minimal market stall silhouettes",
+        "BACKGROUND_ELEMENTS": "red handwritten motion words, curved arrows, rough cream paper grain, and dry ink texture",
+        "MAIN_TEXT": "ROLL CALL",
+        "SECONDARY_TEXT": "late snack / turn left / keep moving",
+        "ACCENT_SYMBOL": "red crescent underline beneath the carve",
+        "WARDROBE_STYLE": "oversized navy windbreaker, gray cargo pants, ochre hands, brown shoes, tiny black cap, posterized shadows",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Teenage Skate Scribble Screenprint Poster image. Case: Night Market Roll. Subject: a night market courier skater leaning low into a fast carve with one hand near the pavement. Prop: green cruiser board and small delivery backpack. Scene: cream paper poster field with minimal market stall silhouettes. Background marks: red handwritten motion words, curved arrows, rough cream paper grain, and dry ink texture. Main red border text: ROLL CALL. Secondary handwritten fragments: late snack / turn left / keep moving. Accent: red crescent underline beneath the carve. Wardrobe and color styling: oversized navy windbreaker, gray cargo pants, ochre hands, brown shoes, tiny black cap, posterized shadows. Stretch the carve pose across the center, keep the green board as a broad lower sweep, and place red handwritten words around the wide frame edges. Keep the image like an indie skate zine silkscreen print. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling.",
+      "prompt_9x16": "Create a vertical 9:16 Teenage Skate Scribble Screenprint Poster image. Case: Night Market Roll. Subject: a night market courier skater leaning low into a fast carve with one hand near the pavement. Prop: green cruiser board and small delivery backpack. Scene: cream paper poster field with minimal market stall silhouettes. Background marks: red handwritten motion words, curved arrows, rough cream paper grain, and dry ink texture. Main red border text: ROLL CALL. Secondary handwritten fragments: late snack / turn left / keep moving. Accent: red crescent underline beneath the carve. Wardrobe and color styling: oversized navy windbreaker, gray cargo pants, ochre hands, brown shoes, tiny black cap, posterized shadows. Place the figure as a large bent cutout through the center, sweep the green board across the lower third, and surround it with loose red border lettering and motion curls. Keep the image like an indie skate zine silkscreen print. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference wording, clean vector polish, glossy 3D, chrome, neon gradients, long paragraph text, and corporate sports ad styling."
+    }
+  ],
+  "license": "CC BY 4.0"
+}
