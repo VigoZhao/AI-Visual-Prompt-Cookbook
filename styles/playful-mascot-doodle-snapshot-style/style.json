@@ -1,0 +1,122 @@
+{
+  "style_name": "Playful Mascot Doodle Snapshot Style",
+  "style_slug": "playful-mascot-doodle-snapshot-style",
+  "version": "2026.05.13",
+  "status": "stable",
+  "updated_at": "2026-05-13",
+  "summary": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Playful Mascot Doodle Snapshot\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nAccent symbols: {ACCENT_SYMBOL}.\nWardrobe or styling: {WARDROBE_STYLE}.\n\nUse a realistic casual phone-photo scene as the base layer. Keep the environment photographic, naturally lit, and location-specific. Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents. Add a loose warm outline around the main subject, plus hand-drawn sparkles, spirals, web lines, stars, arrows, and marker doodles floating over the scene.\n\nPlace the main headline inside a cream or pale-yellow wavy ribbon sticker in the upper third. Use imperfect uppercase hand-lettered marker typography in dark burgundy ink. Keep the main subject's face, product, or focal object unobstructed. The result should feel like a cheerful social-media photo booth collage, not a polished corporate ad.\n\nAvoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.",
+  "negative_prompt": "Avoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.",
+  "variables": {
+    "SUBJECT": "main person, group, product, pet, or focal object",
+    "SUBJECT_ACTION": "main pose or action, such as leaning, posing, holding a prop, waving, sitting, listening, or celebrating",
+    "PRODUCT_OR_PROP": "object, product, food, drink, book, toy, travel item, or hero prop placed in the scene",
+    "LOCATION": "real-world environment or setting, such as garden cafe, bookstore, street market, boardwalk, classroom, studio, or transit stop",
+    "BACKGROUND_ELEMENTS": "secondary scene details such as plants, furniture, lights, windows, shelves, railings, signage, or crowd hints",
+    "MAIN_TEXT": "short hand-lettered headline inside a ribbon or sticker panel",
+    "SECONDARY_TEXT": "optional small handwritten label, tiny caption, or repeated supporting mark; can be empty",
+    "ACCENT_SYMBOL": "decorative symbol set such as stars, spirals, web lines, hearts, arrows, sparkle marks, or comic motion lines",
+    "WARDROBE_STYLE": "styling direction for the subject or mascot costumes, such as casual cafe outfit, travel outfit, streetwear, beachwear, school outfit, or colorful themed accessories",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "palette": {
+    "photo_base": [
+      "leaf green",
+      "warm wood brown",
+      "soft daylight gray",
+      "cream highlights"
+    ],
+    "cartoon_accents": [
+      "sunny yellow",
+      "teal",
+      "coral",
+      "sky blue",
+      "lavender",
+      "soft pink",
+      "warm cream",
+      "white"
+    ],
+    "linework": [
+      "dark ink",
+      "burgundy marker",
+      "white gel-pen doodle",
+      "pale yellow outline"
+    ]
+  },
+  "usage_note": "Copy this JSON into an LLM image workflow and replace only the variables to keep the visual style consistent.",
+  "example_cases": [
+    {
+      "case_name": "Cafe Garden Mascot Meetup",
+      "variables": {
+        "SUBJECT": "a young traveler at a leafy outdoor cafe",
+        "SUBJECT_ACTION": "resting their cheek on one hand while smiling toward the camera",
+        "PRODUCT_OR_PROP": "a wooden cafe table with an iced drink and a small travel notebook",
+        "LOCATION": "a bright garden cafe terrace",
+        "BACKGROUND_ELEMENTS": "lush palm leaves, black metal railing, glass roof, string lights, warm wooden tables",
+        "MAIN_TEXT": "MASCOT MEETUP",
+        "SECONDARY_TEXT": "tiny hello labels near the stickers",
+        "ACCENT_SYMBOL": "white corner web lines, pale yellow sparkles, pink spirals, curly marker swashes",
+        "WARDROBE_STYLE": "casual summer cafe outfit with soft warm colors",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Playful Mascot Doodle Snapshot style. Subject: a young traveler at a leafy outdoor cafe. Subject action: resting their cheek on one hand while smiling toward the camera. Product or prop: a wooden cafe table with an iced drink and a small travel notebook. Location: a bright garden cafe terrace. Background elements: lush palm leaves, black metal railing, glass roof, string lights, warm wooden tables. Main text: \"MASCOT MEETUP\". Secondary text: tiny hello labels near the stickers. Accent symbols: white corner web lines, pale yellow sparkles, pink spirals, curly marker swashes. Wardrobe or styling: casual summer cafe outfit with soft warm colors. Use a realistic casual phone-photo scene as the base layer, with original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers layered over it. Add a cream wavy ribbon headline across the upper left with imperfect dark burgundy hand lettering. Keep the subject's face unobstructed. Spread mascot stickers across the foreground and side edges while keeping the cafe visible. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems.",
+      "prompt_9x16": "Create a 9:16 image in the Playful Mascot Doodle Snapshot style. Subject: a young traveler at a leafy outdoor cafe. Subject action: resting their cheek on one hand while smiling toward the camera. Product or prop: a wooden cafe table with an iced drink and a small travel notebook. Location: a bright garden cafe terrace. Background elements: lush palm leaves, black metal railing, glass roof, string lights, warm wooden tables. Main text: \"MASCOT MEETUP\". Secondary text: tiny hello labels near the stickers. Accent symbols: white corner web lines, pale yellow sparkles, pink spirals, curly marker swashes. Wardrobe or styling: casual summer cafe outfit with soft warm colors. Use a realistic casual phone-photo scene as the base layer, with original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers layered over it. Add a cream wavy ribbon headline in the upper third with imperfect dark burgundy hand lettering. Keep the subject's face unobstructed. Use vertical stacking, one edge-cropped foreground mascot, and one small sticker peeking from behind the subject. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems."
+    },
+    {
+      "case_name": "Night Market Snack Quest",
+      "variables": {
+        "SUBJECT": "a street food creator at a colorful night market",
+        "SUBJECT_ACTION": "holding up a skewer and laughing as sticker mascots gather around",
+        "PRODUCT_OR_PROP": "a paper tray of snacks and a bright drink cup",
+        "LOCATION": "a lively night market food lane",
+        "BACKGROUND_ELEMENTS": "lanterns, vendor stalls, handwritten menus, blurred crowd movement, warm lights",
+        "MAIN_TEXT": "SNACK QUEST",
+        "SECONDARY_TEXT": "yum yum",
+        "ACCENT_SYMBOL": "yellow stars, steam doodles, arrows, pink spirals, little comic bursts",
+        "WARDROBE_STYLE": "playful streetwear with a colorful jacket and casual accessories",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Playful Mascot Doodle Snapshot style. Subject: a street food creator at a colorful night market. Subject action: holding up a skewer and laughing as sticker mascots gather around. Product or prop: a paper tray of snacks and a bright drink cup. Location: a lively night market food lane. Background elements: lanterns, vendor stalls, handwritten menus, blurred crowd movement, warm lights. Main text: \"SNACK QUEST\". Secondary text: \"yum yum\". Accent symbols: yellow stars, steam doodles, arrows, pink spirals, little comic bursts. Wardrobe or styling: playful streetwear with a colorful jacket and casual accessories. Use a realistic phone-photo market scene as the base, then layer original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers with thick outlines and glossy colors. Add a cream wavy ribbon headline across the upper center with dark burgundy hand lettering. Use a wide sticker spread across the side edges. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems.",
+      "prompt_9x16": "Create a 9:16 image in the Playful Mascot Doodle Snapshot style. Subject: a street food creator at a colorful night market. Subject action: holding up a skewer and laughing as sticker mascots gather around. Product or prop: a paper tray of snacks and a bright drink cup. Location: a lively night market food lane. Background elements: lanterns, vendor stalls, handwritten menus, blurred crowd movement, warm lights. Main text: \"SNACK QUEST\". Secondary text: \"yum yum\". Accent symbols: yellow stars, steam doodles, arrows, pink spirals, little comic bursts. Wardrobe or styling: playful streetwear with a colorful jacket and casual accessories. Use a realistic phone-photo market scene as the base, then layer original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers with thick outlines and glossy colors. Add a cream wavy ribbon headline in the upper third with dark burgundy hand lettering. Keep the food and face unobstructed. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems."
+    },
+    {
+      "case_name": "Bookstore Tiny Hero Parade",
+      "variables": {
+        "SUBJECT": "a student browsing in an independent bookstore",
+        "SUBJECT_ACTION": "leaning against a shelf while holding an open book",
+        "PRODUCT_OR_PROP": "a stack of colorful books and a bookmark",
+        "LOCATION": "a cozy independent bookstore",
+        "BACKGROUND_ELEMENTS": "tall shelves, reading lamps, paper signs, warm wood floor, narrow aisles",
+        "MAIN_TEXT": "SHELF HEROES",
+        "SECONDARY_TEXT": "read more",
+        "ACCENT_SYMBOL": "sparkle stars, page-turn motion lines, small hearts, white corner doodles",
+        "WARDROBE_STYLE": "soft campus outfit with layered casual pieces and a canvas tote",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Playful Mascot Doodle Snapshot style. Subject: a student browsing in an independent bookstore. Subject action: leaning against a shelf while holding an open book. Product or prop: a stack of colorful books and a bookmark. Location: a cozy independent bookstore. Background elements: tall shelves, reading lamps, paper signs, warm wood floor, narrow aisles. Main text: \"SHELF HEROES\". Secondary text: \"read more\". Accent symbols: sparkle stars, page-turn motion lines, small hearts, white corner doodles. Wardrobe or styling: soft campus outfit with layered casual pieces and a canvas tote. Use a realistic casual bookstore photo as the base layer. Overlay original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers dressed in non-branded tiny adventure accessories, with thick outlines and bright colors. Add a pale yellow ribbon headline across the upper left and keep the shelves visible. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems.",
+      "prompt_9x16": "Create a 9:16 image in the Playful Mascot Doodle Snapshot style. Subject: a student browsing in an independent bookstore. Subject action: leaning against a shelf while holding an open book. Product or prop: a stack of colorful books and a bookmark. Location: a cozy independent bookstore. Background elements: tall shelves, reading lamps, paper signs, warm wood floor, narrow aisles. Main text: \"SHELF HEROES\". Secondary text: \"read more\". Accent symbols: sparkle stars, page-turn motion lines, small hearts, white corner doodles. Wardrobe or styling: soft campus outfit with layered casual pieces and a canvas tote. Use a realistic casual bookstore photo as the base layer. Overlay original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers dressed in non-branded tiny adventure accessories, with thick outlines and bright colors. Add a pale yellow ribbon headline in the upper third and loose cutout outline around the subject. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems."
+    },
+    {
+      "case_name": "Beach Boardwalk Bubble Crew",
+      "variables": {
+        "SUBJECT": "a beach visitor sitting beside a surfboard on a boardwalk",
+        "SUBJECT_ACTION": "tilting sunglasses while looking toward the camera",
+        "PRODUCT_OR_PROP": "a surfboard, a tote bag, and a cold lemonade cup",
+        "LOCATION": "a sunny beach boardwalk",
+        "BACKGROUND_ELEMENTS": "palm shadows, railings, ocean glimpses, beach umbrellas, warm wooden planks",
+        "MAIN_TEXT": "SUNNY CREW",
+        "SECONDARY_TEXT": "good day",
+        "ACCENT_SYMBOL": "bubble doodles, bright stars, wave lines, white corner loops, yellow swirls",
+        "WARDROBE_STYLE": "bright beachwear with playful accessories and sun-washed colors",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Playful Mascot Doodle Snapshot style. Subject: a beach visitor sitting beside a surfboard on a boardwalk. Subject action: tilting sunglasses while looking toward the camera. Product or prop: a surfboard, a tote bag, and a cold lemonade cup. Location: a sunny beach boardwalk. Background elements: palm shadows, railings, ocean glimpses, beach umbrellas, warm wooden planks. Main text: \"SUNNY CREW\". Secondary text: \"good day\". Accent symbols: bubble doodles, bright stars, wave lines, white corner loops, yellow swirls. Wardrobe or styling: bright beachwear with playful accessories and sun-washed colors. Use a realistic casual beach phone photo as the base. Add original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers with thick outlines and glossy bright color, spread across the foreground and side edges. Add a cream ribbon headline across the upper center. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems.",
+      "prompt_9x16": "Create a 9:16 image in the Playful Mascot Doodle Snapshot style. Subject: a beach visitor sitting beside a surfboard on a boardwalk. Subject action: tilting sunglasses while looking toward the camera. Product or prop: a surfboard, a tote bag, and a cold lemonade cup. Location: a sunny beach boardwalk. Background elements: palm shadows, railings, ocean glimpses, beach umbrellas, warm wooden planks. Main text: \"SUNNY CREW\". Secondary text: \"good day\". Accent symbols: bubble doodles, bright stars, wave lines, white corner loops, yellow swirls. Wardrobe or styling: bright beachwear with playful accessories and sun-washed colors. Use a realistic casual beach phone photo as the base. Add original fruit, cloud, star, cup, wave, and jelly-shaped flat cartoon mascot stickers with thick outlines and glossy bright color, one edge-cropped in the foreground and one peeking behind the surfboard. Add a cream ribbon headline in the upper third. Avoid watermark, usernames, logos, licensed characters, copied IP, franchise costumes, goggle-eyed capsule characters, denim overalls, red-blue web-pattern suits, masks, shields, and helmet emblems."
+    }
+  ],
+  "license": "CC BY 4.0"
+}

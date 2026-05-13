@@ -49,45 +49,56 @@ styles/<style-slug>/
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="styles/playful-mascot-doodle-snapshot-style"><img src="styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg" alt="Playful Mascot Doodle Snapshot preview"></a>
+<h3>Playful Mascot Doodle Snapshot</h3>
+<p>一种把真实生活社交照片转成轻快贴纸拼贴海报的风格：在摄影场景上叠加原创卡通吉祥物贴纸、手绘描边、丝带标题牌、闪光、螺旋和草稿感装饰符号。</p>
+<p><a href="styles/playful-mascot-doodle-snapshot-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/playful-mascot-doodle-snapshot-style">目录</a> · <a href="styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg">9:16 预览</a></p>
+</td>
+<td width="50%" valign="top">
 <a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
 <h3>Teenage Skate Scribble Screenprint Poster</h3>
 <p>一种复古滑板 zine 海报风格：扭曲的中央滑板人物剪贴、奶油纸张底、松散红色手写边框字、粗粝双色丝网印刷质感，以及海军蓝、灰、绿、赭色的有限街头配色。</p>
 <p><a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style">目录</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16 预览</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster preview"></a>
-<h3>Impact Burst Halftone Comic Poster</h3>
-<p>一种响亮的复古漫画海报系统：厚重黑色墨线、扁平高饱和色块、超大冲击字体、夸张插画主体、对角道具、对话爆裂形、烟雾团、半色调网点和做旧丝网印刷颗粒。</p>
-<p><a href="styles/impact-burst-halftone-comic-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/impact-burst-halftone-comic-poster-style">目录</a> · <a href="styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg">9:16 预览</a></p>
 </td>
 </tr>
 </table>
 
 ## 风格索引
 
-1. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-2. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-3. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-4. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-5. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-6. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-7. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-8. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-9. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-10. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-11. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-12. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-13. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-14. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-15. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-16. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-17. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-18. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-19. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-20. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-21. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
+2. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+3. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+4. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+5. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+6. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+7. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+8. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+9. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+10. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+11. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+12. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+13. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+14. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+15. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+16. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+17. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+18. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+19. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+20. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+21. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+22. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## 风格目录
+
+### Playful Mascot Doodle Snapshot
+
+<a href="styles/playful-mascot-doodle-snapshot-style"><img src="styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg" width="720" alt="Playful Mascot Doodle Snapshot preview"></a>
+
+一种把真实生活社交照片转成轻快贴纸拼贴海报的风格：在摄影场景上叠加原创卡通吉祥物贴纸、手绘描边、丝带标题牌、闪光、螺旋和草稿感装饰符号。
+
+文件：[style.json](styles/playful-mascot-doodle-snapshot-style/style.json) · [16:9 预览](styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg) · [目录](styles/playful-mascot-doodle-snapshot-style)
+
+---
 
 ### Teenage Skate Scribble Screenprint Poster
 
