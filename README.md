@@ -4,9 +4,11 @@
 
 English | [中文](README.zh-CN.md)
 
-**Copy a JSON, get a style.** A curated library of plug-and-play visual prompt styles for AI image generation - distilled from visual design references and structured for more consistent, reusable output.
+**Copy a JSON, get a style.** Drop one `style.json` into ChatGPT, Claude, Nano Banana Pro, or any LLM image workflow. Replace the variables, keep the visual system.
 
-Curated by [@VigoCreativeAI](https://x.com/VigoCreativeAI), structured with assistance from OpenAI Codex.
+A curated library of plug-and-play visual prompt styles for AI image generation - distilled from visual design references and structured for more consistent, reusable output.
+
+Curated by [@VigoCreativeAI](https://x.com/VigoCreativeAI), structured with assistance from OpenAI Codex. Star this repo to follow new style drops.
 
 ## Why This Exists
 
@@ -16,8 +18,20 @@ Most AI image prompts are one-off text blobs: hard to reuse, hard to compare, an
 
 1. Browse the [Latest Styles](#latest-styles) or [Style Index](#style-index) below.
 2. Open a style folder and copy the `style.json`.
-3. Feed the JSON into ChatGPT, Claude, or any LLM-based image workflow.
-4. Swap in your own subject while keeping the style structure locked.
+3. Paste the full JSON into ChatGPT, Claude, Nano Banana Pro, or any LLM-based image workflow.
+4. Change only the `variables` values for your own subject, scene, text, and aspect ratio.
+5. Generate the final image prompt and send it to your image model.
+
+Example instruction:
+
+```text
+Use this style.json as the locked visual style.
+Replace only the variables:
+SUBJECT = a streetwear product photographer
+LOCATION = a rainy neon alley
+MAIN_TEXT = NIGHT DROP
+ASPECT_RATIO = 16:9
+```
 
 ## Package Shape
 

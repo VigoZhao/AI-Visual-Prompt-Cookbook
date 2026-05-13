@@ -4,9 +4,11 @@
 
 [English](README.md) | 中文
 
-**复制一个 JSON，得到一种风格。** 这是一个面向 AI 图像生成的可复用视觉提示词风格库：每个风格都被整理成可直接使用的 `style.json`，并配套横竖两张预览图，方便浏览、复制和二次生成。
+**复制一个 JSON，得到一种风格。** 把一个 `style.json` 放进 ChatGPT、Claude、Nano Banana Pro、即梦或其他 LLM 图像工作流，替换变量，保留完整视觉系统。
 
-由 [@VigoCreativeAI](https://x.com/VigoCreativeAI) 策划整理，并在 OpenAI Codex 的协助下结构化。
+这是一个面向 AI 图像生成的可复用视觉提示词风格库：每个风格都被整理成可直接使用的 `style.json`，并配套横竖两张预览图，方便浏览、复制和二次生成。
+
+由 [@VigoCreativeAI](https://x.com/VigoCreativeAI) 策划整理，并在 OpenAI Codex 的协助下结构化。Star 这个仓库可以持续关注新的风格更新。
 
 ## 为什么做这个项目
 
@@ -16,8 +18,20 @@
 
 1. 浏览下面的 [最新风格](#最新风格) 或 [风格索引](#风格索引)。
 2. 打开某个风格目录，复制里面的 `style.json`。
-3. 把 JSON 放进 ChatGPT、Claude 或其他 LLM 图像工作流。
-4. 替换成你自己的主体、场景和文字，保留风格结构。
+3. 把完整 JSON 放进 ChatGPT、Claude、Nano Banana Pro、即梦或其他 LLM 图像工作流。
+4. 只修改 `variables` 里的主体、场景、文字和比例。
+5. 生成最终图像提示词，再发送给你的图像模型。
+
+示例指令：
+
+```text
+把这个 style.json 当作锁定的视觉风格。
+只替换 variables：
+SUBJECT = 一位街头服装产品摄影师
+LOCATION = 雨夜霓虹小巷
+MAIN_TEXT = NIGHT DROP
+ASPECT_RATIO = 16:9
+```
 
 ## 文件结构
 
