@@ -1,5 +1,7 @@
 # Vigo_Image_style_prompt
 
+![Vigo_Image_style_prompt 头图](assets/hero.jpg)
+
 [English](README.md) | 中文
 
 **复制一个 JSON，得到一种风格。** 这是一个面向 AI 图像生成的可复用视觉提示词风格库：每个风格都被整理成可直接使用的 `style.json`，并配套横竖两张预览图，方便浏览、复制和二次生成。

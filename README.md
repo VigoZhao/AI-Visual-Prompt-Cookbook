@@ -1,5 +1,7 @@
 # Vigo_Image_style_prompt
 
+![Vigo_Image_style_prompt hero](assets/hero.jpg)
+
 English | [中文](README.zh-CN.md)
 
 **Copy a JSON, get a style.** A curated library of plug-and-play visual prompt styles for AI image generation - distilled from visual design references and structured for more consistent, reusable output.
