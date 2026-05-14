@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-23-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-46-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -39,7 +39,7 @@
 | Photo + Doodle | Social snapshots, lifestyle scenes, playful overlays | [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot), [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid) |
 | Zine + Collage | Fashion posters, music visuals, maximalist editorial layouts | [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine), [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster) |
 | Type Posters | Big headline systems, loud campaign graphics, visual punch | [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster), [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster) |
-| Travel + City | Destination posters, street scenes, urban diaries | [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster), [Urban Transit Doodle Diary](#urban-transit-doodle-diary) |
+| Travel + City | Destination posters, street scenes, urban diaries | [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail), [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster) |
 | Editorial + Minimal | Cleaner compositions, structured layouts, quieter art direction | [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster), [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster) |
 
 ## Why This Exists
@@ -123,30 +123,41 @@ styles/<style-slug>/
 
 ## Style Index
 
-1. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
-2. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-3. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-4. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-5. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-6. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-7. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-8. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-9. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-10. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-11. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-12. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-13. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-14. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-15. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-16. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-17. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-18. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-19. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-20. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-21. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-22. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
+2. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
+3. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+4. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+5. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+6. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+7. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+8. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+9. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+10. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+11. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+12. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+13. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+14. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+15. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+16. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+17. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+18. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+19. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+20. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+21. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+22. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+23. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## Style Catalog
+
+### Clean Triptych Travel Vlog Thumbnail
+
+<a href="styles/clean-triptych-travel-vlog-thumbnail-style"><img src="styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg" width="720" alt="Clean Triptych Travel Vlog Thumbnail preview"></a>
+
+A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.
+
+Files: [style.json](styles/clean-triptych-travel-vlog-thumbnail-style/style.json) · [16:9 preview](styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg) · [9:16 preview](styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg) · [folder](styles/clean-triptych-travel-vlog-thumbnail-style)
+
+---
 
 ### Playful Mascot Doodle Snapshot
 

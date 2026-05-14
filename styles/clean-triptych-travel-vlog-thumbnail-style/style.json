@@ -1,0 +1,125 @@
+{
+  "style_name": "Clean Triptych Travel Vlog Thumbnail Style",
+  "style_slug": "clean-triptych-travel-vlog-thumbnail-style",
+  "version": "2026.05.14",
+  "status": "stable",
+  "updated_at": "2026-05-14",
+  "summary": "A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Clean Triptych Travel Vlog Thumbnail\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe styling: {WARDROBE_STYLE}.\n\nUse a clean three-panel travel-vlog thumbnail composition. Divide the frame into three equal vertical photographic panels with hard edges and no visible border. Make the left panel a close-up lifestyle or cafe moment, the center panel a city-stroll scene with the traveler, and the right panel a landmark, scenic viewpoint, skyline, garden, gate, harbor, or destination proof point.\n\nPlace a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels. Use an extra-bold rounded geometric sans-serif, smooth and friendly, with no outline and minimal shadow. Put small italic white panel labels near the top, a small day-count line above the headline, a parenthetical vlog subtitle below it, and one tiny bottom-corner diary note.\n\nAdd only sparse white hand-drawn accent marks: a tiny heart, dash, underline, corner stroke, sparkle, or loose bracket. Keep the photo treatment warm, candid, soft, lightly grainy, and phone-camera realistic. The mood should feel modern, clean, travel-diary-like, and ready for a video thumbnail.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture, luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.",
+  "negative_prompt": "Avoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture, luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.",
+  "variables": {
+    "SUBJECT": "main traveler, host, couple, group, or implied travel point of view",
+    "SUBJECT_ACTION": "walking, posing, holding a drink, looking across the street, boarding transit, or pausing at a landmark",
+    "PRODUCT_OR_PROP": "unbranded drink, pastry, camera, tote bag, transit card, ticket, map, sunglasses, or travel snack",
+    "LOCATION": "destination city, neighborhood, street route, cafe, station, park, landmark, waterfront, or theme-park-like attraction",
+    "BACKGROUND_ELEMENTS": "three clean photo panels: close-up lifestyle panel, city-stroll panel, and landmark or scenic panel",
+    "MAIN_TEXT": "large lowercase destination headline",
+    "SECONDARY_TEXT": "small vlog subtitle, day count, panel captions, and short handwritten-feeling notes",
+    "ACCENT_SYMBOL": "tiny hand-drawn heart, underline, sparkle, bracket, dash, or loose corner mark",
+    "WARDROBE_STYLE": "simple travel outfit, dark coat, clean casual layers, neutral citywear, sunglasses, tote, or camera strap",
+    "ASPECT_RATIO": "9:16 vertical social thumbnail or 16:9 horizontal video thumbnail"
+  },
+  "palette": {
+    "typography": [
+      "pure white",
+      "soft caption white"
+    ],
+    "photo_base": [
+      "warm cafe amber",
+      "latte gold",
+      "city glass blue",
+      "sky blue",
+      "street gray",
+      "deep shadow",
+      "warm concrete",
+      "garden green"
+    ],
+    "finish": [
+      "natural daylight",
+      "soft grain",
+      "phone-camera compression",
+      "clean editorial contrast"
+    ]
+  },
+  "usage_note": "Copy this JSON into an LLM image workflow and replace only the variables to keep the triptych travel-vlog thumbnail system consistent.",
+  "example_cases": [
+    {
+      "case_name": "Seoul Cafe Route",
+      "variables": {
+        "SUBJECT": "a solo traveler in a black coat and sunglasses",
+        "SUBJECT_ACTION": "walking through a bright city street while glancing sideways",
+        "PRODUCT_OR_PROP": "unbranded iced citrus drink held close to the camera",
+        "LOCATION": "Seoul cafe district and palace garden route",
+        "BACKGROUND_ELEMENTS": "close-up cafe drink, glassy city avenue, palace roofline, garden wall, blue sky, and warm evening sidewalk",
+        "MAIN_TEXT": "seoul",
+        "SECONDARY_TEXT": "3 days in / korea vlog / are we staying out late",
+        "ACCENT_SYMBOL": "small white hand-drawn heart and short dash marks",
+        "WARDROBE_STYLE": "black city coat, relaxed trousers, sunglasses, tote bag, and clean walking shoes",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a solo traveler in a black coat and sunglasses. Subject action: walking through a bright city street while glancing sideways. Product or prop: unbranded iced citrus drink held close to the camera. Location: Seoul cafe district and palace garden route. Background elements: close-up cafe drink, glassy city avenue, palace roofline, garden wall, blue sky, and warm evening sidewalk. Main headline text: \"seoul\". Secondary text: \"3 days in / korea vlog / are we staying out late\". Accent symbol: small white hand-drawn heart and short dash marks. Wardrobe styling: black city coat, relaxed trousers, sunglasses, tote bag, and clean walking shoes. Use a horizontal video thumbnail divided into three equal vertical photo strips, huge lowercase white rounded sans headline across almost the full width, small italic white panel labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, warm candid phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload.",
+      "prompt_9x16": "Create a 9:16 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a solo traveler in a black coat and sunglasses. Subject action: walking through a bright city street while glancing sideways. Product or prop: unbranded iced citrus drink held close to the camera. Location: Seoul cafe district and palace garden route. Background elements: close-up cafe drink, glassy city avenue, palace roofline, garden wall, blue sky, and warm evening sidewalk. Main headline text: \"seoul\". Secondary text: \"3 days in / korea vlog / are we staying out late\". Accent symbol: small white hand-drawn heart and short dash marks. Wardrobe styling: black city coat, relaxed trousers, sunglasses, tote bag, and clean walking shoes. Use three equal vertical photographic panels, huge lowercase white rounded sans headline across the center, small italic white top labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, warm candid phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload."
+    },
+    {
+      "case_name": "Lisbon Tram Light",
+      "variables": {
+        "SUBJECT": "a weekend traveler wearing a cream sweater and cropped jacket",
+        "SUBJECT_ACTION": "waiting beside a narrow street while a tram passes behind",
+        "PRODUCT_OR_PROP": "unbranded espresso cup and folded paper map",
+        "LOCATION": "Lisbon hill street, tiled cafe, and river lookout",
+        "BACKGROUND_ELEMENTS": "espresso close-up, yellow tram street canyon, tiled wall, river bridge silhouette, terracotta roofs, and blue afternoon sky",
+        "MAIN_TEXT": "lisbon",
+        "SECONDARY_TEXT": "4 days in / portugal vlog / still walking uphill",
+        "ACCENT_SYMBOL": "tiny white underline, corner dash, and loose heart mark",
+        "WARDROBE_STYLE": "cream knit, cropped jacket, wide denim, small camera bag, and simple sunglasses",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a weekend traveler wearing a cream sweater and cropped jacket. Subject action: waiting beside a narrow street while a tram passes behind. Product or prop: unbranded espresso cup and folded paper map. Location: Lisbon hill street, tiled cafe, and river lookout. Background elements: espresso close-up, yellow tram street canyon, tiled wall, river bridge silhouette, terracotta roofs, and blue afternoon sky. Main headline text: \"lisbon\". Secondary text: \"4 days in / portugal vlog / still walking uphill\". Accent symbol: tiny white underline, corner dash, and loose heart mark. Wardrobe styling: cream knit, cropped jacket, wide denim, small camera bag, and simple sunglasses. Use a horizontal video thumbnail divided into three equal vertical photo strips, huge lowercase white rounded sans headline across almost the full width, small italic white panel labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, warm candid phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload.",
+      "prompt_9x16": "Create a 9:16 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a weekend traveler wearing a cream sweater and cropped jacket. Subject action: waiting beside a narrow street while a tram passes behind. Product or prop: unbranded espresso cup and folded paper map. Location: Lisbon hill street, tiled cafe, and river lookout. Background elements: espresso close-up, yellow tram street canyon, tiled wall, river bridge silhouette, terracotta roofs, and blue afternoon sky. Main headline text: \"lisbon\". Secondary text: \"4 days in / portugal vlog / still walking uphill\". Accent symbol: tiny white underline, corner dash, and loose heart mark. Wardrobe styling: cream knit, cropped jacket, wide denim, small camera bag, and simple sunglasses. Use three equal vertical photographic panels, huge lowercase white rounded sans headline across the center, small italic white top labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, warm candid phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload."
+    },
+    {
+      "case_name": "Taipei Rain Diary",
+      "variables": {
+        "SUBJECT": "a traveler in a dark rain jacket with a transparent umbrella",
+        "SUBJECT_ACTION": "crossing a wet street near glowing storefronts",
+        "PRODUCT_OR_PROP": "unbranded bubble tea cup and transit card",
+        "LOCATION": "Taipei rainy shopping lane, metro exit, and temple courtyard",
+        "BACKGROUND_ELEMENTS": "bubble tea close-up, wet scooter street, metro sign shapes without readable brands, temple lanterns, tiled roof, and soft gray sky",
+        "MAIN_TEXT": "taipei",
+        "SECONDARY_TEXT": "2 days in / taiwan vlog / rain plan changed",
+        "ACCENT_SYMBOL": "tiny white heart, raindrop dash, and curved underline",
+        "WARDROBE_STYLE": "dark rain jacket, loose black pants, compact crossbody bag, umbrella, and practical sneakers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a traveler in a dark rain jacket with a transparent umbrella. Subject action: crossing a wet street near glowing storefronts. Product or prop: unbranded bubble tea cup and transit card. Location: Taipei rainy shopping lane, metro exit, and temple courtyard. Background elements: bubble tea close-up, wet scooter street, metro sign shapes without readable brands, temple lanterns, tiled roof, and soft gray sky. Main headline text: \"taipei\". Secondary text: \"2 days in / taiwan vlog / rain plan changed\". Accent symbol: tiny white heart, raindrop dash, and curved underline. Wardrobe styling: dark rain jacket, loose black pants, compact crossbody bag, umbrella, and practical sneakers. Use a horizontal video thumbnail divided into three equal vertical photo strips, huge lowercase white rounded sans headline across almost the full width, small italic white panel labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, moody rainy phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload.",
+      "prompt_9x16": "Create a 9:16 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a traveler in a dark rain jacket with a transparent umbrella. Subject action: crossing a wet street near glowing storefronts. Product or prop: unbranded bubble tea cup and transit card. Location: Taipei rainy shopping lane, metro exit, and temple courtyard. Background elements: bubble tea close-up, wet scooter street, metro sign shapes without readable brands, temple lanterns, tiled roof, and soft gray sky. Main headline text: \"taipei\". Secondary text: \"2 days in / taiwan vlog / rain plan changed\". Accent symbol: tiny white heart, raindrop dash, and curved underline. Wardrobe styling: dark rain jacket, loose black pants, compact crossbody bag, umbrella, and practical sneakers. Use three equal vertical photographic panels, huge lowercase white rounded sans headline across the center, small italic white top labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, moody rainy phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload."
+    },
+    {
+      "case_name": "Paris Park Morning",
+      "variables": {
+        "SUBJECT": "a traveler in a navy blazer and soft scarf",
+        "SUBJECT_ACTION": "standing near a park railing with a small camera in hand",
+        "PRODUCT_OR_PROP": "unbranded pastry bag and compact film camera",
+        "LOCATION": "Paris bakery corner, boulevard walk, and garden monument view",
+        "BACKGROUND_ELEMENTS": "pastry bag close-up, tree-lined boulevard, stone railing, garden flowers, monument tower silhouette, and pale morning sky",
+        "MAIN_TEXT": "paris",
+        "SECONDARY_TEXT": "5 days in / france vlog / happy to be here",
+        "ACCENT_SYMBOL": "small white heart, short side dash, and handwritten bracket",
+        "WARDROBE_STYLE": "navy blazer, light scarf, loose trousers, camera strap, and classic city shoes",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a traveler in a navy blazer and soft scarf. Subject action: standing near a park railing with a small camera in hand. Product or prop: unbranded pastry bag and compact film camera. Location: Paris bakery corner, boulevard walk, and garden monument view. Background elements: pastry bag close-up, tree-lined boulevard, stone railing, garden flowers, monument tower silhouette, and pale morning sky. Main headline text: \"paris\". Secondary text: \"5 days in / france vlog / happy to be here\". Accent symbol: small white heart, short side dash, and handwritten bracket. Wardrobe styling: navy blazer, light scarf, loose trousers, camera strap, and classic city shoes. Use a horizontal video thumbnail divided into three equal vertical photo strips, huge lowercase white rounded sans headline across almost the full width, small italic white panel labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, soft morning phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload.",
+      "prompt_9x16": "Create a 9:16 image in the Clean Triptych Travel Vlog Thumbnail style. Subject: a traveler in a navy blazer and soft scarf. Subject action: standing near a park railing with a small camera in hand. Product or prop: unbranded pastry bag and compact film camera. Location: Paris bakery corner, boulevard walk, and garden monument view. Background elements: pastry bag close-up, tree-lined boulevard, stone railing, garden flowers, monument tower silhouette, and pale morning sky. Main headline text: \"paris\". Secondary text: \"5 days in / france vlog / happy to be here\". Accent symbol: small white heart, short side dash, and handwritten bracket. Wardrobe styling: navy blazer, light scarf, loose trousers, camera strap, and classic city shoes. Use three equal vertical photographic panels, huge lowercase white rounded sans headline across the center, small italic white top labels, day-count above, vlog subtitle below, sparse white hand-drawn accents, soft morning phone-photo lighting, slight grain, and clean modern travel thumbnail mood. Avoid watermarks, platform UI, real logos, brand names, colorful headline, heavy shadows, and sticker overload."
+    }
+  ],
+  "related_styles": [
+    "tokyo-kawaii-travel-collage-poster-style",
+    "urban-transit-doodle-diary-style",
+    "metro-doodle-snapshot-diary-style"
+  ],
+  "license": "CC BY 4.0"
+}
