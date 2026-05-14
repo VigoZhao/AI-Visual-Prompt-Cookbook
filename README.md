@@ -1,19 +1,31 @@
-# AI Visual Prompt Cookbook
+<h1 align="center">AI Visual Prompt Cookbook</h1>
 
-![AI Visual Prompt Cookbook showcase](assets/hero-collage.jpg)
+<p align="center">
+  <img src="assets/hero-collage.jpg" alt="AI Visual Prompt Cookbook showcase">
+</p>
 
-English | [中文](README.zh-CN.md)
+<p align="center">
+  English | <a href="README.zh-CN.md">中文</a>
+</p>
 
-![Styles](https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square)
-![Previews](https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square)
-![Format](https://img.shields.io/badge/format-style.json-111111?style=flat-square)
-![Languages](https://img.shields.io/badge/languages-English%20%2B%20%E4%B8%AD%E6%96%87-f7b801?style=flat-square)
+<p align="center">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square">
+  <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-English%20%2B%20%E4%B8%AD%E6%96%87-f7b801?style=flat-square">
+</p>
 
-**Copy a JSON, get a style.** Drop one `style.json` into ChatGPT, Claude, Nano Banana Pro, or any LLM image workflow. Replace the variables, keep the visual system.
+<p align="center">
+  <strong>Copy a JSON, get a style.</strong> Drop one <code>style.json</code> into ChatGPT, Claude, Nano Banana Pro, or any LLM image workflow. Replace the variables, keep the visual system.
+</p>
 
-A curated library of plug-and-play visual prompt styles for AI image generation - distilled from visual design references and structured for more consistent, reusable output.
+<p align="center">
+  A curated library of plug-and-play visual prompt styles for AI image generation, distilled from visual design references and structured for more consistent, reusable output.
+</p>
 
-Curated by [@VigoCreativeAI](https://x.com/VigoCreativeAI), structured with assistance from OpenAI Codex. Star this repo to follow new style drops.
+<p align="center">
+  Curated by <a href="https://x.com/VigoCreativeAI">@VigoCreativeAI</a>, structured with assistance from OpenAI Codex. Star this repo to follow new style drops.
+</p>
 
 ## Quick Links
 

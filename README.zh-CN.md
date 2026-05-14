@@ -1,19 +1,31 @@
-# AI Visual Prompt Cookbook
+<h1 align="center">AI Visual Prompt Cookbook</h1>
 
-![AI Visual Prompt Cookbook 风格展示](assets/hero-collage.jpg)
+<p align="center">
+  <img src="assets/hero-collage.jpg" alt="AI Visual Prompt Cookbook 风格展示">
+</p>
 
-[English](README.md) | 中文
+<p align="center">
+  <a href="README.md">English</a> | 中文
+</p>
 
-![风格数量](https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square)
-![预览图](https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square)
-![格式](https://img.shields.io/badge/format-style.json-111111?style=flat-square)
-![语言](https://img.shields.io/badge/languages-English%20%2B%20%E4%B8%AD%E6%96%87-f7b801?style=flat-square)
+<p align="center">
+  <img alt="风格数量" src="https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square">
+  <img alt="预览图" src="https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square">
+  <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
+  <img alt="语言" src="https://img.shields.io/badge/languages-English%20%2B%20%E4%B8%AD%E6%96%87-f7b801?style=flat-square">
+</p>
 
-**复制一个 JSON，得到一种风格。** 把一个 `style.json` 放进 ChatGPT、Claude、Nano Banana Pro、即梦或其他 LLM 图像工作流，替换变量，保留完整视觉系统。
+<p align="center">
+  <strong>复制一个 JSON，得到一种风格。</strong> 把一个 <code>style.json</code> 放进 ChatGPT、Claude、Nano Banana Pro、即梦或其他 LLM 图像工作流，替换变量，保留完整视觉系统。
+</p>
 
-这是一个面向 AI 图像生成的可复用视觉提示词风格库：每个风格都被整理成可直接使用的 `style.json`，并配套横竖两张预览图，方便浏览、复制和二次生成。
+<p align="center">
+  这是一个面向 AI 图像生成的可复用视觉提示词风格库：每个风格都被整理成可直接使用的 <code>style.json</code>，并配套横竖两张预览图，方便浏览、复制和二次生成。
+</p>
 
-由 [@VigoCreativeAI](https://x.com/VigoCreativeAI) 策划整理，并在 OpenAI Codex 的协助下结构化。Star 这个仓库可以持续关注新的风格更新。
+<p align="center">
+  由 <a href="https://x.com/VigoCreativeAI">@VigoCreativeAI</a> 策划整理，并在 OpenAI Codex 的协助下结构化。Star 这个仓库可以持续关注新的风格更新。
+</p>
 
 ## 快速入口
 
