@@ -1,6 +1,6 @@
-# Vigo_Image_style_prompt
+# AI Visual Prompt Cookbook
 
-![Vigo_Image_style_prompt 头图](assets/hero.jpg)
+![AI Visual Prompt Cookbook 头图](assets/hero.jpg)
 
 [English](README.md) | 中文
 
