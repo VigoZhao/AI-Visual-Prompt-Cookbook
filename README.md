@@ -1,8 +1,13 @@
 # AI Visual Prompt Cookbook
 
-![AI Visual Prompt Cookbook hero](assets/hero.jpg)
+![AI Visual Prompt Cookbook showcase](assets/hero-collage.jpg)
 
 English | [中文](README.zh-CN.md)
+
+![Styles](https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square)
+![Previews](https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square)
+![Format](https://img.shields.io/badge/format-style.json-111111?style=flat-square)
+![Languages](https://img.shields.io/badge/languages-English%20%2B%20%E4%B8%AD%E6%96%87-f7b801?style=flat-square)
 
 **Copy a JSON, get a style.** Drop one `style.json` into ChatGPT, Claude, Nano Banana Pro, or any LLM image workflow. Replace the variables, keep the visual system.
 
@@ -10,13 +15,23 @@ A curated library of plug-and-play visual prompt styles for AI image generation 
 
 Curated by [@VigoCreativeAI](https://x.com/VigoCreativeAI), structured with assistance from OpenAI Codex. Star this repo to follow new style drops.
 
+## Quick Links
+
+| Category | Good for | Start with |
+| --- | --- | --- |
+| Photo + Doodle | Social snapshots, lifestyle scenes, playful overlays | [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot), [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid) |
+| Zine + Collage | Fashion posters, music visuals, maximalist editorial layouts | [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine), [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster) |
+| Type Posters | Big headline systems, loud campaign graphics, visual punch | [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster), [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster) |
+| Travel + City | Destination posters, street scenes, urban diaries | [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster), [Urban Transit Doodle Diary](#urban-transit-doodle-diary) |
+| Editorial + Minimal | Cleaner compositions, structured layouts, quieter art direction | [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster), [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster) |
+
 ## Why This Exists
 
 Most AI image prompts are one-off text blobs: hard to reuse, hard to compare, and hard to iterate on. This repo takes a different approach: each visual style is distilled into a structured `style.json` you can drop into any LLM-based image generation workflow. Same JSON, more consistent style direction across generations.
 
 ## Quick Start
 
-1. Browse the [Latest Styles](#latest-styles) or [Style Index](#style-index) below.
+1. Browse the [Featured Styles](#featured-styles), [Quick Links](#quick-links), or [Style Index](#style-index).
 2. Open a style folder and copy the `style.json`.
 3. Paste the full JSON into ChatGPT, Claude, Nano Banana Pro, or any LLM-based image workflow.
 4. Change only the `variables` values for your own subject, scene, text, and aspect ratio.
@@ -33,6 +48,53 @@ MAIN_TEXT = NIGHT DROP
 ASPECT_RATIO = 16:9
 ```
 
+## Featured Styles
+
+Six visual systems to understand the range of the library. Every style ships as one JSON plus two preview images.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg" alt="K-pop Apocalypse Ransom Zine preview"></a>
+<h3>K-pop Apocalypse Ransom Zine</h3>
+<p>Maximalist fashion zine collage with cutout portraits, ransom-note typography, crumpled paper, sticker blocks, and loud accent color.</p>
+<p><a href="styles/k-pop-apocalypse-ransom-zine-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/k-pop-apocalypse-ransom-zine-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster preview"></a>
+<h3>Impact Burst Halftone Comic Poster</h3>
+<p>A loud retro comic poster system with thick ink, high-saturation color, oversized impact typography, speech bursts, and screen-print grain.</p>
+<p><a href="styles/impact-burst-halftone-comic-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/impact-burst-halftone-comic-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/playful-mascot-doodle-snapshot-style"><img src="styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg" alt="Playful Mascot Doodle Snapshot preview"></a>
+<h3>Playful Mascot Doodle Snapshot</h3>
+<p>A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.</p>
+<p><a href="styles/playful-mascot-doodle-snapshot-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/playful-mascot-doodle-snapshot-style">Folder</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
+<h3>Teenage Skate Scribble Screenprint Poster</h3>
+<p>A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.</p>
+<p><a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/neon-kinetic-typographic-poster-style"><img src="styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg" alt="Neon Kinetic Typographic Poster preview"></a>
+<h3>Neon Kinetic Typographic Poster</h3>
+<p>Dramatic outdoor editorial design with low-angle photography, warped neon type, film grain, and youth-culture campaign energy.</p>
+<p><a href="styles/neon-kinetic-typographic-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/neon-kinetic-typographic-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/tokyo-kawaii-travel-collage-poster-style"><img src="styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg" alt="Tokyo Kawaii Travel Collage Poster preview"></a>
+<h3>Tokyo Kawaii Travel Collage Poster</h3>
+<p>A maximalist city-travel collage with destination type, stickers, speech bubbles, cutout photography, and scrapbook editorial layout.</p>
+<p><a href="styles/tokyo-kawaii-travel-collage-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/tokyo-kawaii-travel-collage-poster-style">Folder</a></p>
+</td>
+</tr>
+</table>
+
 ## Package Shape
 
 ```text
@@ -41,27 +103,6 @@ styles/<style-slug>/
   preview-16x9.jpg    # Landscape preview
   preview-9x16.jpg    # Portrait preview
 ```
-
-## Latest Styles
-
-Latest uploads appear first. Each style keeps the repository lightweight: one JSON plus two preview images.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="styles/playful-mascot-doodle-snapshot-style"><img src="styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg" alt="Playful Mascot Doodle Snapshot preview"></a>
-<h3>Playful Mascot Doodle Snapshot</h3>
-<p>A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.</p>
-<p><a href="styles/playful-mascot-doodle-snapshot-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/playful-mascot-doodle-snapshot-style">Folder</a> · <a href="styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg">9:16 preview</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
-<h3>Teenage Skate Scribble Screenprint Poster</h3>
-<p>A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.</p>
-<p><a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style">Folder</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16 preview</a></p>
-</td>
-</tr>
-</table>
 
 ## Style Index
 
@@ -311,7 +352,7 @@ Files: [style.json](styles/y2k-grunge-hiphop-cutout-poster-style/style.json) · 
 ## Publishing Model
 
 - One directory = one style
-- New styles appear first in Latest Styles and Style Index
+- New styles appear first in Featured Styles and Style Index
 - Main branch contains only `style.json` plus two preview JPGs per style
 - Full galleries are not included in this repository
 - Do not publish original reference images, watermarks, platform identifiers, QR codes, account handles, private prompts, or brand-owned assets without permission
