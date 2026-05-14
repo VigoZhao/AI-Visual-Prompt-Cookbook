@@ -5,14 +5,19 @@
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> | 中文
+  <a href="README.md">English</a> |
+  简体中文 |
+  <a href="README.zh-TW.md">繁體中文</a> |
+  <a href="README.ja.md">日本語</a> |
+  <a href="README.ko.md">한국어</a> |
+  <a href="README.id.md">Bahasa Indonesia</a>
 </p>
 
 <p align="center">
   <img alt="风格数量" src="https://img.shields.io/badge/styles-22-ff5a7a?style=flat-square">
   <img alt="预览图" src="https://img.shields.io/badge/previews-44-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
-  <img alt="语言" src="https://img.shields.io/badge/languages-English%20%2B%20%E4%B8%AD%E6%96%87-f7b801?style=flat-square">
+  <img alt="语言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
 
 <p align="center">
