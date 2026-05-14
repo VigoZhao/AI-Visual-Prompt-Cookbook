@@ -1,0 +1,119 @@
+{
+  "style_name": "Tri Color Hardcut Portrait Poster Style",
+  "style_slug": "tri-color-hardcut-portrait-poster-style",
+  "version": "2026.05.14",
+  "status": "stable",
+  "updated_at": "2026-05-14",
+  "summary": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Tri Color Hardcut Portrait Poster\" style.\n\nScene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} against {LOCATION}. Use {WARDROBE_STYLE}. Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.\n\nComposition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, {BACKGROUND_ELEMENTS}, and {ACCENT_SYMBOL}. Keep the subject close to the frame and let some silhouette edges crop off the canvas.\n\nTypography: no visible text by default. If text is explicitly required, use \"{MAIN_TEXT}\" as a very short block headline outside the face area and \"{SECONDARY_TEXT}\" as a tiny supporting mark. Do not add text otherwise.\n\nFinish: clean flat vector-like poster, stencil portrait, screen-print simplicity without grain, blunt cutout shapes, high contrast, no gradients, no outlines, no photorealistic rendering.\n\nAvoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors, thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.",
+  "negative_prompt": "Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealistic portrait, painterly brushwork, airbrush gradients, soft shading, realistic skin texture, more than three colors, thin outlines, contour drawing, detailed eyelashes, paper grain, halftone, distressed texture, complex environment, glossy 3D, chrome, neon gradient, anime, comic panel, long paragraph text, and brand logo.",
+  "variables": {
+    "SUBJECT": "main person, character, performer, athlete, worker, object-as-portrait, or stylized figure",
+    "SUBJECT_ACTION": "staring forward, leaning on one hand, turning sideways, holding a prop, pausing mid-action, or facing the viewer",
+    "PRODUCT_OR_PROP": "headphones, camera, drink cup, helmet, microphone, book, bag, tool, or no prop",
+    "LOCATION": "flat teal poster field, abstract studio background, simplified transit corner, stage-like color field, or clean editorial backdrop",
+    "BACKGROUND_ELEMENTS": "large coral wedges, teal negative space, cropped black silhouette edges, and a few hard geometric cut planes",
+    "MAIN_TEXT": "none by default; optional short block headline only if requested",
+    "SECONDARY_TEXT": "none by default; optional tiny supporting label only if requested",
+    "ACCENT_SYMBOL": "teal slash, black cut notch, coral wedge, angular cheek mark, or geometric background block",
+    "WARDROBE_STYLE": "simplified collar, jacket, hoodie, bob haircut, helmet, or graphic clothing reduced to coral and black planes",
+    "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal banner"
+  },
+  "palette": {
+    "flat_teal_background": "#0E819E",
+    "coral_red_subject_plane": "#FF5447",
+    "near_black_silhouette": "#000805"
+  },
+  "style_rules": [
+    "Use only teal, coral red, and near black as visible colors.",
+    "Place one oversized cropped portrait or upper-body subject as the main read.",
+    "Use black as the dominant silhouette and shadow system.",
+    "Reduce facial features into compact black cutouts and occasional teal negative cuts.",
+    "Use coral for skin, hands, shoulders, clothing planes, and background wedges.",
+    "Use teal as both flat background and sharp interior slash.",
+    "Avoid outlines; every edge is the boundary between filled shapes.",
+    "Keep backgrounds abstract, flat, and shallow.",
+    "Do not copy the exact reference face, identity, crop, or pose."
+  ],
+  "usage_note": "Copy this JSON into an LLM image workflow and replace only the variables to keep the three-color hardcut portrait system consistent.",
+  "example_cases": [
+    {
+      "case_name": "Subway Signal Portrait",
+      "variables": {
+        "SUBJECT": "a commuter with cropped bob hair",
+        "SUBJECT_ACTION": "staring forward while holding one hand near the cheek",
+        "PRODUCT_OR_PROP": "small over-ear headphones reduced to black and coral shapes",
+        "LOCATION": "flat teal poster field with abstract transit-like coral wedges",
+        "BACKGROUND_ELEMENTS": "large coral side wedges, teal negative-space cuts, cropped black hair silhouette, and angular shadow blocks",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "thin teal slash cutting through the hair mass",
+        "WARDROBE_STYLE": "black bob haircut, coral face plane, black cheek shadow, coral collar, and simplified jacket planes",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Tri Color Hardcut Portrait Poster image. Case: Subway Signal Portrait. Subject: a commuter with cropped bob hair staring forward while holding one hand near the cheek. Prop: small over-ear headphones reduced to black and coral shapes. Scene: flat teal poster field with abstract transit-like coral wedges. Background marks: large coral side wedges, teal negative-space cuts, cropped black hair silhouette, and angular shadow blocks. Main text: none. Secondary text: none. Accent: thin teal slash cutting through the hair mass. Wardrobe and color styling: black bob haircut, coral face plane, black cheek shadow, coral collar, and simplified jacket planes. Use only teal #0E819E, coral #FF5447, and near black #000805. Push the cropped portrait wide across the frame, keep the black silhouette heavy, and leave the image text-free. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments.",
+      "prompt_9x16": "Create a vertical 9:16 Tri Color Hardcut Portrait Poster image. Case: Subway Signal Portrait. Subject: a commuter with cropped bob hair staring forward while holding one hand near the cheek. Prop: small over-ear headphones reduced to black and coral shapes. Scene: flat teal poster field with abstract transit-like coral wedges. Background marks: large coral side wedges, teal negative-space cuts, cropped black hair silhouette, and angular shadow blocks. Main text: none. Secondary text: none. Accent: thin teal slash cutting through the hair mass. Wardrobe and color styling: black bob haircut, coral face plane, black cheek shadow, coral collar, and simplified jacket planes. Use only teal #0E819E, coral #FF5447, and near black #000805. Keep the portrait oversized, close-cropped, flat, hard-edged, and text-free. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments."
+    },
+    {
+      "case_name": "Rooftop DJ Close Crop",
+      "variables": {
+        "SUBJECT": "a rooftop DJ with a sharp hood silhouette",
+        "SUBJECT_ACTION": "turning slightly sideways while gripping a microphone",
+        "PRODUCT_OR_PROP": "microphone and cable simplified into black graphic blocks",
+        "LOCATION": "flat teal stage-like poster field with coral block lighting shapes",
+        "BACKGROUND_ELEMENTS": "cropped black hood, coral shoulder wedge, teal face cut, and abstract coral stage panels",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "black triangular notch across the mouth and microphone",
+        "WARDROBE_STYLE": "near-black hood, coral face and hand planes, coral jacket panel, and teal cheek slash",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Tri Color Hardcut Portrait Poster image. Case: Rooftop DJ Close Crop. Subject: a rooftop DJ with a sharp hood silhouette turning slightly sideways while gripping a microphone. Prop: microphone and cable simplified into black graphic blocks. Scene: flat teal stage-like poster field with coral block lighting shapes. Background marks: cropped black hood, coral shoulder wedge, teal face cut, and abstract coral stage panels. Main text: none. Secondary text: none. Accent: black triangular notch across the mouth and microphone. Wardrobe and color styling: near-black hood, coral face and hand planes, coral jacket panel, and teal cheek slash. Use only teal #0E819E, coral #FF5447, and near black #000805. Stretch the hood and shoulder across the wide crop, keep the microphone as a black cutout, and do not add text. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments.",
+      "prompt_9x16": "Create a vertical 9:16 Tri Color Hardcut Portrait Poster image. Case: Rooftop DJ Close Crop. Subject: a rooftop DJ with a sharp hood silhouette turning slightly sideways while gripping a microphone. Prop: microphone and cable simplified into black graphic blocks. Scene: flat teal stage-like poster field with coral block lighting shapes. Background marks: cropped black hood, coral shoulder wedge, teal face cut, and abstract coral stage panels. Main text: none. Secondary text: none. Accent: black triangular notch across the mouth and microphone. Wardrobe and color styling: near-black hood, coral face and hand planes, coral jacket panel, and teal cheek slash. Use only teal #0E819E, coral #FF5447, and near black #000805. Keep the crop close, flat, hard-edged, high contrast, and free of visible text. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments."
+    },
+    {
+      "case_name": "Museum Guard Side Eye",
+      "variables": {
+        "SUBJECT": "a museum guard with angular short hair",
+        "SUBJECT_ACTION": "looking sideways with one shoulder turned toward the viewer",
+        "PRODUCT_OR_PROP": "small radio clipped to the collar as a black block",
+        "LOCATION": "clean teal editorial backdrop with coral gallery-wall wedges",
+        "BACKGROUND_ELEMENTS": "coral vertical panels, black side shadow, teal eye-line slash, and cropped shoulder geometry",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "teal angular mark above the eye",
+        "WARDROBE_STYLE": "black hair cap, coral face plane, black uniform shadow, coral collar, and hard geometric shoulder cut",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Tri Color Hardcut Portrait Poster image. Case: Museum Guard Side Eye. Subject: a museum guard with angular short hair looking sideways with one shoulder turned toward the viewer. Prop: small radio clipped to the collar as a black block. Scene: clean teal editorial backdrop with coral gallery-wall wedges. Background marks: coral vertical panels, black side shadow, teal eye-line slash, and cropped shoulder geometry. Main text: none. Secondary text: none. Accent: teal angular mark above the eye. Wardrobe and color styling: black hair cap, coral face plane, black uniform shadow, coral collar, and hard geometric shoulder cut. Use only teal #0E819E, coral #FF5447, and near black #000805. Place the side-eye portrait large in a wide crop, with black shadow mass crossing the frame and no visible text. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments.",
+      "prompt_9x16": "Create a vertical 9:16 Tri Color Hardcut Portrait Poster image. Case: Museum Guard Side Eye. Subject: a museum guard with angular short hair looking sideways with one shoulder turned toward the viewer. Prop: small radio clipped to the collar as a black block. Scene: clean teal editorial backdrop with coral gallery-wall wedges. Background marks: coral vertical panels, black side shadow, teal eye-line slash, and cropped shoulder geometry. Main text: none. Secondary text: none. Accent: teal angular mark above the eye. Wardrobe and color styling: black hair cap, coral face plane, black uniform shadow, coral collar, and hard geometric shoulder cut. Use only teal #0E819E, coral #FF5447, and near black #000805. Make the portrait severe, large, cropped, flat, and text-free. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments."
+    },
+    {
+      "case_name": "Market Courier Hand Lean",
+      "variables": {
+        "SUBJECT": "a market courier wearing a blocky helmet",
+        "SUBJECT_ACTION": "leaning forward with one hand cutting into the foreground",
+        "PRODUCT_OR_PROP": "messenger bag strap and folded delivery note as black/coral planes",
+        "LOCATION": "flat teal poster field with abstract market-awning coral blocks",
+        "BACKGROUND_ELEMENTS": "large coral awning wedge, black helmet silhouette, teal cut gap near the jaw, and cropped coral hand shape",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "sharp teal notch between helmet and cheek",
+        "WARDROBE_STYLE": "black helmet, coral face and hand shapes, black jacket void, coral strap, and geometric collar cuts",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 Tri Color Hardcut Portrait Poster image. Case: Market Courier Hand Lean. Subject: a market courier wearing a blocky helmet leaning forward with one hand cutting into the foreground. Prop: messenger bag strap and folded delivery note as black/coral planes. Scene: flat teal poster field with abstract market-awning coral blocks. Background marks: large coral awning wedge, black helmet silhouette, teal cut gap near the jaw, and cropped coral hand shape. Main text: none. Secondary text: none. Accent: sharp teal notch between helmet and cheek. Wardrobe and color styling: black helmet, coral face and hand shapes, black jacket void, coral strap, and geometric collar cuts. Use only teal #0E819E, coral #FF5447, and near black #000805. Push the helmet and foreground hand into the wide crop, use black as the dominant mass, and keep the image text-free. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments.",
+      "prompt_9x16": "Create a vertical 9:16 Tri Color Hardcut Portrait Poster image. Case: Market Courier Hand Lean. Subject: a market courier wearing a blocky helmet leaning forward with one hand cutting into the foreground. Prop: messenger bag strap and folded delivery note as black/coral planes. Scene: flat teal poster field with abstract market-awning coral blocks. Background marks: large coral awning wedge, black helmet silhouette, teal cut gap near the jaw, and cropped coral hand shape. Main text: none. Secondary text: none. Accent: sharp teal notch between helmet and cheek. Wardrobe and color styling: black helmet, coral face and hand shapes, black jacket void, coral strap, and geometric collar cuts. Use only teal #0E819E, coral #FF5447, and near black #000805. Keep the hand, helmet, and face close-cropped, flat, hard-edged, and text-free. Avoid watermarks, usernames, creator IDs, QR codes, platform logos, brand logos, exact copied reference identity, photorealism, gradients, extra colors, paper texture, halftone, long text, and complex environments."
+    }
+  ],
+  "related_styles": [
+    "impact-burst-halftone-comic-poster-style",
+    "folded-diamond-perspective-type-poster-style",
+    "neon-kinetic-typographic-poster-style"
+  ],
+  "license": "CC BY 4.0"
+}
