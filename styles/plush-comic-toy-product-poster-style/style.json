@@ -1,0 +1,150 @@
+{
+  "style_name": "Plush Comic Toy Product Poster Style",
+  "style_slug": "plush-comic-toy-product-poster-style",
+  "version": "2026.05.15",
+  "status": "stable",
+  "updated_at": "2026-05-15",
+  "summary": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in the \"Plush Comic Toy Product Poster\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, presented as {PRODUCT_OR_PROP}, placed in {LOCATION}. Use {PRODUCT_TEXTURE}. Style the object with {WARDROBE_STYLE}.\n\nLayout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place {BACKGROUND_ELEMENTS} around it. Add a large cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using \"{MAIN_TEXT}\" as the campaign headline.\n\nTypography: use {TYPOGRAPHY_LANGUAGE}. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add \"{SECONDARY_TEXT}\" only as tiny campaign metadata or small label copy. Keep microcopy compact and decorative, not dominant.\n\nGraphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows, lightning-bolt patches, warning-card shapes, and {ACCENT_SYMBOL}. Combine soft plush 3D texture with flat printed poster graphics.\n\nDo not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details.",
+  "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app mark, copied reference text, copied brand name, copied license plate, exact duplicate plush car, minimalist luxury ad, glossy plastic without fibers, realistic car commercial, dark horror mood, dystopian cyberpunk, busy city background, elegant thin serif headline, unreadable paragraph-heavy layout, app screenshot UI",
+  "variables": {
+    "SUBJECT": "main plush product, toy vehicle, mascot object, gadget, food mascot, or collectible prop",
+    "SUBJECT_ACTION": "parked, bouncing, leaning forward, racing, floating, charging, wobbling, or posing like a hero product",
+    "PRODUCT_OR_PROP": "plush car, scooter, radio, vending machine, snack pack, mini bus, camera, delivery pod, noodle cart, or featured toy object",
+    "LOCATION": "cream studio poster backdrop, toy catalog set, tabletop product stage, campaign poster scene, or flat editorial background",
+    "BACKGROUND_ELEMENTS": "large cyan circle, giant tilted block headline, doodle icons, sticker labels, lightning patches, warning-card graphic, small product metadata",
+    "MAIN_TEXT": "short loud campaign headline, preferably 1 to 4 words",
+    "SECONDARY_TEXT": "small product-series caption, tiny spec label, date line, mock catalog note, or playful warning label",
+    "ACCENT_SYMBOL": "lightning bolt, arrow capsule, doodle fish, cloud puff, speed line, hazard triangle, steam doodle, or stitched patch",
+    "WARDROBE_STYLE": "not applicable for objects; use plush surface styling, sewn patches, fuzzy trim, cartoon eyes, and toy-like color blocking",
+    "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal campaign poster",
+    "PRODUCT_TEXTURE": "dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish",
+    "TYPOGRAPHY_LANGUAGE": "Latin block type, CJK-style display type, or mixed poster typography without copied reference wording"
+  },
+  "palette": {
+    "poster_cream": "#ECE5C9",
+    "plush_turquoise": "#10A7BF",
+    "cyan_backdrop": "#1FAEC3",
+    "lemon_yellow": "#FFE100",
+    "signal_red": "#F7372F",
+    "ink_black": "#080808",
+    "charcoal_plush": "#352F3B",
+    "cloud_white": "#F8F4E7",
+    "lime_accent": "#79E100",
+    "sky_label_blue": "#2BAEC6"
+  },
+  "composition_rules": {
+    "vertical_9x16": "Use a vertical poster crop. Stack the giant headline in the top third, put the plush product in the lower-middle, and place side labels along the left and right margins. Keep the cyan circle behind the product and let it crop off the sides.",
+    "horizontal_16x9": "Use a horizontal campaign-poster crop. Let the plush product stretch across the lower center. Put the product-series title on the left, the giant slanted headline on the right, a cyan circle behind the subject, and small doodles or sticker callouts in the remaining negative space.",
+    "layout_principles": [
+      "Use one plush product as the clear hero object.",
+      "Place the object low and central with a soft studio shadow.",
+      "Use a large cyan circle behind the object as a backdrop.",
+      "Make the top-right or upper half dominated by giant tilted block typography.",
+      "Use yellow and red headline blocks with thick black shadow.",
+      "Add small doodles and sticker labels around the product without turning them into the focus.",
+      "Use product-series text on the left and compact metadata near the bottom edge.",
+      "Keep the background flat cream and avoid real-world clutter."
+    ]
+  },
+  "style_rules": [
+    "Make one fuzzy plush product the clear hero.",
+    "Use tactile fuzzy fibers, soft seams, raised patches, and toy-like proportions.",
+    "Use a cream poster background with a large cyan circle behind the product.",
+    "Place the biggest headline as tilted comic block type with black shadow.",
+    "Keep the product soft and dimensional while typography stays flat and sharp.",
+    "Use bright yellow and red for headline impact.",
+    "Use turquoise or blue as the product and backdrop anchor color.",
+    "Add small doodles, sticker callouts, warning labels, arrows, and lightning marks as secondary details.",
+    "Preserve a toy campaign poster feel with bottom metadata and tiny editorial labels."
+  ],
+  "typography_rules": [
+    "Use oversized block display type for the main headline.",
+    "Tilt or skew the main headline and stack it in two or more layers.",
+    "Use heavy black shadows and outlines behind red or yellow text blocks.",
+    "Use compressed sans or pixel-like labels for small callouts.",
+    "Keep secondary copy short and decorative.",
+    "Do not include usernames, platform marks, QR codes, watermarks, or copied reference wording."
+  ],
+  "usage_note": "Copy this JSON into an LLM image workflow and replace the variables while keeping the plush product poster system locked.",
+  "example_cases": [
+    {
+      "case_name": "Thunder Delivery Pod",
+      "variables": {
+        "SUBJECT": "a fuzzy turquoise delivery pod toy with sleepy headlights",
+        "SUBJECT_ACTION": "parked like it just skidded to a stop",
+        "PRODUCT_OR_PROP": "a plush courier pod with lightning patches and a tiny roof cloud",
+        "LOCATION": "a cream studio poster backdrop",
+        "BACKGROUND_ELEMENTS": "large cyan circle, giant tilted yellow and red block headline, doodle speed lines, arrow capsule labels, lightning patches, warning-card graphic, compact footer metadata",
+        "MAIN_TEXT": "FAST CLOUD",
+        "SECONDARY_TEXT": "plush courier series / soft speed test",
+        "ACCENT_SYMBOL": "yellow lightning patch and blue arrow capsule",
+        "WARDROBE_STYLE": "dense turquoise plush, charcoal wheels, embroidered door patch, small cartoon eyes, cream fuzzy bumper",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "PRODUCT_TEXTURE": "dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish",
+        "TYPOGRAPHY_LANGUAGE": "mixed Latin block type and CJK-style poster composition without copied reference wording"
+      }
+    },
+    {
+      "case_name": "Ramen Rocket Cart",
+      "variables": {
+        "SUBJECT": "a plush noodle-cart rocket mascot",
+        "SUBJECT_ACTION": "leaning forward as if blasting across the poster",
+        "PRODUCT_OR_PROP": "a fuzzy ramen cart with soft steam puffs and a stitched bowl emblem",
+        "LOCATION": "a toy catalog product stage",
+        "BACKGROUND_ELEMENTS": "cyan circle, giant slanted red headline block, yellow impact word, steam doodles, tiny warning sticker, route arrows, compact product spec labels",
+        "MAIN_TEXT": "NOODLE GO",
+        "SECONDARY_TEXT": "warm launch unit / snack orbit",
+        "ACCENT_SYMBOL": "steam doodles and red warning-card sticker",
+        "WARDROBE_STYLE": "orange and cream plush, black fuzzy wheels, fabric noodle patches, stitched bowl emblem, soft steam puffs",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "PRODUCT_TEXTURE": "dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish",
+        "TYPOGRAPHY_LANGUAGE": "Latin block type with CJK-style stacked headline energy"
+      }
+    },
+    {
+      "case_name": "Bookstore Mini Bus",
+      "variables": {
+        "SUBJECT": "a fuzzy mini bus filled with book mascots",
+        "SUBJECT_ACTION": "wobbling through a reading-club campaign poster",
+        "PRODUCT_OR_PROP": "a plush bus with a book-stack roof rack and round cartoon headlights",
+        "LOCATION": "a flat editorial poster background",
+        "BACKGROUND_ELEMENTS": "large cyan circle, giant tilted yellow headline, red shadow block, doodle stars, cyan route arrows, sticker labels, bottom catalog metadata",
+        "MAIN_TEXT": "READ RUSH",
+        "SECONDARY_TEXT": "weekend book route / page engine",
+        "ACCENT_SYMBOL": "doodle stars and cyan route arrows",
+        "WARDROBE_STYLE": "cobalt plush body, cream bumper, stitched book icons, soft tire trim, tiny paper-tab patches",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "PRODUCT_TEXTURE": "dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish",
+        "TYPOGRAPHY_LANGUAGE": "large Latin block type arranged with CJK-style stacked poster rhythm"
+      }
+    },
+    {
+      "case_name": "Radio Storm Van",
+      "variables": {
+        "SUBJECT": "a plush radio van with antenna ears",
+        "SUBJECT_ACTION": "broadcasting tiny sound bolts from the side window",
+        "PRODUCT_OR_PROP": "a fuzzy van with speaker patch, roof antenna, and cloud-shaped signal puff",
+        "LOCATION": "a retro toy-product campaign backdrop",
+        "BACKGROUND_ELEMENTS": "cyan circle, giant red and yellow tilted headline, black sound-wave doodles, lightning bolts, blue capsule labels, small product spec footer",
+        "MAIN_TEXT": "LOUD ROAD",
+        "SECONDARY_TEXT": "signal toy line / volume weather",
+        "ACCENT_SYMBOL": "black sound-wave doodles and yellow lightning bolts",
+        "WARDROBE_STYLE": "teal plush body, charcoal antenna, white fuzzy bumper, neon green window accent, embroidered speaker patch",
+        "ASPECT_RATIO": "9:16 or 16:9",
+        "PRODUCT_TEXTURE": "dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish",
+        "TYPOGRAPHY_LANGUAGE": "mixed block Latin typography and poster-like CJK display composition"
+      }
+    }
+  ],
+  "related_styles": [
+    "impact-burst-halftone-comic-poster-style",
+    "pop-bubble-letter-photo-poster-style",
+    "orange-brush-mascot-action-poster-style"
+  ],
+  "license": "CC BY 4.0"
+}
