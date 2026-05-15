@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-24-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-48-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-25-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-50-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -123,32 +123,43 @@ styles/<style-slug>/
 
 ## Style Index
 
-1. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
-2. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
-3. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
-4. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-5. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-6. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-7. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-8. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-9. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-10. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-11. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-12. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-13. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-14. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-15. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-16. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-17. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-18. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-19. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-20. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-21. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-22. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-23. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-24. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
+2. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
+3. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
+4. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
+5. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+6. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+7. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+8. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+9. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+10. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+11. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+12. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+13. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+14. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+15. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+16. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+17. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+18. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+19. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+20. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+21. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+22. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+23. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+24. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+25. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## Style Catalog
+
+### Rough Animation Pet Sketch Storyboard
+
+<a href="styles/rough-animation-pet-sketch-storyboard-style"><img src="styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg" width="720" alt="Rough Animation Pet Sketch Storyboard preview"></a>
+
+A loose animation pet-comedy storyboard style with warm beige paper, red-brown construction lines, scratchy burgundy contours, semi-transparent color wash, lightly sketched interiors, and oversized animal expressions.
+
+Files: [style.json](styles/rough-animation-pet-sketch-storyboard-style/style.json) · [16:9 preview](styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg) · [9:16 preview](styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg) · [folder](styles/rough-animation-pet-sketch-storyboard-style)
+
+---
 
 ### Tri Color Hardcut Portrait Poster
 
