@@ -1,0 +1,123 @@
+{
+  "style_name": "Surreal Fish Doodle Landmark Photo Collage Style",
+  "style_slug": "surreal-fish-doodle-landmark-photo-collage-style",
+  "version": "2026.05.16",
+  "status": "stable",
+  "updated_at": "2026-05-16",
+  "summary": "A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in the \"Surreal Fish Doodle Landmark Photo Collage\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, using {PRODUCT_OR_PROP}, at {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe styling: {WARDROBE_STYLE}.\n\nPhoto base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective. Keep the landmark recognizable.\n\nIllustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground. The subject should look pasted or screen-printed on top of the photo, with opaque flat color fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy, and bold graphic wardrobe colors.\n\nCreature layer: add two to five fantastical folk-art fish or flying fish around the main subject. Give them mismatched fins, wing-like shapes, round eyes, black tiger-like body stripes, red coral fins, cobalt-blue sections, yellow bodies, and simple black outlines. Let some creatures float in the sky, skim the waterline, or pass behind the main subject.\n\nDoodle layer: add {ACCENT_SYMBOL} plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer. Use these marks to create playful movement and connect the illustrated characters to the travel photo.\n\nText: keep typography minimal. If text is requested, use \"{MAIN_TEXT}\" only as a tiny hand-lettered travel note and \"{SECONDARY_TEXT}\" only as a sparse doodle label. Do not make large poster headlines.\n\nDerive only the visual language from the style. Change the landmark, subject pose, outfit, props, and creature arrangement for every new image. Do not include watermarks, usernames, creator IDs, signatures, QR codes, platform marks, app UI, copied reference characters, exact reference poses, brand logos, readable brand marks, full vector-only backgrounds, glossy 3D cartoon rendering, photorealistic animals, dense text, or dark cyberpunk mood.",
+  "negative_prompt": "watermark, username, creator ID, signature, platform logo, QR code, app UI, copied reference artwork, exact reference character, exact reference pose, original reference landmark copy, original reference outfit copy, original reference prop, logo, readable brand mark, full vector scene, blurred landmark, dark cyberpunk city, horror mood, dystopian scene, glossy 3D cartoon, plush mascot, photorealistic fish, realistic CG animal, heavy typography, dense text, corporate travel ad, sterile stock photo, messy unreadable collage",
+  "variables": {
+    "SUBJECT": "oversized illustrated traveler, guide, fisherman, skateboarder, courier, musician, or explorer",
+    "SUBJECT_ACTION": "leaning over a landmark, floating through the scene, pulling a stripe pole, balancing on a fish, chasing a creature, or bending around architecture",
+    "PRODUCT_OR_PROP": "painted hiking staff, fishing line, travel bag, map, snack, camera, kite string, ferry ticket, umbrella, or oversized pencil",
+    "LOCATION": "recognizable travel landmark, bridge, bay, harbor, canal, cliff road, mountain pass, plaza, or observation deck",
+    "BACKGROUND_ELEMENTS": "blue sky, water, landmark structure, distant city, boats, coastline, clouds, bridge cables, buildings, or tourist-view scenery",
+    "MAIN_TEXT": "optional tiny hand-lettered travel caption or none",
+    "SECONDARY_TEXT": "optional small doodle label or none",
+    "ACCENT_SYMBOL": "black marker loop, ink starburst, blue water drop, splash dash, curved string, motion tick, or tiny fish trail",
+    "WARDROBE_STYLE": "bold flat-color outfit, patterned grid shirt, oversized cap, sunglasses, striped socks, graphic shoes, raincoat, vest, or travel uniform",
+    "ASPECT_RATIO": "9:16 vertical travel poster or 16:9 horizontal scenic banner"
+  },
+  "palette": {
+    "sky_blue": "#62A6D8",
+    "bay_teal": "#2B8C88",
+    "bridge_red": "#C94A36",
+    "coral_fin": "#F45A49",
+    "cobalt_blue": "#2D73E8",
+    "sun_yellow": "#F5D34D",
+    "leaf_green": "#4DAA63",
+    "cream_white": "#F3EEDC",
+    "ink_black": "#050505",
+    "soft_skin_pink": "#F1B9AE"
+  },
+  "composition_rules": {
+    "vertical_9x16": "Use a vertical travel-poster composition. Let the landmark rise through the lower and middle frame, with sky or open scenery in the upper half. Place the oversized illustrated subject diagonally across the center, overlapping the landmark and reaching toward the lower third. Put smaller fish creatures in the upper corners and near the bottom edge.",
+    "horizontal_16x9": "Use a horizontal scenic banner composition. Stretch the landmark photo wide across the frame, with the main illustrated subject entering from one side and crossing the middle. Arrange fish creatures along the sky and waterline for lateral motion. Keep black marker loops, strings, and starbursts near the outer thirds so the landmark remains visible in the center.",
+    "layout_principles": [
+      "Use a real-looking travel landmark photograph as the base layer.",
+      "Keep the landmark recognizable and uncluttered enough to read instantly.",
+      "Overlay one oversized flat illustrated subject that crosses the photo dramatically.",
+      "Add two to five smaller fantastical fish or flying fish creatures.",
+      "Use high-saturation flat color blocks: red, cobalt blue, yellow, green, cream, and black.",
+      "Place black marker loops, starbursts, and motion marks as independent graphic accents.",
+      "Make the illustration feel pasted onto the photo, not physically rendered inside it.",
+      "Exclude watermarks, usernames, platform marks, QR codes, and signatures."
+    ]
+  },
+  "style_rules": [
+    "Use realistic landmark, bay, bridge, harbor, canal, or coastline photography.",
+    "Make the cartoon overlays large, flat, colorful, and visibly pasted onto the photo.",
+    "Use bold black outlines and simple expressive creature faces.",
+    "Use one main human or creature action that interacts with the landmark.",
+    "Add smaller fish creatures to create a floating ecosystem around the subject.",
+    "Use black scribble loops and starbursts for graphic rhythm.",
+    "Use blue drops, thin lines, strings, or splash marks to connect creatures to the scene.",
+    "Keep the image clean of watermarks, handles, platform marks, and signatures."
+  ],
+  "typography_rules": [
+    "Do not require large typography.",
+    "Use black marker loops and scribbles as non-readable graphic marks.",
+    "If MAIN_TEXT is used, keep it tiny and hand-lettered like a travel note.",
+    "Keep SECONDARY_TEXT optional, sparse, and free of platform or creator identifiers.",
+    "Never reproduce a reference signature, handle, watermark, or creator mark."
+  ],
+  "usage_note": "Copy this JSON into an LLM image workflow and replace the variables while keeping the surreal travel-photo fish doodle collage system locked.",
+  "example_cases": [
+    {
+      "case_name": "Canal Moon Fish Courier",
+      "variables": {
+        "SUBJECT": "a giant flat illustrated courier with a cobalt raincoat and lemon-yellow scarf",
+        "SUBJECT_ACTION": "balancing on a long folk-art fish above a canal bridge",
+        "PRODUCT_OR_PROP": "rolled map, waterproof satchel, and dangling delivery ticket",
+        "LOCATION": "old canal city at golden-hour daylight",
+        "BACKGROUND_ELEMENTS": "stone bridge, canal water, old buildings, small boats, warm sky, windows, and rippled reflections",
+        "MAIN_TEXT": "CANAL RUN",
+        "SECONDARY_TEXT": "ticket 04 / moon fish",
+        "ACCENT_SYMBOL": "black ink loop, blue droplets, tiny splash dashes, and crescent-shaped fish trail",
+        "WARDROBE_STYLE": "cobalt raincoat, lemon-yellow scarf, coral socks, flat black shoes, and burnt-orange hood",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      }
+    },
+    {
+      "case_name": "Harbor Sky Snack Guide",
+      "variables": {
+        "SUBJECT": "an oversized illustrated snack guide with a cream vest and green pants",
+        "SUBJECT_ACTION": "floating above a harbor promenade while offering a tiny snack to a flying fish",
+        "PRODUCT_OR_PROP": "paper snack cone, camera strap, and striped umbrella handle",
+        "LOCATION": "bright harbor promenade with a skyline and ferry boats",
+        "BACKGROUND_ELEMENTS": "blue harbor water, ferry wake, skyline towers, railing, promenade path, white clouds, and distant hills",
+        "MAIN_TEXT": "HARBOR BITE",
+        "SECONDARY_TEXT": "ferry snack / noon cloud",
+        "ACCENT_SYMBOL": "black comic starburst, fish trail, water drops, and short marker ticks",
+        "WARDROBE_STYLE": "cream vest, green flowing pants, yellow checked sleeves, coral shoes, and round sunglasses",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      }
+    },
+    {
+      "case_name": "Cliff Road Wind Parade",
+      "variables": {
+        "SUBJECT": "a giant flat illustrated road-trip musician with a yellow coat and blue hat",
+        "SUBJECT_ACTION": "marching along a coastal cliff road while leading a parade of flying fish",
+        "PRODUCT_OR_PROP": "striped walking stick, tiny horn, and map pouch",
+        "LOCATION": "sunny coastal cliff road above turquoise water",
+        "BACKGROUND_ELEMENTS": "curving road, ocean cliffs, turquoise water, roadside grass, distant headland, blue sky, and small parked cars",
+        "MAIN_TEXT": "WIND PARADE",
+        "SECONDARY_TEXT": "cliff road / fish band",
+        "ACCENT_SYMBOL": "black spiral loop, ink starburst, blue wind drops, and thin marching strings",
+        "WARDROBE_STYLE": "yellow coat, blue hat, green scarf, striped socks, red shoes, and loose travel layers",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      }
+    }
+  ],
+  "related_styles": [
+    "playful-mascot-doodle-snapshot-style",
+    "subway-doodle-photo-hybrid-style",
+    "tokyo-kawaii-travel-collage-poster-style"
+  ],
+  "license": "CC BY 4.0"
+}
