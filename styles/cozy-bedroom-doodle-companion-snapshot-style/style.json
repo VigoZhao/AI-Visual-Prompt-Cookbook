@@ -1,0 +1,137 @@
+{
+  "style_name": "Cozy Bedroom Doodle Companion Snapshot Style",
+  "style_slug": "cozy-bedroom-doodle-companion-snapshot-style",
+  "version": "2026.05.16",
+  "status": "stable",
+  "updated_at": "2026-05-16",
+  "summary": "A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen glow, and tiny handwritten doodle marks.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in the \"Cozy Bedroom Doodle Companion Snapshot\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}. Foreground prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main handwritten text: \"{MAIN_TEXT}\". Secondary handwritten text: \"{SECONDARY_TEXT}\". Accent symbol: {ACCENT_SYMBOL}. Wardrobe style: {WARDROBE_STYLE}. Doodle companion: {DOODLE_COMPANION}. Doodle companion scale: {DOODLE_SCALE}. Light source: {LIGHT_SOURCE}.\n\nUse a realistic candid phone-photo as the base layer. The scene should feel like a real late-night home interior with imperfect handheld framing, natural room clutter, warm practical light, visible fabric texture, wall grain, screen reflections, and mild low-light noise.\n\nComposite one original flat 2D cushion-doll companion into the lower foreground or beside the main real-world object. The companion should have a rounded pillow body, pale fabric patch face, closed crescent eyes, tiny stitched mouth, simple mitten hands, blanket hood or scarf, dark hand-drawn outline, flat muted color fills, and a slightly pasted-on sticker finish. It should feel like a calm illustrated friend inside the real photo, not a 3D mascot.\n\nThe doodle companion scale is mandatory: make the companion a large foreground subject, not a tiny corner sticker. In 9:16, it should occupy roughly 35-45% of the frame. In 16:9, it should occupy roughly 28-38% of the frame. Let the companion enter from the left or lower-left edge and allow partial cropping by the frame edge while keeping the real-world object readable beside or behind it.\n\nThe companion identity is mandatory: make it a new cushion-doll design, not a human child and not the reference toy. Do not give it dark hair, a tan skin-tone face, a navy sweater, pajama pants, smiley slippers, or the same seated silhouette as the reference.\n\nAdd only a few tiny hand-drawn diary marks such as a sleep line, star, spark, breath mark, or small smiley detail. If text appears, keep it short, handwritten, and placed in natural negative space. Keep the main object readable and do not cover it with the illustrated companion.\n\nAvoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, brand logos, copied poster art, exact software UI, exact reference person, licensed characters, copied reference toy, human child doodle, dark hair, tan skin-tone face, navy sweater, pajama pants, smiley slippers, full-vector images, glossy 3D mascots, polished ad layout, horror, cyberpunk, and unreadable tiny text.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, app mark, QR code, brand logo, copied poster art, exact software interface, exact reference person, licensed character, franchise costume, copied reference toy, human child doodle, dark hair, tan skin-tone face, navy sweater, pajama pants, smiley slippers, tiny doodle character, small corner sticker, miniature companion, full vector-only image, clean corporate poster, polished ad layout, glossy 3D mascot, plush toy rendering, photoreal CGI character, luxury studio lighting, horror mood, cyberpunk neon, empty room, unreadable tiny text, distorted hands, face obstruction",
+  "variables": {
+    "SUBJECT": "main real-world person, object, or creative activity",
+    "SUBJECT_ACTION": "editing, sketching, reading, arranging notes, listening, watching, resting, or reaching",
+    "PRODUCT_OR_PROP": "laptop, tablet, sketchbook, notebook, headphones, mug, lamp, pillow, camera, or art tool",
+    "LOCATION": "bedroom, couch corner, dorm room, small studio, kitchen table, reading nook, or desk setup",
+    "BACKGROUND_ELEMENTS": "textured wall, bedding, posters, shelf, lamp, window, books, blankets, cables, plants, or soft clutter",
+    "MAIN_TEXT": "optional short handwritten diary note",
+    "SECONDARY_TEXT": "optional tiny supporting handwritten note",
+    "ACCENT_SYMBOL": "sleep line, tiny star, hand-drawn spark, breath mark, sticker dot, or small smiley detail",
+    "WARDROBE_STYLE": "blanket hood, scarf wrap, fabric patch face, mitten hands, sock-like feet, or other non-human cushion-doll details",
+    "DOODLE_COMPANION": "original sleepy flat cushion-doll companion with rounded pillow body, pale fabric patch face, closed crescent eyes, and tiny stitched mouth",
+    "DOODLE_SCALE": "large foreground scale: 35-45% of the frame in 9:16, 28-38% of the frame in 16:9, partially cropped by the left or bottom edge when useful",
+    "CHARACTER_DIFFERENCE_RULE": "do not use a human child silhouette, dark hair, tan skin-tone face, navy sweater, pajama pants, smiley slippers, or copied pose language",
+    "LIGHT_SOURCE": "warm floor lamp, bedside lamp, laptop screen, desk lamp, window light, or phone glow",
+    "ASPECT_RATIO": "9:16 vertical social snapshot or 16:9 horizontal diary banner"
+  },
+  "palette": {
+    "warm_beige": "#D5B99A",
+    "soft_gray": "#A9A6A0",
+    "charcoal_shadow": "#242424",
+    "muted_brown": "#7C6255",
+    "dusty_blue": "#6D7F94",
+    "soft_cream": "#EFE3C9",
+    "pale_lavender": "#BDAED7",
+    "muted_teal": "#7AA7A1",
+    "butter_yellow": "#F3D36A",
+    "ink_black": "#171717"
+  },
+  "composition_rules": {
+    "vertical_9x16": "Use a vertical social-post composition. Keep the real room tall and immersive, place the main object in the lower-middle or middle third, and place the doodle companion from the lower-left foreground at very large scale, occupying about 35-45% of the frame.",
+    "horizontal_16x9": "Use a horizontal diary-banner composition. Stretch the real room, couch, desk, or table across the frame. Keep the main object slightly off-center, the doodle companion entering from the left or lower foreground at large scale, occupying about 28-38% of the frame, and the warm light source visible on one side.",
+    "layout_principles": [
+      "Use a real candid interior photo as the base layer.",
+      "Keep the room warm, personal, and slightly imperfect.",
+      "Use one clear photographic anchor such as a laptop, notebook, lamp, tablet, hand, mug, or pillow.",
+      "Add one original sleepy flat cushion-doll companion as a large foreground character.",
+      "Allow partial left-edge or bottom-edge cropping on the companion when it improves the candid close-up feel.",
+      "Layer photo base first, doodle companion second, and small diary marks or text last.",
+      "Use wall, blanket, pillow, table, or shadow areas for optional tiny handwritten notes."
+    ]
+  },
+  "style_rules": [
+    "Use real candid home photography with low-light practical glow.",
+    "Preserve fabric weave, wall grain, room clutter, screen reflection, and mild image noise.",
+    "Make the doodle companion visually dominant, not a small corner accent.",
+    "Design the companion as a new non-human cushion-doll character.",
+    "Use dark sketch outlines, uneven hand-drawn edges, rounded pillow shapes, flat muted fills, closed crescent eyes, and tiny stitched mouth.",
+    "Keep the companion color temperature harmonious with the real photo while retaining a pasted-on sticker feeling.",
+    "Keep text minimal and handwritten when used.",
+    "Avoid polished ad composition, sterile rooms, glossy 3D mascots, plush toy rendering, platform UI, watermarks, and brand marks."
+  ],
+  "typography_rules": [
+    "Typography is optional.",
+    "Use small handwritten diary notes with loose marker or pencil feeling.",
+    "Place text on an upper wall, blanket fold, desk space, or shadow area.",
+    "Avoid large poster headlines, dense paragraphs, brand names, platform handles, and unreadable microtext."
+  ],
+  "usage_note": "Copy this JSON into an LLM image workflow and replace the variables while keeping the cozy candid photo plus large flat cushion-doll companion system locked.",
+  "example_cases": [
+    {
+      "case_name": "Midnight Laptop Sketch Buddy",
+      "variables": {
+        "SUBJECT": "a late-night laptop art session",
+        "SUBJECT_ACTION": "sketching a bold simple shape on the laptop while resting in bed",
+        "PRODUCT_OR_PROP": "open laptop, blanket, visible hand, warm floor lamp",
+        "LOCATION": "small bedroom bed corner",
+        "BACKGROUND_ELEMENTS": "textured wall, small posters, shelf shadow, pillows, checkered blanket, warm paper floor lamp",
+        "MAIN_TEXT": "still awake",
+        "SECONDARY_TEXT": "one more draft",
+        "ACCENT_SYMBOL": "tiny sleepy spark marks",
+        "WARDROBE_STYLE": "pale lavender blanket hood, muted teal scarf wrap, sock-like feet, non-human cushion-doll details",
+        "DOODLE_COMPANION": "oversized original cushion-doll companion leaning beside the laptop, with rounded pillow body, cream fabric patch face, closed crescent eyes, tiny stitched mouth, and simple mitten hands",
+        "DOODLE_SCALE": "very large lower-left foreground character, about 35-45% of the frame in 9:16 and 28-38% in 16:9, partially cropped by the left or bottom edge",
+        "CHARACTER_DIFFERENCE_RULE": "do not use a human child silhouette, dark hair, tan skin-tone face, navy sweater, pajama pants, smiley slippers, or copied pose language",
+        "LIGHT_SOURCE": "warm floor lamp and laptop screen glow",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      }
+    },
+    {
+      "case_name": "Rainy Couch Editing Night",
+      "variables": {
+        "SUBJECT": "a quiet photo editing session on a couch",
+        "SUBJECT_ACTION": "reviewing images on a tablet while rain blurs the window",
+        "PRODUCT_OR_PROP": "tablet, blanket, mug, small desk lamp",
+        "LOCATION": "cozy living-room couch beside a rainy window",
+        "BACKGROUND_ELEMENTS": "soft pillows, folded throw blanket, rain-streaked glass, dim bookshelf, warm lamp halo",
+        "MAIN_TEXT": "rain edit",
+        "SECONDARY_TEXT": "soft files",
+        "ACCENT_SYMBOL": "small hand-drawn raindrop sparks",
+        "WARDROBE_STYLE": "soft cream blanket hood, pale lavender scarf wrap, mitten hands, sock-like feet, non-human cushion-doll details",
+        "DOODLE_COMPANION": "oversized original cushion-doll companion sitting on the blanket edge and watching the tablet, with rounded pillow body, cream fabric patch face, closed crescent eyes, and tiny stitched mouth",
+        "DOODLE_SCALE": "very large lower-left foreground character, about 35-45% of the frame in 9:16 and 28-38% in 16:9, partially cropped by the left or bottom edge",
+        "CHARACTER_DIFFERENCE_RULE": "do not use a human child silhouette, dark hair, tan skin-tone face, navy sweater, pajama pants, smiley slippers, or copied pose language",
+        "LIGHT_SOURCE": "small desk lamp, tablet glow, muted rainy window light",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      }
+    },
+    {
+      "case_name": "Kitchen Table Sleepy Notes",
+      "variables": {
+        "SUBJECT": "a late-night note-making scene",
+        "SUBJECT_ACTION": "sorting handwritten notes and photos beside a half-finished tea",
+        "PRODUCT_OR_PROP": "notebook, printed photos, tea mug, pen, phone",
+        "LOCATION": "small apartment kitchen table after midnight",
+        "BACKGROUND_ELEMENTS": "warm pendant light, fridge magnets, textured wall, stacked dishes, folded cloth, shadowed window",
+        "MAIN_TEXT": "keep this",
+        "SECONDARY_TEXT": "midnight notes",
+        "ACCENT_SYMBOL": "tiny star and breath mark",
+        "WARDROBE_STYLE": "warm gray blanket hood, butter-yellow scarf tab, mitten hands, sock-like feet, non-human cushion-doll details",
+        "DOODLE_COMPANION": "oversized original flat cushion-doll companion slumped on the table edge like a sleepy note helper, with rounded pillow body, pale fabric patch face, closed crescent eyes, and tiny stitched mouth",
+        "DOODLE_SCALE": "very large lower-left foreground character, about 35-45% of the frame in 9:16 and 28-38% in 16:9, partially cropped by the left or bottom edge",
+        "CHARACTER_DIFFERENCE_RULE": "do not use a human child silhouette, dark hair, tan skin-tone face, navy sweater, pajama pants, smiley slippers, or copied pose language",
+        "LIGHT_SOURCE": "warm pendant light and phone glow",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      }
+    }
+  ],
+  "related_styles": [
+    "playful-mascot-doodle-snapshot-style",
+    "metro-doodle-snapshot-diary-style",
+    "analog-sticker-diary-portrait-poster-style"
+  ],
+  "license": "CC BY 4.0"
+}

@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="风格数量" src="https://img.shields.io/badge/styles-27-ff5a7a?style=flat-square">
-  <img alt="预览图" src="https://img.shields.io/badge/previews-54-4cc9f0?style=flat-square">
+  <img alt="风格数量" src="https://img.shields.io/badge/styles-28-ff5a7a?style=flat-square">
+  <img alt="预览图" src="https://img.shields.io/badge/previews-56-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="语言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -123,35 +123,46 @@ styles/<style-slug>/
 
 ## 风格索引
 
-1. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
-2. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
-3. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
-4. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
-5. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
-6. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
-7. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-8. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-9. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-10. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-11. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-12. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-13. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-14. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-15. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-16. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-17. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-18. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-19. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-20. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-21. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-22. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-23. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-24. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-25. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-26. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-27. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Cozy Bedroom Doodle Companion Snapshot](#cozy-bedroom-doodle-companion-snapshot)
+2. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
+3. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
+4. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
+5. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
+6. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
+7. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
+8. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+9. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+10. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+11. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+12. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+13. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+14. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+15. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+16. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+17. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+18. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+19. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+20. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+21. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+22. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+23. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+24. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+25. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+26. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+27. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+28. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## 风格目录
+
+### Cozy Bedroom Doodle Companion Snapshot
+
+<a href="styles/cozy-bedroom-doodle-companion-snapshot-style"><img src="styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg" width="720" alt="Cozy Bedroom Doodle Companion Snapshot preview"></a>
+
+一种温暖低光的居家随拍风格：在真实卧室、沙发或桌面照片前景叠加一个大型平面 2D 抱枕玩偶伙伴，形成安静的深夜创作日记氛围，并保留房间纹理、屏幕微光和少量手写涂鸦符号。
+
+文件：[style.json](styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) · [16:9 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg) · [目录](styles/cozy-bedroom-doodle-companion-snapshot-style)
+
+---
 
 ### Surreal Fish Doodle Landmark Photo Collage
 
