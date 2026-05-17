@@ -1,0 +1,97 @@
+{
+  "style_name": "Naive Marker PSA Poster Style",
+  "style_slug": "naive-marker-psa-poster-style",
+  "version": "2026.05.17",
+  "status": "stable",
+  "updated_at": "2026-05-17",
+  "summary": "A friendly hand-drawn public-service poster style built from chunky irregular marker outlines, oversized blue-bordered speech-panel typography, simplified cartoon people, flattened civic props, pastel paper backgrounds, warning-sign motifs, and intentionally naive perspective.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in naive-marker-psa-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the characters with {WARDROBE_STYLE}.\n\nIllustration: make a finished raster poster, not a photo, SVG, UI mockup, or clean vector icon set. Use thick uneven black marker outlines, flat hand-colored fills, rounded stroke ends, subtle paper grain, marker scuffs, imperfect edges, and low-polish scanned-poster softness.\n\nLayout: reserve the upper half or upper band for a huge rounded speech-panel sign with a thick marker-blue border and off-white interior. Put \"{MAIN_TEXT}\" inside the sign as massive rough black block letters. Add \"{SECONDARY_TEXT}\" as a small rounded red or blue capsule label near the headline.\n\nCharacters and setting: place one or more simplified cartoon people in the lower half with playful scale distortion, oversized hands, signs, or props, and intentionally naive proportions. Build the environment from flat doodled public-scene icons: tiny buildings, signs, cones, grass tufts, arrows, rocks, labels, alert marks, and simple yellow ground patches.\n\nColor and mood: use pale blue background, cream panel, marker blue frame, coral red accents, warm yellow ground, soft skin pink, grass green, chalk gray, and deep black ink. Keep the poster friendly, instructional, childlike, approachable, and lightly comedic. Include {ACCENT_SYMBOL} as a simple graphic accent.\n\nAvoid: watermarks, usernames, creator IDs, platform logos, QR codes, app UI, signatures, copied reference text, copied reference characters, red telephone, legal theme, date range, no-access sign, exact layout, brand logos, licensed characters, recognizable people, photorealism, 3D render, glossy vector art, clean corporate icon set, gradient lighting, airbrush shading, thin elegant line art, realistic anatomy, correct architectural perspective, long paragraphs, dense fine print, and dark cinematic mood.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, signature, copied reference text, copied reference characters, red telephone, legal theme, date range, no-access sign, exact layout, brand logo, licensed character, recognizable person, photorealism, 3D render, glossy vector art, clean corporate icon set, gradient lighting, airbrush shading, thin elegant line art, realistic anatomy, correct architectural perspective, long paragraphs, dense fine print, dark cinematic mood",
+  "variables": {
+    "SUBJECT": "main simplified cartoon subject, group, students, volunteers, workers, neighbors, mascot, or public-service character",
+    "SUBJECT_ACTION": "main public-service action or frozen gesture, such as raising a hand, pointing at a sign, sorting objects, passing supplies, checking a list, or holding an oversized prop",
+    "PRODUCT_OR_PROP": "oversized object, book, tool, sign, device, food item, toy, bin, clipboard, safety item, or public prop",
+    "LOCATION": "simple public setting, school area, street corner, library, garden, transit stop, clinic, market, lab booth, recycling station, or community space",
+    "BACKGROUND_ELEMENTS": "flat tiny buildings, signs, arrows, grass tufts, cones, paper labels, small rocks, alert marks, bottle icons, paper scraps, and doodle symbols",
+    "MAIN_TEXT": "short bold public-service headline inside the speech-panel sign, maximum three to five words",
+    "SECONDARY_TEXT": "small label in a rounded red or blue capsule",
+    "ACCENT_SYMBOL": "lightning bolt, exclamation mark, hand sign, arrow, triangle warning icon, circular arrow, sprout burst, or comic burst",
+    "WARDROBE_STYLE": "simple school, community, worker, volunteer, lab, neighbor, or everyday cartoon outfit with flat marker-color blocks",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Library Quiet Crew",
+      "variables": {
+        "SUBJECT": "two simplified cartoon students with round faces and blocky hair",
+        "SUBJECT_ACTION": "one student raises an oversized open palm in a friendly quiet gesture while the other carries a giant library card",
+        "PRODUCT_OR_PROP": "oversized open book with simple page lines and a blue bookmark",
+        "LOCATION": "school library entrance drawn as a flat public hallway",
+        "BACKGROUND_ELEMENTS": "tiny shelves, crooked book carts, small arrow signs, grass-like paper cut marks, exclamation stickers, and simple floor shapes",
+        "MAIN_TEXT": "KEEP IT QUIET",
+        "SECONDARY_TEXT": "library",
+        "ACCENT_SYMBOL": "yellow lightning-shaped silence mark",
+        "WARDROBE_STYLE": "simple school outfits with red straps, blue skirt or shorts, black shoes, and flat cream highlights",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: two simplified cartoon students with round faces and blocky hair. Action: one student raises an oversized open palm in a friendly quiet gesture while the other carries a giant library card. Prop/Product: oversized open book with simple page lines and a blue bookmark. Location: school library entrance drawn as a flat public hallway. Background: tiny shelves, crooked book carts, small arrow signs, grass-like paper cut marks, exclamation stickers, and simple floor shapes. Main text: KEEP IT QUIET. Secondary text: library. Accent symbol: yellow lightning-shaped silence mark. Wardrobe/styling: simple school outfits with red straps, blue skirt or shorts, black shoes, and flat cream highlights. Use a horizontal poster crop. Stretch the blue-bordered speech-panel sign across the upper band, place the two cartoon students across the lower band, and spread small library icons left and right. Avoid the full negative prompt.",
+      "prompt_9x16": "Create a 9:16 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: two simplified cartoon students with round faces and blocky hair. Action: one student raises an oversized open palm in a friendly quiet gesture while the other carries a giant library card. Prop/Product: oversized open book with simple page lines and a blue bookmark. Location: school library entrance drawn as a flat public hallway. Background: tiny shelves, crooked book carts, small arrow signs, grass-like paper cut marks, exclamation stickers, and simple floor shapes. Main text: KEEP IT QUIET. Secondary text: library. Accent symbol: yellow lightning-shaped silence mark. Wardrobe/styling: simple school outfits with red straps, blue skirt or shorts, black shoes, and flat cream highlights. Use a vertical poster crop. Stack the huge blue-bordered speech-panel sign in the upper half, with the oversized quiet hand pushing into the foreground below it. Keep the cartoon students centered in the lower half and let small library signs tilt around them. Avoid the full negative prompt."
+    },
+    {
+      "case_name": "Garden Swap Day",
+      "variables": {
+        "SUBJECT": "three neighborhood volunteers drawn as simple chunky cartoon figures",
+        "SUBJECT_ACTION": "passing seedlings from one person to another in a cheerful community exchange",
+        "PRODUCT_OR_PROP": "oversized watering can and seed packet with simple doodle label",
+        "LOCATION": "small community garden path",
+        "BACKGROUND_ELEMENTS": "tiny sheds, tilted plant labels, red arrows, green grass tufts, small rocks, paper-like yellow ground patches, and blue direction signs",
+        "MAIN_TEXT": "GROW TOGETHER",
+        "SECONDARY_TEXT": "garden",
+        "ACCENT_SYMBOL": "red sprout burst",
+        "WARDROBE_STYLE": "volunteer vests, simple shorts, loose shirts, gloves, and flat marker-color blocks",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: three neighborhood volunteers drawn as simple chunky cartoon figures. Action: passing seedlings from one person to another in a cheerful community exchange. Prop/Product: oversized watering can and seed packet with simple doodle label. Location: small community garden path. Background: tiny sheds, tilted plant labels, red arrows, green grass tufts, small rocks, paper-like yellow ground patches, and blue direction signs. Main text: GROW TOGETHER. Secondary text: garden. Accent symbol: red sprout burst. Wardrobe/styling: volunteer vests, simple shorts, loose shirts, gloves, and flat marker-color blocks. Use a horizontal poster crop. Stretch the speech-panel sign across the top, spread the volunteers along the garden path, and let the watering can cut diagonally through the lower center. Avoid the full negative prompt.",
+      "prompt_9x16": "Create a 9:16 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: three neighborhood volunteers drawn as simple chunky cartoon figures. Action: passing seedlings from one person to another in a cheerful community exchange. Prop/Product: oversized watering can and seed packet with simple doodle label. Location: small community garden path. Background: tiny sheds, tilted plant labels, red arrows, green grass tufts, small rocks, paper-like yellow ground patches, and blue direction signs. Main text: GROW TOGETHER. Secondary text: garden. Accent symbol: red sprout burst. Wardrobe/styling: volunteer vests, simple shorts, loose shirts, gloves, and flat marker-color blocks. Use a vertical poster crop. Place the huge speech-panel sign above the volunteers and crop the oversized watering can into the lower foreground. Avoid the full negative prompt."
+    },
+    {
+      "case_name": "Lab Safety Spark",
+      "variables": {
+        "SUBJECT": "a simplified cartoon science club student and a small boxy helper robot",
+        "SUBJECT_ACTION": "pointing at a safety checklist while a tiny harmless spark pops beside the table",
+        "PRODUCT_OR_PROP": "oversized safety goggles and a chunky clipboard",
+        "LOCATION": "school science fair booth",
+        "BACKGROUND_ELEMENTS": "crooked experiment tables, warning triangles, tiny plug signs, blue arrows, red alert marks, paper label flags, and simple building blocks",
+        "MAIN_TEXT": "SPARK SMART",
+        "SECONDARY_TEXT": "lab",
+        "ACCENT_SYMBOL": "yellow zigzag bolt",
+        "WARDROBE_STYLE": "white lab coat shape, red strap, black shoes, blue skirt or shorts, and soft pink face blocks",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: a simplified cartoon science club student and a small boxy helper robot. Action: pointing at a safety checklist while a tiny harmless spark pops beside the table. Prop/Product: oversized safety goggles and a chunky clipboard. Location: school science fair booth. Background: crooked experiment tables, warning triangles, tiny plug signs, blue arrows, red alert marks, paper label flags, and simple building blocks. Main text: SPARK SMART. Secondary text: lab. Accent symbol: yellow zigzag bolt. Wardrobe/styling: white lab coat shape, red strap, black shoes, blue skirt or shorts, and soft pink face blocks. Use a horizontal poster crop. Make the blue-bordered speech-panel sign span the top, with the student, robot, goggles, and warning icons arranged in a wide flattened booth scene below. Avoid the full negative prompt.",
+      "prompt_9x16": "Create a 9:16 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: a simplified cartoon science club student and a small boxy helper robot. Action: pointing at a safety checklist while a tiny harmless spark pops beside the table. Prop/Product: oversized safety goggles and a chunky clipboard. Location: school science fair booth. Background: crooked experiment tables, warning triangles, tiny plug signs, blue arrows, red alert marks, paper label flags, and simple building blocks. Main text: SPARK SMART. Secondary text: lab. Accent symbol: yellow zigzag bolt. Wardrobe/styling: white lab coat shape, red strap, black shoes, blue skirt or shorts, and soft pink face blocks. Use a vertical poster crop. Put the speech-panel sign high and let the oversized goggles overlap the student and robot in the foreground. Avoid the full negative prompt."
+    },
+    {
+      "case_name": "Sort It Station",
+      "variables": {
+        "SUBJECT": "two simplified cartoon neighbors with square jackets and round cheeks",
+        "SUBJECT_ACTION": "sorting bottles and paper into color-coded bins with a proud frozen pose",
+        "PRODUCT_OR_PROP": "oversized recycling bin lid and a stack of flat paper shapes",
+        "LOCATION": "neighborhood recycling station beside a small sidewalk",
+        "BACKGROUND_ELEMENTS": "tiny apartment blocks, crooked arrows, bottle icons, paper scraps, green grass tufts, blue signs, red exclamation marks, and warm yellow ground puddles",
+        "MAIN_TEXT": "SORT IT RIGHT",
+        "SECONDARY_TEXT": "recycle",
+        "ACCENT_SYMBOL": "blue circular arrow",
+        "WARDROBE_STYLE": "simple community jackets, black cuffs, red shoulder bags, chunky shoes, and flat cream highlights",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: two simplified cartoon neighbors with square jackets and round cheeks. Action: sorting bottles and paper into color-coded bins with a proud frozen pose. Prop/Product: oversized recycling bin lid and a stack of flat paper shapes. Location: neighborhood recycling station beside a small sidewalk. Background: tiny apartment blocks, crooked arrows, bottle icons, paper scraps, green grass tufts, blue signs, red exclamation marks, and warm yellow ground puddles. Main text: SORT IT RIGHT. Secondary text: recycle. Accent symbol: blue circular arrow. Wardrobe/styling: simple community jackets, black cuffs, red shoulder bags, chunky shoes, and flat cream highlights. Use a horizontal poster crop. Stretch the speech-panel sign across the top and arrange the neighbors, bins, apartment icons, and arrows across a wide flattened lower band. Avoid the full negative prompt.",
+      "prompt_9x16": "Create a 9:16 finished raster poster image in the \"Naive Marker PSA Poster Style\". Subject: two simplified cartoon neighbors with square jackets and round cheeks. Action: sorting bottles and paper into color-coded bins with a proud frozen pose. Prop/Product: oversized recycling bin lid and a stack of flat paper shapes. Location: neighborhood recycling station beside a small sidewalk. Background: tiny apartment blocks, crooked arrows, bottle icons, paper scraps, green grass tufts, blue signs, red exclamation marks, and warm yellow ground puddles. Main text: SORT IT RIGHT. Secondary text: recycle. Accent symbol: blue circular arrow. Wardrobe/styling: simple community jackets, black cuffs, red shoulder bags, chunky shoes, and flat cream highlights. Use a vertical poster crop. Place the huge speech-panel sign above the neighbors and crop the oversized bin lid into the lower foreground. Avoid the full negative prompt."
+    }
+  ],
+  "license": "CC BY 4.0"
+}
