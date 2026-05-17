@@ -1,0 +1,97 @@
+{
+  "style_name": "Blue Bubble Fisheye Action Poster Style",
+  "style_slug": "blue-bubble-fisheye-action-poster-style",
+  "version": "2026.05.17",
+  "status": "stable",
+  "updated_at": "2026-05-17",
+  "summary": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in blue-bubble-fisheye-action-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.\n\nPhotography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight, blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.\n\nLayout: build a clean white editorial poster canvas with a central rectangular action photo. Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin. Keep the poster layer flat, precise, and uncluttered.\n\nTypography: set \"{MAIN_TEXT}\" as massive rounded royal-blue bubble lettering cropped behind or above the photo block. Keep supporting text small, geometric, and blue. Add \"{SECONDARY_TEXT}\" only as compact editorial microcopy in the bottom margin.\n\nGraphic system: include {ACCENT_SYMBOL}, a small non-scannable stripe block, and balanced lower-margin caption groups. Use a rough red marker circle to highlight one product or movement detail.\n\nAvoid: watermarks, usernames, creator IDs, platform logos, app interface marks, QR codes, scannable barcodes, copied reference people, copied poses, copied text, recognizable logos, brand-owned product marks, long paragraphs, cluttered collage, dark cyberpunk lighting, luxury minimalism, flat vector substitutes, SVG or HTML mockup looks, distorted faces, extra limbs, extra fingers, malformed hands, and unreadable main headline.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, app interface, QR code, scannable barcode, copied PUNK text, copied reference slogan, copied creator credit, copied skateboarder, exact original pose, exact shoe brand mark, recognizable logo, long paragraph text, cluttered collage, dark cyberpunk scene, luxury beige editorial, flat vector substitute, SVG look, HTML mockup, canvas drawing, distorted face, extra limbs, extra fingers, malformed hands, unreadable main headline",
+  "variables": {
+    "SUBJECT": "adult action subject, performer, courier, maker, athlete, rider, dancer, chef, technician, or product model",
+    "SUBJECT_ACTION": "lunging toward the lens, reaching across the frame, jumping over the camera, presenting a prop, balancing in motion, or landing in a dramatic wide-angle pose",
+    "PRODUCT_OR_PROP": "featured object, shoe, bag, tool, instrument, food item, plant crate, wearable, device, or product detail that can be emphasized by perspective",
+    "LOCATION": "sunny urban roof, bright plaza, skateable concrete space, clean market aisle, public court, workshop, studio patio, transit deck, or open daylight environment",
+    "BACKGROUND_ELEMENTS": "blue sky, motion-blurred edges, white poster margin, rectangular photo crop, oversized blue bubble headline, small editorial text blocks, non-scannable stripe code, and red hand-drawn circle annotation",
+    "MAIN_TEXT": "short rounded headline, 1 to 2 words, set as huge blue bubble lettering cropped behind or above the photo",
+    "SECONDARY_TEXT": "small two-line editorial caption or slogan in blue, placed near the lower margin",
+    "ACCENT_SYMBOL": "red hand-drawn circle, thin underline, tiny blue divider, or non-scannable stripe block",
+    "WARDROBE_STYLE": "casual streetwear, sport utility layers, shorts, sneakers, sunglasses, cap, apron, technical vest, or color-blocked everyday clothing",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Rooftop Plant Delivery",
+      "variables": {
+        "SUBJECT": "adult rooftop courier",
+        "SUBJECT_ACTION": "lunging toward a low fisheye camera while lowering a small plant crate",
+        "PRODUCT_OR_PROP": "translucent green plant delivery crate, circled in rough red marker",
+        "LOCATION": "sunny urban rooftop garden with pale concrete and blue sky",
+        "BACKGROUND_ELEMENTS": "motion-blurred roof edge, white poster border, central photo rectangle, oversized blue bubble headline behind the image, tiny bottom captions, and compact non-scannable stripe block",
+        "MAIN_TEXT": "GROW FAST",
+        "SECONDARY_TEXT": "fresh route / roof level",
+        "ACCENT_SYMBOL": "red hand-drawn oval around the plant crate",
+        "WARDROBE_STYLE": "olive utility vest, light shorts, white socks, clean black sneakers with no logo",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 horizontal image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult rooftop courier. Action: sliding across a sunlit rooftop garden and reaching a plant crate toward the lens. Prop/Product: translucent green plant delivery crate, circled in rough red marker. Location: bright urban rooftop with planters, pale concrete, and open blue sky. Background: horizontal fisheye photo rectangle, motion blur at the sides, white poster field, giant rounded blue headline behind the photo, small blue caption groups along the bottom, compact non-scannable stripe block. Main text: GROW FAST. Secondary text: fresh route / roof level. Accent symbol: red hand-drawn oval around the plant crate. Wardrobe/styling: olive utility vest, light shorts, white socks, clean black sneakers with no logo. Make the foreground hand and crate oversized through fisheye distortion, keep the layout crisp and poster-like, and use bright daylight with a clean magazine finish. Do not copy the original skateboard scene, text, person, shoe branding, or exact pose.",
+      "prompt_9x16": "Create a 9:16 vertical image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult rooftop courier. Action: lunging toward a low fisheye camera while lowering a small plant crate. Prop/Product: translucent green plant delivery crate, circled in rough red marker. Location: sunny urban rooftop garden with pale concrete and blue sky. Background: motion-blurred roof edge, white poster border, central vertical photo rectangle, oversized blue bubble headline behind the image, tiny bottom captions, compact non-scannable stripe block. Main text: GROW FAST. Secondary text: fresh route / roof level. Accent symbol: red hand-drawn oval around the plant crate. Wardrobe/styling: olive utility vest, light shorts, white socks, clean black sneakers with no logo. Use a clean white editorial poster canvas, massive rounded royal-blue headline cropped at the top, extreme low-angle fisheye photography, a foreground hand and crate exaggerated toward the viewer, bright daylight, blue sky, and small blue editorial microcopy in the lower margin. Avoid copied reference content, watermarks, logos, QR codes, exact sneaker marks, or scannable barcode."
+    },
+    {
+      "case_name": "Solar Field Runner",
+      "variables": {
+        "SUBJECT": "adult solar field runner",
+        "SUBJECT_ACTION": "vaulting over a low camera while checking a handheld sensor",
+        "PRODUCT_OR_PROP": "small chrome sunlight sensor on the runner's wrist, circled with rough red marker",
+        "LOCATION": "bright solar test lane with pale panels and a clear blue sky",
+        "BACKGROUND_ELEMENTS": "rectangular photo crop, lens-warped panels, radial motion blur, white poster margin, huge rounded blue headline peeking from behind the photo, tiny blue bottom copy, and compact non-scannable stripe block",
+        "MAIN_TEXT": "SUN RUSH",
+        "SECONDARY_TEXT": "bright test / lane 02",
+        "ACCENT_SYMBOL": "red hand-drawn circle around the wrist sensor",
+        "WARDROBE_STYLE": "cobalt windbreaker, black running shorts, reflective sunglasses, white low-profile shoes with no logo",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 horizontal image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult solar field runner. Action: sprinting across the frame and leaning toward the action-camera lens with one wrist forward. Prop/Product: small chrome sunlight sensor on the wrist, circled with rough red marker. Location: solar test lane with geometric panels, pale concrete, and open sky. Background: horizontal fisheye photo rectangle, motion-blurred solar panels, white poster field, huge blue rounded bubble headline across the back layer, small blue caption blocks at lower left and lower right, compact non-scannable stripe block. Main text: SUN RUSH. Secondary text: bright test / lane 02. Accent symbol: red marker circle around the sensor. Wardrobe/styling: cobalt windbreaker, black running shorts, reflective sunglasses, white low-profile shoes with no logo. Keep the poster clean, high-key, and playful; exaggerate the foreground wrist and shoe with fisheye distortion while preserving realistic anatomy and no recognizable branding.",
+      "prompt_9x16": "Create a 9:16 vertical image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult solar field runner. Action: vaulting over a low camera while checking a handheld sensor. Prop/Product: small chrome sunlight sensor on the runner's wrist, circled with rough red marker. Location: bright solar test lane with pale panels and a clear blue sky. Background: rectangular vertical photo crop, lens-warped panels, radial motion blur, white poster margin, huge rounded blue headline peeking from behind the photo, tiny blue bottom copy, compact non-scannable stripe block. Main text: SUN RUSH. Secondary text: bright test / lane 02. Accent symbol: red hand-drawn circle around the wrist sensor. Wardrobe/styling: cobalt windbreaker, black running shorts, reflective sunglasses, white low-profile shoes with no logo. Use extreme low-angle fisheye action photography, foreground shoe and wrist enlarged toward the viewer, bright outdoor sunlight, saturated blue sky, and clean white editorial poster spacing. No logos, watermarks, QR codes, copied reference text, or scannable barcode."
+    },
+    {
+      "case_name": "Gelato Counter Flip",
+      "variables": {
+        "SUBJECT": "adult gelato maker",
+        "SUBJECT_ACTION": "leaning over the counter toward the lens while flipping a metal scoop",
+        "PRODUCT_OR_PROP": "shiny gelato scoop and pastel cup, with the scoop circled in rough red marker",
+        "LOCATION": "bright open-air gelato counter with sky-blue awning and white tile",
+        "BACKGROUND_ELEMENTS": "photo rectangle, fisheye counter distortion, motion-blurred pastel cups at edges, white poster border, oversized blue rounded headline cropped behind the image, small blue bottom captions, and compact non-scannable stripe block",
+        "MAIN_TEXT": "COLD MOVE",
+        "SECONDARY_TEXT": "soft serve / counter jump",
+        "ACCENT_SYMBOL": "red hand-drawn circle around the flying scoop",
+        "WARDROBE_STYLE": "white apron, navy tee, pale cap, casual black-and-white shoes with no brand mark",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 horizontal image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult gelato maker. Action: sliding a pastel cup across the counter while leaning into a low fisheye lens. Prop/Product: shiny gelato scoop and pastel cup, with the scoop circled in rough red marker. Location: bright open-air gelato counter with white tile, blue awning, and daylight. Background: horizontal action photo rectangle, smeared counter edge, blue sky hints, white poster canvas, giant blue rounded headline behind the image, tiny lower blue caption groups, compact non-scannable stripe block. Main text: COLD MOVE. Secondary text: soft serve / counter jump. Accent symbol: red marker circle around the scoop. Wardrobe/styling: white apron, navy tee, pale cap, casual black-and-white shoes with no brand mark. Use playful magazine-ad energy, real photographic textures, and extreme foreground scale while keeping the graphic layout simple, white, blue, and red.",
+      "prompt_9x16": "Create a 9:16 vertical image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult gelato maker. Action: leaning over the counter toward the lens while flipping a metal scoop. Prop/Product: shiny gelato scoop and pastel cup, with the scoop circled in rough red marker. Location: bright open-air gelato counter with sky-blue awning and white tile. Background: vertical photo rectangle, fisheye counter distortion, motion-blurred pastel cups at edges, white poster border, oversized blue rounded headline cropped behind the image, small blue bottom captions, compact non-scannable stripe block. Main text: COLD MOVE. Secondary text: soft serve / counter jump. Accent symbol: red hand-drawn circle around the flying scoop. Wardrobe/styling: white apron, navy tee, pale cap, casual black-and-white shoes with no brand mark. Make the foreground scoop and hand huge through the wide-angle lens, keep the image photographic and sunlit, and use the same crisp white poster system with blue bubble type and tiny blue microcopy. Avoid original content, logos, watermarks, QR codes, and scannable barcode."
+    },
+    {
+      "case_name": "Transit Bag Launch",
+      "variables": {
+        "SUBJECT": "adult commuter dancer",
+        "SUBJECT_ACTION": "jumping over a low fisheye camera while swinging a modular shoulder bag forward",
+        "PRODUCT_OR_PROP": "small silver buckle on the modular bag, circled in rough red marker",
+        "LOCATION": "sunlit transit plaza with concrete steps, glass canopy, and bright sky",
+        "BACKGROUND_ELEMENTS": "rectangular photo block, motion-blurred plaza edges, white poster border, giant rounded blue headline hidden partly behind the photo, small blue lower captions, and compact non-scannable stripe block",
+        "MAIN_TEXT": "CITY JUMP",
+        "SECONDARY_TEXT": "platform note / move light",
+        "ACCENT_SYMBOL": "red hand-drawn oval around the bag buckle",
+        "WARDROBE_STYLE": "green shirt, denim shorts, black beanie, sunglasses, clean black shoes with no logo",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a 16:9 horizontal image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult commuter dancer. Action: leaping sideways across a transit plaza and thrusting a modular shoulder bag toward the camera. Prop/Product: small silver buckle on the modular bag, circled in rough red marker. Location: sunlit transit plaza with concrete steps, glass canopy, and bright sky. Background: wide fisheye action photo rectangle, blurred steps and canopy edges, white poster canvas, giant cropped rounded blue headline across the back, small blue captions at the bottom, compact non-scannable stripe block. Main text: CITY JUMP. Secondary text: platform note / move light. Accent symbol: red marker oval around the bag buckle. Wardrobe/styling: green shirt, denim shorts, black beanie, sunglasses, clean black shoes with no logo. Make the bag and shoe feel close enough to touch, preserve realistic anatomy and lighting, and keep the layout white, blue, and red with crisp editorial spacing.",
+      "prompt_9x16": "Create a 9:16 vertical image in the \"Blue Bubble Fisheye Action Poster\" visual style. Subject: adult commuter dancer. Action: jumping over a low fisheye camera while swinging a modular shoulder bag forward. Prop/Product: small silver buckle on the modular bag, circled in rough red marker. Location: sunlit transit plaza with concrete steps, glass canopy, and bright sky. Background: vertical rectangular photo block, motion-blurred plaza edges, white poster border, giant rounded blue headline hidden partly behind the photo, small blue lower captions, compact non-scannable stripe block. Main text: CITY JUMP. Secondary text: platform note / move light. Accent symbol: red hand-drawn oval around the bag buckle. Wardrobe/styling: green shirt, denim shorts, black beanie, sunglasses, clean black shoes with no logo. Use an action-camera low angle, oversized foreground bag and shoe, crisp daylight, blue-sky contrast, clean white poster margins, rounded blue bubble type, and small editorial microcopy. Avoid copied reference pose, text, skateboard scene, brand marks, watermarks, QR codes, or scannable barcode."
+    }
+  ],
+  "license": "CC BY 4.0"
+}
