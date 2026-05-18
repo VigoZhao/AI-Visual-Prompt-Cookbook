@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="风格数量" src="https://img.shields.io/badge/styles-30-ff5a7a?style=flat-square">
-  <img alt="预览图" src="https://img.shields.io/badge/previews-60-4cc9f0?style=flat-square">
+  <img alt="风格数量" src="https://img.shields.io/badge/styles-31-ff5a7a?style=flat-square">
+  <img alt="预览图" src="https://img.shields.io/badge/previews-62-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="语言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -72,6 +72,12 @@ ASPECT_RATIO = 16:9
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/chromatic-fisheye-orbit-pop-poster-style"><img src="styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg" alt="Chromatic Fisheye Orbit Pop Poster preview"></a>
+<h3>Chromatic Fisheye Orbit Pop Poster</h3>
+<p>一种高调流行文化海报风格：凸面鱼眼照片圆顶、巨大环绕式红橙洋红字体、水蓝折射弧线、暖白留白和模拟印刷颗粒。</p>
+<p><a href="styles/chromatic-fisheye-orbit-pop-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/chromatic-fisheye-orbit-pop-poster-style">目录</a></p>
+</td>
+<td width="33%" valign="top">
 <a href="styles/naive-marker-psa-poster-style"><img src="styles/naive-marker-psa-poster-style/preview-16x9.jpg" alt="Naive Marker PSA Poster preview"></a>
 <h3>Naive Marker PSA Poster</h3>
 <p>一种友好的手绘公共服务海报风格：粗糙马克笔线条、巨大蓝框对话牌标题、简化卡通人物、扁平公共场景道具和柔和纸张质感。</p>
@@ -83,14 +89,14 @@ ASPECT_RATIO = 16:9
 <p>一种清爽白底青年文化动作海报风格：中央鱼眼动作照片、超大皇家蓝泡泡字体、破框前景尺度、小号蓝色编辑文字，以及红色手绘圈注。</p>
 <p><a href="styles/blue-bubble-fisheye-action-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/blue-bubble-fisheye-action-poster-style">目录</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg" alt="K-pop Apocalypse Ransom Zine preview"></a>
 <h3>K-pop Apocalypse Ransom Zine</h3>
 <p>极繁时尚 zine 拼贴：人物剪贴、勒索信式排版、揉皱纸张、贴纸色块和高饱和强调色。</p>
 <p><a href="styles/k-pop-apocalypse-ransom-zine-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/k-pop-apocalypse-ransom-zine-style">目录</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster preview"></a>
 <h3>Impact Burst Halftone Comic Poster</h3>
@@ -102,12 +108,6 @@ ASPECT_RATIO = 16:9
 <h3>Playful Mascot Doodle Snapshot</h3>
 <p>一种把真实生活社交照片转成轻快贴纸拼贴海报的风格：在摄影场景上叠加原创卡通吉祥物贴纸、手绘描边、丝带标题牌、闪光、螺旋和草稿感装饰符号。</p>
 <p><a href="styles/playful-mascot-doodle-snapshot-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/playful-mascot-doodle-snapshot-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
-<h3>Teenage Skate Scribble Screenprint Poster</h3>
-<p>一种复古滑板 zine 海报风格：扭曲的中央滑板人物剪贴、奶油纸张底、松散红色手写边框字、粗粝双色丝网印刷质感，以及海军蓝、灰、绿、赭色的有限街头配色。</p>
-<p><a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style">目录</a></p>
 </td>
 </tr>
 </table>
@@ -123,38 +123,49 @@ styles/<style-slug>/
 
 ## 风格索引
 
-1. [Naive Marker PSA Poster](#naive-marker-psa-poster)
-2. [Blue Bubble Fisheye Action Poster](#blue-bubble-fisheye-action-poster)
-3. [Cozy Bedroom Doodle Companion Snapshot](#cozy-bedroom-doodle-companion-snapshot)
-4. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
-5. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
-6. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
-7. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
-8. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
-9. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
-10. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-11. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-12. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-13. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-14. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-15. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-16. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-17. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-18. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-19. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-20. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-21. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-22. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-23. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-24. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-25. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-26. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-27. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-28. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-29. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-30. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Chromatic Fisheye Orbit Pop Poster](#chromatic-fisheye-orbit-pop-poster)
+2. [Naive Marker PSA Poster](#naive-marker-psa-poster)
+3. [Blue Bubble Fisheye Action Poster](#blue-bubble-fisheye-action-poster)
+4. [Cozy Bedroom Doodle Companion Snapshot](#cozy-bedroom-doodle-companion-snapshot)
+5. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
+6. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
+7. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
+8. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
+9. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
+10. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
+11. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+12. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+13. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+14. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+15. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+16. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+17. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+18. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+19. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+20. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+21. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+22. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+23. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+24. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+25. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+26. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+27. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+28. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+29. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+30. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+31. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## 风格目录
+
+### Chromatic Fisheye Orbit Pop Poster
+
+<a href="styles/chromatic-fisheye-orbit-pop-poster-style"><img src="styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg" width="720" alt="Chromatic Fisheye Orbit Pop Poster preview"></a>
+
+一种高调流行文化海报系统：极端鱼眼摄影、中央凸面玻璃圆顶、超大环绕字体、红橙洋红字面、水蓝色折射光弧、暖白留白和轻微模拟印刷质感，像通过扭曲圆形镜头看到的当代音乐、时尚或文化活动主视觉。
+
+文件：[style.json](styles/chromatic-fisheye-orbit-pop-poster-style/style.json) · [16:9 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg) · [9:16 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg) · [目录](styles/chromatic-fisheye-orbit-pop-poster-style)
+
+---
 
 ### Naive Marker PSA Poster
 

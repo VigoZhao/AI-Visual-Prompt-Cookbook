@@ -1,0 +1,97 @@
+{
+  "style_name": "Chromatic Fisheye Orbit Pop Poster Style",
+  "style_slug": "chromatic-fisheye-orbit-pop-poster-style",
+  "version": "2026.05.18",
+  "status": "stable",
+  "updated_at": "2026-05-18",
+  "summary": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create an image in chromatic-fisheye-orbit-pop-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.\n\nPhotography: build a finished high-key pop culture poster, not a sketch. Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble. Keep people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.\n\nLayout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space. Hold the subject in a central circular dome and let the composition feel off-axis, kinetic, and orbiting without cluttering the center.\n\nTypography: set \"{MAIN_TEXT}\" as huge heavy display typography warped around the circular lens. Crop the headline at multiple frame edges and fill the letters with hot vermilion, orange, red, and fluorescent magenta ink texture. Add \"{SECONDARY_TEXT}\" only as a small red editorial caption block in a quiet corner.\n\nGraphic system: include {ACCENT_SYMBOL}, aqua/cyan light arcs, prism smears, faint chromatic aberration, radial motion blur near the rim, subtle analog grain, screenprint speckle, and slight color bleed. The result should feel like a contemporary music, fashion, or culture campaign viewed through a warped circular lens.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app interface marks, copied reference people, copied event text, copied venue text, copied exact pose, exact YOASOBI text, exact anniversary wording, long paragraph text, tiny crowded text, flat vector substitutes, SVG look, HTML mockup, canvas drawing, corporate minimalist poster, muted beige-only palette, dark nightclub scene, cyberpunk darkness, luxury studio calm, fake brand logos, distorted unreadable faces, extra limbs, and misshapen hands.",
+  "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface, copied reference person, copied reference event text, copied venue, copied exact pose, exact YOASOBI text, exact anniversary wording, long paragraph text, tiny crowded text, flat vector substitute, SVG look, HTML mockup, canvas drawing, corporate minimalist poster, muted beige-only palette, dark nightclub scene, cyberpunk darkness, luxury studio calm, fake brand logo, distorted unreadable faces, extra limbs, misshapen hands",
+  "variables": {
+    "SUBJECT": "main person, duo, small crew, performer, maker, athlete, courier, scientist, chef, or product model",
+    "SUBJECT_ACTION": "leaning over a fisheye lens, crouching inside a circular dome, looking down toward camera, reaching across frame, presenting a prop, or sitting in a compressed lens bubble",
+    "PRODUCT_OR_PROP": "featured object, tool, instrument, product, bag, scooter, plant module, cooler, synth, sports gear, or food item",
+    "LOCATION": "clean studio, greenhouse lab, indoor market, sports court, workshop, museum atrium, transit hall, or bright exhibition space",
+    "BACKGROUND_ELEMENTS": "white negative space, circular glass distortion, cyan light streaks, faint radial smears, cropped typography fragments, small caption block, prism reflections, or color bleed",
+    "MAIN_TEXT": "short headline or event title, usually 1 to 3 words, set as huge warped orbiting type",
+    "SECONDARY_TEXT": "small date line, venue note, issue code, route note, product edition, or editorial caption",
+    "ACCENT_SYMBOL": "thin cyan arc, prism slash, small sparkle, curved underline, tiny divider, or chrome-like lens glint",
+    "WARDROBE_STYLE": "saturated fashion layers, translucent jacket, glossy sportswear, feathered texture, oversized pants, clean utility uniform, or color-blocked editorial styling",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Lunar Plant Lab",
+      "variables": {
+        "SUBJECT": "two adult greenhouse researchers",
+        "SUBJECT_ACTION": "leaning over a fisheye lens and presenting a seed capsule",
+        "PRODUCT_OR_PROP": "clear seed capsule and tiny grow light",
+        "LOCATION": "bright white plant lab",
+        "BACKGROUND_ELEMENTS": "central convex glass-dome distortion, warm off-white negative space, aqua cyan light arcs, prism smears, and subtle screenprint grain",
+        "MAIN_TEXT": "BLOOM LOOP",
+        "SECONDARY_TEXT": "greenhouse trial / 07.18",
+        "ACCENT_SYMBOL": "thin aqua cyan orbit arc",
+        "WARDROBE_STYLE": "translucent pink and mint utility jackets, oversized soft pants, clean gloves, and realistic photographic faces",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. Two adult greenhouse researchers crouch around a circular fisheye glass dome in a bright white plant lab, presenting a clear seed capsule and a small grow light. Keep the photographic subjects centered and realistic with translucent pink and mint utility styling. Wrap giant cropped circular headline text \"BLOOM LOOP\" around the dome, entering from the left edge and exiting at the right edge, with vermilion, orange, red, and fluorescent magenta ink texture. Use warm off-white negative space, aqua cyan refraction arcs, prism streaks, chromatic aberration, radial smear near the rim, and analog poster grain. Add small red caption text \"greenhouse trial / 07.18\" near a lower corner. No copied reference identity, watermark, QR code, platform mark, or fake brand logo.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. Two adult greenhouse researchers lean over an extreme fisheye lens inside a bright white plant lab, one holding a clear seed capsule and the other adjusting a tiny grow light. The central photo sits inside a convex circular glass-dome distortion. Use translucent pink and mint utility jackets, oversized soft pants, clean gloves, and realistic photographic faces. Surround the dome with huge cropped orbiting type reading \"BLOOM LOOP\" in hot vermilion, orange, red, and fluorescent magenta ink texture. Add aqua cyan light arcs, prism smears, faint radial motion blur, and subtle screenprint grain over a warm off-white background. Place tiny red secondary text \"greenhouse trial / 07.18\" in a calm lower corner. No copied reference names, no venue text, no watermark, no QR code, no logo."
+    },
+    {
+      "case_name": "Glass Scooter Market",
+      "variables": {
+        "SUBJECT": "adult courier",
+        "SUBJECT_ACTION": "leaning toward the lens while parking a compact scooter",
+        "PRODUCT_OR_PROP": "compact silver electric scooter",
+        "LOCATION": "bright glass-roof market",
+        "BACKGROUND_ELEMENTS": "pale market shapes inside the circular dome, cropped orbiting type, aqua cyan arcs, prism glints, and screenprint speckle",
+        "MAIN_TEXT": "ZIP MKT",
+        "SECONDARY_TEXT": "fresh route / bay 04",
+        "ACCENT_SYMBOL": "chrome-like lens glint",
+        "WARDROBE_STYLE": "glossy coral and white sportswear with gloves and realistic photographic fabric",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. An adult courier in glossy coral and white sportswear presents a compact silver electric scooter inside a bright glass-roof market, viewed from a low fisheye lens inside a circular dome. Keep the scene high-key with realistic fabric, scooter metal, gloves, and face. Let giant warped headline text \"ZIP MKT\" orbit around the dome in saturated vermilion, orange, red, and magenta ink texture, cropped by the left and right frame edges. Add warm off-white negative space, cyan refraction arcs, prism slashes, chromatic color split, radial blur at the rim, analog grain, and small red secondary text \"fresh route / bay 04\". No copied reference subject, no watermark, no logo, no QR code.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. An adult courier in glossy coral and white sportswear leans down toward a convex fisheye lens while parking a compact silver electric scooter inside a bright glass-roof market. Make the scooter wheel and gloved hand look exaggerated near the lens, with the face readable and photographic. Use a warm off-white poster field, pale market shapes inside the circular dome, and huge orbiting headline text \"ZIP MKT\" in hot red, vermilion, orange, and fluorescent magenta. Crop the type hard along the top, right, and bottom edges. Add aqua cyan arcs, prism glints, screenprint speckle, and a tiny red caption \"fresh route / bay 04\" in the lower-left quiet space. Avoid watermarks, logos, QR codes, copied event text, and vector-only styling."
+    },
+    {
+      "case_name": "Ice Cream Relay",
+      "variables": {
+        "SUBJECT": "two adult relay runners",
+        "SUBJECT_ACTION": "leaning over the lens with a chrome cooler",
+        "PRODUCT_OR_PROP": "chrome cooler filled with colorful ice cream cups",
+        "LOCATION": "bright indoor track",
+        "BACKGROUND_ELEMENTS": "warm off-white field, faint track details, huge orbiting headline type, cyan refraction arcs, prism glints, and color bleed",
+        "MAIN_TEXT": "SWEET RUN",
+        "SECONDARY_TEXT": "lap note / chilled pace",
+        "ACCENT_SYMBOL": "tiny sparkle accent",
+        "WARDROBE_STYLE": "playful strawberry-pink and white training outfits with realistic fabric and faces",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. Two adult relay runners in strawberry-pink and white training outfits lean toward a low convex fisheye lens on a bright indoor track, presenting a chrome cooler with colorful ice cream cups. Keep the photo bubble central and realistic, with exaggerated hands and cooler edges near the lens. Use a warm off-white field, faint track details, and huge orbiting headline text \"SWEET RUN\" in hot red, orange, vermilion, and fluorescent magenta, cropped across the top and side edges. Add cyan refraction arcs, prism glints, radial smear, color bleed, analog print grain, and a small red caption \"lap note / chilled pace\". No logos, watermarks, QR codes, copied text, or vector substitute look.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. Two adult relay runners in playful strawberry-pink and white training outfits sit and lean over a convex fisheye lens on a bright indoor track, holding a chrome cooler filled with colorful ice cream cups. The central figures should be photographic, low-angle, and slightly distorted by the circular lens bubble. Use mostly warm off-white background with faint track lines. Wrap oversized cropped headline text \"SWEET RUN\" around the dome in vermilion, acid orange, poster red, and fluorescent magenta ink texture. Add aqua light arcs, prism smears, tiny sparkle accent, visible screenprint grain, and small red caption \"lap note / chilled pace\". Avoid copied people, event names, watermarks, platform marks, QR codes, and flat SVG poster effects."
+    },
+    {
+      "case_name": "Signal Ring Workshop",
+      "variables": {
+        "SUBJECT": "electronic musician and sound technician",
+        "SUBJECT_ACTION": "adjusting a compact modular synthesizer",
+        "PRODUCT_OR_PROP": "modular synth and glowing patch cables",
+        "LOCATION": "clean white synth workshop",
+        "BACKGROUND_ELEMENTS": "convex glass-dome photo bubble, aqua audio-wave arcs, prism reflections, chromatic aberration, analog grain, and warm off-white negative space",
+        "MAIN_TEXT": "SIGNAL RING",
+        "SECONDARY_TEXT": "studio patch / take 12",
+        "ACCENT_SYMBOL": "aqua cyan audio-wave arc",
+        "WARDROBE_STYLE": "saturated magenta sleeves, aqua gloves, black utility pants, and realistic photographic skin, hair, cables, and knobs",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. An adult electronic musician and an adult sound technician lean into a low circular fisheye lens in a bright clean white synth workshop, adjusting a compact modular synthesizer with glowing patch cables. Keep the photographic center crisp and realistic while the dome edge bends hands, cables, and sleeves. Wrap the huge headline \"SIGNAL RING\" in cropped circular paths around the center, using hot vermilion, acid orange, poster red, and fluorescent magenta ink texture. Add aqua cyan audio-wave arcs, prism smears, radial motion blur, color fringing, screenprint grain, warm off-white negative space, and small red caption \"studio patch / take 12\". No watermark, no QR code, no copied reference identity, no brand logo, no flat vector mockup.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Chromatic Fisheye Orbit Pop Poster\" visual style. An adult electronic musician and an adult sound technician lean over a circular fisheye dome in a clean white synth workshop, reaching toward a compact modular synthesizer with glowing patch cables. Use saturated magenta sleeves, aqua gloves, black utility pants, and realistic photographic skin, hair, cables, and knobs. The central subject area is a convex glass-dome photo bubble. Surround it with giant cropped orbiting text \"SIGNAL RING\" in vermilion, orange, red, and fluorescent magenta rough ink. Add cyan audio-wave arcs, prism reflections, chromatic aberration, analog grain, and tiny red caption \"studio patch / take 12\" in a quiet lower corner. Avoid copied reference text, watermarks, fake logos, QR codes, and dark nightclub mood."
+    }
+  ],
+  "license": "CC BY 4.0"
+}
