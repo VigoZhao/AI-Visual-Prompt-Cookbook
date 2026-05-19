@@ -1,0 +1,99 @@
+{
+  "style_name": "Turquoise Red Techno Manga Poster Style",
+  "style_slug": "turquoise-red-techno-manga-poster-style",
+  "version": "2026.05.19",
+  "status": "stable",
+  "updated_at": "2026-05-19",
+  "summary": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
+  "preview": {
+    "landscape": "preview-16x9.jpg",
+    "portrait": "preview-9x16.jpg"
+  },
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Turquoise Red Techno Manga Poster Style\".\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Use a cream off-white printed poster background with slightly aged paper grain and a few sparse negative-space fields.\n- Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject. The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.\n- Make one large manga-style subject the anchor, occupying roughly 50 to 75 percent of the frame, with flat cel shading, heavy dark outer contours, and fine interior detail.\n- Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.\n- Add dense technical detail clusters: cables, straps, bolts, vents, panels, gauges, small labels, diagram boxes, and serial tags.\n- Add thin tan or brown-gray annotation boxes, tiny fictional micro text, capsule labels, small seals, arrows, and simple accent symbols in the cream space.\n- Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.\n- Finish as a slightly faded printed manga poster with grain, subtle halftone, mild scan softness, roughened ink edges, and small off-register imperfections.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props/products, and new text. Do not recreate the original motorcycle rider, original vehicle, original pose, original headline, or any watermark/UI/signature material.",
+  "negative_prompt": "motorcycle, motorbike, bike wheel, motorcycle engine, license plate, original rider pose, exact source character, copied Japanese headline, copied signature, watermark, username, creator ID, app UI, back button icon, platform logo, QR code, photorealistic render, glossy 3D, clean vector art, cinematic background, deep perspective city, generic anime screenshot, low detail, plain white background, perfect typography",
+  "variables": {
+    "SUBJECT": "main illustrated subject, such as a technician, courier, repair worker, field researcher, designer, or compact service robot",
+    "SUBJECT_ACTION": "clear action or pose that is not riding a motorcycle, such as calibrating, carrying, repairing, waiting, documenting, or balancing a device",
+    "PRODUCT_OR_PROP": "new technical prop, device, kit, machine, container, tool, module, backpack, drone, instrument, or field apparatus",
+    "LOCATION": "implied poster setting or environment, such as transit depot, greenhouse lab, harbor workshop, rooftop weather station, compact studio, or spaceport service bay",
+    "BACKGROUND_ELEMENTS": "oversized headline, cream negative space, technical callout panel, tiny labels, gauges, diagram boxes, accent bars, serial marks, and small interface fragments",
+    "MAIN_TEXT": "new oversized display headline, never copied from the reference",
+    "SECONDARY_TEXT": "small fictional labels, serial marks, diagram notes, and decorative micro text",
+    "ACCENT_SYMBOL": "small lightning mark, dot, bar, circle seal, arrow, star, serial badge, or diagram icon",
+    "WARDROBE_STYLE": "oversized turquoise jacket, workwear layers, gloves, boots, field vest, protective eyewear, scarf, or technical uniform details",
+    "STYLE_FIDELITY_ANCHORS": "cream off-white poster background, huge red-orange block headline, turquoise main mass, large manga-style subject, flat cel shading, dense mechanical linework, annotation boxes, limited retro print palette, faded screenprint grain",
+    "SOURCE_CONTENT_TO_AVOID": "motorcycle rider, motorbike wheel or engine, source character, source pose, copied Japanese headline, signature, watermark, app UI, platform icon, QR code, or direct source-image variant",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "example_cases": [
+    {
+      "case_name": "Weather Kit Courier",
+      "variables": {
+        "SUBJECT": "compact weather-station courier in an oversized turquoise utility coat",
+        "SUBJECT_ACTION": "calibrating a portable rooftop weather kit while balancing a folded tripod case",
+        "PRODUCT_OR_PROP": "portable weather station with gauges, cables, sensor mast, warm gray panels, red-orange seals, straps, and tiny serial labels",
+        "LOCATION": "rooftop service platform implied through technical labels, not a realistic skyline",
+        "BACKGROUND_ELEMENTS": "cream off-white printed paper, huge red-orange custom block headline, one thin tan annotation panel, small gauges, diagram boxes, and fictional technical labels",
+        "MAIN_TEXT": "SKYSHIFT",
+        "SECONDARY_TEXT": "LOW WIND / UNIT 07 / SENSOR LOG",
+        "ACCENT_SYMBOL": "small lightning badge",
+        "WARDROBE_STYLE": "teal workwear coat, gloves, utility belt, chunky boots, and protective neck scarf",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: compact weather-station courier in an oversized turquoise utility coat. Action: kneeling beside a portable rooftop weather kit and tightening a cable clamp. Prop/Product: portable weather station with gauges, cables, sensor mast, warm gray panels, red-orange seals, straps, and tiny serial labels. Location: abstract rooftop service platform shown as cream poster space with a few diagram lines. Background: giant red-orange custom block headline reading \"SKYSHIFT\" stretches across the upper half, with two thin tan annotation panels, fictional micro labels \"LOW WIND / UNIT 07 / SENSOR LOG\", serial tabs, small arrows, and a lightning badge. Keep the subject and kit across the lower center, large enough to dominate the banner. Use flat cel-shaded manga linework, turquoise hardware and clothing, warm gray mechanics, black contour lines, red-orange accents, aged paper grain, subtle halftone, faded ink, and off-register print texture. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: compact weather-station courier in an oversized turquoise utility coat. Action: calibrating a portable rooftop weather kit while balancing a folded tripod case. Prop/Product: portable weather station with gauges, cables, sensor mast, warm gray panels, red-orange seals, straps, and tiny serial labels. Location: rooftop service platform implied through technical labels, not a realistic skyline. Background: cream off-white printed paper, huge red-orange custom block headline reading \"SKYSHIFT\" across the upper background, one thin tan annotation panel, fictional micro labels reading \"LOW WIND / UNIT 07 / SENSOR LOG\", small gauges and diagram boxes. Accent symbol: small lightning badge. Wardrobe/styling: teal workwear coat, gloves, utility belt, chunky boots, protective neck scarf. Keep the subject large, flat cel-shaded, with heavy black outer contours, fine mechanical interior linework, turquoise/red/cream palette, dense local technical detail, screenprint grain, subtle halftone, faded ink, and off-register print texture. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image."
+    },
+    {
+      "case_name": "Greenhouse Repair Android",
+      "variables": {
+        "SUBJECT": "compact greenhouse repair android with a simple friendly face panel and teal shell",
+        "SUBJECT_ACTION": "replacing a nutrient cartridge in a botanical lab module",
+        "PRODUCT_OR_PROP": "transparent seedling cassette, hose cluster, small pump, repair tray, warm gray brackets, red-orange clips, bolts, and tiny labels",
+        "LOCATION": "greenhouse service bay implied by diagram boxes and small fictional plant icons, not a realistic room",
+        "BACKGROUND_ELEMENTS": "cream off-white printed poster paper, huge red-orange headline, thin tan annotation panel, tiny fictional labels, small gauge marks, and capsule tabs",
+        "MAIN_TEXT": "LEAF NODE",
+        "SECONDARY_TEXT": "PH 6.2 / GROW KIT / MODULE C",
+        "ACCENT_SYMBOL": "leaf-shaped serial seal",
+        "WARDROBE_STYLE": "teal service shell, soft black joints, tiny utility pouch, and protective gloves",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: compact greenhouse repair android with a simple friendly face panel and teal shell. Action: sliding a transparent seedling cassette into a portable botanical service module. Prop/Product: hose cluster, small pump, warm gray brackets, red-orange clips, repair tray, bolts, vents, and labels. Location: greenhouse service bay suggested by a few tiny plant icons and diagram frames on cream paper. Background: giant red-orange custom block headline reading \"LEAF NODE\" across the upper background, two thin tan annotation boxes, fictional micro text \"PH 6.2 / GROW KIT / MODULE C\", capsule tabs, small arrows, and a leaf-shaped serial seal. Place the android and module across the lower center-left, with the headline partially hidden behind the teal shell. Use flat cel-shaded manga illustration, heavy black contours, fine mechanical linework, warm gray hardware, screenprint grain, subtle halftone, faded ink, and slight off-register edges. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: compact greenhouse repair android with a simple friendly face panel and teal shell. Action: replacing a nutrient cartridge in a botanical lab module. Prop/Product: transparent seedling cassette, hose cluster, small pump, repair tray, warm gray brackets, red-orange clips, bolts, and tiny labels. Location: greenhouse service bay implied by diagram boxes and small fictional plant icons, not a realistic room. Background: cream off-white printed poster paper, huge red-orange custom block headline reading \"LEAF NODE\" behind the android, thin tan annotation panel, tiny fictional labels \"PH 6.2 / GROW KIT / MODULE C\", small gauge marks and capsule tabs. Accent symbol: leaf-shaped serial seal. Wardrobe/styling: teal service shell, soft black joints, tiny utility pouch, protective gloves. Keep flat cel shading, heavy dark outlines, dense local technical detail, turquoise/red/cream palette, screenprint grain, subtle halftone, faded ink, and off-register print texture. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image."
+    },
+    {
+      "case_name": "Archive Scanner Mechanic",
+      "variables": {
+        "SUBJECT": "archive scanner mechanic in a teal work jacket and dark gloves",
+        "SUBJECT_ACTION": "feeding a fragile film strip into a portable scan console",
+        "PRODUCT_OR_PROP": "chunky scan console with small reels, vents, straps, red safety tabs, cable loops, warm gray casing, bolts, and tiny serial labels",
+        "LOCATION": "archive workshop implied by document panels and technical notes on cream paper, not a realistic room",
+        "BACKGROUND_ELEMENTS": "huge red-orange headline, cream off-white printed paper, thin tan callout frame, registration marks, small diagram boxes, and fictional labels",
+        "MAIN_TEXT": "SCAN ROOM",
+        "SECONDARY_TEXT": "FRAME 12 / DUST OFF / INDEX 44",
+        "ACCENT_SYMBOL": "red circle registration mark",
+        "WARDROBE_STYLE": "teal work jacket, layered shirt, dark gloves, utility apron, and compact pouch",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: archive scanner mechanic in a teal work jacket and dark gloves. Action: guiding a film strip across a chunky portable scan console. Prop/Product: scan console with reels, vents, straps, red safety tabs, cable loops, warm gray casing, bolts, and tiny serial labels. Location: abstract archive workshop indicated by document panel diagrams and cream negative space. Background: giant red-orange custom block headline reading \"SCAN ROOM\" across the upper half, partially hidden by the mechanic and console; two thin tan annotation boxes; fictional micro labels \"FRAME 12 / DUST OFF / INDEX 44\"; red circle registration mark; small arrows and serial tabs. Place the subject and console along the lower third without turning it into a full room scene. Use flat cel-shaded manga linework, heavy contours, fine technical details, turquoise/red/cream palette, screenprint grain, faded ink, subtle halftone, and slight off-register print texture. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: archive scanner mechanic in a teal work jacket and dark gloves. Action: feeding a fragile film strip into a portable scan console. Prop/Product: chunky scan console with small reels, vents, straps, red safety tabs, cable loops, warm gray casing, bolts, and tiny serial labels. Location: archive workshop implied by document panels and technical notes on cream paper, not a realistic room. Background: huge red-orange custom block headline reading \"SCAN ROOM\" behind the mechanic, cream off-white printed paper, thin tan callout frame, fictional micro labels \"FRAME 12 / DUST OFF / INDEX 44\", registration marks, small diagram boxes, and red circle accent symbol. Wardrobe/styling: teal work jacket, layered shirt, dark gloves, utility apron, compact pouch. Keep the subject large and poster-like, with flat cel shading, heavy black outer contours, fine mechanical details, turquoise/red/cream palette, faded magazine-print grain, subtle halftone, and off-register ink. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image."
+    },
+    {
+      "case_name": "Harbor Signal Designer",
+      "variables": {
+        "SUBJECT": "harbor signal designer wearing a turquoise field vest and protective scarf",
+        "SUBJECT_ACTION": "assembling a compact floating beacon on a work mat",
+        "PRODUCT_OR_PROP": "beacon module with antenna fins, rubber seals, rope loops, small lamps, warm gray casing, red-orange fasteners, straps, vents, bolts, and labels",
+        "LOCATION": "harbor workshop implied only by small technical labels and diagram marks on cream paper, not a scenic waterfront",
+        "BACKGROUND_ELEMENTS": "cream off-white printed poster paper, huge red-orange headline, tan annotation panels, fictional micro labels, capsule tags, arrows, serial marks, and small diagram boxes",
+        "MAIN_TEXT": "TIDE MARK",
+        "SECONDARY_TEXT": "BEACON A5 / SAFE LINE / CHECK",
+        "ACCENT_SYMBOL": "starburst signal dot",
+        "WARDROBE_STYLE": "teal field vest, layered work shirt, dark gloves, compact tool pouch, and sturdy boots",
+        "ASPECT_RATIO": "9:16 or 16:9"
+      },
+      "prompt_16x9": "Create a horizontal 16:9 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: harbor signal designer wearing a turquoise field vest and protective scarf. Action: tightening a red-orange fastener on a compact floating beacon module. Prop/Product: beacon module with antenna fins, rubber seals, rope loops, small lamps, warm gray casing, red-orange fasteners, straps, vents, bolts, and labels. Location: harbor workshop implied only by small technical labels and diagram marks on cream paper. Background: giant red-orange custom block headline reading \"TIDE MARK\" stretches across the upper half, with two tan annotation boxes, fictional micro labels \"BEACON A5 / SAFE LINE / CHECK\", capsule tags, arrows, serial marks, and a starburst signal dot. Place the designer and beacon module across the lower center, keeping the poster flat and graphic. Use flat cel-shaded manga illustration, heavy black contours, fine mechanical linework, turquoise/red/cream palette, aged paper grain, subtle halftone, faded ink, and slight off-register edges. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image.",
+      "prompt_9x16": "Create a vertical 9:16 image in the \"Turquoise Red Techno Manga Poster Style\". Subject: harbor signal designer wearing a turquoise field vest and protective scarf. Action: assembling a compact floating beacon on a work mat. Prop/Product: beacon module with antenna fins, rubber seals, rope loops, small lamps, warm gray casing, red-orange fasteners, straps, vents, bolts, and small labels. Location: harbor workshop implied by fictional technical labels, not a scenic waterfront. Background: cream off-white printed poster paper, huge red-orange custom block headline reading \"TIDE MARK\" in the upper background, tan annotation panel, fictional micro labels \"BEACON A5 / SAFE LINE / CHECK\", small diagram boxes, capsule tags, and starburst signal dot. Wardrobe/styling: teal field vest, layered work shirt, dark gloves, compact tool pouch, sturdy boots. Keep a large manga-style subject, flat cel shading, heavy black contours, dense mechanical linework, turquoise/red/cream palette, screenprint grain, subtle halftone, faded ink, and slight off-register print texture. Avoid motorcycles, motorbike wheels, copied source character, copied Japanese headline, watermark, platform UI, QR code, photorealism, glossy 3D, clean vector art, or cinematic background. Generate as a 4K ultra-high-resolution raster image."
+    }
+  ],
+  "license": "CC BY 4.0"
+}
