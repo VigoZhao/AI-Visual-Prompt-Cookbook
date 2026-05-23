@@ -15,6 +15,55 @@
     "WARDROBE_STYLE": "simplified collar, jacket, hoodie, bob haircut, helmet, or graphic clothing reduced to coral and black planes",
     "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal banner"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+    "Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.",
+    "Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, plus WARDROBE_STYLE and ACCENT_SYMBOL as controlled details.",
+    "Typography: no visible text by default.",
+    "If text is explicitly required, use MAIN_TEXT as a very short block headline outside the face area and SECONDARY_TEXT as a tiny supporting mark.",
+    "Finish: clean flat vector-like poster, stencil portrait, screen-print simplicity without grain, blunt cutout shapes, high contrast, no gradients, no outlines, no photorealistic rendering.",
+    "Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors, thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "QR code",
+    "platform logo",
+    "app interface",
+    "exact copied reference identity",
+    "exact copied face",
+    "photorealistic portrait",
+    "painterly brushwork",
+    "airbrush gradients",
+    "soft shading"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "print-textured poster illustration/collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
   "color_palette": {
     "flat_teal_background": "#0E819E",
     "coral_red_subject_plane": "#FF5447",
@@ -30,6 +79,22 @@
     "Avoid outlines; every edge is the boundary between filled shapes.",
     "Keep backgrounds abstract, flat, and shallow.",
     "Do not copy the exact reference face, identity, crop, or pose."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "QR code",
+    "platform logo",
+    "app interface",
+    "exact copied reference identity",
+    "exact copied face"
   ],
   "prompt_template": "Create a {ASPECT_RATIO} image in the \"Tri Color Hardcut Portrait Poster\" style.\n\nScene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} against {LOCATION}. Use {WARDROBE_STYLE}. Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.\n\nComposition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, {BACKGROUND_ELEMENTS}, and {ACCENT_SYMBOL}. Keep the subject close to the frame and let some silhouette edges crop off the canvas.\n\nTypography: no visible text by default. If text is explicitly required, use \"{MAIN_TEXT}\" as a very short block headline outside the face area and \"{SECONDARY_TEXT}\" as a tiny supporting mark. Do not add text otherwise.\n\nFinish: clean flat vector-like poster, stencil portrait, screen-print simplicity without grain, blunt cutout shapes, high contrast, no gradients, no outlines, no photorealistic rendering.\n\nAvoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors, thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.",
   "negative_prompt": "Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealistic portrait, painterly brushwork, airbrush gradients, soft shading, realistic skin texture, more than three colors, thin outlines, contour drawing, detailed eyelashes, paper grain, halftone, distressed texture, complex environment, glossy 3D, chrome, neon gradient, anime, comic panel, long paragraph text, and brand logo.",

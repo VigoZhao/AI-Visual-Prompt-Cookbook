@@ -15,6 +15,85 @@
     "WARDROBE_STYLE": "casual youth styling, hoodie, school jacket, headphones, scarf, denim, soft layers, or city streetwear",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Use a large side-profile or quiet three-quarter illustrated portrait as the anchor.",
+    "Put the subject on cream graph-paper notebook background with faded blue grid lines.",
+    "Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.",
+    "The image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster.",
+    "Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight misregistration, and imperfect cutout edges.",
+    "Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic studio portrait."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "glossy 3D sticker render",
+    "clean vector art",
+    "corporate poster",
+    "minimalist layout",
+    "sterile white background",
+    "perfect typography"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "print-textured poster illustration/collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Use LOCATION as the implied setting, reflected through background cues rather than a literal caption.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Use SECONDARY_TEXT as small handwritten or editorial microcopy, never as a paragraph.",
+    "Use a large side-profile or quiet three-quarter illustrated portrait as the anchor.",
+    "Put the subject on cream graph-paper notebook background with faded blue grid lines.",
+    "Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.",
+    "Make the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "glossy 3D sticker render",
+    "clean vector art"
+  ],
   "prompt_template": "Create a {ASPECT_RATIO} image in analog-sticker-diary-portrait-poster-style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nPrimary prop: {PRODUCT_OR_PROP}.\nImplied location: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary micro text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe styling: {WARDROBE_STYLE}.\n\nUse a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.\n\nMake the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while the sticker field feels busy and personal.\n\nThe image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight misregistration, and imperfect cutout edges.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic studio portrait.",
   "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D sticker render, clean vector art, corporate poster, minimalist layout, sterile white background, perfect typography, luxury editorial photo, photorealistic studio portrait, flat brand ad, low texture, empty background, plastic digital finish",
   "examples": [

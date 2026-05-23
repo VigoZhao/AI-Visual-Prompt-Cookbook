@@ -51,14 +51,14 @@ Most AI image prompts are one-off text blobs: hard to reuse, hard to compare, an
 1. Browse the [Featured Styles](#featured-styles), [Quick Links](#quick-links), or [Style Index](#style-index).
 2. Open a style folder and copy the `style.json`.
 3. Paste the full JSON into ChatGPT, Claude, Nano Banana Pro, or any LLM-based image workflow.
-4. Change only the `variables` values for your own subject, scene, text, and aspect ratio.
+4. Provide your own values for the variables declared in `environment_variables`, or edit a case in `examples[*].values`.
 5. Generate the final image prompt and send it to your image model.
 
 Example instruction:
 
 ```text
 Use this style.json as the locked visual style.
-Replace only the variables:
+Use these variable values:
 SUBJECT = a streetwear product photographer
 LOCATION = a rainy neon alley
 MAIN_TEXT = NIGHT DROP
@@ -119,6 +119,24 @@ styles/<style-slug>/
   style.json          # Machine-readable prompt template
   preview-16x9.jpg    # Landscape preview
   preview-9x16.jpg    # Portrait preview
+```
+
+## style.json v2.1
+
+Every `style.json` is self-contained: copy the whole file into your LLM, then provide values for the variables declared in `environment_variables` or edit one of the `examples[*].values` cases.
+
+- `prompt_template` is the reusable style prompt with `{VARIABLE}` placeholders.
+- `environment_variables` declares every placeholder the template can use.
+- `examples` contains ready-to-edit cases; each case stores only `case_name` and `values`.
+- `style_fidelity_anchors` and `source_content_to_avoid` tell the model what to preserve and what not to copy.
+- `negative_prompt` keeps watermarks, logos, direct source recreations, and off-style outputs away.
+
+Rendered prompts such as `prompt_9x16`, `prompt_16x9`, or `full_prompt` are intentionally not stored. They are derived at generation time from `prompt_template` plus chosen values, so the JSON stays compact and does not drift.
+
+Validate the library with:
+
+```bash
+python3 scripts/validate-style-json.py .
 ```
 
 ## Style Index

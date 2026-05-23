@@ -51,14 +51,14 @@
 1. [注目スタイル](#注目スタイル)、[クイックリンク](#クイックリンク)、または [スタイル索引](#スタイル索引) を見る。
 2. 気になるスタイルのフォルダを開き、`style.json` をコピーする。
 3. ChatGPT、Claude、Nano Banana Pro、または任意の LLM 画像生成ワークフローに JSON 全体を貼り付ける。
-4. `variables` の主体、場所、文字、アスペクト比だけを変更する。
+4. `environment_variables` で宣言された変数に自分の値を指定するか、`examples[*].values` のケースを編集する。
 5. 最終プロンプトを生成し、画像モデルに送る。
 
 入力例：
 
 ```text
 この style.json を固定されたビジュアルスタイルとして使ってください。
-variables だけを差し替えてください：
+次の変数値を使ってください：
 SUBJECT = ストリートウェアのプロダクトフォトグラファー
 LOCATION = 雨のネオン路地
 MAIN_TEXT = NIGHT DROP
@@ -119,6 +119,24 @@ styles/<style-slug>/
   style.json          # 機械可読のプロンプトスタイルテンプレート
   preview-16x9.jpg    # 横長プレビュー
   preview-9x16.jpg    # 縦長プレビュー
+```
+
+## style.json v2.1
+
+各 `style.json` は自己完結しています。ファイル全体を LLM にコピーし、`environment_variables` で宣言された変数に値を指定するか、`examples[*].values` のケースを編集して使います。
+
+- `prompt_template` は `{VARIABLE}` プレースホルダーを持つ再利用可能なスタイルプロンプトです。
+- `environment_variables` はテンプレートで使えるすべての変数を宣言します。
+- `examples` は編集しやすいケース集で、各ケースは `case_name` と `values` だけを持ちます。
+- `style_fidelity_anchors` と `source_content_to_avoid` は、保つべきスタイル要素とコピーしてはいけない元内容を分けます。
+- `negative_prompt` はウォーターマーク、ロゴ、元画像の直接再現、スタイル外れを避けるために使います。
+
+`prompt_9x16`、`prompt_16x9`、`full_prompt` のようなレンダリング済みプロンプトは保存しません。生成時に `prompt_template` と選んだ値から作るため、JSON は軽く、古くなりにくくなります。
+
+検証コマンド：
+
+```bash
+python3 scripts/validate-style-json.py .
 ```
 
 ## スタイル索引

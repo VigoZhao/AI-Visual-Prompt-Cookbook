@@ -15,63 +15,141 @@
     "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
     "ASPECT_RATIO": "9:16 vertical mobile poster or 16:9 horizontal event banner"
   },
-  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Plush City Festival Mobile Poster\" style.\n\nEvent name: {EVENT_NAME}.\nCity or district: {CITY_OR_DISTRICT}.\nPrimary mascot: {PRIMARY_MASCOT}.\nSecondary mascot: {SECONDARY_MASCOT}.\nMascot action: {MASCOT_ACTION}.\nLandmarks: {LANDMARKS}.\nSky and weather: {SKY_AND_WEATHER}.\nGround plane: {GROUND_PLANE}.\nDate range: {DATE_RANGE}.\nLocation text: {LOCATION_TEXT}.\nCTA text: {CTA_TEXT}.\nTop micro text: {TOP_MICRO_TEXT}.\n\nUse a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground. Put the event name in large bold white rounded sans-serif typography across the top sky area. Place clear date and location information near the bottom of the visual card.\n\nFor vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text. Add subtle mobile UI elements such as a back arrow and three-dot menu at the top. Keep everything cheerful, readable, family-friendly, sunny, civic, and polished.\n\nAvoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.",
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+    "Use a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground.",
+    "Put the event name in large bold white rounded sans-serif typography across the top sky area.",
+    "Place clear date and location information near the bottom of the visual card.",
+    "For vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text.",
+    "Avoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects.",
+    "Preserve the original balance between main subject, typography, decorative marks, and background texture."
+  ],
+  "source_content_to_avoid": [
+    "dark atmosphere",
+    "scary characters",
+    "realistic animal fur",
+    "gritty realism",
+    "cyberpunk city",
+    "luxury branding",
+    "tiny unreadable event title",
+    "cluttered small text",
+    "abstract background",
+    "flat vector-only mascots",
+    "dull weather"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "bright mobile event poster with fuzzy mascot rendering and real city landmark cues",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Use MAIN_TEXT as the event headline or main poster title.",
+    "Use SUBJECT as the primary mascot, character, or poster focus.",
+    "Use SUBJECT_ACTION as the mascot action or emotional beat.",
+    "Use PRODUCT_OR_PROP as the secondary character, prop, or festival object.",
+    "Use LOCATION as the city, district, or festival setting.",
+    "Use BACKGROUND_ELEMENTS for landmarks, sky, weather, ground plane, and city details.",
+    "Use SECONDARY_TEXT for date, location, and top micro text."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "dark atmosphere",
+    "scary characters",
+    "realistic animal fur",
+    "gritty realism",
+    "cyberpunk city",
+    "luxury branding",
+    "tiny unreadable event title",
+    "cluttered small text"
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Plush City Festival Mobile Poster\" style.\n\nEvent/headline: {MAIN_TEXT}.\nPrimary mascot or subject: {SUBJECT}.\nMascot action: {SUBJECT_ACTION}.\nSecondary mascot, prop, or festival object: {PRODUCT_OR_PROP}.\nCity or district: {LOCATION}.\nLandmarks, sky, weather, and ground plane: {BACKGROUND_ELEMENTS}.\nDate, location, and top micro text: {SECONDARY_TEXT}.\nCTA or accent mark: {ACCENT_SYMBOL}.\nMascot styling: {WARDROBE_STYLE}.\n\nUse a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground. Put the event name in large bold white rounded sans-serif typography across the top sky area. Place clear date and location information near the bottom of the visual card.\n\nFor vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text. Add subtle mobile UI elements such as a back arrow and three-dot menu at the top. Keep everything cheerful, readable, family-friendly, sunny, civic, and polished.\n\nAvoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.",
   "negative_prompt": "Avoid dark atmosphere, scary characters, realistic animal fur, gritty realism, cyberpunk city, luxury branding, tiny unreadable event title, cluttered small text, abstract background, flat vector-only mascots, and dull weather.",
   "examples": [
     {
       "case_name": "Cherry Market Day",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a fuzzy cherry-red bear mascot",
+        "SUBJECT_ACTION": "waving beside a weekend market stall",
+        "PRODUCT_OR_PROP": "basket of cherries and a small event flag",
+        "LOCATION": "riverside city market district",
+        "BACKGROUND_ELEMENTS": "blue sky, soft clouds, bridge landmark, rounded app-card frame, flower stands, and sunny pavement",
+        "MAIN_TEXT": "CHERRY DAY",
+        "SECONDARY_TEXT": "May 18 · Riverside Market",
+        "ACCENT_SYMBOL": "rounded CTA pill reading JOIN",
+        "WARDROBE_STYLE": "soft plush fur, friendly round face, tiny festival scarf, and toy-like proportions"
       }
     },
     {
       "case_name": "Harbor Light Fest",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a pale-blue seal mascot",
+        "SUBJECT_ACTION": "holding a lantern near the waterfront",
+        "PRODUCT_OR_PROP": "glowing paper lantern",
+        "LOCATION": "harbor promenade with lighthouse landmark",
+        "BACKGROUND_ELEMENTS": "clean sky, soft clouds, water reflections, city skyline, rounded mobile UI sheet, and warm string lights",
+        "MAIN_TEXT": "HARBOR FEST",
+        "SECONDARY_TEXT": "Jun 02 · Pier Park",
+        "ACCENT_SYMBOL": "small white handle icon and CTA button",
+        "WARDROBE_STYLE": "fuzzy plush mascot with soft blue fur, yellow scarf, and rounded toy seams"
       }
     },
     {
       "case_name": "Library Picnic Week",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a fuzzy owl mascot with round glasses",
+        "SUBJECT_ACTION": "unrolling a picnic blanket outside a library",
+        "PRODUCT_OR_PROP": "book-shaped picnic basket",
+        "LOCATION": "public library lawn in a civic plaza",
+        "BACKGROUND_ELEMENTS": "library facade, green lawn, blue sky, soft clouds, app-card frame, date labels, and small UI dots",
+        "MAIN_TEXT": "PICNIC WEEK",
+        "SECONDARY_TEXT": "Apr 12-18 · Library Lawn",
+        "ACCENT_SYMBOL": "rounded RSVP button",
+        "WARDROBE_STYLE": "soft plush owl body, tiny bow tie, stitched wings, and warm toy texture"
       }
     },
     {
       "case_name": "Winter Cocoa Street",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a cream-colored plush snow fox mascot",
+        "SUBJECT_ACTION": "serving cocoa from a tiny street cart",
+        "PRODUCT_OR_PROP": "steaming cocoa cup and holiday cart",
+        "LOCATION": "snowy pedestrian shopping street",
+        "BACKGROUND_ELEMENTS": "gentle snow, civic clock tower, blue winter sky, rounded mobile panel, date strip, and soft light garlands",
+        "MAIN_TEXT": "COCOA WALK",
+        "SECONDARY_TEXT": "Dec 08 · Old Town",
+        "ACCENT_SYMBOL": "pink CTA pill reading WARM UP",
+        "WARDROBE_STYLE": "fluffy plush snow fox with red scarf, round cheeks, and friendly toy proportions"
       }
     }
   ]

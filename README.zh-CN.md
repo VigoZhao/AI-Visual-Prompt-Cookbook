@@ -51,14 +51,14 @@
 1. 浏览下面的 [精选风格](#精选风格)、[快速入口](#快速入口) 或 [风格索引](#风格索引)。
 2. 打开某个风格目录，复制里面的 `style.json`。
 3. 把完整 JSON 放进 ChatGPT、Claude、Nano Banana Pro、即梦或其他 LLM 图像工作流。
-4. 只修改 `variables` 里的主体、场景、文字和比例。
+4. 根据 `environment_variables` 里的变量说明填写你的变量值，或直接修改 `examples[*].values` 里的案例值。
 5. 生成最终图像提示词，再发送给你的图像模型。
 
 示例指令：
 
 ```text
 把这个 style.json 当作锁定的视觉风格。
-只替换 variables：
+使用这些变量值：
 SUBJECT = 一位街头服装产品摄影师
 LOCATION = 雨夜霓虹小巷
 MAIN_TEXT = NIGHT DROP
@@ -119,6 +119,24 @@ styles/<style-slug>/
   style.json          # 机器可读的提示词风格模板
   preview-16x9.jpg    # 横屏预览图
   preview-9x16.jpg    # 竖屏预览图
+```
+
+## style.json v2.1
+
+每个 `style.json` 都是自包含的：把完整文件复制给 LLM，然后根据 `environment_variables` 的变量说明填写新值，或直接改写某个 `examples[*].values` 案例。
+
+- `prompt_template` 是带 `{VARIABLE}` 占位符的可复用风格提示词。
+- `environment_variables` 声明模板里可使用的所有变量。
+- `examples` 提供可直接改写的案例；每个案例只包含 `case_name` 和 `values`。
+- `style_fidelity_anchors` 和 `source_content_to_avoid` 分别说明要保留的风格锚点，以及不能复制的源内容。
+- `negative_prompt` 用来排除水印、Logo、直接复刻源图和偏离风格的输出。
+
+仓库不会保存 `prompt_9x16`、`prompt_16x9` 或 `full_prompt` 这类渲染后的完整提示词。它们可以在生成时由 `prompt_template` 和变量值临时推导出来，这样 JSON 更轻，也不容易过期。
+
+校验命令：
+
+```bash
+python3 scripts/validate-style-json.py .
 ```
 
 ## 风格索引

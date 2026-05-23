@@ -15,6 +15,57 @@
     "WARDROBE_STYLE": "styling direction for the subject or mascot costumes, such as casual cafe outfit, travel outfit, streetwear, beachwear, school outfit, or colorful themed accessories",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Use a realistic casual phone-photo scene as the base layer.",
+    "Keep the environment photographic, naturally lit, and location-specific.",
+    "Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents.",
+    "Add a loose warm outline around the main subject, plus hand-drawn sparkles, spirals, web lines, stars, arrows, and marker doodles floating over the scene.",
+    "Place the main headline inside a cream or pale-yellow wavy ribbon sticker in the upper third.",
+    "Use imperfect uppercase hand-lettered marker typography in dark burgundy ink.",
+    "The result should feel like a cheerful social-media photo booth collage, not a polished corporate ad.",
+    "Avoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "platform logo",
+    "QR code",
+    "creator signature",
+    "licensed character",
+    "recognizable franchise costume",
+    "superhero emblem",
+    "brand logo",
+    "exact reference character",
+    "copied IP",
+    "goggle-eyed capsule character"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "casual phone-photo collage with flat cartoon sticker overlays",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
   "color_palette": {
     "photo_base": [
       "leaf green",
@@ -39,6 +90,31 @@
       "pale yellow outline"
     ]
   },
+  "design_rules": [
+    "Use PRODUCT_OR_PROP as the foreground object, product cue, or story-driving prop.",
+    "Use LOCATION to define the setting while keeping the style-specific crop and atmosphere.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Use MAIN_TEXT as the primary readable text element.",
+    "Use ACCENT_SYMBOL for playful doodle marks, stickers, emphasis lines, and small graphic surprises.",
+    "Use a realistic casual phone-photo scene as the base layer.",
+    "Keep the environment photographic, naturally lit, and location-specific."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "platform logo",
+    "QR code",
+    "creator signature",
+    "licensed character",
+    "recognizable franchise costume",
+    "superhero emblem"
+  ],
   "prompt_template": "Create a {ASPECT_RATIO} image in the \"Playful Mascot Doodle Snapshot\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nAccent symbols: {ACCENT_SYMBOL}.\nWardrobe or styling: {WARDROBE_STYLE}.\n\nUse a realistic casual phone-photo scene as the base layer. Keep the environment photographic, naturally lit, and location-specific. Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents. Add a loose warm outline around the main subject, plus hand-drawn sparkles, spirals, web lines, stars, arrows, and marker doodles floating over the scene.\n\nPlace the main headline inside a cream or pale-yellow wavy ribbon sticker in the upper third. Use imperfect uppercase hand-lettered marker typography in dark burgundy ink. Keep the main subject's face, product, or focal object unobstructed. The result should feel like a cheerful social-media photo booth collage, not a polished corporate ad.\n\nAvoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.",
   "negative_prompt": "Avoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.",
   "examples": [

@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/schemas/style-v2.1.schema.json",
+  "title": "AI Visual Prompt Cookbook style.json v2.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "style_name",
+    "style_slug",
+    "style_version",
+    "style_summary",
+    "environment_variables",
+    "style_fidelity_anchors",
+    "source_content_to_avoid",
+    "visual_deconstruction",
+    "composition",
+    "typography",
+    "color_palette",
+    "design_rules",
+    "do",
+    "avoid",
+    "prompt_template",
+    "negative_prompt",
+    "examples"
+  ],
+  "anyOf": [
+    { "required": ["image_treatment"] },
+    { "required": ["photographic_direction"] }
+  ],
+  "properties": {
+    "style_name": { "type": "string", "minLength": 1 },
+    "style_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "style_version": { "type": "string", "minLength": 1 },
+    "style_summary": { "type": "string", "minLength": 1 },
+    "environment_variables": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1 },
+      "required": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "ASPECT_RATIO"
+      ]
+    },
+    "style_fidelity_anchors": {
+      "type": "array",
+      "minItems": 6,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "source_content_to_avoid": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "visual_deconstruction": { "type": "object", "minProperties": 3 },
+    "image_treatment": { "type": "object", "minProperties": 2 },
+    "photographic_direction": { "type": "object", "minProperties": 2 },
+    "composition": { "type": "object", "minProperties": 2 },
+    "typography": {
+      "oneOf": [
+        { "type": "object", "minProperties": 2 },
+        {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      ]
+    },
+    "color_palette": { "type": "object", "minProperties": 2 },
+    "design_rules": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "do": {
+      "type": "array",
+      "minItems": 3,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "avoid": {
+      "type": "array",
+      "minItems": 3,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "prompt_template": { "type": "string", "minLength": 1 },
+    "negative_prompt": { "type": "string", "minLength": 1 },
+    "examples": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["case_name", "values"],
+        "properties": {
+          "case_name": { "type": "string", "minLength": 1 },
+          "values": {
+            "type": "object",
+            "minProperties": 5,
+            "propertyNames": {
+              "not": {
+                "enum": [
+                  "ASPECT_RATIO",
+                  "prompt_9x16",
+                  "prompt_16x9",
+                  "9x16_prompt",
+                  "16x9_prompt",
+                  "prompt_vertical",
+                  "prompt_horizontal",
+                  "full_prompt",
+                  "rendered_prompt",
+                  "final_prompt"
+                ]
+              }
+            },
+            "additionalProperties": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  }
+}

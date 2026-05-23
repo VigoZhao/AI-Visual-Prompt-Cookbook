@@ -15,6 +15,85 @@
     "WARDROBE_STYLE": "bold striped knit, saturated trousers, color-block streetwear, mod fashion layers, clean editorial styling, or retro pop styling",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+    "Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.",
+    "Layout: center the subject on the vertical axis and surround them with ACCENT_SYMBOL and bubble-letter graphic forms.",
+    "Build the poster from oversized flat bubble-letter forms spelling or suggesting MAIN_TEXT.",
+    "Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and ACCENT_SYMBOL.",
+    "Text: use MAIN_TEXT as the large bubble-letter graphic word.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects.",
+    "Preserve the original balance between main subject, typography, decorative marks, and background texture."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "QR code",
+    "platform logo",
+    "app interface marks",
+    "copied reference person",
+    "copied outfit",
+    "copied exact text",
+    "long paragraphs",
+    "crowded small text",
+    "3D balloon letters"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "photographic collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Use WARDROBE_STYLE for clothing, styling, surface treatment, and character details.",
+    "Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.",
+    "Layout: center the subject on the vertical axis and surround them with ACCENT_SYMBOL and bubble-letter graphic forms.",
+    "Build the poster from oversized flat bubble-letter forms spelling or suggesting MAIN_TEXT.",
+    "Crop the letters hard against the frame edges.",
+    "Layer some letter shapes behind the subject and some in the foreground over the lower frame while keeping the face and main gesture unobstructed.",
+    "Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and ACCENT_SYMBOL."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "QR code",
+    "platform logo",
+    "app interface marks",
+    "copied reference person",
+    "copied outfit"
+  ],
   "prompt_template": "Create an image in pop-bubble-letter-photo-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with or carrying {PRODUCT_OR_PROP}, in {LOCATION}. Style the subject with {WARDROBE_STYLE}. Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.\n\nLayout: center the subject on the vertical axis and surround them with {BACKGROUND_ELEMENTS}. Build the poster from oversized flat bubble-letter forms spelling or suggesting \"{MAIN_TEXT}\". Crop the letters hard against the frame edges. Layer some letter shapes behind the subject and some in the foreground over the lower frame while keeping the face and main gesture unobstructed.\n\nGraphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and {ACCENT_SYMBOL}. Keep the bubbles bold, rounded, inflated, vector-like, and pop-art.\n\nText: use \"{MAIN_TEXT}\" as the large bubble-letter graphic word. Add \"{SECONDARY_TEXT}\" only as tiny editorial caption text if needed. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, or app marks.",
   "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface marks, copied reference person, copied outfit, copied exact text, long paragraphs, crowded small text, 3D balloon letters, chrome typography, glossy plastic render, clay mascot, muted pastel-only palette, thin-line doodles, busy street background, horror, dystopian, grunge, cyberpunk, luxury minimalist editorial",
   "examples": [

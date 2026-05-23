@@ -1,5 +1,5 @@
 {
-  "style_name": "gothic-cat-doodle-photo-collage-style",
+  "style_name": "Gothic Cat Doodle Photo Collage Style",
   "style_slug": "gothic-cat-doodle-photo-collage-style",
   "style_version": "1.0.0",
   "style_summary": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
@@ -15,63 +15,142 @@
     "WARDROBE_STYLE": "casual streetwear or simplified cartoon clothing for small secondary figures",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Use a realistic low-angle architectural photograph as the base layer.",
+    "Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky.",
+    "Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights.",
+    "Add small doodle circles, swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.",
+    "Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "realistic 3D mascot",
+    "plush toy texture",
+    "glossy fur",
+    "full cartoon background",
+    "clean corporate layout",
+    "luxury editorial fashion"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "real architectural photo collage with oversized flat cartoon overlay",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Use PRODUCT_OR_PROP as a small secondary element or prop that sharpens the scene idea.",
+    "Use LOCATION to define the setting while keeping the style-specific crop and atmosphere.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Use MAIN_TEXT as the primary readable text element.",
+    "Use a realistic low-angle architectural photograph as the base layer.",
+    "Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky.",
+    "Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "realistic 3D mascot",
+    "plush toy texture"
+  ],
   "prompt_template": "Create a {ASPECT_RATIO} image in the \"Gothic Cat Doodle Photo Collage\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProp or small secondary element: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse a realistic low-angle architectural photograph as the base layer. Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky. Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights. Make the creature interact physically with the building, wrapping around arches, towers, windows, or rooflines.\n\nAdd huge cream-white bubble graffiti lettering across the top of the frame, with thick cobalt blue outline, warm yellow offset shadow, chalky glow, and imperfect hand-drawn spacing. Add small doodle circles, swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.",
   "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, glossy fur, full cartoon background, clean corporate layout, luxury editorial fashion, minimalist typography, tiny unreadable text, horror mood, dystopian city, low-detail architecture, abstract backdrop",
   "examples": [
     {
       "case_name": "Cathedral Cat Parade",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "an oversized flat black cat mascot floating above a stone cathedral stairway",
+        "SUBJECT_ACTION": "leading a tiny parade of doodled bells and ribbon banners",
+        "PRODUCT_OR_PROP": "a miniature brass bell and folded city map",
+        "LOCATION": "a gothic cathedral plaza shot from a low tourist-photo angle",
+        "BACKGROUND_ELEMENTS": "arched windows, stone columns, cloudy sky, marker loops, sparkle bursts, and loose black doodle trails",
+        "MAIN_TEXT": "NIGHT PARADE",
+        "SECONDARY_TEXT": "cathedral notes",
+        "ACCENT_SYMBOL": "white starbursts and crooked arrow marks",
+        "WARDROBE_STYLE": "flat cartoon fur shape with chunky outline and simple sticker-like face"
       }
     },
     {
       "case_name": "Museum Dragon Day",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a long flat green dragon mascot curling through a museum entrance photo",
+        "SUBJECT_ACTION": "pointing visitors toward a glowing exhibit sign",
+        "PRODUCT_OR_PROP": "a tiny red museum ticket",
+        "LOCATION": "a grand museum lobby with marble stairs and high arches",
+        "BACKGROUND_ELEMENTS": "poster frames, security ropes, doodle smoke puffs, handwritten label scraps, and comic rays",
+        "MAIN_TEXT": "DRAGON DAY",
+        "SECONDARY_TEXT": "new wing open",
+        "ACCENT_SYMBOL": "rough marker circles and spark icons",
+        "WARDROBE_STYLE": "cartoon creature overlay with saturated scales, round eyes, and rough hand-drawn edges"
       }
     },
     {
       "case_name": "Station Fox Rush",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a giant orange fox doodle jumping over a realistic train station concourse",
+        "SUBJECT_ACTION": "carrying a paper coffee cup while passengers blur below",
+        "PRODUCT_OR_PROP": "a commuter pass and coffee cup",
+        "LOCATION": "a busy old rail station under a vaulted glass roof",
+        "BACKGROUND_ELEMENTS": "departure boards, tiled floor reflections, scribbled speed lines, sticker stars, and marker arrows",
+        "MAIN_TEXT": "LAST TRAIN",
+        "SECONDARY_TEXT": "platform 8",
+        "ACCENT_SYMBOL": "yellow lightning doodles",
+        "WARDROBE_STYLE": "flat mascot body with rough black contour and exaggerated tail"
       }
     },
     {
       "case_name": "Library Monster Study",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a soft blue flat monster leaning over a real library reading room",
+        "SUBJECT_ACTION": "stacking books into a crooked tower beside a student table",
+        "PRODUCT_OR_PROP": "a pile of library books and a tiny bookmark",
+        "LOCATION": "a historic reading room with tall shelves and warm lamps",
+        "BACKGROUND_ELEMENTS": "wood tables, arch windows, loose notebook doodles, speech bubbles, and tiny sparkle marks",
+        "MAIN_TEXT": "STUDY SPELL",
+        "SECONDARY_TEXT": "quiet zone",
+        "ACCENT_SYMBOL": "small moon stickers and looped arrows",
+        "WARDROBE_STYLE": "simple flat creature shape with marker texture and friendly uneven eyes"
       }
     }
   ]

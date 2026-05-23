@@ -15,63 +15,144 @@
     "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
     "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal poster"
   },
-  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Photo Illustration Overlay Poster\" style.\n\nScene name: {SCENE_NAME}.\nCategory: {CATEGORY}.\nCity photo background: {CITY_PHOTO_BACKGROUND}.\nIllustrated character: {ILLUSTRATED_CHARACTER}.\nCharacter action: {CHARACTER_ACTION}.\nInteraction object: {INTERACTION_OBJECT}.\nGraphic effects: {GRAPHIC_EFFECTS}.\nText: {TEXT}.\n\nUse a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top. The character should use high-saturation color blocking, rough hand-drawn linework, exaggerated scale, simple expressive eyes, playful body proportions, and graphic edges. Add small hand-drawn stars, sparks, arrows, motion lines, comic bursts, and doodle marks around the interaction point.\n\nKeep the background photographic and recognizable. Keep the illustrated character deliberately flat, graphic, and poster-like. Avoid copying any watermark, logo, or exact character from the reference image. Avoid plush 3D mascots, full-vector backgrounds, dark gritty mood, cyberpunk, and cluttered small text.",
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
+    "Use LOCATION as the photo background or real-world scene base.",
+    "Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.",
+    "Use ACCENT_SYMBOL for doodles, graphic marks, sparks, arrows, or other overlay effects.",
+    "Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top.",
+    "The character should use high-saturation color blocking, rough hand-drawn linework, exaggerated scale, simple expressive eyes, playful body proportions, and graphic edges.",
+    "Add small hand-drawn stars, sparks, arrows, motion lines, comic bursts, and doodle marks around the interaction point.",
+    "Keep the background photographic and recognizable.",
+    "Keep the illustrated character deliberately flat, graphic, and poster-like.",
+    "Avoid plush 3D mascots, full-vector backgrounds, dark gritty mood, cyberpunk, and cluttered small text."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "copied logo",
+    "exact reference character",
+    "plush 3D mascot",
+    "realistic 3D cartoon rendering",
+    "full vector-only background",
+    "dark horror mood",
+    "gritty dystopian scene",
+    "cyberpunk neon city",
+    "cluttered small text",
+    "unreadable typography",
+    "abstract background"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "real city photo composite with an oversized flat 2D cartoon overlay",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Use SUBJECT_ACTION to define the visible pose, gesture, or moment.",
+    "Use PRODUCT_OR_PROP as the interaction object, prop, or product cue.",
+    "Use LOCATION as the photo background or real-world scene base.",
+    "Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.",
+    "Use MAIN_TEXT as the primary readable text element.",
+    "Use SECONDARY_TEXT as the small category label or supporting caption.",
+    "Use ACCENT_SYMBOL for doodles, graphic marks, sparks, arrows, or other overlay effects."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "copied logo",
+    "exact reference character",
+    "plush 3D mascot",
+    "realistic 3D cartoon rendering",
+    "full vector-only background",
+    "dark horror mood",
+    "gritty dystopian scene"
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Photo Illustration Overlay Poster\" style.\n\nSubject: {SUBJECT}.\nAction: {SUBJECT_ACTION}.\nProp/Product or interaction object: {PRODUCT_OR_PROP}.\nLocation/photo background: {LOCATION}.\nBackground details: {BACKGROUND_ELEMENTS}.\nMain text: \"{MAIN_TEXT}\".\nSecondary text/category: \"{SECONDARY_TEXT}\".\nAccent doodles and graphic effects: {ACCENT_SYMBOL}.\nCharacter treatment: {WARDROBE_STYLE}.\n\nUse a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top. The character should use high-saturation color blocking, rough hand-drawn linework, exaggerated scale, simple expressive eyes, playful body proportions, and graphic edges. Add small hand-drawn stars, sparks, arrows, motion lines, comic bursts, and doodle marks around the interaction point.\n\nKeep the background photographic and recognizable. Keep the illustrated character deliberately flat, graphic, and poster-like. Avoid copying any watermark, logo, or exact character from the reference image. Avoid plush 3D mascots, full-vector backgrounds, dark gritty mood, cyberpunk, and cluttered small text.",
   "negative_prompt": "Avoid watermark, copied logo, exact reference character, plush 3D mascot, realistic 3D cartoon rendering, full vector-only background, dark horror mood, gritty dystopian scene, cyberpunk neon city, cluttered small text, unreadable typography, and abstract background.",
   "examples": [
     {
       "case_name": "Office Button Magic",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a flat blue office helper character",
+        "SUBJECT_ACTION": "pressing an oversized red elevator button in a real lobby photo",
+        "PRODUCT_OR_PROP": "glossy elevator button panel",
+        "LOCATION": "modern office lobby with glass doors",
+        "BACKGROUND_ELEMENTS": "marble floor, reflections, potted plants, comic sparks, arrows, and doodle stars",
+        "MAIN_TEXT": "PUSH IT",
+        "SECONDARY_TEXT": "floor 12",
+        "ACCENT_SYMBOL": "yellow spark burst",
+        "WARDROBE_STYLE": "flat 2D cartoon body with saturated color blocks and rough black linework"
       }
     },
     {
       "case_name": "Grocery Street Helper",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a round orange cartoon helper",
+        "SUBJECT_ACTION": "lifting a real grocery basket from the sidewalk",
+        "PRODUCT_OR_PROP": "green grocery basket full of fruit",
+        "LOCATION": "busy neighborhood grocery storefront",
+        "BACKGROUND_ELEMENTS": "street signs, awnings, crates, motion doodles, stars, and hand-drawn arrows",
+        "MAIN_TEXT": "FRESH RUN",
+        "SECONDARY_TEXT": "market day",
+        "ACCENT_SYMBOL": "red comic burst",
+        "WARDROBE_STYLE": "simple flat mascot limbs, expressive eyes, sticker-like edge, and high saturation fill"
       }
     },
     {
       "case_name": "Court Star Finder",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a tall pink cartoon referee",
+        "SUBJECT_ACTION": "pointing at a glowing sneaker on a real basketball court",
+        "PRODUCT_OR_PROP": "single white basketball sneaker",
+        "LOCATION": "outdoor city basketball court",
+        "BACKGROUND_ELEMENTS": "chain fence, painted court lines, sun glare, motion lines, doodle stars, and marker arrows",
+        "MAIN_TEXT": "FOUND IT",
+        "SECONDARY_TEXT": "court signal",
+        "ACCENT_SYMBOL": "blue star cluster",
+        "WARDROBE_STYLE": "flat poster-like figure with rough edges, oversized hands, and simple facial expression"
       }
     },
     {
       "case_name": "Subway Weekend Portal",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a yellow flat cartoon commuter",
+        "SUBJECT_ACTION": "pulling open a glowing doodle doorway on a platform wall",
+        "PRODUCT_OR_PROP": "paper weekend ticket",
+        "LOCATION": "real subway platform with tiled wall and route signs",
+        "BACKGROUND_ELEMENTS": "fluorescent lights, platform markings, comic portal lines, sparks, arrows, and doodle labels",
+        "MAIN_TEXT": "WEEKEND",
+        "SECONDARY_TEXT": "next stop",
+        "ACCENT_SYMBOL": "purple swirl mark",
+        "WARDROBE_STYLE": "flat 2D character overlay with bold color blocking and sketchy outline"
       }
     }
   ]

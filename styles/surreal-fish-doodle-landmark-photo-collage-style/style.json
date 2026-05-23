@@ -15,6 +15,44 @@
     "WARDROBE_STYLE": "bold flat-color outfit, patterned grid shirt, oversized cap, sunglasses, striped socks, graphic shoes, raincoat, vest, or travel uniform",
     "ASPECT_RATIO": "9:16 vertical travel poster or 16:9 horizontal scenic banner"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
+    "Photo base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective.",
+    "Illustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground.",
+    "The subject should look pasted or screen-printed on top of the photo, with opaque flat color fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy, and bold graphic wardrobe colors.",
+    "Doodle layer: add ACCENT_SYMBOL plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer.",
+    "Use these marks to create playful movement and connect the illustrated characters to the travel photo.",
+    "If text is requested, use MAIN_TEXT only as a tiny hand-lettered travel note and SECONDARY_TEXT only as a sparse doodle label.",
+    "Do not include watermarks, usernames, creator IDs, signatures, QR codes, platform marks, app UI, copied reference characters, exact reference poses, brand logos, readable brand marks, full vector-only backgrounds, glossy 3D cartoon rendering, photorealistic animals, dense text, or dark cyberpunk mood."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "signature",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "copied reference artwork",
+    "exact reference character",
+    "exact reference pose",
+    "original reference landmark copy",
+    "original reference outfit copy"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "bright landmark travel-photo collage with flat 2D illustrated overlays",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
   "composition": {
     "vertical_9x16": "Use a vertical travel-poster composition. Let the landmark rise through the lower and middle frame, with sky or open scenery in the upper half. Place the oversized illustrated subject diagonally across the center, overlapping the landmark and reaching toward the lower third. Put smaller fish creatures in the upper corners and near the bottom edge.",
     "horizontal_16x9": "Use a horizontal scenic banner composition. Stretch the landmark photo wide across the frame, with the main illustrated subject entering from one side and crossing the middle. Arrange fish creatures along the sky and waterline for lateral motion. Keep black marker loops, strings, and starbursts near the outer thirds so the landmark remains visible in the center.",
@@ -57,6 +95,22 @@
     "Use black scribble loops and starbursts for graphic rhythm.",
     "Use blue drops, thin lines, strings, or splash marks to connect creatures to the scene.",
     "Keep the image clean of watermarks, handles, platform marks, and signatures."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "signature",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "copied reference artwork"
   ],
   "prompt_template": "Create an image in the \"Surreal Fish Doodle Landmark Photo Collage\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, using {PRODUCT_OR_PROP}, at {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe styling: {WARDROBE_STYLE}.\n\nPhoto base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective. Keep the landmark recognizable.\n\nIllustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground. The subject should look pasted or screen-printed on top of the photo, with opaque flat color fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy, and bold graphic wardrobe colors.\n\nCreature layer: add two to five fantastical folk-art fish or flying fish around the main subject. Give them mismatched fins, wing-like shapes, round eyes, black tiger-like body stripes, red coral fins, cobalt-blue sections, yellow bodies, and simple black outlines. Let some creatures float in the sky, skim the waterline, or pass behind the main subject.\n\nDoodle layer: add {ACCENT_SYMBOL} plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer. Use these marks to create playful movement and connect the illustrated characters to the travel photo.\n\nText: keep typography minimal. If text is requested, use \"{MAIN_TEXT}\" only as a tiny hand-lettered travel note and \"{SECONDARY_TEXT}\" only as a sparse doodle label. Do not make large poster headlines.\n\nDerive only the visual language from the style. Change the landmark, subject pose, outfit, props, and creature arrangement for every new image. Do not include watermarks, usernames, creator IDs, signatures, QR codes, platform marks, app UI, copied reference characters, exact reference poses, brand logos, readable brand marks, full vector-only backgrounds, glossy 3D cartoon rendering, photorealistic animals, dense text, or dark cyberpunk mood.",
   "negative_prompt": "watermark, username, creator ID, signature, platform logo, QR code, app UI, copied reference artwork, exact reference character, exact reference pose, original reference landmark copy, original reference outfit copy, original reference prop, logo, readable brand mark, full vector scene, blurred landmark, dark cyberpunk city, horror mood, dystopian scene, glossy 3D cartoon, plush mascot, photorealistic fish, realistic CG animal, heavy typography, dense text, corporate travel ad, sterile stock photo, messy unreadable collage",

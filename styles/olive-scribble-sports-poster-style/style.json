@@ -15,7 +15,8 @@
     "WARDROBE_STYLE": "flat color-block styling for clothing or gear",
     "STYLE_FIDELITY_ANCHORS": "Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.; One oversized action subject placed diagonally across the composition.; Flat screenprint color areas with minimal shading and no smooth gradients.; Heavy black ink silhouettes, angular brush contours, and chaotic scratch lines.; Red marker arcs, arrows, and motion loops crossing the subject.; Yellow-green dry-brush swaths or spiral strokes behind the action.; Palette ratio led by off-white, olive green, black, white, and red, with tiny navy, tan, or orange accents.; Abstract poster space with shallow depth, not a realistic photographed environment.; Body shapes are elongated, compressed, and expressive rather than anatomically precise.; Sparse graphic debris: small diamonds, slashes, clipped rectangles, and ink flecks.; Text, when present, is small, rough, hand-cut, and secondary to the figure.; Finished handmade editorial sports illustration, not clean vector, manga, or 3D render.",
     "SOURCE_CONTENT_TO_AVOID": "Soccer or football as the main subject.; Overhead kick, bicycle kick, or falling soccer pose.; Soccer ball, goal, pitch markings, stadium scene, or team uniform copied from the source.; Red-and-white jersey plus blue shorts combination.; A ball floating above a raised leg.; The exact diagonal body silhouette, expression, costume, and story premise from the reference.; Watermark, signature, brand badge, league mark, or team logo.",
-    "ASPECT_RATIO": "9:16 or 16:9"
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "NEGATIVE_PROMPT": "negative prompt constraints copied from the top-level negative_prompt field"
   },
   "style_fidelity_anchors": [
     "Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.",

@@ -1,5 +1,5 @@
 {
-  "style_name": "urban-transit-doodle-diary-style",
+  "style_name": "Urban Transit Doodle Diary Style",
   "style_slug": "urban-transit-doodle-diary-style",
   "style_version": "1.0.0",
   "style_summary": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
@@ -15,63 +15,144 @@
     "WARDROBE_STYLE": "casual streetwear, backpacks, hoodies, caps, work jackets, sneakers, practical city clothes",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+    "Keep the base image feeling like an imperfect phone snapshot from a real public city space, not a polished poster shoot.",
+    "Layer hand-drawn notes, arrows, sticker-like marks, and cartoon facial edits over the photo while keeping the underlying street scene readable.",
+    "Use saturated accent colors only for doodles, gestures, labels, and emphasis marks; let the photographic background stay raw and compressed.",
+    "Make MAIN_TEXT and SECONDARY_TEXT feel handwritten, diaristic, and locally placed rather than typeset as clean branding.",
+    "Preserve a large foreground gesture, prop, or mark that makes the image feel personally annotated in the moment.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects.",
+    "Preserve the original balance between main subject, typography, decorative marks, and background texture.",
+    "Use the variables to change content while keeping the style system stable."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "clean vector poster",
+    "fully animated scene",
+    "polished ad layout",
+    "luxury fashion shoot",
+    "empty background",
+    "sterile studio"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "photographic collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Start from a candid public-space photo feel before adding graphic marks.",
+    "Keep the city setting dense with signage, rails, reflections, crowds, or transit details.",
+    "Use doodles as annotations over the image rather than replacing the image with a pure illustration.",
+    "Make the foreground gesture, prop, or route marker feel spontaneous and close to the lens.",
+    "Keep MAIN_TEXT short, handwritten, and integrated into the diary overlay.",
+    "Let SECONDARY_TEXT behave like a date, route, mood note, or small location label.",
+    "Use cartoon face edits, arrows, stickers, and underline marks to create personality without hiding the scene.",
+    "Avoid clean corporate layout, perfect typography, luxury styling, or sterile studio backgrounds."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "clean vector poster",
+    "fully animated scene"
+  ],
   "prompt_template": "Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text \"{MAIN_TEXT}\", secondary text \"{SECONDARY_TEXT}\", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.",
   "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, clean vector poster, fully animated scene, polished ad layout, luxury fashion shoot, empty background, sterile studio, perfect typography, corporate brochure, glossy mascot illustration",
   "examples": [
     {
       "case_name": "Night Bus Queue",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a tired commuter waiting under a bus shelter",
+        "SUBJECT_ACTION": "checking a cracked phone while a doodled hand points at the timetable",
+        "PRODUCT_OR_PROP": "paper bus ticket and glowing phone",
+        "LOCATION": "rainy night bus stop beside a convenience store",
+        "BACKGROUND_ELEMENTS": "wet pavement, shelter glass, route board, passing headlights, handwritten diary notes, cartoon face stickers, and marker arrows",
+        "MAIN_TEXT": "LATE AGAIN",
+        "SECONDARY_TEXT": "bus 48",
+        "ACCENT_SYMBOL": "pink arrow and white speech bubble",
+        "WARDROBE_STYLE": "real coat and backpack with playful cartoon facial doodles and rough marker outline"
       }
     },
     {
       "case_name": "Convenience Store Midnight",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "two friends outside a small convenience store",
+        "SUBJECT_ACTION": "holding instant noodles and laughing at a doodled monster on the window",
+        "PRODUCT_OR_PROP": "instant noodle cup and receipt",
+        "LOCATION": "midnight convenience store entrance",
+        "BACKGROUND_ELEMENTS": "fluorescent sign, glass reflections, parked bikes, handwritten notes, sticker stars, and saturated cartoon overlays",
+        "MAIN_TEXT": "MIDNIGHT RUN",
+        "SECONDARY_TEXT": "snack log",
+        "ACCENT_SYMBOL": "yellow monster spike and cyan underline",
+        "WARDROBE_STYLE": "casual hoodies and jackets with comic face edits and loose marker marks"
       }
     },
     {
       "case_name": "Market Escalator Rush",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a shopper riding an outdoor escalator with bags",
+        "SUBJECT_ACTION": "turning back while a cartoon gesture waves from the foreground",
+        "PRODUCT_OR_PROP": "produce bag and doodled ticket stub",
+        "LOCATION": "busy market escalator in a dense city district",
+        "BACKGROUND_ELEMENTS": "shop signs, crowd blur, metal rails, neon reflections, white diary notes, comic cheeks, and sticker arrows",
+        "MAIN_TEXT": "MARKET LOOP",
+        "SECONDARY_TEXT": "up two floors",
+        "ACCENT_SYMBOL": "red cheek circles and green arrow marks",
+        "WARDROBE_STYLE": "everyday streetwear with rough cartoon face overlays and hand-drawn outlines"
       }
     },
     {
       "case_name": "Rainy Platform Friends",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a group of friends under umbrellas on a train platform",
+        "SUBJECT_ACTION": "posing as doodled faces smile over the real photo",
+        "PRODUCT_OR_PROP": "clear umbrella and transit card",
+        "LOCATION": "rainy elevated train platform",
+        "BACKGROUND_ELEMENTS": "wet tracks, safety line, station signs, gray sky, marker notes, cartoon heads, and saturated foreground gesture",
+        "MAIN_TEXT": "RAIN CREW",
+        "SECONDARY_TEXT": "platform diary",
+        "ACCENT_SYMBOL": "blue rain drops and white handwritten arrows",
+        "WARDROBE_STYLE": "rain jackets, tote bags, and expressive cartoon face overlays"
       }
     }
   ]

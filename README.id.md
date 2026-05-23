@@ -51,14 +51,14 @@ Banyak prompt gambar AI hanya berupa teks sekali pakai: sulit digunakan ulang, s
 1. Jelajahi [Gaya Unggulan](#gaya-unggulan), [Tautan Cepat](#tautan-cepat), atau [Indeks Gaya](#indeks-gaya).
 2. Buka folder gaya yang kamu suka, lalu salin `style.json`.
 3. Tempel seluruh JSON ke ChatGPT, Claude, Nano Banana Pro, atau workflow gambar berbasis LLM lain.
-4. Ubah hanya nilai di dalam `variables`: subjek, lokasi, teks, dan rasio aspek.
+4. Isi nilai untuk variabel yang dideklarasikan di `environment_variables`, atau edit salah satu case di `examples[*].values`.
 5. Buat prompt gambar final, lalu kirim ke model gambar pilihanmu.
 
 Contoh instruksi:
 
 ```text
 Gunakan style.json ini sebagai gaya visual yang terkunci.
-Ganti hanya variables:
+Gunakan nilai variabel ini:
 SUBJECT = fotografer produk streetwear
 LOCATION = gang neon saat hujan
 MAIN_TEXT = NIGHT DROP
@@ -119,6 +119,24 @@ styles/<style-slug>/
   style.json          # Template gaya prompt yang dapat dibaca mesin
   preview-16x9.jpg    # Preview landscape
   preview-9x16.jpg    # Preview portrait
+```
+
+## style.json v2.1
+
+Setiap `style.json` bersifat mandiri: salin seluruh file ke LLM, lalu isi nilai untuk variabel yang dideklarasikan di `environment_variables` atau edit salah satu case di `examples[*].values`.
+
+- `prompt_template` adalah prompt gaya reusable dengan placeholder `{VARIABLE}`.
+- `environment_variables` mendeklarasikan semua placeholder yang dapat dipakai template.
+- `examples` berisi kasus siap edit; setiap kasus hanya menyimpan `case_name` dan `values`.
+- `style_fidelity_anchors` dan `source_content_to_avoid` menjelaskan apa yang harus dipertahankan dan apa yang tidak boleh disalin.
+- `negative_prompt` membantu menghindari watermark, logo, rekreasi sumber langsung, dan output yang keluar dari gaya.
+
+Prompt final seperti `prompt_9x16`, `prompt_16x9`, atau `full_prompt` sengaja tidak disimpan. Prompt itu dibuat saat generasi dari `prompt_template` dan nilai yang dipilih, sehingga JSON tetap ringkas dan tidak mudah basi.
+
+Validasi pustaka dengan:
+
+```bash
+python3 scripts/validate-style-json.py .
 ```
 
 ## Indeks Gaya

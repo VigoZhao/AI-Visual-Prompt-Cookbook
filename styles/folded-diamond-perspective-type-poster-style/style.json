@@ -15,6 +15,85 @@
     "WARDROBE_STYLE": "monochrome streetwear, white denim, oversized shirt, athletic layers, minimal sneakers, or tonal editorial styling",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+    "Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.",
+    "Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface.",
+    "Typography: set MAIN_TEXT in enormous white ultra-bold condensed sans-serif type across the lower half.",
+    "Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain.",
+    "Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects.",
+    "Preserve the original balance between main subject, typography, decorative marks, and background texture."
+  ],
+  "source_content_to_avoid": [
+    "busy collage",
+    "many photos",
+    "eye-level portrait",
+    "small headline",
+    "thin serif typography",
+    "playful rounded type",
+    "glossy 3D letters",
+    "neon gradients",
+    "corporate brochure",
+    "clean vector-only design",
+    "flat background with no paper grain",
+    "crowded secondary text"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "photographic collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.",
+    "Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface.",
+    "Include PRODUCT_OR_PROP as a clear foreground object or visual anchor.",
+    "Typography: set MAIN_TEXT in enormous white ultra-bold condensed sans-serif type across the lower half.",
+    "Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain.",
+    "Add SECONDARY_TEXT only as tiny clean editorial microcopy, using ACCENT_SYMBOL sparingly for small graphic emphasis.",
+    "Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "busy collage",
+    "many photos",
+    "eye-level portrait",
+    "small headline",
+    "thin serif typography",
+    "playful rounded type",
+    "glossy 3D letters",
+    "neon gradients"
+  ],
   "prompt_template": "Create an image in folded-diamond-perspective-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.\n\nLayout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface. Include {BACKGROUND_ELEMENTS}. Create a deep central fold or crease running down from the diamond point into the lower poster.\n\nTypography: set the main headline \"{MAIN_TEXT}\" in enormous white ultra-bold condensed sans-serif type across the lower half. Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain. Add \"{SECONDARY_TEXT}\" only as tiny clean editorial microcopy using {ACCENT_SYMBOL}.\n\nMood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
   "negative_prompt": "busy collage, many photos, eye-level portrait, small headline, thin serif typography, playful rounded type, glossy 3D letters, neon gradients, corporate brochure, clean vector-only design, flat background with no paper grain, crowded secondary text, watermark, username, creator ID, QR code, platform logo, app interface marks",
   "examples": [

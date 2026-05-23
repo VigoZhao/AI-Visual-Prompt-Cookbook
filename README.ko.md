@@ -51,14 +51,14 @@
 1. [추천 스타일](#추천-스타일), [빠른 링크](#빠른-링크), [스타일 인덱스](#스타일-인덱스)를 둘러봅니다.
 2. 원하는 스타일 폴더를 열고 `style.json` 을 복사합니다.
 3. 전체 JSON 을 ChatGPT, Claude, Nano Banana Pro 또는 원하는 LLM 이미지 워크플로에 붙여 넣습니다.
-4. `variables` 안의 주제, 장소, 텍스트, 비율만 바꿉니다.
+4. `environment_variables` 에 선언된 변수에 값을 지정하거나 `examples[*].values` 의 사례 값을 수정합니다.
 5. 최종 이미지 프롬프트를 생성해 이미지 모델로 보냅니다.
 
 예시 지시문:
 
 ```text
 이 style.json 을 고정된 비주얼 스타일로 사용하세요.
-variables 만 바꿔 주세요:
+아래 변수 값을 사용하세요:
 SUBJECT = 스트리트웨어 제품 사진가
 LOCATION = 비 오는 네온 골목
 MAIN_TEXT = NIGHT DROP
@@ -119,6 +119,24 @@ styles/<style-slug>/
   style.json          # 기계가 읽을 수 있는 프롬프트 스타일 템플릿
   preview-16x9.jpg    # 가로 미리보기
   preview-9x16.jpg    # 세로 미리보기
+```
+
+## style.json v2.1
+
+각 `style.json` 은 자체 완결형입니다. 파일 전체를 LLM 에 복사한 뒤 `environment_variables` 에 선언된 변수에 값을 지정하거나 `examples[*].values` 의 사례 값을 수정하면 됩니다.
+
+- `prompt_template` 은 `{VARIABLE}` 플레이스홀더가 있는 재사용 가능한 스타일 프롬프트입니다.
+- `environment_variables` 는 템플릿에서 사용할 수 있는 모든 변수를 선언합니다.
+- `examples` 는 바로 수정할 수 있는 사례이며, 각 사례는 `case_name` 과 `values` 만 저장합니다.
+- `style_fidelity_anchors` 와 `source_content_to_avoid` 는 유지해야 할 스타일 요소와 복사하면 안 되는 원본 요소를 구분합니다.
+- `negative_prompt` 는 워터마크, 로고, 원본 직접 재현, 스타일 이탈을 줄입니다.
+
+`prompt_9x16`, `prompt_16x9`, `full_prompt` 같은 렌더링된 전체 프롬프트는 저장하지 않습니다. 생성 시점에 `prompt_template` 과 선택한 값으로 만들기 때문에 JSON 이 가볍고 오래 유지됩니다.
+
+검증 명령:
+
+```bash
+python3 scripts/validate-style-json.py .
 ```
 
 ## 스타일 인덱스

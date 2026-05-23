@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -69,6 +70,8 @@ FORBIDDEN_CASE_FIELDS = {
     "rendered_prompt",
     "final_prompt",
 }
+
+PLACEHOLDER_RE = re.compile(r"\{([A-Z0-9_]+)\}")
 
 
 def migrate_examples(examples: object) -> tuple[list, list[str]]:
@@ -198,6 +201,16 @@ def reorder_for_output(data: dict) -> dict:
     return out
 
 
+def undefined_prompt_placeholders(data: dict) -> list[str]:
+    """Return prompt_template placeholders not declared in environment_variables."""
+    prompt_template = data.get("prompt_template")
+    environment_variables = data.get("environment_variables")
+    if not isinstance(prompt_template, str) or not isinstance(environment_variables, dict):
+        return []
+    placeholders = set(PLACEHOLDER_RE.findall(prompt_template))
+    return sorted(placeholders - set(environment_variables))
+
+
 def format_report_line(slug: str, status: str, report: dict) -> str:
     parts = [
         f"renamed={len(report['renamed'])}",
@@ -246,6 +259,15 @@ def process_style_dir(style_dir: Path, dry_run: bool) -> tuple[str, dict | None]
         return "error", None
 
     ordered = reorder_for_output(migrated)
+    undefined_placeholders = undefined_prompt_placeholders(ordered)
+    if undefined_placeholders:
+        print(
+            f"X  {style_dir.name}  prompt_template has undefined placeholders: "
+            + ", ".join(undefined_placeholders),
+            file=sys.stderr,
+        )
+        return "error", None
+
     output = json.dumps(ordered, indent=2, ensure_ascii=False) + "\n"
 
     if not dry_run:

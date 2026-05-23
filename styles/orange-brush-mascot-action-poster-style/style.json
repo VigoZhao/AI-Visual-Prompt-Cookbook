@@ -1,5 +1,5 @@
 {
-  "style_name": "orange-brush-mascot-action-poster-style",
+  "style_name": "Orange Brush Mascot Action Poster Style",
   "style_slug": "orange-brush-mascot-action-poster-style",
   "style_version": "1.0.0",
   "style_summary": "A sparse orange-white-black flat illustration system with a white mascot figure, oversized prop, rough black dry-brush linework, orange cheek circles, and screen-printed paper grain.",
@@ -15,6 +15,86 @@
     "WARDROBE_STYLE": "white block face and hands, black rectangle shorts or body, no realistic clothing, no detailed wardrobe",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A sparse orange-white-black flat illustration system with a white mascot figure, oversized prop, rough black dry-brush linework, orange cheek circles, and screen-printed paper grain.",
+    "Create either a 9:16 or 16:9 poster illustration in the Orange Brush Mascot Action Poster style, using the reference only for style.",
+    "Input images: Image 2: style reference for orange-white-black flat mascot illustration, rough dry-brush lines, oversized prop composition, screen-print grain.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Style/medium: minimal flat editorial illustration, rough black dry-brush ink, screen-printed paper texture, white mascot shapes on saturated orange.",
+    "Use ASPECT_RATIO to choose the crop; keep a tightly cropped poster frame, one giant prop overlapping the character, and sparse negative space.",
+    "Lighting/mood: no realistic lighting, flat graphic contrast, playful and mischievous mood.",
+    "Color palette: saturated orange, paper white, carbon black, orange cheek circles only.",
+    "Avoid: watermark, username, creator ID, platform logo, QR code, app UI, polished vector art, gradients, 3D, photorealism, realistic human anatomy, complex scenery, many colors, anime, corporate mascot, sticker-pack polish."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "brand logo",
+    "polished vector icon",
+    "perfect clean line",
+    "gradients",
+    "3D render",
+    "photorealism"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A sparse orange-white-black flat illustration system with a white mascot figure, oversized prop, rough black dry-brush linework, orange cheek circles, and screen-printed paper grain.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "flat screen-printed mascot poster illustration",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Create either a 9:16 or 16:9 poster illustration in the Orange Brush Mascot Action Poster style, using the reference only for style.",
+    "Input images: Image 2: style reference for orange-white-black flat mascot illustration, rough dry-brush lines, oversized prop composition, screen-print grain.",
+    "Use LOCATION as the scene or backdrop while preserving the style-specific poster crop.",
+    "Use PRODUCT_OR_PROP as the foreground object, product cue, or story-driving prop.",
+    "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+    "Style/medium: minimal flat editorial illustration, rough black dry-brush ink, screen-printed paper texture, white mascot shapes on saturated orange.",
+    "Use ASPECT_RATIO to choose the crop; keep a tightly cropped poster frame, one giant prop overlapping the character, and sparse negative space."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "platform logo",
+    "QR code",
+    "app UI",
+    "brand logo",
+    "polished vector icon"
+  ],
   "prompt_template": "Use case: illustration-story\nAsset type: style growth sample / poster illustration\nPrimary request: Create a {ASPECT_RATIO} image in the \"Orange Brush Mascot Action Poster\" style using Image 2 as style reference only.\n\nInput images: Image 2: style reference for orange-white-black flat mascot illustration, rough dry-brush lines, oversized prop composition, screen-print grain.\nScene/backdrop: {LOCATION}.\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nStyle/medium: minimal flat editorial illustration, rough black dry-brush ink, screen-printed paper texture, white mascot shapes on saturated orange.\nComposition/framing: {ASPECT_RATIO}, tightly cropped poster frame, one giant prop overlapping the character, sparse negative space.\nLighting/mood: no realistic lighting, flat graphic contrast, playful and mischievous mood.\nColor palette: saturated orange, paper white, carbon black, orange cheek circles only.\nText (verbatim): {MAIN_TEXT}; keep text absent if value is \"none\".\nSecondary text: {SECONDARY_TEXT}; keep absent if value is \"none\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\nConstraints: preserve the reference style but create a new case; do not copy the exact original scene; no logos; no watermark.\nAvoid: watermark, username, creator ID, platform logo, QR code, app UI, polished vector art, gradients, 3D, photorealism, realistic human anatomy, complex scenery, many colors, anime, corporate mascot, sticker-pack polish.",
   "negative_prompt": "watermark, username, creator ID, platform logo, QR code, app UI, brand logo, polished vector icon, perfect clean line, gradients, 3D render, photorealism, realistic human face, glossy plastic mascot, plush toy, complex environment, dense props, many colors, neon palette, anime, manga screentone, corporate mascot, sticker sheet, decorative frame, readable UI text",
   "examples": [

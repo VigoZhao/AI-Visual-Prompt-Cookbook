@@ -18,6 +18,87 @@
     "LENS_STYLE": "ultra-wide fisheye, action-camera barrel distortion, low-angle close portrait",
     "TEXTURE_LEVEL": "heavy film grain, color bleed, halftone speckle, compressed social poster finish"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+    "Keep the photographic treatment bright, compressed, close, and lens-distorted according to the style reference.",
+    "Place the camera below the subject looking upward, very close to the body and face.",
+    "Preserve realistic skin, fabric, hair, accessories, and daylight reflections.",
+    "Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.",
+    "Layout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts.",
+    "Build the poster around a huge arched bubble headline reading MAIN_TEXT in lemon yellow across the top and side edges.",
+    "Use golden orange edge shading, cream shine slashes, and ACCENT_SYMBOL.",
+    "Texture: add TEXTURE_LEVEL, slight lens flare, color fringing, and analog poster compression.",
+    "Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text."
+  ],
+  "source_content_to_avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "QR code",
+    "platform logo",
+    "app interface marks",
+    "copied reference person",
+    "copied reference outfit",
+    "copied exact pose",
+    "copied exact text",
+    "repeated same face across a sample set",
+    "long paragraphs"
+  ],
+  "visual_deconstruction": {
+    "style_category": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "ultra-low-angle fisheye lifestyle photography poster",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Include PRODUCT_OR_PROP as a clear foreground object or visual anchor.",
+    "Use WARDROBE_STYLE for clothing, styling, surface treatment, and character details.",
+    "For a multi-case set, give every case a visibly different face, hair, body language, and styling details.",
+    "Keep the photographic treatment bright, compressed, close, and lens-distorted according to the style reference.",
+    "Place the camera below the subject looking upward, very close to the body and face.",
+    "Preserve realistic skin, fabric, hair, accessories, and daylight reflections.",
+    "Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "watermark",
+    "username",
+    "creator ID",
+    "QR code",
+    "platform logo",
+    "app interface marks",
+    "copied reference person",
+    "copied reference outfit"
+  ],
   "prompt_template": "Create an image in sunburst-fisheye-bubble-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set, give every case a visibly different face, hair, body language, and styling details.\n\nPhotography: {LENS_STYLE}. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.\n\nLayout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts. Build the poster around a huge arched bubble headline reading \"{MAIN_TEXT}\" in lemon yellow across the top and side edges. The letters should feel inflated, hand-painted, warped by perspective, and partly cropped by the frame. Use golden orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.\n\nTexture: add {TEXTURE_LEVEL}, slight lens flare, color fringing, and analog poster compression. Add \"{SECONDARY_TEXT}\" only as tiny editorial microcopy if it stays clean and unobtrusive.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.",
   "negative_prompt": "watermark, username, creator ID, QR code, platform logo, app interface marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, long paragraphs, crowded small text, chrome lettering, metallic text, glossy 3D balloon type, clean corporate minimal layout, muted pastel-only palette, luxury studio editorial, night scene, cyberpunk, horror, dystopian, overly smooth digital photo, no grain, flat vector-only poster",
   "examples": [

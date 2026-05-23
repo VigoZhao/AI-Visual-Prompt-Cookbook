@@ -1,5 +1,5 @@
 {
-  "style_name": "y2k-grunge-hiphop-cutout-poster-style",
+  "style_name": "Y2K Grunge Hip-Hop Cutout Poster Style",
   "style_slug": "y2k-grunge-hiphop-cutout-poster-style",
   "style_version": "1.0.0",
   "style_summary": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
@@ -15,63 +15,141 @@
     "WARDROBE_STYLE": "oversized Y2K streetwear, baggy denim, graphic tee, bucket hat, cap, headphones, chunky shoes",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+    "Place the subject as a large central photo cutout with an irregular white sticker-like outline.",
+    "Use a dirty black-and-white grunge wall background with BACKGROUND_ELEMENTS worked into the texture.",
+    "Add a bright acid yellow information strip at the bottom with small editorial text reading SECONDARY_TEXT, small inset photo frames, barcode-like graphic elements, and ACCENT_SYMBOL.",
+    "The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects.",
+    "Preserve the original balance between main subject, typography, decorative marks, and background texture.",
+    "Use the variables to change content while keeping the style system stable."
+  ],
+  "source_content_to_avoid": [
+    "clean minimalist design",
+    "luxury editorial style",
+    "smooth gradient background",
+    "polished corporate poster",
+    "modern sans-serif-only layout",
+    "sterile studio lighting",
+    "glossy 3D text",
+    "empty whitespace",
+    "clean vector illustration",
+    "watermark",
+    "username",
+    "QR code"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "print-textured poster illustration/collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Place the subject as a large central photo cutout with an irregular white sticker-like outline.",
+    "Use a dirty black-and-white grunge wall background with BACKGROUND_ELEMENTS worked into the texture.",
+    "Add a huge acid yellow retro serif headline reading MAIN_TEXT across the top, partially hidden behind the subject.",
+    "Add a bright acid yellow information strip at the bottom with small editorial text reading SECONDARY_TEXT, small inset photo frames, barcode-like graphic elements, and ACCENT_SYMBOL.",
+    "The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout.",
+    "Do not include watermarks, usernames, QR codes, platform logos, or app marks."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "clean minimalist design",
+    "luxury editorial style",
+    "smooth gradient background",
+    "polished corporate poster",
+    "modern sans-serif-only layout",
+    "sterile studio lighting",
+    "glossy 3D text",
+    "empty whitespace"
+  ],
   "prompt_template": "Create a Y2K grunge hip-hop cutout poster featuring {SUBJECT} {SUBJECT_ACTION}, wearing {WARDROBE_STYLE}, holding or interacting with {PRODUCT_OR_PROP}. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white grunge wall background with {BACKGROUND_ELEMENTS}. Add a huge acid yellow retro serif headline reading \"{MAIN_TEXT}\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"{SECONDARY_TEXT}\", small inset photo frames, barcode-like graphic elements, and {ACCENT_SYMBOL}. The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout. Do not include watermarks, usernames, QR codes, platform logos, or app marks. Aspect ratio: {ASPECT_RATIO}.",
   "negative_prompt": "clean minimalist design, luxury editorial style, smooth gradient background, polished corporate poster, modern sans-serif-only layout, sterile studio lighting, glossy 3D text, empty whitespace, clean vector illustration, watermark, username, QR code, platform logo, app interface marks",
   "examples": [
     {
       "case_name": "Subway Beatmaker",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a beatmaker with silver headphones",
+        "SUBJECT_ACTION": "leaning over a portable sampler in a subway corridor",
+        "PRODUCT_OR_PROP": "compact sampler with sticker-covered pads",
+        "LOCATION": "black-and-white tiled subway passage",
+        "BACKGROUND_ELEMENTS": "dirty wall texture, torn flyers, photocopy noise, footer panels, arrows, and barcode scraps",
+        "MAIN_TEXT": "BASS LINE",
+        "SECONDARY_TEXT": "underground mix",
+        "ACCENT_SYMBOL": "acid yellow star and black tape strip",
+        "WARDROBE_STYLE": "oversized denim jacket, loose cargo pants, chain necklace, and sticker-cutout photo edge"
       }
     },
     {
       "case_name": "Record Shop Dancer",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a dancer holding a vinyl sleeve",
+        "SUBJECT_ACTION": "twisting mid-step between record bins",
+        "PRODUCT_OR_PROP": "12-inch vinyl sleeve with blank label",
+        "LOCATION": "gritty record shop aisle",
+        "BACKGROUND_ELEMENTS": "monochrome wall posters, rough paper panels, yellow headline blocks, scratched texture, and dense editorial footer strip",
+        "MAIN_TEXT": "VINYL HEAT",
+        "SECONDARY_TEXT": "side b session",
+        "ACCENT_SYMBOL": "yellow oval sticker and rough arrow",
+        "WARDROBE_STYLE": "baggy jersey, beanie, sneakers, and high-contrast photo cutout treatment"
       }
     },
     {
       "case_name": "Skate Alley Vocalist",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a vocalist sitting on a skateboard ramp edge",
+        "SUBJECT_ACTION": "holding a wired microphone toward the viewer",
+        "PRODUCT_OR_PROP": "wired microphone and scuffed skateboard",
+        "LOCATION": "graffiti alley skate spot",
+        "BACKGROUND_ELEMENTS": "black-and-white concrete wall, paste-up posters, torn label blocks, photocopied noise, and acid yellow masthead",
+        "MAIN_TEXT": "ROUGH TAKE",
+        "SECONDARY_TEXT": "alley version",
+        "ACCENT_SYMBOL": "crooked black underline and yellow arrow",
+        "WARDROBE_STYLE": "oversized hoodie, wide jeans, rings, and irregular white cutout border"
       }
     },
     {
       "case_name": "Bedroom Studio DJ",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a bedroom DJ sitting beside stacked speakers",
+        "SUBJECT_ACTION": "raising one hand over a small controller",
+        "PRODUCT_OR_PROP": "mini DJ controller and tangled cable",
+        "LOCATION": "small bedroom studio with poster wall",
+        "BACKGROUND_ELEMENTS": "photocopied wall textures, torn tape, footer info panels, yellow retro serif headline, and rough grain",
+        "MAIN_TEXT": "ROOM MIX",
+        "SECONDARY_TEXT": "demo tape 03",
+        "ACCENT_SYMBOL": "acid yellow lightning sticker",
+        "WARDROBE_STYLE": "graphic tee, track jacket, chunky headphones, and cutout magazine collage styling"
       }
     }
   ]

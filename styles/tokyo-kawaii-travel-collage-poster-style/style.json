@@ -15,63 +15,143 @@
     "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
     "ASPECT_RATIO": "9:16 vertical poster or 16:9 horizontal banner"
   },
-  "prompt_template": "Create a {ASPECT_RATIO} poster in the \"Tokyo Kawaii Travel Collage Poster\" style.\n\nMain subject: {SUBJECT}.\nAction or pose: {SUBJECT_ACTION}.\nDestination: {DESTINATION}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nSpeech bubble text: \"{SPEECH_BUBBLE_TEXT}\".\nFood stickers: {FOOD_STICKERS}.\nTravel stickers: {TRAVEL_STICKERS}.\nCity background: {CITY_BACKGROUND}.\nBotanical elements: {BOTANICAL_ELEMENTS}.\n\nUse a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.\n\nLayer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.\n\nAdd a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area. The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.\n\nAvoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.",
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+    "Use BACKGROUND_ELEMENTS for city background, botanical details, signage, texture, and travel-collage context.",
+    "Use a maximalist Japanese travel scrapbook collage layout.",
+    "Place the cutout subject large in the center with a sticker-like white edge.",
+    "Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping.",
+    "Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.",
+    "Layer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture.",
+    "Add manga speech bubbles, handwritten notes, tiny captions, food icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.",
+    "Add a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography.",
+    "Mix in watercolor or pressed-flower botanical elements near the lower area."
+  ],
+  "source_content_to_avoid": [
+    "minimal layout",
+    "plain background",
+    "luxury travel advertisement",
+    "clean corporate grid",
+    "single typeface",
+    "low sticker density",
+    "empty negative space",
+    "realistic seamless photo composite",
+    "muted palette",
+    "sterile digital polish",
+    "unreadable main headline"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "print-textured poster illustration/collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Use SUBJECT as the main visual focus.",
+    "Use SUBJECT_ACTION to define the visible pose, action, or emotional beat.",
+    "Use PRODUCT_OR_PROP as the featured prop, food, sticker object, or travel cue.",
+    "Use LOCATION as the destination, district, or travel setting.",
+    "Use BACKGROUND_ELEMENTS for city background, botanical details, signage, texture, and travel-collage context.",
+    "Use SECONDARY_TEXT as the speech-bubble note or supporting travel caption.",
+    "Use ACCENT_SYMBOL for travel stickers, sparkles, arrows, and cute graphic accents."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "minimal layout",
+    "plain background",
+    "luxury travel advertisement",
+    "clean corporate grid",
+    "single typeface",
+    "low sticker density",
+    "empty negative space",
+    "realistic seamless photo composite"
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} poster in the \"Tokyo Kawaii Travel Collage Poster\" style.\n\nMain subject: {SUBJECT}.\nAction or pose: {SUBJECT_ACTION}.\nFeatured prop, food, or sticker object: {PRODUCT_OR_PROP}.\nDestination or location: {LOCATION}.\nCity background and botanical elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary or speech-bubble text: \"{SECONDARY_TEXT}\".\nTravel stickers and accent symbols: {ACCENT_SYMBOL}.\nWardrobe and cutout styling: {WARDROBE_STYLE}.\n\nUse a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.\n\nLayer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.\n\nAdd a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area. The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.\n\nAvoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.",
   "negative_prompt": "Avoid minimal layout, plain background, luxury travel advertisement, clean corporate grid, single typeface, low sticker density, empty negative space, realistic seamless photo composite, muted palette, sterile digital polish, and unreadable main headline.",
   "examples": [
     {
       "case_name": "Seoul Street Food",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a cutout fashion traveler holding a paper skewer tray",
+        "SUBJECT_ACTION": "posing with one hand toward the viewer",
+        "PRODUCT_OR_PROP": "tteokbokki cup, fishcake skewer, and cute food stickers",
+        "LOCATION": "Seoul night market street",
+        "BACKGROUND_ELEMENTS": "black-and-white market crowd photos, neon shop signs, botanical scraps, ticket stubs, halftone texture, and mini photo panels",
+        "MAIN_TEXT": "SEOUL POP",
+        "SECONDARY_TEXT": "late snack tour",
+        "ACCENT_SYMBOL": "speech bubble, barcode strip, red star sticker, and arrow labels",
+        "WARDROBE_STYLE": "bright streetwear cutout with white sticker edge, layered jacket, and playful accessories"
       }
     },
     {
       "case_name": "Taipei Night Market",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a smiling traveler with a bubble tea cup",
+        "SUBJECT_ACTION": "leaning into a dense sticker collage",
+        "PRODUCT_OR_PROP": "bubble tea, scallion pancake sticker, and ticket stub",
+        "LOCATION": "Taipei night market lane",
+        "BACKGROUND_ELEMENTS": "sepia city photo panels, food signs, botanical paper, tiny captions, manga bubbles, and yellow info bar",
+        "MAIN_TEXT": "TAIPEI MIX",
+        "SECONDARY_TEXT": "hello night",
+        "ACCENT_SYMBOL": "green tile letters, red arrows, and cream paper labels",
+        "WARDROBE_STYLE": "cute casual outfit with oversized cardigan, shoulder bag, and sticker-cutout border"
       }
     },
     {
       "case_name": "Osaka Arcade Date",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a stylish couple as overlapping photo cutouts",
+        "SUBJECT_ACTION": "pointing toward a game arcade sign",
+        "PRODUCT_OR_PROP": "takoyaki box and arcade token stickers",
+        "LOCATION": "Osaka covered shopping arcade",
+        "BACKGROUND_ELEMENTS": "halftone storefront photos, manga speech balloons, travel labels, food icons, pressed flowers, and mini snapshots",
+        "MAIN_TEXT": "OSAKA GO",
+        "SECONDARY_TEXT": "arcade date",
+        "ACCENT_SYMBOL": "yellow stars, barcode, and green paper tiles",
+        "WARDROBE_STYLE": "coordinated kawaii streetwear with sticker-like white outlines and rotated photo edges"
       }
     },
     {
       "case_name": "Bangkok Flower Trip",
       "values": {
-        "SUBJECT": "main subject",
-        "SUBJECT_ACTION": "main action or pose",
-        "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
-        "LOCATION": "environment or setting",
-        "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
-        "MAIN_TEXT": "main headline or graphic text",
-        "SECONDARY_TEXT": "small supporting text or microcopy",
-        "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
-        "WARDROBE_STYLE": "styling, clothing, character, or visual treatment"
+        "SUBJECT": "a cutout traveler holding a flower bundle",
+        "SUBJECT_ACTION": "waving from a dense souvenir collage",
+        "PRODUCT_OR_PROP": "flower garland, iced tea sticker, and travel ticket",
+        "LOCATION": "Bangkok flower market morning",
+        "BACKGROUND_ELEMENTS": "sepia street photography, botanical watercolor pieces, food stickers, tiny captions, manga bubbles, and yellow bottom info bar",
+        "MAIN_TEXT": "BANGKOK BLOOM",
+        "SECONDARY_TEXT": "fresh morning",
+        "ACCENT_SYMBOL": "red flower sticker, green tile blocks, and black ink arrows",
+        "WARDROBE_STYLE": "bright summer outfit with tote bag, white cutout edge, and playful magazine styling"
       }
     }
   ]

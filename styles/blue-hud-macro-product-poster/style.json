@@ -15,7 +15,8 @@
     "WARDROBE_STYLE": "styling direction for hands, gloves, or visible human elements",
     "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
     "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
-    "ASPECT_RATIO": "9:16 or 16:9"
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "NEGATIVE_PROMPT": "negative prompt constraints copied from the top-level negative_prompt field"
   },
   "style_fidelity_anchors": [
     "Macro product-hero composition with the object large, tilted, and centered or slightly off-center, filling the frame.",
