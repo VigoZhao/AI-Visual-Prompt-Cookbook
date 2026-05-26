@@ -32,15 +32,19 @@
   由 <a href="https://x.com/VigoCreativeAI">@VigoCreativeAI</a> 策划整理，并在 OpenAI Codex 的协助下结构化。Star 这个仓库可以持续关注新的风格更新。
 </p>
 
+<p align="center">
+  浏览 <a href="#all-styles">All Styles 画廊</a>，或打开 <a href="docs/CATALOG.md">完整目录</a>。
+</p>
+
 ## 快速入口
 
 | 分类 | 适合做什么 | 先看这些 |
 | --- | --- | --- |
-| 照片 + 涂鸦 | 社交随拍、生活方式场景、轻快贴纸覆盖层 | [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot), [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid) |
-| Zine + 拼贴 | 时尚海报、音乐视觉、极繁编辑排版 | [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine), [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster) |
-| 字体海报 | 大标题系统、高冲击广告图、视觉冲击 | [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster), [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster) |
-| 旅行 + 城市 | 目的地海报、街头场景、城市视觉日记 | [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail), [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster) |
-| 编辑 + 极简 | 更干净的构图、结构化版式、安静的艺术指导 | [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster), [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster) |
+| 照片 + 涂鸦 | 社交随拍、生活方式场景、轻快贴纸覆盖层 | [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot-style), [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid-style) |
+| Zine + 拼贴 | 时尚海报、音乐视觉、极繁编辑排版 | [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine-style), [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster-style) |
+| 字体海报 | 大标题系统、高冲击广告图、视觉冲击 | [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster-style), [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster-style) |
+| 旅行 + 城市 | 目的地海报、街头场景、城市视觉日记 | [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail-style), [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster-style) |
+| 编辑 + 极简 | 更干净的构图、结构化版式、安静的艺术指导 | [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster-style), [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster-style) |
 
 ## 为什么做这个项目
 
@@ -48,22 +52,66 @@
 
 ## 快速开始
 
-1. 浏览下面的 [精选风格](#精选风格)、[快速入口](#快速入口) 或 [风格索引](#风格索引)。
+1. 浏览 [精选风格](#精选风格)、[快速入口](#快速入口) 或 [All Styles](#all-styles)。
 2. 打开某个风格目录，复制里面的 `style.json`。
-3. 把完整 JSON 放进 ChatGPT、Claude、Nano Banana Pro、即梦或其他 LLM 图像工作流。
+3. 把完整 JSON 放进 ChatGPT Images 2、Nano Banana Pro 或其他端到端多模态图像模型。
 4. 根据 `environment_variables` 里的变量说明填写你的变量值，或直接修改 `examples[*].values` 里的案例值。
-5. 生成最终图像提示词，再发送给你的图像模型。
+5. 生成最终图像。
 
-示例指令：
+参见下面的 [Complete Example](#complete-example)，查看完整的输入到输出示例。
+
+### Recommended Image Models
+
+这个工作流最适合端到端多模态图像模型：它们能读取较长的结构化 JSON 提示词，并一步生成最终图像。
+
+- ChatGPT Images 2 (OpenAI, gpt-image-2) — 文字渲染强，支持 2K/4K 输出，可在生成前进行推理
+- Nano Banana Pro (Google, Gemini 3 Pro Image) — 支持 4K 输出，多语言文字准确性好，主体一致性强
+
+其他能接受长 JSON 提示词的多模态 LLM 也可能可用，但不是主要推荐。
+
+## Complete Example
+
+### 输入 → 输出演示
+
+这个示例使用 [Mono Noir Type Portrait Poster Style](styles/mono-noir-type-portrait-poster-style/)。
+
+#### Step 1 — The Style
+
+<details>
+<summary>prompt_template excerpt</summary>
 
 ```text
-把这个 style.json 当作锁定的视觉风格。
-使用这些变量值：
-SUBJECT = 一位街头服装产品摄影师
-LOCATION = 雨夜霓虹小巷
-MAIN_TEXT = NIGHT DROP
+Create a {ASPECT_RATIO} monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Composition: one large high-contrast black-and-white photographic subject, close crop, deep charcoal background, sparse negative space, shallow depth of field, serious noir editorial mood. If the aspect ratio is 16:9, make a landscape poster with the subject weighted to the right side and the headline block on the left. If the aspect ratio is 9:16, make a vertical poster with the headline stacked in the upper-left or middle-left field and the subject cropped large on the right or lower-right. Typography: render the exact readable lowercase headline text "{MAIN_TEXT}" as three short left-aligned lines...
+```
+
+</details>
+
+#### Step 2 — Your Variables
+
+```text
+SUBJECT = a tired architect with silver hair
+SUBJECT_ACTION = studying a folded blueprint in a late-night pause
+PRODUCT_OR_PROP = a rolled plan tube and a pencil held low
+LOCATION = a dim concrete studio after midnight
+BACKGROUND_ELEMENTS = soft charcoal wall gradient, blurred drafting table edge, deep empty space
+MAIN_TEXT = focus / outlasts / noise.
+SECONDARY_TEXT = studio log 02:14
+ACCENT_SYMBOL = a tiny white plus
+WARDROBE_STYLE = dark work jacket over a plain black shirt
 ASPECT_RATIO = 16:9
 ```
+
+#### Step 3 — The Final Prompt
+
+```text
+Create a 16:9 monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: black-and-white photographic portrait, deep charcoal background, giant lowercase left-aligned headline, first word in a white label, remaining words in white, high contrast, sparse negative space, close crop. Source content to avoid: no young woman with blunt bangs, no freckles close-up, no discipline beats procrastination text, no copied face or exact source crop. Scene: a tired architect with silver hair studying a folded blueprint in a late-night pause with a rolled plan tube and a pencil held low in a dim concrete studio after midnight. Background elements: soft charcoal wall gradient, blurred drafting table edge, deep empty space. Wardrobe and styling: dark work jacket over a plain black shirt. Composition: one large high-contrast black-and-white photographic subject, close crop, deep charcoal background, sparse negative space, shallow depth of field, serious noir editorial mood. If the aspect ratio is 16:9, make a landscape poster with the subject weighted to the right side and the headline block on the left. If the aspect ratio is 9:16, make a vertical poster with the headline stacked in the upper-left or middle-left field and the subject cropped large on the right or lower-right. Typography: render the exact readable lowercase headline text "focus
+outlasts
+noise." as three short left-aligned lines with tight leading; put the first headline word as black type inside a crisp white rectangular label, then set the remaining lines in heavy white type directly on the dark background. Add "studio log 02:14" only as tiny unobtrusive white microcopy if it fits. Use a tiny white plus only as a minimal typographic mark. Keep type sharp, flat, square-cornered, and massive. Photo treatment: realistic black-and-white studio photography, strong shadow falloff, visible facial or fabric texture, subtle grain, no color, no illustration, no collage, no extra panels, no logos, no watermark.
+```
+
+#### Step 4 — The Result
+
+<img src="styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg" alt="Mono Noir Type Portrait Poster Style result preview">
 
 ## 复制提示词入口
 
@@ -71,7 +119,9 @@ ASPECT_RATIO = 16:9
 
 ## 精选风格
 
-先看这 6 个，就能快速理解这个风格库的视觉跨度。每个风格都保持轻量：一个 JSON 加两张预览图。
+先看这 6 个风格。每个风格都保持轻量：一个 JSON 加两张预览图。完整 40 个风格见下面的 [All Styles](#all-styles) 画廊。
+
+<!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
@@ -143,456 +193,338 @@ styles/<style-slug>/
 python3 scripts/validate-style-json.py .
 ```
 
-## 风格索引
-
-1. [Blue Chinese Perspective Type Canyon Style](#blue-chinese-perspective-type-canyon-style)
-2. [Rough Ink Music Doodle Poster Style](#rough-ink-music-doodle-poster-style)
-3. [Mono Noir Type Portrait Poster Style](#mono-noir-type-portrait-poster-style)
-4. [Bold Block Mascot Poster Style](#bold-block-mascot-poster-style)
-5. [Blue HUD Macro Creator Tech Poster](#blue-hud-macro-creator-tech-poster)
-6. [Warm Fisheye Product Impact Ad](#warm-fisheye-product-impact-ad)
-7. [Olive Scribble Sports Poster](#olive-scribble-sports-poster)
-8. [Bold Anime Reaction Thumbnail](#bold-anime-reaction-thumbnail)
-9. [Turquoise Red Techno Manga Poster](#turquoise-red-techno-manga-poster)
-10. [Chromatic Fisheye Orbit Pop Poster](#chromatic-fisheye-orbit-pop-poster)
-11. [Naive Marker PSA Poster](#naive-marker-psa-poster)
-12. [Blue Bubble Fisheye Action Poster](#blue-bubble-fisheye-action-poster)
-13. [Cozy Bedroom Doodle Companion Snapshot](#cozy-bedroom-doodle-companion-snapshot)
-14. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
-15. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
-16. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
-17. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
-18. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
-19. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
-20. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-21. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-22. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-23. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-24. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-25. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-26. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-27. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-28. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-29. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-30. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-31. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-32. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-33. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-34. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-35. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-36. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-37. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-38. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-39. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-40. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
-
-## 风格目录
-
-### Blue Chinese Perspective Type Canyon Style
-
-<a href="styles/blue-chinese-perspective-type-canyon-style"><img src="styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg" width="720" alt="Blue Chinese Perspective Type Canyon Style preview"></a>
-
-一种中文透视字形峡谷海报风格：极端一点透视走廊、饱和蓝色中央梯形平面、堆叠的巨大白色中文标题字，以及塞满扭曲白灰中文辅助字的黑色侧墙。
-
-文件： [style.json](styles/blue-chinese-perspective-type-canyon-style/style.json) · [复制提示词](docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md) · [16:9 预览](styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg) · [9:16 预览](styles/blue-chinese-perspective-type-canyon-style/preview-9x16.jpg) · [目录](styles/blue-chinese-perspective-type-canyon-style)
-
----
-
-### Rough Ink Music Doodle Poster Style
-
-<a href="styles/rough-ink-music-doodle-poster-style"><img src="styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg" width="720" alt="Rough Ink Music Doodle Poster Style preview"></a>
-
-一种粗糙手绘音乐涂鸦海报风格：超大深绿黑色刷写标题、浅粉纸张、亮粉辅助字、天真吉祥物线稿、青绿与粉色平涂、锐利黄色爆炸符号、散落音符涂鸦，以及类似扫描 risograph 的印刷纹理。
-
-文件： [style.json](styles/rough-ink-music-doodle-poster-style/style.json) · [复制提示词](docs/copy-prompts/rough-ink-music-doodle-poster-style.md) · [16:9 预览](styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg) · [9:16 预览](styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg) · [目录](styles/rough-ink-music-doodle-poster-style)
-
----
-
-### Mono Noir Type Portrait Poster Style
-
-<a href="styles/mono-noir-type-portrait-poster-style"><img src="styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg" width="720" alt="Mono Noir Type Portrait Poster Style preview"></a>
-
-一种黑白高反差编辑肖像海报风格：近景人物、巨大的小写无衬线标题、首词白色标签反转、深炭黑负空间和冷峻 noir 光影。
-
-文件：[style.json](styles/mono-noir-type-portrait-poster-style/style.json) · [复制提示词](docs/copy-prompts/mono-noir-type-portrait-poster-style.md) · [16:9 预览](styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/mono-noir-type-portrait-poster-style/preview-9x16.jpg) · [目录](styles/mono-noir-type-portrait-poster-style)
-
----
-
-### Bold Block Mascot Poster Style
-
-<a href="styles/bold-block-mascot-poster-style"><img src="styles/bold-block-mascot-poster-style/preview-16x9.jpg" width="720" alt="Bold Block Mascot Poster Style preview"></a>
-
-一种密集的扁平吉祥物海报风格：巨大黑色块状标题字、白色贴纸感角色、粗黑卡通描边、斜切柠檬黄或青绿色面板、紧凑作品集卡片标签、少量红色点缀，以及干净米白印刷表面。
-
-文件：[style.json](styles/bold-block-mascot-poster-style/style.json) · [复制提示词](docs/copy-prompts/bold-block-mascot-poster-style.md) · [16:9 预览](styles/bold-block-mascot-poster-style/preview-16x9.jpg) · [9:16 预览](styles/bold-block-mascot-poster-style/preview-9x16.jpg) · [目录](styles/bold-block-mascot-poster-style)
-
----
-
-### Blue HUD Macro Creator Tech Poster
-
-<a href="styles/blue-hud-macro-product-poster"><img src="styles/blue-hud-macro-product-poster/preview-16x9.jpg" width="720" alt="Blue HUD Macro Creator Tech Poster preview"></a>
-
-一种蓝色 HUD 创作者科技发布海报风格：微距 3D 硬件主视觉、超大的罗纹手套、电蓝色玻璃界面面板、巨大压缩白色标题字、密集功能卡片层级，以及一个暖金色性能徽章。
-
-文件： [style.json](styles/blue-hud-macro-product-poster/style.json) · [复制提示词](docs/copy-prompts/blue-hud-macro-product-poster.md) · [16:9 预览](styles/blue-hud-macro-product-poster/preview-16x9.jpg) · [9:16 预览](styles/blue-hud-macro-product-poster/preview-9x16.jpg) · [目录](styles/blue-hud-macro-product-poster)
-
----
-
-### Warm Fisheye Product Impact Ad
-
-<a href="styles/warm-fisheye-product-impact-ad-style"><img src="styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg" width="720" alt="Warm Fisheye Product Impact Ad preview"></a>
-
-一种密集的中文社交电商产品广告风格：微距鱼眼产品隧道、贴近镜头的主产品、巨大斜切白色中文标题、暖焦糖棕灯光、蓝色标注条、底部产品信息条和高光泽质感。
-
-文件：[style.json](styles/warm-fisheye-product-impact-ad-style/style.json) · [复制提示词](docs/copy-prompts/warm-fisheye-product-impact-ad-style.md) · [16:9 预览](styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg) · [9:16 预览](styles/warm-fisheye-product-impact-ad-style/preview-9x16.jpg) · [目录](styles/warm-fisheye-product-impact-ad-style)
-
----
-
-### Olive Scribble Sports Poster
-
-<a href="styles/olive-scribble-sports-poster-style"><img src="styles/olive-scribble-sports-poster-style/preview-16x9.jpg" width="720" alt="Olive Scribble Sports Poster preview"></a>
-
-一种动感手工体育海报风格：米白纸底、不规则橄榄绿块、超大斜向动作人物、粗黑墨线、红色马克笔运动弧、黄绿色干刷笔触和丝网印刷质感。
-
-文件：[style.json](styles/olive-scribble-sports-poster-style/style.json) · [复制提示词](docs/copy-prompts/olive-scribble-sports-poster-style.md) · [16:9 预览](styles/olive-scribble-sports-poster-style/preview-16x9.jpg) · [9:16 预览](styles/olive-scribble-sports-poster-style/preview-9x16.jpg) · [目录](styles/olive-scribble-sports-poster-style)
-
----
-
-### Bold Anime Reaction Thumbnail
-
-<a href="styles/bold-anime-reaction-thumbnail-style"><img src="styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg" width="720" alt="Bold Anime Reaction Thumbnail preview"></a>
-
-一种高冲击动漫网页缩略图系统：超大反应角色、带硬黑阴影的醒目黄色标题字、分屏构图、较小的发光动作揭示区、冷蓝/青蓝背景，以及干净的赛璐璐插画质感。
-
-文件：[style.json](styles/bold-anime-reaction-thumbnail-style/style.json) · [复制提示词](docs/copy-prompts/bold-anime-reaction-thumbnail-style.md) · [16:9 预览](styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg) · [9:16 预览](styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg) · [目录](styles/bold-anime-reaction-thumbnail-style)
-
----
-
-### Turquoise Red Techno Manga Poster
-
-<a href="styles/turquoise-red-techno-manga-poster-style"><img src="styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg" width="720" alt="Turquoise Red Techno Manga Poster preview"></a>
-
-一种复古科技漫画海报系统：奶油色纸张底、巨大红色展示字、青绿色技术服装或硬件、密集机械线稿、标注面板、赛璐璐阴影人物绘制和微微褪色的印刷质感。
-
-文件：[style.json](styles/turquoise-red-techno-manga-poster-style/style.json) · [复制提示词](docs/copy-prompts/turquoise-red-techno-manga-poster-style.md) · [16:9 预览](styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg) · [9:16 预览](styles/turquoise-red-techno-manga-poster-style/preview-9x16.jpg) · [目录](styles/turquoise-red-techno-manga-poster-style)
-
----
-
-### Chromatic Fisheye Orbit Pop Poster
-
-<a href="styles/chromatic-fisheye-orbit-pop-poster-style"><img src="styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg" width="720" alt="Chromatic Fisheye Orbit Pop Poster preview"></a>
-
-一种高调流行文化海报系统：极端鱼眼摄影、中央凸面玻璃圆顶、超大环绕字体、红橙洋红字面、水蓝色折射光弧、暖白留白和轻微模拟印刷质感，像通过扭曲圆形镜头看到的当代音乐、时尚或文化活动主视觉。
-
-文件：[style.json](styles/chromatic-fisheye-orbit-pop-poster-style/style.json) · [复制提示词](docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md) · [16:9 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg) · [9:16 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg) · [目录](styles/chromatic-fisheye-orbit-pop-poster-style)
-
----
-
-### Naive Marker PSA Poster
-
-<a href="styles/naive-marker-psa-poster-style"><img src="styles/naive-marker-psa-poster-style/preview-16x9.jpg" width="720" alt="Naive Marker PSA Poster preview"></a>
-
-一种友好的手绘公共服务海报风格：粗糙马克笔线条、巨大蓝框对话牌标题、简化卡通人物、扁平公共场景道具、柔和纸张背景、警示符号和有意天真的透视。
-
-文件：[style.json](styles/naive-marker-psa-poster-style/style.json) · [复制提示词](docs/copy-prompts/naive-marker-psa-poster-style.md) · [16:9 预览](styles/naive-marker-psa-poster-style/preview-16x9.jpg) · [9:16 预览](styles/naive-marker-psa-poster-style/preview-9x16.jpg) · [目录](styles/naive-marker-psa-poster-style)
-
----
-
-### Blue Bubble Fisheye Action Poster
-
-<a href="styles/blue-bubble-fisheye-action-poster-style"><img src="styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg" width="720" alt="Blue Bubble Fisheye Action Poster preview"></a>
-
-一种清爽白底青年文化动作海报风格：中央鱼眼动作照片、超大圆润皇家蓝字体、破框前景尺度、小号蓝色编辑文字，以及一个红色手绘圈注。
-
-文件：[style.json](styles/blue-bubble-fisheye-action-poster-style/style.json) · [复制提示词](docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md) · [16:9 预览](styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg) · [9:16 预览](styles/blue-bubble-fisheye-action-poster-style/preview-9x16.jpg) · [目录](styles/blue-bubble-fisheye-action-poster-style)
-
----
-
-### Cozy Bedroom Doodle Companion Snapshot
-
-<a href="styles/cozy-bedroom-doodle-companion-snapshot-style"><img src="styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg" width="720" alt="Cozy Bedroom Doodle Companion Snapshot preview"></a>
-
-一种温暖低光的居家随拍风格：在真实卧室、沙发或桌面照片前景叠加一个大型平面 2D 抱枕玩偶伙伴，形成安静的深夜创作日记氛围，并保留房间纹理、屏幕微光和少量手写涂鸦符号。
-
-文件：[style.json](styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) · [复制提示词](docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md) · [16:9 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg) · [目录](styles/cozy-bedroom-doodle-companion-snapshot-style)
-
----
-
-### Surreal Fish Doodle Landmark Photo Collage
-
-<a href="styles/surreal-fish-doodle-landmark-photo-collage-style"><img src="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg" width="720" alt="Surreal Fish Doodle Landmark Photo Collage preview"></a>
-
-一种明亮的旅行照片拼贴风格：在真实地标摄影上叠加巨大的平面 2D 卡通旅人、奇幻民俗鱼、黑色马克笔环线、飞溅符号和漫画星爆。
-
-文件：[style.json](styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) · [复制提示词](docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md) · [16:9 预览](styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg) · [9:16 预览](styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg) · [目录](styles/surreal-fish-doodle-landmark-photo-collage-style)
-
----
-
-### Plush Comic Toy Product Poster
-
-<a href="styles/plush-comic-toy-product-poster-style"><img src="styles/plush-comic-toy-product-poster-style/preview-16x9.jpg" width="720" alt="Plush Comic Toy Product Poster preview"></a>
-
-一种高能玩具产品海报风格：以毛绒质感产品为主角，搭配复古奶油色海报纸、青蓝色圆形背景、超大倾斜漫画字体、厚重黑色阴影、涂鸦批注、贴纸标签和广告微文案。
-
-文件：[style.json](styles/plush-comic-toy-product-poster-style/style.json) · [复制提示词](docs/copy-prompts/plush-comic-toy-product-poster-style.md) · [16:9 预览](styles/plush-comic-toy-product-poster-style/preview-16x9.jpg) · [9:16 预览](styles/plush-comic-toy-product-poster-style/preview-9x16.jpg) · [目录](styles/plush-comic-toy-product-poster-style)
-
----
-
-### Rough Animation Pet Sketch Storyboard
-
-<a href="styles/rough-animation-pet-sketch-storyboard-style"><img src="styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg" width="720" alt="Rough Animation Pet Sketch Storyboard preview"></a>
-
-一种粗线动画宠物喜剧分镜草图风格：暖米色纸感、红棕色结构线、深酒红粗糙轮廓、半透明色洗、轻描室内背景和夸张动物表情。
-
-文件：[style.json](styles/rough-animation-pet-sketch-storyboard-style/style.json) · [复制提示词](docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md) · [16:9 预览](styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg) · [9:16 预览](styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg) · [目录](styles/rough-animation-pet-sketch-storyboard-style)
-
----
-
-### Tri Color Hardcut Portrait Poster
-
-<a href="styles/tri-color-hardcut-portrait-poster-style"><img src="styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg" width="720" alt="Tri Color Hardcut Portrait Poster preview"></a>
-
-一种干净的三色硬切肖像海报风格：平面青绿色背景、珊瑚红主体色块、近黑色剪影与阴影，把所有细节压缩成大块、硬边、类矢量的剪影形状。
-
-文件：[style.json](styles/tri-color-hardcut-portrait-poster-style/style.json) · [复制提示词](docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md) · [16:9 预览](styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg) · [目录](styles/tri-color-hardcut-portrait-poster-style)
-
----
-
-### Clean Triptych Travel Vlog Thumbnail
-
-<a href="styles/clean-triptych-travel-vlog-thumbnail-style"><img src="styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg" width="720" alt="Clean Triptych Travel Vlog Thumbnail preview"></a>
-
-一种干净的旅行 vlog 缩略图系统：三栏竖向摄影拼接、超大的小写白色目的地标题、小号斜体旅行批注、少量手绘白色符号，以及柔和的手机摄影编辑质感。
-
-文件：[style.json](styles/clean-triptych-travel-vlog-thumbnail-style/style.json) · [复制提示词](docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md) · [16:9 预览](styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg) · [9:16 预览](styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg) · [目录](styles/clean-triptych-travel-vlog-thumbnail-style)
-
----
-
-### Playful Mascot Doodle Snapshot
-
-<a href="styles/playful-mascot-doodle-snapshot-style"><img src="styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg" width="720" alt="Playful Mascot Doodle Snapshot preview"></a>
-
-一种把真实生活社交照片转成轻快贴纸拼贴海报的风格：在摄影场景上叠加原创卡通吉祥物贴纸、手绘描边、丝带标题牌、闪光、螺旋和草稿感装饰符号。
-
-文件：[style.json](styles/playful-mascot-doodle-snapshot-style/style.json) · [复制提示词](docs/copy-prompts/playful-mascot-doodle-snapshot-style.md) · [16:9 预览](styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg) · [目录](styles/playful-mascot-doodle-snapshot-style)
-
----
-
-### Teenage Skate Scribble Screenprint Poster
-
-<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" width="720" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
-
-一种复古滑板 zine 海报风格：扭曲的中央滑板人物剪贴、奶油纸张底、松散红色手写边框字、粗粝双色丝网印刷质感，以及海军蓝、灰、绿、赭色的有限街头配色。
-
-文件：[style.json](styles/teenage-skate-scribble-screenprint-poster-style/style.json) · [复制提示词](docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md) · [16:9 预览](styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg) · [9:16 预览](styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg) · [目录](styles/teenage-skate-scribble-screenprint-poster-style)
-
----
-
-### Impact Burst Halftone Comic Poster
-
-<a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" width="720" alt="Impact Burst Halftone Comic Poster preview"></a>
-
-一种响亮的复古漫画海报系统：厚重黑色墨线、扁平高饱和色块、超大冲击字体、夸张插画主体、对角道具、对话爆裂形、烟雾团、半色调网点和做旧丝网印刷颗粒。
-
-文件：[style.json](styles/impact-burst-halftone-comic-poster-style/style.json) · [复制提示词](docs/copy-prompts/impact-burst-halftone-comic-poster-style.md) · [16:9 预览](styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg) · [目录](styles/impact-burst-halftone-comic-poster-style)
-
----
-
-### Sunburst Fisheye Bubble Type Poster
-
-<a href="styles/sunburst-fisheye-bubble-type-poster-style"><img src="styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg" width="720" alt="Sunburst Fisheye Bubble Type Poster preview"></a>
-
-一种超低机位鱼眼夏日生活方式海报风格：近距离摄影主体、饱和钴蓝天空、巨大的拱形柠檬黄色泡泡字体、暖橙色文字阴影、Y2K 配饰和明显的模拟胶片颗粒。
-
-文件：[style.json](styles/sunburst-fisheye-bubble-type-poster-style/style.json) · [复制提示词](docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md) · [16:9 预览](styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg) · [9:16 预览](styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg) · [目录](styles/sunburst-fisheye-bubble-type-poster-style)
-
----
-
-### Backseat Transit Doodle Letter Poster
-
-<a href="styles/backseat-transit-doodle-letter-poster-style"><img src="styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg" width="720" alt="Backseat Transit Doodle Letter Poster preview"></a>
-
-一种把真实乘客视角交通照片转化为高能旅行海报的风格：后视中央人物、电光黄色剪影光晕、巨大的黄橙色手绘字母、漫画放射线、紫色音乐符号、贴纸图标和青白色云朵涂鸦。
-
-文件：[style.json](styles/backseat-transit-doodle-letter-poster-style/style.json) · [复制提示词](docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md) · [16:9 预览](styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg) · [9:16 预览](styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg) · [目录](styles/backseat-transit-doodle-letter-poster-style)
-
----
-
-### Analog Sticker Diary Portrait Poster
-
-<a href="styles/analog-sticker-diary-portrait-poster-style"><img src="styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg" width="720" alt="Analog Sticker Diary Portrait Poster preview"></a>
-
-一种怀旧模拟日记拼贴肖像系统：大型侧脸插画人物、奶油色方格纸背景、贴纸化的私人小物、磨损橙色手写字和厚重的扫描印刷质感。
-
-文件：[style.json](styles/analog-sticker-diary-portrait-poster-style/style.json) · [复制提示词](docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md) · [16:9 预览](styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/analog-sticker-diary-portrait-poster-style/preview-9x16.jpg) · [目录](styles/analog-sticker-diary-portrait-poster-style)
-
----
-
-### Folded Diamond Perspective Type Poster
-
-<a href="styles/folded-diamond-perspective-type-poster-style"><img src="styles/folded-diamond-perspective-type-poster-style/preview-16x9.jpg" width="720" alt="Folded Diamond Perspective Type Poster preview"></a>
-
-一种大胆的极简编辑海报风格：低机位英雄摄影嵌入菱形开口，折叠的棕褐色纸张或帆布平面，以及印在下方平面上的巨大白色透视字体。
-
-文件：[style.json](styles/folded-diamond-perspective-type-poster-style/style.json) · [复制提示词](docs/copy-prompts/folded-diamond-perspective-type-poster-style.md) · [16:9 预览](styles/folded-diamond-perspective-type-poster-style/preview-16x9.jpg) · [9:16 预览](styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg) · [目录](styles/folded-diamond-perspective-type-poster-style)
-
----
-
-### Gothic Cat Doodle Photo Collage
-
-<a href="styles/gothic-cat-doodle-photo-collage-style"><img src="styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg" width="720" alt="Gothic Cat Doodle Photo Collage preview"></a>
-
-一种玩趣的摄影插画拼贴风格：戏剧化真实建筑摄影、超大扁平卡通生物叠加、圆润手绘标题字和松散马克笔涂鸦。
-
-文件：[style.json](styles/gothic-cat-doodle-photo-collage-style/style.json) · [复制提示词](docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md) · [16:9 预览](styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg) · [9:16 预览](styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg) · [目录](styles/gothic-cat-doodle-photo-collage-style)
-
----
-
-### K-pop Apocalypse Ransom Zine
-
-<a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg" width="720" alt="K-pop Apocalypse Ransom Zine preview"></a>
-
-一种极繁 K-pop 时尚 zine 拼贴风格：中央人物剪贴、揉皱黑白纸张质感、倾斜勒索信式排版、响亮贴纸块、饱和青柠/蓝/红点缀，以及醒目的底部刊头色带。
-
-文件：[style.json](styles/k-pop-apocalypse-ransom-zine-style/style.json) · [复制提示词](docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md) · [16:9 预览](styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg) · [9:16 预览](styles/k-pop-apocalypse-ransom-zine-style/preview-9x16.jpg) · [目录](styles/k-pop-apocalypse-ransom-zine-style)
-
----
-
-### Metro Doodle Snapshot Diary
-
-<a href="styles/metro-doodle-snapshot-diary-style"><img src="styles/metro-doodle-snapshot-diary-style/preview-16x9.jpg" width="720" alt="Metro Doodle Snapshot Diary preview"></a>
-
-一种手持城市交通照片拼贴风格：真实拥挤的地铁、公交、电车或车站快照，叠加马克笔感卡通涂鸦、超大前景手势、白色手写日记文字和高饱和漫画脸。
-
-文件：[style.json](styles/metro-doodle-snapshot-diary-style/style.json) · [复制提示词](docs/copy-prompts/metro-doodle-snapshot-diary-style.md) · [16:9 预览](styles/metro-doodle-snapshot-diary-style/preview-16x9.jpg) · [9:16 预览](styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg) · [目录](styles/metro-doodle-snapshot-diary-style)
-
----
-
-### Mountain Trail Monster Doodle Poster
-
-<a href="styles/mountain-trail-monster-doodle-poster-style"><img src="styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg" width="720" alt="Mountain Trail Monster Doodle Poster preview"></a>
-
-一种把户外徒步随手拍改造成冒险海报的拼贴风格：真实山路照片、扁平手绘怪物伙伴、超大西班牙语漫画字和松散草图标注。
-
-文件：[style.json](styles/mountain-trail-monster-doodle-poster-style/style.json) · [复制提示词](docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md) · [16:9 预览](styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg) · [9:16 预览](styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg) · [目录](styles/mountain-trail-monster-doodle-poster-style)
-
----
-
-### Neon Doodle Gallery Snapshot
-
-<a href="styles/neon-doodle-gallery-snapshot-style"><img src="styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg" width="720" alt="Neon Doodle Gallery Snapshot preview"></a>
-
-一种手机随拍叠加霓虹数字马克笔涂鸦的风格：热粉和青色人物描边、黄色怪物尖刺、粗糙手写标题、星星、爪印、蛛网角标、涂抹条、光环、植物和学生日记感。
-
-文件：[style.json](styles/neon-doodle-gallery-snapshot-style/style.json) · [复制提示词](docs/copy-prompts/neon-doodle-gallery-snapshot-style.md) · [16:9 预览](styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/neon-doodle-gallery-snapshot-style/preview-9x16.jpg) · [目录](styles/neon-doodle-gallery-snapshot-style)
-
----
-
-### Neon Kinetic Typographic Poster
-
-<a href="styles/neon-kinetic-typographic-poster-style"><img src="styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg" width="720" alt="Neon Kinetic Typographic Poster preview"></a>
-
-一种戏剧化户外编辑海报风格：低机位生活方式摄影、巨大的变形霓虹字体、胶片颗粒，以及高能青年文化广告视觉。
-
-文件：[style.json](styles/neon-kinetic-typographic-poster-style/style.json) · [复制提示词](docs/copy-prompts/neon-kinetic-typographic-poster-style.md) · [16:9 预览](styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg) · [目录](styles/neon-kinetic-typographic-poster-style)
-
----
-
-### Orange Brush Mascot Action Poster
-
-<a href="styles/orange-brush-mascot-action-poster-style"><img src="styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg" width="720" alt="Orange Brush Mascot Action Poster preview"></a>
-
-一种稀疏的橙白黑扁平插画系统：白色吉祥物人物、超大道具、粗糙黑色干刷线条、橙色脸颊圆点和丝网印刷纸张颗粒。
-
-文件：[style.json](styles/orange-brush-mascot-action-poster-style/style.json) · [复制提示词](docs/copy-prompts/orange-brush-mascot-action-poster-style.md) · [16:9 预览](styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg) · [9:16 预览](styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg) · [目录](styles/orange-brush-mascot-action-poster-style)
-
----
-
-### Photo Illustration Overlay Poster
-
-<a href="styles/photo-illustration-overlay-poster-style"><img src="styles/photo-illustration-overlay-poster-style/preview-16x9.jpg" width="720" alt="Photo Illustration Overlay Poster preview"></a>
-
-一种真实城市照片叠加高饱和扁平 2D 卡通人物的海报风格，并加入手绘星星、火花、箭头和漫画符号。
-
-文件：[style.json](styles/photo-illustration-overlay-poster-style/style.json) · [复制提示词](docs/copy-prompts/photo-illustration-overlay-poster-style.md) · [16:9 预览](styles/photo-illustration-overlay-poster-style/preview-16x9.jpg) · [9:16 预览](styles/photo-illustration-overlay-poster-style/preview-9x16.jpg) · [目录](styles/photo-illustration-overlay-poster-style)
-
----
-
-### Plush City Festival Mobile Poster
-
-<a href="styles/plush-city-festival-mobile-poster-style"><img src="styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg" width="720" alt="Plush City Festival Mobile Poster preview"></a>
-
-一种明亮的移动端活动海报风格：真实城市地标、柔软毛绒吉祥物、圆角 App 卡片式框架、醒目的白色节日字体、日期地点信息和友好的旅游推广气质。
-
-文件：[style.json](styles/plush-city-festival-mobile-poster-style/style.json) · [复制提示词](docs/copy-prompts/plush-city-festival-mobile-poster-style.md) · [16:9 预览](styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg) · [9:16 预览](styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg) · [目录](styles/plush-city-festival-mobile-poster-style)
-
----
-
-### Pop Bubble Letter Photo Poster
-
-<a href="styles/pop-bubble-letter-photo-poster-style"><img src="styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg" width="720" alt="Pop Bubble Letter Photo Poster preview"></a>
-
-一种有冲击力的摄影插画海报风格：低机位时尚肖像位于中心，周围是超大扁平泡泡字形、糖果色、高对比黑色描边、椭圆高光和清脆闪光符号。
-
-文件：[style.json](styles/pop-bubble-letter-photo-poster-style/style.json) · [复制提示词](docs/copy-prompts/pop-bubble-letter-photo-poster-style.md) · [16:9 预览](styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg) · [9:16 预览](styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg) · [目录](styles/pop-bubble-letter-photo-poster-style)
-
----
-
-### Soft Analog Future Editorial Poster
-
-<a href="styles/soft-analog-future-editorial-poster-style"><img src="styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg" width="720" alt="Soft Analog Future Editorial Poster preview"></a>
-
-一种安静的模拟未来编辑海报风格：暖奶油纸张、超大黑色 neo-grotesk 字体、严格网格规则、复古科技静物、浅蓝半透明界面面板、植物前景点缀和细小双语信息设计。
-
-文件：[style.json](styles/soft-analog-future-editorial-poster-style/style.json) · [复制提示词](docs/copy-prompts/soft-analog-future-editorial-poster-style.md) · [16:9 预览](styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg) · [9:16 预览](styles/soft-analog-future-editorial-poster-style/preview-9x16.jpg) · [目录](styles/soft-analog-future-editorial-poster-style)
-
----
-
-### Subway Doodle Photo Hybrid
-
-<a href="styles/subway-doodle-photo-hybrid-style"><img src="styles/subway-doodle-photo-hybrid-style/preview-16x9.jpg" width="720" alt="Subway Doodle Photo Hybrid preview"></a>
-
-一种手机拍摄的城市交通海报风格：纪实地铁或街头交通摄影，叠加表现性手绘卡通覆盖层、涂鸦人物脸、超大前景手势、手写笔记和社交媒体截图质感。
-
-文件：[style.json](styles/subway-doodle-photo-hybrid-style/style.json) · [复制提示词](docs/copy-prompts/subway-doodle-photo-hybrid-style.md) · [16:9 预览](styles/subway-doodle-photo-hybrid-style/preview-16x9.jpg) · [9:16 预览](styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg) · [目录](styles/subway-doodle-photo-hybrid-style)
-
----
-
-### Tokyo Kawaii Travel Collage Poster
-
-<a href="styles/tokyo-kawaii-travel-collage-poster-style"><img src="styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg" width="720" alt="Tokyo Kawaii Travel Collage Poster preview"></a>
-
-一种极繁日式城市旅行拼贴风格：醒目的目的地字体、可爱贴纸元素、漫画对话框、剪贴时尚摄影、半色调城市背景和 scrapbook 编辑版式。
-
-文件：[style.json](styles/tokyo-kawaii-travel-collage-poster-style/style.json) · [复制提示词](docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md) · [16:9 预览](styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg) · [9:16 预览](styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg) · [目录](styles/tokyo-kawaii-travel-collage-poster-style)
-
----
-
-### Urban Transit Doodle Diary
-
-<a href="styles/urban-transit-doodle-diary-style"><img src="styles/urban-transit-doodle-diary-style/preview-16x9.jpg" width="720" alt="Urban Transit Doodle Diary preview"></a>
-
-一种把原始城市公共空间快照处理成私人视觉日记的风格：真实照片、粗重手绘漫画覆盖层、手写旅行笔记、饱和卡通脸和大面积前景手势。
-
-文件：[style.json](styles/urban-transit-doodle-diary-style/style.json) · [复制提示词](docs/copy-prompts/urban-transit-doodle-diary-style.md) · [16:9 预览](styles/urban-transit-doodle-diary-style/preview-16x9.jpg) · [9:16 预览](styles/urban-transit-doodle-diary-style/preview-9x16.jpg) · [目录](styles/urban-transit-doodle-diary-style)
-
----
-
-### Y2K Grunge Hip-hop Cutout Poster
-
-<a href="styles/y2k-grunge-hiphop-cutout-poster-style"><img src="styles/y2k-grunge-hiphop-cutout-poster-style/preview-16x9.jpg" width="720" alt="Y2K Grunge Hip-hop Cutout Poster preview"></a>
-
-一种 Y2K grunge hip-hop 杂志拼贴海报风格：超大照片剪贴、酸黄色复古字体、粗糙黑白墙面质感、密集编辑页脚信息区和复印机印刷噪点。
-
-文件：[style.json](styles/y2k-grunge-hiphop-cutout-poster-style/style.json) · [复制提示词](docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md) · [16:9 预览](styles/y2k-grunge-hiphop-cutout-poster-style/preview-16x9.jpg) · [9:16 预览](styles/y2k-grunge-hiphop-cutout-poster-style/preview-9x16.jpg) · [目录](styles/y2k-grunge-hiphop-cutout-poster-style)
+## All Styles
+
+下面可以浏览全部 40 个风格。
+
+完整库包含上面的精选风格。每个风格的完整描述和全部文件链接见 [docs/CATALOG.md](docs/CATALOG.md)。
+
+<!-- HTML table used for rich image+link cells -->
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a id="blue-chinese-perspective-type-canyon-style"></a>
+<a href="styles/blue-chinese-perspective-type-canyon-style"><img src="styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg" alt="Blue Chinese Perspective Type Canyon Style preview"></a>
+<p><strong><a href="styles/blue-chinese-perspective-type-canyon-style">Blue Chinese Perspective Type Canyon Style</a></strong><br>
+<em>Blue perspective corridors with stacked Chinese display type.</em><br>
+<a href="styles/blue-chinese-perspective-type-canyon-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md">prompt</a> · <a href="styles/blue-chinese-perspective-type-canyon-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="rough-ink-music-doodle-poster-style"></a>
+<a href="styles/rough-ink-music-doodle-poster-style"><img src="styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg" alt="Rough Ink Music Doodle Poster Style preview"></a>
+<p><strong><a href="styles/rough-ink-music-doodle-poster-style">Rough Ink Music Doodle Poster Style</a></strong><br>
+<em>Hand-inked music posters with brush lettering and playful doodles.</em><br>
+<a href="styles/rough-ink-music-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-ink-music-doodle-poster-style.md">prompt</a> · <a href="styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="mono-noir-type-portrait-poster-style"></a>
+<a href="styles/mono-noir-type-portrait-poster-style"><img src="styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg" alt="Mono Noir Type Portrait Poster Style preview"></a>
+<p><strong><a href="styles/mono-noir-type-portrait-poster-style">Mono Noir Type Portrait Poster Style</a></strong><br>
+<em>Black-and-white editorial portraits with massive lowercase type.</em><br>
+<a href="styles/mono-noir-type-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/mono-noir-type-portrait-poster-style.md">prompt</a> · <a href="styles/mono-noir-type-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="bold-block-mascot-poster-style"></a>
+<a href="styles/bold-block-mascot-poster-style"><img src="styles/bold-block-mascot-poster-style/preview-16x9.jpg" alt="Bold Block Mascot Poster Style preview"></a>
+<p><strong><a href="styles/bold-block-mascot-poster-style">Bold Block Mascot Poster Style</a></strong><br>
+<em>Flat mascot posters with chunky block type and sticker figures.</em><br>
+<a href="styles/bold-block-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-block-mascot-poster-style.md">prompt</a> · <a href="styles/bold-block-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-hud-macro-product-poster"></a>
+<a href="styles/blue-hud-macro-product-poster"><img src="styles/blue-hud-macro-product-poster/preview-16x9.jpg" alt="Blue HUD Macro Creator Tech Poster preview"></a>
+<p><strong><a href="styles/blue-hud-macro-product-poster">Blue HUD Macro Creator Tech Poster</a></strong><br>
+<em>Glossy macro product posters with blue HUD launch graphics.</em><br>
+<a href="styles/blue-hud-macro-product-poster/style.json">style.json</a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">prompt</a> · <a href="styles/blue-hud-macro-product-poster/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="warm-fisheye-product-impact-ad-style"></a>
+<a href="styles/warm-fisheye-product-impact-ad-style"><img src="styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg" alt="Warm Fisheye Product Impact Ad preview"></a>
+<p><strong><a href="styles/warm-fisheye-product-impact-ad-style">Warm Fisheye Product Impact Ad</a></strong><br>
+<em>Warm fisheye product ads with bold Chinese social-commerce type.</em><br>
+<a href="styles/warm-fisheye-product-impact-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/warm-fisheye-product-impact-ad-style.md">prompt</a> · <a href="styles/warm-fisheye-product-impact-ad-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="olive-scribble-sports-poster-style"></a>
+<a href="styles/olive-scribble-sports-poster-style"><img src="styles/olive-scribble-sports-poster-style/preview-16x9.jpg" alt="Olive Scribble Sports Poster preview"></a>
+<p><strong><a href="styles/olive-scribble-sports-poster-style">Olive Scribble Sports Poster</a></strong><br>
+<em>Handmade sports posters with olive blocks and kinetic scribbles.</em><br>
+<a href="styles/olive-scribble-sports-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/olive-scribble-sports-poster-style.md">prompt</a> · <a href="styles/olive-scribble-sports-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="bold-anime-reaction-thumbnail-style"></a>
+<a href="styles/bold-anime-reaction-thumbnail-style"><img src="styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg" alt="Bold Anime Reaction Thumbnail preview"></a>
+<p><strong><a href="styles/bold-anime-reaction-thumbnail-style">Bold Anime Reaction Thumbnail</a></strong><br>
+<em>High-impact anime thumbnails with bold yellow reaction typography.</em><br>
+<a href="styles/bold-anime-reaction-thumbnail-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">prompt</a> · <a href="styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="turquoise-red-techno-manga-poster-style"></a>
+<a href="styles/turquoise-red-techno-manga-poster-style"><img src="styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg" alt="Turquoise Red Techno Manga Poster preview"></a>
+<p><strong><a href="styles/turquoise-red-techno-manga-poster-style">Turquoise Red Techno Manga Poster</a></strong><br>
+<em>Retro techno-manga posters with turquoise hardware and red lettering.</em><br>
+<a href="styles/turquoise-red-techno-manga-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/turquoise-red-techno-manga-poster-style.md">prompt</a> · <a href="styles/turquoise-red-techno-manga-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="chromatic-fisheye-orbit-pop-poster-style"></a>
+<a href="styles/chromatic-fisheye-orbit-pop-poster-style"><img src="styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg" alt="Chromatic Fisheye Orbit Pop Poster preview"></a>
+<p><strong><a href="styles/chromatic-fisheye-orbit-pop-poster-style">Chromatic Fisheye Orbit Pop Poster</a></strong><br>
+<em>Pop fisheye posters with orbiting type and chromatic arcs.</em><br>
+<a href="styles/chromatic-fisheye-orbit-pop-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md">prompt</a> · <a href="styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="naive-marker-psa-poster-style"></a>
+<a href="styles/naive-marker-psa-poster-style"><img src="styles/naive-marker-psa-poster-style/preview-16x9.jpg" alt="Naive Marker PSA Poster preview"></a>
+<p><strong><a href="styles/naive-marker-psa-poster-style">Naive Marker PSA Poster</a></strong><br>
+<em>Friendly civic PSA posters with naive marker drawings.</em><br>
+<a href="styles/naive-marker-psa-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-psa-poster-style.md">prompt</a> · <a href="styles/naive-marker-psa-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-bubble-fisheye-action-poster-style"></a>
+<a href="styles/blue-bubble-fisheye-action-poster-style"><img src="styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg" alt="Blue Bubble Fisheye Action Poster preview"></a>
+<p><strong><a href="styles/blue-bubble-fisheye-action-poster-style">Blue Bubble Fisheye Action Poster</a></strong><br>
+<em>Youth action posters with blue bubble type and fisheye photos.</em><br>
+<a href="styles/blue-bubble-fisheye-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md">prompt</a> · <a href="styles/blue-bubble-fisheye-action-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="cozy-bedroom-doodle-companion-snapshot-style"></a>
+<a href="styles/cozy-bedroom-doodle-companion-snapshot-style"><img src="styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg" alt="Cozy Bedroom Doodle Companion Snapshot preview"></a>
+<p><strong><a href="styles/cozy-bedroom-doodle-companion-snapshot-style">Cozy Bedroom Doodle Companion Snapshot</a></strong><br>
+<em>Low-light bedroom snapshots with quiet doodle companion energy.</em><br>
+<a href="styles/cozy-bedroom-doodle-companion-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md">prompt</a> · <a href="styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="surreal-fish-doodle-landmark-photo-collage-style"></a>
+<a href="styles/surreal-fish-doodle-landmark-photo-collage-style"><img src="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg" alt="Surreal Fish Doodle Landmark Photo Collage preview"></a>
+<p><strong><a href="styles/surreal-fish-doodle-landmark-photo-collage-style">Surreal Fish Doodle Landmark Photo Collage</a></strong><br>
+<em>Landmark travel photos remixed with folk-art fish doodles.</em><br>
+<a href="styles/surreal-fish-doodle-landmark-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md">prompt</a> · <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="plush-comic-toy-product-poster-style"></a>
+<a href="styles/plush-comic-toy-product-poster-style"><img src="styles/plush-comic-toy-product-poster-style/preview-16x9.jpg" alt="Plush Comic Toy Product Poster preview"></a>
+<p><strong><a href="styles/plush-comic-toy-product-poster-style">Plush Comic Toy Product Poster</a></strong><br>
+<em>Toy-product posters with fuzzy plush heroes and comic typography.</em><br>
+<a href="styles/plush-comic-toy-product-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/plush-comic-toy-product-poster-style.md">prompt</a> · <a href="styles/plush-comic-toy-product-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="rough-animation-pet-sketch-storyboard-style"></a>
+<a href="styles/rough-animation-pet-sketch-storyboard-style"><img src="styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg" alt="Rough Animation Pet Sketch Storyboard preview"></a>
+<p><strong><a href="styles/rough-animation-pet-sketch-storyboard-style">Rough Animation Pet Sketch Storyboard</a></strong><br>
+<em>Loose pet-comedy storyboard frames with warm sketch texture.</em><br>
+<a href="styles/rough-animation-pet-sketch-storyboard-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md">prompt</a> · <a href="styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="tri-color-hardcut-portrait-poster-style"></a>
+<a href="styles/tri-color-hardcut-portrait-poster-style"><img src="styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg" alt="Tri Color Hardcut Portrait Poster preview"></a>
+<p><strong><a href="styles/tri-color-hardcut-portrait-poster-style">Tri Color Hardcut Portrait Poster</a></strong><br>
+<em>Three-color portrait posters built from hard-edged cutout planes.</em><br>
+<a href="styles/tri-color-hardcut-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md">prompt</a> · <a href="styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="clean-triptych-travel-vlog-thumbnail-style"></a>
+<a href="styles/clean-triptych-travel-vlog-thumbnail-style"><img src="styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg" alt="Clean Triptych Travel Vlog Thumbnail preview"></a>
+<p><strong><a href="styles/clean-triptych-travel-vlog-thumbnail-style">Clean Triptych Travel Vlog Thumbnail</a></strong><br>
+<em>Clean travel thumbnails with three photo panels and soft notes.</em><br>
+<a href="styles/clean-triptych-travel-vlog-thumbnail-style/style.json">style.json</a> · <a href="docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md">prompt</a> · <a href="styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="playful-mascot-doodle-snapshot-style"></a>
+<a href="styles/playful-mascot-doodle-snapshot-style"><img src="styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg" alt="Playful Mascot Doodle Snapshot preview"></a>
+<p><strong><a href="styles/playful-mascot-doodle-snapshot-style">Playful Mascot Doodle Snapshot</a></strong><br>
+<em>Real-life snapshots layered with mascot stickers and doodles.</em><br>
+<a href="styles/playful-mascot-doodle-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-mascot-doodle-snapshot-style.md">prompt</a> · <a href="styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="teenage-skate-scribble-screenprint-poster-style"></a>
+<a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster preview"></a>
+<p><strong><a href="styles/teenage-skate-scribble-screenprint-poster-style">Teenage Skate Scribble Screenprint Poster</a></strong><br>
+<em>Retro skate posters with scribbled borders and screenprint grit.</em><br>
+<a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md">prompt</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="impact-burst-halftone-comic-poster-style"></a>
+<a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster preview"></a>
+<p><strong><a href="styles/impact-burst-halftone-comic-poster-style">Impact Burst Halftone Comic Poster</a></strong><br>
+<em>Loud comic posters with impact type and halftone bursts.</em><br>
+<a href="styles/impact-burst-halftone-comic-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/impact-burst-halftone-comic-poster-style.md">prompt</a> · <a href="styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="sunburst-fisheye-bubble-type-poster-style"></a>
+<a href="styles/sunburst-fisheye-bubble-type-poster-style"><img src="styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg" alt="Sunburst Fisheye Bubble Type Poster preview"></a>
+<p><strong><a href="styles/sunburst-fisheye-bubble-type-poster-style">Sunburst Fisheye Bubble Type Poster</a></strong><br>
+<em>Summer fisheye posters with sunny bubble typography.</em><br>
+<a href="styles/sunburst-fisheye-bubble-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md">prompt</a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="backseat-transit-doodle-letter-poster-style"></a>
+<a href="styles/backseat-transit-doodle-letter-poster-style"><img src="styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg" alt="Backseat Transit Doodle Letter Poster preview"></a>
+<p><strong><a href="styles/backseat-transit-doodle-letter-poster-style">Backseat Transit Doodle Letter Poster</a></strong><br>
+<em>Transit photos turned into energetic hand-lettered travel posters.</em><br>
+<a href="styles/backseat-transit-doodle-letter-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md">prompt</a> · <a href="styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="analog-sticker-diary-portrait-poster-style"></a>
+<a href="styles/analog-sticker-diary-portrait-poster-style"><img src="styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg" alt="Analog Sticker Diary Portrait Poster preview"></a>
+<p><strong><a href="styles/analog-sticker-diary-portrait-poster-style">Analog Sticker Diary Portrait Poster</a></strong><br>
+<em>Nostalgic diary portraits with stickers and distressed lettering.</em><br>
+<a href="styles/analog-sticker-diary-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md">prompt</a> · <a href="styles/analog-sticker-diary-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="folded-diamond-perspective-type-poster-style"></a>
+<a href="styles/folded-diamond-perspective-type-poster-style"><img src="styles/folded-diamond-perspective-type-poster-style/preview-16x9.jpg" alt="Folded Diamond Perspective Type Poster preview"></a>
+<p><strong><a href="styles/folded-diamond-perspective-type-poster-style">Folded Diamond Perspective Type Poster</a></strong><br>
+<em>Minimal diamond-aperture posters with folded perspective typography.</em><br>
+<a href="styles/folded-diamond-perspective-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/folded-diamond-perspective-type-poster-style.md">prompt</a> · <a href="styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="gothic-cat-doodle-photo-collage-style"></a>
+<a href="styles/gothic-cat-doodle-photo-collage-style"><img src="styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg" alt="Gothic Cat Doodle Photo Collage preview"></a>
+<p><strong><a href="styles/gothic-cat-doodle-photo-collage-style">Gothic Cat Doodle Photo Collage</a></strong><br>
+<em>Dramatic architecture photos with playful cartoon creature overlays.</em><br>
+<a href="styles/gothic-cat-doodle-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md">prompt</a> · <a href="styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="k-pop-apocalypse-ransom-zine-style"></a>
+<a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg" alt="K-pop Apocalypse Ransom Zine preview"></a>
+<p><strong><a href="styles/k-pop-apocalypse-ransom-zine-style">K-pop Apocalypse Ransom Zine</a></strong><br>
+<em>Maximal K-pop zines with ransom type and sticker blocks.</em><br>
+<a href="styles/k-pop-apocalypse-ransom-zine-style/style.json">style.json</a> · <a href="docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md">prompt</a> · <a href="styles/k-pop-apocalypse-ransom-zine-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="metro-doodle-snapshot-diary-style"></a>
+<a href="styles/metro-doodle-snapshot-diary-style"><img src="styles/metro-doodle-snapshot-diary-style/preview-16x9.jpg" alt="Metro Doodle Snapshot Diary preview"></a>
+<p><strong><a href="styles/metro-doodle-snapshot-diary-style">Metro Doodle Snapshot Diary</a></strong><br>
+<em>Crowded transit snapshots layered with marker doodles and oversized comic faces.</em><br>
+<a href="styles/metro-doodle-snapshot-diary-style/style.json">style.json</a> · <a href="docs/copy-prompts/metro-doodle-snapshot-diary-style.md">prompt</a> · <a href="styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="mountain-trail-monster-doodle-poster-style"></a>
+<a href="styles/mountain-trail-monster-doodle-poster-style"><img src="styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg" alt="Mountain Trail Monster Doodle Poster preview"></a>
+<p><strong><a href="styles/mountain-trail-monster-doodle-poster-style">Mountain Trail Monster Doodle Poster</a></strong><br>
+<em>Outdoor hiking photos remixed with monster companions and annotations.</em><br>
+<a href="styles/mountain-trail-monster-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md">prompt</a> · <a href="styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="neon-doodle-gallery-snapshot-style"></a>
+<a href="styles/neon-doodle-gallery-snapshot-style"><img src="styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg" alt="Neon Doodle Gallery Snapshot preview"></a>
+<p><strong><a href="styles/neon-doodle-gallery-snapshot-style">Neon Doodle Gallery Snapshot</a></strong><br>
+<em>Phone photos covered in hot neon diary doodles.</em><br>
+<a href="styles/neon-doodle-gallery-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-doodle-gallery-snapshot-style.md">prompt</a> · <a href="styles/neon-doodle-gallery-snapshot-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="neon-kinetic-typographic-poster-style"></a>
+<a href="styles/neon-kinetic-typographic-poster-style"><img src="styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg" alt="Neon Kinetic Typographic Poster preview"></a>
+<p><strong><a href="styles/neon-kinetic-typographic-poster-style">Neon Kinetic Typographic Poster</a></strong><br>
+<em>Outdoor editorial posters with warped neon kinetic typography.</em><br>
+<a href="styles/neon-kinetic-typographic-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-kinetic-typographic-poster-style.md">prompt</a> · <a href="styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="orange-brush-mascot-action-poster-style"></a>
+<a href="styles/orange-brush-mascot-action-poster-style"><img src="styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg" alt="Orange Brush Mascot Action Poster preview"></a>
+<p><strong><a href="styles/orange-brush-mascot-action-poster-style">Orange Brush Mascot Action Poster</a></strong><br>
+<em>Sparse mascot illustrations with orange brush texture and print grain.</em><br>
+<a href="styles/orange-brush-mascot-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/orange-brush-mascot-action-poster-style.md">prompt</a> · <a href="styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="photo-illustration-overlay-poster-style"></a>
+<a href="styles/photo-illustration-overlay-poster-style"><img src="styles/photo-illustration-overlay-poster-style/preview-16x9.jpg" alt="Photo Illustration Overlay Poster preview"></a>
+<p><strong><a href="styles/photo-illustration-overlay-poster-style">Photo Illustration Overlay Poster</a></strong><br>
+<em>City photos composited with saturated 2D character overlays.</em><br>
+<a href="styles/photo-illustration-overlay-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/photo-illustration-overlay-poster-style.md">prompt</a> · <a href="styles/photo-illustration-overlay-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="plush-city-festival-mobile-poster-style"></a>
+<a href="styles/plush-city-festival-mobile-poster-style"><img src="styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg" alt="Plush City Festival Mobile Poster preview"></a>
+<p><strong><a href="styles/plush-city-festival-mobile-poster-style">Plush City Festival Mobile Poster</a></strong><br>
+<em>Mobile city-event posters with fuzzy mascots and app-card framing.</em><br>
+<a href="styles/plush-city-festival-mobile-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/plush-city-festival-mobile-poster-style.md">prompt</a> · <a href="styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="pop-bubble-letter-photo-poster-style"></a>
+<a href="styles/pop-bubble-letter-photo-poster-style"><img src="styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg" alt="Pop Bubble Letter Photo Poster preview"></a>
+<p><strong><a href="styles/pop-bubble-letter-photo-poster-style">Pop Bubble Letter Photo Poster</a></strong><br>
+<em>Fashion photo posters framed by candy-colored bubble letters.</em><br>
+<a href="styles/pop-bubble-letter-photo-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/pop-bubble-letter-photo-poster-style.md">prompt</a> · <a href="styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="soft-analog-future-editorial-poster-style"></a>
+<a href="styles/soft-analog-future-editorial-poster-style"><img src="styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg" alt="Soft Analog Future Editorial Poster preview"></a>
+<p><strong><a href="styles/soft-analog-future-editorial-poster-style">Soft Analog Future Editorial Poster</a></strong><br>
+<em>Quiet analog-future editorials with grids and retro technology.</em><br>
+<a href="styles/soft-analog-future-editorial-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/soft-analog-future-editorial-poster-style.md">prompt</a> · <a href="styles/soft-analog-future-editorial-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="subway-doodle-photo-hybrid-style"></a>
+<a href="styles/subway-doodle-photo-hybrid-style"><img src="styles/subway-doodle-photo-hybrid-style/preview-16x9.jpg" alt="Subway Doodle Photo Hybrid preview"></a>
+<p><strong><a href="styles/subway-doodle-photo-hybrid-style">Subway Doodle Photo Hybrid</a></strong><br>
+<em>Subway photos overlaid with social-media-style cartoon doodles and handwritten notes.</em><br>
+<a href="styles/subway-doodle-photo-hybrid-style/style.json">style.json</a> · <a href="docs/copy-prompts/subway-doodle-photo-hybrid-style.md">prompt</a> · <a href="styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="tokyo-kawaii-travel-collage-poster-style"></a>
+<a href="styles/tokyo-kawaii-travel-collage-poster-style"><img src="styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg" alt="Tokyo Kawaii Travel Collage Poster preview"></a>
+<p><strong><a href="styles/tokyo-kawaii-travel-collage-poster-style">Tokyo Kawaii Travel Collage Poster</a></strong><br>
+<em>Maximal Tokyo travel collages with manga bubbles and stickers.</em><br>
+<a href="styles/tokyo-kawaii-travel-collage-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md">prompt</a> · <a href="styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="urban-transit-doodle-diary-style"></a>
+<a href="styles/urban-transit-doodle-diary-style"><img src="styles/urban-transit-doodle-diary-style/preview-16x9.jpg" alt="Urban Transit Doodle Diary preview"></a>
+<p><strong><a href="styles/urban-transit-doodle-diary-style">Urban Transit Doodle Diary</a></strong><br>
+<em>Public-space photos remixed with bold foreground gestures and travel diary notes.</em><br>
+<a href="styles/urban-transit-doodle-diary-style/style.json">style.json</a> · <a href="docs/copy-prompts/urban-transit-doodle-diary-style.md">prompt</a> · <a href="styles/urban-transit-doodle-diary-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="y2k-grunge-hiphop-cutout-poster-style"></a>
+<a href="styles/y2k-grunge-hiphop-cutout-poster-style"><img src="styles/y2k-grunge-hiphop-cutout-poster-style/preview-16x9.jpg" alt="Y2K Grunge Hip-hop Cutout Poster preview"></a>
+<p><strong><a href="styles/y2k-grunge-hiphop-cutout-poster-style">Y2K Grunge Hip-hop Cutout Poster</a></strong><br>
+<em>Y2K hip-hop collage posters with acid type and photocopy grit.</em><br>
+<a href="styles/y2k-grunge-hiphop-cutout-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md">prompt</a> · <a href="styles/y2k-grunge-hiphop-cutout-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top"></td>
+<td width="33%" valign="top"></td>
+</tr>
+</table>
 
 ## 发布规则
 
-- 一个目录 = 一个风格
-- 新风格优先出现在精选风格和风格索引顶部
-- 主分支只放 `style.json` 和两张预览 JPG
+- 一个目录 = 一种风格
+- 新风格会优先出现在精选风格和 All Styles 画廊中，完整描述同步添加到 [docs/CATALOG.md](docs/CATALOG.md)
+- main 分支只放每个风格的 `style.json` 和两张预览 JPG
 - 完整图库不放在这个仓库里
-- 不发布原始参考图、水印图、平台标识、二维码、账号信息、私有提示词，或未经授权的品牌素材
+- 不发布原始参考图、水印、平台标识、二维码、账号信息、私有提示词，或未经授权的品牌素材
+
+## Contributing
+
+提交新风格时，请遵循 [CONTRIBUTING.md](CONTRIBUTING.md) 中的公开包结构、校验规则和 PR checklist。
 
 ## 许可证
 
