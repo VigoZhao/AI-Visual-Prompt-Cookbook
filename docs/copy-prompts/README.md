@@ -10,6 +10,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Blue Bubble Fisheye Action Poster Style | [Copy Prompt](blue-bubble-fisheye-action-poster-style.md) | [style.json](../../styles/blue-bubble-fisheye-action-poster-style/style.json) |
 | Blue Chinese Perspective Type Canyon Style | [Copy Prompt](blue-chinese-perspective-type-canyon-style.md) | [style.json](../../styles/blue-chinese-perspective-type-canyon-style/style.json) |
 | Blue HUD Macro Creator Tech Poster | [Copy Prompt](blue-hud-macro-product-poster.md) | [style.json](../../styles/blue-hud-macro-product-poster/style.json) |
+| Blue Lime Kinetic Comic Type Poster Style | [Copy Prompt](blue-lime-kinetic-comic-type-poster-style.md) | [style.json](../../styles/blue-lime-kinetic-comic-type-poster-style/style.json) |
 | Bold Anime Reaction Thumbnail Style | [Copy Prompt](bold-anime-reaction-thumbnail-style.md) | [style.json](../../styles/bold-anime-reaction-thumbnail-style/style.json) |
 | Bold Block Mascot Poster Style | [Copy Prompt](bold-block-mascot-poster-style.md) | [style.json](../../styles/bold-block-mascot-poster-style/style.json) |
 | Chromatic Fisheye Orbit Pop Poster Style | [Copy Prompt](chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](../../styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |

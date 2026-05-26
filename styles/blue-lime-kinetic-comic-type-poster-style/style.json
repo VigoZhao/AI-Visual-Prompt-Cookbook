@@ -1,0 +1,190 @@
+{
+  "style_name": "Blue Lime Kinetic Comic Type Poster Style",
+  "style_slug": "blue-lime-kinetic-comic-type-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.",
+  "environment_variables": {
+    "SUBJECT": "main subject, mascot, object, activity, or event being announced",
+    "SUBJECT_ACTION": "simple graphic action or poster-like gesture",
+    "PRODUCT_OR_PROP": "large prop, sign, tool, snack, vehicle, instrument, or symbolic object",
+    "LOCATION": "flat poster setting or simplified environment",
+    "BACKGROUND_ELEMENTS": "secondary graphic marks, panels, rays, microcopy, or texture details",
+    "MAIN_TEXT": "short main Chinese headline or bold poster phrase",
+    "SECONDARY_TEXT": "small supporting English or Chinese microcopy",
+    "ACCENT_SYMBOL": "decorative separator, arrow, burst, ray, underline, or ornamental mark",
+    "WARDROBE_STYLE": "simple flat styling for any character or mascot",
+    "STYLE_FIDELITY_ANCHORS": "blue grid field, neon-lime slanted speech panel, yellow back plate, massive black block type, radial action marks, thick shadows, flat print texture",
+    "SOURCE_CONTENT_TO_AVOID": "do not recreate the original departure/restart poster, exact source text, GOGOGO lettering, DEPART/again wording, exact composition, or signature mark",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Electric-blue background fills the canvas and carries a faint square grid, like printed graph paper.",
+    "A giant neon-lime speech-bubble or banner panel dominates the center with a sharp triangular tail or cutout.",
+    "A flat yellow geometric back plate peeks from behind the lime panel to create high-contrast poster depth.",
+    "Massive black block typography is the primary visual mass, cropped tight and packed inside the lime shape.",
+    "Letterforms feel blunt, heavy, slightly irregular, and comic-like rather than refined or corporate.",
+    "Small secondary type sits in black rectangular strips or edge zones, creating a stacked poster hierarchy.",
+    "Black radial action rays, tick marks, arrows, and ornamental separators burst from the headline area.",
+    "Composition is shallow and graphic, with hard cut paper shapes instead of realistic perspective or lighting.",
+    "Palette stays highly limited: electric blue, neon lime, warning yellow, dense black, and small white highlights.",
+    "All surfaces show subtle ink speckles, halftone dots, scan noise, and imperfect printed edges.",
+    "The layout feels loud, compressed, tilted, and kinetic, with very little empty space around the headline.",
+    "Any subject or prop must remain secondary to the typographic panel and be simplified into flat poster shapes."
+  ],
+  "source_content_to_avoid": [
+    "Do not use the original headline text: 再出发, DEPART, again, GOGOGO, or close variants of the same wording.",
+    "Do not recreate the same restart, departure, leave-again, or go-go story premise.",
+    "Do not copy the exact lime speech-bubble silhouette, exact yellow wedge placement, or exact black ray arrangement.",
+    "Do not include the small signature-like mark from the lower-left corner of the reference.",
+    "Do not use brand marks, platform icons, usernames, QR codes, creator IDs, watermarks, or app logos.",
+    "Do not render the output as a clean vector logo, realistic photo, 3D title, manga panel, or polished corporate poster."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": [
+      "kinetic comic typography poster",
+      "street flyer",
+      "flat screenprint graphic",
+      "pop slogan card",
+      "high-contrast Chinese display type system"
+    ],
+    "composition_and_layout": "The poster is built from a blue grid-paper ground, a large slanted neon-lime speech panel, a yellow back plate, and huge black headline characters packed into the panel. Secondary type sits in a black strip or edge area, while rays and small symbols push motion outward.",
+    "subject_placement": "The headline block is the central subject. Any character, object, or prop should be simplified and tucked into the graphic system without competing with the main letters.",
+    "camera_angle_or_perspective": "Flat frontal poster perspective with slight diagonal tilts in the panels. No deep scene perspective, lens distortion, realistic camera depth, or physical shadows.",
+    "typography_style": "Oversized black Chinese block characters with a brutal comic weight, hard edges, slightly uneven terminals, tight counters, and exaggerated scale. Supporting type can use bold condensed Latin or smaller Chinese microcopy.",
+    "color_palette_behavior": "Electric blue and neon lime form the main contrast. Yellow is used as a secondary shock plate. Black creates nearly all form, type, outline, shadow, and motion marks. White appears only in tiny accents or paper glints.",
+    "graphic_elements": [
+      "slanted lime speech panel",
+      "yellow trapezoid back plate",
+      "black display characters",
+      "black rectangular label strip",
+      "radial action rays",
+      "small arrow separators",
+      "ornamental glyph marks",
+      "faint graph-paper grid",
+      "halftone dots and ink speckles"
+    ],
+    "texture_and_finish": "Flat raster print finish with visible grain, tiny speckles, roughened edges, light misregistration, and scan-like compression. The texture should be present but not muddy.",
+    "lighting": "No naturalistic lighting. Contrast comes from flat color blocking, black mass, and hard overlaps.",
+    "mood_and_cultural_reference": "Hyperactive Asian street-poster energy, comic sound-effect graphics, youth flyer language, bargain-bin print culture, and playful typographic shouting."
+  },
+  "composition": [
+    "Start with a full-bleed electric-blue field and add a subtle grid texture across it.",
+    "Place a huge neon-lime speech-panel or cut-paper banner as the dominant shape.",
+    "Let a yellow geometric plate emerge behind the lime panel on one side or corner.",
+    "Pack the main headline into the lime panel so it nearly touches the edges.",
+    "Use a black strip, small label zone, or lower bar for secondary text.",
+    "Add black radial rays and small action marks from one corner of the headline block.",
+    "Keep the layout flat and poster-like; depth should come only from overlaps and offsets.",
+    "Avoid many small scene objects; one prop or mascot is enough if the case needs a subject.",
+    "Allow slight rotation or skew in panels and type, but keep the hierarchy instantly readable."
+  ],
+  "typography": [
+    "Make the Chinese main headline huge, black, compact, and brutally heavy.",
+    "Use rough comic-block letterforms with thick strokes, tight counters, and cropped edges.",
+    "Set secondary text in a bold condensed Latin or simplified Chinese display style.",
+    "Place microcopy in black bars, small bottom zones, or tiny margin labels.",
+    "Treat letters as graphic blocks, not as elegant typesetting.",
+    "Do not use thin calligraphy, delicate serif fonts, clean corporate sans, or long paragraphs."
+  ],
+  "color_palette": {
+    "electric_blue_grid": "#3C6BFF",
+    "neon_lime_panel": "#9BFF24",
+    "warning_yellow_back_plate": "#FFE600",
+    "dense_ink_black": "#111011",
+    "paper_white_accent": "#F5F5E8",
+    "deep_shadow_blue": "#071D71"
+  },
+  "image_treatment": "Use flat raster illustration and type-poster treatment. Shapes should look like printed paper layers with hard edges, slight misregistration, ink speckles, and halftone texture. Avoid photorealism, 3D rendering, glossy bevels, clean vector perfection, cinematic light, and detailed environmental illustration.",
+  "design_rules": [
+    "Style fidelity comes from the blue grid, lime speech panel, yellow back plate, black type mass, action rays, and print grit.",
+    "Change the content by changing headline text, scene theme, prop, subject, and story premise for every case.",
+    "Keep the main text short enough to become a graphic block.",
+    "Use high contrast and hard overlaps instead of gradients or shadows.",
+    "Let the headline dominate; props and characters must stay secondary.",
+    "Use only a few decorative marks and keep them black, graphic, and close to the type."
+  ],
+  "do": [
+    "Preserve the electric-blue grid field and neon-lime central panel.",
+    "Use huge black Chinese block lettering as the visual anchor.",
+    "Add a yellow plate behind the lime shape for compressed poster depth.",
+    "Include radial black action marks and small separator symbols.",
+    "Apply subtle speckles, halftone dots, rough ink edges, and scan texture.",
+    "Use Chinese example cases and short new slogans when useful."
+  ],
+  "avoid": [
+    "Do not reuse the original departure/restart content or source phrases.",
+    "Do not add watermarks, usernames, QR codes, platform logos, brand marks, or signature marks.",
+    "Do not shift into photorealistic scenes, 3D type, glossy product ads, or clean vector logos.",
+    "Do not overcrowd the design with many realistic objects or detailed backgrounds.",
+    "Do not use muted beige, pastel, luxury editorial, or monochrome palettes.",
+    "Do not make the headline tiny or treat typography as secondary decoration."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Blue Lime Kinetic Comic Type Poster Style. Preserve these style anchors first: {STYLE_FIDELITY_ANCHORS}. Use an electric-blue full-bleed grid-paper background, a huge slanted neon-lime speech-panel or cut-paper banner, a sharp yellow geometric back plate behind it, massive black rough comic-block Chinese typography packed tightly into the lime panel, a black strip or edge zone for secondary text, radial black action rays, small arrow/separator marks, subtle halftone dots, ink speckles, rough printed edges, and flat screenprint color. New content: {SUBJECT} doing {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, located in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: {SOURCE_CONTENT_TO_AVOID}. No watermark, no username, no QR code, no brand logo.",
+  "negative_prompt": "photorealism, 3D render, glossy bevel, chrome type, polished corporate vector logo, realistic room or street scene, cinematic depth of field, soft gradients, pastel palette, beige editorial palette, long paragraph text, tiny main headline, copied source text, 再出发, DEPART, again, GOGOGO, departure/restart premise, exact reference layout, exact lime speech-bubble silhouette, exact yellow wedge placement, signature mark, watermark, username, QR code, platform logo, brand logo, app icon, creator ID, muddy grunge, illegible clutter",
+  "examples": [
+    {
+      "case_name": "夜市开摊",
+      "values": {
+        "SUBJECT": "一个夸张的夜市小摊招牌和简化摊主剪影",
+        "SUBJECT_ACTION": "把炉火点亮并把巨大锅铲举到画面边缘",
+        "PRODUCT_OR_PROP": "一口被图形化处理的巨大铁锅和冒气小碗",
+        "LOCATION": "蓝色网格纸上的扁平夜市场景",
+        "BACKGROUND_ELEMENTS": "黑色放射线、极小价签形状、几枚箭头和少量油墨颗粒",
+        "MAIN_TEXT": "夜市开摊",
+        "SECONDARY_TEXT": "HOT STALL / 今晚营业",
+        "ACCENT_SYMBOL": "黑色双箭头和短促爆裂线",
+        "WARDROBE_STYLE": "黑色围裙轮廓、简化帽子、无真实五官的扁平剪影",
+        "STYLE_FIDELITY_ANCHORS": "蓝色网格底、荧光绿斜切语音板、黄色背板、巨型黑色粗字、黑色放射线、厚重扁平印刷质感",
+        "SOURCE_CONTENT_TO_AVOID": "不要出现再出发、DEPART、again、GOGOGO、出发叙事、原图签名或相同构图"
+      }
+    },
+    {
+      "case_name": "雨天集合",
+      "values": {
+        "SUBJECT": "一支城市骑行小队的图形化集合通知",
+        "SUBJECT_ACTION": "把雨披和车把压缩成一个扁平海报符号",
+        "PRODUCT_OR_PROP": "巨大的雨披、单车铃铛和闪电形路标",
+        "LOCATION": "蓝色网格纸上的雨天街角提示牌",
+        "BACKGROUND_ELEMENTS": "黑色雨滴短线、放射线、黄色背板角和少量白色小标",
+        "MAIN_TEXT": "雨天集合",
+        "SECONDARY_TEXT": "RIDE CREW / 不怕下雨",
+        "ACCENT_SYMBOL": "黑色闪电箭头",
+        "WARDROBE_STYLE": "荧光雨披剪影、粗黑边运动轮廓、极简面部",
+        "STYLE_FIDELITY_ANCHORS": "蓝色网格底、荧光绿斜切语音板、黄色背板、巨型黑色粗字、黑色放射线、厚重扁平印刷质感",
+        "SOURCE_CONTENT_TO_AVOID": "不要出现再出发、DEPART、again、GOGOGO、出发叙事、原图签名或相同构图"
+      }
+    },
+    {
+      "case_name": "灵感爆棚",
+      "values": {
+        "SUBJECT": "一个桌面创作者的夸张灵感公告",
+        "SUBJECT_ACTION": "把巨大铅笔当成旗帜向上抬起",
+        "PRODUCT_OR_PROP": "一支过大的黑色铅笔、便签纸和抽象灯泡符号",
+        "LOCATION": "蓝色网格纸上的扁平创作桌面",
+        "BACKGROUND_ELEMENTS": "黄色背板、黑色速度线、小星点、短横线和印刷噪点",
+        "MAIN_TEXT": "灵感爆棚",
+        "SECONDARY_TEXT": "IDEA NOW / 快写下来",
+        "ACCENT_SYMBOL": "黑色星形爆点",
+        "WARDROBE_STYLE": "简单黑色袖口和荧光绿手套，角色只保留剪影",
+        "STYLE_FIDELITY_ANCHORS": "蓝色网格底、荧光绿斜切语音板、黄色背板、巨型黑色粗字、黑色放射线、厚重扁平印刷质感",
+        "SOURCE_CONTENT_TO_AVOID": "不要出现再出发、DEPART、again、GOGOGO、出发叙事、原图签名或相同构图"
+      }
+    },
+    {
+      "case_name": "海风上线",
+      "values": {
+        "SUBJECT": "一个海边小车和冲浪板的周末通知",
+        "SUBJECT_ACTION": "把冲浪板斜插进巨大的文字面板旁边",
+        "PRODUCT_OR_PROP": "扁平冲浪板、车顶绑带和小旗形路牌",
+        "LOCATION": "蓝色网格纸上的海边停车场海报",
+        "BACKGROUND_ELEMENTS": "黑色浪花符号、放射线、黄色背板和少量白色微字",
+        "MAIN_TEXT": "海风上线",
+        "SECONDARY_TEXT": "WEEKEND WIND / 去海边",
+        "ACCENT_SYMBOL": "黑色波浪箭头",
+        "WARDROBE_STYLE": "简化短袖和沙滩帽剪影，无真实脸部细节",
+        "STYLE_FIDELITY_ANCHORS": "蓝色网格底、荧光绿斜切语音板、黄色背板、巨型黑色粗字、黑色放射线、厚重扁平印刷质感",
+        "SOURCE_CONTENT_TO_AVOID": "不要出现再出发、DEPART、again、GOGOGO、出发叙事、原图签名或相同构图"
+      }
+    }
+  ]
+}

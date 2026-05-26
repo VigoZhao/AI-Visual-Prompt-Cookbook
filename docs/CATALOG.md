@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 40 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 41 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Blue Lime Kinetic Comic Type Poster Style
+
+<a href="../styles/blue-lime-kinetic-comic-type-poster-style"><img src="../styles/blue-lime-kinetic-comic-type-poster-style/preview-16x9.jpg" width="720" alt="Blue Lime Kinetic Comic Type Poster Style preview"></a>
+
+A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.
+
+Files: [style.json](../styles/blue-lime-kinetic-comic-type-poster-style/style.json) · [Copy Prompt](copy-prompts/blue-lime-kinetic-comic-type-poster-style.md) · [16:9 preview](../styles/blue-lime-kinetic-comic-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/blue-lime-kinetic-comic-type-poster-style/preview-9x16.jpg) · [Folder](../styles/blue-lime-kinetic-comic-type-poster-style)
+
+---
 
 ### Blue Chinese Perspective Type Canyon Style
 
