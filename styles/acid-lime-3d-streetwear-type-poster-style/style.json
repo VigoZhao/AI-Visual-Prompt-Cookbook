@@ -1,0 +1,191 @@
+{
+  "style_name": "Acid Lime 3D Streetwear Type Poster Style",
+  "style_slug": "acid-lime-3d-streetwear-type-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A glossy C4D streetwear campaign poster system built from pale studio space, oversized black block typography, acid-lime marker strokes, sticker badges, fashion-tool props, low wide-angle character staging, and clean synthetic product lighting.",
+  "environment_variables": {
+    "SUBJECT": "main stylized 3D character, mascot, object, or group",
+    "SUBJECT_ACTION": "main staged action or pose",
+    "PRODUCT_OR_PROP": "object, product, tool, gadget, fashion prop, or campaign item",
+    "LOCATION": "studio set, pop-up floor, showroom, workbench, or event setting",
+    "BACKGROUND_ELEMENTS": "secondary props, boxes, stickers, tags, labels, fabric, tools, or small scene details",
+    "MAIN_TEXT": "large replacement headline or graphic type",
+    "SECONDARY_TEXT": "short supporting tag, subtitle, or microcopy",
+    "ACCENT_SYMBOL": "sticker icon, warning mark, smiley, barcode, loop, star, or separator",
+    "WARDROBE_STYLE": "wardrobe, styling, material, character treatment, or product surface direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Pale cool-gray or off-white studio background with large empty breathing space around a dense central campaign cluster.",
+    "Glossy C4D character or product rendering with smooth plastic skin, simplified doll-like features, tactile fabric, chrome, and black rubber surfaces.",
+    "Low wide-angle camera perspective that makes foreground shoes, tools, bags, or props feel oversized and close to the viewer.",
+    "Heavy black condensed block headline typography acts as a massive graphic object, stacked and slightly compressed rather than quiet caption text.",
+    "Acid-lime green is the main accent, appearing as fabric fields, marker signatures, object trim, sticker dots, tags, and thin energetic strokes.",
+    "Small sticker-badge grammar surrounds the scene: warning triangles, smiley dots, barcode marks, capsule labels, scalloped seals, and tiny black tags.",
+    "Neon marker scribbles slash across or under the headline as deliberate graphic rhythm, not random background decoration.",
+    "Fashion editorial prop styling with shopping bags, stacked boxes, soft fabric rolls, brushes, cables, sunglasses, headphones, straps, and tactile accessories.",
+    "Commercial studio lighting is bright, clean, and synthetic, with soft shadows, glossy rim highlights, and no gritty analog texture.",
+    "Palette proportions stay disciplined: pale gray/white field, large black typography, acid lime as dominant accent, with tiny pink, yellow, cyan, and orange sticker sparks.",
+    "Composition balances a large left or upper type mass with a right or lower 3D subject cluster, leaving the type and character clearly legible.",
+    "Mood is youth-fashion, pop-up campaign, playful tech-beauty energy, and polished collectible-toy advertising."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the original platform name, logo, watermark, handle, campaign slogan, carousel counter, or any exact text from the reference.",
+    "Do not copy the original white-haired seated young woman, sunglasses, headphones, makeup compact, lipstick, folding chair, exact crossed-leg pose, or facial identity.",
+    "Do not recreate the original beauty tutorial story, beauty-app premise, green crop top, gray flared pants, black platform shoes, tote bag, or exact prop layout.",
+    "Do not reuse the same stack of branded boxes, green fabric strip, warning triangle placement, barcode placement, flower charm, sticker seals, or handwritten signature mark.",
+    "Do not include real brand marks, social usernames, QR codes, platform UI, creator signatures, or app icons.",
+    "Avoid copying the same Chinese headline composition or the same phrase structure, even with altered wording.",
+    "Do not preserve the exact character anatomy, hairstyle, pose, seat height, or right-side chair silhouette from the source.",
+    "Do not turn the samples into flat vector posters, photoreal fashion photography, anime cel art, watercolor, grunge zines, or minimalist product shots."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Glossy C4D youth-fashion poster, streetwear product campaign, acid-lime type-and-avatar social ad.",
+    "composition_logic": "A large black headline mass occupies the left or upper area while a polished 3D subject cluster occupies the opposite side. Small stickers, tools, and props bridge the type and character zones.",
+    "subject_placement": "The subject sits, crouches, leans, kneels, or poses close to camera, with one oversized foreground object creating depth and scale.",
+    "camera_angle_or_perspective": "Low front three-quarter wide-angle perspective with mild lens exaggeration and cropped foreground props.",
+    "typography_style": "Huge black geometric block letters, condensed and tightly stacked, with short secondary type in black or acid-lime capsules; type behaves like a physical campaign wall.",
+    "color_palette_behavior": "A pale neutral base carries black type and acid-lime accents; small hot pink, yellow, orange, or cyan stickers add pop without overtaking the lime.",
+    "graphic_elements": "Marker strokes, signature-like scribbles, barcode strips, warning labels, tiny capsules, scalloped sticker seals, round smiley badges, hang tags, and thin black connector lines.",
+    "texture_and_finish": "Smooth plastic skin, matte-black rubber, glossy chrome, soft textile weave, semi-translucent acrylic, sticker paper, and crisp printed type.",
+    "lighting": "High-key studio lighting, soft floor shadows, gentle specular highlights, and clean advertising contrast.",
+    "mood": "Fashion-forward, playful, slightly cyber, youth pop-up, collectible, polished, and energetic."
+  },
+  "composition": {
+    "primary_structure": [
+      "Keep one enormous black block headline as a primary shape, preferably left-heavy for horizontal formats and upper-heavy for vertical formats.",
+      "Place the 3D subject cluster close to the viewer, offset from the type mass, with a low wide-angle perspective.",
+      "Use a pale studio floor and wall with soft shadows so the black type and lime accents remain crisp.",
+      "Add acid-lime fabric, product trim, marker strokes, or ground elements as a repeated accent field.",
+      "Scatter small sticker badges, warning marks, barcodes, tags, and seals around the main action in controlled clusters.",
+      "Use tactile props at the foreground edge, including tools, boxes, bags, cables, fabric, brushes, or fashion accessories.",
+      "Keep the main type readable and do not bury it behind too many props.",
+      "Maintain a campaign-poster balance between clean negative space and dense accessory detail."
+    ],
+    "vertical_9x16": "Use a stacked poster composition: black headline in the upper half, 3D subject in the center or lower-right, exaggerated foreground prop at the bottom, and lime ground accents crossing the lower third.",
+    "horizontal_16x9": "Use a split campaign layout: black headline mass across the left half, 3D subject and prop cluster on the right, with marker strokes and badges bridging the middle."
+  },
+  "typography": {
+    "headline": "Oversized condensed black block display type, tightly stacked, squared, heavy, and slightly compressed, with a bold streetwear poster feel.",
+    "secondary_text": "Short supporting text in black-on-lime strips, white-on-black labels, or small rounded sans-serif tags.",
+    "text_orientation": "Main type is mostly horizontal and stacked; marker scribbles can cross it diagonally; micro labels may tilt or attach to props.",
+    "text_behavior": "Use only replacement text supplied by the case values. Keep it short, readable, and graphic; never include source slogans, platform names, watermarks, usernames, or real app marks."
+  },
+  "color_palette": {
+    "dominant": [
+      "cool pale gray",
+      "clean off-white",
+      "deep black",
+      "acid lime green"
+    ],
+    "accents": [
+      "hot pink sticker",
+      "warning yellow",
+      "cyan marker",
+      "small orange seal",
+      "soft silver chrome"
+    ],
+    "behavior": "Use pale gray and off-white as the spatial field, black as the typographic anchor, acid lime as the primary pop color, and only tiny high-chroma stickers for secondary accents."
+  },
+  "image_treatment": {
+    "rendering_mode": "Polished C4D 3D illustration blended with graphic poster typography and sticker design.",
+    "surface_quality": "Smooth toy-like character surfaces, tactile textile weave, glossy black rubber, chrome rails or hardware, semi-translucent acrylic, and printed sticker paper.",
+    "lighting": "High-key synthetic studio light with soft floor shadows, controlled highlights, gentle bloom, and crisp edge clarity.",
+    "depth": "Short studio-stage depth with oversized foreground props, central subject, stacked boxes or bags behind, and flat headline wall space.",
+    "post_processing": "Clean sharp high-resolution commercial finish, minimal grain, no rough analog distress, high contrast between black type and pale background."
+  },
+  "design_rules": [
+    "Preserve the acid-lime, black-type, pale-studio, glossy-C4D campaign family before changing subject matter.",
+    "Make the headline a massive black graphic block and keep it more important than small captions.",
+    "Use low wide-angle perspective so at least one foreground prop or body part feels exaggerated and close.",
+    "Repeat acid-lime accents through marker strokes, textile fields, tags, object trim, or sticker details.",
+    "Use sticker badges, barcodes, warning triangles, scalloped seals, and capsule labels as a controlled graphic grammar.",
+    "Keep the 3D subject toy-like, polished, and fashion-editorial rather than photoreal or anime.",
+    "Change every literal source detail: character, pose, exact prop, scene, brand identity, headline, and story premise.",
+    "Keep the background airy enough for the type to read while retaining dense prop detail around the subject."
+  ],
+  "do": [
+    "Use glossy stylized 3D characters, mascots, tools, fashion props, or product objects on a pale studio set.",
+    "Use huge black block typography with acid-lime marker marks and short secondary labels.",
+    "Use low wide-angle foreground cropping, soft shadows, chrome, black rubber, textile weave, and tactile prop detail.",
+    "Use small sticker badges, warning labels, barcodes, and seals as repeatable poster accents.",
+    "Use acid lime as the dominant accent with tiny pink, yellow, cyan, or orange sparks."
+  ],
+  "avoid": [
+    "Avoid platform logos, app marks, usernames, QR codes, watermarks, creator signatures, or real campaign lockups.",
+    "Avoid the source white-haired seated woman, sunglasses, headphones, compact, lipstick, folding chair, crossed-leg pose, and exact beauty premise.",
+    "Avoid source headline wording, source Chinese phrase structure, original handle, carousel counter, and source sticker placements.",
+    "Avoid flat vector art, anime cel shading, realistic fashion photography, grunge collage, watercolor, dark sci-fi, or minimal product photography.",
+    "Avoid overly busy text blocks that hide the large black headline or make the lime accents look random."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} finished raster image in the Acid Lime 3D Streetwear Type Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: pale cool-gray or off-white studio floor and wall, one huge mass of deep black condensed block headline typography, acid-lime marker scribbles and underlines crossing the type, glossy C4D toy-like 3D character or product rendering, low wide-angle front three-quarter perspective, oversized foreground prop or footwear-scale object near the lens, tactile fashion props, stacked boxes or bags, chrome and black rubber surfaces, soft textile weave, semi-translucent acrylic details, controlled sticker-badge clusters, warning triangles, barcode strips, smiley dots, scalloped seals, tiny black tags, small hot pink and yellow accents, clean high-key commercial studio lighting, soft shadows, crisp specular highlights, polished high-resolution poster finish. For 9:16, stack the black headline above or beside the central subject and crop a foreground prop along the lower edge. For 16:9, place the headline as a left-heavy type block and stage the 3D subject cluster on the right with lime accents bridging the center. Important content rule: match the visual style first, then change the source content completely with a new subject, new action, new prop, new location, new headline, new microcopy, and no copied brand identity.",
+  "negative_prompt": "watermark, username, QR code, app logo, platform logo, real brand mark, creator signature, source platform name, source handle, source Chinese headline, source carousel counter, white-haired seated woman, sunglasses and headphones combination from the source, makeup compact, lipstick, folding chair, crossed-leg pose, green crop top, gray flared pants, black platform shoes copied from source, original beauty-app premise, copied sticker placements, exact barcode layout, exact warning triangle placement, flat vector art, anime cel shading, photorealistic fashion photography, grunge zine collage, watercolor, dark sci-fi, muted palette, minimalist product shot, unreadable typography, long text blocks, low-resolution render",
+  "examples": [
+    {
+      "case_name": "skate-repair-pop-up",
+      "values": {
+        "SUBJECT": "a stylized 3D skate mechanic avatar with rounded toy-like proportions",
+        "SUBJECT_ACTION": "kneeling beside a custom board while tightening a glowing wheel module",
+        "PRODUCT_OR_PROP": "an acid-lime skate tool kit, black rubber wheel, chrome axle parts, and a translucent parts tray",
+        "LOCATION": "a pale studio pop-up repair floor",
+        "BACKGROUND_ELEMENTS": "stacked blank shoeboxes, lime mesh fabric, tiny warning stickers, barcode strips, coiled cables, and small black hang tags",
+        "MAIN_TEXT": "FIX THE FLOW",
+        "SECONDARY_TEXT": "street lab drop",
+        "ACCENT_SYMBOL": "bolt seal",
+        "WARDROBE_STYLE": "cropped black utility vest, silver cargo shorts, chunky gloves, lime hair clips, and glossy black knee pads",
+        "STYLE_FIDELITY_ANCHORS": "pale studio field, huge black block type, acid-lime marker strokes, glossy C4D toy rendering, low wide-angle foreground prop, sticker badges, fashion-tool props, clean high-key lighting",
+        "SOURCE_CONTENT_TO_AVOID": "no platform logo, no source headline, no white-haired seated makeup character, no compact, no lipstick, no folding chair, no crossed-leg pose, no branded boxes"
+      }
+    },
+    {
+      "case_name": "vinyl-noodle-dj",
+      "values": {
+        "SUBJECT": "a toy-like 3D noodle shop DJ mascot wearing oversized rounded headphones",
+        "SUBJECT_ACTION": "mixing tiny vinyl discs on a portable snack counter",
+        "PRODUCT_OR_PROP": "a glossy black mini turntable, lime noodle cup sleeve, chrome chopstick stylus, and clear acrylic sauce tray",
+        "LOCATION": "a clean studio food-pop-up set",
+        "BACKGROUND_ELEMENTS": "stacked blank delivery boxes, lime fabric banner, scalloped pink stickers, smiley badges, barcode tape, and small yellow caution labels",
+        "MAIN_TEXT": "SPIN HOT",
+        "SECONDARY_TEXT": "noodle sound club",
+        "ACCENT_SYMBOL": "steam tag",
+        "WARDROBE_STYLE": "oversized charcoal hoodie, lime apron strap, silver rings, black rubber shoes, and smooth toy-like face",
+        "STYLE_FIDELITY_ANCHORS": "pale gray studio space, giant black condensed headline, acid-lime scribble accents, glossy C4D mascot, low wide-angle prop scale, tactile boxes and bags, sticker-badge grammar, bright synthetic lighting",
+        "SOURCE_CONTENT_TO_AVOID": "no platform mark, no source Chinese text, no beauty tutorial story, no seated white-haired woman, no makeup compact, no lipstick, no folding chair, no original sticker layout"
+      }
+    },
+    {
+      "case_name": "plant-tech-workshop",
+      "values": {
+        "SUBJECT": "a rounded 3D plant technician avatar with soft plastic skin",
+        "SUBJECT_ACTION": "checking a tiny smart sprout sensor while leaning toward the viewer",
+        "PRODUCT_OR_PROP": "a translucent lime watering wand, black rubber sensor puck, chrome clip, and clear seed capsule case",
+        "LOCATION": "a pale studio workshop with a fashion-showroom floor",
+        "BACKGROUND_ELEMENTS": "lime mesh mat, stacked blank storage cases, tiny flower stickers, barcode label strips, silver clips, black straps, and yellow warning tags",
+        "MAIN_TEXT": "GROW SIGNAL",
+        "SECONDARY_TEXT": "micro garden lab",
+        "ACCENT_SYMBOL": "leaf badge",
+        "WARDROBE_STYLE": "matte black cropped jacket, soft gray utility trousers, lime hair pins, chunky work boots, and clear safety glasses",
+        "STYLE_FIDELITY_ANCHORS": "cool pale studio background, oversized black block headline, acid-lime accent fields, marker underline, glossy C4D avatar, low wide-angle foreground object, sticker labels, clean product lighting",
+        "SOURCE_CONTENT_TO_AVOID": "no source platform name, no original headline, no white bob beauty influencer, no makeup prop, no chair pose, no tote bag, no exact box stack, no carousel counter"
+      }
+    },
+    {
+      "case_name": "camera-club-drop",
+      "values": {
+        "SUBJECT": "a stylized 3D street photo club avatar with a matte-black cap silhouette",
+        "SUBJECT_ACTION": "threading a bright wrist strap through a tiny action camera",
+        "PRODUCT_OR_PROP": "a black rubber action camera, lime strap spool, chrome tripod clamp, and semi-transparent lens case",
+        "LOCATION": "a pale studio gear-drop display",
+        "BACKGROUND_ELEMENTS": "blank white gear bags, stacked acrylic cases, lime fabric rail, tiny orange seals, black barcode strips, yellow hazard labels, and curved cable loops",
+        "MAIN_TEXT": "FRAME DROP",
+        "SECONDARY_TEXT": "gear club edit",
+        "ACCENT_SYMBOL": "lens dot",
+        "WARDROBE_STYLE": "oversized black bomber, gray pleated shorts, lime zipper pulls, chunky silver boots, dark cap, and translucent lime visor",
+        "STYLE_FIDELITY_ANCHORS": "pale studio negative space, massive black block type, acid-lime marker slash, glossy stylized 3D character, low wide-angle prop crop, fashion accessory styling, sticker-badge clusters, high-key lighting",
+        "SOURCE_CONTENT_TO_AVOID": "no source handle, no original Chinese slogan, no seated beauty character, no makeup compact, no lipstick, no folding chair, no green crop top, no copied sticker and barcode placements"
+      }
+    }
+  ]
+}

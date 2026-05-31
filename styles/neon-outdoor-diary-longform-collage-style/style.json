@@ -1,0 +1,157 @@
+{
+  "style_name": "Neon Outdoor Diary Longform Collage Style",
+  "style_slug": "neon-outdoor-diary-longform-collage-style",
+  "style_version": "1.0.0",
+  "style_summary": "A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels, numbered sections, and dense social-note pacing.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Charcoal black background with thin vertical mobile-scroll framing and high-density stacked sections.",
+    "Documentary outdoor photo-collage subject cutouts with rough white keyline edges and mixed scale.",
+    "Acid green and white oversized condensed headline typography on slanted black label strips.",
+    "Orange hand-drawn arrows, loops, lightning marks, route lines, and small doodle bursts around content blocks.",
+    "Ripped notebook paper or torn tape panels used as schedule, rules, or checklist sections.",
+    "Numbered chapter badges that feel like a personal field diary rather than a clean corporate infographic.",
+    "Layered stickers, scribbles, underlines, glow strokes, and angled captions that create energetic visual noise.",
+    "Limited palette dominated by black, acid green, white, safety orange, and small cyan accents.",
+    "Sports/outdoor editorial mood with gritty texture, slightly compressed photos, and social-platform poster density.",
+    "Tall vertical samples should read as one continuous long scrolling poster, close to the source image length."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate trail running, marathon racing, race bibs, hydration vests, trekking poles, or the original athlete poses.",
+    "Do not copy the original Chinese title, dates, numbered section names, app logo, watermark, creator handle, QR code, or platform interface.",
+    "Do not reproduce the exact mountain trail, grass slope, white notebook schedule, video thumbnail, or rule sheet sequence.",
+    "Do not use identifiable real athletes, brand marks, event names, or the same outdoor competition story premise."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "A mobile feed poster built as a sequence of irregular modules: hero photo at top, torn-paper information cards, people or object cutouts, two-column mini cards, a video thumbnail block, and final checklist card. The vertical version should feel much longer than a normal poster.",
+    "subject_placement": "Subjects are cropped aggressively and placed partly outside their labels, with white cutout borders and angled placement. The main subject dominates the hero area while later subjects appear as sticker portraits or action cutouts.",
+    "perspective": "Mostly front-facing documentary photography with collage layering; no clean studio product grid. Objects and paper panels can be skewed in perspective.",
+    "texture": "Ripped edges, paper grain, scuffed black background, imperfect cutout edges, marker strokes, and small high-contrast overlays.",
+    "mood": "Energetic, personal, outdoor, rough, fast, social, note-like, and slightly rebellious."
+  },
+  "composition": {
+    "vertical": "Use a very tall scrolling infographic composition with five or more stacked chapters, a large hero block, torn-paper rule or schedule panels, action cutouts, small side captions, and bottom call-to-action style badges. Keep the density high and avoid large empty gaps.",
+    "horizontal": "Compress the same visual language into a wide editorial dashboard: hero cutout on one side, torn paper panel and chapter strips across the frame, multiple sticker callouts, and hand-drawn arrows guiding the eye.",
+    "hierarchy": "Main headline is huge and slanted; section numbers are clear; supporting text is small and dense; doodles and arrows connect blocks."
+  },
+  "typography": {
+    "headline": "Bold condensed sans-serif or brush-block display type, white and acid green, slightly skewed, outlined or shadowed, stacked into compact blocks.",
+    "section_labels": "Numbered black or green strips with rough underline marks, small arrows, and tilted label placement.",
+    "microcopy": "Tiny annotation-style text in white, green, and orange; it should read as designed texture if exact text is imperfect.",
+    "rules": "Never include real platform names, real watermarks, or copied source copy."
+  },
+  "color_palette": {
+    "base": "#161817 charcoal black",
+    "paper": "#e9e8df off-white torn notebook paper",
+    "primary_accent": "#22f05f acid green",
+    "secondary_accent": "#f7a332 safety orange",
+    "text": "#ffffff white",
+    "support": "#6bd7d2 cyan accent",
+    "behavior": "The background stays dark; green is reserved for headlines and highlights; orange appears as hand-drawn motion marks; white is used for paper, outlines, and high-contrast type."
+  },
+  "image_treatment": {
+    "photo_style": "Outdoor documentary photos with high contrast, slightly crunchy clarity, rough cutout masks, and white contour borders.",
+    "graphic_finish": "Print-zine collage finish with torn-paper cards, hand-drawn marker lines, sticker symbols, and uneven alignment.",
+    "lighting": "Natural daylight or event lighting, boosted contrast, readable subject silhouettes."
+  },
+  "design_rules": [
+    "Always preserve a dark mobile poster canvas with acid green headline strips and orange marker doodles.",
+    "Use photo cutouts and torn-paper panels together; do not become a clean vector infographic.",
+    "Vertical samples should feel like a long scrollable diary page, not a single compact poster.",
+    "Change the subject category and story premise for every case while retaining the outdoor diary collage grammar.",
+    "Keep text blocks dense and layered, but avoid exact copied wording or real platform marks."
+  ],
+  "do": [
+    "Use numbered sections, slanted labels, hand-drawn arrows, and rough torn-paper cards.",
+    "Mix documentary photo cutouts with graphic headline blocks and small note-like annotations.",
+    "Keep a gritty black-green-orange field-diary mood with energetic pacing.",
+    "For vertical outputs, request an extra-tall continuous mobile long poster."
+  ],
+  "avoid": [
+    "Avoid clean corporate infographic layouts, glossy product-ad minimalism, pastel lifestyle poster styling, or plain grid layouts.",
+    "Avoid recreating trail running, race diaries, real athlete portraits, platform logos, QR codes, usernames, or source text.",
+    "Avoid huge empty spaces, centered static layouts, smooth vector-only art, or luxury editorial restraint.",
+    "Avoid making the horizontal version look unrelated to the long vertical style."
+  ],
+  "prompt_template": "Create an {ASPECT_RATIO} raster poster in the Neon Outdoor Diary Longform Collage Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Main graphic text: {MAIN_TEXT}. Secondary microcopy texture: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a charcoal black mobile poster canvas, acid green and white slanted headline strips, orange hand-drawn arrows and route-line doodles, rough white cutout borders, torn notebook-paper panels, numbered diary sections, dense social-note annotations, sticker-like labels, gritty outdoor documentary photo collage, paper grain, scuffed texture, and energetic irregular alignment. If vertical, make it feel like an extra-tall continuous scrolling long poster close to the reference image length, with five or more stacked information chapters. If horizontal, compress the same layered diary system into a wide editorial collage without losing density.",
+  "negative_prompt": "No trail running, no marathon race, no race bib, no hydration vest, no trekking poles, no copied Chinese source title, no real platform logo, no watermark, no username, no QR code, no exact source layout recreation, no clean corporate infographic, no minimal white background, no smooth vector-only poster, no luxury editorial layout, no duplicated real person, no brand marks.",
+  "examples": [
+    {
+      "case_name": "storm-kayak-field-notes",
+      "values": {
+        "SUBJECT": "a coastal kayaking guide and two small action cutouts of paddlers",
+        "SUBJECT_ACTION": "checking waves, loading a bright kayak, and marking safety checkpoints",
+        "PRODUCT_OR_PROP": "yellow sea kayak, waterproof map sleeve, paddle, whistle, and tide chart",
+        "LOCATION": "rocky shoreline before a training launch",
+        "BACKGROUND_ELEMENTS": "spray, wet rocks, flags, tide markers, handwritten route map fragments",
+        "MAIN_TEXT": "KAYAK FIELD LOG",
+        "SECONDARY_TEXT": "tide check / gear list / launch window / safety notes",
+        "ACCENT_SYMBOL": "zigzag wave arrow",
+        "WARDROBE_STYLE": "technical waterproof jacket, cap, life vest, gloves",
+        "STYLE_FIDELITY_ANCHORS": "charcoal black long mobile diary, acid green slanted type, orange marker arrows, torn paper panels, rough photo cutouts, numbered chapters",
+        "SOURCE_CONTENT_TO_AVOID": "no trail running, no race bibs, no original Chinese title, no platform watermark"
+      }
+    },
+    {
+      "case_name": "night-bike-repair-diary",
+      "values": {
+        "SUBJECT": "an urban night cyclist and mechanic-style helper portraits",
+        "SUBJECT_ACTION": "fixing a chain, testing a headlamp, and planning a late ride route",
+        "PRODUCT_OR_PROP": "folding bike, multitool, tire patch kit, reflective tape, route card",
+        "LOCATION": "underpass bike lane beside a small repair stand",
+        "BACKGROUND_ELEMENTS": "wet pavement, street signs, cone markers, light trails, torn checklist paper",
+        "MAIN_TEXT": "MIDNIGHT RIDE NOTES",
+        "SECONDARY_TEXT": "lamp test / tire pressure / route split / snack stop",
+        "ACCENT_SYMBOL": "orange loop arrow",
+        "WARDROBE_STYLE": "reflective windbreaker, cycling cap, black gloves, utility sling bag",
+        "STYLE_FIDELITY_ANCHORS": "dark dense social poster, rough white cutouts, green block headlines, orange doodles, ripped paper schedule panels, numbered diary modules",
+        "SOURCE_CONTENT_TO_AVOID": "no mountain race, no athlete bib, no copied date ranges, no original app badges"
+      }
+    },
+    {
+      "case_name": "forest-camp-cookbook-log",
+      "values": {
+        "SUBJECT": "a weekend camp cook and small ingredient cutout portraits",
+        "SUBJECT_ACTION": "setting up a stove, arranging cookware, and writing meal timing notes",
+        "PRODUCT_OR_PROP": "portable stove, enamel cup, spice tin, cutting board, folded recipe card",
+        "LOCATION": "pine forest campsite after rain",
+        "BACKGROUND_ELEMENTS": "tent ropes, moss, steam, small lantern, pinned paper recipe sheet",
+        "MAIN_TEXT": "CAMP COOK LOG",
+        "SECONDARY_TEXT": "prep order / water boil / fire rule / cleanup list",
+        "ACCENT_SYMBOL": "flame sticker arrow",
+        "WARDROBE_STYLE": "utility vest, rain shell, beanie, canvas apron",
+        "STYLE_FIDELITY_ANCHORS": "extra-tall black field diary, neon green chapter bars, white torn notebook panels, orange hand sketch marks, gritty photo collage, sticker labels",
+        "SOURCE_CONTENT_TO_AVOID": "no race diary, no trail athlete pose, no copied numbered sections, no QR or watermark"
+      }
+    },
+    {
+      "case_name": "snowboard-tune-session",
+      "values": {
+        "SUBJECT": "a snowboard wax tech with action cutouts of a rider testing edges",
+        "SUBJECT_ACTION": "scraping wax, checking edge angle, and pinning slope condition notes",
+        "PRODUCT_OR_PROP": "snowboard, wax block, scraper, gloves, slope map, tuning brush",
+        "LOCATION": "small mountain workshop next to a snowy practice slope",
+        "BACKGROUND_ELEMENTS": "frosted windows, tool hooks, lift sign fragments, weather note cards",
+        "MAIN_TEXT": "SNOW TUNE DIARY",
+        "SECONDARY_TEXT": "edge check / wax temp / slope window / pack notes",
+        "ACCENT_SYMBOL": "sharp lightning underline",
+        "WARDROBE_STYLE": "technical snow jacket, goggles pushed up, insulated work gloves",
+        "STYLE_FIDELITY_ANCHORS": "black-green-orange zine poster, tilted condensed type, rough photo borders, torn paper rule card, dense annotations, numbered longform sections",
+        "SOURCE_CONTENT_TO_AVOID": "no summer trail running, no hydration vest, no original headline, no platform identity marks"
+      }
+    }
+  ]
+}

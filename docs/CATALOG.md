@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 46 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 48 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Neon Outdoor Diary Longform Collage Style
+
+<a href="../styles/neon-outdoor-diary-longform-collage-style"><img src="../styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg" width="720" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
+
+A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels, numbered sections, and dense social-note pacing.
+
+Files: [style.json](../styles/neon-outdoor-diary-longform-collage-style/style.json) · [Copy Prompt](copy-prompts/neon-outdoor-diary-longform-collage-style.md) · [16:9 preview](../styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/neon-outdoor-diary-longform-collage-style/preview-9x16.jpg) · [Folder](../styles/neon-outdoor-diary-longform-collage-style)
+
+---
+
+### Acid Lime 3D Streetwear Type Poster Style
+
+<a href="../styles/acid-lime-3d-streetwear-type-poster-style"><img src="../styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg" width="720" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
+
+A glossy C4D streetwear campaign poster system built from pale studio space, oversized black block typography, acid-lime marker strokes, sticker badges, fashion-tool props, low wide-angle character staging, and clean synthetic product lighting.
+
+Files: [style.json](../styles/acid-lime-3d-streetwear-type-poster-style/style.json) · [Copy Prompt](copy-prompts/acid-lime-3d-streetwear-type-poster-style.md) · [16:9 preview](../styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/acid-lime-3d-streetwear-type-poster-style/preview-9x16.jpg) · [Folder](../styles/acid-lime-3d-streetwear-type-poster-style)
+
+---
 
 ### Electric Blue Silhouette Product Launch Style
 
