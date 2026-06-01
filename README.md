@@ -585,6 +585,25 @@ The complete library, including the featured styles above. For full descriptions
 
 New style submissions should follow the public package shape and validation rules in [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Star History
+
+<a href="https://star-history.com/#VigoZhao/AI-Visual-Prompt-Cookbook&Date">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://api.star-history.com/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date&theme=dark"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://api.star-history.com/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date"
+    >
+    <img
+      alt="Star History Chart"
+      src="https://api.star-history.com/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date"
+    >
+  </picture>
+</a>
+
 ## License
 
 The repository structure and documentation are MIT licensed. Individual `style.json` files declare their own license. Preview images are included as visual references.
