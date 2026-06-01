@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 48,
+  "styleCount": 49,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Yellow Black Manga Food Zine Ad Style",
+      "slug": "yellow-black-manga-food-zine-ad-style",
+      "category": "Type Posters",
+      "description": "Black-yellow manga food zine ads with warped type and glossy hero objects.",
+      "summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.",
+      "preview16": "../styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg",
+      "preview9": "../styles/yellow-black-manga-food-zine-ad-style/preview-9x16.jpg",
+      "styleJson": "../styles/yellow-black-manga-food-zine-ad-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md",
+      "folder": "../styles/yellow-black-manga-food-zine-ad-style/",
+      "anchors": [
+        "Dominant black, warm yellow, cream white, and small red-green accent palette with yellow occupying big advertising panels.",
+        "Dense manga page collage layout with diagonal cuts, rectangular inset panels, and very little unused space.",
+        "Huge warped display lettering that bends into perspective or stacks vertically like a loud printed sound effect.",
+        "Thick black keylines, speed hatching, sweat-drop marks, sparkle symbols, and rough hand-inked comic contours.",
+        "One oversized glossy illustrated product or food object in the lower foreground with painterly highlights.",
+        "One dramatic cropped manga face or upper body panel with exaggerated emotion, open mouth, squinting eyes, or comic stress marks."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "midnight-curry-bread",
+      "copyPrompt": "Use the \"Yellow Black Manga Food Zine Ad Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a late-night bakery assistant with sharp eyebrows and flour on their cheek\nSubject action: tearing open a steaming curry bread with exaggerated comic shock\nProduct or prop: a giant golden curry bread split open with thick spicy filling and red oil shine\nLocation: back counter of a midnight bakery\nBackground elements: oven glow blocks, flour puffs, small panels of kneading, slicing, and steam rising\nMain text: 爆浆咖喱包\nSecondary text: 外脆内烫 / 夜班限定 / 别急着咬\nAccent symbol: jagged heat burst\nWardrobe style: rolled white baker coat, black headscarf, yellow apron\n\nStyle direction:\nA dense Japanese-manga-inspired food and product zine advertisement style with black ink\nlinework, yellow advertising blocks, cream paper fields, dramatic cropped character panels,\nglossy illustrated hero objects, giant warped display typography, small Chinese editorial copy,\nand rough print texture.\n\nKeep visible:\n- Dominant black, warm yellow, cream white, and small red-green accent palette with yellow occupying big advertising panels.\n- Dense manga page collage layout with diagonal cuts, rectangular inset panels, and very little unused space.\n- Huge warped display lettering that bends into perspective or stacks vertically like a loud printed sound effect.\n- Thick black keylines, speed hatching, sweat-drop marks, sparkle symbols, and rough hand-inked comic contours.\n- One oversized glossy illustrated product or food object in the lower foreground with painterly highlights.\n\nAvoid:\nramen, noodles, pork slices, egg, chopsticks, black ramen bowl, exact screaming eating face,\nstar eyes copied from reference, same story premise, watermark, username, social platform logo,\nQR code, brand logo, identifiable manga character, photorealistic food photo, polished vector\nart, 3D render, cinematic realism, minimalist poster, corporate clean layout, soft beige\nlifestyle palette, smooth gradients, empty whitespace, exact source text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Neon Outdoor Diary Longform Collage Style",
       "slug": "neon-outdoor-diary-longform-collage-style",

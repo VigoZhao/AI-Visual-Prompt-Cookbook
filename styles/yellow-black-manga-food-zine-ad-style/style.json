@@ -1,0 +1,185 @@
+{
+  "style_name": "Yellow Black Manga Food Zine Ad Style",
+  "style_slug": "yellow-black-manga-food-zine-ad-style",
+  "style_version": "2.1",
+  "style_summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Dominant black, warm yellow, cream white, and small red-green accent palette with yellow occupying big advertising panels.",
+    "Dense manga page collage layout with diagonal cuts, rectangular inset panels, and very little unused space.",
+    "Huge warped display lettering that bends into perspective or stacks vertically like a loud printed sound effect.",
+    "Thick black keylines, speed hatching, sweat-drop marks, sparkle symbols, and rough hand-inked comic contours.",
+    "One oversized glossy illustrated product or food object in the lower foreground with painterly highlights.",
+    "One dramatic cropped manga face or upper body panel with exaggerated emotion, open mouth, squinting eyes, or comic stress marks.",
+    "Small Chinese editorial copy blocks in yellow or black rectangles, balanced against giant expressive type.",
+    "Vertical tag label or seal-like small placard beside the hero object.",
+    "Bottom or side strip of mini comic panels showing sequential reactions or process details.",
+    "Flat print-ad lighting with poster contrast, scanned paper grain, halftone speckle, and imperfect ink registration.",
+    "Handmade food-zine mood: loud, humorous, appetizing, slightly chaotic, and commercial without becoming clean corporate design.",
+    "The illustration remains raster and hand-drawn, not photorealistic, vector-smooth, 3D, or minimalist."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate ramen, noodles, pork slices, eggs, chopsticks, or a black ramen bowl.",
+    "Do not copy the exact screaming/eating face, star-shaped eyes, mouth composition, or teeth arrangement from the reference.",
+    "Do not use the exact reference text, creator name, watermark, platform logo, or signature marks.",
+    "Do not reuse the same story premise of a character being forced to try a highly praised bowl of noodles.",
+    "Do not reproduce the exact lower-right multi-panel arrangement or the same two-character inset scene.",
+    "Do not use brand logos, usernames, QR codes, social platform marks, or identifiable manga characters."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "manga food advertisement, social zine poster, comic editorial product page",
+    "composition_and_layout": "a dense asymmetric magazine page with a large emotional manga face panel, an oversized product illustration, diagonal headline banding, boxed copy, vertical tag labels, and a row of mini comic panels",
+    "subject_placement": "the subject is cropped aggressively in the top or side panel while the product or prop dominates the lower foreground",
+    "camera_or_perspective": "flat print collage with selective extreme close-up cropping and shallow perspective on type and product forms",
+    "typography_style": "giant warped sans display letters or chunky Chinese poster characters, plus compact Chinese paragraph copy in boxed areas",
+    "color_palette_behavior": "near-black structures and linework, warm yellow panels and type, cream paper highlights, red glossy accents, leafy green or cyan highlights used sparingly",
+    "graphic_elements": "speed lines, sweat drops, sparkle crosses, seal labels, caption boxes, dotted waves, panel borders, vertical tags, small reaction panels",
+    "texture_and_finish": "scanned manga ink texture, halftone grain, brush hatching, rough paper speckles, imperfect print edges",
+    "lighting": "flat graphic lighting with glossy painted highlights on food or product objects only",
+    "mood_and_cultural_reference": "energetic manga magazine advertorial, comedic food review page, noisy but readable social poster"
+  },
+  "composition": {
+    "layout_density": "very dense and full-bleed, using panels and type to fill almost every area while preserving a clear main product hierarchy",
+    "main_hierarchy": "dramatic cropped manga expression first, oversized hero product second, giant warped headline third, boxed Chinese copy and mini panels fourth",
+    "panel_system": "use diagonal top paneling, one large product zone, one yellow copy block, one vertical label, and a strip of small comic panels",
+    "product_behavior": "the product or prop should be larger than life in the foreground, glossy, appetizing or tactile, with thick black contours",
+    "aspect_ratio_rules": {
+      "9:16": "stack the reaction face across the top third, place the product in the lower left or center, use a vertical tag label and a bottom mini-panel strip",
+      "16:9": "spread the face panel across one side, place the product across the bottom foreground, run giant warped headline type along the opposite edge"
+    }
+  },
+  "typography": {
+    "main_text": "huge bold Chinese headline or warped roman display type in yellow or black, distorted by perspective, outlined with rough black ink",
+    "secondary_text": "compact Chinese editorial copy in small white, black, or yellow blocks; it may be readable but should behave as print texture",
+    "label_text": "small vertical placard or seal label next to the product, with black border and cream fill",
+    "microcopy": "tiny repeated captions, dots, and annotation marks inside mini panels",
+    "avoid": "thin elegant calligraphy, clean corporate sans-only typography, exact source wording, watermark text"
+  },
+  "color_palette": {
+    "dominant": [
+      "ink black",
+      "warm manga yellow",
+      "cream paper white"
+    ],
+    "accents": [
+      "glossy tomato red",
+      "leaf green",
+      "muted olive",
+      "tiny cyan highlight",
+      "dark charcoal"
+    ],
+    "palette_rules": "Keep black/yellow/cream as the dominant read. Use red and green mostly on the hero product or small accent symbols. Avoid full rainbow palettes and soft pastel gradients."
+  },
+  "image_treatment": {
+    "rendering_mode": "raster manga illustration mixed with food-ad poster painting and zine page layout",
+    "linework": "bold uneven black outlines, scratch hatching, speed lines, contour wobble, and high-contrast ink fill",
+    "texture": "paper grain, halftone speckles, print dust, dry-brush edge distress, slight registration imperfections",
+    "depth": "mostly flat layout with shallow perspective on giant type and glossy product shapes",
+    "lighting": "flat comic print lighting with localized glossy highlights on the product"
+  },
+  "design_rules": [
+    "Build the image as a printed manga advertorial page, not a clean poster.",
+    "Use one dramatic cropped subject panel and one oversized hero product or prop.",
+    "Keep yellow panels large and structural, with black panels and cream paper areas creating contrast.",
+    "Add giant warped headline typography that feels like a sound effect or promotional shout.",
+    "Use Chinese copy blocks, vertical labels, and a bottom or side mini-panel sequence as layout texture.",
+    "Apply visible ink hatching, sweat drops, sparkle marks, halftone, and paper grain throughout.",
+    "Make the generated content new by changing the product, subject, action, location, and text."
+  ],
+  "do": [
+    "Preserve the dense black-yellow manga advertorial layout.",
+    "Keep the hero object oversized, glossy, and hand-illustrated.",
+    "Use dramatic cropped manga expressions and comic stress marks.",
+    "Include Chinese headline and supporting copy when text is needed.",
+    "Use boxed captions, vertical tags, and mini comic panels.",
+    "Keep the result rough, printed, and high-contrast."
+  ],
+  "avoid": [
+    "Do not recreate ramen, noodles, pork, eggs, chopsticks, or the original bowl composition.",
+    "Do not copy the reference character face, exact mouth pose, star eyes, or story premise.",
+    "Do not include watermarks, platform handles, creator signatures, QR codes, or brand logos.",
+    "Do not make the result photorealistic, 3D, smooth vector, minimalist, or corporate-clean.",
+    "Do not use soft beige lifestyle design, low-density whitespace, or muted editorial layouts."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster image in the Yellow Black Manga Food Zine Ad Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background and secondary elements: {BACKGROUND_ELEMENTS}. Main headline text in Chinese: {MAIN_TEXT}. Secondary Chinese copy or microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or styling: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build a dense black, warm yellow, and cream manga advertorial page with diagonal panel cuts, thick hand-inked keylines, speed hatching, sweat-drop marks, sparkle symbols, one dramatic cropped manga reaction panel, an oversized glossy illustrated hero object in the foreground, boxed Chinese editorial copy, a vertical tag label, a strip of mini comic panels, halftone speckle, scanned paper grain, and imperfect print registration. Keep the style loud, humorous, appetizing or product-focused, high-contrast, and hand-drawn. Change all content from the reference image while keeping the visual language.",
+  "negative_prompt": "ramen, noodles, pork slices, egg, chopsticks, black ramen bowl, exact screaming eating face, star eyes copied from reference, same story premise, watermark, username, social platform logo, QR code, brand logo, identifiable manga character, photorealistic food photo, polished vector art, 3D render, cinematic realism, minimalist poster, corporate clean layout, soft beige lifestyle palette, smooth gradients, empty whitespace, exact source text",
+  "examples": [
+    {
+      "case_name": "midnight-curry-bread",
+      "values": {
+        "SUBJECT": "a late-night bakery assistant with sharp eyebrows and flour on their cheek",
+        "SUBJECT_ACTION": "tearing open a steaming curry bread with exaggerated comic shock",
+        "PRODUCT_OR_PROP": "a giant golden curry bread split open with thick spicy filling and red oil shine",
+        "LOCATION": "back counter of a midnight bakery",
+        "BACKGROUND_ELEMENTS": "oven glow blocks, flour puffs, small panels of kneading, slicing, and steam rising",
+        "MAIN_TEXT": "爆浆咖喱包",
+        "SECONDARY_TEXT": "外脆内烫 / 夜班限定 / 别急着咬",
+        "ACCENT_SYMBOL": "jagged heat burst",
+        "WARDROBE_STYLE": "rolled white baker coat, black headscarf, yellow apron",
+        "STYLE_FIDELITY_ANCHORS": "dense black-yellow-cream manga advertorial page, giant warped type, cropped reaction face, glossy hero product, boxed Chinese copy, vertical label, mini comic strip, halftone grain",
+        "SOURCE_CONTENT_TO_AVOID": "no ramen, no noodles, no pork slices, no eggs, no chopsticks, no copied face or exact reference layout, no watermark"
+      }
+    },
+    {
+      "case_name": "sour-plum-soda",
+      "values": {
+        "SUBJECT": "a sweaty convenience-store clerk with messy short hair and round glasses",
+        "SUBJECT_ACTION": "holding back a dramatic gasp while opening a fizzy canned drink",
+        "PRODUCT_OR_PROP": "an oversized red sour-plum soda can bursting with ice cubes and bubbles",
+        "LOCATION": "tiny summer convenience store counter",
+        "BACKGROUND_ELEMENTS": "fridge stripes, price-ticket shapes, fizz clouds, tiny reaction panels showing ice and bubbles",
+        "MAIN_TEXT": "酸梅爆气",
+        "SECONDARY_TEXT": "一口醒神 / 冰到眯眼 / 今日上架",
+        "ACCENT_SYMBOL": "sparkle cross and fizz dots",
+        "WARDROBE_STYLE": "short-sleeve striped store vest, black apron, small towel around neck",
+        "STYLE_FIDELITY_ANCHORS": "dense black-yellow-cream manga advertorial page, giant warped type, cropped reaction face, glossy hero product, boxed Chinese copy, vertical label, mini comic strip, halftone grain",
+        "SOURCE_CONTENT_TO_AVOID": "no ramen, no noodles, no pork, no eggs, no chopsticks, no copied screaming eating face, no source text, no watermark"
+      }
+    },
+    {
+      "case_name": "pocket-radio-repair",
+      "values": {
+        "SUBJECT": "an anxious electronics repair student with spiky hair and square spectacles",
+        "SUBJECT_ACTION": "listening in disbelief as a repaired pocket radio suddenly plays music",
+        "PRODUCT_OR_PROP": "an oversized retro yellow pocket radio with red buttons, loose wires, and sound-wave stickers",
+        "LOCATION": "crowded repair desk under a hanging desk lamp",
+        "BACKGROUND_ELEMENTS": "screw trays, circuit pattern blocks, tiny panels showing solder smoke and turning knobs",
+        "MAIN_TEXT": "老机复活",
+        "SECONDARY_TEXT": "滋啦一声 / 频道回来了 / 修完再听",
+        "ACCENT_SYMBOL": "lightning bolt seal",
+        "WARDROBE_STYLE": "black shop apron, rolled sleeves, small bandage on finger",
+        "STYLE_FIDELITY_ANCHORS": "dense black-yellow-cream manga advertorial page, giant warped type, cropped reaction face, glossy hero product, boxed Chinese copy, vertical label, mini comic strip, halftone grain",
+        "SOURCE_CONTENT_TO_AVOID": "no ramen, food bowl, eating premise, copied mouth, source phrases, watermark, or platform mark"
+      }
+    },
+    {
+      "case_name": "festival-toy-drum",
+      "values": {
+        "SUBJECT": "a tiny festival performer with a determined face and windblown hair",
+        "SUBJECT_ACTION": "striking a toy drum so hard that comic sound waves shake the page",
+        "PRODUCT_OR_PROP": "a huge lacquer-red toy drum with cream cords and golden paper tassels",
+        "LOCATION": "crowded night festival stall",
+        "BACKGROUND_ELEMENTS": "paper lantern blocks, ticket stubs, confetti, small panels of drumsticks, tassels, and shocked spectators",
+        "MAIN_TEXT": "咚到发光",
+        "SECONDARY_TEXT": "小鼓大声 / 今晚加演 / 手心发热",
+        "ACCENT_SYMBOL": "black starburst seal",
+        "WARDROBE_STYLE": "short happi-style jacket, striped sash, dark shorts, cloth headband",
+        "STYLE_FIDELITY_ANCHORS": "dense black-yellow-cream manga advertorial page, giant warped type, cropped reaction face, glossy hero product, boxed Chinese copy, vertical label, mini comic strip, halftone grain",
+        "SOURCE_CONTENT_TO_AVOID": "no ramen, no noodle shop, no food review premise, no copied reference face, no source text, no watermark"
+      }
+    }
+  ]
+}

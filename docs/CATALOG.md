@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 48 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 49 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Yellow Black Manga Food Zine Ad Style
+
+<a href="../styles/yellow-black-manga-food-zine-ad-style"><img src="../styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg" width="720" alt="Yellow Black Manga Food Zine Ad Style preview"></a>
+
+A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.
+
+Files: [style.json](../styles/yellow-black-manga-food-zine-ad-style/style.json) · [Copy Prompt](copy-prompts/yellow-black-manga-food-zine-ad-style.md) · [16:9 preview](../styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg) · [9:16 preview](../styles/yellow-black-manga-food-zine-ad-style/preview-9x16.jpg) · [Folder](../styles/yellow-black-manga-food-zine-ad-style)
+
+---
 
 ### Neon Outdoor Diary Longform Collage Style
 
