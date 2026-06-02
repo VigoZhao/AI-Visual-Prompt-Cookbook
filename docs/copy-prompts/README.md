@@ -44,6 +44,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
+| Sunlit Architectural Fashion Editorial | [Copy Prompt](sunlit-architectural-fashion-editorial.md) | [style.json](../../styles/sunlit-architectural-fashion-editorial/style.json) |
 | Sunny 3D Avatar Campaign Style | [Copy Prompt](sunny-3d-avatar-campaign-style.md) | [style.json](../../styles/sunny-3d-avatar-campaign-style/style.json) |
 | Surreal Fish Doodle Landmark Photo Collage Style | [Copy Prompt](surreal-fish-doodle-landmark-photo-collage-style.md) | [style.json](../../styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) |
 | Teenage Skate Scribble Screenprint Poster Style | [Copy Prompt](teenage-skate-scribble-screenprint-poster-style.md) | [style.json](../../styles/teenage-skate-scribble-screenprint-poster-style/style.json) |

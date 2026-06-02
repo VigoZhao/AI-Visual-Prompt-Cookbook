@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 50,
+  "styleCount": 51,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Sunlit Architectural Fashion Editorial",
+      "slug": "sunlit-architectural-fashion-editorial",
+      "category": "Editorial + Minimal",
+      "description": "Sunlit fashion editorials with low-angle architecture, warm stone, and elongated silhouettes.",
+      "summary": "A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry. It recreates the premium fashion-campaign feeling without copying the original models, wardrobe, plaza, prop placement, or poses.",
+      "preview16": "../styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg",
+      "preview9": "../styles/sunlit-architectural-fashion-editorial/preview-9x16.jpg",
+      "styleJson": "../styles/sunlit-architectural-fashion-editorial/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/sunlit-architectural-fashion-editorial.md",
+      "folder": "../styles/sunlit-architectural-fashion-editorial/",
+      "anchors": [
+        "Outdoor luxury fashion editorial photography with believable high-end campaign realism.",
+        "Low camera position or slight wide-angle perspective that elongates legs, coats, and architectural scale.",
+        "Warm stone, concrete, plaster, or masonry surfaces used as large tactile foreground or side planes.",
+        "Hard sun, high sky exposure, crisp cast shadows, and a controlled warm lens flare or glint.",
+        "Elegant neutral palette led by ivory, sand, taupe, stone gray, black, camel, tobacco, and muted metallics.",
+        "One or two poised models with sculptural posture, calm unsmiling expressions, and deliberate hands."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "marble-museum-silk-steps",
+      "copyPrompt": "Use the \"Sunlit Architectural Fashion Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: two poised fashion models on broad pale marble museum steps, one closer to camera and one offset higher in the background\nSubject action: the near model rests one hand on a stone balustrade while the second model stands upright with a controlled sideways glance\nProduct or prop: small black lacquer clutch and thin brushed-gold sunglasses with no visible logo\nLocation: sunlit contemporary museum entrance with marble steps and a civic stone facade\nBackground elements: pale blue sky, bronze railings, long stair shadows, narrow facade seams, and a few distant unreadable plaques\nMain text: MUSEUM HEAT\nSecondary text: summer editorial series\nAccent symbol: one small gold hardware glint on the sunglasses\nWardrobe style: champagne silk sleeveless tunic over black tailored cigarette trousers, paired with a charcoal organza cape jacket and patent slingback heels\n\nStyle direction:\nA polished outdoor high-fashion editorial photography style built from low-angle architectural\nframing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes,\nrestrained luxury styling, and fine graphic lines from wires, railings, shadows, or facade\ngeometry. It recreates the premium fashion-campaign feeling without copying the original models,\nwardrobe, plaza, prop placement, or poses.\n\nKeep visible:\n- Outdoor luxury fashion editorial photography with believable high-end campaign realism.\n- Low camera position or slight wide-angle perspective that elongates legs, coats, and architectural scale.\n- Warm stone, concrete, plaster, or masonry surfaces used as large tactile foreground or side planes.\n- Hard sun, high sky exposure, crisp cast shadows, and a controlled warm lens flare or glint.\n- Elegant neutral palette led by ivory, sand, taupe, stone gray, black, camel, tobacco, and muted metallics.\n\nAvoid:\nexact source models, copied faces, copied pose relationship, beige cape trench, white sleeveless\nvest, beige wide-leg trousers, black pointed pumps from reference, same stone column plaza, same\ntram wires, same old facade and graffiti, suitcase in same placement, real brand logos,\nmonograms, readable store names, watermarks, creator IDs, QR codes, social media UI, overlay\ntypography, price tags, shopping-bag clutter, e-commerce catalog lighting, studio poster\ngraphics, checkerboard set, comic illustration, flat vector art, 3D toy look, nightclub\nlighting, neon palette, heavy rain drama, distorted anatomy, broken hands, warped shoes, plastic\nskin, blurry face, low-resolution output, oversaturated colors, excessive beige-only color wash.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Multi-Color Beverage Splash Ad System Style",
       "slug": "multi-color-beverage-splash-ad-system-style",

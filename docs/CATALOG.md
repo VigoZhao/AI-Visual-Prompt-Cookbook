@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 50 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 51 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Sunlit Architectural Fashion Editorial
+
+<a href="../styles/sunlit-architectural-fashion-editorial"><img src="../styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg" width="720" alt="Sunlit Architectural Fashion Editorial preview"></a>
+
+A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry.
+
+Files: [style.json](../styles/sunlit-architectural-fashion-editorial/style.json) · [Copy Prompt](copy-prompts/sunlit-architectural-fashion-editorial.md) · [16:9 preview](../styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg) · [9:16 preview](../styles/sunlit-architectural-fashion-editorial/preview-9x16.jpg) · [Folder](../styles/sunlit-architectural-fashion-editorial)
+
+---
 
 ### Multi-Color Beverage Splash Ad System Style
 

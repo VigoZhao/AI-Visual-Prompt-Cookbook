@@ -1,0 +1,186 @@
+{
+  "style_name": "Sunlit Architectural Fashion Editorial",
+  "style_slug": "sunlit-architectural-fashion-editorial",
+  "style_version": "2.1",
+  "style_summary": "A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry. It recreates the premium fashion-campaign feeling without copying the original models, wardrobe, plaza, prop placement, or poses.",
+  "environment_variables": {
+    "SUBJECT": "main fashion model, pair of models, or editorial subject",
+    "SUBJECT_ACTION": "main pose, stance, gesture, or movement",
+    "PRODUCT_OR_PROP": "luxury accessory, travel object, sculptural object, or restrained prop",
+    "LOCATION": "architectural outdoor setting, plaza, gallery, resort, terminal, or civic facade",
+    "BACKGROUND_ELEMENTS": "secondary architecture, sky, wires, railings, shadows, texture, and depth cues",
+    "MAIN_TEXT": "internal editorial title or mood label, not visible as overlay text",
+    "SECONDARY_TEXT": "internal campaign note or series label, not visible as overlay text",
+    "ACCENT_SYMBOL": "single subtle photographic accent such as lens flare, glint, shadow line, or small hardware reflection",
+    "WARDROBE_STYLE": "specific luxury clothing, silhouette, fabric, and accessory direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Outdoor luxury fashion editorial photography with believable high-end campaign realism.",
+    "Low camera position or slight wide-angle perspective that elongates legs, coats, and architectural scale.",
+    "Warm stone, concrete, plaster, or masonry surfaces used as large tactile foreground or side planes.",
+    "Hard sun, high sky exposure, crisp cast shadows, and a controlled warm lens flare or glint.",
+    "Elegant neutral palette led by ivory, sand, taupe, stone gray, black, camel, tobacco, and muted metallics.",
+    "One or two poised models with sculptural posture, calm unsmiling expressions, and deliberate hands.",
+    "Layered luxury wardrobe with tailored coats, capes, suiting, silk, linen, leather, or crisp monochrome separates.",
+    "Minimal premium props such as structured handbags, clutches, travel cases, sunglasses, or polished shoes with no logos.",
+    "Architectural background depth from facades, arcades, steps, transit lines, windows, or colonnades.",
+    "Fine graphic linework from overhead wires, railings, long shadows, seams, or facade grids crossing the sky or walls.",
+    "Editorial asymmetry: one subject nearer to camera or stronger in scale, the other offset deeper in space.",
+    "Clean magazine-grade color grading: sun-washed highlights, detailed skin and fabric texture, restrained contrast, no heavy retouch blur."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the exact two women, faces, makeup, expressions, body silhouettes, or pose relationship from the source.",
+    "Do not copy the beige cape trench, white sleeveless vest, beige wide-leg trousers, black pointed pumps, or exact wardrobe combination.",
+    "Do not reuse the same stone column, tram-wire plaza, old building facade, graffiti wall, suitcase placement, or urban corner composition.",
+    "Do not duplicate the left model leaning against the column with one bent leg or the right model holding a coat with palm raised.",
+    "Do not include real fashion brand logos, monograms, store names, watermarks, creator IDs, QR codes, or social media UI.",
+    "Do not turn the image into a studio poster, collage, illustration, catalog e-commerce shot, or nightlife streetwear scene."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "The reference uses a low viewpoint and a close architectural mass on one side to make the models feel tall, expensive, and slightly monumental. The composition is asymmetrical: a large tactile wall or column anchors the foreground, while open sky and distant facades create depth.",
+    "subject_placement": "Subjects sit low and large in the frame, often near the bottom third, with one figure closer and more dominant while the second figure stands farther back and slightly higher.",
+    "camera_perspective": "Low-angle editorial camera with subtle wide-angle stretch, looking upward into bright sky and architecture so legs, hems, bags, and columns gain importance.",
+    "typography_behavior": "No graphic overlay typography is part of the image. Any text variables function only as internal mood labels for generation; final samples should not contain readable campaign text.",
+    "graphic_elements": "The graphic layer comes from real-world lines: tram wires, roof edges, railings, window grids, shadow bands, pavement seams, handbag straps, and architectural horizontals.",
+    "lighting_and_texture": "Direct daytime sun with luminous sky, warm reflected stone light, crisp shadow edges, slight flare, textured masonry, visible fabric grain, polished leather, and magazine-grade skin detail."
+  },
+  "composition": [
+    "Use a low camera angle and a strong architectural plane close to the foreground.",
+    "Keep one or two fashion subjects large enough to dominate the lower half of the frame.",
+    "Let sky, facade lines, railings, wires, or long shadows draw diagonal or horizontal graphic structure.",
+    "Keep props sparse and premium; one handbag, case, clutch, sunglasses, or sculptural object is enough.",
+    "Frame the scene as an editorial location shoot, not a studio set or retail catalog.",
+    "Preserve asymmetry: a near subject, a secondary subject or prop, and a deep architectural background.",
+    "Use negative space in the sky or stone wall while retaining real urban texture and sunlight."
+  ],
+  "typography": {
+    "overlay_rule": "No visible overlay typography. The image should read as a fashion editorial photograph, not a poster.",
+    "environment_text": "Environmental signage may appear only as small, incidental, unreadable texture and must not name real brands.",
+    "main_text_variable": "Use MAIN_TEXT only as an internal art-direction label for mood, never as visible text in the image.",
+    "secondary_text_variable": "Use SECONDARY_TEXT only as an internal campaign note, never as visible text in the image."
+  },
+  "color_palette": {
+    "dominant": [
+      "sunlit ivory",
+      "warm stone beige",
+      "sand taupe",
+      "soft plaster gray"
+    ],
+    "accents": [
+      "black patent leather",
+      "tobacco brown",
+      "muted oxblood",
+      "champagne silk",
+      "brushed gold hardware",
+      "deep navy"
+    ],
+    "supporting": [
+      "pale blue sky",
+      "cream highlights",
+      "olive shadow green",
+      "warm skin tones"
+    ],
+    "behavior": "Neutrals carry most of the image. Dark shoes, bags, eyewear, or coats provide weight. Metallic or oxblood accents stay small and premium. Avoid saturated neon, purple-blue gradients, and one-note beige wash by including controlled black, tobacco, navy, or oxblood anchors."
+  },
+  "photographic_direction": {
+    "rendering_mode": "High-end realistic outdoor fashion campaign photography.",
+    "lighting": "Hard late-morning or afternoon sun, bright sky, warm bounce from stone, crisp shadows, and a subtle natural lens flare or glint.",
+    "lens": "Low-angle editorial lens, 28mm to 35mm equivalent feel, slight wide perspective without caricature distortion.",
+    "finish": "Premium magazine color grade, refined skin and textile detail, natural but polished faces, no visible AI artifacts, no excessive smoothing.",
+    "depth": "Moderate depth of field: subjects sharp, background architecture still readable enough to carry the editorial location."
+  },
+  "design_rules": [
+    "Preserve low-angle architectural fashion photography in every sample.",
+    "Keep hard sun, stone texture, warm neutrals, and clean sky exposure visible.",
+    "Use different locations, clothes, props, poses, and model relationships for each case.",
+    "Let real-world linework such as wires, railings, window grids, or shadows create the graphic sophistication.",
+    "Avoid overlay text and brand marks so the look stays editorial rather than advertising layout.",
+    "Keep wardrobe premium, structured, and restrained; do not drift into casual streetwear, fantasy costume, or catalog basics.",
+    "Use one or two models only; avoid crowded groups, paparazzi framing, or runway-show crowds."
+  ],
+  "do": [
+    "Use architectural plazas, museum steps, seaside terminals, civic facades, hotel porticos, or gallery courtyards.",
+    "Use tailored capes, silk sets, leather dusters, linen suits, sculptural coats, patent shoes, and refined handbags.",
+    "Preserve bright sun, stone texture, low viewpoint, elongated silhouettes, and calm expensive posture.",
+    "Change the wardrobe color and fabric story across cases while keeping the restrained luxury palette.",
+    "Let overhead wires, railings, window grids, or cast shadows act like subtle graphic design."
+  ],
+  "avoid": [
+    "The original two faces, exact pose, exact wardrobe, stone column plaza, tram-wire arrangement, graffiti, and suitcase placement.",
+    "Real luxury logos, readable store names, social handles, watermarks, QR codes, and platform UI.",
+    "Studio-white poster systems, checkerboard graphic sets, zine collage, comic rendering, flat vector art, or 3D toy aesthetics.",
+    "Overcrowded props, price labels, shopping-bag piles, visible brand campaigns, or e-commerce catalog posing.",
+    "Night scenes, neon lighting, heavy rain drama, nightclub streetwear, overdone makeup, or fantasy styling."
+  ],
+  "prompt_template": "Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low camera position, slight wide-angle fashion perspective, elongated silhouettes, hard Mediterranean daylight, bright pale sky, warm stone or plaster texture, crisp cast shadows, natural lens flare or glint, refined neutral color grading with black or tobacco anchors, visible fabric and leather detail, calm unsmiling luxury-campaign posture, and sparse premium props with no visible logos. Do not add overlay typography, watermarks, readable brand names, QR codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: {ASPECT_RATIO}.",
+  "negative_prompt": "exact source models, copied faces, copied pose relationship, beige cape trench, white sleeveless vest, beige wide-leg trousers, black pointed pumps from reference, same stone column plaza, same tram wires, same old facade and graffiti, suitcase in same placement, real brand logos, monograms, readable store names, watermarks, creator IDs, QR codes, social media UI, overlay typography, price tags, shopping-bag clutter, e-commerce catalog lighting, studio poster graphics, checkerboard set, comic illustration, flat vector art, 3D toy look, nightclub lighting, neon palette, heavy rain drama, distorted anatomy, broken hands, warped shoes, plastic skin, blurry face, low-resolution output, oversaturated colors, excessive beige-only color wash.",
+  "examples": [
+    {
+      "case_name": "marble-museum-silk-steps",
+      "values": {
+        "SUBJECT": "two poised fashion models on broad pale marble museum steps, one closer to camera and one offset higher in the background",
+        "SUBJECT_ACTION": "the near model rests one hand on a stone balustrade while the second model stands upright with a controlled sideways glance",
+        "PRODUCT_OR_PROP": "small black lacquer clutch and thin brushed-gold sunglasses with no visible logo",
+        "LOCATION": "sunlit contemporary museum entrance with marble steps and a civic stone facade",
+        "BACKGROUND_ELEMENTS": "pale blue sky, bronze railings, long stair shadows, narrow facade seams, and a few distant unreadable plaques",
+        "MAIN_TEXT": "MUSEUM HEAT",
+        "SECONDARY_TEXT": "summer editorial series",
+        "ACCENT_SYMBOL": "one small gold hardware glint on the sunglasses",
+        "WARDROBE_STYLE": "champagne silk sleeveless tunic over black tailored cigarette trousers, paired with a charcoal organza cape jacket and patent slingback heels",
+        "STYLE_FIDELITY_ANCHORS": "outdoor luxury fashion editorial realism, low camera angle, warm stone surfaces, hard sun, pale sky, elongated silhouettes, one or two poised models, layered luxury wardrobe, sparse premium prop, architectural depth, fine railing and shadow linework, magazine-grade color grading",
+        "SOURCE_CONTENT_TO_AVOID": "no original faces, no beige cape trench, no white vest, no beige wide-leg trousers, no stone column plaza, no tram-wire corner, no suitcase placement, no raised palm pose, no real fashion logo"
+      }
+    },
+    {
+      "case_name": "seaside-terminal-linen-shadows",
+      "values": {
+        "SUBJECT": "two models waiting near a quiet seaside ferry terminal under a high concrete canopy",
+        "SUBJECT_ACTION": "one model steps forward from the shade while the other leans lightly against a sunlit wall and looks past the camera",
+        "PRODUCT_OR_PROP": "structured tobacco leather weekender bag and narrow black sunglasses with anonymous hardware",
+        "LOCATION": "Mediterranean ferry terminal forecourt with concrete columns, stone paving, and distant water glare",
+        "BACKGROUND_ELEMENTS": "canopy beams, railing lines, pale sea horizon, hard diagonal shadows, and sun-washed plaster walls",
+        "MAIN_TEXT": "PORT LIGHT",
+        "SECONDARY_TEXT": "coastal tailoring study",
+        "ACCENT_SYMBOL": "small tobacco leather buckle reflection",
+        "WARDROBE_STYLE": "ivory linen wrap jacket with matching long skirt, contrasted with a deep navy leather trench over a white poplin shirt",
+        "STYLE_FIDELITY_ANCHORS": "outdoor luxury fashion editorial realism, low camera angle, warm stone and concrete texture, hard sun, bright sky, elongated silhouettes, two poised models, restrained neutral palette with dark anchors, sparse premium travel prop, architectural background depth, fine railing linework, crisp shadow edges",
+        "SOURCE_CONTENT_TO_AVOID": "no original two women, no beige trench cape, no white sleeveless vest, no plaza column, no tram wires, no graffiti facade, no source suitcase composition, no real terminal brand signage"
+      }
+    },
+    {
+      "case_name": "desert-gallery-leather-sun",
+      "values": {
+        "SUBJECT": "two fashion models outside a desert art foundation with pale stone walls and a shallow reflecting channel",
+        "SUBJECT_ACTION": "the near model turns her shoulder toward the low camera while the second model stands farther back in direct sun",
+        "PRODUCT_OR_PROP": "anonymous oxblood structured handbag and slim metallic cuff bracelets",
+        "LOCATION": "minimal desert gallery courtyard with limestone walls, gravel edges, and open sky",
+        "BACKGROUND_ELEMENTS": "thin steel shade lines, long wall shadows, pale gravel, reflective water strip, and distant rectangular windows",
+        "MAIN_TEXT": "STONE MIRAGE",
+        "SECONDARY_TEXT": "resort tailoring chapter",
+        "ACCENT_SYMBOL": "subtle oxblood patent leather glint",
+        "WARDROBE_STYLE": "oxblood leather duster over a cream column dress, paired with a black sleeveless sculptural top and sand silk trousers",
+        "STYLE_FIDELITY_ANCHORS": "outdoor luxury fashion editorial realism, low viewpoint, large stone planes, hard sun, warm neutral palette, elongated body lines, two poised models, tailored and fluid luxury wardrobe, minimal handbag prop, architectural depth, fine shade-line geometry, polished magazine skin and textile detail",
+        "SOURCE_CONTENT_TO_AVOID": "no source faces, no beige cape trench, no white vest, no black pumps from reference, no tram wires, no urban plaza column, no same suitcase or duffel, no exact lean-and-raised-hand pose"
+      }
+    },
+    {
+      "case_name": "hotel-portico-satin-arrival",
+      "values": {
+        "SUBJECT": "two models at a grand hotel portico framed by limestone arches and a bright driveway",
+        "SUBJECT_ACTION": "the foreground model stands with one foot on a low curb while the second model adjusts sunglasses beside a stone arch",
+        "PRODUCT_OR_PROP": "small deep-brown top-handle bag and an unmarked black patent shoe box used as a low prop",
+        "LOCATION": "old-world hotel entrance with limestone arches, polished paving, and sunlit upper windows",
+        "BACKGROUND_ELEMENTS": "arcade shadows, thin awning cables, window grid lines, warm pavement highlights, and a strip of open blue sky",
+        "MAIN_TEXT": "ARRIVAL SUITE",
+        "SECONDARY_TEXT": "city resort campaign",
+        "ACCENT_SYMBOL": "narrow lens flare crossing the lower frame",
+        "WARDROBE_STYLE": "graphite pinstripe cape coat over a white silk slip dress, paired with an emerald satin halter top and black tailored trousers",
+        "STYLE_FIDELITY_ANCHORS": "outdoor luxury fashion editorial realism, low camera position, warm architectural stone, hard daylight, pale sky exposure, elongated silhouettes, two calm models, premium layered wardrobe, sparse anonymous handbag prop, facade and arcade depth, fine cable and window linework, refined neutral color grade with controlled emerald accent",
+        "SOURCE_CONTENT_TO_AVOID": "no original models, no beige trench cape, no white vest and beige trouser pairing, no stone column plaza, no tram-wire intersection, no graffiti storefronts, no suitcase at the feet, no real hotel or fashion brand marks"
+      }
+    }
+  ]
+}
