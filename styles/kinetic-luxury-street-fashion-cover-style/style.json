@@ -1,0 +1,187 @@
+{
+  "style_name": "Kinetic Luxury Street Fashion Cover Style",
+  "style_slug": "kinetic-luxury-street-fashion-cover-style",
+  "style_version": "2.1",
+  "style_summary": "A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.",
+  "environment_variables": {
+    "SUBJECT": "main fashion subject",
+    "SUBJECT_ACTION": "main action, stride, or movement",
+    "PRODUCT_OR_PROP": "accessory, bag, eyewear, or restrained prop",
+    "LOCATION": "urban facade, avenue, museum wall, or city street setting",
+    "BACKGROUND_ELEMENTS": "motion-blurred architecture, road, window, pavement, or secondary depth cues",
+    "MAIN_TEXT": "large editorial cover title, not copied from the reference",
+    "SECONDARY_TEXT": "tiny supporting cover line or season note",
+    "ACCENT_SYMBOL": "small understated typographic or photographic accent",
+    "WARDROBE_STYLE": "specific luxury garment, fabric, silhouette, and color direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "High-end realistic fashion editorial photography, not illustration, collage, or catalog rendering.",
+    "Single model or one dominant model cropped large from thigh to head, moving laterally through the frame.",
+    "Side-profile or three-quarter walking pose with calm luxury expression and deliberate street-stride energy.",
+    "Strong horizontal motion blur in the background, as if the camera is panning with the subject.",
+    "Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture.",
+    "One saturated or high-contrast statement garment carries the image while the city remains muted.",
+    "Muted neutral urban palette led by stone beige, asphalt gray, black, and soft shadow, with one controlled clothing accent.",
+    "Wind-shaped hair, fabric movement, sleeve swing, or coat hem motion adds kinetic drama.",
+    "Large centered serif magazine-cover headline with very wide letter spacing, elegant high-fashion scale, and no real brand name.",
+    "Tiny secondary cover text sits near the main title or lower margin and remains understated.",
+    "Luxury accessories stay sparse: one bag, sunglasses, gloves, or jewelry item with no visible logo.",
+    "Premium magazine color grade with restrained contrast, soft natural skin, deep blacks, and crisp garment highlights."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the exact woman, face, hairstyle, sunglasses shape, side profile, or body silhouette from the source.",
+    "Do not copy the emerald green textured leather jacket, black trousers, matching green handbag, or exact outfit combination.",
+    "Do not reuse the exact beige facade, dark doorway, street banding, walking hand position, or hair shape from the reference.",
+    "Do not use the word VOLUME, the tiny creator text, watermarks, signatures, social handles, or any brand marks.",
+    "Do not duplicate the same crop, exact left-to-right pose, exact jacket length, or same centered text placement without variation.",
+    "Do not turn the image into e-commerce product photography, runway footage, studio portraiture, poster collage, or streetwear nightlife."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "The reference creates a cover by locking the model sharply in the center-right while the city background smears into horizontal bands. The garment has the strongest color and texture, while typography floats over the lower torso as a quiet luxury masthead.",
+    "subject_placement": "The subject is cropped large, usually from thigh or knee to head, with the face near the upper third and the garment occupying the central field. The body moves laterally through the frame and leaves enough blurred city space for the headline.",
+    "camera_perspective": "Street-level editorial panning shot with a medium telephoto feel, slight compression, and a shutter speed that keeps the subject crisp while the background streaks horizontally.",
+    "typography_behavior": "A very large serif headline spans the center or lower center with dramatic tracking and white or off-white letters. Tiny cover-line text appears as a restrained supporting note and should not behave like a logo or watermark.",
+    "graphic_elements": "The graphic system comes from motion-blurred facade bands, road stripes, window blocks, garment seams, handbag straps, and widely spaced serif letters.",
+    "lighting_and_texture": "Soft daylight or overcast city light keeps skin natural and shadows controlled. Luxury fabric texture, leather grain, wool nap, satin sheen, or quilted seams stay sharp against the blurred architecture."
+  },
+  "composition": [
+    "Use one dominant walking model cropped large enough for the clothing to fill the center of the image.",
+    "Preserve strong horizontal background blur from architecture, pavement, doors, windows, and street bands.",
+    "Keep the model sharper than the background so the garment reads as the focal point.",
+    "Place a large wide-spaced serif headline across the middle or lower middle without covering the face.",
+    "Allow the headline to overlap the garment lightly, like a fashion magazine cover treatment.",
+    "Use sparse accessories and avoid crowded props, shopping bags, or retail displays.",
+    "For 9:16, emphasize vertical cover hierarchy and full garment crop; for 16:9, preserve lateral movement and long background bands."
+  ],
+  "typography": {
+    "headline_style": "Elegant high-contrast serif letters, all caps, very wide tracking, white or warm ivory, centered across the subject or lower torso.",
+    "headline_rule": "Use MAIN_TEXT as visible editorial cover text, but never use the source word VOLUME or any real brand name.",
+    "secondary_text": "Use SECONDARY_TEXT as very small refined cover copy, often below or near the headline, with minimal presence.",
+    "spacing": "Large negative spacing between letters is essential; the typography should feel expensive, quiet, and editorial rather than loud advertising.",
+    "avoid": "No script fonts, bubble letters, condensed sports type, price tags, QR codes, social UI, usernames, or watermark-like captions."
+  },
+  "color_palette": {
+    "dominant": [
+      "stone beige",
+      "soft concrete gray",
+      "asphalt black",
+      "warm ivory typography"
+    ],
+    "accents": [
+      "deep crimson wool",
+      "ivory technical trench",
+      "electric cobalt tailoring",
+      "liquid silver quilted nylon",
+      "dark espresso leather"
+    ],
+    "supporting": [
+      "muted taupe",
+      "shadow green",
+      "charcoal",
+      "soft skin tones",
+      "glass reflection green"
+    ],
+    "behavior": "Most of the image remains urban neutral. The clothing supplies the main color event, usually one saturated or bright material. Keep accents controlled and avoid turning the whole image into a single-color wash."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Realistic high-fashion street editorial cover photography.",
+    "lighting": "Soft daylight or slightly overcast street light with clean skin tones, crisp garment highlights, and deep but not crushed blacks.",
+    "lens": "Panning street-fashion lens with medium compression; subject sharp, background horizontally blurred.",
+    "finish": "Magazine-grade color grade, tactile fabric detail, controlled motion, polished but natural face, no plastic skin.",
+    "depth": "Subject is the sharpest plane; background architecture remains recognizable as blurred horizontal shapes rather than a flat smear."
+  },
+  "design_rules": [
+    "Preserve the panning street-fashion cover look in every sample.",
+    "Use four clearly different garments, fabrics, silhouettes, and accent colors across the cases.",
+    "Keep the city background neutral and horizontally motion-blurred while the garment remains crisp.",
+    "Use a large, wide-spaced serif headline as an editorial design element without copying source text.",
+    "Change model identity, hairstyle, accessory, prop, exact pose, headline, and location details from the reference.",
+    "Do not add real fashion logos, creator signatures, platform marks, price labels, or retail signage.",
+    "Keep the mood cool, expensive, restrained, and kinetic rather than playful, maximal, or commercial."
+  ],
+  "do": [
+    "Use one model walking through stone, glass, concrete, or museum-like city architecture.",
+    "Use statement coats, trenches, suits, and quilted outerwear with strong fabric texture.",
+    "Keep hair, sleeves, hems, and background bands moving horizontally.",
+    "Use large ivory serif typography with wide spacing and very small supporting text.",
+    "Let the garment color be the dominant expressive change between cases."
+  ],
+  "avoid": [
+    "The original emerald leather jacket, matching green bag, exact model, exact sunglasses, exact doorway, and VOLUME text.",
+    "Readable real brands, logos, watermarks, social media handles, creator tags, QR codes, and app UI.",
+    "Studio fashion portraits, runway scenes, flat posters, 3D renders, cartoons, collages, and e-commerce catalog shots.",
+    "Crowded streets, shopping-bag piles, hard flash nightlife, neon cyberpunk lighting, and messy typography.",
+    "Broken hands, distorted faces, unreadable warped headline dominance, excessive blur on the garment, and low-resolution output."
+  ],
+  "prompt_template": "Create a realistic high-fashion street editorial magazine cover image in the Kinetic Luxury Street Fashion Cover Style. Subject: {SUBJECT}. Movement: {SUBJECT_ACTION}. Accessory or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe: {WARDROBE_STYLE}. Visible editorial cover headline: {MAIN_TEXT}. Tiny supporting cover line: {SECONDARY_TEXT}. Accent detail: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. The image must have one dominant model cropped large, side-profile or three-quarter walking energy, subject sharp against strong horizontal motion-blurred architecture, muted stone and asphalt city palette, one crisp statement garment as the main color event, wind-shaped hair or moving fabric, sparse luxury accessory with no logo, premium magazine color grade, natural skin, tactile textile detail, and large centered all-caps high-contrast serif headline with very wide letter spacing in white or warm ivory. Do not use the word VOLUME, real brand names, watermarks, creator text, QR codes, social media UI, price tags, catalog lighting, runway crowds, cartoon style, collage, vector graphics, 3D render, or studio poster design. Aspect ratio: {ASPECT_RATIO}.",
+  "negative_prompt": "source woman, copied face, copied sunglasses, copied exact side profile, emerald green textured leather jacket, matching green handbag, black trousers from reference, exact beige facade, exact dark doorway, exact hair sweep, exact walking hand position, VOLUME text, creator signature, watermark, social handle, QR code, real brand logo, monogram, readable store name, e-commerce catalog shot, runway crowd, studio portrait, flat poster collage, cartoon, vector art, 3D render, neon cyberpunk, heavy flash nightlife, overstuffed props, shopping bags, price labels, distorted anatomy, broken hands, warped face, plastic skin, blurry garment, low-resolution output, oversaturated color wash, unreadable text occupying the face.",
+  "examples": [
+    {
+      "case_name": "crimson-wool-walking-cover",
+      "values": {
+        "SUBJECT": "a poised fashion model with short dark hair moving past a stone townhouse facade",
+        "SUBJECT_ACTION": "walking in a controlled side-profile stride while the camera pans with her",
+        "PRODUCT_OR_PROP": "small dark espresso crescent bag and thin black sunglasses with no visible logo",
+        "LOCATION": "quiet European avenue with pale stone blocks and a recessed window line",
+        "BACKGROUND_ELEMENTS": "horizontal smears of limestone wall, asphalt bands, black window rectangles, and a soft curb stripe",
+        "MAIN_TEXT": "TEMPO",
+        "SECONDARY_TEXT": "winter motion issue",
+        "ACCENT_SYMBOL": "tiny ivory dot separator below the headline",
+        "WARDROBE_STYLE": "deep crimson textured wool cocoon coat over black straight trousers, matte leather gloves, and polished black loafers",
+        "STYLE_FIDELITY_ANCHORS": "realistic fashion editorial panning shot, single large walking model, sharp subject, horizontal motion-blurred architecture, muted stone and asphalt palette, one statement garment color, wind or fabric movement, sparse logo-free luxury accessory, wide-spaced serif cover headline, tiny secondary cover text, premium magazine color grade",
+        "SOURCE_CONTENT_TO_AVOID": "no emerald leather jacket, no matching green handbag, no source model face or sunglasses, no exact beige doorway, no VOLUME text, no creator watermark, no real logo"
+      }
+    },
+    {
+      "case_name": "ivory-trench-glass-stride",
+      "values": {
+        "SUBJECT": "a tall fashion model with tied-back hair moving past a modern glass gallery wall",
+        "SUBJECT_ACTION": "striding forward in three-quarter profile with one trench sleeve swinging outward",
+        "PRODUCT_OR_PROP": "flat black document clutch and translucent smoke-gray visor sunglasses",
+        "LOCATION": "minimal city gallery exterior with glass, concrete, and pale stone paving",
+        "BACKGROUND_ELEMENTS": "blurred glass reflections, concrete mullions, street lane streaks, and soft shadow bands",
+        "MAIN_TEXT": "DRIFT",
+        "SECONDARY_TEXT": "city light study",
+        "ACCENT_SYMBOL": "one narrow silver zipper glint at the waist",
+        "WARDROBE_STYLE": "ivory technical trench coat with crisp oversized lapels, cinched belt, charcoal column skirt, and black ankle boots",
+        "STYLE_FIDELITY_ANCHORS": "realistic luxury street cover photography, large model crop, panning motion blur, sharp garment texture, neutral city background, one bright statement outerwear piece, wind-shaped coat movement, sparse accessory, huge tracked serif headline, tiny supporting copy, refined editorial color grade",
+        "SOURCE_CONTENT_TO_AVOID": "no original woman, no green leather jacket, no green handbag, no black wide trousers from source, no exact stone facade, no VOLUME masthead, no watermark or creator line"
+      }
+    },
+    {
+      "case_name": "cobalt-tailored-suit-rush",
+      "values": {
+        "SUBJECT": "a confident fashion model with shoulder-length copper hair passing a dark civic doorway",
+        "SUBJECT_ACTION": "walking left to right in a swift editorial stride with hair and blazer hem moving in the same direction",
+        "PRODUCT_OR_PROP": "small black top-handle bag and slim metallic ear cuffs without any logo",
+        "LOCATION": "old civic building frontage with black doors, stone panels, and a blurred road edge",
+        "BACKGROUND_ELEMENTS": "dark doorway streaks, beige wall bands, gray curb blur, and thin pavement lines",
+        "MAIN_TEXT": "AXIS",
+        "SECONDARY_TEXT": "tailoring in transit",
+        "ACCENT_SYMBOL": "small silver earring sparkle near the jawline",
+        "WARDROBE_STYLE": "electric cobalt double-breasted tailored suit with satin lapels, black silk shell, wide-leg trousers, and pointed black shoes",
+        "STYLE_FIDELITY_ANCHORS": "premium street-fashion cover realism, dominant walking subject, sharp face and clothing, horizontal architectural blur, muted stone and black palette, one saturated clothing accent, kinetic hair and hem movement, minimal luxury accessory, wide ivory serif headline, tiny cover note, polished magazine finish",
+        "SOURCE_CONTENT_TO_AVOID": "no exact source face, no emerald jacket, no matching green handbag, no same sunglasses, no VOLUME word, no exact beige facade and dark doorway composition, no real fashion brand"
+      }
+    },
+    {
+      "case_name": "silver-quilted-coat-driveby",
+      "values": {
+        "SUBJECT": "a composed fashion model with long auburn hair moving beside a blurred museum colonnade",
+        "SUBJECT_ACTION": "walking with a forward lean as the quilted coat catches motion and the hair trails behind",
+        "PRODUCT_OR_PROP": "small matte black cylinder bag and clear pale-green rectangular sunglasses with no logo",
+        "LOCATION": "museum-side boulevard with stone columns, dark window gaps, and smooth gray roadway",
+        "BACKGROUND_ELEMENTS": "colonnade streaks, horizontal road blur, black shadow slots, soft beige wall bands, and low curb lines",
+        "MAIN_TEXT": "SILK",
+        "SECONDARY_TEXT": "outerwear velocity",
+        "ACCENT_SYMBOL": "tiny cool highlight on a coat snap",
+        "WARDROBE_STYLE": "liquid silver quilted nylon long coat over a black knit column dress, transparent gloves, and charcoal pointed boots",
+        "STYLE_FIDELITY_ANCHORS": "realistic editorial panning photograph, single large side-moving model, crisp clothing against horizontal motion-blurred city architecture, muted stone and asphalt palette, one bright high-texture garment, wind-shaped hair, sparse logo-free accessory, large tracked serif cover headline, tiny refined secondary text, luxury magazine color grade",
+        "SOURCE_CONTENT_TO_AVOID": "no original woman's face or exact body silhouette, no emerald leather jacket, no green handbag, no source sunglasses shape, no VOLUME text, no source doorway, no creator watermark, no real logo"
+      }
+    }
+  ]
+}

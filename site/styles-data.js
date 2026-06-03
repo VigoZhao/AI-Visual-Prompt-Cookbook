@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 51,
+  "styleCount": 54,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,114 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Kinetic Geometric Doodle Cutouts",
+      "slug": "kinetic-geometric-doodle-cutouts",
+      "category": "Photo + Doodle",
+      "description": "Playful geometric doodle cutouts with flat color pieces, loose lines, and paper grain.",
+      "summary": "A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background.",
+      "preview16": "../styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg",
+      "preview9": "../styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg",
+      "styleJson": "../styles/kinetic-geometric-doodle-cutouts/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/kinetic-geometric-doodle-cutouts.md",
+      "folder": "../styles/kinetic-geometric-doodle-cutouts/",
+      "anchors": [
+        "Warm cream paper field with generous empty space around the subject.",
+        "One central figure, object, or small scene built from a few oversized geometric blocks.",
+        "Flat vector-like shapes with subtle printed grain, dry-brush speckle, and soft sprayed gradients.",
+        "Asymmetric kinetic pose with limbs or parts angled diagonally as if mid-motion.",
+        "Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks.",
+        "Palette mixes saturated orange, cobalt blue, pink-lilac, mint green, golden yellow, and solid black in uneven proportions."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rainy-courier",
+      "copyPrompt": "Use the \"Kinetic Geometric Doodle Cutouts\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a cheerful bicycle courier made of abstract geometric parts\nSubject action: coasting through a light drizzle while balancing a square delivery box\nProduct or prop: small cobalt delivery box with no logo\nLocation: plain cream paper space suggesting a rainy street without buildings\nBackground elements: three loose rain dashes, two puddle scribbles, and a tiny floating cloud mark\nMain text: no headline, only a tiny unreadable hand-drawn route mark\nSecondary text: two small abstract tick marks near the box\nAccent symbol: tiny black lightning squiggle\nWardrobe style: orange rain sleeve, mint torso block, pink wheel-like leg shapes, black ink shoes and handlebar lines\n\nStyle direction:\nA sparse, playful illustration system where a character or object is assembled from oversized\nflat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center\nmotion on a warm cream background.\n\nKeep visible:\n- Warm cream paper field with generous empty space around the subject.\n- One central figure, object, or small scene built from a few oversized geometric blocks.\n- Flat vector-like shapes with subtle printed grain, dry-brush speckle, and soft sprayed gradients.\n- Asymmetric kinetic pose with limbs or parts angled diagonally as if mid-motion.\n- Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks.\n\nAvoid:\nphotorealistic, 3D render, realistic anatomy, realistic lighting, cast shadows, detailed city\nscene, dense background, cluttered poster, polished typography, logo, watermark, signature,\nusername, QR code, brand mark, exact copy of reference jumping person, blue glasses face, black\nside ponytail, identical sneaker pose, same orange L arm and blue belly circle layout, vector-\nonly sterile finish, smooth plastic gradient, low-resolution, blurry, cropped subject\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Quiet Luxury Furniture Nameplate Poster Style",
+      "slug": "quiet-luxury-furniture-nameplate-poster-style",
+      "category": "Editorial + Minimal",
+      "description": "Quiet luxury furniture nameplates with forest-green type, catalog chips, and warm studio restraint.",
+      "summary": "A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.",
+      "preview16": "../styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/quiet-luxury-furniture-nameplate-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md",
+      "folder": "../styles/quiet-luxury-furniture-nameplate-poster-style/",
+      "anchors": [
+        "Warm off-white background with subtle paper softness and a faint studio floor gradient.",
+        "Oversized deep forest-green display typography sits behind the furniture and is partly obscured.",
+        "One hero furniture object dominates the lower-middle frame with realistic product-photography depth.",
+        "The furniture overlaps the rear display word, creating a clean layered poster hierarchy.",
+        "Thin dark green horizontal rule and small spaced navigation words sit near the top.",
+        "Compact lower-left microcopy block adds editorial density without visual clutter."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "low-arc-lounge-chair",
+      "copyPrompt": "Use the \"Quiet Luxury Furniture Nameplate Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a low cream boucle lounge chair with a broad arched back and dark walnut sled frame\nSubject action: the lounge chair sits large in the lower-middle frame, angled three-quarters toward the viewer, overlapping the rear display word\nProduct or prop: cream boucle lounge chair, dark walnut frame, small brushed brass catalog tag, soft cushion seams\nLocation: warm ivory studio catalog poster field\nBackground elements: thin top rule, small spaced navigation words, soft floor gradient, lower-left microcopy block, bottom green rounded bar\nMain text: LOUNGE\nSecondary text: ARC 214 / QUIET SEATING\nAccent symbol: small outlined oval chip reading COLLECT\nWardrobe style: cream boucle upholstery, dark walnut grain, restrained brass detail, refined gallery product styling\n\nStyle direction:\nA premium furniture editorial poster system with a warm off-white studio field, oversized deep\nforest-green display typography behind one realistic hero furniture object, sparse catalog\nmicrocopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.\n\nKeep visible:\n- Warm off-white background with subtle paper softness and a faint studio floor gradient.\n- Oversized deep forest-green display typography sits behind the furniture and is partly obscured.\n- One hero furniture object dominates the lower-middle frame with realistic product-photography depth.\n- The furniture overlaps the rear display word, creating a clean layered poster hierarchy.\n- Thin dark green horizontal rule and small spaced navigation words sit near the top.\n\nAvoid:\nNo original round-back wooden chair, no cane-seat Chinese chair, no carved chair medallion, no\nConcepcial text, no Chair headline from the reference, no Furniture Designs That Define Spaces\ntext, no Product Details label, no CEP 970 code, no Save or Share buttons, no creator signature,\nno watermark, no real brand logo, no QR code, no app UI, no price tag, no ecommerce listing, no\nfull interior room, no multiple hero furniture pieces, no busy props, no flat vector art, no\ncartoon rendering, no toy-like 3D, no heavy gradient or bokeh, no distorted furniture legs, no\nbroken typography, no unreadable main display word.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Kinetic Luxury Street Fashion Cover Style",
+      "slug": "kinetic-luxury-street-fashion-cover-style",
+      "category": "Editorial + Minimal",
+      "description": "Street-fashion cover editorials with motion-blurred architecture, luxury garments, and wide-spaced serif type.",
+      "summary": "A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.",
+      "preview16": "../styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg",
+      "preview9": "../styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg",
+      "styleJson": "../styles/kinetic-luxury-street-fashion-cover-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md",
+      "folder": "../styles/kinetic-luxury-street-fashion-cover-style/",
+      "anchors": [
+        "High-end realistic fashion editorial photography, not illustration, collage, or catalog rendering.",
+        "Single model or one dominant model cropped large from thigh to head, moving laterally through the frame.",
+        "Side-profile or three-quarter walking pose with calm luxury expression and deliberate street-stride energy.",
+        "Strong horizontal motion blur in the background, as if the camera is panning with the subject.",
+        "Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture.",
+        "One saturated or high-contrast statement garment carries the image while the city remains muted."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "crimson-wool-walking-cover",
+      "copyPrompt": "Use the \"Kinetic Luxury Street Fashion Cover Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a poised fashion model with short dark hair moving past a stone townhouse facade\nSubject action: walking in a controlled side-profile stride while the camera pans with her\nProduct or prop: small dark espresso crescent bag and thin black sunglasses with no visible logo\nLocation: quiet European avenue with pale stone blocks and a recessed window line\nBackground elements: horizontal smears of limestone wall, asphalt bands, black window rectangles, and a soft curb stripe\nMain text: TEMPO\nSecondary text: winter motion issue\nAccent symbol: tiny ivory dot separator below the headline\nWardrobe style: deep crimson textured wool cocoon coat over black straight trousers, matte leather gloves, and polished black loafers\n\nStyle direction:\nA premium street-fashion magazine cover style built from side-profile walking photography,\nhorizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair,\nrestrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the\nkinetic editorial grammar of the reference while changing the model identity, wardrobe, prop,\nheadline, and story details.\n\nKeep visible:\n- High-end realistic fashion editorial photography, not illustration, collage, or catalog rendering.\n- Single model or one dominant model cropped large from thigh to head, moving laterally through the frame.\n- Side-profile or three-quarter walking pose with calm luxury expression and deliberate street-stride energy.\n- Strong horizontal motion blur in the background, as if the camera is panning with the subject.\n- Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture.\n\nAvoid:\nsource woman, copied face, copied sunglasses, copied exact side profile, emerald green textured\nleather jacket, matching green handbag, black trousers from reference, exact beige facade, exact\ndark doorway, exact hair sweep, exact walking hand position, VOLUME text, creator signature,\nwatermark, social handle, QR code, real brand logo, monogram, readable store name, e-commerce\ncatalog shot, runway crowd, studio portrait, flat poster collage, cartoon, vector art, 3D\nrender, neon cyberpunk, heavy flash nightlife, overstuffed props, shopping bags, price labels,\ndistorted anatomy, broken hands, warped face, plastic skin, blurry garment, low-resolution\noutput, oversaturated color wash, unreadable text occupying the face.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Sunlit Architectural Fashion Editorial",
       "slug": "sunlit-architectural-fashion-editorial",

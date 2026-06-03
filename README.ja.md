@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-51-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-102-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-54-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-108-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,49 +119,49 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 注目スタイル
 
-まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。51 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
+まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。54 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<h3>Kinetic Geometric Doodle Cutouts</h3>
+<p>大きなフラット幾何色面、ゆるい黒のドゥードル線、紙の粒子感、中心を外した軽い動きで、人物や物体を組み立てる余白のある遊び心の強いイラストシステム。</p>
+<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">プロンプトをコピー</a> · <a href="styles/kinetic-geometric-doodle-cutouts">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
+<p>温かいオフホワイトのスタジオ面、深いフォレストグリーンの大型表示文字、リアルな家具主体、控えめなカタログ小組、細い罫線、アウトライン付きカタログチップ、深緑の丸角下部情報バーで構成する高級家具エディトリアルポスター。</p>
+<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">プロンプトをコピー</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<h3>Kinetic Luxury Street Fashion Cover Style</h3>
+<p>横顔のウォーキング写真、横方向にブレた建築、主役のラグジュアリー衣装、風に流れる髪、抑えた都市ニュートラル、広い字間のセリフ体カバー文字で作る高級ストリートファッション誌カバー。</p>
+<p><a href="styles/kinetic-luxury-street-fashion-cover-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">プロンプトをコピー</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style">フォルダ</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 <a href="styles/sunlit-architectural-fashion-editorial"><img src="styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg" alt="Sunlit Architectural Fashion Editorial preview"></a>
 <h3>Sunlit Architectural Fashion Editorial</h3>
 <p>ローアングルの建築フレーミング、強い地中海の日差し、暖かな石材ニュートラル、長く伸びるモデルのシルエット、抑制されたラグジュアリー styling、ワイヤーや手すり、影、ファサードの幾何線で作る洗練された屋外ハイファッション編集写真スタイル。</p>
-<p><a href="styles/sunlit-architectural-fashion-editorial/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">コピー用プロンプト</a> · <a href="styles/sunlit-architectural-fashion-editorial">フォルダ</a></p>
+<p><a href="styles/sunlit-architectural-fashion-editorial/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">プロンプトをコピー</a> · <a href="styles/sunlit-architectural-fashion-editorial">フォルダ</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/multi-color-beverage-splash-ad-system-style"><img src="styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
 <h3>Multi-Color Beverage Splash Ad System Style</h3>
 <p>巨大な白い3Dタイポ、斜めに置いた主役ドリンクパック、凍結した液体の動き、密度の高いローンチ広告コピー、磨かれた商品ライティングで構成する、4色展開の再利用可能な飲料ローンチ広告システム。</p>
-<p><a href="styles/multi-color-beverage-splash-ad-system-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">コピー用プロンプト</a> · <a href="styles/multi-color-beverage-splash-ad-system-style">フォルダ</a></p>
+<p><a href="styles/multi-color-beverage-splash-ad-system-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">プロンプトをコピー</a> · <a href="styles/multi-color-beverage-splash-ad-system-style">フォルダ</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/yellow-black-manga-food-zine-ad-style"><img src="styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg" alt="Yellow Black Manga Food Zine Ad Style preview"></a>
 <h3>Yellow Black Manga Food Zine Ad Style</h3>
 <p>黒インク線、黄色の広告ブロック、クリーム紙面、激しく切り取られたリアクションパネル、光沢のある手描き主役オブジェクト、歪んだ大見出し、中国語の小さな編集コピー、粗い印刷質感で作る漫画風フード／プロダクト zine 広告スタイル。</p>
-<p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">コピー用プロンプト</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">フォルダ</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/neon-outdoor-diary-longform-collage-style"><img src="styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
-<h3>Neon Outdoor Diary Longform Collage Style</h3>
-<p>チャコール黒のキャンバス、ドキュメンタリー風アクション切り抜き、酸性グリーンの動的見出し、破れた紙パネル、手描き矢印、ステッカーラベル、番号付き章立て、密度の高いソーシャルノート感で作るモバイル優先の屋外日記ロングフォーム・コラージュスタイル。</p>
-<p><a href="styles/neon-outdoor-diary-longform-collage-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">コピー用プロンプト</a> · <a href="styles/neon-outdoor-diary-longform-collage-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
-<h3>Acid Lime 3D Streetwear Type Poster Style</h3>
-<p>淡いスタジオ空間、巨大な黒いブロックタイポ、酸性ライムのマーカーストローク、ステッカーバッジ、ファッションツール小物、ローアングル広角のキャラクター配置、クリーンな合成プロダクト光で作る光沢 C4D ストリートウェアキャンペーンポスター。</p>
-<p><a href="styles/acid-lime-3d-streetwear-type-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/acid-lime-3d-streetwear-type-poster-style.md">コピー用プロンプト</a> · <a href="styles/acid-lime-3d-streetwear-type-poster-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/electric-blue-silhouette-product-launch-style"><img src="styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg" alt="Electric Blue Silhouette Product Launch Style preview"></a>
-<h3>Electric Blue Silhouette Product Launch Style</h3>
-<p>黒い余白、中央の製品シルエット、電気ブルーのリムライト、発光する水平プラットフォーム、巨大なクロップ文字、白い告知コピーで作る高級テック発表ポスター。</p>
-<p><a href="styles/electric-blue-silhouette-product-launch-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/electric-blue-silhouette-product-launch-style.md">コピー用プロンプト</a> · <a href="styles/electric-blue-silhouette-product-launch-style">フォルダ</a></p>
+<p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">プロンプトをコピー</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">フォルダ</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-以下で 51 種すべてのスタイルを閲覧できます。
+下で全 54 スタイルを閲覧できます。
 
 上の注目スタイルも含めた完全なライブラリです。各スタイルの詳しい説明とすべてのファイルリンクは [docs/CATALOG.md](docs/CATALOG.md) を参照してください。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="kinetic-geometric-doodle-cutouts"></a>
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<p><strong><a href="styles/kinetic-geometric-doodle-cutouts">Kinetic Geometric Doodle Cutouts</a></strong><br>
+<em>幾何カットアウトとドゥードル線、紙粒子で作る遊び心あるイラスト。</em><br>
+<a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="quiet-luxury-furniture-nameplate-poster-style"></a>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<p><strong><a href="styles/quiet-luxury-furniture-nameplate-poster-style">Quiet Luxury Furniture Nameplate Poster Style</a></strong><br>
+<em>フォレストグリーンの大文字とカタログ感を持つ静かな高級家具ポスター。</em><br>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="kinetic-luxury-street-fashion-cover-style"></a>
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<p><strong><a href="styles/kinetic-luxury-street-fashion-cover-style">Kinetic Luxury Street Fashion Cover Style</a></strong><br>
+<em>ブレた建築、ラグジュアリー衣装、広い字間のセリフ体によるファッションカバー。</em><br>
+<a href="styles/kinetic-luxury-street-fashion-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="sunlit-architectural-fashion-editorial"></a>

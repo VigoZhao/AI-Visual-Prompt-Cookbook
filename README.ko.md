@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-51-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-102-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-54-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-108-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,49 +119,49 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 추천 스타일
 
-이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 51개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
+이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 54개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<h3>Kinetic Geometric Doodle Cutouts</h3>
+<p>큰 플랫 기하학 색면, 느슨한 검은 낙서 선, 종이 입자감, 중심을 벗어난 경쾌한 움직임으로 인물이나 사물을 조립하는 희박하고 장난스러운 일러스트 시스템.</p>
+<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">프롬프트 복사</a> · <a href="styles/kinetic-geometric-doodle-cutouts">폴더</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
+<p>따뜻한 오프화이트 스튜디오 필드, 깊은 포레스트 그린 대형 타이포그래피, 사실적인 가구 주인공, 성긴 카탈로그 마이크로카피, 얇은 룰, 아웃라인 카탈로그 칩, 진녹색 둥근 하단 정보 바로 구성한 프리미엄 가구 에디토리얼 포스터.</p>
+<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">프롬프트 복사</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">폴더</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<h3>Kinetic Luxury Street Fashion Cover Style</h3>
+<p>측면 워킹 사진, 가로 방향 모션 블러 건축, 강한 존재감의 럭셔리 의상, 바람에 흐르는 머리, 절제된 도시 뉴트럴, 넓은 자간의 세리프 커버 타이포그래피로 만든 프리미엄 스트리트 패션 매거진 커버.</p>
+<p><a href="styles/kinetic-luxury-street-fashion-cover-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">프롬프트 복사</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style">폴더</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 <a href="styles/sunlit-architectural-fashion-editorial"><img src="styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg" alt="Sunlit Architectural Fashion Editorial preview"></a>
 <h3>Sunlit Architectural Fashion Editorial</h3>
 <p>낮은 시점의 건축 프레이밍, 강한 지중해식 햇빛, 따뜻한 석재 뉴트럴, 길게 뻗은 모델 실루엣, 절제된 럭셔리 스타일링, 전선·난간·그림자·파사드 기하에서 오는 섬세한 선으로 만든 야외 하이패션 에디토리얼 사진 스타일.</p>
-<p><a href="styles/sunlit-architectural-fashion-editorial/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">복사 프롬프트</a> · <a href="styles/sunlit-architectural-fashion-editorial">폴더</a></p>
+<p><a href="styles/sunlit-architectural-fashion-editorial/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">프롬프트 복사</a> · <a href="styles/sunlit-architectural-fashion-editorial">폴더</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/multi-color-beverage-splash-ad-system-style"><img src="styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
 <h3>Multi-Color Beverage Splash Ad System Style</h3>
 <p>거대한 흰색 3D 타이포, 대각선 히어로 음료 팩, 얼어붙은 액체 모션, 촘촘한 출시 광고 카피, 정돈된 상업 제품 조명으로 만든 4가지 색상 변형의 재사용 음료 출시 광고 시스템.</p>
-<p><a href="styles/multi-color-beverage-splash-ad-system-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">복사 프롬프트</a> · <a href="styles/multi-color-beverage-splash-ad-system-style">폴더</a></p>
+<p><a href="styles/multi-color-beverage-splash-ad-system-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">프롬프트 복사</a> · <a href="styles/multi-color-beverage-splash-ad-system-style">폴더</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/yellow-black-manga-food-zine-ad-style"><img src="styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg" alt="Yellow Black Manga Food Zine Ad Style preview"></a>
 <h3>Yellow Black Manga Food Zine Ad Style</h3>
 <p>굵은 검정 잉크 라인, 노란 광고 블록, 크림색 종이 면, 과감하게 잘린 리액션 패널, 광택 있는 손그림 주인공 오브젝트, 뒤틀린 대형 타이포, 중국어 편집 소문자, 거친 인쇄 질감으로 만든 만화풍 음식/제품 zine 광고 스타일입니다.</p>
-<p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">복사 프롬프트</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">폴더</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/neon-outdoor-diary-longform-collage-style"><img src="styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
-<h3>Neon Outdoor Diary Longform Collage Style</h3>
-<p>차콜 블랙 캔버스, 다큐멘터리 액션 사진 컷아웃, 산성 그린 키네틱 헤드라인, 찢어진 종이 패널, 손그림 화살표, 스티커 라벨, 번호가 있는 챕터, 촘촘한 소셜 노트 리듬으로 만드는 모바일 우선 야외 다이어리 롱폼 콜라주 스타일입니다.</p>
-<p><a href="styles/neon-outdoor-diary-longform-collage-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">복사 프롬프트</a> · <a href="styles/neon-outdoor-diary-longform-collage-style">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
-<h3>Acid Lime 3D Streetwear Type Poster Style</h3>
-<p>밝은 스튜디오 공간, 거대한 검정 블록 타이포, 산성 라임 마커 스트로크, 스티커 배지, 패션 도구 소품, 로우앵글 광각 캐릭터 연출, 깨끗한 합성 제품 조명으로 만든 광택 C4D 스트리트웨어 캠페인 포스터 스타일입니다.</p>
-<p><a href="styles/acid-lime-3d-streetwear-type-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/acid-lime-3d-streetwear-type-poster-style.md">복사 프롬프트</a> · <a href="styles/acid-lime-3d-streetwear-type-poster-style">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/electric-blue-silhouette-product-launch-style"><img src="styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg" alt="Electric Blue Silhouette Product Launch Style preview"></a>
-<h3>Electric Blue Silhouette Product Launch Style</h3>
-<p>검은 여백, 중앙 제품 실루엣, 전기 블루 림라이트, 빛나는 수평 플랫폼, 크게 잘린 배경 타이포, 흰색 런칭 카피로 만드는 프리미엄 테크 출시 포스터 스타일입니다.</p>
-<p><a href="styles/electric-blue-silhouette-product-launch-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/electric-blue-silhouette-product-launch-style.md">복사 프롬프트</a> · <a href="styles/electric-blue-silhouette-product-launch-style">폴더</a></p>
+<p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">프롬프트 복사</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">폴더</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-아래에서 51개 스타일 전체를 볼 수 있습니다.
+아래에서 전체 54개 스타일을 둘러볼 수 있습니다.
 
-위 추천 스타일을 포함한 전체 라이브러리입니다. 각 스타일의 자세한 설명과 모든 파일 링크는 [docs/CATALOG.md](docs/CATALOG.md)를 참고하세요.
+위의 추천 스타일을 포함한 전체 라이브러리입니다. 각 스타일의 전체 설명과 모든 파일 링크는 [docs/CATALOG.md](docs/CATALOG.md)를 참고하세요.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="kinetic-geometric-doodle-cutouts"></a>
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<p><strong><a href="styles/kinetic-geometric-doodle-cutouts">Kinetic Geometric Doodle Cutouts</a></strong><br>
+<em>플랫 기하 색면, 느슨한 선, 종이 질감의 장난스러운 낙서 컷아웃.</em><br>
+<a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="quiet-luxury-furniture-nameplate-poster-style"></a>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<p><strong><a href="styles/quiet-luxury-furniture-nameplate-poster-style">Quiet Luxury Furniture Nameplate Poster Style</a></strong><br>
+<em>포레스트 그린 대형 글자와 카탈로그 칩이 있는 조용한 럭셔리 가구 포스터.</em><br>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="kinetic-luxury-street-fashion-cover-style"></a>
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<p><strong><a href="styles/kinetic-luxury-street-fashion-cover-style">Kinetic Luxury Street Fashion Cover Style</a></strong><br>
+<em>모션 블러 건축, 럭셔리 의상, 넓은 자간 세리프체의 패션 커버.</em><br>
+<a href="styles/kinetic-luxury-street-fashion-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="sunlit-architectural-fashion-editorial"></a>

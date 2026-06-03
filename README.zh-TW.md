@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="風格數量" src="https://img.shields.io/badge/styles-51-ff5a7a?style=flat-square">
-  <img alt="預覽圖" src="https://img.shields.io/badge/previews-102-4cc9f0?style=flat-square">
+  <img alt="風格數量" src="https://img.shields.io/badge/styles-54-ff5a7a?style=flat-square">
+  <img alt="預覽圖" src="https://img.shields.io/badge/previews-108-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="語言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 精選風格
 
-先看這 6 個風格。每個風格都保持輕量：一個 JSON 加兩張預覽圖。完整 51 個風格見下面的 [All Styles](#all-styles) 畫廊。
+先看這 6 個風格。每個風格都保持輕量：一個 JSON 加兩張預覽圖。完整 54 個風格見下面的 [All Styles](#all-styles) 畫廊。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<h3>Kinetic Geometric Doodle Cutouts</h3>
+<p>一種稀疏俏皮的插畫系統：用超大扁平幾何色塊、鬆散黑色塗鴉線、紙張顆粒和偏心動態，把角色或物體組裝成輕快畫面。</p>
+<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">複製提示詞</a> · <a href="styles/kinetic-geometric-doodle-cutouts">目錄</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
+<p>一種高級家具編輯海報系統：溫暖米白棚拍場、深森林綠大標題、真實家具主體、稀疏目錄小字、細線、描邊目錄標籤和深綠圓角底部資訊欄。</p>
+<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">複製提示詞</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">目錄</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<h3>Kinetic Luxury Street Fashion Cover Style</h3>
+<p>一種高級街頭時尚雜誌封面風格：側身行走攝影、橫向運動模糊建築、醒目奢華服裝、風吹髮絲、克制城市中性色和寬字距襯線封面標題。</p>
+<p><a href="styles/kinetic-luxury-street-fashion-cover-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">複製提示詞</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style">目錄</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/sunlit-architectural-fashion-editorial"><img src="styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg" alt="Sunlit Architectural Fashion Editorial preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Yellow Black Manga Food Zine Ad Style</h3>
 <p>一種黑黃漫畫食物與產品廣告 zine 風格：粗黑墨線、黃色廣告塊、米白紙面、誇張裁切反應面板、發亮手繪主體、變形大字、中文編輯小字和粗糙印刷質感。</p>
 <p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">複製提示詞</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">目錄</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/neon-outdoor-diary-longform-collage-style"><img src="styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
-<h3>Neon Outdoor Diary Longform Collage Style</h3>
-<p>一種行動端優先的戶外日記長圖拼貼風格：炭黑畫布、紀實動作照片切圖、酸性綠動態標題、撕紙資訊板、手繪箭頭、貼紙標籤、編號章節和密集社群筆記節奏。</p>
-<p><a href="styles/neon-outdoor-diary-longform-collage-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">複製提示詞</a> · <a href="styles/neon-outdoor-diary-longform-collage-style">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
-<h3>Acid Lime 3D Streetwear Type Poster Style</h3>
-<p>一種光滑 C4D 街頭服飾活動海報風格：淺色棚拍空間、巨大的黑色塊面標題字、酸性萊姆手寫線條、貼紙徽章、時尚工具道具、低機位廣角角色擺拍和乾淨合成產品光。</p>
-<p><a href="styles/acid-lime-3d-streetwear-type-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/acid-lime-3d-streetwear-type-poster-style.md">複製提示詞</a> · <a href="styles/acid-lime-3d-streetwear-type-poster-style">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/electric-blue-silhouette-product-launch-style"><img src="styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg" alt="Electric Blue Silhouette Product Launch Style preview"></a>
-<h3>Electric Blue Silhouette Product Launch Style</h3>
-<p>一種稀疏高端消費科技發布海報風格：黑色負空間、置中產品剪影、電藍輪廓光、發光水平平台、巨大裁切背景字和乾淨白色發布文案。</p>
-<p><a href="styles/electric-blue-silhouette-product-launch-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/electric-blue-silhouette-product-launch-style.md">複製提示詞</a> · <a href="styles/electric-blue-silhouette-product-launch-style">目錄</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下面可以瀏覽全部 51 個風格。
+下面可以瀏覽全部 54 個風格。
 
 完整庫包含上面的精選風格。每個風格的完整描述和全部文件連結見 [docs/CATALOG.md](docs/CATALOG.md)。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="kinetic-geometric-doodle-cutouts"></a>
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<p><strong><a href="styles/kinetic-geometric-doodle-cutouts">Kinetic Geometric Doodle Cutouts</a></strong><br>
+<em>幾何塗鴉切圖插畫，扁平色塊、鬆散線條和紙張顆粒。</em><br>
+<a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="quiet-luxury-furniture-nameplate-poster-style"></a>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<p><strong><a href="styles/quiet-luxury-furniture-nameplate-poster-style">Quiet Luxury Furniture Nameplate Poster Style</a></strong><br>
+<em>靜奢家具名牌海報，森林綠大字、目錄標籤和溫暖棚拍克制感。</em><br>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="kinetic-luxury-street-fashion-cover-style"></a>
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<p><strong><a href="styles/kinetic-luxury-street-fashion-cover-style">Kinetic Luxury Street Fashion Cover Style</a></strong><br>
+<em>街頭時尚封面大片，運動模糊建築、奢華服裝和寬字距襯線標題。</em><br>
+<a href="styles/kinetic-luxury-street-fashion-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="sunlit-architectural-fashion-editorial"></a>

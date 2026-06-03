@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-51-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-102-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-54-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-108-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,49 +119,49 @@ Ingin mencoba versi singkat dulu? Buka [Copy Prompt Library](docs/copy-prompts/R
 
 ## Gaya Unggulan
 
-Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 51 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
+Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 54 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<h3>Kinetic Geometric Doodle Cutouts</h3>
+<p>Sistem ilustrasi yang ringan dan playful, menyusun karakter atau objek dari potongan warna geometris datar berukuran besar, garis doodle hitam longgar, tekstur kertas, dan gerak off-center yang ringan.</p>
+<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">Salin Prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
+<p>Sistem poster editorial furnitur premium dengan bidang studio off-white hangat, tipografi display hijau hutan besar di belakang objek furnitur realistis, mikrokopi katalog yang jarang, garis tipis, chip katalog outline, dan bar informasi bawah hijau gelap bersudut bulat.</p>
+<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">Salin Prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<h3>Kinetic Luxury Street Fashion Cover Style</h3>
+<p>Gaya sampul majalah street-fashion premium dengan fotografi berjalan profil samping, arsitektur motion-blur horizontal, satu busana mewah dominan, rambut tertiup angin, netral urban yang tertahan, dan tipografi serif sampul berjarak lebar.</p>
+<p><a href="styles/kinetic-luxury-street-fashion-cover-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">Salin Prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style">Folder</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 <a href="styles/sunlit-architectural-fashion-editorial"><img src="styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg" alt="Sunlit Architectural Fashion Editorial preview"></a>
 <h3>Sunlit Architectural Fashion Editorial</h3>
 <p>Gaya fotografi editorial high-fashion outdoor dengan framing arsitektural rendah, cahaya Mediterania keras, netral batu hangat, siluet model memanjang, styling mewah tertahan, dan garis halus dari kabel, pagar, bayangan, atau geometri fasad.</p>
-<p><a href="styles/sunlit-architectural-fashion-editorial/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">Copy Prompt</a> · <a href="styles/sunlit-architectural-fashion-editorial">Folder</a></p>
+<p><a href="styles/sunlit-architectural-fashion-editorial/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">Salin Prompt</a> · <a href="styles/sunlit-architectural-fashion-editorial">Folder</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/multi-color-beverage-splash-ad-system-style"><img src="styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
 <h3>Multi-Color Beverage Splash Ad System Style</h3>
 <p>Sistem iklan peluncuran minuman reusable dengan empat template warna, tipografi 3D putih besar, kemasan minuman diagonal, gerak cairan beku, copy iklan padat, dan lighting produk komersial.</p>
-<p><a href="styles/multi-color-beverage-splash-ad-system-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">Copy Prompt</a> · <a href="styles/multi-color-beverage-splash-ad-system-style">Folder</a></p>
+<p><a href="styles/multi-color-beverage-splash-ad-system-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">Salin Prompt</a> · <a href="styles/multi-color-beverage-splash-ad-system-style">Folder</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/yellow-black-manga-food-zine-ad-style"><img src="styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg" alt="Yellow Black Manga Food Zine Ad Style preview"></a>
 <h3>Yellow Black Manga Food Zine Ad Style</h3>
 <p>Gaya iklan zine makanan dan produk yang terinspirasi manga Jepang, dengan linework tinta hitam, blok iklan kuning, bidang kertas krem, panel reaksi terpotong dramatis, objek utama ilustratif glossy, tipografi display melengkung besar, copy editorial Tionghoa kecil, dan tekstur cetak kasar.</p>
-<p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">Copy Prompt</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">Folder</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/neon-outdoor-diary-longform-collage-style"><img src="styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
-<h3>Neon Outdoor Diary Longform Collage Style</h3>
-<p>Gaya kolase longform diary outdoor yang mobile-first, dengan kanvas hitam arang, cutout foto aksi dokumenter, headline kinetic acid-green, panel kertas robek, panah gambar tangan, label stiker, bagian bernomor, dan ritme catatan sosial yang padat.</p>
-<p><a href="styles/neon-outdoor-diary-longform-collage-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">Copy Prompt</a> · <a href="styles/neon-outdoor-diary-longform-collage-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
-<h3>Acid Lime 3D Streetwear Type Poster Style</h3>
-<p>Gaya poster kampanye streetwear C4D glossy dengan ruang studio pucat, tipografi blok hitam besar, coretan marker acid-lime, badge stiker, properti alat fashion, staging karakter wide-angle rendah, dan pencahayaan produk sintetis yang bersih.</p>
-<p><a href="styles/acid-lime-3d-streetwear-type-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/acid-lime-3d-streetwear-type-poster-style.md">Copy Prompt</a> · <a href="styles/acid-lime-3d-streetwear-type-poster-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/electric-blue-silhouette-product-launch-style"><img src="styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg" alt="Electric Blue Silhouette Product Launch Style preview"></a>
-<h3>Electric Blue Silhouette Product Launch Style</h3>
-<p>Gaya poster peluncuran teknologi premium yang renggang dengan ruang hitam, siluet produk di tengah, rim light biru elektrik, platform bercahaya, tipografi latar terpotong besar, dan copy putih bersih.</p>
-<p><a href="styles/electric-blue-silhouette-product-launch-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/electric-blue-silhouette-product-launch-style.md">Copy Prompt</a> · <a href="styles/electric-blue-silhouette-product-launch-style">Folder</a></p>
+<p><a href="styles/yellow-black-manga-food-zine-ad-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">Salin Prompt</a> · <a href="styles/yellow-black-manga-food-zine-ad-style">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Jelajahi semua 51 gaya di bawah ini.
+Jelajahi semua 54 gaya di bawah.
 
-Library lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi penuh dan semua tautan file per gaya, lihat [docs/CATALOG.md](docs/CATALOG.md).
+Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan semua tautan file per gaya, lihat [docs/CATALOG.md](docs/CATALOG.md).
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="kinetic-geometric-doodle-cutouts"></a>
+<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
+<p><strong><a href="styles/kinetic-geometric-doodle-cutouts">Kinetic Geometric Doodle Cutouts</a></strong><br>
+<em>Cutout doodle geometris playful dengan bidang warna datar, garis longgar, dan grain kertas.</em><br>
+<a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="quiet-luxury-furniture-nameplate-poster-style"></a>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
+<p><strong><a href="styles/quiet-luxury-furniture-nameplate-poster-style">Quiet Luxury Furniture Nameplate Poster Style</a></strong><br>
+<em>Poster nameplate furnitur quiet luxury dengan type hijau hutan dan chip katalog.</em><br>
+<a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="kinetic-luxury-street-fashion-cover-style"></a>
+<a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
+<p><strong><a href="styles/kinetic-luxury-street-fashion-cover-style">Kinetic Luxury Street Fashion Cover Style</a></strong><br>
+<em>Sampul street-fashion dengan arsitektur blur, busana mewah, dan type serif renggang.</em><br>
+<a href="styles/kinetic-luxury-street-fashion-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="sunlit-architectural-fashion-editorial"></a>

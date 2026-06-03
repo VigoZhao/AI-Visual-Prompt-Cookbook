@@ -1,0 +1,173 @@
+{
+  "style_name": "Kinetic Geometric Doodle Cutouts",
+  "style_slug": "kinetic-geometric-doodle-cutouts",
+  "style_version": "2.1",
+  "style_summary": "A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Warm cream paper field with generous empty space around the subject.",
+    "One central figure, object, or small scene built from a few oversized geometric blocks.",
+    "Flat vector-like shapes with subtle printed grain, dry-brush speckle, and soft sprayed gradients.",
+    "Asymmetric kinetic pose with limbs or parts angled diagonally as if mid-motion.",
+    "Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks.",
+    "Palette mixes saturated orange, cobalt blue, pink-lilac, mint green, golden yellow, and solid black in uneven proportions.",
+    "Simplified face or object details are tiny compared with the large body or prop shapes.",
+    "Edges are clean but imperfect, with cut-paper overlaps and occasional transparent color intersections.",
+    "Loose scribble motion lines sit near moving parts without becoming dense or decorative wallpaper.",
+    "No realistic anatomy, lighting, perspective depth, or polished 3D rendering."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the original jumping person with raised waving hands.",
+    "Do not copy the original blue glasses face, black side ponytail, sneaker placement, or exact limb arrangement.",
+    "Do not include the source signature, watermark, creator name, or any platform mark.",
+    "Do not reuse the same orange L-shaped arm, blue belly circle, pink leg, and orange bent leg arrangement as a literal composition.",
+    "Do not reproduce the original cream portrait layout with the same diagonal leap story.",
+    "Do not include readable brand marks, QR codes, usernames, or labels that look like a watermark."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "A single simplified subject floats near center with a diagonal rhythm, surrounded by broad blank space and a few small motion marks.",
+    "subject_placement": "The subject occupies roughly one half to two thirds of the frame, with extremities or props extending toward the corners without touching the edges.",
+    "perspective": "Nearly flat orthographic drawing, no horizon, no modeled shadow, and only overlap to imply layering.",
+    "shape_language": "Large rectangles, semicircles, circles, wedges, soft blobs, and bent capsule-like segments combine into a readable subject.",
+    "line_language": "Black ink lines are casual, variable, and economical, reserved for expressive accents rather than outlining every shape.",
+    "texture": "Paper grain, risograph-like speckle, and dry brush unevenness soften the digital geometry.",
+    "mood": "Friendly, buoyant, lightly comic, and handmade without childish clutter."
+  },
+  "composition": {
+    "layout": "Use one dominant central subject with a clear silhouette, off-center diagonals, and lots of quiet cream margin.",
+    "density": "Low to medium density: five to nine major color shapes plus a handful of black doodle details.",
+    "cropping": "Keep the full subject visible with playful near-edge extensions; avoid tight crops and crowded scene building.",
+    "motion": "Express activity through angled shape placement and two or three loose black motion scribbles."
+  },
+  "typography": {
+    "role": "Text is optional and should behave like tiny hand-drawn graphic marks, never as a headline poster system.",
+    "scale": "Any lettering must be small, imperfect, and secondary to the geometric figure.",
+    "placement": "Place micro lettering off to one side or near a prop, never across the main subject.",
+    "avoid": "No polished fonts, captions, logos, signatures, or large readable slogans."
+  },
+  "color_palette": {
+    "background": "Warm cream or pale peach paper.",
+    "core_colors": [
+      "tomato orange",
+      "cobalt blue",
+      "magenta pink",
+      "lilac violet",
+      "mint green",
+      "golden yellow",
+      "solid black",
+      "white accent"
+    ],
+    "behavior": "Use high-saturation color blocks in playful imbalance, with gradients appearing inside only one or two shapes.",
+    "contrast": "Black linework and shoes or small details create crisp contrast against soft pastel blocks."
+  },
+  "image_treatment": {
+    "rendering_mode": "Flat digital illustration with handmade cut-paper, risograph, and doodle qualities.",
+    "surface": "Subtle paper tooth across the image and colored grain inside major shapes.",
+    "lighting": "No cast shadows, no dramatic light source, and no photoreal highlights.",
+    "finish": "Clean, airy, imperfect, and print-like."
+  },
+  "design_rules": [
+    "Build the subject from a small kit of large geometric color pieces, then add sparse black doodle details.",
+    "Keep the background plain cream with no scenery except minimal contextual marks.",
+    "Let one or two translucent overlaps create a visible color intersection.",
+    "Use diagonal energy and imbalance to imply movement.",
+    "Keep facial, hand, wheel, shoe, handle, or tool details tiny and ink-like.",
+    "Apply visible grain or speckle to colored blocks so the surface feels printed.",
+    "Treat text as optional abstract micro lettering and omit it when it risks becoming a logo or caption."
+  ],
+  "do": [
+    "Use playful flat abstraction with a few bold shapes.",
+    "Preserve warm negative space and airy margins.",
+    "Use black hand-drawn marks sparingly for expression and motion.",
+    "Mix sharp geometric forms with one soft blob or scalloped shape.",
+    "Keep the content clearly different from the reference image."
+  ],
+  "avoid": [
+    "Avoid realistic characters, 3D models, detailed anatomy, or painterly shading.",
+    "Avoid dense backgrounds, many props, scene perspective, or poster clutter.",
+    "Avoid copying the reference figure, pose, hair, glasses, shoes, signature, or limb layout.",
+    "Avoid polished typography, logos, watermarks, QR codes, usernames, and brand marks.",
+    "Avoid monochrome palettes or smooth plastic gradients without print texture."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} illustration in the Kinetic Geometric Doodle Cutouts style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or object: {PRODUCT_OR_PROP}. Setting: {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Optional text treatment: {MAIN_TEXT}; secondary micro marks: {SECONDARY_TEXT}; accent symbol: {ACCENT_SYMBOL}. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a warm cream paper background with generous negative space. Construct the subject from five to nine oversized flat geometric color blocks: tomato orange, cobalt blue, magenta pink, lilac violet, mint green, golden yellow, black, and small white accents. Include subtle risograph grain, dry-brush speckle, and one or two soft sprayed gradients inside selected shapes. Add sparse loose black hand-drawn contour lines only for small expressive details and motion marks. Keep the image flat, airy, asymmetrical, buoyant, handmade, and print-like. Do not use realistic anatomy, 3D rendering, dense scenery, logos, signatures, watermarks, QR codes, or polished fonts.",
+  "negative_prompt": "photorealistic, 3D render, realistic anatomy, realistic lighting, cast shadows, detailed city scene, dense background, cluttered poster, polished typography, logo, watermark, signature, username, QR code, brand mark, exact copy of reference jumping person, blue glasses face, black side ponytail, identical sneaker pose, same orange L arm and blue belly circle layout, vector-only sterile finish, smooth plastic gradient, low-resolution, blurry, cropped subject",
+  "examples": [
+    {
+      "case_name": "rainy-courier",
+      "values": {
+        "SUBJECT": "a cheerful bicycle courier made of abstract geometric parts",
+        "SUBJECT_ACTION": "coasting through a light drizzle while balancing a square delivery box",
+        "PRODUCT_OR_PROP": "small cobalt delivery box with no logo",
+        "LOCATION": "plain cream paper space suggesting a rainy street without buildings",
+        "BACKGROUND_ELEMENTS": "three loose rain dashes, two puddle scribbles, and a tiny floating cloud mark",
+        "MAIN_TEXT": "no headline, only a tiny unreadable hand-drawn route mark",
+        "SECONDARY_TEXT": "two small abstract tick marks near the box",
+        "ACCENT_SYMBOL": "tiny black lightning squiggle",
+        "WARDROBE_STYLE": "orange rain sleeve, mint torso block, pink wheel-like leg shapes, black ink shoes and handlebar lines",
+        "STYLE_FIDELITY_ANCHORS": "warm cream negative space, oversized geometric body pieces, sparse black doodle details, risograph grain, asymmetric diagonal motion, saturated orange blue pink mint palette",
+        "SOURCE_CONTENT_TO_AVOID": "no jumping person, no raised waving hands, no blue glasses face, no side ponytail, no source signature, no repeated original limb layout"
+      }
+    },
+    {
+      "case_name": "garden-drummer",
+      "values": {
+        "SUBJECT": "a tiny drummer character assembled from circles, rectangles, and scalloped shapes",
+        "SUBJECT_ACTION": "tapping a round flower-pot drum with floating rhythm marks",
+        "PRODUCT_OR_PROP": "round orange flower-pot drum and two black ink drumsticks",
+        "LOCATION": "open cream paper field with a small suggestion of a garden corner",
+        "BACKGROUND_ELEMENTS": "two simple leaf shapes, one soft lilac sound puff, and three black rhythm strokes",
+        "MAIN_TEXT": "no readable title, only a small abstract musical scribble",
+        "SECONDARY_TEXT": "short dotted micro marks beside the drum",
+        "ACCENT_SYMBOL": "small hand-drawn star",
+        "WARDROBE_STYLE": "cobalt circular torso, mint trapezoid cap, golden yellow blocky sleeves, black ink shoes",
+        "STYLE_FIDELITY_ANCHORS": "central floating subject, low-density cream background, flat color cutouts, visible printed grain, tiny expressive linework, playful color imbalance",
+        "SOURCE_CONTENT_TO_AVOID": "no original jumping pose, no glasses face, no black ponytail, no sneaker arrangement from the source, no signature or watermark"
+      }
+    },
+    {
+      "case_name": "kitchen-orbit",
+      "values": {
+        "SUBJECT": "an abstract home cook built from bold cutout shapes",
+        "SUBJECT_ACTION": "twirling a spoon while a pancake-like circle flips above a pan",
+        "PRODUCT_OR_PROP": "simple black ink pan and golden circular pancake",
+        "LOCATION": "minimal cream paper kitchen hinted only by two small tile marks",
+        "BACKGROUND_ELEMENTS": "one orange steam curl, a mint rectangle tile, and two black motion arcs",
+        "MAIN_TEXT": "no headline, just a tiny hand-drawn steam mark",
+        "SECONDARY_TEXT": "three small unreadable dots near the spoon",
+        "ACCENT_SYMBOL": "small white sparkle inside a colored block",
+        "WARDROBE_STYLE": "pink apron rectangle, blue circular middle shape, orange bent arm block, black ink hair tuft",
+        "STYLE_FIDELITY_ANCHORS": "flat orthographic illustration, five to nine large color blocks, cream margin, scribbled black details, dry-brush speckles, diagonal kinetic pose",
+        "SOURCE_CONTENT_TO_AVOID": "do not copy the reference jump, waving hands, blue glasses, ponytail, shoe positions, signature, or exact colored body arrangement"
+      }
+    },
+    {
+      "case_name": "library-skater",
+      "values": {
+        "SUBJECT": "a book-loving skater character made from geometric paper cutouts",
+        "SUBJECT_ACTION": "gliding sideways while carrying a stack of three abstract books",
+        "PRODUCT_OR_PROP": "stack of three unlabeled books and a simplified skateboard",
+        "LOCATION": "plain cream paper space with only a hint of a library aisle",
+        "BACKGROUND_ELEMENTS": "two floating book rectangles, one black speed scribble, and a soft magenta puff",
+        "MAIN_TEXT": "no readable headline, only tiny unreadable page marks",
+        "SECONDARY_TEXT": "short black hatch marks on the book edges",
+        "ACCENT_SYMBOL": "small hand-drawn circle dot",
+        "WARDROBE_STYLE": "mint angular torso, orange sleeve block, lilac scarf blob, cobalt wheel circle, black ink shoes",
+        "STYLE_FIDELITY_ANCHORS": "sparse cream background, abstract central figure, oversized flat shapes with grain, black doodle extremities, playful diagonal movement, saturated multi-color palette",
+        "SOURCE_CONTENT_TO_AVOID": "no jumping figure, no raised hands, no glasses face, no side ponytail, no copied sneaker layout, no signature or watermark"
+      }
+    }
+  ]
+}

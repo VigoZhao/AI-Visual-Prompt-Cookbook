@@ -1,0 +1,195 @@
+{
+  "style_name": "Quiet Luxury Furniture Nameplate Poster Style",
+  "style_slug": "quiet-luxury-furniture-nameplate-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.",
+  "environment_variables": {
+    "SUBJECT": "main furniture subject",
+    "SUBJECT_ACTION": "position, crop, and spatial relationship",
+    "PRODUCT_OR_PROP": "specific furniture product, material, or prop",
+    "LOCATION": "controlled studio or catalog poster setting",
+    "BACKGROUND_ELEMENTS": "minimal background details, rules, shadows, and graphic structure",
+    "MAIN_TEXT": "large rear display headline or category word",
+    "SECONDARY_TEXT": "small catalog line, product code, or editorial microcopy",
+    "ACCENT_SYMBOL": "small separator, outlined chip, or catalog mark",
+    "WARDROBE_STYLE": "material styling direction for the furniture and any soft goods",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Warm off-white background with subtle paper softness and a faint studio floor gradient.",
+    "Oversized deep forest-green display typography sits behind the furniture and is partly obscured.",
+    "One hero furniture object dominates the lower-middle frame with realistic product-photography depth.",
+    "The furniture overlaps the rear display word, creating a clean layered poster hierarchy.",
+    "Thin dark green horizontal rule and small spaced navigation words sit near the top.",
+    "Compact lower-left microcopy block adds editorial density without visual clutter.",
+    "Dark green rounded bottom bar spans the lower edge like a premium catalog control strip.",
+    "Small outlined pill chips may float near the lower-right above the bar.",
+    "Soft grounded product shadow anchors the furniture on the warm studio floor.",
+    "Typography is restrained: forest green, off-white, geometric sans, and no colorful noise.",
+    "Furniture materials are tactile and premium: walnut, boucle, travertine, smoked glass, leather, cane, or brass.",
+    "Mood stays quiet, expensive, curated, and gallery-like rather than lifestyle or ecommerce."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the original round-back wooden chair, cane seat, carved medallion, crossed legs, or exact product angle.",
+    "Do not use the original visible words, including Concepcial, Chair, Furniture, Designs That Define Spaces, Product Details, CEP 970, Save, or Share.",
+    "Do not copy the original brand-like creator credit, signature, watermark, or top-left Made by structure.",
+    "Do not recreate the same single Chinese-style wood chair story premise.",
+    "Do not use real furniture brand logos, QR codes, platform marks, usernames, or watermarks.",
+    "Do not turn the output into a room interior, showroom lifestyle scene, or ecommerce listing.",
+    "Do not copy the exact original spacing, bar labels, button labels, or decorative text blocks.",
+    "Do not use the reference image as a direct image-to-image remake."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Luxury furniture catalog poster with product photography and restrained graphic design.",
+    "composition_logic": "Warm empty field, giant rear display word, hero furniture in the lower-middle foreground, small catalog text, and a rounded information bar at the bottom.",
+    "subject_placement": "The furniture is large, centered or slightly offset, and overlaps the typography while remaining the clearest focal point.",
+    "camera_perspective": "Low-to-mid product camera with slight frontal angle, enough depth to show volume and craftsmanship.",
+    "typographic_behavior": "Oversized heavy geometric sans behind the object, small spaced sans navigation at the top, compact microcopy at lower-left, and tiny bar labels.",
+    "palette_behavior": "Ivory and deep green carry the graphic identity; natural furniture materials provide warmth and contrast.",
+    "texture_finish": "Soft paper-like background, realistic material grain, gentle shadow, clean cutout edge, and subtle editorial softness.",
+    "lighting_mood": "Large diffused studio light, calm contact shadow, polished product clarity, and no dramatic theatrical color."
+  },
+  "composition": {
+    "layout": "Top small text and rule, massive rear display word, one central hero furniture object, lower-left microcopy, lower-right chips, and bottom green rounded bar.",
+    "density": "Sparse and deliberate; one furniture object and a small number of catalog graphics only.",
+    "crop": "Furniture may overlap the bottom bar or rear display word but should not be cut awkwardly.",
+    "depth": "Photographic product depth against a flat graphic poster field, with soft ground shadow and subtle overlap layering.",
+    "aspect_ratio_behavior": "For 9:16, stack the header, rear word, tall hero furniture, and bottom bar vertically. For 16:9, stretch the display type and bottom bar horizontally while keeping the furniture large and grounded."
+  },
+  "typography": {
+    "headline": "Extra-large dark forest-green geometric sans word behind the furniture, clean and partially hidden.",
+    "header": "Small dark green sans words spaced widely above a thin horizontal rule.",
+    "microcopy": "Tight lower-left sans paragraph with a small block or line accent, restrained and editorial.",
+    "bar": "Small off-white sans text in the bottom green rounded bar, aligned left and right.",
+    "texture": "Clean print-like edges with slight photographic softness; no signature scripts or distressed grunge."
+  },
+  "color_palette": {
+    "background": [
+      "warm ivory",
+      "stone white",
+      "pale greige",
+      "soft paper beige"
+    ],
+    "graphic_system": [
+      "deep forest green",
+      "bottle green",
+      "muted pine",
+      "off-white"
+    ],
+    "furniture_materials": [
+      "walnut",
+      "smoked oak",
+      "cream boucle",
+      "travertine",
+      "cognac leather",
+      "smoky glass",
+      "brushed brass",
+      "woven cane"
+    ],
+    "shadow_tones": [
+      "warm grey",
+      "soft brown",
+      "low-contrast contact shadow"
+    ],
+    "palette_rule": "Keep ivory and forest green dominant; allow only the furniture material colors to add warmth and richness."
+  },
+  "photographic_direction": {
+    "rendering": "High-end realistic product photography composited into a refined editorial poster layout.",
+    "materials": "Believable wood grain, boucle loops, stone veining, leather grain, smoked glass edges, cane weave, and brushed brass.",
+    "lighting": "Large softbox-style studio light with a gentle floor shadow and restrained highlights.",
+    "lens": "Low-to-mid catalog product perspective, clean orthogonal feel with slight depth and no extreme fisheye.",
+    "finish": "Polished magazine-catalog realism with subtle paper softness, not vector, cartoon, toy 3D, or room render."
+  },
+  "design_rules": [
+    "Use exactly one hero furniture object as the dominant focal point.",
+    "Keep the warm ivory field, dark green rear display type, and bottom green rounded bar visible in every sample.",
+    "Change furniture type, material, main text, microcopy, and catalog code for each case.",
+    "Let the product overlap the rear typography while preserving legible poster hierarchy.",
+    "Keep all text brandless and fictional; avoid real logos and source text.",
+    "Maintain generous negative space and avoid full interiors or ecommerce detail clutter."
+  ],
+  "do": [
+    "Preserve the quiet luxury furniture catalog mood.",
+    "Make materials tactile, realistic, and premium.",
+    "Use deep green typography and a warm ivory field as the fixed identity.",
+    "Ground the product with a soft shadow and subtle floor gradient.",
+    "Use sparse catalog graphics: thin rule, small microcopy, outlined chips, and bottom bar."
+  ],
+  "avoid": [
+    "Avoid recreating the original chair, text, brand signature, button labels, product code, or exact layout wording.",
+    "Avoid real brand marks, watermarks, QR codes, platform UI, sale badges, and price tags.",
+    "Avoid full room scenes, lifestyle staging, busy props, or multiple competing furniture pieces.",
+    "Avoid flat vector art, cartoon rendering, toy-like 3D, heavy gradients, and decorative bokeh.",
+    "Avoid broken typography, unreadable rear display text, distorted furniture legs, and implausible materials."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Large rear display text: {MAIN_TEXT}. Secondary catalog text: {SECONDARY_TEXT}. Accent symbol or chip: {ACCENT_SYMBOL}. Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Build a warm off-white studio poster field with subtle paper softness, one oversized deep forest-green geometric sans display word behind the product, a thin top horizontal rule with small spaced catalog navigation words, compact lower-left microcopy, two small outlined catalog chips near the lower-right, and a dark green rounded product-information bar across the bottom. The furniture must be realistic, premium, materially detailed, softly shadowed, and large enough to overlap the rear typography. Keep the image sparse, refined, gallery-like, and brandless. Do not use real logos, watermarks, QR codes, app UI, price tags, or exact source text.",
+  "negative_prompt": "No original round-back wooden chair, no cane-seat Chinese chair, no carved chair medallion, no Concepcial text, no Chair headline from the reference, no Furniture Designs That Define Spaces text, no Product Details label, no CEP 970 code, no Save or Share buttons, no creator signature, no watermark, no real brand logo, no QR code, no app UI, no price tag, no ecommerce listing, no full interior room, no multiple hero furniture pieces, no busy props, no flat vector art, no cartoon rendering, no toy-like 3D, no heavy gradient or bokeh, no distorted furniture legs, no broken typography, no unreadable main display word.",
+  "examples": [
+    {
+      "case_name": "low-arc-lounge-chair",
+      "values": {
+        "SUBJECT": "a low cream boucle lounge chair with a broad arched back and dark walnut sled frame",
+        "SUBJECT_ACTION": "the lounge chair sits large in the lower-middle frame, angled three-quarters toward the viewer, overlapping the rear display word",
+        "PRODUCT_OR_PROP": "cream boucle lounge chair, dark walnut frame, small brushed brass catalog tag, soft cushion seams",
+        "LOCATION": "warm ivory studio catalog poster field",
+        "BACKGROUND_ELEMENTS": "thin top rule, small spaced navigation words, soft floor gradient, lower-left microcopy block, bottom green rounded bar",
+        "MAIN_TEXT": "LOUNGE",
+        "SECONDARY_TEXT": "ARC 214 / QUIET SEATING",
+        "ACCENT_SYMBOL": "small outlined oval chip reading COLLECT",
+        "WARDROBE_STYLE": "cream boucle upholstery, dark walnut grain, restrained brass detail, refined gallery product styling",
+        "STYLE_FIDELITY_ANCHORS": "warm ivory field, oversized forest-green rear type, one realistic hero furniture object, thin rule, lower-left microcopy, lower-right outlined chips, bottom green rounded bar, soft grounded shadow",
+        "SOURCE_CONTENT_TO_AVOID": "no original wooden round-back chair, no Concepcial text, no Chair headline, no Save or Share labels, no original product code, no creator signature"
+      }
+    },
+    {
+      "case_name": "travertine-oval-coffee-table",
+      "values": {
+        "SUBJECT": "a sculptural oval travertine coffee table with a smoked glass inset shelf",
+        "SUBJECT_ACTION": "the low table is centered and enlarged across the lower frame, its stone legs casting a soft elongated shadow over the bottom bar edge",
+        "PRODUCT_OR_PROP": "honed travertine oval table, smoky glass shelf, rounded slab legs, minimal brass edge line",
+        "LOCATION": "quiet off-white product poster studio",
+        "BACKGROUND_ELEMENTS": "large green rear word partly hidden by the table, top catalog rule, tiny lower-left editorial paragraph, dark green bottom bar",
+        "MAIN_TEXT": "TABLE",
+        "SECONDARY_TEXT": "TAVO 062 / STONE FORM",
+        "ACCENT_SYMBOL": "thin horizontal dash in an outlined pill chip",
+        "WARDROBE_STYLE": "warm stone veining, smoky glass transparency, minimal brass trim, soft matte finish",
+        "STYLE_FIDELITY_ANCHORS": "ivory background, forest-green oversized typography, realistic furniture photography, sparse catalog controls, lower-left microcopy, rounded green product bar, soft shadow",
+        "SOURCE_CONTENT_TO_AVOID": "no Chinese wooden chair, no cane seat, no Concepcial mark, no original headline or code, no Save Share button labels"
+      }
+    },
+    {
+      "case_name": "modular-cloud-sofa",
+      "values": {
+        "SUBJECT": "a low modular ivory sofa with rounded cloud-like cushions and slim brass feet",
+        "SUBJECT_ACTION": "the sofa stretches horizontally through the lower half, cropped slightly by the side margins while obscuring the rear display typography",
+        "PRODUCT_OR_PROP": "ivory upholstered modular sofa, rounded cushions, brass feet, subtle seam piping, small matching bolster",
+        "LOCATION": "minimal warm greige studio poster setting",
+        "BACKGROUND_ELEMENTS": "oversized green display word behind the sofa, clean top rule, spaced header words, outlined catalog chips, bottom green information bar",
+        "MAIN_TEXT": "SOFA",
+        "SECONDARY_TEXT": "MODO 408 / SOFT SYSTEM",
+        "ACCENT_SYMBOL": "small filled green square above the microcopy",
+        "WARDROBE_STYLE": "matte ivory upholstery, gentle cushion volume, brushed brass feet, highly restrained soft-goods styling",
+        "STYLE_FIDELITY_ANCHORS": "warm off-white field, huge forest-green type behind the product, one dominant furniture object, thin top rule, microcopy block, lower-right chips, bottom rounded bar, premium quiet mood",
+        "SOURCE_CONTENT_TO_AVOID": "no original round-back wood chair, no exact source text, no signature, no Product Details label, no CEP 970 code, no app-like Save Share labels"
+      }
+    },
+    {
+      "case_name": "walnut-ridge-sideboard",
+      "values": {
+        "SUBJECT": "a long walnut sideboard with ribbed cane doors, shadow-gap base, and tiny brass pulls",
+        "SUBJECT_ACTION": "the sideboard stands slightly off-center in the lower frame, frontal with slight perspective, blocking the middle of the rear display word",
+        "PRODUCT_OR_PROP": "dark walnut sideboard, woven cane panels, brass pulls, slim black plinth, finely beveled top edge",
+        "LOCATION": "warm paper-white furniture gallery poster",
+        "BACKGROUND_ELEMENTS": "thin green header rule, airy navigation words, compact lower-left catalog copy, two outlined chips, dark green rounded bottom strip",
+        "MAIN_TEXT": "CREDENZA",
+        "SECONDARY_TEXT": "RIDGE 721 / WALNUT STORAGE",
+        "ACCENT_SYMBOL": "small rounded rectangle chip reading DETAILS",
+        "WARDROBE_STYLE": "dark walnut grain, cane weave texture, muted brass hardware, black plinth, quiet architectural styling",
+        "STYLE_FIDELITY_ANCHORS": "paper ivory background, deep green rear display type, realistic furniture hero, restrained catalog typography, lower-left text block, outlined chips, bottom green bar, soft product shadow",
+        "SOURCE_CONTENT_TO_AVOID": "no reference chair, no carved medallion, no Concepcial text, no source headline, no original product code, no watermark or creator credit"
+      }
+    }
+  ]
+}
