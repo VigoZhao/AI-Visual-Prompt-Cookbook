@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 54,
+  "styleCount": 56,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Sunlit Supermodel Nameplate Editorial",
+      "slug": "sunlit-supermodel-nameplate-editorial",
+      "category": "Editorial + Minimal",
+      "description": "Sunlit supermodel editorials with outdoor texture, nameplate details, and clean lower-third type.",
+      "summary": "A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.",
+      "preview16": "../styles/sunlit-supermodel-nameplate-editorial/preview-16x9.jpg",
+      "preview9": "../styles/sunlit-supermodel-nameplate-editorial/preview-9x16.jpg",
+      "styleJson": "../styles/sunlit-supermodel-nameplate-editorial/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md",
+      "folder": "../styles/sunlit-supermodel-nameplate-editorial/",
+      "anchors": [
+        "Low-angle or seated outdoor fashion editorial composition with the model filling the middle third.",
+        "Warm direct sunlight, soft analog shadow rolloff, natural skin highlights, and slight film contrast.",
+        "Dense botanical or environmental foreground blur crossing the lower frame.",
+        "Shallow depth of field with garden, greenhouse, terrace, or coastal texture melting into bokeh.",
+        "Calm supermodel posture with elongated neck, relaxed hands, and composed expression.",
+        "Balanced palette of ivory, beige, rust, tomato red, olive green, soft gold, and sunlit skin."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "terrace-trunk-nameplate",
+      "copyPrompt": "Use the \"Sunlit Supermodel Nameplate Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a fictional statuesque supermodel with sleek dark hair and sunlit skin\nSubject action: reclining with one knee bent beside a cream travel trunk, chin lifted calmly toward the sun\nProduct or prop: a cream lacquer travel trunk with a small brushed brass nameplate on the front edge\nLocation: a flowered stone terrace in late morning light\nBackground elements: pale climbing roses, olive leaves, terracotta pots, blurred red flowers across the lower foreground\nMain text: TERRACE LOOK\nSecondary text: A quiet couture study in sunlight, polished brass, and soft botanical depth.\nAccent symbol: 01\nWardrobe style: ivory silk waistcoat, wide linen trousers, narrow gold earrings, minimal makeup\n\nStyle direction:\nA warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush\nforeground texture, a small material nameplate detail, and clean white lower-third title/caption\ntypography.\n\nKeep visible:\n- Low-angle or seated outdoor fashion editorial composition with the model filling the middle third.\n- Warm direct sunlight, soft analog shadow rolloff, natural skin highlights, and slight film contrast.\n- Dense botanical or environmental foreground blur crossing the lower frame.\n- Shallow depth of field with garden, greenhouse, terrace, or coastal texture melting into bokeh.\n- Calm supermodel posture with elongated neck, relaxed hands, and composed expression.\n\nAvoid:\nNo real brand logos, no celebrity likeness, no watermark, no platform UI, no QR code, no MID\nJOURNEY text, no exact reference model, no orange oversized handbag, no copied garden\narrangement, no CGI studio product render, no vector art, no anime, no cartoon, no distorted\nface, no distorted hands, no illegible typography covering the model's face, no price tags, no\narrows, no busy sticker collage.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Black Cutout Food Card Ad",
+      "slug": "black-cutout-food-card-ad-style",
+      "category": "Product + Campaign",
+      "description": "Black food-card ads with brush lettering, cutout photography, and street-snack print texture.",
+      "summary": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.",
+      "preview16": "../styles/black-cutout-food-card-ad-style/preview-16x9.jpg",
+      "preview9": "../styles/black-cutout-food-card-ad-style/preview-9x16.jpg",
+      "styleJson": "../styles/black-cutout-food-card-ad-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/black-cutout-food-card-ad-style.md",
+      "folder": "../styles/black-cutout-food-card-ad-style/",
+      "anchors": [
+        "Full black canvas with the graphic card floating as the only bright object.",
+        "One large cream or aged-paper irregular cutout card, with rounded handmade edges and a different silhouette per case.",
+        "Dense left-to-right poster hierarchy: large vertical Chinese brush lettering competes with a food photo and a price medallion.",
+        "Food is treated as a glossy clipped photo collage element, not a flat illustration.",
+        "Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline.",
+        "Oversized hand-brushed Chinese characters use uneven stroke width, ink pooling, and imperfect baseline alignment."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "sesame-cold-noodles",
+      "copyPrompt": "Use the \"Black Cutout Food Card Ad\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a lacquer bowl of Sichuan sesame cold noodles with cucumber threads and chili oil\nSubject action: chopsticks lift a glossy ribbon of noodles above the bowl\nProduct or prop: black chopsticks, sesame sauce swirl, chili oil droplets, small peanut crumb pile\nLocation: busy neighborhood noodle stall implied only through handmade labels\nBackground elements: a tall scalloped cloud-shaped cream card, small red seal near the headline, narrow vertical craft tags on the right edge\nMain text: 麻酱凉面\nSecondary text: ¥12 今日拌好 辣香醒胃\nAccent symbol: ¥\nWardrobe style: cool noodles styled glossy and tangled, cucumber green accents, red chili shine, lacquer bowl shadow\n\nStyle direction:\nA black-background food promotion style built around one irregular cream paper card, oversized\nhand-brushed Chinese lettering, clipped food photography, small price medallions, warm\nred/yellow accents, and a handmade street-snack print texture.\n\nKeep visible:\n- Full black canvas with the graphic card floating as the only bright object.\n- One large cream or aged-paper irregular cutout card, with rounded handmade edges and a different silhouette per case.\n- Dense left-to-right poster hierarchy: large vertical Chinese brush lettering competes with a food photo and a price medallion.\n- Food is treated as a glossy clipped photo collage element, not a flat illustration.\n- Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline.\n\nAvoid:\nchenpi red bean soup, red bean paste, wooden bowl of dark dessert, exact source Chinese text,\nWOW, price 8, spoon dripping dark paste, identical card outline, identical bottom slogan, modern\nmenu layout, white outer background, clean corporate packaging, minimal cafe poster, generic\nfood delivery app template, QR code, watermark, logo, brand mark, social handle, rendered UI,\nSVG look, vector-only substitute\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Kinetic Geometric Doodle Cutouts",
       "slug": "kinetic-geometric-doodle-cutouts",
@@ -196,7 +268,7 @@ window.COOKBOOK_STYLES = {
     {
       "name": "Yellow Black Manga Food Zine Ad Style",
       "slug": "yellow-black-manga-food-zine-ad-style",
-      "category": "Type Posters",
+      "category": "Product + Campaign",
       "description": "Black-yellow manga food zine ads with warped type and glossy hero objects.",
       "summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.",
       "preview16": "../styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg",
@@ -340,7 +412,7 @@ window.COOKBOOK_STYLES = {
     {
       "name": "Luxury Perspective Checkerboard Editorial",
       "slug": "luxury-perspective-checkerboard-editorial",
-      "category": "Editorial + Minimal",
+      "category": "Product + Campaign",
       "description": "Luxury editorials with checkerboard perspective, script typography, and polished white space.",
       "summary": "A high-fashion editorial poster style with low-angle luxury photography, sharp red-and-white checkerboard perspective planes, generous white space, oversized custom script typography, and restrained emerald or teal accents. It evokes international luxury maison advertising without copying any real brand mark, campaign, model, product, or exact layout.",
       "preview16": "../styles/luxury-perspective-checkerboard-editorial/preview-16x9.jpg",
@@ -699,7 +771,7 @@ window.COOKBOOK_STYLES = {
     {
       "name": "Warm Fisheye Product Impact Ad Style",
       "slug": "warm-fisheye-product-impact-ad-style",
-      "category": "Type Posters",
+      "category": "Product + Campaign",
       "description": "Warm fisheye product ads with bold Chinese social-commerce type.",
       "summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer.",
       "preview16": "../styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg",
@@ -1669,7 +1741,7 @@ window.COOKBOOK_STYLES = {
     {
       "name": "Plush City Festival Mobile Poster",
       "slug": "plush-city-festival-mobile-poster-style",
-      "category": "Photo + Doodle",
+      "category": "Product + Campaign",
       "description": "Mobile city-event posters with fuzzy mascots and app-card framing.",
       "summary": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
       "preview16": "../styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg",

@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 54 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 56 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Sunlit Supermodel Nameplate Editorial
+
+<a href="../styles/sunlit-supermodel-nameplate-editorial"><img src="../styles/sunlit-supermodel-nameplate-editorial/preview-16x9.jpg" width="720" alt="Sunlit Supermodel Nameplate Editorial preview"></a>
+
+A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.
+
+Files: [style.json](../styles/sunlit-supermodel-nameplate-editorial/style.json) · [Copy Prompt](copy-prompts/sunlit-supermodel-nameplate-editorial.md) · [16:9 preview](../styles/sunlit-supermodel-nameplate-editorial/preview-16x9.jpg) · [9:16 preview](../styles/sunlit-supermodel-nameplate-editorial/preview-9x16.jpg) · [Folder](../styles/sunlit-supermodel-nameplate-editorial)
+
+---
+
+### Black Cutout Food Card Ad
+
+<a href="../styles/black-cutout-food-card-ad-style"><img src="../styles/black-cutout-food-card-ad-style/preview-16x9.jpg" width="720" alt="Black Cutout Food Card Ad preview"></a>
+
+A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.
+
+Files: [style.json](../styles/black-cutout-food-card-ad-style/style.json) · [Copy Prompt](copy-prompts/black-cutout-food-card-ad-style.md) · [16:9 preview](../styles/black-cutout-food-card-ad-style/preview-16x9.jpg) · [9:16 preview](../styles/black-cutout-food-card-ad-style/preview-9x16.jpg) · [Folder](../styles/black-cutout-food-card-ad-style)
+
+---
 
 ### Kinetic Geometric Doodle Cutouts
 

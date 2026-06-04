@@ -1,0 +1,165 @@
+{
+  "style_name": "Black Cutout Food Card Ad",
+  "style_slug": "black-cutout-food-card-ad-style",
+  "style_version": "2.1",
+  "style_summary": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.",
+  "environment_variables": {
+    "SUBJECT": "food item or plated dish shown as the main sales focus",
+    "SUBJECT_ACTION": "food-specific action, garnish motion, utensil lift, or serving moment",
+    "PRODUCT_OR_PROP": "bowl, plate, cup, spoon, chopsticks, sauce, garnish, steam, or serving prop",
+    "LOCATION": "implied food-stall, tea-shop, dessert-shop, or street-snack context",
+    "BACKGROUND_ELEMENTS": "different irregular card silhouette, small tags, side seals, paper labels, and secondary decorative marks",
+    "MAIN_TEXT": "large hand-brushed Chinese dish name or short food headline",
+    "SECONDARY_TEXT": "small support copy, price marker, origin cue, taste note, or craft note",
+    "ACCENT_SYMBOL": "simple graphic accent such as yuan mark, star, dot, slash, small seal, or chopstick tick",
+    "WARDROBE_STYLE": "not used for people; describe food styling, plating, garnish rhythm, and prop material instead",
+    "STYLE_FIDELITY_ANCHORS": "visible style traits that must remain present in every generated sample",
+    "SOURCE_CONTENT_TO_AVOID": "literal source product, exact text, exact price, exact bowl composition, and identity marks to avoid",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Full black canvas with the graphic card floating as the only bright object.",
+    "One large cream or aged-paper irregular cutout card, with rounded handmade edges and a different silhouette per case.",
+    "Dense left-to-right poster hierarchy: large vertical Chinese brush lettering competes with a food photo and a price medallion.",
+    "Food is treated as a glossy clipped photo collage element, not a flat illustration.",
+    "Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline.",
+    "Oversized hand-brushed Chinese characters use uneven stroke width, ink pooling, and imperfect baseline alignment.",
+    "Small vertical seals, boxed side notes, handwritten craft tags, and tiny taste cues add street-stall density.",
+    "A circular or blob-like price badge sits near the food photo with bold red numerals and yuan marks.",
+    "A deep red bottom ribbon or capsule callout carries short white lettering.",
+    "Edges have rough paper grain, slight shadow, scanned poster texture, and low-gloss print finish.",
+    "Composition feels handmade, crowded, appetizing, and local-market promotional rather than clean corporate packaging.",
+    "Every case preserves the black negative space plus irregular-card system while changing the dish, card silhouette, text, and prop arrangement."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate chenpi red bean soup, red bean paste, or a wooden bowl of dark red dessert.",
+    "Do not reuse the exact Chinese text from the reference, including Chen Pi, Hong Dou Sha, WOW, or the original bottom slogan.",
+    "Do not use the exact price of 8 yuan as the main badge.",
+    "Do not copy the same spoon dripping dark paste into the same bowl position.",
+    "Do not reproduce the same cream card outline, same vertical text arrangement, or same red bottom banner shape.",
+    "Do not include any creator watermark, platform mark, QR code, brand logo, or signature.",
+    "Do not turn the result into a clean restaurant menu, realistic product packshot, or generic social-media template."
+  ],
+  "visual_deconstruction": {
+    "style_category": "handmade Chinese street-food ad card with photo-collage food centerpiece",
+    "composition_logic": "black outer negative space frames a single bright irregular card; heavy type on one side, appetizing food photo on the other, price badge above or beside the dish, red callout strip along the lower edge",
+    "subject_placement": "dish photo is medium-large and overlaps the cream card interior; text blocks press close to it without clean modern spacing",
+    "perspective": "food photography uses shallow three-quarter tabletop perspective while the card and typography remain flat poster graphics",
+    "texture": "aged paper grain, slightly rough cutout edge, ink bleed, uneven brush marks, and scanned print softness",
+    "mood": "cheap, handmade, local, warm, loud, snack-shop persuasive, with playful market energy"
+  },
+  "composition": {
+    "canvas": "Keep the outer canvas pure black and quiet so the cream cutout reads as a food-card object.",
+    "card": "Use one asymmetric cream paper card with a unique silhouette for each case, such as scalloped cloud, slanted ticket, peanut capsule, folded shield, gourd plaque, or torn label.",
+    "hierarchy": "Balance oversized brush text, the food photo, a price bubble, tiny side tags, and a bottom red ribbon in a crowded but legible poster cluster.",
+    "ratio_behavior": "For 9:16, stack text and food vertically inside a taller card; for 16:9, stretch the card sideways with text mass left and food mass right."
+  },
+  "typography": {
+    "main": "Use large hand-brushed Chinese characters with dark brown or red-brown ink, uneven pressure, thick and thin strokes, and visible handmade wobble.",
+    "secondary": "Use small vertical notes, compact boxed labels, mini seals, and short craft copy in black, red, or brown.",
+    "price": "Render a bold yuan price marker in a round or blob badge, with red numerals on warm cream or orange.",
+    "callout": "Place a deep red ribbon or capsule at the bottom with short white hand-painted text."
+  },
+  "color_palette": {
+    "background": "near-black or pure black outside the card",
+    "paper": "warm cream, aged ivory, light rice-paper yellow",
+    "ink": "dark brown, red-brown, black-brown",
+    "accent": "ochre orange, mustard yellow, seal red, deep callout red",
+    "food": "natural glossy food colors kept richer than the flat paper palette",
+    "proportion": "about 55 percent cream card, 25 percent black negative space, 12 percent dark ink, 8 percent red/yellow accents"
+  },
+  "image_treatment": {
+    "food_rendering": "Use realistic clipped food photography with glossy sauce, steam, toppings, and utensil highlights, pasted onto the flat card like a printed ad collage.",
+    "graphic_rendering": "Keep card, badges, labels, and lettering flat, handmade, and lightly distressed.",
+    "lighting": "Soft warm tabletop highlights on the food, flat even light on paper graphics, strong separation against black.",
+    "finish": "Slight scanned poster softness, paper grain, imperfect cut edges, and subtle shadow beneath the card."
+  },
+  "design_rules": [
+    "Always use a black outer background and one irregular cream cutout card.",
+    "Make each case use a visibly different card silhouette and different placement rhythm.",
+    "Keep the subject as a food item, dessert, snack, noodle, bun, drink, or plated dish.",
+    "Use large hand-brushed Chinese type as a dominant graphic ingredient.",
+    "Include a food photo collage element, price badge, small vertical side notes, and red bottom callout.",
+    "Keep the design crowded and tactile without becoming a full menu board."
+  ],
+  "do": [
+    "Preserve the handmade Chinese snack-ad energy and black negative-space framing.",
+    "Change dish, text, price, card outline, and prop arrangement for every sample.",
+    "Use short Chinese copy, taste notes, price medallions, and tiny craft labels.",
+    "Let the food look appetizing and photographic while the card remains flat and printed."
+  ],
+  "avoid": [
+    "Avoid copying the original red bean dessert, exact text, exact price, or same spoon-and-bowl composition.",
+    "Avoid clean vector menu design, Western cafe minimalism, corporate brand templates, or glossy app UI aesthetics.",
+    "Avoid white backgrounds outside the card, square modern cards, uniform card shapes, or identical layouts across cases.",
+    "Avoid watermarks, QR codes, social handles, platform logos, or real brand names."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} promotional food poster in the \"Black Cutout Food Card Ad\" visual style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location context: {LOCATION}. Background and card details: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Food styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these rules: pure black outer background; a single warm cream irregular cutout card with handmade rounded or torn edges; each card silhouette must be visibly different from other cases; dense Chinese street-food ad hierarchy; oversized rough hand-brushed Chinese lettering; realistic clipped food photo collage placed on the flat card; bold yuan price medallion with a value that is not 8; tiny vertical side seals and craft labels; deep red bottom ribbon with short white lettering; ochre, mustard, seal red, dark brown ink, warm cream paper, paper grain, slight scan softness, subtle card shadow. Match the reference style first, then change the dish, text, prop, card outline, price, and layout details.",
+  "negative_prompt": "chenpi red bean soup, red bean paste, wooden bowl of dark dessert, exact source Chinese text, WOW, price 8, spoon dripping dark paste, identical card outline, identical bottom slogan, modern menu layout, white outer background, clean corporate packaging, minimal cafe poster, generic food delivery app template, QR code, watermark, logo, brand mark, social handle, rendered UI, SVG look, vector-only substitute",
+  "examples": [
+    {
+      "case_name": "sesame-cold-noodles",
+      "values": {
+        "SUBJECT": "a lacquer bowl of Sichuan sesame cold noodles with cucumber threads and chili oil",
+        "SUBJECT_ACTION": "chopsticks lift a glossy ribbon of noodles above the bowl",
+        "PRODUCT_OR_PROP": "black chopsticks, sesame sauce swirl, chili oil droplets, small peanut crumb pile",
+        "LOCATION": "busy neighborhood noodle stall implied only through handmade labels",
+        "BACKGROUND_ELEMENTS": "a tall scalloped cloud-shaped cream card, small red seal near the headline, narrow vertical craft tags on the right edge",
+        "MAIN_TEXT": "麻酱凉面",
+        "SECONDARY_TEXT": "¥12 今日拌好 辣香醒胃",
+        "ACCENT_SYMBOL": "¥",
+        "WARDROBE_STYLE": "cool noodles styled glossy and tangled, cucumber green accents, red chili shine, lacquer bowl shadow",
+        "STYLE_FIDELITY_ANCHORS": "black canvas, irregular cream card, large brush Chinese lettering, clipped food photo, price badge, red bottom callout, small vertical labels, paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no red bean dessert, no chenpi text, no price 8, no dripping spoon, no same card silhouette"
+      }
+    },
+    {
+      "case_name": "taro-milk-ice",
+      "values": {
+        "SUBJECT": "a ceramic dessert cup of taro milk shaved ice with purple taro paste and cream",
+        "SUBJECT_ACTION": "a spoon scoops a soft curl of purple taro cream from the top",
+        "PRODUCT_OR_PROP": "small ceramic cup, silver spoon, taro cubes, condensed milk streaks, toasted almond flakes",
+        "LOCATION": "old dessert shop counter suggested by tiny handwritten shop-note stickers",
+        "BACKGROUND_ELEMENTS": "a peanut-shaped horizontal cream card with two bulging lobes, round orange price badge on the upper left, torn side tag on the lower right",
+        "MAIN_TEXT": "芋泥冰",
+        "SECONDARY_TEXT": "¥16 冰凉绵密 奶香足",
+        "ACCENT_SYMBOL": "★",
+        "WARDROBE_STYLE": "soft purple taro mound, creamy white highlights, glossy dessert cup, cool mist hints",
+        "STYLE_FIDELITY_ANCHORS": "black canvas, irregular cream card, large brush Chinese lettering, clipped food photo, price badge, red bottom callout, small vertical labels, paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no red bean soup, no original slogans, no price 8, no wooden bowl, no duplicate spoon-drip composition"
+      }
+    },
+    {
+      "case_name": "scallion-pancake",
+      "values": {
+        "SUBJECT": "a stack of flaky scallion pancakes cut into wedges with golden blistered layers",
+        "SUBJECT_ACTION": "one wedge is lifted to reveal crisp layers and green scallion flecks",
+        "PRODUCT_OR_PROP": "brown paper tray, bamboo tongs, sesame sprinkle, small soy-vinegar dipping saucer",
+        "LOCATION": "street breakfast cart hinted by stamp-like morning labels",
+        "BACKGROUND_ELEMENTS": "a slanted ticket-shaped cream card with one clipped corner, red bottom ribbon angled upward, small boxed notes along the left margin",
+        "MAIN_TEXT": "葱油酥饼",
+        "SECONDARY_TEXT": "¥10 现烙热卖 层层酥",
+        "ACCENT_SYMBOL": "◎",
+        "WARDROBE_STYLE": "golden crisp pancake texture, browned edges, green scallion specks, warm oil sheen",
+        "STYLE_FIDELITY_ANCHORS": "black canvas, irregular cream card, large brush Chinese lettering, clipped food photo, price badge, red bottom callout, small vertical labels, paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no red bean dessert, no chenpi product, no price 8, no same vertical text block, no wooden bowl"
+      }
+    },
+    {
+      "case_name": "ginger-milk-custard",
+      "values": {
+        "SUBJECT": "a small porcelain bowl of ginger milk custard with a silky white surface and caramel ginger syrup",
+        "SUBJECT_ACTION": "a porcelain spoon breaks the custard surface with a warm syrup streak",
+        "PRODUCT_OR_PROP": "white porcelain bowl, porcelain spoon, ginger slices, amber syrup drop, tiny steam curl",
+        "LOCATION": "Cantonese sweet soup shop evoked through old-style vertical note strips",
+        "BACKGROUND_ELEMENTS": "a folded shield-shaped cream card with rounded shoulders and a wavy lower edge, price badge tucked into the top right, red seal under the main text",
+        "MAIN_TEXT": "姜汁撞奶",
+        "SECONDARY_TEXT": "¥14 暖胃嫩滑 手作甜品",
+        "ACCENT_SYMBOL": "●",
+        "WARDROBE_STYLE": "silky white custard, amber ginger syrup gloss, porcelain highlights, warm dessert steam",
+        "STYLE_FIDELITY_ANCHORS": "black canvas, irregular cream card, large brush Chinese lettering, clipped food photo, price badge, red bottom callout, small vertical labels, paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no red bean paste, no chenpi wording, no price 8, no dark dessert bowl, no same card outline"
+      }
+    }
+  ]
+}

@@ -8,6 +8,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Acid Lime 3D Streetwear Type Poster Style | [Copy Prompt](acid-lime-3d-streetwear-type-poster-style.md) | [style.json](../../styles/acid-lime-3d-streetwear-type-poster-style/style.json) |
 | Analog Sticker Diary Portrait Poster Style | [Copy Prompt](analog-sticker-diary-portrait-poster-style.md) | [style.json](../../styles/analog-sticker-diary-portrait-poster-style/style.json) |
 | Backseat Transit Doodle Letter Poster Style | [Copy Prompt](backseat-transit-doodle-letter-poster-style.md) | [style.json](../../styles/backseat-transit-doodle-letter-poster-style/style.json) |
+| Black Cutout Food Card Ad | [Copy Prompt](black-cutout-food-card-ad-style.md) | [style.json](../../styles/black-cutout-food-card-ad-style/style.json) |
 | Blue Bubble Fisheye Action Poster Style | [Copy Prompt](blue-bubble-fisheye-action-poster-style.md) | [style.json](../../styles/blue-bubble-fisheye-action-poster-style/style.json) |
 | Blue Chinese Perspective Type Canyon Style | [Copy Prompt](blue-chinese-perspective-type-canyon-style.md) | [style.json](../../styles/blue-chinese-perspective-type-canyon-style/style.json) |
 | Blue HUD Macro Creator Tech Poster | [Copy Prompt](blue-hud-macro-product-poster.md) | [style.json](../../styles/blue-hud-macro-product-poster/style.json) |
@@ -48,6 +49,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
 | Sunlit Architectural Fashion Editorial | [Copy Prompt](sunlit-architectural-fashion-editorial.md) | [style.json](../../styles/sunlit-architectural-fashion-editorial/style.json) |
+| Sunlit Supermodel Nameplate Editorial | [Copy Prompt](sunlit-supermodel-nameplate-editorial.md) | [style.json](../../styles/sunlit-supermodel-nameplate-editorial/style.json) |
 | Sunny 3D Avatar Campaign Style | [Copy Prompt](sunny-3d-avatar-campaign-style.md) | [style.json](../../styles/sunny-3d-avatar-campaign-style/style.json) |
 | Surreal Fish Doodle Landmark Photo Collage Style | [Copy Prompt](surreal-fish-doodle-landmark-photo-collage-style.md) | [style.json](../../styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) |
 | Teenage Skate Scribble Screenprint Poster Style | [Copy Prompt](teenage-skate-scribble-screenprint-poster-style.md) | [style.json](../../styles/teenage-skate-scribble-screenprint-poster-style/style.json) |

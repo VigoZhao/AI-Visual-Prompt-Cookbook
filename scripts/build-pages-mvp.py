@@ -116,6 +116,11 @@ CATEGORY_RULES = [
             "campaign",
             "tech",
             "toy",
+            "food",
+            "ad",
+            "advertising",
+            "promotion",
+            "card",
         ],
     ),
 ]

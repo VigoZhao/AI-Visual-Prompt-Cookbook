@@ -1,0 +1,185 @@
+{
+  "style_name": "Sunlit Supermodel Nameplate Editorial",
+  "style_slug": "sunlit-supermodel-nameplate-editorial",
+  "style_version": "2.1",
+  "style_summary": "A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.",
+  "environment_variables": {
+    "SUBJECT": "main supermodel or editorial fashion subject",
+    "SUBJECT_ACTION": "poised seated, reclining, leaning, or kneeling action",
+    "PRODUCT_OR_PROP": "luxury prop, case, chair, trunk, compact, garment detail, or object carrying a small material nameplate",
+    "LOCATION": "outdoor or greenhouse editorial environment",
+    "BACKGROUND_ELEMENTS": "botanical or environmental details that create soft foreground and background depth",
+    "MAIN_TEXT": "large lower-third editorial headline",
+    "SECONDARY_TEXT": "small white caption block under the headline",
+    "ACCENT_SYMBOL": "minimal separator symbol or registered-mark-like editorial accent",
+    "WARDROBE_STYLE": "premium wardrobe, styling, hair, and accessory direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Low-angle or seated outdoor fashion editorial composition with the model filling the middle third.",
+    "Warm direct sunlight, soft analog shadow rolloff, natural skin highlights, and slight film contrast.",
+    "Dense botanical or environmental foreground blur crossing the lower frame.",
+    "Shallow depth of field with garden, greenhouse, terrace, or coastal texture melting into bokeh.",
+    "Calm supermodel posture with elongated neck, relaxed hands, and composed expression.",
+    "Balanced palette of ivory, beige, rust, tomato red, olive green, soft gold, and sunlit skin.",
+    "One small physical nameplate, plaque, tag, or engraved label integrated into the prop or wardrobe.",
+    "Large white uppercase sans-serif headline near the lower edge.",
+    "Small white caption block beneath the headline, arranged as a premium editorial prompt card.",
+    "Photographic film realism with subtle grain, lens softness, and natural imperfections."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the curly-haired woman in a beige suit from the reference.",
+    "Do not use the oversized orange leather handbag as the central prop.",
+    "Do not use the words MID JOURNEY or the exact prompt-card copy from the reference.",
+    "Do not copy the same seated pose, garden flower arrangement, or orange prop placement.",
+    "Do not include watermarks, platform logos, creator marks, QR codes, or signature branding.",
+    "Do not imply a real celebrity, real designer logo, or identifiable commercial fashion house."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "A portrait-led fashion photograph framed by flowers or environmental texture, with face in the upper-middle zone, prop and torso forming a strong lower mass, and text anchored near the bottom.",
+    "subject_placement": "The model is close to camera, slightly low in the frame, surrounded by blurred foreground and soft background detail.",
+    "camera_perspective": "Close 35mm to 50mm editorial lens feel, seated or low viewpoint, shallow focus, natural bokeh, mild lens softness.",
+    "lighting": "Bright warm daylight with gentle shadows, no studio flash, no seamless backdrop.",
+    "texture": "Analog grain, soft edges, tactile wardrobe fabric, leather, enamel, metal, flowers, leaves, grasses, or textile blur.",
+    "mood": "Relaxed luxury, outdoor couture, confident stillness, premium magazine editorial calm."
+  },
+  "composition": {
+    "primary_layout": "Model centered or slightly offset, prop/nameplate in the lower middle or lower right, text lower-left or lower-center.",
+    "foreground_depth": "Foreground petals, leaves, grasses, curtains, or textile edges should overlap the bottom zone without hiding the headline.",
+    "scale": "The model, wardrobe, and prop should feel close and editorial, not distant lifestyle.",
+    "negative_space": "Use darker foliage, shadow, or soft blur behind typography to keep white text legible."
+  },
+  "typography": {
+    "headline": "Large white uppercase geometric sans-serif, premium poster spacing, lower-third placement.",
+    "caption": "Smaller white multi-line caption block under the headline, magazine prompt-card rhythm.",
+    "accent": "A minimal symbol can follow the headline, but it must not become a logo or watermark.",
+    "integration": "Text should feel printed onto the poster surface, with slight softness from the photographic image."
+  },
+  "color_palette": {
+    "warm_neutrals": [
+      "ivory",
+      "champagne",
+      "beige",
+      "pale linen",
+      "sunlit taupe"
+    ],
+    "botanical_tones": [
+      "olive green",
+      "deep garden green",
+      "muted sage",
+      "soft yellow flower accents"
+    ],
+    "accent_warmth": [
+      "tomato red",
+      "poppy orange",
+      "clay",
+      "rust",
+      "coral",
+      "lacquered crimson"
+    ],
+    "material_tones": [
+      "brushed brass",
+      "soft gold",
+      "pale silver",
+      "warm skin highlights"
+    ]
+  },
+  "photographic_direction": {
+    "rendering_mode": "Photographic analog fashion editorial, not illustration, vector, CGI, or UI mockup.",
+    "lens_and_focus": "Shallow depth of field, foreground blur, creamy bokeh, slight edge softness.",
+    "surface_quality": "Tactile fabric, metal nameplate, leather or lacquer, botanical texture, light film grain.",
+    "text_treatment": "White lower-third typography should be clean, flat, and poster-like over the photo."
+  },
+  "design_rules": [
+    "Keep the visual genre as a warm outdoor analog fashion photograph with poster typography.",
+    "Make the nameplate a small material detail attached to a prop, garment, case, chair, or accessory.",
+    "Change the model identity, pose, prop, location, and text for every sample.",
+    "Keep typography lower-third and white, with a large headline and smaller caption block.",
+    "Use botanical or environmental foreground blur to create depth and preserve the reference's softness.",
+    "Avoid copying any real brand or platform identity; all labels must be fictional and generic."
+  ],
+  "do": [
+    "Use warm sunlight, film grain, and shallow focus.",
+    "Make the subject look like an editorial supermodel without referencing a real person.",
+    "Include a small engraved, stitched, enamel, or brass nameplate detail.",
+    "Let flowers, leaves, fabric, or grasses partially frame the lower foreground.",
+    "Keep white lower-third text legible and premium."
+  ],
+  "avoid": [
+    "Do not recreate the exact reference model, orange handbag, garden setup, or text.",
+    "Do not turn the scene into studio beauty, e-commerce product photography, anime, CGI, or vector art.",
+    "Do not use real logos, real designer marks, watermarks, QR codes, or social media UI.",
+    "Do not add price labels, arrows, stickers, or busy marketing callouts.",
+    "Do not let text cover the face or turn the nameplate into a large digital badge."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} premium analog fashion editorial poster photograph. Subject: {SUBJECT}. Action and pose: {SUBJECT_ACTION}. Wardrobe and styling: {WARDROBE_STYLE}. Product or prop: {PRODUCT_OR_PROP}, with a small physical nameplate, plaque, tag, or engraved label integrated into the object. Location: {LOCATION}. Background and foreground details: {BACKGROUND_ELEMENTS}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use warm direct sunlight, shallow depth of field, foreground botanical or textile blur, slight film grain, soft analog shadows, tactile fabric and metal textures, relaxed luxury mood, and a close low editorial camera angle. Add clean white lower-third typography: large uppercase headline text reading \"{MAIN_TEXT}\" followed by the accent \"{ACCENT_SYMBOL}\", with a smaller white caption block reading \"{SECONDARY_TEXT}\". The typography should feel printed on a fashion magazine prompt-card poster, not like a watermark or app UI. Do not use real logos or real brand marks.",
+  "negative_prompt": "No real brand logos, no celebrity likeness, no watermark, no platform UI, no QR code, no MID JOURNEY text, no exact reference model, no orange oversized handbag, no copied garden arrangement, no CGI studio product render, no vector art, no anime, no cartoon, no distorted face, no distorted hands, no illegible typography covering the model's face, no price tags, no arrows, no busy sticker collage.",
+  "examples": [
+    {
+      "case_name": "terrace-trunk-nameplate",
+      "values": {
+        "SUBJECT": "a fictional statuesque supermodel with sleek dark hair and sunlit skin",
+        "SUBJECT_ACTION": "reclining with one knee bent beside a cream travel trunk, chin lifted calmly toward the sun",
+        "PRODUCT_OR_PROP": "a cream lacquer travel trunk with a small brushed brass nameplate on the front edge",
+        "LOCATION": "a flowered stone terrace in late morning light",
+        "BACKGROUND_ELEMENTS": "pale climbing roses, olive leaves, terracotta pots, blurred red flowers across the lower foreground",
+        "MAIN_TEXT": "TERRACE LOOK",
+        "SECONDARY_TEXT": "A quiet couture study in sunlight, polished brass, and soft botanical depth.",
+        "ACCENT_SYMBOL": "01",
+        "WARDROBE_STYLE": "ivory silk waistcoat, wide linen trousers, narrow gold earrings, minimal makeup",
+        "STYLE_FIDELITY_ANCHORS": "low-angle outdoor fashion editorial, warm daylight, shallow depth of field, foreground flower blur, white lower-third typography, small material nameplate, analog film grain, premium relaxed mood",
+        "SOURCE_CONTENT_TO_AVOID": "no curly-haired beige-suit woman, no oversized orange handbag, no MID JOURNEY text, no copied flower bed, no real designer logo"
+      }
+    },
+    {
+      "case_name": "greenhouse-compact-nameplate",
+      "values": {
+        "SUBJECT": "a fictional tall supermodel with cropped blonde hair and an elegant still expression",
+        "SUBJECT_ACTION": "sitting on a low greenhouse bench while holding an enamel compact toward the camera",
+        "PRODUCT_OR_PROP": "a deep green enamel compact with a tiny gold plaque nameplate near the hinge",
+        "LOCATION": "a humid botanical glasshouse with sun streaks on the floor",
+        "BACKGROUND_ELEMENTS": "fern fronds, white orchids, glass panes, blurred yellow flowers in the lower foreground",
+        "MAIN_TEXT": "GLASSHOUSE",
+        "SECONDARY_TEXT": "Green enamel, filtered heat, and a controlled moment of outdoor glamour.",
+        "ACCENT_SYMBOL": "02",
+        "WARDROBE_STYLE": "soft champagne satin jacket, cream camisole, delicate chain necklace, natural luminous makeup",
+        "STYLE_FIDELITY_ANCHORS": "close low editorial camera, warm sunlit analog realism, botanical foreground blur, shallow bokeh, white lower-third text block, small physical nameplate, tactile metal detail, relaxed luxury",
+        "SOURCE_CONTENT_TO_AVOID": "no reference woman, no beige suit, no orange leather handbag, no MID JOURNEY wording, no real fashion-house logo"
+      }
+    },
+    {
+      "case_name": "seaside-chair-nameplate",
+      "values": {
+        "SUBJECT": "a fictional supermodel with long auburn hair and a serene sculptural profile",
+        "SUBJECT_ACTION": "leaning back into a low striped deck chair with one hand resting near the stitched label",
+        "PRODUCT_OR_PROP": "a canvas deck chair with a small stitched ivory nameplate label on the side seam",
+        "LOCATION": "a sunlit seaside garden path near dune grasses",
+        "BACKGROUND_ELEMENTS": "windblown grasses, coral flowers, pale blue distance, soft red petals blurred at the bottom edge",
+        "MAIN_TEXT": "COASTAL PLATE",
+        "SECONDARY_TEXT": "A linen silhouette, salt air, and a tiny label caught in afternoon sun.",
+        "ACCENT_SYMBOL": "03",
+        "WARDROBE_STYLE": "cream linen blazer over a rust silk wrap top and tailored linen trousers, gold hoop earrings, bare natural styling",
+        "STYLE_FIDELITY_ANCHORS": "outdoor fashion poster photograph, warm sunlight, low seated composition, foreground botanical blur, shallow focus, clean white lower-third typography, small material nameplate, film grain",
+        "SOURCE_CONTENT_TO_AVOID": "no exact garden from source, no oversized orange bag, no MID JOURNEY headline, no copied seated pose, no real brand mark"
+      }
+    },
+    {
+      "case_name": "courtyard-case-nameplate",
+      "values": {
+        "SUBJECT": "a fictional elegant supermodel with short black hair and a poised direct gaze",
+        "SUBJECT_ACTION": "kneeling beside a lacquered beauty case while turning slightly toward the camera",
+        "PRODUCT_OR_PROP": "a tomato-red lacquer beauty case with a small rectangular silver nameplate on the clasp",
+        "LOCATION": "a Mediterranean courtyard with flowering shrubs and patterned stone",
+        "BACKGROUND_ELEMENTS": "white bougainvillea, olive branches, warm stone wall, soft pink blossoms crossing the lower foreground",
+        "MAIN_TEXT": "COURTYARD CASE",
+        "SECONDARY_TEXT": "Red lacquer, silver detail, and a composed editorial pause in the garden.",
+        "ACCENT_SYMBOL": "04",
+        "WARDROBE_STYLE": "pale sand tailored jacket, ivory wrap top, loose silk trousers, small silver earrings",
+        "STYLE_FIDELITY_ANCHORS": "warm analog outdoor couture image, low camera, shallow depth of field, dense floral foreground, white lower-third prompt-card typography, small physical nameplate, tactile prop surface, premium calm mood",
+        "SOURCE_CONTENT_TO_AVOID": "no curly-haired beige-suit source model, no orange handbag, no MID JOURNEY text, no copied pose, no exact flower composition"
+      }
+    }
+  ]
+}
