@@ -1,0 +1,174 @@
+{
+  "style_name": "Market Brush Produce Poster Style",
+  "style_slug": "market-brush-produce-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions.",
+  "environment_variables": {
+    "SUBJECT": "main fruit or vegetable hero",
+    "SUBJECT_ACTION": "still-life gesture or market-poster action",
+    "PRODUCT_OR_PROP": "secondary produce item, crate, leaf, basket, or utensil",
+    "LOCATION": "minimal market, grocer, kitchen, or seasonal backdrop",
+    "BACKGROUND_ELEMENTS": "small seals, registration marks, micro captions, and sparse contextual marks",
+    "MAIN_TEXT": "large rough headline or glyph block",
+    "SECONDARY_TEXT": "thin header line and small bottom caption",
+    "ACCENT_SYMBOL": "small separator mark, star, bracket, or parenthesis stamp",
+    "WARDROBE_STYLE": "styling direction for any optional human presence or prop handling",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Warm ivory or pale cream paper background with very large uncluttered negative space.",
+    "One oversized photoreal produce hero cropped near an edge, plus one much smaller echo produce item.",
+    "Produce surface is glossy, rounded, bright, softly airbrushed, and slightly posterized rather than documentary.",
+    "Hard scale contrast between produce and typography: subject dominates the lower or side field while type crowds the upper or opposite side.",
+    "Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture.",
+    "Thin editorial header line at the top, set with restrained sans or serif micro type and generous spacing.",
+    "Bottom caption band uses small serif text, tiny symbols, parenthesis stamps, and civic-market seal rhythm.",
+    "Palette is mostly ivory, black, and one saturated produce color, with green stems or leaves as the only secondary color.",
+    "Flat poster layout with shallow photographic depth; no deep scene perspective or busy environment.",
+    "Slight print grain, soft bloom highlights, mild ink misregistration, and analog poster softness.",
+    "Asymmetric composition with the main produce mass anchored low or left and rough black type pressing in from the opposite side.",
+    "Mood feels like a contemporary East Asian farmers-market cultural poster, handmade but clean."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate tomatoes as the main subject or the same red tomato pair composition.",
+    "Do not copy the original brand names, Mother Day wording, Chinese slogan, numbers, or bottom location labels.",
+    "Do not use the exact top-left logo arrangement or any watermark-like platform mark.",
+    "Do not repeat the same right-side black text silhouette or the exact dense character shapes.",
+    "Do not make a Mother's Day campaign or sweetness slogan as the story premise.",
+    "Do not place the small echo produce at the same lower-right tomato position with the same scale relationship.",
+    "Do not include any signature, QR code, username, app badge, or creator mark."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Contemporary East Asian market poster combining photoreal produce collage, editorial product-ad layout, and rough handmade typographic abstraction.",
+    "composition_and_layout": "A cream poster field carries one huge low-anchored produce subject, an upper/right block of aggressive black hand lettering, a fine header strip, and a bottom micro-caption strip.",
+    "subject_placement": "The hero produce should be large enough to leave the frame or nearly touch an edge; a second smaller produce echo creates scale play without adding clutter.",
+    "camera_or_perspective": "Close still-life product perspective with shallow depth, soft highlights, and minimal shadow; the page itself remains flat and graphic.",
+    "typography_style": "Two tiers: oversized torn black brush-glyph headline with dry ink edges, and tiny refined editorial captions in sans/serif combinations.",
+    "color_palette": "Ivory paper, black ink, a single vivid fruit or vegetable color, small green botanical accents, and almost no extra hues.",
+    "graphic_elements": "Small stars, parenthesis stamps, thin rules, numbered micro labels, registration marks, and seal-like bottom badges.",
+    "texture_and_finish": "Soft print grain, faint paper warmth, slightly diffused product highlights, and rough ink textures in the black type.",
+    "lighting": "High-key studio lighting with white reflective highlights on the produce and no heavy cast shadows.",
+    "mood_and_reference": "Fresh market culture, handmade grocery poster, urban editorial food campaign, clean but imperfect."
+  },
+  "composition": {
+    "primary_rule": "Keep the page sparse: one giant produce subject, one smaller echo object, one dominant black type mass, one top header strip, and one bottom micro-caption strip.",
+    "scale": "The main subject should occupy about 45 to 70 percent of the short side, depending on aspect ratio.",
+    "negative_space": "Preserve large cream gaps around the subject and text; do not fill the poster with produce piles.",
+    "vertical_ratio": "For 9:16, anchor the hero produce in the lower half and let the black headline press down from the upper or right side.",
+    "horizontal_ratio": "For 16:9, anchor the hero produce to the left or lower-left, with the black headline stacked on the right and micro captions along the bottom."
+  },
+  "typography": {
+    "headline": "Use large black rough brush or torn-paper glyph blocks, abstract but poster-like, with jagged dry edges and irregular spacing.",
+    "header": "Use a tiny top editorial line with widely spaced letters and a thin rule, never a brand logo.",
+    "caption": "Use small serif or mixed micro text along the bottom, broken by stars, numbers, and parenthesis stamp forms.",
+    "legibility": "Headline can be semi-abstract, but it should read visually as an intentional market-poster typographic mass.",
+    "placement": "Let typography overlap empty air or slightly tuck behind the product stem or leaf, but do not cover the main product surface."
+  },
+  "color_palette": {
+    "background": "warm ivory, pale cream, uncoated paper white",
+    "ink": "deep black with dry-brush gray breakup",
+    "produce_color": "one saturated subject color such as leafy green, citrus yellow, eggplant purple, peach pink, carrot orange, or blueberry blue",
+    "secondary_accents": "natural leaf green and tiny neutral gray micro text",
+    "palette_behavior": "Limit the composition to one dominant produce hue plus black and ivory; avoid rainbow grocery abundance."
+  },
+  "image_treatment": {
+    "rendering": "Photoreal glossy produce isolated like a product still life, softened by poster print grain and slight airbrush-like highlight bloom.",
+    "edges": "Produce edges are clean but softly blended into the poster atmosphere; type edges are rough, torn, dry, and imperfect.",
+    "depth": "Very shallow product depth and flat page layout, with minimal ground shadow.",
+    "finish": "High-resolution raster poster with analog print warmth, not vector art or a clean digital mockup."
+  },
+  "design_rules": [
+    "Use only one hero fruit or vegetable family per poster.",
+    "Pair the hero with one smaller echo produce item or one small market prop.",
+    "Place a rough black typographic mass opposite the hero produce to create tension.",
+    "Keep top and bottom editorial micro text small, restrained, and secondary.",
+    "Use ivory paper as the dominant field and avoid scenic backgrounds.",
+    "Let the produce color carry the emotional temperature of the image.",
+    "Use black marks as physical ink, not clean digital type.",
+    "Protect the sparse market-poster hierarchy in every aspect ratio."
+  ],
+  "do": [
+    "Make the produce oversized, glossy, tactile, and close to the viewer.",
+    "Use jagged black brush lettering as a graphic object.",
+    "Keep a strong ivory-black-produce color ratio.",
+    "Add tiny bottom seals, stars, brackets, or numbered captions for market authenticity.",
+    "Maintain asymmetric negative space and editorial restraint."
+  ],
+  "avoid": [
+    "Do not create a busy supermarket shelf, produce pile, dining table, or recipe scene.",
+    "Do not use clean corporate typography, neon gradients, sticker clutter, or cartoon mascots.",
+    "Do not use tomatoes, Mother's Day text, the source slogan, the source brand, or watermark-like marks.",
+    "Do not turn the style into watercolor, vector illustration, comic book, 3D toy render, or cinematic food photo.",
+    "Do not include QR codes, usernames, platform icons, creator IDs, or exact readable brand logos."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Market Brush Produce Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm ivory uncoated paper background with large clean negative space; one oversized glossy photoreal fruit or vegetable hero cropped near the edge; one smaller echo produce item or small market prop; large rough black torn-brush CJK-inspired headline blocks with dry ink texture; tiny top editorial header line; bottom row of small serif captions, stamps, stars, numbers, and parenthesis marks; palette limited to ivory, black, one saturated produce color, and small natural green accents; shallow product-still-life depth with minimal shadow; slight paper grain, ink breakup, soft highlight bloom, and analog poster softness. Important content rule: match the visual style first, then change the source content with new produce, new text, new props, and a new story premise.",
+  "negative_prompt": "tomatoes, red tomato pair, Mother's Day campaign, copied Chinese slogan, copied brand logo, exact source layout, watermark, username, platform logo, QR code, app badge, busy supermarket aisle, produce pile, recipe table, clean corporate ad, neon gradient, cartoon mascot, vector illustration, watercolor, 3D toy render, cinematic kitchen scene, dense price-tag clutter, photoreal human face, exact readable real brand text",
+  "examples": [
+    {
+      "case_name": "giant-bok-choy-morning",
+      "values": {
+        "SUBJECT": "a giant glossy bok choy with pale ribbed stems and deep green leaves",
+        "SUBJECT_ACTION": "resting as a heroic fresh-market still life with leaves leaning upward",
+        "PRODUCT_OR_PROP": "one smaller bok choy sprig and a folded paper produce tag",
+        "LOCATION": "minimal neighborhood grocer poster space on warm ivory paper",
+        "BACKGROUND_ELEMENTS": "tiny bottom market seals, small serial numbers, thin top header line, faint registration dots",
+        "MAIN_TEXT": "oversized black rough-brush market headline blocks reading as abstract fresh-greens lettering",
+        "SECONDARY_TEXT": "small editorial caption line about morning greens and neighborhood freshness",
+        "ACCENT_SYMBOL": "small black star",
+        "WARDROBE_STYLE": "no person; produce styled like a premium editorial market object",
+        "STYLE_FIDELITY_ANCHORS": "ivory negative space, giant glossy produce, rough black brush typography, tiny top and bottom captions, sparse market poster hierarchy",
+        "SOURCE_CONTENT_TO_AVOID": "no tomatoes, no Mother Day text, no copied brand marks, no original Chinese slogan"
+      }
+    },
+    {
+      "case_name": "single-lemon-bright",
+      "values": {
+        "SUBJECT": "a huge glossy lemon with a small green leaf and bright white highlight",
+        "SUBJECT_ACTION": "floating low in the poster as a clean citrus freshness icon",
+        "PRODUCT_OR_PROP": "one small lemon wedge echo and a tiny cream paper label",
+        "LOCATION": "quiet fruit-market poster field with no realistic stall background",
+        "BACKGROUND_ELEMENTS": "thin header typography, bottom parenthesis stamps, small numbers, light paper grain",
+        "MAIN_TEXT": "large black dry-ink brush glyphs stacked diagonally like a citrus shout",
+        "SECONDARY_TEXT": "small refined caption about fresh sour brightness and seasonal fruit",
+        "ACCENT_SYMBOL": "two small parenthesis marks",
+        "WARDROBE_STYLE": "no person; citrus treated as an editorial product hero",
+        "STYLE_FIDELITY_ANCHORS": "cream paper, one saturated produce hue, rough black type mass, bottom seal rhythm, soft product highlights",
+        "SOURCE_CONTENT_TO_AVOID": "no tomato subject, no source brand, no Mother Day premise, no copied bottom labels"
+      }
+    },
+    {
+      "case_name": "eggplant-night-market",
+      "values": {
+        "SUBJECT": "a giant polished purple eggplant with a green calyx and curved body",
+        "SUBJECT_ACTION": "tilted across the lower poster like a sculptural market object",
+        "PRODUCT_OR_PROP": "one small eggplant echo near the opposite edge",
+        "LOCATION": "minimal produce poster for a neighborhood night market, rendered on ivory paper",
+        "BACKGROUND_ELEMENTS": "micro captions, small dot registration marks, tiny bottom seal shapes, thin top title rule",
+        "MAIN_TEXT": "heavy black torn-paper brush headline blocks with uneven pressure and jagged edges",
+        "SECONDARY_TEXT": "small bottom caption about deep color, market pick, and seasonal produce",
+        "ACCENT_SYMBOL": "small centered asterisk",
+        "WARDROBE_STYLE": "no person; clean product-still-life styling",
+        "STYLE_FIDELITY_ANCHORS": "large crop, shallow product depth, ivory field, black handmade headline, restrained micro text, analog print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no tomatoes, no red palette dominance, no copied text, no logo or watermark"
+      }
+    },
+    {
+      "case_name": "peach-soft-season",
+      "values": {
+        "SUBJECT": "a huge soft pink peach with a subtle groove and fuzzy highlight",
+        "SUBJECT_ACTION": "resting low and close to the viewer as a sweet seasonal hero",
+        "PRODUCT_OR_PROP": "one smaller peach and a small leaf-shaped market tag",
+        "LOCATION": "warm ivory fruit-poster field for a seasonal street market",
+        "BACKGROUND_ELEMENTS": "tiny market captions, small serial numbers, bottom stamp rhythm, faint paper flecks",
+        "MAIN_TEXT": "bold black rough-brush glyph cluster pressing in from the upper side",
+        "SECONDARY_TEXT": "small editorial line about mellow fruit and late-summer sweetness",
+        "ACCENT_SYMBOL": "small black bracket stamp",
+        "WARDROBE_STYLE": "no person; premium fruit still-life styling",
+        "STYLE_FIDELITY_ANCHORS": "huge glossy produce, tiny echo produce, cream background, black hand-cut typography, fine top and bottom editorial text",
+        "SOURCE_CONTENT_TO_AVOID": "no tomato composition, no Mother Day wording, no source brand name, no duplicated slogan"
+      }
+    }
+  ]
+}

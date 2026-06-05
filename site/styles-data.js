@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 56,
+  "styleCount": 58,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Market Brush Produce Poster Style",
+      "slug": "market-brush-produce-poster-style",
+      "category": "Product + Campaign",
+      "description": "Farmers-market produce posters with giant glossy crops, rough brush type, and ivory paper space.",
+      "summary": "A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions.",
+      "preview16": "../styles/market-brush-produce-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/market-brush-produce-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/market-brush-produce-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/market-brush-produce-poster-style.md",
+      "folder": "../styles/market-brush-produce-poster-style/",
+      "anchors": [
+        "Warm ivory or pale cream paper background with very large uncluttered negative space.",
+        "One oversized photoreal produce hero cropped near an edge, plus one much smaller echo produce item.",
+        "Produce surface is glossy, rounded, bright, softly airbrushed, and slightly posterized rather than documentary.",
+        "Hard scale contrast between produce and typography: subject dominates the lower or side field while type crowds the upper or opposite side.",
+        "Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture.",
+        "Thin editorial header line at the top, set with restrained sans or serif micro type and generous spacing."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "giant-bok-choy-morning",
+      "copyPrompt": "Use the \"Market Brush Produce Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a giant glossy bok choy with pale ribbed stems and deep green leaves\nSubject action: resting as a heroic fresh-market still life with leaves leaning upward\nProduct or prop: one smaller bok choy sprig and a folded paper produce tag\nLocation: minimal neighborhood grocer poster space on warm ivory paper\nBackground elements: tiny bottom market seals, small serial numbers, thin top header line, faint registration dots\nMain text: oversized black rough-brush market headline blocks reading as abstract fresh-greens lettering\nSecondary text: small editorial caption line about morning greens and neighborhood freshness\nAccent symbol: small black star\nWardrobe style: no person; produce styled like a premium editorial market object\n\nStyle direction:\nA sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce\nhero, a smaller echo product, violent black hand-cut brush typography, thin editorial header\ntext, and tiny bottom seal-like captions.\n\nKeep visible:\n- Warm ivory or pale cream paper background with very large uncluttered negative space.\n- One oversized photoreal produce hero cropped near an edge, plus one much smaller echo produce item.\n- Produce surface is glossy, rounded, bright, softly airbrushed, and slightly posterized rather than documentary.\n- Hard scale contrast between produce and typography: subject dominates the lower or side field while type crowds the upper or opposite side.\n- Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture.\n\nAvoid:\ntomatoes, red tomato pair, Mother's Day campaign, copied Chinese slogan, copied brand logo,\nexact source layout, watermark, username, platform logo, QR code, app badge, busy supermarket\naisle, produce pile, recipe table, clean corporate ad, neon gradient, cartoon mascot, vector\nillustration, watercolor, 3D toy render, cinematic kitchen scene, dense price-tag clutter,\nphotoreal human face, exact readable real brand text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Folded Newspaper Product Ad Style",
+      "slug": "folded-newspaper-product-ad-style",
+      "category": "Product + Campaign",
+      "description": "Folded newspaper advertorials with oversized product cutouts, dense columns, stamps, and antique-gold type.",
+      "summary": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.",
+      "preview16": "../styles/folded-newspaper-product-ad-style/preview-16x9.jpg",
+      "preview9": "../styles/folded-newspaper-product-ad-style/preview-9x16.jpg",
+      "styleJson": "../styles/folded-newspaper-product-ad-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/folded-newspaper-product-ad-style.md",
+      "folder": "../styles/folded-newspaper-product-ad-style/",
+      "anchors": [
+        "Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.",
+        "Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.",
+        "One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.",
+        "Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.",
+        "A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks.",
+        "A vertical red editorial tab or date strip appears near one edge, treated as a small newspaper insert rather than a brand mark."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "matcha-tea-cake",
+      "copyPrompt": "Use the \"Folded Newspaper Product Ad Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a layered matcha tea cake with cream, red bean dots, and a glossy green glaze\nSubject action: a cake slice is pulled forward from the whole cake, revealing soft layers and a clean cut\nProduct or prop: kraft paper cake sleeve, small gold dessert fork, parchment sheet, scattered matcha powder\nLocation: limited dessert launch announced through a city newspaper advertorial\nBackground elements: narrow food-review columns, boxed tasting notes, small date labels, an angled coupon-stamp frame, one red vertical edition tab near the right edge\nMain text: 抹茶新章\nSecondary text: 今日出炉 / 层层茶香 / 手作限定 / 试食价 $28\nAccent symbol: ◆\nWardrobe style: glossy matcha glaze, soft cream layers, parchment folds, warm dessert shadows, tactile paper sleeve\n\nStyle direction:\nA folded broadsheet product advertisement style built from dense bilingual newspaper typography,\nworn off-white paper, black and antique-gold display headlines, stamped label graphics, one red\neditorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.\n\nKeep visible:\n- Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.\n- Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.\n- One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.\n- Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.\n- A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks.\n\nAvoid:\nMcDonald's, golden arches, burger, hamburger, Angus beef, sesame bun, cheese slice, pickles,\nketchup, brown burger sleeve, Signature Collection, Angus Original, Love Angus, 130g, Thick Cut,\nreal newspaper masthead, exact source Chinese text, fast-food chain logo, brand logo, QR code,\nwatermark, social handle, clean magazine spread, minimalist poster, app banner, white studio\nbackground, vector-only art, 3D render, exact copied layout, exact red tab from source\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Sunlit Supermodel Nameplate Editorial",
       "slug": "sunlit-supermodel-nameplate-editorial",

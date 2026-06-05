@@ -1,0 +1,172 @@
+{
+  "style_name": "Folded Newspaper Product Ad Style",
+  "style_slug": "folded-newspaper-product-ad-style",
+  "style_version": "2.1",
+  "style_summary": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.",
+  "environment_variables": {
+    "SUBJECT": "main product, food item, wearable, device, or object shown as the oversized sales hero",
+    "SUBJECT_ACTION": "how the product is presented, opened, poured, lifted, stacked, glowing, or interacting with props",
+    "PRODUCT_OR_PROP": "supporting wrapper, plate, tool, container, ingredient, packaging, accessory, or foreground prop",
+    "LOCATION": "implied campaign context, publication setting, shop counter, studio tabletop, outdoor-use cue, or editorial scene",
+    "BACKGROUND_ELEMENTS": "newspaper page modules, stamped labels, sidebars, columns, rules, captions, folds, and surrounding print details",
+    "MAIN_TEXT": "large Chinese or bilingual headline text, short enough to behave as a display block",
+    "SECONDARY_TEXT": "small repeated body copy, captions, price cue, editorial note, or campaign microcopy",
+    "ACCENT_SYMBOL": "small separator, stamp mark, star, diamond, rule, date tab, or print icon",
+    "WARDROBE_STYLE": "styling direction for people if present, otherwise product styling, wrapper material, garnish, surface finish, and prop treatment",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible in every generated sample",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.",
+    "Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.",
+    "One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.",
+    "Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.",
+    "A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks.",
+    "A vertical red editorial tab or date strip appears near one edge, treated as a small newspaper insert rather than a brand mark.",
+    "Palette is controlled: off-white paper, black ink, antique gold, warm brown product shadows, small red sidebar accent, and occasional cyan/teal price copy.",
+    "Hero object is glossy and appetizing or tactile, lit like commercial photography, while typography and page graphics remain flat printed ink.",
+    "Composition feels like a full-page newspaper advertorial rather than a clean modern poster: crowded, typographic, folded, and editorial.",
+    "Foreground product may be partly wrapped, framed, or tucked into kraft paper, tissue, paper sleeve, cloth, tray, or another tactile material.",
+    "Edges, fold seams, printed ink distress, page grain, and mild shadowing must stay visible in every sample.",
+    "Every case changes product, exact text, stamp wording, page modules, props, and story details while preserving the newspaper ad system."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a McDonald's advertisement, burger, Angus beef patty, sesame bun, pickles, cheese, ketchup, or brown burger sleeve.",
+    "Do not use the words Signature Collection, Angus Original, Love Angus, 130g, Thick Cut, McDonald's, or any matching Chinese source headline.",
+    "Do not copy the exact page layout, the same top-left logo lockup, the same red newspaper masthead tab, or the same lower-left golden arches area.",
+    "Do not include any real brand logo, watermark, signature, social handle, QR code, or identifiable newspaper masthead.",
+    "Do not repeat the same burger-centered story premise or fast-food launch campaign.",
+    "Do not turn the style into a clean magazine spread, minimalist product poster, flat vector design, app banner, or ordinary menu layout."
+  ],
+  "visual_deconstruction": {
+    "style_category": "folded newspaper advertorial with photorealistic product hero",
+    "composition_logic": "a nearly full-bleed newspaper page acts as the background; large headlines, stamp labels, red sidebar tab, and dense body columns create an editorial grid; one oversized product cutout occupies the foreground and covers parts of the page",
+    "subject_placement": "the hero product is placed across the lower half or center, large enough to interrupt body copy and page modules, often cropped by the image edge",
+    "camera_or_perspective": "background page is flat frontal with slight paper buckling; product uses commercial three-quarter close-up photography with shallow depth and rich highlights",
+    "texture": "creased paper, uneven folds, ink rub, newspaper grain, distressed stamp marks, soft scanning, and subtle cast shadows from the foreground object",
+    "mood": "bold, appetizing, editorial, promotional, slightly nostalgic, and tactile, with a Hong Kong broadsheet-ad energy without copying any brand"
+  },
+  "composition": {
+    "canvas": "Fill the whole image with a wrinkled broadsheet page or folded newspaper sheet, leaving only tiny margins if needed.",
+    "grid": "Use dense columns of small bilingual body copy, boxed information modules, horizontal rules, and caption clusters behind the product.",
+    "hero_scale": "Make the product huge, photorealistic, and foregrounded, covering 35 to 55 percent of the frame depending on aspect ratio.",
+    "headline_zone": "Place the largest headline in the upper third or left half, with black block type paired with antique-gold emphasis text.",
+    "stamp_zone": "Add one angled distressed stamp or coupon frame near the headline or upper-right area, never containing source wording.",
+    "ratio_behavior": "For 9:16, stack masthead, headline, stamp, product, and text columns vertically; for 16:9, stretch the broadsheet sideways with product center-right and headline/body modules around it."
+  },
+  "typography": {
+    "main": "Use heavy condensed block lettering inspired by newspaper display advertising, preferably Chinese or bilingual, black with rough ink edges and slightly imperfect registration.",
+    "secondary": "Use antique-gold oversized numerals or short emphasis words, mixed with smaller black editorial text blocks.",
+    "body_copy": "Use many narrow columns of tiny print, captions, and paragraph blocks; legibility may be partial but must read as printed newspaper texture.",
+    "stamp_text": "Use distressed slab serif, stencil, or rubber-stamp lettering inside an angled rectangular frame with rays, diamonds, or small separators.",
+    "sidebar": "Use a vertical red date/editorial tab with white small lettering as a print accent, not a real masthead or logo."
+  },
+  "color_palette": {
+    "paper": "warm off-white, pale gray newsprint, beige fold shadows",
+    "ink": "deep black, charcoal, faded gray body copy",
+    "accent_gold": "antique gold, muted ochre, warm tan",
+    "accent_red": "newspaper red sidebar, small seal red, limited callout red",
+    "secondary_accent": "occasional cyan or teal price note used sparingly",
+    "product": "natural commercial-photo colors richer than the page palette",
+    "proportion": "about 60 percent off-white paper, 20 percent black ink, 10 percent product color, 6 percent antique gold, 3 percent red, 1 percent cyan or teal"
+  },
+  "image_treatment": {
+    "rendering_mode": "hybrid photorealistic product cutout over flat printed newspaper graphics",
+    "product_lighting": "soft commercial highlights, warm shadows, tactile surface detail, and crisp foreground focus",
+    "paper_lighting": "flat scanned-paper illumination with visible folds, creases, slight waviness, and low-contrast shadows",
+    "print_finish": "distressed ink, uneven opacity, subtle dot gain, mild paper grain, folded brochure marks, and slightly softened newspaper body type",
+    "depth": "shallow depth comes from the hero product and wrapper only; the background remains a nearly flat printed page"
+  },
+  "design_rules": [
+    "Always make the background a wrinkled full-page newspaper advertisement, not a blank poster.",
+    "Always include a huge photorealistic product hero overlapping the printed page.",
+    "Always include large black display type, antique-gold emphasis type, dense body columns, one angled stamp label, and one red vertical sidebar tab.",
+    "Keep the layout crowded and editorial, with rules, captions, page modules, and body copy partially obscured by the foreground object.",
+    "Use tactile wrappers, trays, paper sleeves, cloth, foil, or props to make the foreground product feel physically placed on the page.",
+    "Change every literal content element from the source: product, text, stamp, sidebar, prop, and sales premise.",
+    "Do not use any real brand, logo, QR code, or watermark; all text must be generic campaign copy."
+  ],
+  "do": [
+    "Preserve the folded newspaper page, dense print grid, distressed stamp, and oversized product cutout.",
+    "Use black, antique gold, off-white, warm brown, and a small red vertical tab as the core palette.",
+    "Let body copy become print texture while headlines and the product remain the main hierarchy.",
+    "Make the hero object photographic, tactile, and close enough to cover part of the newspaper.",
+    "Use different products, props, headline wording, stamp wording, and page rhythms for each sample."
+  ],
+  "avoid": [
+    "Avoid the original burger, fast-food chain cues, Angus text, 130g stamp, sesame bun composition, or brown burger sleeve story.",
+    "Avoid real newspaper names, real brand marks, golden arches, franchise logos, signatures, watermarks, QR codes, or social handles.",
+    "Avoid clean magazine luxury layouts, minimal whitespace posters, digital app banners, vector-only graphics, or 3D product renders.",
+    "Avoid making the page too neat; folds, wrinkles, print grain, and dense editorial clutter are required.",
+    "Avoid overusing bright colors beyond the small red tab and tiny cyan/teal note."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster advertisement in the \"Folded Newspaper Product Ad Style\". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign context: {LOCATION}. Background newspaper elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text and microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build the image as a wrinkled off-white broadsheet newspaper page with visible folds, dense bilingual body-copy columns, rule lines, boxed captions, distressed black ink, antique-gold display headline blocks, one angled rubber-stamp coupon frame, one narrow red vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly supported by paper, cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like, nostalgic, and tactile. Change all literal content from the reference while preserving the folded newspaper ad visual system.",
+  "negative_prompt": "McDonald's, golden arches, burger, hamburger, Angus beef, sesame bun, cheese slice, pickles, ketchup, brown burger sleeve, Signature Collection, Angus Original, Love Angus, 130g, Thick Cut, real newspaper masthead, exact source Chinese text, fast-food chain logo, brand logo, QR code, watermark, social handle, clean magazine spread, minimalist poster, app banner, white studio background, vector-only art, 3D render, exact copied layout, exact red tab from source",
+  "examples": [
+    {
+      "case_name": "matcha-tea-cake",
+      "values": {
+        "SUBJECT": "a layered matcha tea cake with cream, red bean dots, and a glossy green glaze",
+        "SUBJECT_ACTION": "a cake slice is pulled forward from the whole cake, revealing soft layers and a clean cut",
+        "PRODUCT_OR_PROP": "kraft paper cake sleeve, small gold dessert fork, parchment sheet, scattered matcha powder",
+        "LOCATION": "limited dessert launch announced through a city newspaper advertorial",
+        "BACKGROUND_ELEMENTS": "narrow food-review columns, boxed tasting notes, small date labels, an angled coupon-stamp frame, one red vertical edition tab near the right edge",
+        "MAIN_TEXT": "抹茶新章",
+        "SECONDARY_TEXT": "今日出炉 / 层层茶香 / 手作限定 / 试食价 $28",
+        "ACCENT_SYMBOL": "◆",
+        "WARDROBE_STYLE": "glossy matcha glaze, soft cream layers, parchment folds, warm dessert shadows, tactile paper sleeve",
+        "STYLE_FIDELITY_ANCHORS": "folded off-white newspaper page, dense bilingual columns, large black and antique-gold display type, angled distressed stamp, red vertical tab, huge photorealistic hero product, paper wrinkles, print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no burger, no fast-food brand, no Angus wording, no 130g stamp, no McDonald's-like marks, no copied source layout"
+      }
+    },
+    {
+      "case_name": "field-watch",
+      "values": {
+        "SUBJECT": "a rugged stainless field watch with olive canvas strap and domed glass",
+        "SUBJECT_ACTION": "the watch rests diagonally across the folded newspaper with the strap curling toward the viewer",
+        "PRODUCT_OR_PROP": "creased map fragment, brass compass, worn kraft envelope, tiny service tag",
+        "LOCATION": "weekend outdoor gear advertorial in a metropolitan daily paper",
+        "BACKGROUND_ELEMENTS": "gear-review columns, small spec tables, rule lines, a tilted guarantee stamp, red vertical weekend supplement tab",
+        "MAIN_TEXT": "城市远行",
+        "SECONDARY_TEXT": "防水 100M / 夜光刻度 / 周末装备 / 特选 $880",
+        "ACCENT_SYMBOL": "★",
+        "WARDROBE_STYLE": "brushed steel, domed glass highlights, olive canvas weave, warm map paper, small metal shadows",
+        "STYLE_FIDELITY_ANCHORS": "folded off-white newspaper page, dense bilingual columns, large black and antique-gold display type, angled distressed stamp, red vertical tab, huge photorealistic hero product, paper wrinkles, print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no burger, no beef campaign, no exact source text, no fast-food story, no real watch brand logo, no newspaper masthead"
+      }
+    },
+    {
+      "case_name": "retro-headphones",
+      "values": {
+        "SUBJECT": "cream and graphite retro over-ear headphones with soft leather pads and coiled cable",
+        "SUBJECT_ACTION": "one ear cup tilts upward as the coiled cable loops over the newspaper columns",
+        "PRODUCT_OR_PROP": "folded audio warranty card, small cassette tape, translucent plastic sleeve, paper corner tab",
+        "LOCATION": "audio shop anniversary sale rendered as a newspaper feature page",
+        "BACKGROUND_ELEMENTS": "dense audio-review paragraphs, small waveform diagrams, boxed spec captions, an angled sound-test stamp, red vertical classifieds tab",
+        "MAIN_TEXT": "复古好声",
+        "SECONDARY_TEXT": "低频厚实 / 佩戴柔软 / 限量试听 / 套装 $399",
+        "ACCENT_SYMBOL": "●",
+        "WARDROBE_STYLE": "matte cream shells, graphite metal yokes, leather pad texture, cable highlights, soft studio reflection",
+        "STYLE_FIDELITY_ANCHORS": "folded off-white newspaper page, dense bilingual columns, large black and antique-gold display type, angled distressed stamp, red vertical tab, huge photorealistic hero product, paper wrinkles, print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no hamburger, no Angus stamp, no McDonald's-like color cue, no copied headline placement, no real audio brand mark"
+      }
+    },
+    {
+      "case_name": "ceramic-coffee-dripper",
+      "values": {
+        "SUBJECT": "a ribbed ivory ceramic pour-over coffee dripper with dark coffee blooming inside",
+        "SUBJECT_ACTION": "a thin stream of coffee pours into the dripper while steam lifts across the page",
+        "PRODUCT_OR_PROP": "brown paper filter, glass server, roasted beans, folded tasting card, linen napkin",
+        "LOCATION": "small roastery weekend special printed as a broadsheet advertorial",
+        "BACKGROUND_ELEMENTS": "coffee-origin columns, boxed brewing steps, tiny roast chart, angled freshness stamp, red vertical morning edition tab",
+        "MAIN_TEXT": "手冲晨报",
+        "SECONDARY_TEXT": "浅烘花香 / 三分钟萃取 / 周末特选 / 组合 $168",
+        "ACCENT_SYMBOL": "◎",
+        "WARDROBE_STYLE": "ivory ceramic ribs, amber coffee gloss, steam wisps, linen texture, brown filter paper, bean highlights",
+        "STYLE_FIDELITY_ANCHORS": "folded off-white newspaper page, dense bilingual columns, large black and antique-gold display type, angled distressed stamp, red vertical tab, huge photorealistic hero product, paper wrinkles, print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no fast-food burger, no Angus or 130g stamp, no source newspaper tab, no real cafe brand logo, no copied burger-wrapper foreground"
+      }
+    }
+  ]
+}

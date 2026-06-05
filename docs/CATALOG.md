@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 56 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 58 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Market Brush Produce Poster Style
+
+<a href="../styles/market-brush-produce-poster-style"><img src="../styles/market-brush-produce-poster-style/preview-16x9.jpg" width="720" alt="Market Brush Produce Poster Style preview"></a>
+
+A contemporary fresh-market poster system with warm ivory negative space, one oversized glossy produce hero, rough black brush typography, thin editorial microcopy, seasonal seals, and soft analog print grain.
+
+Files: [style.json](../styles/market-brush-produce-poster-style/style.json) · [Copy Prompt](copy-prompts/market-brush-produce-poster-style.md) · [16:9 preview](../styles/market-brush-produce-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/market-brush-produce-poster-style/preview-9x16.jpg) · [Folder](../styles/market-brush-produce-poster-style)
+
+---
+
+### Folded Newspaper Product Ad Style
+
+<a href="../styles/folded-newspaper-product-ad-style"><img src="../styles/folded-newspaper-product-ad-style/preview-16x9.jpg" width="720" alt="Folded Newspaper Product Ad Style preview"></a>
+
+A folded broadsheet advertorial style combining off-white newspaper texture, dense bilingual editorial columns, oversized commercial product photography, black and antique-gold headline typography, angled stamp frames, red date tabs, and tactile print distress.
+
+Files: [style.json](../styles/folded-newspaper-product-ad-style/style.json) · [Copy Prompt](copy-prompts/folded-newspaper-product-ad-style.md) · [16:9 preview](../styles/folded-newspaper-product-ad-style/preview-16x9.jpg) · [9:16 preview](../styles/folded-newspaper-product-ad-style/preview-9x16.jpg) · [Folder](../styles/folded-newspaper-product-ad-style)
+
+---
 
 ### Sunlit Supermodel Nameplate Editorial
 
