@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-58-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-116-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-61-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-122-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 추천 스타일
 
-이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 58개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
+이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 61개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<h3>Fantasy Scribble Mascot Poster Style</h3>
+<p>큼직하고 고르지 않은 손글씨, 네온 마커 마스코트 형태, 두꺼운 검은 윤곽선, 느슨한 낙서 장식, 흰 종이 위의 아이 같은 콜라주 에너지로 구성한 거친 손그림 판타지 포스터 시스템입니다.</p>
+<p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">프롬프트 복사</a> · <a href="styles/fantasy-scribble-mascot-poster-style">폴더</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<h3>Crayon Catalog Doodle Poster Style</h3>
+<p>접힌 흰 종이 위에 어린아이의 왁스 크레용 그림처럼 렌더링한 성긴 제품 카탈로그 포스터 시스템입니다. 거친 빨간 대형 헤드라인 글자, 단순한 초록과 따뜻한 색의 낙서 주체, 작은 검은 카탈로그 캡션, 넓고 조용한 여백으로 구성됩니다.</p>
+<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">프롬프트 복사</a> · <a href="styles/crayon-catalog-doodle-poster-style">폴더</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<h3>Blue Halftone Ransom Zine Poster Style</h3>
+<p>찢어진 흰 종이 조각, 검은 복사 느낌의 하프톤 주체 컷아웃, 마커 같은 손글씨, 구겨진 종이 질감, 성기고 노이즈 있는 마이크로 캡션으로 만든 거친 코발트 블루 랜섬 진 포스터 시스템입니다.</p>
+<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">프롬프트 복사</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">폴더</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Sunlit Supermodel Nameplate Editorial</h3>
 <p>야외 슈퍼모델 사진, 풍부한 전경 질감, 작은 소재 네임플레이트 디테일, 깨끗한 흰색 하단 1/3 제목과 캡션을 결합한 따뜻한 아날로그 패션 에디토리얼 포스터 스타일.</p>
 <p><a href="styles/sunlit-supermodel-nameplate-editorial/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md">프롬프트 복사</a> · <a href="styles/sunlit-supermodel-nameplate-editorial">폴더</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/black-cutout-food-card-ad-style"><img src="styles/black-cutout-food-card-ad-style/preview-16x9.jpg" alt="Black Cutout Food Card Ad preview"></a>
-<h3>Black Cutout Food Card Ad</h3>
-<p>검은 배경의 음식 프로모션 스타일로, 불규칙한 크림색 종이 카드, 큰 손글씨 중국어 레터링, 잘라낸 음식 사진, 작은 가격 메달, 따뜻한 빨강/노랑 포인트, 수작업 길거리 간식 인쇄 질감을 중심으로 구성합니다.</p>
-<p><a href="styles/black-cutout-food-card-ad-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">프롬프트 복사</a> · <a href="styles/black-cutout-food-card-ad-style">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
-<h3>Kinetic Geometric Doodle Cutouts</h3>
-<p>큰 플랫 기하학 색면, 느슨한 검은 낙서 선, 종이 입자감, 중심을 벗어난 경쾌한 움직임으로 인물이나 사물을 조립하는 희박하고 장난스러운 일러스트 시스템.</p>
-<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">프롬프트 복사</a> · <a href="styles/kinetic-geometric-doodle-cutouts">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
-<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
-<p>따뜻한 오프화이트 스튜디오 필드, 깊은 포레스트 그린 대형 타이포그래피, 사실적인 가구 주인공, 성긴 카탈로그 마이크로카피, 얇은 룰, 아웃라인 카탈로그 칩, 진녹색 둥근 하단 정보 바로 구성한 프리미엄 가구 에디토리얼 포스터.</p>
-<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">프롬프트 복사</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">폴더</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-아래에서 전체 58개 스타일을 둘러볼 수 있습니다.
+아래에서 전체 61개 스타일을 둘러볼 수 있습니다.
 
 위 추천 스타일을 포함한 전체 라이브러리입니다. 각 스타일의 전체 설명과 모든 파일 링크는 [docs/CATALOG.md](docs/CATALOG.md)를 참고하세요.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="fantasy-scribble-mascot-poster-style"></a>
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<p><strong><a href="styles/fantasy-scribble-mascot-poster-style">Fantasy Scribble Mascot Poster Style</a></strong><br>
+<em>네온 마커 마스코트, 커다란 손글씨, 빽빽한 낙서로 만든 순진한 판타지 포스터.</em><br>
+<a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="crayon-catalog-doodle-poster-style"></a>
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<p><strong><a href="styles/crayon-catalog-doodle-poster-style">Crayon Catalog Doodle Poster Style</a></strong><br>
+<em>빨간 손글씨 헤드라인, 단순한 낙서, 접힌 종이 질감의 성긴 크레용 카탈로그 포스터.</em><br>
+<a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-halftone-ransom-zine-poster-style"></a>
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<p><strong><a href="styles/blue-halftone-ransom-zine-poster-style">Blue Halftone Ransom Zine Poster Style</a></strong><br>
+<em>찢어진 종이 조각, 하프톤 컷아웃, 마커 글자를 결합한 코발트 블루 랜섬 진 포스터.</em><br>
+<a href="styles/blue-halftone-ransom-zine-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="market-brush-produce-poster-style"></a>

@@ -1,0 +1,179 @@
+{
+  "style_name": "Fantasy Scribble Mascot Poster Style",
+  "style_slug": "fantasy-scribble-mascot-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.",
+    "Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.",
+    "Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.",
+    "Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.",
+    "Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.",
+    "Dense doodle collage hierarchy with one oversized mascot and several smaller companion shapes clustered around it.",
+    "Rough handwritten micro-text, intentionally wobbly baselines, and imperfect spacing used as graphic texture.",
+    "Scribbled stars, loops, plant stems, orbit rings, arrows, patch shapes, and hand-drawn symbols scattered through open space.",
+    "Flat frontal or shallow side-view perspective with almost no realistic depth, cast shadows, gradients, or light modeling.",
+    "Visible marker streaks, naive scribble fills, slightly dirty scan texture, and rough line registration.",
+    "Playful dream-diary mood that feels invented, personal, and slightly nonsensical rather than commercially polished."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the original blue long-eared animal shape.",
+    "Do not recreate the yellow bear-like figure, pink star figure, green heart emblem, or plant-in-mouth motif.",
+    "Do not use the original words, including fantasy, dream, fancy, whisper, magic words, or the bottom caption.",
+    "Do not include the social app header, username, follow button, phone status bar, watermark, creator signature, or platform UI.",
+    "Do not copy the exact character arrangement with a huge blue creature on the left and smaller figures on the right.",
+    "Do not recreate the original heart-and-globe symbol, brown step base, or exact bottom slogan placement.",
+    "Do not imitate a specific artist identity or add any creator attribution.",
+    "Do not turn the style into polished cartoon vector art, 3D mascot art, anime, comic panels, or photoreal illustration."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Naive marker-and-ink fantasy poster, scanned social-art energy, handmade doodle collage.",
+    "composition_logic": "A single oversized mascot anchors the page, secondary creatures and props orbit around it, and large hand-painted text acts as a top-weighted frame.",
+    "subject_placement": "Subjects sit close to the viewer in a flat frontal plane, cropped or stretched to fill much of the page, with smaller supporting shapes tucked into remaining white space.",
+    "perspective": "Almost no linear perspective; characters and props are stacked like stickers on paper.",
+    "texture": "Dry black brush edges, marker streaks, scribbled interior fills, slightly uneven scan-like paper noise.",
+    "mood": "Dreamy, funny, strange, and emotionally direct, like a child-made fantasy poster with private symbols."
+  },
+  "composition": [
+    "Use one oversized main mascot or object as the visual anchor, taking roughly one third to one half of the frame.",
+    "Place the largest headline as a rough black hand-lettered band along the top, side, or bottom edge depending on aspect ratio.",
+    "Cluster two or three smaller companion doodles around the main subject without creating a realistic scene.",
+    "Keep visible white paper gaps, but fill them with stars, rings, tiny text, arrows, and scribbled symbols.",
+    "Use flat sticker-like stacking instead of natural perspective, shading, or a camera-like environment."
+  ],
+  "typography": [
+    "Make the main text huge, black, irregular, brushy, and visibly hand-painted.",
+    "Use intentionally inconsistent letter sizes, tilted letters, uneven baseline, and rough ink edges.",
+    "Add smaller handwritten phrases as texture, using brown, green, black, or colored marker lines.",
+    "Let text behave like part of the drawing, not like clean graphic design typography.",
+    "Avoid exact source wording and avoid readable platform or creator identity."
+  ],
+  "color_palette": {
+    "base": "White paper background with black dry-brush outlines.",
+    "dominant_colors": [
+      "electric cyan",
+      "saturated cobalt blue",
+      "hot pink",
+      "neon lime",
+      "leaf green"
+    ],
+    "supporting_colors": [
+      "muddy brown",
+      "soft purple",
+      "pale mint",
+      "sky blue"
+    ],
+    "behavior": "Use high-saturation marker fills in large uneven patches, with color scribbles crossing inside outlines and small accents scattered like stickers."
+  },
+  "image_treatment": [
+    "Flat hand-drawn marker and ink look on white paper.",
+    "Rough black keylines should remain thick, uneven, and slightly dry.",
+    "Interior fills should show marker streaks, scratchy overdraw, and naive color overlaps.",
+    "No realistic lighting, no depth blur, no glossy rendering, and no smooth vector perfection.",
+    "The result should feel like a raw scanned poster, not a clean digital illustration."
+  ],
+  "design_rules": [
+    "Keep style fidelity higher priority than content novelty: the output must stay in the same raw handmade visual family.",
+    "Change all literal subjects, phrases, symbols, and story details from the reference.",
+    "Use a dense but readable handmade hierarchy: giant title, oversized mascot, companion doodles, then micro-text and stars.",
+    "Make every outline feel drawn by hand with pressure changes, wobble, and imperfect closure.",
+    "Use nonsensical fantasy phrasing that is new to the case and not copied from the reference.",
+    "Let decorative marks feel spontaneous and uneven rather than symmetrically arranged."
+  ],
+  "do": [
+    "Use white paper, thick black dry-brush outlines, neon marker fills, and wobbly handmade lettering.",
+    "Create new mascots, props, text, and story premises for every use.",
+    "Add scribbled stars, loops, plant-like stems, orbit rings, arrows, and small handwritten callouts.",
+    "Keep forms flat, frontal, naive, and slightly awkward.",
+    "Use a large headline as a drawing element rather than a clean font."
+  ],
+  "avoid": [
+    "No platform UI, usernames, watermarks, signatures, QR codes, logos, or app chrome.",
+    "No original source text, original character silhouettes, original symbol cluster, or source story premise.",
+    "No polished vector cartoon, anime, 3D render, photorealism, smooth gradients, cinematic lighting, or clean commercial poster design.",
+    "No perfect typography, ruler-straight alignment, symmetrical icon systems, or sterile minimal layouts.",
+    "No over-detailed realistic environments, product photography, or comic-panel storytelling."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Fantasy Scribble Mascot Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual direction:\n- Composition: one oversized flat mascot or object anchors the poster, with two or three smaller companion doodles orbiting it; use a white paper field, dense handmade collage balance, and visible open gaps filled by stars, rings, arrows, loops, plant stems, and tiny handwritten callouts.\n- Typography: create a huge irregular hand-painted headline as part of the drawing; use thick black dry-brush letters, wobbly baselines, uneven spacing, and smaller handwritten phrases as graphic texture.\n- Color: use high-saturation marker blocks with electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents; keep black outlines dominant and the white paper visible.\n- Texture and lighting: flat scanned marker-and-ink treatment with marker streaks, scratchy overdraw, dirty paper texture, pressure changes, and no realistic lighting, no shadows, no gradients, and no glossy finish.\n- Graphic elements: use naive fantasy mascot shapes, blunt limbs, floating eyes, patch symbols, orbit rings, starbursts, scribble fills, and intentionally awkward handmade registration.\n\nAvoid polished vector art, anime, 3D rendering, photorealism, platform UI, watermarks, logos, creator signatures, QR codes, exact source wording, exact source character silhouettes, and the original source story arrangement.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.",
+  "negative_prompt": "platform UI, username, follow button, phone status bar, watermark, signature, QR code, logo, exact source wording, blue long-eared source creature, yellow bear source figure, pink star source figure, green heart source emblem, plant-in-mouth source motif, polished vector cartoon, anime, 3D render, photorealism, smooth gradient, cinematic lighting, clean commercial typography, perfect alignment, comic panels, realistic environment, product photo",
+  "examples": [
+    {
+      "case_name": "rocket-garden-parade",
+      "values": {
+        "SUBJECT": "a crooked turquoise rocket-bird mascot with three tiny window eyes and noodle legs",
+        "SUBJECT_ACTION": "marching sideways while releasing little seed comets",
+        "PRODUCT_OR_PROP": "a hand-drawn watering can shaped like a crescent moon",
+        "LOCATION": "an imaginary garden parade drawn on blank white paper",
+        "BACKGROUND_ELEMENTS": "tiny sprouts, orbit rings, loose stars, bent arrows, two small pebble creatures, and scribbled blue puddles",
+        "MAIN_TEXT": "MOON SEEDS",
+        "SECONDARY_TEXT": "plant the small bright noise",
+        "ACCENT_SYMBOL": "wobbly spiral star",
+        "WARDROBE_STYLE": "raw mascot body with hot pink patches, green striped legs, and no realistic clothing",
+        "STYLE_FIDELITY_ANCHORS": "white scanned paper, huge rough black hand-lettering, thick dry-brush outlines, neon marker fills, childlike fantasy mascot anatomy, dense doodle collage, rough micro-text, scribbled stars and orbit rings, flat frontal perspective, visible marker streaks",
+        "SOURCE_CONTENT_TO_AVOID": "no original blue long-eared animal, no yellow bear figure, no pink star figure, no plant-in-mouth motif, no source text, no social app header, no original left-right arrangement"
+      }
+    },
+    {
+      "case_name": "mooncake-radio-shop",
+      "values": {
+        "SUBJECT": "a lime green mooncake radio creature with bent antenna ears and button eyes",
+        "SUBJECT_ACTION": "broadcasting soft square music to a stack of sleepy cups",
+        "PRODUCT_OR_PROP": "a purple cassette tape covered in uneven marker dots",
+        "LOCATION": "a pretend midnight snack shop with no real perspective",
+        "BACKGROUND_ELEMENTS": "floating price-like scribbles without numbers, black sparkle bursts, pink steam loops, crooked shelves, and tiny listening blobs",
+        "MAIN_TEXT": "STATIC SNACK",
+        "SECONDARY_TEXT": "hum hum under the paper moon",
+        "ACCENT_SYMBOL": "messy lightning flower",
+        "WARDROBE_STYLE": "flat mascot shell with blue and magenta patches, green stripe marks, and thick black wobble outlines",
+        "STYLE_FIDELITY_ANCHORS": "white scanned paper, huge rough black hand-lettering, thick dry-brush outlines, neon marker fills, childlike fantasy mascot anatomy, dense doodle collage, rough micro-text, scribbled stars and orbit rings, flat frontal perspective, visible marker streaks",
+        "SOURCE_CONTENT_TO_AVOID": "no original blue long-eared animal, no yellow bear figure, no pink star figure, no plant-in-mouth motif, no source text, no social app header, no original left-right arrangement"
+      }
+    },
+    {
+      "case_name": "puddle-orchestra-station",
+      "values": {
+        "SUBJECT": "a hot pink puddle conductor with five uneven arms and dot eyes",
+        "SUBJECT_ACTION": "waving green sticks at a choir of floating shoe-shaped clouds",
+        "PRODUCT_OR_PROP": "a bent blue trumpet growing from a paper puddle",
+        "LOCATION": "a flat make-believe train platform for tiny rain songs",
+        "BACKGROUND_ELEMENTS": "scribbled tracks, cyan drops, orbit halos, yellow sign scraps, black stars, and two small leaf mascots",
+        "MAIN_TEXT": "RAIN BAND",
+        "SECONDARY_TEXT": "tap tap, listen sideways",
+        "ACCENT_SYMBOL": "rough four-point splash",
+        "WARDROBE_STYLE": "no realistic outfit, only naive marker patches and striped stick legs",
+        "STYLE_FIDELITY_ANCHORS": "white scanned paper, huge rough black hand-lettering, thick dry-brush outlines, neon marker fills, childlike fantasy mascot anatomy, dense doodle collage, rough micro-text, scribbled stars and orbit rings, flat frontal perspective, visible marker streaks",
+        "SOURCE_CONTENT_TO_AVOID": "no original blue long-eared animal, no yellow bear figure, no pink star figure, no plant-in-mouth motif, no source text, no social app header, no original left-right arrangement"
+      }
+    },
+    {
+      "case_name": "sleepy-comet-book-fair",
+      "values": {
+        "SUBJECT": "a blue square comet librarian with one long tail arm and three mismatched eyes",
+        "SUBJECT_ACTION": "stacking glowing folded books into a crooked ladder",
+        "PRODUCT_OR_PROP": "a tiny green bookmark creature holding a star net",
+        "LOCATION": "a dream book fair floating on blank white paper",
+        "BACKGROUND_ELEMENTS": "handwritten shelf labels, orbit circles, brown ladder marks, pink dust clouds, mint symbols, and scattered star scratches",
+        "MAIN_TEXT": "BOOK COMET",
+        "SECONDARY_TEXT": "read the small orbit slowly",
+        "ACCENT_SYMBOL": "uneven open eye",
+        "WARDROBE_STYLE": "flat paper mascot with hot pink belly patch, green striped feet, and rough black outline",
+        "STYLE_FIDELITY_ANCHORS": "white scanned paper, huge rough black hand-lettering, thick dry-brush outlines, neon marker fills, childlike fantasy mascot anatomy, dense doodle collage, rough micro-text, scribbled stars and orbit rings, flat frontal perspective, visible marker streaks",
+        "SOURCE_CONTENT_TO_AVOID": "no original blue long-eared animal, no yellow bear figure, no pink star figure, no plant-in-mouth motif, no source text, no social app header, no original left-right arrangement"
+      }
+    }
+  ]
+}

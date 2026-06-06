@@ -11,6 +11,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Black Cutout Food Card Ad | [Copy Prompt](black-cutout-food-card-ad-style.md) | [style.json](../../styles/black-cutout-food-card-ad-style/style.json) |
 | Blue Bubble Fisheye Action Poster Style | [Copy Prompt](blue-bubble-fisheye-action-poster-style.md) | [style.json](../../styles/blue-bubble-fisheye-action-poster-style/style.json) |
 | Blue Chinese Perspective Type Canyon Style | [Copy Prompt](blue-chinese-perspective-type-canyon-style.md) | [style.json](../../styles/blue-chinese-perspective-type-canyon-style/style.json) |
+| Blue Halftone Ransom Zine Poster Style | [Copy Prompt](blue-halftone-ransom-zine-poster-style.md) | [style.json](../../styles/blue-halftone-ransom-zine-poster-style/style.json) |
 | Blue HUD Macro Creator Tech Poster | [Copy Prompt](blue-hud-macro-product-poster.md) | [style.json](../../styles/blue-hud-macro-product-poster/style.json) |
 | Blue Lime Kinetic Comic Type Poster Style | [Copy Prompt](blue-lime-kinetic-comic-type-poster-style.md) | [style.json](../../styles/blue-lime-kinetic-comic-type-poster-style/style.json) |
 | Bold Anime Reaction Thumbnail Style | [Copy Prompt](bold-anime-reaction-thumbnail-style.md) | [style.json](../../styles/bold-anime-reaction-thumbnail-style/style.json) |
@@ -18,7 +19,9 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Chromatic Fisheye Orbit Pop Poster Style | [Copy Prompt](chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](../../styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
 | Clean Triptych Travel Vlog Thumbnail Style | [Copy Prompt](clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](../../styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
 | Cozy Bedroom Doodle Companion Snapshot Style | [Copy Prompt](cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](../../styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
+| Crayon Catalog Doodle Poster Style | [Copy Prompt](crayon-catalog-doodle-poster-style.md) | [style.json](../../styles/crayon-catalog-doodle-poster-style/style.json) |
 | Electric Blue Silhouette Product Launch Style | [Copy Prompt](electric-blue-silhouette-product-launch-style.md) | [style.json](../../styles/electric-blue-silhouette-product-launch-style/style.json) |
+| Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Folded Newspaper Product Ad Style | [Copy Prompt](folded-newspaper-product-ad-style.md) | [style.json](../../styles/folded-newspaper-product-ad-style/style.json) |
 | Gothic Cat Doodle Photo Collage Style | [Copy Prompt](gothic-cat-doodle-photo-collage-style.md) | [style.json](../../styles/gothic-cat-doodle-photo-collage-style/style.json) |

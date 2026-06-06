@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 58,
+  "styleCount": 61,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,114 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Fantasy Scribble Mascot Poster Style",
+      "slug": "fantasy-scribble-mascot-poster-style",
+      "category": "Type Posters",
+      "description": "Naive fantasy mascot posters with neon marker fills, huge wobbly type, and dense scribbles.",
+      "summary": "A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.",
+      "preview16": "../styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/fantasy-scribble-mascot-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/fantasy-scribble-mascot-poster-style.md",
+      "folder": "../styles/fantasy-scribble-mascot-poster-style/",
+      "anchors": [
+        "White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.",
+        "Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.",
+        "Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.",
+        "Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.",
+        "Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.",
+        "Dense doodle collage hierarchy with one oversized mascot and several smaller companion shapes clustered around it."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rocket-garden-parade",
+      "copyPrompt": "Use the \"Fantasy Scribble Mascot Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a crooked turquoise rocket-bird mascot with three tiny window eyes and noodle legs\nSubject action: marching sideways while releasing little seed comets\nProduct or prop: a hand-drawn watering can shaped like a crescent moon\nLocation: an imaginary garden parade drawn on blank white paper\nBackground elements: tiny sprouts, orbit rings, loose stars, bent arrows, two small pebble creatures, and scribbled blue puddles\nMain text: MOON SEEDS\nSecondary text: plant the small bright noise\nAccent symbol: wobbly spiral star\nWardrobe style: raw mascot body with hot pink patches, green striped legs, and no realistic clothing\n\nStyle direction:\nA raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot\nshapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on\na white paper field.\n\nKeep visible:\n- White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.\n- Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.\n- Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.\n- Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.\n- Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.\n\nAvoid:\nplatform UI, username, follow button, phone status bar, watermark, signature, QR code, logo,\nexact source wording, blue long-eared source creature, yellow bear source figure, pink star\nsource figure, green heart source emblem, plant-in-mouth source motif, polished vector cartoon,\nanime, 3D render, photorealism, smooth gradient, cinematic lighting, clean commercial\ntypography, perfect alignment, comic panels, realistic environment, product photo\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Crayon Catalog Doodle Poster Style",
+      "slug": "crayon-catalog-doodle-poster-style",
+      "category": "Type Posters",
+      "description": "Sparse crayon catalog posters with red handmade headlines, simple doodles, and folded paper texture.",
+      "summary": "A sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded white paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny black catalog captions, and lots of quiet blank space.",
+      "preview16": "../styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/crayon-catalog-doodle-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/crayon-catalog-doodle-poster-style.md",
+      "folder": "../styles/crayon-catalog-doodle-poster-style/",
+      "anchors": [
+        "White paper background with visible fold or crease lines, faint paper grain, and large untouched blank areas.",
+        "Wax-crayon or oil-pastel texture with broken coverage, grainy pressure marks, and irregular edges.",
+        "Huge uppercase red headline letters dominate the top or side of the poster and look hand-colored, not typed.",
+        "The main illustration is simple, naive, and flat, built from broad scribbled shapes rather than realistic perspective.",
+        "Green is used as the main organic mass or accent color, balanced by red headline text, brown outlines, and small orange or blue details.",
+        "Catalog-ad hierarchy: one large hero object or scene, one or two tiny secondary objects, and small black product-label text blocks."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "sunny-window-planter",
+      "copyPrompt": "Use the \"Crayon Catalog Doodle Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a large green window planter overflowing with basil leaves and one tiny orange flower\nSubject action: sitting proudly on a simple windowsill as a cozy catalog product\nProduct or prop: a small blue watering cup and one tiny seed packet\nLocation: minimal kitchen window corner drawn on folded white paper\nBackground elements: simple window outline, a few loose leaf doodles, small product label beside the planter, faint paper crease\nMain text: big red crayon headline reading PLANTER in rough uppercase letters\nSecondary text: small black catalog label with fictional product name HERBA, window planter, 22\nAccent symbol: tiny hand-drawn leaf\nWardrobe style: no person; planter styled as a relaxed domestic product\n\nStyle direction:\nA sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded\nwhite paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny\nblack catalog captions, and lots of quiet blank space.\n\nKeep visible:\n- White paper background with visible fold or crease lines, faint paper grain, and large untouched blank areas.\n- Wax-crayon or oil-pastel texture with broken coverage, grainy pressure marks, and irregular edges.\n- Huge uppercase red headline letters dominate the top or side of the poster and look hand-colored, not typed.\n- The main illustration is simple, naive, and flat, built from broad scribbled shapes rather than realistic perspective.\n- Green is used as the main organic mass or accent color, balanced by red headline text, brown outlines, and small orange or blue details.\n\nAvoid:\nIKEA, IKEA logo, blue-yellow logo, copied brand marks, Koppla, Skogsta, Soderhamn, green two-\nseat sofa, reclining person reading, exact wall shelf and plant arrangement, copied French copy,\ncopied prices, source product labels, signature, watermark, username, QR code, platform logo,\nclean vector art, realistic furniture render, watercolor, comic panel, polished digital marker,\ndense room scene, photoreal person, glossy 3D object, exact source composition\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Blue Halftone Ransom Zine Poster Style",
+      "slug": "blue-halftone-ransom-zine-poster-style",
+      "category": "Zine + Collage",
+      "description": "Cobalt ransom-zine posters with torn scraps, halftone cutouts, and marker lettering.",
+      "summary": "A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.",
+      "preview16": "../styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/blue-halftone-ransom-zine-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md",
+      "folder": "../styles/blue-halftone-ransom-zine-poster-style/",
+      "anchors": [
+        "Dominant saturated cobalt-blue poster field with a narrow off-white paper border or visible paper edge.",
+        "Large irregular torn white paper islands, each with jagged scissor-cut edges and slight shadow or crease relief.",
+        "Black-and-white photocopy halftone subject cutouts with coarse dot screens, high contrast, and slightly broken edges.",
+        "Two or three oversized cutout subjects arranged as flat collage pieces, not realistic objects inside a scene.",
+        "Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink.",
+        "Small handwritten micro captions floating directly on the blue field or tucked beside subjects."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "bicycle-curb-warning",
+      "copyPrompt": "Use the \"Blue Halftone Ransom Zine Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: two crooked city bicycles rendered as black-and-white halftone photocopy cutouts\nSubject action: leaning awkwardly as if pasted from a noisy street safety notice\nProduct or prop: a torn paper helmet label and a small photocopied bike lock\nLocation: flat handmade poster space with no real street scene\nBackground elements: cobalt gaps, crumpled paper folds, gray toner smudges, tiny serial ticks, and tilted note scraps\nMain text: large marker words on torn strips loosely reading RIDE SLOW\nSecondary text: tiny handwritten notes such as squeak and brake drawn directly on the blue field\nAccent symbol: small hand-drawn asterisk\nWardrobe style: no person; objects treated as pasted photocopy cutouts\n\nStyle direction:\nA rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black\nphotocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and\nsparse noisy micro captions.\n\nKeep visible:\n- Dominant saturated cobalt-blue poster field with a narrow off-white paper border or visible paper edge.\n- Large irregular torn white paper islands, each with jagged scissor-cut edges and slight shadow or crease relief.\n- Black-and-white photocopy halftone subject cutouts with coarse dot screens, high contrast, and slightly broken edges.\n- Two or three oversized cutout subjects arranged as flat collage pieces, not realistic objects inside a scene.\n- Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink.\n\nAvoid:\ngeese, goose, ducks, swans, long-neck birds, bird-call jokes, DON'T, BE, A, SILLY, GOOSE, HONK,\nQUACK, CLUCK, exact source layout, vertical SILLY strip, bottom GOOSE label, real barcode, QR\ncode, watermark, username, platform logo, app icon, brand mark, clean vector poster, smooth\ndigital font, glossy corporate flyer, polished magazine layout, full-color sticker sheet, 3D\nrender, cinematic photo scene, realistic background perspective, watercolor, neon gradient,\ncomic panel grid\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Market Brush Produce Poster Style",
       "slug": "market-brush-produce-poster-style",

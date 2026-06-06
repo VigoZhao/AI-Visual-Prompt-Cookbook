@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-58-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-116-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-61-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-122-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ Prefer the short path? Browse the generated [Copy Prompt Library](docs/copy-prom
 
 ## Featured Styles
 
-Six visual systems to start with. Every style ships as one JSON plus two preview images. Browse the complete set of 58 in the [All Styles](#all-styles) gallery below.
+Six visual systems to start with. Every style ships as one JSON plus two preview images. Browse the complete set of 61 in the [All Styles](#all-styles) gallery below.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<h3>Fantasy Scribble Mascot Poster Style</h3>
+<p>A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.</p>
+<p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">Copy Prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<h3>Crayon Catalog Doodle Poster Style</h3>
+<p>A sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded white paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny black catalog captions, and lots of quiet blank space.</p>
+<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">Copy Prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<h3>Blue Halftone Ransom Zine Poster Style</h3>
+<p>A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.</p>
+<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">Copy Prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">Folder</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
@@ -142,26 +162,6 @@ Six visual systems to start with. Every style ships as one JSON plus two preview
 <h3>Sunlit Supermodel Nameplate Editorial</h3>
 <p>A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.</p>
 <p><a href="styles/sunlit-supermodel-nameplate-editorial/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md">Copy Prompt</a> · <a href="styles/sunlit-supermodel-nameplate-editorial">Folder</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/black-cutout-food-card-ad-style"><img src="styles/black-cutout-food-card-ad-style/preview-16x9.jpg" alt="Black Cutout Food Card Ad preview"></a>
-<h3>Black Cutout Food Card Ad</h3>
-<p>A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.</p>
-<p><a href="styles/black-cutout-food-card-ad-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">Copy Prompt</a> · <a href="styles/black-cutout-food-card-ad-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
-<h3>Kinetic Geometric Doodle Cutouts</h3>
-<p>A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background.</p>
-<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">Copy Prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
-<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
-<p>A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.</p>
-<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">Copy Prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -196,13 +196,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Browse all 58 styles below.
+Browse all 61 styles below.
 
 The complete library, including the featured styles above. For full descriptions and all file links per style, see [docs/CATALOG.md](docs/CATALOG.md).
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="fantasy-scribble-mascot-poster-style"></a>
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<p><strong><a href="styles/fantasy-scribble-mascot-poster-style">Fantasy Scribble Mascot Poster Style</a></strong><br>
+<em>Naive fantasy mascot posters with neon marker fills, huge wobbly type, and dense scribbles.</em><br>
+<a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="crayon-catalog-doodle-poster-style"></a>
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<p><strong><a href="styles/crayon-catalog-doodle-poster-style">Crayon Catalog Doodle Poster Style</a></strong><br>
+<em>Sparse crayon catalog posters with red handmade headlines, simple doodles, and folded paper texture.</em><br>
+<a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-halftone-ransom-zine-poster-style"></a>
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<p><strong><a href="styles/blue-halftone-ransom-zine-poster-style">Blue Halftone Ransom Zine Poster Style</a></strong><br>
+<em>Cobalt ransom-zine posters with torn scraps, halftone cutouts, and marker lettering.</em><br>
+<a href="styles/blue-halftone-ransom-zine-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="market-brush-produce-poster-style"></a>

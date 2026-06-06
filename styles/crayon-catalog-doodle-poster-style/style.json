@@ -1,0 +1,175 @@
+{
+  "style_name": "Crayon Catalog Doodle Poster Style",
+  "style_slug": "crayon-catalog-doodle-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded white paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny black catalog captions, and lots of quiet blank space.",
+  "environment_variables": {
+    "SUBJECT": "main drawn subject or product",
+    "SUBJECT_ACTION": "simple pose, gesture, or product moment",
+    "PRODUCT_OR_PROP": "secondary object, shelf item, product detail, or small prop",
+    "LOCATION": "minimal room, outdoor corner, or catalog-poster setting",
+    "BACKGROUND_ELEMENTS": "small supporting doodles, product tags, lines, shelves, plants, or paper marks",
+    "MAIN_TEXT": "large rough hand-drawn headline text",
+    "SECONDARY_TEXT": "small catalog-style label text and price-like microcopy",
+    "ACCENT_SYMBOL": "tiny hand-drawn mark, underline, star, leaf, or stamp",
+    "WARDROBE_STYLE": "simple childlike clothing or object styling",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "White paper background with visible fold or crease lines, faint paper grain, and large untouched blank areas.",
+    "Wax-crayon or oil-pastel texture with broken coverage, grainy pressure marks, and irregular edges.",
+    "Huge uppercase red headline letters dominate the top or side of the poster and look hand-colored, not typed.",
+    "The main illustration is simple, naive, and flat, built from broad scribbled shapes rather than realistic perspective.",
+    "Green is used as the main organic mass or accent color, balanced by red headline text, brown outlines, and small orange or blue details.",
+    "Catalog-ad hierarchy: one large hero object or scene, one or two tiny secondary objects, and small black product-label text blocks.",
+    "Small black captions use clean sans-serif catalog typography, positioned near the drawn objects with price-like microcopy.",
+    "Subject scale is oversized and centered low or middle, with secondary doodles floating around it in sparse space.",
+    "Line quality is uneven, childlike, and blunt, with white gaps inside color fills and no polished vector edges.",
+    "Lighting is flat and paper-based; shadows are minimal or absent, and depth is implied only by overlapping crayon shapes.",
+    "Mood is playful, handmade, relaxed, and gently absurd, like a catalog page redrawn by memory with crayons.",
+    "Composition stays sparse and poster-like; it should never become a dense illustrated scene or polished commercial rendering."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the IKEA brand name, blue-yellow logo, store identity, or any recognizable brand mark.",
+    "Do not copy the exact red IKEA headline, Koppla text, product names, French copy, prices, or source typography content.",
+    "Do not recreate a green two-seat sofa with a reclining person reading a book.",
+    "Do not reuse the same wall-shelf-and-plant arrangement from the source poster.",
+    "Do not copy the exact figure pose, plaid skirt, blouse pattern, face, hair shape, or reading-book action.",
+    "Do not recreate the same furniture catalog products, product names, price placements, or bottom-center logo placement.",
+    "Do not use a signature, watermark, platform logo, QR code, username, or creator mark.",
+    "Do not turn the style into clean vector art, realistic furniture rendering, watercolor, comic panel art, or digital marker illustration."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Naive crayon catalog poster, mixing children's drawing texture with sparse retail catalog layout.",
+    "composition_and_layout": "A large red hand-drawn headline sits at the top or one edge; the main crayon illustration occupies the lower or central field; small catalog labels sit beside products; blank paper keeps the layout airy.",
+    "subject_placement": "The main subject should be large, simple, and low-to-mid anchored, with secondary doodles placed lightly around it rather than filling the whole poster.",
+    "camera_or_perspective": "Flat frontal drawing with almost no perspective; objects are shown like memory sketches, with simple overlaps and no realistic lens behavior.",
+    "typography_style": "Two layers: rough oversized red crayon uppercase headline and tiny clean black catalog label text that contrasts with the handmade drawing.",
+    "color_palette": "White paper, saturated crayon red, leafy crayon green, warm brown outlines, small orange accents, occasional blue details, and black for labels.",
+    "graphic_elements": "Fold lines, scribbled shelves, tiny potted plants, price-like labels, underlines, small stars, leaves, and simple product-detail arrows.",
+    "texture_and_finish": "Dry wax-crayon grain, uneven pressure, white paper flecks through color, slightly photographed paper surface, and rough childlike linework.",
+    "lighting": "Soft ambient paper lighting with no dramatic shadows, gradients, or glossy highlights.",
+    "mood_and_reference": "Relaxed domestic catalog humor, informal handmade charm, playful product page energy, and gentle everyday comfort."
+  },
+  "composition": {
+    "primary_rule": "Use a sparse product-poster hierarchy: large rough red headline, one main crayon-drawn product or scene, one or two tiny supporting doodles, and small black catalog labels.",
+    "scale": "Let the main illustrated subject occupy roughly half of the visual field, while the headline feels physically oversized and hand-filled.",
+    "negative_space": "Preserve white paper around the drawing; leave fold lines and blank breathing room visible.",
+    "vertical_ratio": "For 9:16, place the headline across the upper third, the main illustration in the lower two-thirds, and small captions near the product edges.",
+    "horizontal_ratio": "For 16:9, place the headline along the upper band or left side, then spread the main object wide across the center with labels tucked to the right or lower edge."
+  },
+  "typography": {
+    "headline": "Large uppercase hand-drawn red letters, filled with rough crayon strokes, irregular widths, blunt corners, and white paper speckles.",
+    "catalog_labels": "Small black sans-serif text blocks, clean and printed, with a bold product-name line and a smaller description or price-like line.",
+    "secondary_copy": "Use short fictional product labels only; keep them sparse and avoid real brands.",
+    "placement": "Labels should sit near the relevant doodle, usually offset to a side, never overwhelming the crayon illustration.",
+    "legibility": "Headline can be playful and uneven but should read as simple invented text; labels may be small but should look like catalog copy."
+  },
+  "color_palette": {
+    "background": "paper white, light gray crease shadow, faint warm paper texture",
+    "headline": "saturated crayon red with broken wax texture",
+    "main_colors": "leaf green, warm brown, soft orange, muted yellow, small navy or cobalt marks",
+    "label_text": "solid black printed catalog type",
+    "palette_behavior": "Use a few blunt crayon colors in large simple areas; avoid gradients, many hues, or polished color blending."
+  },
+  "image_treatment": {
+    "rendering": "Handmade crayon drawing photographed on white paper, with paper creases and analog texture visible.",
+    "edges": "All illustrated edges should be rough, chunky, and broken by crayon grain; printed label text is the only clean element.",
+    "depth": "Very shallow flat poster depth; use overlaps and simple scale only, not perspective construction.",
+    "finish": "High-resolution raster poster that preserves paper fiber, waxy crayon grain, uneven fill, and a sparse catalog layout."
+  },
+  "design_rules": [
+    "Start from the style fidelity anchors before inventing new content.",
+    "Keep the poster sparse, with one main product or simple action and only a few secondary doodles.",
+    "Use red crayon for the largest headline and black for small printed catalog labels.",
+    "Let green or another single crayon color carry the main illustrated mass.",
+    "Show paper folds and white gaps through the crayon fills.",
+    "Make the drawing naive and blunt, as if drawn by hand from memory.",
+    "Use fictional product names and short catalog copy, never real brands.",
+    "Keep every sample flat, tactile, and handmade rather than polished."
+  ],
+  "do": [
+    "Use rough red uppercase crayon headline lettering as a major visual anchor.",
+    "Draw the main subject with thick, grainy crayon strokes and visible paper flecks.",
+    "Add tiny black catalog labels near objects to create the retail-poster contrast.",
+    "Preserve large white paper fields and a visible fold line.",
+    "Use simple everyday objects, relaxed domestic scenes, or playful product moments."
+  ],
+  "avoid": [
+    "Do not copy any source brand, product names, price labels, logo placement, or original headline text.",
+    "Do not draw a reclining reader on a green sofa or the same shelf-and-plant setup.",
+    "Do not make the result look like clean vector illustration, polished ad rendering, watercolor, or comic art.",
+    "Do not create a busy room full of objects, realistic furniture perspective, or dense catalog page.",
+    "Do not include QR codes, usernames, watermarks, platform marks, or real retailer logos."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Crayon Catalog Doodle Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or object styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: white paper background with visible fold lines and faint paper grain; oversized rough red crayon uppercase headline; naive flat crayon illustration with grainy wax texture, broken color fill, blunt uneven edges, and white paper flecks; sparse catalog-ad hierarchy with one large main subject, one or two tiny supporting doodles, and small clean black product-label text blocks; simple palette of paper white, red, green, brown, orange, tiny blue details, and black captions; no realistic lens perspective, no glossy digital rendering, no dense scene. Important content rule: preserve the visual style first, then change the content with a new subject, new action, new prop, new fictional text, and a new story premise.",
+  "negative_prompt": "IKEA, IKEA logo, blue-yellow logo, copied brand marks, Koppla, Skogsta, Soderhamn, green two-seat sofa, reclining person reading, exact wall shelf and plant arrangement, copied French copy, copied prices, source product labels, signature, watermark, username, QR code, platform logo, clean vector art, realistic furniture render, watercolor, comic panel, polished digital marker, dense room scene, photoreal person, glossy 3D object, exact source composition",
+  "examples": [
+    {
+      "case_name": "sunny-window-planter",
+      "values": {
+        "SUBJECT": "a large green window planter overflowing with basil leaves and one tiny orange flower",
+        "SUBJECT_ACTION": "sitting proudly on a simple windowsill as a cozy catalog product",
+        "PRODUCT_OR_PROP": "a small blue watering cup and one tiny seed packet",
+        "LOCATION": "minimal kitchen window corner drawn on folded white paper",
+        "BACKGROUND_ELEMENTS": "simple window outline, a few loose leaf doodles, small product label beside the planter, faint paper crease",
+        "MAIN_TEXT": "big red crayon headline reading PLANTER in rough uppercase letters",
+        "SECONDARY_TEXT": "small black catalog label with fictional product name HERBA, window planter, 22",
+        "ACCENT_SYMBOL": "tiny hand-drawn leaf",
+        "WARDROBE_STYLE": "no person; planter styled as a relaxed domestic product",
+        "STYLE_FIDELITY_ANCHORS": "white folded paper, wax-crayon grain, huge red headline, naive flat drawing, green main mass, tiny black catalog labels, sparse blank space",
+        "SOURCE_CONTENT_TO_AVOID": "no real retailer logo, no copied source product names, no sofa, no reclining reader, no original shelf arrangement"
+      }
+    },
+    {
+      "case_name": "rainy-bicycle-hook",
+      "values": {
+        "SUBJECT": "a simple green bicycle hanging from a brown wall hook with round uneven wheels",
+        "SUBJECT_ACTION": "tilting slightly as if displayed in a playful storage catalog",
+        "PRODUCT_OR_PROP": "a small orange umbrella and a blue rain cap",
+        "LOCATION": "minimal hallway wall on white folded paper",
+        "BACKGROUND_ELEMENTS": "a few raindrop doodles, tiny black product label near the hook, faint horizontal crease line",
+        "MAIN_TEXT": "big red crayon headline reading RIDE HOME in rough uppercase letters",
+        "SECONDARY_TEXT": "small black catalog label with fictional product name VELOHOOK, wall storage, 14",
+        "ACCENT_SYMBOL": "tiny blue raindrop",
+        "WARDROBE_STYLE": "no person; objects drawn like childlike catalog storage items",
+        "STYLE_FIDELITY_ANCHORS": "rough red hand-colored headline, flat crayon object drawing, sparse catalog layout, paper folds, tiny black label text, limited green-brown-orange palette",
+        "SOURCE_CONTENT_TO_AVOID": "no brand identity, no couch, no reader pose, no copied labels, no source plant shelf"
+      }
+    },
+    {
+      "case_name": "breakfast-toaster-smile",
+      "values": {
+        "SUBJECT": "a chunky orange toaster with two pieces of toast popping up",
+        "SUBJECT_ACTION": "sitting low on the page like a cheerful catalog hero",
+        "PRODUCT_OR_PROP": "a small blue jam bowl and a brown butter knife",
+        "LOCATION": "minimal breakfast counter indicated by one loose crayon line",
+        "BACKGROUND_ELEMENTS": "tiny crumb marks, small product label to the right, faint paper fold across the page",
+        "MAIN_TEXT": "big red crayon headline reading TOAST DAY in rough uppercase letters",
+        "SECONDARY_TEXT": "small black catalog label with fictional product name BRUNI, breakfast toaster, 31",
+        "ACCENT_SYMBOL": "tiny black star",
+        "WARDROBE_STYLE": "no person; toaster styled as a naive home product drawing",
+        "STYLE_FIDELITY_ANCHORS": "white paper ground, red crayon headline, broken waxy fill, simple flat product drawing, small printed catalog caption, wide negative space",
+        "SOURCE_CONTENT_TO_AVOID": "no copied source text, no furniture catalog brand, no green sofa, no book-reading character"
+      }
+    },
+    {
+      "case_name": "moon-desk-lamp",
+      "values": {
+        "SUBJECT": "a bendy yellow desk lamp shining on a small stack of blue notebooks",
+        "SUBJECT_ACTION": "leaning forward as a study-corner catalog product",
+        "PRODUCT_OR_PROP": "a tiny green pencil cup and one loose paper note",
+        "LOCATION": "minimal desk corner drawn without realistic perspective",
+        "BACKGROUND_ELEMENTS": "small light-ray scribbles, tiny black product label under the lamp, visible paper crease and blank margins",
+        "MAIN_TEXT": "big red crayon headline reading LAMP NIGHT in rough uppercase letters",
+        "SECONDARY_TEXT": "small black catalog label with fictional product name LUMA, desk lamp, 18",
+        "ACCENT_SYMBOL": "tiny crescent mark",
+        "WARDROBE_STYLE": "no person; lamp and notebooks drawn with blunt childlike crayon marks",
+        "STYLE_FIDELITY_ANCHORS": "oversized red crayon text, sparse white folded paper, naive flat object drawing, small black catalog typography, limited warm colors and green accent",
+        "SOURCE_CONTENT_TO_AVOID": "no reading person, no couch, no real brand marks, no copied source product labels or shelf scene"
+      }
+    }
+  ]
+}

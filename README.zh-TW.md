@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="風格數量" src="https://img.shields.io/badge/styles-58-ff5a7a?style=flat-square">
-  <img alt="預覽圖" src="https://img.shields.io/badge/previews-116-4cc9f0?style=flat-square">
+  <img alt="風格數量" src="https://img.shields.io/badge/styles-61-ff5a7a?style=flat-square">
+  <img alt="預覽圖" src="https://img.shields.io/badge/previews-122-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="語言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 精選風格
 
-先看這 6 個風格。每個風格都保持輕量：一個 JSON 加兩張預覽圖。完整 58 個風格見下面的 [All Styles](#all-styles) 畫廊。
+先看這 6 個風格。每個風格都保持輕量：一個 JSON 加兩張預覽圖。完整 61 個風格見下面的 [All Styles](#all-styles) 畫廊。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<h3>Fantasy Scribble Mascot Poster Style</h3>
+<p>一種粗糙手繪幻想海報系統：超大不規則字形、螢光麥克筆吉祥物、厚重黑色輪廓、鬆散塗鴉裝飾，以及白紙場上的童趣拼貼能量。</p>
+<p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">複製提示詞</a> · <a href="styles/fantasy-scribble-mascot-poster-style">目錄</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<h3>Crayon Catalog Doodle Poster Style</h3>
+<p>一種稀疏產品目錄海報系統，像兒童蠟筆畫在摺疊白紙上：粗糙紅色大標題、簡單綠色與暖色塗鴉主體、細小黑色目錄說明，以及大量安靜留白。</p>
+<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">複製提示詞</a> · <a href="styles/crayon-catalog-doodle-poster-style">目錄</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<h3>Blue Halftone Ransom Zine Poster Style</h3>
+<p>一種粗糙鈷藍 ransom zine 海報系統：由白色撕紙塊、黑色影印半調主體切圖、麥克筆式手寫字、皺紙質感和稀疏噪點微文案構成。</p>
+<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">複製提示詞</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">目錄</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Sunlit Supermodel Nameplate Editorial</h3>
 <p>一種溫暖的類比感時尚編輯海報風格：戶外超模攝影、豐富前景質感、小型材質名牌細節，以及乾淨白色下三分之一標題與說明文字。</p>
 <p><a href="styles/sunlit-supermodel-nameplate-editorial/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md">複製提示詞</a> · <a href="styles/sunlit-supermodel-nameplate-editorial">目錄</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/black-cutout-food-card-ad-style"><img src="styles/black-cutout-food-card-ad-style/preview-16x9.jpg" alt="Black Cutout Food Card Ad preview"></a>
-<h3>Black Cutout Food Card Ad</h3>
-<p>一種黑底食物促銷風格：不規則米色紙卡、超大手刷中文標題、裁切食物攝影、小價格徽章、暖紅黃色點綴和手工街頭小吃印刷質感。</p>
-<p><a href="styles/black-cutout-food-card-ad-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">複製提示詞</a> · <a href="styles/black-cutout-food-card-ad-style">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
-<h3>Kinetic Geometric Doodle Cutouts</h3>
-<p>一種稀疏俏皮的插畫系統：用超大扁平幾何色塊、鬆散黑色塗鴉線、紙張顆粒和偏心動態，把角色或物體組裝成輕快畫面。</p>
-<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">複製提示詞</a> · <a href="styles/kinetic-geometric-doodle-cutouts">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
-<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
-<p>一種高級家具編輯海報系統：溫暖米白棚拍場、深森林綠大標題、真實家具主體、稀疏目錄小字、細線、描邊目錄標籤和深綠圓角底部資訊欄。</p>
-<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">複製提示詞</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">目錄</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下面可以瀏覽全部 58 個風格。
+下面可以瀏覽全部 61 個風格。
 
 完整庫包含上面的精選風格。每個風格的完整描述和全部文件連結見 [docs/CATALOG.md](docs/CATALOG.md)。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="fantasy-scribble-mascot-poster-style"></a>
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<p><strong><a href="styles/fantasy-scribble-mascot-poster-style">Fantasy Scribble Mascot Poster Style</a></strong><br>
+<em>幻想吉祥物手繪海報，螢光麥克筆色塊、搖晃大字和密集塗鴉。</em><br>
+<a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="crayon-catalog-doodle-poster-style"></a>
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<p><strong><a href="styles/crayon-catalog-doodle-poster-style">Crayon Catalog Doodle Poster Style</a></strong><br>
+<em>蠟筆目錄海報，紅色手寫標題、簡單產品塗鴉和摺紙質感。</em><br>
+<a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-halftone-ransom-zine-poster-style"></a>
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<p><strong><a href="styles/blue-halftone-ransom-zine-poster-style">Blue Halftone Ransom Zine Poster Style</a></strong><br>
+<em>鈷藍 ransom zine 海報，撕紙塊、半調切圖和麥克筆字。</em><br>
+<a href="styles/blue-halftone-ransom-zine-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="market-brush-produce-poster-style"></a>

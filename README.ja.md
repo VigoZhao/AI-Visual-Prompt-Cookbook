@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-58-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-116-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-61-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-122-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 注目スタイル
 
-まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。58 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
+まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。61 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<h3>Fantasy Scribble Mascot Poster Style</h3>
+<p>大きく不ぞろいな手描き文字、ネオンマーカーのマスコット形状、太い黒アウトライン、ゆるい落書き装飾、白い紙面上の子どもっぽいコラージュ感で構成する粗い手描き幻想ポスターシステム。</p>
+<p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">プロンプトをコピー</a> · <a href="styles/fantasy-scribble-mascot-poster-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<h3>Crayon Catalog Doodle Poster Style</h3>
+<p>折りたたまれた白い紙に子どものワックスクレヨン画のように描かれた、余白の多い商品カタログポスターシステム。粗い赤い巨大見出し、シンプルな緑と暖色のドゥードル主体、小さな黒いカタログキャプション、静かな大きな余白で構成します。</p>
+<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">プロンプトをコピー</a> · <a href="styles/crayon-catalog-doodle-poster-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<h3>Blue Halftone Ransom Zine Poster Style</h3>
+<p>白い破れ紙の断片、黒いコピー調ハーフトーンの主体切り抜き、マーカー風の手書き文字、しわ紙テクスチャ、まばらでノイジーなマイクロキャプションで構成する粗いコバルトブルーのransom zineポスターシステム。</p>
+<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">プロンプトをコピー</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">フォルダ</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Sunlit Supermodel Nameplate Editorial</h3>
 <p>屋外のスーパーモデル写真、豊かな前景テクスチャ、小さな素材ネームプレート、白い下三分の一タイトル／キャプションで構成する、温かなアナログ感のファッションエディトリアルポスター。</p>
 <p><a href="styles/sunlit-supermodel-nameplate-editorial/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md">プロンプトをコピー</a> · <a href="styles/sunlit-supermodel-nameplate-editorial">フォルダ</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/black-cutout-food-card-ad-style"><img src="styles/black-cutout-food-card-ad-style/preview-16x9.jpg" alt="Black Cutout Food Card Ad preview"></a>
-<h3>Black Cutout Food Card Ad</h3>
-<p>黒背景のフードプロモーションスタイル。不規則なクリーム色の紙カード、大きな手描き中国語レタリング、切り抜きフード写真、小さな価格メダリオン、赤黄の温かいアクセント、手作りの屋台印刷感で構成します。</p>
-<p><a href="styles/black-cutout-food-card-ad-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">プロンプトをコピー</a> · <a href="styles/black-cutout-food-card-ad-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
-<h3>Kinetic Geometric Doodle Cutouts</h3>
-<p>大きなフラット幾何色面、ゆるい黒のドゥードル線、紙の粒子感、中心を外した軽い動きで、人物や物体を組み立てる余白のある遊び心の強いイラストシステム。</p>
-<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">プロンプトをコピー</a> · <a href="styles/kinetic-geometric-doodle-cutouts">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
-<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
-<p>温かいオフホワイトのスタジオ面、深いフォレストグリーンの大型表示文字、リアルな家具主体、控えめなカタログ小組、細い罫線、アウトライン付きカタログチップ、深緑の丸角下部情報バーで構成する高級家具エディトリアルポスター。</p>
-<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">プロンプトをコピー</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">フォルダ</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下で全 58 スタイルを閲覧できます。
+下で全 61 スタイルを閲覧できます。
 
 上の注目スタイルを含む完全なライブラリです。各スタイルの詳細説明と全ファイルリンクは [docs/CATALOG.md](docs/CATALOG.md) を参照してください。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="fantasy-scribble-mascot-poster-style"></a>
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<p><strong><a href="styles/fantasy-scribble-mascot-poster-style">Fantasy Scribble Mascot Poster Style</a></strong><br>
+<em>ネオンマーカーのマスコット、巨大な手描き文字、密な落書きで作る素朴な幻想ポスター。</em><br>
+<a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="crayon-catalog-doodle-poster-style"></a>
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<p><strong><a href="styles/crayon-catalog-doodle-poster-style">Crayon Catalog Doodle Poster Style</a></strong><br>
+<em>赤い手描き見出し、シンプルな落書き、折り紙質感で作る余白の多いクレヨン目録ポスター。</em><br>
+<a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-halftone-ransom-zine-poster-style"></a>
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<p><strong><a href="styles/blue-halftone-ransom-zine-poster-style">Blue Halftone Ransom Zine Poster Style</a></strong><br>
+<em>破れ紙、ハーフトーン切り抜き、マーカー文字で作るコバルトブルーのransom zineポスター。</em><br>
+<a href="styles/blue-halftone-ransom-zine-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="market-brush-produce-poster-style"></a>

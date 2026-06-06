@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-58-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-116-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-61-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-122-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ Ingin mencoba versi singkat dulu? Buka [Copy Prompt Library](docs/copy-prompts/R
 
 ## Gaya Unggulan
 
-Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 58 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
+Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 61 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<h3>Fantasy Scribble Mascot Poster Style</h3>
+<p>Sistem poster fantasi gambar tangan mentah dengan lettering besar tidak rata, bentuk maskot marker neon, outline hitam tebal, dekorasi coretan longgar, dan energi kolase kekanak-kanakan yang padat di atas bidang kertas putih.</p>
+<p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">Salin Prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<h3>Crayon Catalog Doodle Poster Style</h3>
+<p>Sistem poster katalog produk yang lapang, dirender seperti gambar krayon lilin anak-anak di atas kertas putih terlipat: huruf headline merah besar yang kasar, subjek doodle hijau dan warna hangat yang sederhana, caption katalog hitam kecil, dan banyak ruang kosong yang tenang.</p>
+<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">Salin Prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<h3>Blue Halftone Ransom Zine Poster Style</h3>
+<p>Sistem poster ransom-zine biru kobalt yang kasar, dibangun dari sobekan kertas putih, cutout subjek halftone hitam seperti fotokopi, kata-kata tulisan tangan seperti marker, tekstur kertas kusut, dan micro caption ber-noise yang jarang.</p>
+<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">Salin Prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">Folder</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
@@ -142,26 +162,6 @@ Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua
 <h3>Sunlit Supermodel Nameplate Editorial</h3>
 <p>Gaya poster editorial fashion analog yang hangat, menggabungkan fotografi supermodel outdoor, tekstur foreground yang rimbun, detail nameplate material kecil, dan tipografi judul/caption lower-third putih yang bersih.</p>
 <p><a href="styles/sunlit-supermodel-nameplate-editorial/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md">Salin Prompt</a> · <a href="styles/sunlit-supermodel-nameplate-editorial">Folder</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/black-cutout-food-card-ad-style"><img src="styles/black-cutout-food-card-ad-style/preview-16x9.jpg" alt="Black Cutout Food Card Ad preview"></a>
-<h3>Black Cutout Food Card Ad</h3>
-<p>Gaya promosi makanan berlatar hitam dengan satu kartu kertas krem tidak beraturan, lettering Tionghoa sapuan tangan besar, fotografi makanan terpotong, medali harga kecil, aksen merah/kuning hangat, dan tekstur cetak jajanan jalanan handmade.</p>
-<p><a href="styles/black-cutout-food-card-ad-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">Salin Prompt</a> · <a href="styles/black-cutout-food-card-ad-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
-<h3>Kinetic Geometric Doodle Cutouts</h3>
-<p>Sistem ilustrasi yang ringan dan playful, menyusun karakter atau objek dari potongan warna geometris datar berukuran besar, garis doodle hitam longgar, tekstur kertas, dan gerak off-center yang ringan.</p>
-<p><a href="styles/kinetic-geometric-doodle-cutouts/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">Salin Prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
-<h3>Quiet Luxury Furniture Nameplate Poster Style</h3>
-<p>Sistem poster editorial furnitur premium dengan bidang studio off-white hangat, tipografi display hijau hutan besar di belakang objek furnitur realistis, mikrokopi katalog yang jarang, garis tipis, chip katalog outline, dan bar informasi bawah hijau gelap bersudut bulat.</p>
-<p><a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">Salin Prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Jelajahi semua 58 gaya di bawah.
+Jelajahi semua 61 gaya di bawah.
 
 Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan semua tautan file per gaya, lihat [docs/CATALOG.md](docs/CATALOG.md).
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="fantasy-scribble-mascot-poster-style"></a>
+<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+<p><strong><a href="styles/fantasy-scribble-mascot-poster-style">Fantasy Scribble Mascot Poster Style</a></strong><br>
+<em>Poster maskot fantasi naif dengan warna marker neon, huruf goyah besar, dan coretan padat.</em><br>
+<a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="crayon-catalog-doodle-poster-style"></a>
+<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
+<p><strong><a href="styles/crayon-catalog-doodle-poster-style">Crayon Catalog Doodle Poster Style</a></strong><br>
+<em>Poster katalog krayon yang lapang dengan headline merah handmade, doodle sederhana, dan tekstur kertas lipat.</em><br>
+<a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="blue-halftone-ransom-zine-poster-style"></a>
+<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+<p><strong><a href="styles/blue-halftone-ransom-zine-poster-style">Blue Halftone Ransom Zine Poster Style</a></strong><br>
+<em>Poster ransom-zine biru kobalt dengan sobekan kertas, cutout halftone, dan lettering marker.</em><br>
+<a href="styles/blue-halftone-ransom-zine-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="market-brush-produce-poster-style"></a>

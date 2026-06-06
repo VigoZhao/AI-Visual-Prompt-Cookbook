@@ -1,9 +1,38 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 58 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 61 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
 
+### Fantasy Scribble Mascot Poster Style
+
+<a href="../styles/fantasy-scribble-mascot-poster-style"><img src="../styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" width="720" alt="Fantasy Scribble Mascot Poster Style preview"></a>
+
+A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.
+
+Files: [style.json](../styles/fantasy-scribble-mascot-poster-style/style.json) · [Copy Prompt](copy-prompts/fantasy-scribble-mascot-poster-style.md) · [16:9 preview](../styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg) · [Folder](../styles/fantasy-scribble-mascot-poster-style)
+
+---
+
+### Crayon Catalog Doodle Poster Style
+
+<a href="../styles/crayon-catalog-doodle-poster-style"><img src="../styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" width="720" alt="Crayon Catalog Doodle Poster Style preview"></a>
+
+A sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded white paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny black catalog captions, and lots of quiet blank space.
+
+Files: [style.json](../styles/crayon-catalog-doodle-poster-style/style.json) · [Copy Prompt](copy-prompts/crayon-catalog-doodle-poster-style.md) · [16:9 preview](../styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg) · [Folder](../styles/crayon-catalog-doodle-poster-style)
+
+---
+
+### Blue Halftone Ransom Zine Poster Style
+
+<a href="../styles/blue-halftone-ransom-zine-poster-style"><img src="../styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" width="720" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
+
+A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.
+
+Files: [style.json](../styles/blue-halftone-ransom-zine-poster-style/style.json) · [Copy Prompt](copy-prompts/blue-halftone-ransom-zine-poster-style.md) · [16:9 preview](../styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg) · [Folder](../styles/blue-halftone-ransom-zine-poster-style)
+
+---
 ### Market Brush Produce Poster Style
 
 <a href="../styles/market-brush-produce-poster-style"><img src="../styles/market-brush-produce-poster-style/preview-16x9.jpg" width="720" alt="Market Brush Produce Poster Style preview"></a>

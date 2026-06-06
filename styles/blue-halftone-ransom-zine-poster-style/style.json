@@ -1,0 +1,178 @@
+{
+  "style_name": "Blue Halftone Ransom Zine Poster Style",
+  "style_slug": "blue-halftone-ransom-zine-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Dominant saturated cobalt-blue poster field with a narrow off-white paper border or visible paper edge.",
+    "Large irregular torn white paper islands, each with jagged scissor-cut edges and slight shadow or crease relief.",
+    "Black-and-white photocopy halftone subject cutouts with coarse dot screens, high contrast, and slightly broken edges.",
+    "Two or three oversized cutout subjects arranged as flat collage pieces, not realistic objects inside a scene.",
+    "Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink.",
+    "Small handwritten micro captions floating directly on the blue field or tucked beside subjects.",
+    "Ransom-note composition logic: separated scraps, tilted labels, asymmetric gaps, and playful visual interruption.",
+    "Crumpled photocopy paper texture across both the blue field and white scraps, including folds, wrinkles, and gray smudges.",
+    "Palette remains tight: cobalt blue, off-white paper, black ink, gray halftone dots, and no broad multicolor accents.",
+    "Flat graphic depth with only shallow paper shadows; no deep perspective, cinematic lighting, or polished product photography.",
+    "Subject scale is poster-like and blunt, with cropped edges and bodies or props partly leaving the frame.",
+    "Mood is absurd handmade punk-zine notice board: funny, noisy, tactile, and deliberately unpolished."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate geese, ducks, swans, long-neck birds, bird bodies, bird heads, or the same animal-call joke premise.",
+    "Do not copy the exact words DON'T, BE, A, SILLY, GOOSE, HONK, QUACK, CLUCK, or their arrangement.",
+    "Do not include the same two-bird left-right layout, the same long horizontal bird cutout at the top, or a bottom-left barcode block.",
+    "Do not use the original source's exact white speech scraps, vertical SILLY strip, or bottom GOOSE label strip.",
+    "Do not include any creator signature, watermark, real barcode, QR code, app icon, platform mark, or username.",
+    "Do not turn the style into a clean vector poster, polished corporate flyer, colorful sticker sheet, realistic photo scene, or comic panel.",
+    "Do not preserve the original story premise of telling someone not to be silly.",
+    "Do not use clean typeset fonts as the dominant text; the lettering must look handwritten and physically cut out."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Photocopied punk-ransom zine poster with paper collage, coarse halftone cutouts, and rough handwritten captioning.",
+    "composition_and_layout": "A cobalt rectangle acts as the base sheet. White torn-paper scraps are scattered across it as labels and subject backings, creating a loose but high-density poster grid.",
+    "subject_placement": "Subjects appear as isolated black halftone cutouts pasted onto white paper backing. They are large, bluntly cropped, and arranged with playful imbalance rather than natural perspective.",
+    "camera_or_perspective": "No camera scene is implied. Every element is treated as a scanned, flat paper object with shallow relief from folds and scrap shadows.",
+    "typography_style": "Text is hand-drawn in black marker, with inconsistent letter size, wobbly baselines, uneven kerning, and a mix of large torn-strip words plus tiny direct-on-blue annotations.",
+    "color_palette": "The palette is nearly binary: saturated cobalt blue background, off-white torn paper, black ink, gray photocopy halftone, and faint paper-shadow gray.",
+    "graphic_elements": "Jagged scraps, taped-note shapes, cutout silhouettes, faux serial ticks, tiny star or asterisk notes, handwritten sound-effect fragments, creases, and smudged copy texture.",
+    "texture_and_finish": "The entire image should feel scanned from crumpled paper: visible folds, paper dents, toner grain, dot screens, small speckles, and imperfect photocopy contrast.",
+    "lighting": "Lighting is flat and scanner-like, with only shallow paper edge shadows and no cinematic highlights.",
+    "mood_and_reference": "Absurdist handmade zine humor, school-notice-board energy, rough punk collage, and anti-polished poster design."
+  },
+  "composition": {
+    "primary_rule": "Build the image as a flat cobalt poster covered with separated torn white scraps, halftone subject cutouts, and handmade marker labels.",
+    "scale": "Use two or three dominant subject cutouts that occupy large areas, with smaller paper captions acting as visual interruptions.",
+    "negative_space": "Keep cobalt blue visible between scraps; do not fill the whole image with tiny stickers or dense scenery.",
+    "vertical_ratio": "For 9:16, stack the scraps vertically with one large subject low, one large subject high or side, and several tilted labels crossing the central area.",
+    "horizontal_ratio": "For 16:9, spread the subject cutouts laterally across the blue field with a strong diagonal rhythm of labels and torn scraps.",
+    "edge_behavior": "Let a few scraps or subject cutouts crop off the page edge, but keep the poster readable as a single flat collage."
+  },
+  "typography": {
+    "headline": "Use large black marker lettering on torn white strips, intentionally uneven and handmade, with only a few words.",
+    "micro_text": "Use tiny handwritten sound-like notes or short captions on the blue field, placed sparingly near subject cutouts.",
+    "letterforms": "Letters should wobble, lean, and vary in height; they should look drawn by hand, not typed.",
+    "placement": "Text scraps may tilt, overlap blank space, or sit beside subjects, but should not become a clean centered title card.",
+    "legibility": "Some words can be imperfect, but the overall poster should clearly read as a handwritten note collage."
+  },
+  "color_palette": {
+    "background": "saturated cobalt blue, slightly mottled by paper texture",
+    "paper": "off-white torn paper with gray wrinkles and toner smudges",
+    "ink": "deep black marker strokes and black photocopy toner",
+    "halftone": "gray-to-black coarse dot screens with high contrast",
+    "accent_behavior": "Avoid additional color families; if an accent is needed, keep it as black marker symbols or gray paper shadow."
+  },
+  "image_treatment": {
+    "rendering": "Raster paper collage, like a scanned handmade poster assembled from photocopied cutouts and torn notes.",
+    "edges": "Scraps have jagged torn or scissor-cut edges; halftone subjects have imperfect photocopy outlines with bits of white backing visible.",
+    "depth": "Mostly flat, with minimal paper-layer shadow and no realistic object depth.",
+    "finish": "High-resolution raster image with visible paper grain, coarse halftone dots, toner noise, wrinkles, fold lines, and handmade imperfection."
+  },
+  "design_rules": [
+    "Keep the cobalt blue background as the dominant color field.",
+    "Use off-white torn paper as the structural frame for text and subject cutouts.",
+    "Render subjects in black-and-white photocopy halftone rather than full color or realistic photography.",
+    "Use only a few large marker words, supported by tiny handwritten micro captions.",
+    "Make every element feel physically cut, pasted, scanned, wrinkled, or photocopied.",
+    "Preserve shallow flat collage depth with no scenic background perspective.",
+    "Change the subject and message completely from the reference while keeping the same zine grammar.",
+    "Let asymmetry, tilt, and awkward spacing create the humor and movement."
+  ],
+  "do": [
+    "Use coarse halftone dot screens on the main subject cutouts.",
+    "Use torn white paper scraps with visible wrinkles and gray copy texture.",
+    "Keep large areas of cobalt blue visible between collage pieces.",
+    "Make typography look like black marker on paper, not a font.",
+    "Use small absurd micro captions or asterisks as part of the zine voice.",
+    "Keep the whole image tactile, handmade, and imperfect."
+  ],
+  "avoid": [
+    "Do not use geese, ducks, swans, long-neck birds, animal-call jokes, or the original words.",
+    "Do not add full-color stickers, glossy advertising photography, vector shapes, or 3D rendering.",
+    "Do not create a clean grid, corporate poster, polished magazine layout, or cinematic scene.",
+    "Do not include real barcodes, QR codes, watermarks, social handles, platform logos, or brand marks.",
+    "Do not use smooth digital fonts as the main type.",
+    "Do not overfill the poster with many tiny objects or realistic background detail."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Blue Halftone Ransom Zine Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: saturated cobalt-blue poster field, off-white torn paper scraps, black-and-white coarse photocopy halftone subject cutouts, jagged paper edges, black marker handwriting, tiny handwritten micro captions on blue, shallow paper shadows, crumpled scanner texture, toner noise, gray smudges, visible wrinkles, asymmetric ransom-note collage spacing, and a tight palette of cobalt blue, off-white, black, and gray only. Important content rule: match the visual style first, then change the subject, text, props, and story premise completely from the reference.",
+  "negative_prompt": "geese, goose, ducks, swans, long-neck birds, bird-call jokes, DON'T, BE, A, SILLY, GOOSE, HONK, QUACK, CLUCK, exact source layout, vertical SILLY strip, bottom GOOSE label, real barcode, QR code, watermark, username, platform logo, app icon, brand mark, clean vector poster, smooth digital font, glossy corporate flyer, polished magazine layout, full-color sticker sheet, 3D render, cinematic photo scene, realistic background perspective, watercolor, neon gradient, comic panel grid",
+  "examples": [
+    {
+      "case_name": "bicycle-curb-warning",
+      "values": {
+        "SUBJECT": "two crooked city bicycles rendered as black-and-white halftone photocopy cutouts",
+        "SUBJECT_ACTION": "leaning awkwardly as if pasted from a noisy street safety notice",
+        "PRODUCT_OR_PROP": "a torn paper helmet label and a small photocopied bike lock",
+        "LOCATION": "flat handmade poster space with no real street scene",
+        "BACKGROUND_ELEMENTS": "cobalt gaps, crumpled paper folds, gray toner smudges, tiny serial ticks, and tilted note scraps",
+        "MAIN_TEXT": "large marker words on torn strips loosely reading RIDE SLOW",
+        "SECONDARY_TEXT": "tiny handwritten notes such as squeak and brake drawn directly on the blue field",
+        "ACCENT_SYMBOL": "small hand-drawn asterisk",
+        "WARDROBE_STYLE": "no person; objects treated as pasted photocopy cutouts",
+        "STYLE_FIDELITY_ANCHORS": "cobalt field, torn off-white scraps, coarse black halftone cutouts, marker handwriting, crumpled scanner texture, asymmetric ransom-note layout",
+        "SOURCE_CONTENT_TO_AVOID": "no geese or birds, no original words, no animal-call joke, no barcode, no source layout"
+      }
+    },
+    {
+      "case_name": "desk-lamp-midnight",
+      "values": {
+        "SUBJECT": "a bent desk lamp and a stack of books rendered as coarse black halftone cutouts",
+        "SUBJECT_ACTION": "tilting over a messy study note collage like a late-night warning poster",
+        "PRODUCT_OR_PROP": "a torn paper bookmark, a photocopied pencil, and one small paper corner fold",
+        "LOCATION": "flat cobalt zine poster surface, not a realistic room",
+        "BACKGROUND_ELEMENTS": "wrinkled paper grain, off-white scraps, tiny copy speckles, short blue-field captions, and gray fold lines",
+        "MAIN_TEXT": "large uneven marker words on paper scraps loosely reading READ LATE",
+        "SECONDARY_TEXT": "small handwritten notes such as click and page near the cutouts",
+        "ACCENT_SYMBOL": "tiny marker star",
+        "WARDROBE_STYLE": "no person; desk objects pasted like scanned paper pieces",
+        "STYLE_FIDELITY_ANCHORS": "blue base sheet, off-white torn labels, black photocopy halftone, handmade marker letters, shallow paper shadows, punk-zine notice texture",
+        "SOURCE_CONTENT_TO_AVOID": "no bird subject, no source phrases, no silly-goose premise, no real barcode or watermark"
+      }
+    },
+    {
+      "case_name": "tin-robot-repair",
+      "values": {
+        "SUBJECT": "a small tin robot and a loose mechanical hand rendered as rough black halftone photocopy cutouts",
+        "SUBJECT_ACTION": "standing stiffly among torn repair-note scraps",
+        "PRODUCT_OR_PROP": "a photocopied wrench, a jagged paper bolt shape, and a taped label scrap",
+        "LOCATION": "flat cobalt handmade zine poster field with no workshop perspective",
+        "BACKGROUND_ELEMENTS": "gray toner flecks, wrinkled paper, small faux registration marks, tilted captions, and torn white islands",
+        "MAIN_TEXT": "large marker words on torn notes loosely reading STAY WIRED",
+        "SECONDARY_TEXT": "tiny handwritten notes such as beep and clank scattered on the blue",
+        "ACCENT_SYMBOL": "small hand-drawn plus sign",
+        "WARDROBE_STYLE": "no human wardrobe; robot appears as a pasted photocopy object",
+        "STYLE_FIDELITY_ANCHORS": "cobalt blue, white torn scraps, black-and-gray halftone, marker lettering, crumpled photocopy grain, shallow collage depth",
+        "SOURCE_CONTENT_TO_AVOID": "no geese, no ducks, no original headline words, no animal sounds, no bottom barcode block"
+      }
+    },
+    {
+      "case_name": "chair-stack-notice",
+      "values": {
+        "SUBJECT": "three mismatched chairs rendered as high-contrast black-and-white halftone cutouts",
+        "SUBJECT_ACTION": "stacking unevenly as if pasted into a handmade room notice",
+        "PRODUCT_OR_PROP": "a torn paper mug label and one photocopied floor scuff",
+        "LOCATION": "flat cobalt poster surface with no actual interior background",
+        "BACKGROUND_ELEMENTS": "large blue gaps, off-white crumpled scraps, gray smudges, tiny handwritten caption marks, and rough paper edges",
+        "MAIN_TEXT": "large black marker words on torn strips loosely reading SIT STRAIGHT",
+        "SECONDARY_TEXT": "tiny handwritten notes such as scrape and bump near the chair legs",
+        "ACCENT_SYMBOL": "small marker slash mark",
+        "WARDROBE_STYLE": "no person; chairs treated as pasted photocopy silhouettes",
+        "STYLE_FIDELITY_ANCHORS": "coarse halftone subject cutouts, cobalt field, torn off-white labels, marker type, paper wrinkles, ransom-zine asymmetry",
+        "SOURCE_CONTENT_TO_AVOID": "no birds, no source wording, no honk or quack text, no copied vertical strip, no scannable barcode"
+      }
+    }
+  ]
+}
