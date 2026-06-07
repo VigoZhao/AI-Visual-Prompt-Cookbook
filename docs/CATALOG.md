@@ -1,9 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 61 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 63 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
 
+### Rough Marker Monster Poster Style
+
+<a href="../styles/rough-marker-monster-poster-style"><img src="../styles/rough-marker-monster-poster-style/preview-16x9.jpg" width="720" alt="Rough Marker Monster Poster Style preview"></a>
+
+A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.
+
+Files: [style.json](../styles/rough-marker-monster-poster-style/style.json) · [Copy Prompt](copy-prompts/rough-marker-monster-poster-style.md) · [16:9 preview](../styles/rough-marker-monster-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/rough-marker-monster-poster-style/preview-9x16.jpg) · [Folder](../styles/rough-marker-monster-poster-style)
+
+---
+
+### Cyan Red Shockwave Type Poster Style
+
+<a href="../styles/cyan-red-shockwave-type-poster-style"><img src="../styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg" width="720" alt="Cyan Red Shockwave Type Poster Style preview"></a>
+
+A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.
+
+Files: [style.json](../styles/cyan-red-shockwave-type-poster-style/style.json) · [Copy Prompt](copy-prompts/cyan-red-shockwave-type-poster-style.md) · [16:9 preview](../styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/cyan-red-shockwave-type-poster-style/preview-9x16.jpg) · [Folder](../styles/cyan-red-shockwave-type-poster-style)
+
+---
 ### Fantasy Scribble Mascot Poster Style
 
 <a href="../styles/fantasy-scribble-mascot-poster-style"><img src="../styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" width="720" alt="Fantasy Scribble Mascot Poster Style preview"></a>

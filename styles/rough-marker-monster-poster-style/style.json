@@ -1,0 +1,177 @@
+{
+  "style_name": "Rough Marker Monster Poster Style",
+  "style_slug": "rough-marker-monster-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.",
+  "environment_variables": {
+    "SUBJECT": "main oversized creature or object-character",
+    "SUBJECT_ACTION": "simple goofy action or expression",
+    "PRODUCT_OR_PROP": "secondary object, prop, snack, tool, or small visual anchor",
+    "LOCATION": "minimal paper-poster setting or implied corner",
+    "BACKGROUND_ELEMENTS": "small supporting doodles, dots, hatch marks, texture, or accent shapes",
+    "MAIN_TEXT": "large rough hand-lettered black phrase",
+    "SECONDARY_TEXT": "smaller handwritten tag, shout, or repeated word",
+    "ACCENT_SYMBOL": "tiny hand-drawn mark, burst, dot, hatch, or shape",
+    "WARDROBE_STYLE": "surface styling, creature detail, or object-character treatment",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Cream paper background with warm tint, subtle speckle, and no realistic environment.",
+    "Thick black marker or oil-pastel keylines with scratchy edges, wobble, and uneven pressure.",
+    "One huge simplified character or object-character fills most of the frame and is cropped boldly.",
+    "Flat childlike construction with no realistic perspective, no 3D modeling, and no polished vector edges.",
+    "Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture.",
+    "Limited palette uses one dominant bright body color, yellow-orange or warm accents, white eyes or mouth shapes, and black text.",
+    "Goofy anatomy or object logic uses one big expressive eye, simple mouth, blocky silhouette, and playful imbalance.",
+    "Hand-lettered black display text is large, chunky, uneven, and integrated into empty corners.",
+    "Small repeated marks such as short hatch lines, dots, cheek spots, little rectangles, and scribble accents add rhythm.",
+    "Composition is poster-like and sparse, with one central subject, a few decorative marks, and a short handwritten phrase.",
+    "Mood is mischievous, naive, funny, and slightly absurd, like a children's warning poster.",
+    "The finish remains analog and handmade rather than clean digital illustration."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the green dinosaur or dragon head, long neck silhouette, yellow back spikes, or exact tooth arrangement.",
+    "Do not copy the source phrases Look at me and eat it or Coky it or any close variant.",
+    "Do not reproduce the same right-side stacked text block, lower-left word cluster, or source composition exactly.",
+    "Do not include the source signature, watermark, creator name, username, platform mark, or identity mark.",
+    "Do not use the same story premise of a dinosaur telling the viewer to look and eat.",
+    "Do not copy the single nose patch, cheek dot pattern, eye angle, or jaw shape from the reference.",
+    "Do not create a realistic dinosaur, polished mascot, clean vector icon, comic book panel, or digital cartoon render.",
+    "Do not include real brand logos, QR codes, app marks, or photographic backgrounds."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Naive rough marker children's poster with monster-like object-character energy.",
+    "composition_and_layout": "One oversized flat subject dominates the page, with empty cream paper pockets used for irregular black hand lettering and tiny scribble marks.",
+    "subject_placement": "The subject is cropped large and slightly off balance, usually occupying more than half the frame and pressing toward one or more edges.",
+    "camera_or_perspective": "Flat frontal drawing with no lens behavior and almost no constructed perspective; scale and overlap create the only depth.",
+    "typography_style": "Chunky black hand lettering, uneven and playful, placed around the main shape as part of the drawing.",
+    "color_palette": "Warm cream paper, deep black-brown outline and lettering, one dominant saturated body color, yellow-orange accents, white eyes or teeth, and a few pale detail marks.",
+    "graphic_elements": "Short hatch marks, dots, cheek circles, small rectangles, uneven teeth or eye marks, scribble bursts, and rough accent shapes.",
+    "texture_and_finish": "Dry marker or oil-pastel grain, broken fill, edge wobble, paper speckle, and lightly scanned analog surface.",
+    "lighting": "Flat ambient paper lighting with no dramatic shadow, glossy highlight, or realistic material reflection.",
+    "mood_and_reference": "Mischievous classroom-poster humor, naive monster drawing, absurd handwritten warning, and handmade storybook directness."
+  },
+  "composition": {
+    "primary_rule": "Use a sparse poster hierarchy: one huge flat object-character, a short hand-lettered phrase, and a few small rhythmic doodle marks.",
+    "scale": "Let the main subject occupy roughly sixty to eighty percent of the visual field, with bold edge cropping where useful.",
+    "negative_space": "Preserve cream paper around the subject so the handwritten phrase has room to breathe.",
+    "subject_shape": "Favor rounded blocks, arches, squat blobs, or lopsided object silhouettes instead of realistic anatomy.",
+    "vertical_ratio": "For 9:16, stack the character tall with text tucked into the upper, lower, or side pockets.",
+    "horizontal_ratio": "For 16:9, place the character off-center or stretched wide, with text balancing the open side."
+  },
+  "typography": {
+    "headline": "Large hand-lettered black words drawn with a fat marker or oil pastel, chunky and uneven.",
+    "secondary_copy": "Smaller handwritten shouts or tags may appear below or beside the subject, but stay sparse.",
+    "letter_shape": "Letters are rounded, blunt, slightly tilted, and inconsistent in size, with rough edges.",
+    "placement": "Text wraps irregularly around the main shape and uses the empty paper areas as part of the composition.",
+    "legibility": "Words should read as playful handmade poster lettering, not clean digital typography."
+  },
+  "color_palette": {
+    "background": "warm cream, pale yellow paper, faint tan speckle",
+    "linework": "deep black-brown marker with rough dry edges",
+    "main_body": "saturated green, teal, blue, red, purple, or orange as a broad rough fill",
+    "accents": "yellow-orange, warm yellow, white, small pale blue or pink spots",
+    "palette_behavior": "Use one dominant bright body color, one warm accent family, black linework, and white eye or mouth shapes; avoid gradients and many blended hues."
+  },
+  "image_treatment": {
+    "rendering": "High-resolution raster poster that looks scanned from a hand drawing on cream paper.",
+    "edges": "Outlines are thick, scratchy, uneven, and sometimes doubled, with visible dry-marker texture.",
+    "surface": "Color fills are grainy and imperfect, leaving small paper flecks and hand-pressure variation.",
+    "depth": "Extremely flat paper-based image with minimal depth and no realistic shadow system.",
+    "finish": "Analog, tactile, rough, playful, and childlike."
+  },
+  "design_rules": [
+    "Preserve the style fidelity anchors before inventing new content.",
+    "Use one oversized subject and keep the poster sparse.",
+    "Make all outlines thick, black, wobbly, and handmade.",
+    "Use a cream paper ground with visible grain or speckle.",
+    "Let one saturated color dominate the character body.",
+    "Add only a few accent marks, dots, hatches, and small rectangles.",
+    "Use short fictional hand-lettered text, never source wording.",
+    "Keep the final image flat and analog rather than polished."
+  ],
+  "do": [
+    "Use a huge simplified creature or object-character with a bold silhouette.",
+    "Draw chunky black hand lettering in the negative space.",
+    "Show grainy marker fill, paper flecks, and rough uneven keylines.",
+    "Use playful one-eye, mouth, spot, or hatch details where appropriate.",
+    "Keep the mood funny, direct, and handmade."
+  ],
+  "avoid": [
+    "Do not copy the source dinosaur, exact text, signature, spikes, jaw shape, or story premise.",
+    "Do not turn the image into clean vector art, polished mascot branding, 3D, watercolor, or comic panel illustration.",
+    "Do not fill the scene with many objects, realistic scenery, perspective backgrounds, or detailed environments.",
+    "Do not use real brands, QR codes, usernames, app marks, or watermarks.",
+    "Do not make the lettering clean, centered, typographic, or mechanically aligned."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Rough Marker Monster Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or object styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm cream paper background with subtle speckle; one huge flat childlike creature or object-character dominating the poster; thick scratchy black marker outlines; rough saturated marker fills with visible grain and small white paper gaps; chunky irregular black hand-lettered text integrated into empty corners; tiny dots, hatch marks, cheek spots, rectangles, and scribble accents; limited palette with one dominant bright body color, warm yellow-orange accents, white eye or mouth shapes, and black text; flat handmade construction with no realistic perspective, no 3D, no clean vector polish, no photographic environment. Important content rule: preserve the visual style first, then change the content with a new subject, new action, new prop, new fictional text, and new story premise.",
+  "negative_prompt": "green dinosaur, dragon head, long neck dinosaur, yellow back spikes, copied source teeth, copied source jaw, copied source eye angle, Look at me and eat it, Coky it, exact source text layout, source signature, watermark, creator name, username, QR code, platform logo, brand logo, realistic dinosaur, clean vector mascot, polished digital cartoon, comic panel, watercolor, 3D render, photorealistic background, glossy lighting, dense scene, exact source composition",
+  "examples": [
+    {
+      "case_name": "steam-kettle-giggle",
+      "values": {
+        "SUBJECT": "a huge teal kettle-character with one big white eye and a lopsided open mouth",
+        "SUBJECT_ACTION": "puffing steam while giggling at the viewer",
+        "PRODUCT_OR_PROP": "a tiny red mug and three crooked steam curls",
+        "LOCATION": "empty cream paper poster with only an implied tabletop line",
+        "BACKGROUND_ELEMENTS": "small black steam hatches, white cheek dots, tiny orange rectangles, and faint paper speckle",
+        "MAIN_TEXT": "chunky black hand lettering reading SIP IT SLOW",
+        "SECONDARY_TEXT": "small uneven handwritten tag reading hot hot",
+        "ACCENT_SYMBOL": "tiny orange burst mark",
+        "WARDROBE_STYLE": "object-character styling with blunt spout, round belly, and rough marker fill",
+        "STYLE_FIDELITY_ANCHORS": "cream paper, thick black marker outlines, giant flat character, grainy saturated fill, chunky black hand text, tiny hatches and dots, sparse poster layout",
+        "SOURCE_CONTENT_TO_AVOID": "no dinosaur, no dragon head, no yellow back spikes, no copied source phrases, no signature, no eating command story"
+      }
+    },
+    {
+      "case_name": "umbrella-rain-hop",
+      "values": {
+        "SUBJECT": "a squat purple umbrella-character with one big eye under the canopy",
+        "SUBJECT_ACTION": "hopping sideways through a few silly raindrops",
+        "PRODUCT_OR_PROP": "a tiny yellow rain boot and one crooked puddle",
+        "LOCATION": "minimal cream paper poster with no real street or scenery",
+        "BACKGROUND_ELEMENTS": "short black rain hatches, small pale blue dots, two orange corner marks, and paper grain",
+        "MAIN_TEXT": "chunky black hand lettering reading HOP IN RAIN",
+        "SECONDARY_TEXT": "small uneven handwritten tag reading plip plip",
+        "ACCENT_SYMBOL": "tiny blue drop",
+        "WARDROBE_STYLE": "rounded umbrella canopy, stubby handle-leg, playful object-character imbalance",
+        "STYLE_FIDELITY_ANCHORS": "warm cream ground, thick scratchy black line, oversized flat character, limited bright body color, rough hand text, sparse marks, childlike analog finish",
+        "SOURCE_CONTENT_TO_AVOID": "no green long-neck creature, no teeth, no spikes, no copied text layout, no signature, no look-at-me phrase"
+      }
+    },
+    {
+      "case_name": "cereal-bowl-song",
+      "values": {
+        "SUBJECT": "a chunky red cereal-bowl character with a giant white eye and square teeth made from cereal pieces",
+        "SUBJECT_ACTION": "singing loudly with milk splashes around its rim",
+        "PRODUCT_OR_PROP": "a crooked spoon and three tiny yellow cereal squares",
+        "LOCATION": "empty cream paper poster with a simple breakfast counter mark",
+        "BACKGROUND_ELEMENTS": "white milk dots, black hatch marks, tiny yellow squares, and faint warm paper texture",
+        "MAIN_TEXT": "chunky black hand lettering reading CRUNCH SONG",
+        "SECONDARY_TEXT": "small uneven handwritten tag reading munchy munch",
+        "ACCENT_SYMBOL": "tiny black star",
+        "WARDROBE_STYLE": "bowl as a goofy monster-like object with blunt rim, rough fill, and simple mouth",
+        "STYLE_FIDELITY_ANCHORS": "cream paper, oversized simple subject, thick black marker keylines, grainy saturated color, black hand lettering, sparse poster rhythm, rough childlike drawing",
+        "SOURCE_CONTENT_TO_AVOID": "no dinosaur or dragon, no back spikes, no original phrases, no source jaw shape, no signature, no viewer-eating premise"
+      }
+    },
+    {
+      "case_name": "lamp-night-whisper",
+      "values": {
+        "SUBJECT": "a huge yellow desk-lamp character with one sleepy eye inside the lampshade",
+        "SUBJECT_ACTION": "leaning down to whisper at a stack of notebooks",
+        "PRODUCT_OR_PROP": "a small teal pencil cup and two crooked notebooks",
+        "LOCATION": "minimal cream paper study-corner poster with no realistic room",
+        "BACKGROUND_ELEMENTS": "short black light hatches, tiny white dust dots, small teal rectangles, and paper speckle",
+        "MAIN_TEXT": "chunky black hand lettering reading LIGHTS TALK",
+        "SECONDARY_TEXT": "small uneven handwritten tag reading hush now",
+        "ACCENT_SYMBOL": "tiny crescent scribble",
+        "WARDROBE_STYLE": "object-character styling with bent neck, blocky shade, rough yellow marker fill, and playful imbalance",
+        "STYLE_FIDELITY_ANCHORS": "cream paper surface, black scratchy outlines, giant flat object-character, rough fill with paper gaps, irregular hand text, tiny hatches and dots, sparse childlike poster",
+        "SOURCE_CONTENT_TO_AVOID": "no green dinosaur, no dragon silhouette, no yellow back spikes, no copied source wording, no source signature, no eating command"
+      }
+    }
+  ]
+}

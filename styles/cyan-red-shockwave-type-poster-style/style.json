@@ -1,0 +1,161 @@
+{
+  "style_name": "Cyan Red Shockwave Type Poster Style",
+  "style_slug": "cyan-red-shockwave-type-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.",
+  "environment_variables": {
+    "SUBJECT": "new central subject or character group",
+    "SUBJECT_ACTION": "clear action that creates impact or motion",
+    "PRODUCT_OR_PROP": "object, product, or prop that replaces the source object",
+    "LOCATION": "new setting or cultural context",
+    "BACKGROUND_ELEMENTS": "secondary scene details and small graphic inserts",
+    "MAIN_TEXT": "new oversized headline text or abstract display lettering",
+    "SECONDARY_TEXT": "new short supporting text, labels, or rotated microcopy",
+    "ACCENT_SYMBOL": "small dot, ring, star, dash, or sound-effect mark",
+    "WARDROBE_STYLE": "flat simplified styling for people, hands, or character details",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Saturated cyan background dominates the entire poster, with red and yellow used as the only major accents.",
+    "Huge red geometric display lettering is cropped by the page edges and functions as both text and architecture.",
+    "A white jagged lightning-burst shape cuts diagonally through the center and carries the main action.",
+    "Subjects are simplified flat vector forms with almost no shading, outlined by thick red keylines.",
+    "Human or hand-like accents use solid lemon yellow fills, making them graphic shapes rather than realistic anatomy.",
+    "Small red dots, rings, underline marks, and sound-effect labels orbit the main subject as punctuation.",
+    "Secondary text is compact, rotated, vertical, or angled, placed as layout texture rather than paragraph reading.",
+    "The composition is crowded but clean: large type, one central prop/action, and a few crisp microcopy clusters.",
+    "Perspective is mostly flat with slight forced diagonal motion; no realistic depth, lens blur, or photographic lighting.",
+    "Edges are hard, colors are poster-flat, and any gradients are limited to tiny accent transitions inside the central prop."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate bowls, soup, noodles, chopsticks, drinking, cheers, or clinking vessels.",
+    "Do not use the source location theme, mountain outlaw references, tourism copy, or city-impression story.",
+    "Do not copy the exact red source characters, romanized names, cheers labels, ding label, copyright block, or seal marks.",
+    "Do not reproduce the same two-bowl diagonal arrangement, the same white burst silhouette, or the same yellow hand pose.",
+    "Do not include watermarks, signatures, logos, publisher marks, QR codes, or exact identity marks from the reference."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Flat pop poster illustration with techno-manga impact graphics and regional sign-paint typography.",
+    "layout": "A full-bleed cyan field is packed with cropped red display type, a diagonal white shockwave, a large central prop, and small rotated caption islands.",
+    "subject_system": "One central object or action is enlarged to poster scale, held or pushed by simplified yellow limbs or surrounded by graphic punctuation.",
+    "perspective": "Mostly orthographic flatness with diagonal slashes and forced motion replacing natural camera perspective.",
+    "texture": "Clean screenprint-like color fields, hard vector edges, minimal print texture, and only tiny controlled gradients.",
+    "mood": "Noisy, celebratory, fast, urban, humorous, and commercial without becoming photoreal or cluttered."
+  },
+  "composition": {
+    "primary_structure": "Place the main object/action across a diagonal white jagged burst, with large cropped red type occupying the top, bottom, and at least one side edge.",
+    "subject_scale": "The prop or action should occupy 35 to 55 percent of the canvas, close enough to feel like a poster icon.",
+    "microcopy": "Use several small red or white text clusters, some rotated or vertical, as layout rhythm around the main figure.",
+    "negative_space": "Keep cyan negative space visible between large type blocks and the central burst."
+  },
+  "typography": {
+    "headline": "Oversized, ultra-bold, square, geometric poster letters, inspired by CJK display-block proportions but using new non-source text.",
+    "secondary": "Condensed sans or narrow italic labels, often rotated, underlined, or stacked vertically.",
+    "behavior": "Text should act as shape and rhythm first; avoid refined editorial typography or delicate serif detail.",
+    "legibility": "Main headline should be bold and simple; smaller text may read as poster texture but must not copy source wording."
+  },
+  "color_palette": {
+    "background": "#32B9DF saturated cyan",
+    "primary_type_and_lines": "#E81814 poster red",
+    "human_accent": "#FFE600 lemon yellow",
+    "burst_and_highlights": "#FFFFFF clean white",
+    "minor_shadow": "#F05A24 warm red-orange only for tiny accent gradients",
+    "palette_rule": "Use cyan as the ground, red as structure and keyline, yellow as the lively human/accent fill, and white for impact shapes."
+  },
+  "image_treatment": {
+    "rendering": "Flat vector poster illustration with thick red keylines, hard edges, and simple filled shapes.",
+    "lighting": "Flat even light with no real shadows; form is communicated by silhouette and color blocking.",
+    "depth": "No photographic depth; use diagonal composition, overlapping shapes, and cropped type for motion.",
+    "finish": "Clean screenprint/poster finish, optional slight registration roughness, no paper mockup or wall texture."
+  },
+  "design_rules": [
+    "Start from a saturated cyan full-bleed background before placing any subject.",
+    "Use oversized red type as a structural element, cropped and partially hidden behind or around the action.",
+    "Insert one white jagged shockwave or starburst that intersects the central subject diagonally.",
+    "Render the subject and props in flat fills with thick red outlines and very limited internal detail.",
+    "Use yellow for hands, limbs, or energetic accent shapes so the poster keeps its red-yellow-cyan punch.",
+    "Add small red dots, rings, slanted underlines, and sound-effect labels as graphic punctuation."
+  ],
+  "do": [
+    "Keep the palette tight: cyan, red, yellow, and white should carry nearly the whole image.",
+    "Make the main text huge, blocky, and physically integrated into the poster layout.",
+    "Use diagonal motion, cropped edges, and jagged white burst shapes to create energy.",
+    "Treat small captions as graphic texture with rotated and vertical placements."
+  ],
+  "avoid": [
+    "Avoid photorealism, 3D render materials, airbrushed lighting, shadows, and cinematic depth of field.",
+    "Avoid dense scenic detail, many tiny objects, price labels, realistic architecture, or documentary travel illustration.",
+    "Avoid copying bowls, soup, noodles, cheers captions, the source location story, or exact source typography.",
+    "Avoid pastel palettes, gradient backgrounds, beige paper texture, neon cyberpunk effects, or glossy product-ad lighting."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Cyan Red Shockwave Type Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules: saturated cyan full-bleed background; oversized cropped red block display lettering used as architecture; one white jagged lightning-burst shape cutting diagonally through the center; flat vector subjects with thick red keylines and hard edges; lemon-yellow hands or accent shapes; small red dots, rings, slanted underlines, and sound-effect labels; compact rotated or vertical microcopy clusters; crowded but clean poster hierarchy; mostly orthographic flatness with diagonal forced motion; no realistic lens, shadows, or photographic lighting; optional tiny warm red-orange gradient only inside an accent area.\n\nImportant content rule: preserve the visual system first, then change the source content. Use new subjects, new props, new setting details, and new text. Do not recreate bowls, soup, noodles, drinking, cheers, clinking vessels, source location copy, source seals, source marks, or the same two-object diagonal composition.\n\nAvoid photorealism, 3D rendering, glossy product lighting, realistic paper mockup, watercolor, delicate serif typography, beige vintage poster treatment, neon cyberpunk glow, cluttered market detail, QR codes, watermarks, logos, signatures, or exact copied source text.",
+  "negative_prompt": "photorealistic, 3D render, glossy reflections, cinematic shadows, lens blur, realistic perspective, watercolor wash, oil paint, beige vintage paper, muted palette, pastel palette, complex scenic realism, dense market advertisement, source bowls, soup, noodles, chopsticks, cheers text, ding text, source city tourism copy, copied CJK characters, watermark, signature, logo, QR code, creator ID",
+  "examples": [
+    {
+      "case_name": "vinyl-record-snap",
+      "values": {
+        "SUBJECT": "two simplified yellow-gloved hands and a spinning vinyl record",
+        "SUBJECT_ACTION": "snapping the record into a sleeve with an explosive diagonal motion",
+        "PRODUCT_OR_PROP": "oversized red-and-white vinyl record sleeve with a black center disk",
+        "LOCATION": "tiny underground record shop counter implied only by small labels",
+        "BACKGROUND_ELEMENTS": "cropped red display letters, white shockwave burst, small ring dots, angled speed labels",
+        "MAIN_TEXT": "VINYL SNAP",
+        "SECONDARY_TEXT": "SIDE A / HIGH VOLTAGE SOUND / DROP NEEDLE",
+        "ACCENT_SYMBOL": "small red ring and short slanted underline",
+        "WARDROBE_STYLE": "flat lemon-yellow hands with simplified rounded fingers and no realistic skin texture",
+        "STYLE_FIDELITY_ANCHORS": "cyan field, oversized red cropped type, white jagged diagonal burst, thick red outlines, lemon-yellow hands, red dots and rings, rotated microcopy, flat vector screenprint finish",
+        "SOURCE_CONTENT_TO_AVOID": "no bowls, soup, noodles, cheers, drinking, tourism text, source seals, or same two-vessel diagonal composition"
+      }
+    },
+    {
+      "case_name": "courier-helmet-burst",
+      "values": {
+        "SUBJECT": "a stylized bicycle courier grabbing a helmet",
+        "SUBJECT_ACTION": "pulling a bright helmet across the poster as if launching forward",
+        "PRODUCT_OR_PROP": "red helmet with white stripe and yellow strap",
+        "LOCATION": "abstract city delivery route shown through tiny map ticks and arrows",
+        "BACKGROUND_ELEMENTS": "giant red cropped route letters, white impact burst, small red dots, vertical side label",
+        "MAIN_TEXT": "RUSH RUN",
+        "SECONDARY_TEXT": "FAST LANE / NO BRAKES / CITY SPARK",
+        "ACCENT_SYMBOL": "red dot cluster with one white ring",
+        "WARDROBE_STYLE": "flat yellow arms, red outline gloves, minimal courier vest shapes",
+        "STYLE_FIDELITY_ANCHORS": "cyan ground, red block typography as architecture, diagonal white shockwave, flat simplified human accents, thick red keylines, compact rotated text, clean screenprint colors",
+        "SOURCE_CONTENT_TO_AVOID": "no soup bowls, clinking, cheers labels, mountain city tourism premise, copied source characters, or source layout marks"
+      }
+    },
+    {
+      "case_name": "arcade-ticket-pop",
+      "values": {
+        "SUBJECT": "a giant arcade ticket strip and two flat yellow hands",
+        "SUBJECT_ACTION": "tearing tickets apart in a comic impact burst",
+        "PRODUCT_OR_PROP": "red ticket strip with white perforation holes and bold number blocks",
+        "LOCATION": "abstract arcade prize wall suggested by cropped glyphs and tiny labels",
+        "BACKGROUND_ELEMENTS": "oversized red block type at the edges, white starburst slash, dots, rings, short sound marks",
+        "MAIN_TEXT": "TICKET POP",
+        "SECONDARY_TEXT": "BONUS ROUND / RIP RIP / PRIZE LINE",
+        "ACCENT_SYMBOL": "white dot inside red circle",
+        "WARDROBE_STYLE": "solid yellow cartoon hands with thick red outline and simplified wrist cuffs",
+        "STYLE_FIDELITY_ANCHORS": "high cyan-red-yellow contrast, huge red type, central white jagged burst, flat prop drawing, thick red outlines, small angled caption islands, hard-edge poster finish",
+        "SOURCE_CONTENT_TO_AVOID": "no food vessels, soup, noodles, cheers text, ding text, source city names, source seal, or identical diagonal bowl pose"
+      }
+    },
+    {
+      "case_name": "flower-delivery-flash",
+      "values": {
+        "SUBJECT": "a simplified scooter rider presenting a bouquet",
+        "SUBJECT_ACTION": "swinging a wrapped bouquet through the frame like a celebratory flag",
+        "PRODUCT_OR_PROP": "white bouquet wrap with red outline and yellow flower circles",
+        "LOCATION": "abstract neighborhood delivery corner represented by tiny street marks",
+        "BACKGROUND_ELEMENTS": "cropped red headline glyphs, diagonal white burst, small ring dots, italic delivery labels",
+        "MAIN_TEXT": "BLOOM FLASH",
+        "SECONDARY_TEXT": "SAME DAY / PETAL KICK / TURN LEFT",
+        "ACCENT_SYMBOL": "small yellow circle with red keyline",
+        "WARDROBE_STYLE": "flat yellow arm shapes, red outline helmet, minimal clothing details",
+        "STYLE_FIDELITY_ANCHORS": "flat cyan poster field, oversized red structural lettering, jagged white diagonal shockwave, thick red line art, lemon-yellow body accents, compact rotated labels, red graphic punctuation",
+        "SOURCE_CONTENT_TO_AVOID": "no bowls, noodles, soup, drinking, cheers, source tourism story, exact source characters, copyright block, or seal marks"
+      }
+    }
+  ]
+}

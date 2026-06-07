@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 61,
+  "styleCount": 63,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Rough Marker Monster Poster Style",
+      "slug": "rough-marker-monster-poster-style",
+      "category": "Type Posters",
+      "description": "Naive monster posters with thick marker outlines, crayon fills, cream paper, and chunky handmade type.",
+      "summary": "A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.",
+      "preview16": "../styles/rough-marker-monster-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/rough-marker-monster-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/rough-marker-monster-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/rough-marker-monster-poster-style.md",
+      "folder": "../styles/rough-marker-monster-poster-style/",
+      "anchors": [
+        "Cream paper background with warm tint, subtle speckle, and no realistic environment.",
+        "Thick black marker or oil-pastel keylines with scratchy edges, wobble, and uneven pressure.",
+        "One huge simplified character or object-character fills most of the frame and is cropped boldly.",
+        "Flat childlike construction with no realistic perspective, no 3D modeling, and no polished vector edges.",
+        "Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture.",
+        "Limited palette uses one dominant bright body color, yellow-orange or warm accents, white eyes or mouth shapes, and black text."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "steam-kettle-giggle",
+      "copyPrompt": "Use the \"Rough Marker Monster Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a huge teal kettle-character with one big white eye and a lopsided open mouth\nSubject action: puffing steam while giggling at the viewer\nProduct or prop: a tiny red mug and three crooked steam curls\nLocation: empty cream paper poster with only an implied tabletop line\nBackground elements: small black steam hatches, white cheek dots, tiny orange rectangles, and faint paper speckle\nMain text: chunky black hand lettering reading SIP IT SLOW\nSecondary text: small uneven handwritten tag reading hot hot\nAccent symbol: tiny orange burst mark\nWardrobe style: object-character styling with blunt spout, round belly, and rough marker fill\n\nStyle direction:\nA naive children's poster system built from thick black marker outlines, rough crayon-pastel\ncolor fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black\ntext.\n\nKeep visible:\n- Cream paper background with warm tint, subtle speckle, and no realistic environment.\n- Thick black marker or oil-pastel keylines with scratchy edges, wobble, and uneven pressure.\n- One huge simplified character or object-character fills most of the frame and is cropped boldly.\n- Flat childlike construction with no realistic perspective, no 3D modeling, and no polished vector edges.\n- Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture.\n\nAvoid:\ngreen dinosaur, dragon head, long neck dinosaur, yellow back spikes, copied source teeth, copied\nsource jaw, copied source eye angle, Look at me and eat it, Coky it, exact source text layout,\nsource signature, watermark, creator name, username, QR code, platform logo, brand logo,\nrealistic dinosaur, clean vector mascot, polished digital cartoon, comic panel, watercolor, 3D\nrender, photorealistic background, glossy lighting, dense scene, exact source composition\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Cyan Red Shockwave Type Poster Style",
+      "slug": "cyan-red-shockwave-type-poster-style",
+      "category": "Type Posters",
+      "description": "Cyan-red impact posters with giant block type, jagged shockwaves, yellow accents, and rotated microcopy.",
+      "summary": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.",
+      "preview16": "../styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/cyan-red-shockwave-type-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/cyan-red-shockwave-type-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/cyan-red-shockwave-type-poster-style.md",
+      "folder": "../styles/cyan-red-shockwave-type-poster-style/",
+      "anchors": [
+        "Saturated cyan background dominates the entire poster, with red and yellow used as the only major accents.",
+        "Huge red geometric display lettering is cropped by the page edges and functions as both text and architecture.",
+        "A white jagged lightning-burst shape cuts diagonally through the center and carries the main action.",
+        "Subjects are simplified flat vector forms with almost no shading, outlined by thick red keylines.",
+        "Human or hand-like accents use solid lemon yellow fills, making them graphic shapes rather than realistic anatomy.",
+        "Small red dots, rings, underline marks, and sound-effect labels orbit the main subject as punctuation."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "vinyl-record-snap",
+      "copyPrompt": "Use the \"Cyan Red Shockwave Type Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: two simplified yellow-gloved hands and a spinning vinyl record\nSubject action: snapping the record into a sleeve with an explosive diagonal motion\nProduct or prop: oversized red-and-white vinyl record sleeve with a black center disk\nLocation: tiny underground record shop counter implied only by small labels\nBackground elements: cropped red display letters, white shockwave burst, small ring dots, angled speed labels\nMain text: VINYL SNAP\nSecondary text: SIDE A / HIGH VOLTAGE SOUND / DROP NEEDLE\nAccent symbol: small red ring and short slanted underline\nWardrobe style: flat lemon-yellow hands with simplified rounded fingers and no realistic skin texture\n\nStyle direction:\nA flat illustrated poster system built from a saturated cyan field, oversized red block\ntypography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact\nrotated microcopy. It feels like a loud regional travel poster crossed with manga impact\ngraphics and screenprinted street signage.\n\nKeep visible:\n- Saturated cyan background dominates the entire poster, with red and yellow used as the only major accents.\n- Huge red geometric display lettering is cropped by the page edges and functions as both text and architecture.\n- A white jagged lightning-burst shape cuts diagonally through the center and carries the main action.\n- Subjects are simplified flat vector forms with almost no shading, outlined by thick red keylines.\n- Human or hand-like accents use solid lemon yellow fills, making them graphic shapes rather than realistic anatomy.\n\nAvoid:\nphotorealistic, 3D render, glossy reflections, cinematic shadows, lens blur, realistic\nperspective, watercolor wash, oil paint, beige vintage paper, muted palette, pastel palette,\ncomplex scenic realism, dense market advertisement, source bowls, soup, noodles, chopsticks,\ncheers text, ding text, source city tourism copy, copied CJK characters, watermark, signature,\nlogo, QR code, creator ID\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Fantasy Scribble Mascot Poster Style",
       "slug": "fantasy-scribble-mascot-poster-style",
