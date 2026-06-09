@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-63-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-126-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-66-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-132-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 추천 스타일
 
-이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 63개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
+이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 66개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<h3>Naive Marker Quote Card Style</h3>
+<p>거친 검은 마커 윤곽, 옅은 파스텔 패널, 블록형 파란 레터링, 삐뚤어진 라벨 탭, 단순한 중앙 사물 캐릭터 개그를 평면적이고 순진한 일러스트로 만든 세로형 손그림 부조리 인용 카드 포스터 시스템.</p>
+<p><a href="styles/naive-marker-quote-card-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">프롬프트 복사</a> · <a href="styles/naive-marker-quote-card-style">폴더</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<h3>Sky Blue Home Life Doodle Poster Style</h3>
+<p>전체 하늘색 필드, 거친 집 모양 흰색 인셋, 거대한 불균형 검은 손글씨, 작은 배지 라벨, 마커 낙서처럼 그린 단순한 두꺼운 윤곽의 홈 라이프 카툰 장면으로 구성된 순진한 플랫 포스터 시스템.</p>
+<p><a href="styles/sky-blue-home-life-doodle-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">프롬프트 복사</a> · <a href="styles/sky-blue-home-life-doodle-poster-style">폴더</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<h3>Playful Marker Grounding Poster Style</h3>
+<p>크림색 종이 여백, 느슨한 마커 낙서 색 블록, 두껍고 불균형한 키라인, 큼직한 캐주얼 레터링, 명확한 공익 포스터 위계로 배치된 단순한 마스코트 같은 인물로 구성된 순진한 손그림 포스터 스타일.</p>
+<p><a href="styles/playful-marker-grounding-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">프롬프트 복사</a> · <a href="styles/playful-marker-grounding-poster-style">폴더</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Fantasy Scribble Mascot Poster Style</h3>
 <p>큼직하고 고르지 않은 손글씨, 네온 마커 마스코트 형태, 두꺼운 검은 윤곽선, 느슨한 낙서 장식, 흰 종이 위의 아이 같은 콜라주 에너지로 구성한 거친 손그림 판타지 포스터 시스템입니다.</p>
 <p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">프롬프트 복사</a> · <a href="styles/fantasy-scribble-mascot-poster-style">폴더</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
-<h3>Crayon Catalog Doodle Poster Style</h3>
-<p>접힌 흰 종이 위에 어린아이의 왁스 크레용 그림처럼 렌더링한 성긴 제품 카탈로그 포스터 시스템입니다. 거친 빨간 대형 헤드라인 글자, 단순한 초록과 따뜻한 색의 낙서 주체, 작은 검은 카탈로그 캡션, 넓고 조용한 여백으로 구성됩니다.</p>
-<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">프롬프트 복사</a> · <a href="styles/crayon-catalog-doodle-poster-style">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
-<h3>Blue Halftone Ransom Zine Poster Style</h3>
-<p>찢어진 흰 종이 조각, 검은 복사 느낌의 하프톤 주체 컷아웃, 마커 같은 손글씨, 구겨진 종이 질감, 성기고 노이즈 있는 마이크로 캡션으로 만든 거친 코발트 블루 랜섬 진 포스터 시스템입니다.</p>
-<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">프롬프트 복사</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
-<h3>Market Brush Produce Poster Style</h3>
-<p>따뜻한 아이보리 여백, 거대한 광택 농산물 주인공, 거친 검은 붓글씨 타이포그래피, 얇은 편집 마이크로카피, 계절 도장, 부드러운 아날로그 인쇄 입자로 구성된 현대적인 신선 시장 포스터 시스템입니다.</p>
-<p><a href="styles/market-brush-produce-poster-style/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">프롬프트 복사</a> · <a href="styles/market-brush-produce-poster-style">폴더</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-아래에서 전체 63개 스타일을 둘러볼 수 있습니다.
+아래에서 전체 66개 스타일을 둘러볼 수 있습니다.
 
 위 추천 스타일을 포함한 전체 라이브러리입니다. 각 스타일의 전체 설명과 모든 파일 링크는 [docs/CATALOG.md](docs/CATALOG.md)를 참고하세요.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="naive-marker-quote-card-style"></a>
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<p><strong><a href="styles/naive-marker-quote-card-style">Naive Marker Quote Card Style</a></strong><br>
+<em>거친 마커 윤곽, 파스텔 패널, 파란 블록 글자, 사물 개그가 있는 부조리한 인용 카드 포스터.</em><br>
+<a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="sky-blue-home-life-doodle-poster-style"></a>
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<p><strong><a href="styles/sky-blue-home-life-doodle-poster-style">Sky Blue Home Life Doodle Poster Style</a></strong><br>
+<em>하늘색 집 모양 인셋, 거대한 검은 손글씨, 배지, 마커 일상 장면의 홈 라이프 포스터.</em><br>
+<a href="styles/sky-blue-home-life-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="playful-marker-grounding-poster-style"></a>
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<p><strong><a href="styles/playful-marker-grounding-poster-style">Playful Marker Grounding Poster Style</a></strong><br>
+<em>크림 여백, 마커 색면, 굵은 불균형 선, 큰 글자, 마스코트 인물이 있는 경쾌한 그라운딩 포스터.</em><br>
+<a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>

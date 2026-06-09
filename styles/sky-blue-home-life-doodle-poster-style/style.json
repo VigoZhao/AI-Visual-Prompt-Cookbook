@@ -1,0 +1,187 @@
+{
+  "style_name": "Sky Blue Home Life Doodle Poster Style",
+  "style_slug": "sky-blue-home-life-doodle-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.",
+  "environment_variables": {
+    "SUBJECT": "main original cartoon subject or small group",
+    "SUBJECT_ACTION": "simple domestic action, pause, ritual, workshop, exchange, game, or frozen gesture",
+    "PRODUCT_OR_PROP": "large household prop, craft object, food item, plant, lamp, book, laundry basket, tool, speaker, cushion, or table object",
+    "LOCATION": "home interior zone, balcony, kitchen corner, doorway, studio nook, laundry room, reading corner, or living-room floor",
+    "BACKGROUND_ELEMENTS": "simple shelf objects, sofa blocks, rug grid, pendant lamp, potted plant, window, pet silhouette, wall marks, tiny labels, and house-outline details",
+    "MAIN_TEXT": "short original hand-lettered headline",
+    "SECONDARY_TEXT": "small supporting date, subtitle, or event-like label",
+    "ACCENT_SYMBOL": "red capsule badge, slanted date mark, small arrow, hash mark, tiny sparkle, underline, or speech tick",
+    "WARDROBE_STYLE": "flat casual home clothes, slippers, apron, loose shirt, pajama-like outfit, socks, or simple color-blocked clothing",
+    "STYLE_FIDELITY_ANCHORS": "sky-blue outer field, irregular white house inset, thick black marker outlines, giant naive hand-lettering, red capsule accent, flat poster color, simplified domestic props, chunky pink cartoon anatomy, visible wobbly lines, playful home-event layout",
+    "SOURCE_CONTENT_TO_AVOID": "do not recreate the original no-going-out life festival title, Fun at home text, 2023.12.1-12.3 date, red holiday badge, Xiaohongshu watermark, exact sofa lounging scene, black cat on couch, two original human characters, raised feet pose, phone-reading pose, shelf arrangement, house silhouette, or bottom hashtag wording",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Full-bleed pastel sky-blue background acts as the outer poster field.",
+    "A large off-white house-shaped inset with a rough black outline contains the scene.",
+    "Oversized black hand-lettered headline sits at the top with uneven stroke width and playful imbalance.",
+    "A small red rounded capsule badge and slanted secondary text add event-poster energy.",
+    "Characters and props use thick wobbly black marker outlines with flat color fills and almost no shading.",
+    "Cartoon anatomy is intentionally chunky, with large rounded pink limbs, simple dot eyes, and exaggerated hands or feet.",
+    "Domestic objects are simplified into icon-like forms: sofa blocks, rug grid, lamp cone, shelf bottles, plant pot, pillows, books, and small pets.",
+    "Composition feels busy but readable: top type block, central house interior, lower foreground characters or props.",
+    "Perspective is naive and flattened, with playful scale distortion instead of realistic depth.",
+    "Palette stays limited and punchy: sky blue, off-white, black, coral red, butter yellow, teal blue, grass green, beige, and soft pink.",
+    "Line ends and outlines should look hand-drawn, slightly uneven, and casual, not vector-perfect.",
+    "The poster mood is light, youthful, humorous, homey, and handmade."
+  ],
+  "source_content_to_avoid": [
+    "Do not use the original Chinese headline, English 'Fun at home' phrase, date range, red holiday badge text, bottom hashtag copy, creator number, platform watermark, or any exact text from the reference.",
+    "Do not recreate the two original characters, their black hair, blue shirt, black outfit, phone-reading pose, raised feet pose, skin-tone proportions, or slipper details.",
+    "Do not repeat the exact sofa scene with the black cat, yellow rug grid, hanging red lamp, shelf bottles, plant placement, and white house silhouette.",
+    "Do not copy the original story premise of staying home for a named home-life festival.",
+    "Do not include usernames, platform marks, QR codes, watermarks, brand marks, signatures, or creator IDs.",
+    "Do not use photorealism, polished 3D, glossy vector illustration, anime rendering, or realistic interior design photography."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "naive home-life event poster, flat cartoon doodle flyer, hand-lettered domestic illustration",
+    "composition_and_layout": "a sky-blue poster field frames a white house-shaped interior vignette; the top third is dominated by large black hand-lettering and small event labels; the center and lower area hold simple home props and chunky cartoon subjects",
+    "subject_placement": "one or two original figures, pets, or large props occupy the lower half, often cropped by the frame or overlapping the house inset for a playful foreground effect",
+    "camera_angle_or_perspective": "front-facing flattened poster perspective with childlike scale distortion and no strict vanishing point",
+    "typography_style": "huge irregular hand-drawn black headline, mixed with tiny slanted support text and a red rounded capsule badge; text looks drawn, not typeset",
+    "color_palette_behavior": "dominant sky blue and off-white structure with black outlines; secondary colors appear as flat blocks of coral red, yellow, teal, green, beige, and soft pink",
+    "graphic_elements": "house outline, red badge, slanted date-like mark, hash marks, simple shelf, sofa, lamp, rug grid, plant pot, book blocks, small pet silhouettes, and casual marker ticks",
+    "texture_and_finish": "clean flat fills with mild marker wobble, hand-colored edges, imperfect black strokes, simple poster softness, and no high-detail material rendering",
+    "lighting": "flat graphic lighting; illumination is symbolized by a drawn lamp or sun mark rather than realistic shadows",
+    "mood": "playful, youthful, homey, handmade, lightly absurd, relaxed, and event-like"
+  },
+  "composition": {
+    "primary_structure": [
+      "Use a pastel sky-blue full poster field as the outer background.",
+      "Place a large irregular off-white house-shaped inset in the center, drawn with a thick black outline.",
+      "Reserve the upper band for oversized rough black hand-lettering and one small capsule badge.",
+      "Put the main cartoon action inside or just over the lower portion of the house inset.",
+      "Use one oversized foreground limb, household prop, pet, or object to create playful scale distortion.",
+      "Add simplified domestic props around the subject, but keep every object icon-like and readable.",
+      "Use black marker strokes as the main organizing line; avoid polished borders or realistic perspective.",
+      "Let some elements tilt, overlap, or crop at the edges to keep the poster casual."
+    ],
+    "vertical_9x16": "Stack the giant headline across the top, place the white house inset below it, and let the main figure or large prop occupy the lower third with partial edge cropping.",
+    "horizontal_16x9": "Stretch the headline and red badge across the upper band, widen the house inset across the center, and distribute subjects and props in a low stage-like row."
+  },
+  "typography": {
+    "headline": "massive black hand-lettered characters or block letters with uneven stroke width, tall vertical forms, rounded marker ends, and deliberately imperfect spacing",
+    "secondary_label": "short tiny support text set diagonally or near the headline, plus one red rounded capsule badge with simple white lettering or symbolic marks",
+    "supporting_text": "bottom or side notes may use hash marks, short phrases, date-like strings, or arrows, but all wording must be original",
+    "text_behavior": "lettering should be treated as graphic shape first; keep it bold, naive, and readable enough without becoming clean typography"
+  },
+  "color_palette": {
+    "sky_blue": "#9ED3F5",
+    "off_white": "#FFFDF3",
+    "ink_black": "#111111",
+    "coral_red": "#EF334B",
+    "butter_yellow": "#F4E85E",
+    "teal_blue": "#27A9DE",
+    "grass_green": "#13A85B",
+    "soft_pink": "#F59AA1",
+    "warm_beige": "#E8E3CC",
+    "olive_shadow": "#7B7E20"
+  },
+  "image_treatment": {
+    "linework": "thick irregular black marker outlines, visibly hand-drawn with wobble, rounded stroke caps, and occasional gaps",
+    "fills": "flat poster fills with hard edges, small imperfect overlaps, and no gradient modeling",
+    "texture": "subtle paper-poster softness and marker scuff, but cleaner than newsprint or risograph",
+    "shading": "minimal symbolic shadows only; objects read through outline and flat color blocks",
+    "detail_density": "medium density with a few large props and several tiny home icons; avoid clutter that hides the simple drawing"
+  },
+  "design_rules": [
+    "The sky-blue field and white house-shaped inset must be immediately visible.",
+    "The headline must be a major graphic mass, not a small caption.",
+    "Use only original text, characters, props, and domestic scenarios.",
+    "Keep the drawing flat, chunky, and marker-like instead of polished or realistic.",
+    "Use a red capsule accent and slanted secondary mark to preserve the event-poster grammar.",
+    "Let character limbs, hands, feet, or props become oversized foreground shapes when useful.",
+    "Keep domestic objects simplified into bold icons with thick black outlines.",
+    "Preserve youthful home-life humor without copying the original festival premise."
+  ],
+  "do": [
+    "Use a large blue background and an off-white house-shaped frame.",
+    "Use rough black hand-lettering as a dominant top visual element.",
+    "Draw original home-life subjects with chunky rounded anatomy and flat color fills.",
+    "Include simple household symbols such as rugs, shelves, lamps, plants, books, pets, cushions, or kitchen objects.",
+    "Use a red capsule badge, slanted label, hash mark, or arrow as small graphic accents.",
+    "Keep the poster light, casual, humorous, and handmade."
+  ],
+  "avoid": [
+    "Do not copy the original title, English subtitle, date, watermark, badge wording, bottom hashtag, or creator ID.",
+    "Do not recreate the exact sofa, black cat, lounging person, phone-reading person, raised feet, shelf, lamp, plant, rug, or house silhouette from the reference.",
+    "Do not use photorealistic interiors, 3D toys, anime polish, clean vector corporate illustration, luxury editorial composition, or cinematic lighting.",
+    "Do not add real logos, platform UI, QR codes, signatures, usernames, app marks, or brand identifiers.",
+    "Do not make the design sparse, minimal, monochrome, or typographically clean.",
+    "Do not use long paragraphs, tiny dense captions, or exact imitation of any existing poster."
+  ],
+  "prompt_template": "Create an original {ASPECT_RATIO} poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.",
+  "negative_prompt": "watermark, username, creator ID, platform logo, app UI, QR code, signature, brand logo, copied reference title, copied Chinese text, copied English subtitle, copied date range, copied red badge wording, copied hashtag, exact source characters, raised feet pose, phone-reading pose, black cat on sofa, exact sofa, exact lamp, exact shelf, exact house silhouette, photorealism, 3D render, anime style, glossy vector polish, corporate icon style, luxury interior, cinematic lighting, realistic anatomy, thin elegant line art, long paragraphs, dense tiny text, dark horror mood",
+  "examples": [
+    {
+      "case_name": "balcony-plant-swap",
+      "values": {
+        "SUBJECT": "two original rounded cartoon neighbors",
+        "SUBJECT_ACTION": "trading tiny plant cuttings over a low balcony table",
+        "PRODUCT_OR_PROP": "oversized watering can and three labeled seed cups",
+        "LOCATION": "small apartment balcony corner",
+        "BACKGROUND_ELEMENTS": "window rectangle, hanging towel, simple shelf, plant pot shapes, tiny bird icon, striped floor mat, and doodle arrows",
+        "MAIN_TEXT": "PLANT SWAP DAY",
+        "SECONDARY_TEXT": "sunny corner 10-12",
+        "ACCENT_SYMBOL": "red capsule badge with a leaf mark",
+        "WARDROBE_STYLE": "loose home shirts, socks, apron pocket, and color-block slippers",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue outer field, irregular white house inset, thick black marker outlines, giant naive hand-lettering, red capsule accent, flat poster color, simplified domestic props, chunky pink cartoon anatomy, visible wobbly lines, playful home-event layout",
+        "SOURCE_CONTENT_TO_AVOID": "no original no-going-out festival title, no Fun at home text, no date range 2023.12.1-12.3, no Xiaohongshu watermark, no sofa lounging scene, no black cat on couch, no raised feet, no phone-reading pose"
+      }
+    },
+    {
+      "case_name": "kitchen-noodle-club",
+      "values": {
+        "SUBJECT": "one original chunky cartoon cook and a tiny round pet mascot",
+        "SUBJECT_ACTION": "lifting a playful noodle ribbon from a pot",
+        "PRODUCT_OR_PROP": "large soup pot, chopsticks, egg plate, and small sauce bottle",
+        "LOCATION": "compact kitchen counter stage",
+        "BACKGROUND_ELEMENTS": "shelf jars, tiled backsplash grid, hanging ladle, steam ticks, rug block, and a small window",
+        "MAIN_TEXT": "NOODLE CLUB",
+        "SECONDARY_TEXT": "warm bowl night",
+        "ACCENT_SYMBOL": "red capsule badge with steam marks",
+        "WARDROBE_STYLE": "simple apron, short-sleeve shirt, socks, and rounded oven mitt hands",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue outer field, irregular white house inset, thick black marker outlines, giant naive hand-lettering, red capsule accent, flat poster color, simplified domestic props, chunky pink cartoon anatomy, visible wobbly lines, playful home-event layout",
+        "SOURCE_CONTENT_TO_AVOID": "no original no-going-out festival title, no Fun at home text, no date range 2023.12.1-12.3, no Xiaohongshu watermark, no sofa lounging scene, no black cat on couch, no raised feet, no phone-reading pose"
+      }
+    },
+    {
+      "case_name": "laundry-floor-game",
+      "values": {
+        "SUBJECT": "three original simple cartoon roommates",
+        "SUBJECT_ACTION": "turning folded laundry into a board game on the floor",
+        "PRODUCT_OR_PROP": "oversized laundry basket, sock tokens, folded towel blocks, and dice",
+        "LOCATION": "living-room floor near a laundry rack",
+        "BACKGROUND_ELEMENTS": "curved couch block, drying rack, lamp cone, checkered rug, small plant, wall hook, and tiny score marks",
+        "MAIN_TEXT": "LAUNDRY GAME",
+        "SECONDARY_TEXT": "soft rules only",
+        "ACCENT_SYMBOL": "red capsule badge with a sock icon",
+        "WARDROBE_STYLE": "loose pajama-like shapes, simple shorts, oversized tee blocks, and mismatched socks",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue outer field, irregular white house inset, thick black marker outlines, giant naive hand-lettering, red capsule accent, flat poster color, simplified domestic props, chunky pink cartoon anatomy, visible wobbly lines, playful home-event layout",
+        "SOURCE_CONTENT_TO_AVOID": "no original no-going-out festival title, no Fun at home text, no date range 2023.12.1-12.3, no Xiaohongshu watermark, no sofa lounging scene, no black cat on couch, no raised feet, no phone-reading pose"
+      }
+    },
+    {
+      "case_name": "desk-craft-radio",
+      "values": {
+        "SUBJECT": "one original rounded cartoon maker",
+        "SUBJECT_ACTION": "assembling paper shapes while listening to a small radio",
+        "PRODUCT_OR_PROP": "giant scissors, paper scraps, tape roll, desk lamp, and blocky radio",
+        "LOCATION": "messy desk nook inside a small room",
+        "BACKGROUND_ELEMENTS": "pin board, shelf cups, cord line, tiny stars, folded paper icons, stool, and a striped desk mat",
+        "MAIN_TEXT": "CRAFT RADIO",
+        "SECONDARY_TEXT": "table time",
+        "ACCENT_SYMBOL": "red capsule badge with sound ticks",
+        "WARDROBE_STYLE": "oversized blue smock, rolled sleeves, simple slippers, and rounded mitten hands",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue outer field, irregular white house inset, thick black marker outlines, giant naive hand-lettering, red capsule accent, flat poster color, simplified domestic props, chunky pink cartoon anatomy, visible wobbly lines, playful home-event layout",
+        "SOURCE_CONTENT_TO_AVOID": "no original no-going-out festival title, no Fun at home text, no date range 2023.12.1-12.3, no Xiaohongshu watermark, no sofa lounging scene, no black cat on couch, no raised feet, no phone-reading pose"
+      }
+    }
+  ]
+}

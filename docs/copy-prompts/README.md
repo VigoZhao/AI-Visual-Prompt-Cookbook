@@ -37,6 +37,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Mountain Trail Monster Doodle Poster Style | [Copy Prompt](mountain-trail-monster-doodle-poster-style.md) | [style.json](../../styles/mountain-trail-monster-doodle-poster-style/style.json) |
 | Multi-Color Beverage Splash Ad System Style | [Copy Prompt](multi-color-beverage-splash-ad-system-style.md) | [style.json](../../styles/multi-color-beverage-splash-ad-system-style/style.json) |
 | Naive Marker PSA Poster Style | [Copy Prompt](naive-marker-psa-poster-style.md) | [style.json](../../styles/naive-marker-psa-poster-style/style.json) |
+| Naive Marker Quote Card Style | [Copy Prompt](naive-marker-quote-card-style.md) | [style.json](../../styles/naive-marker-quote-card-style/style.json) |
 | Neon Doodle Gallery Snapshot | [Copy Prompt](neon-doodle-gallery-snapshot-style.md) | [style.json](../../styles/neon-doodle-gallery-snapshot-style/style.json) |
 | Neon Kinetic Typographic Poster | [Copy Prompt](neon-kinetic-typographic-poster-style.md) | [style.json](../../styles/neon-kinetic-typographic-poster-style/style.json) |
 | Neon Outdoor Diary Longform Collage Style | [Copy Prompt](neon-outdoor-diary-longform-collage-style.md) | [style.json](../../styles/neon-outdoor-diary-longform-collage-style/style.json) |
@@ -44,6 +45,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Olive Scribble Sports Poster Style | [Copy Prompt](olive-scribble-sports-poster-style.md) | [style.json](../../styles/olive-scribble-sports-poster-style/style.json) |
 | Orange Brush Mascot Action Poster Style | [Copy Prompt](orange-brush-mascot-action-poster-style.md) | [style.json](../../styles/orange-brush-mascot-action-poster-style/style.json) |
 | Photo Illustration Overlay Poster | [Copy Prompt](photo-illustration-overlay-poster-style.md) | [style.json](../../styles/photo-illustration-overlay-poster-style/style.json) |
+| Playful Marker Grounding Poster Style | [Copy Prompt](playful-marker-grounding-poster-style.md) | [style.json](../../styles/playful-marker-grounding-poster-style/style.json) |
 | Playful Mascot Doodle Snapshot Style | [Copy Prompt](playful-mascot-doodle-snapshot-style.md) | [style.json](../../styles/playful-mascot-doodle-snapshot-style/style.json) |
 | Plush City Festival Mobile Poster | [Copy Prompt](plush-city-festival-mobile-poster-style.md) | [style.json](../../styles/plush-city-festival-mobile-poster-style/style.json) |
 | Plush Comic Toy Product Poster Style | [Copy Prompt](plush-comic-toy-product-poster-style.md) | [style.json](../../styles/plush-comic-toy-product-poster-style/style.json) |
@@ -52,6 +54,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
 | Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |
 | Rough Marker Monster Poster Style | [Copy Prompt](rough-marker-monster-poster-style.md) | [style.json](../../styles/rough-marker-monster-poster-style/style.json) |
+| Sky Blue Home Life Doodle Poster Style | [Copy Prompt](sky-blue-home-life-doodle-poster-style.md) | [style.json](../../styles/sky-blue-home-life-doodle-poster-style/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |

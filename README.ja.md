@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-63-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-126-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-66-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-132-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 注目スタイル
 
-まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。63 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
+まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。66 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<h3>Naive Marker Quote Card Style</h3>
+<p>粗い黒マーカーの輪郭、淡いパステルのパネル、ブロック状の青いレタリング、ずれたラベルタブ、中央のシンプルな物キャラクターのギャグで構成される、縦長の手描き不条理引用カードポスターシステム。</p>
+<p><a href="styles/naive-marker-quote-card-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">コピー用プロンプト</a> · <a href="styles/naive-marker-quote-card-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<h3>Sky Blue Home Life Doodle Poster Style</h3>
+<p>全面のスカイブルー、粗い家型の白いインセット、巨大で不均一な黒い手描き文字、小さなバッジラベル、マーカードゥードルのように描かれた太線のシンプルな家庭生活シーンで構成される素朴なフラットポスターシステム。</p>
+<p><a href="styles/sky-blue-home-life-doodle-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">コピー用プロンプト</a> · <a href="styles/sky-blue-home-life-doodle-poster-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<h3>Playful Marker Grounding Poster Style</h3>
+<p>クリーム色の紙余白、ゆるいマーカーの落書き色面、太く不均一なキーライン、巨大でカジュアルな文字、明快な公共サービス風ポスター階層で配置されたシンプルなマスコット風人物からなる素朴な手描きポスタースタイル。</p>
+<p><a href="styles/playful-marker-grounding-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">コピー用プロンプト</a> · <a href="styles/playful-marker-grounding-poster-style">フォルダ</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Fantasy Scribble Mascot Poster Style</h3>
 <p>大きく不ぞろいな手描き文字、ネオンマーカーのマスコット形状、太い黒アウトライン、ゆるい落書き装飾、白い紙面上の子どもっぽいコラージュ感で構成する粗い手描き幻想ポスターシステム。</p>
 <p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">プロンプトをコピー</a> · <a href="styles/fantasy-scribble-mascot-poster-style">フォルダ</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
-<h3>Crayon Catalog Doodle Poster Style</h3>
-<p>折りたたまれた白い紙に子どものワックスクレヨン画のように描かれた、余白の多い商品カタログポスターシステム。粗い赤い巨大見出し、シンプルな緑と暖色のドゥードル主体、小さな黒いカタログキャプション、静かな大きな余白で構成します。</p>
-<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">プロンプトをコピー</a> · <a href="styles/crayon-catalog-doodle-poster-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
-<h3>Blue Halftone Ransom Zine Poster Style</h3>
-<p>白い破れ紙の断片、黒いコピー調ハーフトーンの主体切り抜き、マーカー風の手書き文字、しわ紙テクスチャ、まばらでノイジーなマイクロキャプションで構成する粗いコバルトブルーのransom zineポスターシステム。</p>
-<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">プロンプトをコピー</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
-<h3>Market Brush Produce Poster Style</h3>
-<p>現代的な青果市場ポスターシステム。暖かなアイボリーの余白、巨大で光沢のある野菜・果物の主役、荒い黒の筆文字、細いエディトリアルなマイクロコピー、季節の印章、柔らかなアナログ印刷粒子で構成されます。</p>
-<p><a href="styles/market-brush-produce-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">プロンプトをコピー</a> · <a href="styles/market-brush-produce-poster-style">フォルダ</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下で全 63 スタイルを閲覧できます。
+下で全 66 スタイルを閲覧できます。
 
 上の注目スタイルを含む完全なライブラリです。各スタイルの詳細説明と全ファイルリンクは [docs/CATALOG.md](docs/CATALOG.md) を参照してください。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="naive-marker-quote-card-style"></a>
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<p><strong><a href="styles/naive-marker-quote-card-style">Naive Marker Quote Card Style</a></strong><br>
+<em>粗いマーカー線、パステル面、青い角文字、物のギャグで作る不条理な引用カードポスター。</em><br>
+<a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="sky-blue-home-life-doodle-poster-style"></a>
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<p><strong><a href="styles/sky-blue-home-life-doodle-poster-style">Sky Blue Home Life Doodle Poster Style</a></strong><br>
+<em>空色の家型フレーム、巨大な黒手描き文字、バッジ、マーカー日常シーンのホームポスター。</em><br>
+<a href="styles/sky-blue-home-life-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="playful-marker-grounding-poster-style"></a>
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<p><strong><a href="styles/playful-marker-grounding-poster-style">Playful Marker Grounding Poster Style</a></strong><br>
+<em>クリーム余白、マーカー色面、太い不均一線、大きな文字、マスコット人物の軽快な啓発ポスター。</em><br>
+<a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>

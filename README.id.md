@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-63-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-126-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-66-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-132-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ Ingin mencoba versi singkat dulu? Buka [Copy Prompt Library](docs/copy-prompts/R
 
 ## Gaya Unggulan
 
-Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 63 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
+Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 66 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<h3>Naive Marker Quote Card Style</h3>
+<p>Sistem poster quote-card absurd vertikal bergaya gambar tangan, dengan outline marker hitam kasar, panel pastel pucat, lettering biru blocky, tab label miring, dan satu gag karakter-objek utama yang dirender sebagai ilustrasi datar naif.</p>
+<p><a href="styles/naive-marker-quote-card-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">Salin Prompt</a> · <a href="styles/naive-marker-quote-card-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<h3>Sky Blue Home Life Doodle Poster Style</h3>
+<p>Sistem poster datar yang naif dengan bidang biru langit penuh, inset putih berbentuk rumah yang kasar, lettering hitam besar tidak rata, label badge kecil, dan adegan kartun kehidupan rumah ber-outline tebal seperti doodle marker.</p>
+<p><a href="styles/sky-blue-home-life-doodle-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">Salin Prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<h3>Playful Marker Grounding Poster Style</h3>
+<p>Gaya poster gambar tangan yang naif, dibangun dari margin kertas krem, blok warna coretan marker yang longgar, keyline tebal tidak rata, lettering kasual besar, dan figur sederhana seperti maskot yang disusun dengan hierarki poster layanan publik yang jelas.</p>
+<p><a href="styles/playful-marker-grounding-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">Salin Prompt</a> · <a href="styles/playful-marker-grounding-poster-style">Folder</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -142,26 +162,6 @@ Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua
 <h3>Fantasy Scribble Mascot Poster Style</h3>
 <p>Sistem poster fantasi gambar tangan mentah dengan lettering besar tidak rata, bentuk maskot marker neon, outline hitam tebal, dekorasi coretan longgar, dan energi kolase kekanak-kanakan yang padat di atas bidang kertas putih.</p>
 <p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">Salin Prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style">Folder</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
-<h3>Crayon Catalog Doodle Poster Style</h3>
-<p>Sistem poster katalog produk yang lapang, dirender seperti gambar krayon lilin anak-anak di atas kertas putih terlipat: huruf headline merah besar yang kasar, subjek doodle hijau dan warna hangat yang sederhana, caption katalog hitam kecil, dan banyak ruang kosong yang tenang.</p>
-<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">Salin Prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
-<h3>Blue Halftone Ransom Zine Poster Style</h3>
-<p>Sistem poster ransom-zine biru kobalt yang kasar, dibangun dari sobekan kertas putih, cutout subjek halftone hitam seperti fotokopi, kata-kata tulisan tangan seperti marker, tekstur kertas kusut, dan micro caption ber-noise yang jarang.</p>
-<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">Salin Prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
-<h3>Market Brush Produce Poster Style</h3>
-<p>Sistem poster pasar hasil bumi kontemporer dengan ruang kosong ivory hangat, satu hero buah atau sayur glossy berukuran besar, tipografi kuas hitam kasar, microcopy editorial tipis, stempel musiman, dan grain cetak analog lembut.</p>
-<p><a href="styles/market-brush-produce-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">Salin Prompt</a> · <a href="styles/market-brush-produce-poster-style">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Jelajahi semua 63 gaya di bawah.
+Jelajahi semua 66 gaya di bawah.
 
 Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan semua tautan file per gaya, lihat [docs/CATALOG.md](docs/CATALOG.md).
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="naive-marker-quote-card-style"></a>
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<p><strong><a href="styles/naive-marker-quote-card-style">Naive Marker Quote Card Style</a></strong><br>
+<em>Poster quote-card absurd dengan outline marker kasar, panel pastel, huruf biru, dan gag objek.</em><br>
+<a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="sky-blue-home-life-doodle-poster-style"></a>
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<p><strong><a href="styles/sky-blue-home-life-doodle-poster-style">Sky Blue Home Life Doodle Poster Style</a></strong><br>
+<em>Poster home-life biru langit dengan inset rumah, lettering hitam besar, badge, dan adegan doodle marker.</em><br>
+<a href="styles/sky-blue-home-life-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="playful-marker-grounding-poster-style"></a>
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<p><strong><a href="styles/playful-marker-grounding-poster-style">Playful Marker Grounding Poster Style</a></strong><br>
+<em>Poster grounding playful dengan margin krem, blok marker, keyline kasar, huruf besar, dan figur maskot.</em><br>
+<a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>

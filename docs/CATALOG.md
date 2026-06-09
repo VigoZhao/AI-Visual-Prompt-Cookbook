@@ -1,9 +1,38 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 63 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 66 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
 
+### Naive Marker Quote Card Style
+
+<a href="../styles/naive-marker-quote-card-style"><img src="../styles/naive-marker-quote-card-style/preview-16x9.jpg" width="720" alt="Naive Marker Quote Card Style preview"></a>
+
+A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.
+
+Files: [style.json](../styles/naive-marker-quote-card-style/style.json) · [Copy Prompt](copy-prompts/naive-marker-quote-card-style.md) · [16:9 preview](../styles/naive-marker-quote-card-style/preview-16x9.jpg) · [9:16 preview](../styles/naive-marker-quote-card-style/preview-9x16.jpg) · [Folder](../styles/naive-marker-quote-card-style)
+
+---
+
+### Sky Blue Home Life Doodle Poster Style
+
+<a href="../styles/sky-blue-home-life-doodle-poster-style"><img src="../styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" width="720" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+
+A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.
+
+Files: [style.json](../styles/sky-blue-home-life-doodle-poster-style/style.json) · [Copy Prompt](copy-prompts/sky-blue-home-life-doodle-poster-style.md) · [16:9 preview](../styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg) · [Folder](../styles/sky-blue-home-life-doodle-poster-style)
+
+---
+
+### Playful Marker Grounding Poster Style
+
+<a href="../styles/playful-marker-grounding-poster-style"><img src="../styles/playful-marker-grounding-poster-style/preview-16x9.jpg" width="720" alt="Playful Marker Grounding Poster Style preview"></a>
+
+A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.
+
+Files: [style.json](../styles/playful-marker-grounding-poster-style/style.json) · [Copy Prompt](copy-prompts/playful-marker-grounding-poster-style.md) · [16:9 preview](../styles/playful-marker-grounding-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/playful-marker-grounding-poster-style/preview-9x16.jpg) · [Folder](../styles/playful-marker-grounding-poster-style)
+
+---
 ### Rough Marker Monster Poster Style
 
 <a href="../styles/rough-marker-monster-poster-style"><img src="../styles/rough-marker-monster-poster-style/preview-16x9.jpg" width="720" alt="Rough Marker Monster Poster Style preview"></a>

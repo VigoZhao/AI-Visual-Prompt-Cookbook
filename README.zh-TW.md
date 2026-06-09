@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="風格數量" src="https://img.shields.io/badge/styles-63-ff5a7a?style=flat-square">
-  <img alt="預覽圖" src="https://img.shields.io/badge/previews-126-4cc9f0?style=flat-square">
+  <img alt="風格數量" src="https://img.shields.io/badge/styles-66-ff5a7a?style=flat-square">
+  <img alt="預覽圖" src="https://img.shields.io/badge/previews-132-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="語言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 精選風格
 
-先看這 6 個風格。每個風格都保持輕量：一個 JSON 加兩張預覽圖。完整 63 個風格見下面的 [All Styles](#all-styles) 畫廊。
+先看這 6 個風格。每個風格都保持輕量：一個 JSON 加兩張預覽圖。完整 66 個風格見下面的 [All Styles](#all-styles) 畫廊。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<h3>Naive Marker Quote Card Style</h3>
+<p>一種直式手繪荒誕語錄卡海報系統：粗糙黑色麥克筆輪廓、淺粉彩面板、塊狀藍色字形、歪斜標籤頁，以及一個簡單中心物件角色笑點，整體是扁平稚拙插畫。</p>
+<p><a href="styles/naive-marker-quote-card-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">複製提示詞</a> · <a href="styles/naive-marker-quote-card-style">目錄</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<h3>Sky Blue Home Life Doodle Poster Style</h3>
+<p>一種稚拙扁平海報系統：完整天藍色畫面、粗糙房屋形白色內框、巨大不均勻黑色手寫字、小徽章標籤，以及像麥克筆塗鴉一樣繪製的簡單粗描邊卡通居家生活場景。</p>
+<p><a href="styles/sky-blue-home-life-doodle-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">複製提示詞</a> · <a href="styles/sky-blue-home-life-doodle-poster-style">目錄</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<h3>Playful Marker Grounding Poster Style</h3>
+<p>一種稚拙手繪海報風格：米色紙張邊距、鬆散麥克筆塗寫色塊、粗厚不均勻關鍵線、超大休閒手寫字，以及按清晰公益海報層級排布的簡單吉祥物式人物。</p>
+<p><a href="styles/playful-marker-grounding-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">複製提示詞</a> · <a href="styles/playful-marker-grounding-poster-style">目錄</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Fantasy Scribble Mascot Poster Style</h3>
 <p>一種粗糙手繪幻想海報系統：超大不規則字形、螢光麥克筆吉祥物、厚重黑色輪廓、鬆散塗鴉裝飾，以及白紙場上的童趣拼貼能量。</p>
 <p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">複製提示詞</a> · <a href="styles/fantasy-scribble-mascot-poster-style">目錄</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
-<h3>Crayon Catalog Doodle Poster Style</h3>
-<p>一種稀疏產品目錄海報系統，像兒童蠟筆畫在摺疊白紙上：粗糙紅色大標題、簡單綠色與暖色塗鴉主體、細小黑色目錄說明，以及大量安靜留白。</p>
-<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">複製提示詞</a> · <a href="styles/crayon-catalog-doodle-poster-style">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
-<h3>Blue Halftone Ransom Zine Poster Style</h3>
-<p>一種粗糙鈷藍 ransom zine 海報系統：由白色撕紙塊、黑色影印半調主體切圖、麥克筆式手寫字、皺紙質感和稀疏噪點微文案構成。</p>
-<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">複製提示詞</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
-<h3>Market Brush Produce Poster Style</h3>
-<p>一種當代鮮食市場海報系統：溫暖象牙色留白、超大光澤蔬果主體、粗糙黑色刷字、細小編輯微文案、季節印章和柔和類比印刷顆粒。</p>
-<p><a href="styles/market-brush-produce-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">複製提示詞</a> · <a href="styles/market-brush-produce-poster-style">目錄</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下面可以瀏覽全部 63 個風格。
+下面可以瀏覽全部 66 個風格。
 
 完整庫包含上面的精選風格。每個風格的完整描述和全部文件連結見 [docs/CATALOG.md](docs/CATALOG.md)。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="naive-marker-quote-card-style"></a>
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<p><strong><a href="styles/naive-marker-quote-card-style">Naive Marker Quote Card Style</a></strong><br>
+<em>荒誕語錄卡海報，粗麥克筆輪廓、粉彩面板、藍色塊字和物件笑點。</em><br>
+<a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="sky-blue-home-life-doodle-poster-style"></a>
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<p><strong><a href="styles/sky-blue-home-life-doodle-poster-style">Sky Blue Home Life Doodle Poster Style</a></strong><br>
+<em>天藍居家生活海報，房屋白框、巨大黑色手寫字、徽章和麥克筆場景。</em><br>
+<a href="styles/sky-blue-home-life-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="playful-marker-grounding-poster-style"></a>
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<p><strong><a href="styles/playful-marker-grounding-poster-style">Playful Marker Grounding Poster Style</a></strong><br>
+<em>輕快 grounding 海報，米色邊距、麥克筆色塊、粗描邊、大字和吉祥物人物。</em><br>
+<a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>

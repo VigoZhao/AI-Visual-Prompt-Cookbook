@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-63-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-126-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-66-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-132-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ Prefer the short path? Browse the generated [Copy Prompt Library](docs/copy-prom
 
 ## Featured Styles
 
-Six visual systems to start with. Every style ships as one JSON plus two preview images. Browse the complete set of 63 in the [All Styles](#all-styles) gallery below.
+Six visual systems to start with. Every style ships as one JSON plus two preview images. Browse the complete set of 66 in the [All Styles](#all-styles) gallery below.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<h3>Naive Marker Quote Card Style</h3>
+<p>A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.</p>
+<p><a href="styles/naive-marker-quote-card-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">Copy Prompt</a> · <a href="styles/naive-marker-quote-card-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<h3>Sky Blue Home Life Doodle Poster Style</h3>
+<p>A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.</p>
+<p><a href="styles/sky-blue-home-life-doodle-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">Copy Prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<h3>Playful Marker Grounding Poster Style</h3>
+<p>A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.</p>
+<p><a href="styles/playful-marker-grounding-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">Copy Prompt</a> · <a href="styles/playful-marker-grounding-poster-style">Folder</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -142,26 +162,6 @@ Six visual systems to start with. Every style ships as one JSON plus two preview
 <h3>Fantasy Scribble Mascot Poster Style</h3>
 <p>A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.</p>
 <p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">Copy Prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style">Folder</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
-<h3>Crayon Catalog Doodle Poster Style</h3>
-<p>A sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded white paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny black catalog captions, and lots of quiet blank space.</p>
-<p><a href="styles/crayon-catalog-doodle-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">Copy Prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
-<h3>Blue Halftone Ransom Zine Poster Style</h3>
-<p>A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.</p>
-<p><a href="styles/blue-halftone-ransom-zine-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">Copy Prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/market-brush-produce-poster-style"><img src="styles/market-brush-produce-poster-style/preview-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
-<h3>Market Brush Produce Poster Style</h3>
-<p>A contemporary fresh-market poster system with warm ivory negative space, one oversized glossy produce hero, rough black brush typography, thin editorial microcopy, seasonal seals, and soft analog print grain.</p>
-<p><a href="styles/market-brush-produce-poster-style/style.json"><strong>Open style.json</strong></a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">Copy Prompt</a> · <a href="styles/market-brush-produce-poster-style">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -196,13 +196,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Browse all 63 styles below.
+Browse all 66 styles below.
 
 The complete library, including the featured styles above. For full descriptions and all file links per style, see [docs/CATALOG.md](docs/CATALOG.md).
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="naive-marker-quote-card-style"></a>
+<a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
+<p><strong><a href="styles/naive-marker-quote-card-style">Naive Marker Quote Card Style</a></strong><br>
+<em>Absurd quote-card posters with crude marker outlines, pastel panels, blue lettering, and object gags.</em><br>
+<a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="sky-blue-home-life-doodle-poster-style"></a>
+<a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
+<p><strong><a href="styles/sky-blue-home-life-doodle-poster-style">Sky Blue Home Life Doodle Poster Style</a></strong><br>
+<em>Sky-blue home-life posters with house insets, giant black lettering, badges, and marker doodle scenes.</em><br>
+<a href="styles/sky-blue-home-life-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="playful-marker-grounding-poster-style"></a>
+<a href="styles/playful-marker-grounding-poster-style"><img src="styles/playful-marker-grounding-poster-style/preview-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
+<p><strong><a href="styles/playful-marker-grounding-poster-style">Playful Marker Grounding Poster Style</a></strong><br>
+<em>Playful grounding posters with cream margins, marker blocks, uneven keylines, big lettering, and mascot figures.</em><br>
+<a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>

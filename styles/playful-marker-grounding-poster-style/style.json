@@ -1,0 +1,166 @@
+{
+  "style_name": "Playful Marker Grounding Poster Style",
+  "style_slug": "playful-marker-grounding-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Cream poster-paper border with the artwork sitting inside a slightly inset field rather than bleeding to the edge.",
+    "Loose childlike marker-scribble background blocks, mostly bright sky cyan and sour lime green, with uneven white gaps.",
+    "Flat illustration with no realistic depth, no cast shadows, no gradients, and no polished vector smoothing.",
+    "Thick imperfect black or dark-brown outlines with variable pressure, rounded ends, and visibly wobbly hand-drawn edges.",
+    "One oversized simple subject dominates the lower middle of the poster, with tiny supporting props or characters as scale contrast.",
+    "Large hand-lettered headline at the top, irregular baseline, chunky brush-marker shapes, and dense casual spacing.",
+    "Small secondary text sits in a corner as a compact block, often over a dark marker swash or rough underline.",
+    "Palette is intentionally limited: cream base, cyan field, lime field, dark brown type, black keylines, white character fill, and one or two candy accents.",
+    "Decorative grammar uses tiny flowers, grass ticks, curved motion marks, small stars, butterflies, and doodle dots, never dense scenery.",
+    "Mood is playful, naive, poster-like, and lightly absurd, with a handmade school-notice energy."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a white human-shaped figure lying or spreading limbs across grass.",
+    "Do not show a dog, puppy, or pet leaping toward the main figure.",
+    "Do not use the premise of touching the ground, touching grass, grounding, or outdoor grass contact.",
+    "Do not reuse the original Chinese or English text, dates, slogan structure, or any close translation of it.",
+    "Do not copy the exact diagonal body pose, outstretched fingers, limb silhouette, or source layout proportions.",
+    "Do not include a pink butterfly in the same upper-right placement as the reference.",
+    "Do not include signatures, creator marks, platform marks, usernames, watermarks, or QR codes."
+  ],
+  "visual_deconstruction": {
+    "style_category": "naive marker poster illustration with public-service announcement hierarchy",
+    "composition_logic": "inset poster field with headline-heavy top, huge simplified central subject, sparse supporting doodles, and a small secondary text block near one lower corner",
+    "subject_placement": "main subject is very large and simple, cropped or stretched across the center-lower area, while small objects float nearby for humor and scale",
+    "perspective": "front-facing flat drawing with almost no perspective; scale is emotional and graphic rather than realistic",
+    "typography": "hand-drawn brush-marker lettering, irregular stroke thickness, uneven baseline, dark-brown headline mass, and compact corner microcopy",
+    "palette_behavior": "cream paper plus high-saturation cyan and lime scribbles, dark brown headline, black keylines, white fills, and small pastel accent marks",
+    "texture": "visible marker strokes, unfinished scribble edges, accidental gaps, simple rough paper feel, and no digital polish",
+    "lighting": "flat even color without shadows or dimensional highlights",
+    "mood": "playful, handmade, childlike, friendly, and slightly silly"
+  },
+  "composition": {
+    "layout": "Use a cream outer margin, top headline zone, central oversized subject, one small supporting prop or character, sparse doodle accents, and a compact text block near a bottom corner.",
+    "density": "Keep the page sparse and readable; avoid filling the background with many objects.",
+    "scale": "Make the main subject comically large compared with props, with simple stretched shapes and open negative space.",
+    "crop": "Allow the subject to nearly touch the scribble field edges, but keep the cream border visible."
+  },
+  "typography": {
+    "headline": "Oversized irregular hand-lettered marker text, preferably dark brown or black-brown, with rounded brush ends and uneven baselines.",
+    "secondary": "Small blocky sans or hand-lettered microcopy in a lower corner, sometimes sitting on a rough dark marker swash.",
+    "text_behavior": "Text should feel handmade and imperfect, not typeset, not clean vector lettering, and not a polished logo."
+  },
+  "color_palette": {
+    "base": "warm cream paper",
+    "primary_fields": "bright sky cyan and sour lime green marker scribbles",
+    "linework": "black and dark chocolate brown",
+    "subject_fill": "white or very pale fill for the main character or prop",
+    "accents": "tiny pastel pink, peach, yellow, or grass-green marks",
+    "proportions": "cream 20 percent, cyan 35 percent, lime 30 percent, dark line and type 10 percent, accents 5 percent"
+  },
+  "image_treatment": {
+    "rendering": "flat raster illustration that appears hand-drawn with marker and brush pen",
+    "edges": "rough, uneven, pressure-varied outlines and scribble boundaries",
+    "finish": "simple printed poster surface with no 3D modeling, no airbrush, no photo texture, and no glossy effects",
+    "resolution_intent": "clean high-resolution raster while preserving handmade irregularity"
+  },
+  "design_rules": [
+    "Preserve the cream border and loose cyan-lime scribble field in every image.",
+    "Build the image around one oversized flat subject and one small supporting prop or character.",
+    "Use thick wobbly hand-drawn outlines and avoid clean vector-perfect geometry.",
+    "Keep the headline large, handmade, dark, and placed in the top zone.",
+    "Use only a few small doodle accents so the poster remains sparse.",
+    "Keep the message playful and simple rather than commercial or cinematic."
+  ],
+  "do": [
+    "Use irregular marker lettering and chunky brush text.",
+    "Let scribble fills spill unevenly and leave small uncolored gaps.",
+    "Make the main figure or object simple, white-filled, and outlined with a confident imperfect line.",
+    "Keep background details symbolic and childlike: dots, tiny flowers, ticks, sparks, motion lines.",
+    "Change the subject, action, text, setting, and story premise for every reuse."
+  ],
+  "avoid": [
+    "No photorealism, 3D render, gradients, polished vector icons, glossy effects, or cinematic lighting.",
+    "No dense city scenes, product ad clutter, price stickers, UI elements, or complex perspective.",
+    "No exact source text, source date, source action, dog, butterfly placement, or white figure touching grass.",
+    "No watermarks, signatures, QR codes, usernames, app marks, or brand logos."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Playful Marker Grounding Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: cream poster-paper border around an inset artwork field; loose sky-cyan and sour-lime marker-scribble background blocks with uneven white gaps; one oversized flat simple subject dominating the center-lower area; one tiny supporting prop or character for scale; thick imperfect black or dark-brown hand-drawn outlines with rounded wobbly ends; oversized hand-lettered dark-brown headline in the top zone; small lower-corner supporting text over or near a rough marker swash; tiny doodle accents such as flowers, dots, stars, motion ticks, and grass marks; flat even color with no shadows, no gradients, no realistic depth, no polished vector smoothing. Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid photorealism, 3D render, airbrush, glossy finish, dense scene clutter, exact source text, exact source pose, dog, butterfly, ground-touching premise, watermarks, signatures, platform marks, QR codes, and brand logos.",
+  "negative_prompt": "photorealistic, 3D render, vector-perfect, glossy, gradient background, cinematic lighting, realistic anatomy, dense scenery, commercial product clutter, UI screenshot, exact source slogan, Chinese source title, English source slogan, date text from source, dog, butterfly in upper right, white figure touching grass, watermark, signature, logo, QR code, username, platform mark",
+  "examples": [
+    {
+      "case_name": "water-break-reminder",
+      "values": {
+        "SUBJECT": "a giant smiling refillable water bottle mascot with simple white fill and thick black outline",
+        "SUBJECT_ACTION": "tilting sideways and waving one rounded cap-arm while droplets bounce around it",
+        "PRODUCT_OR_PROP": "tiny cup with two splash marks",
+        "LOCATION": "sunny kitchen corner drawn as a few symbolic counter lines",
+        "BACKGROUND_ELEMENTS": "cyan scribble patch above, lime scribble patch below, tiny lemon dots, little motion ticks",
+        "MAIN_TEXT": "DRINK UP",
+        "SECONDARY_TEXT": "tiny sips today",
+        "ACCENT_SYMBOL": "small yellow star",
+        "WARDROBE_STYLE": "simple white gloves and tiny sneaker loops on the bottle mascot",
+        "STYLE_FIDELITY_ANCHORS": "cream border, cyan-lime scribbles, huge simple white subject, thick wobbly black outlines, dark-brown handmade headline, lower-corner microcopy, sparse doodle accents",
+        "SOURCE_CONTENT_TO_AVOID": "no white human figure, no dog, no butterfly, no touching grass, no source text, no source date, no diagonal lying pose"
+      }
+    },
+    {
+      "case_name": "stretch-your-neck",
+      "values": {
+        "SUBJECT": "an oversized sleepy desk lamp character with a round shade face",
+        "SUBJECT_ACTION": "stretching its bendy neck upward while a tiny notebook cheers nearby",
+        "PRODUCT_OR_PROP": "small spiral notebook with waving paper arms",
+        "LOCATION": "minimal study desk suggested by one rough line",
+        "BACKGROUND_ELEMENTS": "lime marker field with cyan top swipes, tiny peach flowers, short black motion lines",
+        "MAIN_TEXT": "LOOK UP",
+        "SECONDARY_TEXT": "neck break minute",
+        "ACCENT_SYMBOL": "small peach flower",
+        "WARDROBE_STYLE": "lamp has a simple white shade, black cord loop, and rounded cartoon feet",
+        "STYLE_FIDELITY_ANCHORS": "cream border, loose marker-scribble fields, flat mascot drawing, huge central subject, uneven keylines, chunky hand-lettered dark headline, compact corner text",
+        "SOURCE_CONTENT_TO_AVOID": "no outdoor grass, no ground-touching action, no dog, no butterfly, no source slogan, no source character pose"
+      }
+    },
+    {
+      "case_name": "snack-pause-note",
+      "values": {
+        "SUBJECT": "a giant soft rice ball mascot with a tiny smiling face and rounded hands",
+        "SUBJECT_ACTION": "rolling happily toward a tiny lunch box while crumbs float like confetti",
+        "PRODUCT_OR_PROP": "small open lunch box with two simple food shapes",
+        "LOCATION": "simple picnic cloth corner shown with three rough stripes",
+        "BACKGROUND_ELEMENTS": "cyan scribble sky patch, lime blanket-like field, tiny pink dots, grass-tick doodles",
+        "MAIN_TEXT": "SNACK TIME",
+        "SECONDARY_TEXT": "small bite big mood",
+        "ACCENT_SYMBOL": "tiny pink heart",
+        "WARDROBE_STYLE": "rice ball has a tiny dark seaweed patch and loop-like feet",
+        "STYLE_FIDELITY_ANCHORS": "sparse cream poster, cyan and lime marker blocks, oversized white-filled mascot, rough black outline, handmade top headline, small lower text on marker swash",
+        "SOURCE_CONTENT_TO_AVOID": "no person-shaped white body, no pet chase, no butterfly, no touching ground, no copied bilingual wording, no original date"
+      }
+    },
+    {
+      "case_name": "plant-water-day",
+      "values": {
+        "SUBJECT": "a huge white watering can character with a sleepy face",
+        "SUBJECT_ACTION": "leaning gently to pour three chunky drops onto a tiny sprout",
+        "PRODUCT_OR_PROP": "tiny sprout in a small round pot",
+        "LOCATION": "bright windowsill reduced to a few childlike lines",
+        "BACKGROUND_ELEMENTS": "wide cyan scribble behind the headline, lime scribble around the pot, tiny yellow stars and green ticks",
+        "MAIN_TEXT": "WATER DAY",
+        "SECONDARY_TEXT": "plants are waiting",
+        "ACCENT_SYMBOL": "small green sparkle",
+        "WARDROBE_STYLE": "watering can has rounded handle, white fill, black outline, and tiny loop feet",
+        "STYLE_FIDELITY_ANCHORS": "cream margin, rough cyan-lime scribbles, one giant simple outlined object, small supporting prop, dark uneven hand-lettering, naive poster mood",
+        "SOURCE_CONTENT_TO_AVOID": "no grass-touch premise, no dog, no butterfly, no human figure sprawled diagonally, no source language, no date text"
+      }
+    }
+  ]
+}

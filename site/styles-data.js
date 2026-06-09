@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 63,
+  "styleCount": 66,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,114 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Naive Marker Quote Card Style",
+      "slug": "naive-marker-quote-card-style",
+      "category": "Type Posters",
+      "description": "Absurd quote-card posters with crude marker outlines, pastel panels, blue lettering, and object gags.",
+      "summary": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.",
+      "preview16": "../styles/naive-marker-quote-card-style/preview-16x9.jpg",
+      "preview9": "../styles/naive-marker-quote-card-style/preview-9x16.jpg",
+      "styleJson": "../styles/naive-marker-quote-card-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/naive-marker-quote-card-style.md",
+      "folder": "../styles/naive-marker-quote-card-style/",
+      "anchors": [
+        "Skinny poster-card composition with a large pale pastel interior rectangle and rough uneven black border.",
+        "Small off-center tab or nameplate at the top and a tiny lower caption plate, both drawn like taped paper labels.",
+        "Single absurd central object-character taking most of the middle area, simplified into flat stacked shapes.",
+        "Naive hand-drawn black marker outlines with wobbly contours, uneven line weight, and visible human imperfection.",
+        "Blocky uppercase blue hand lettering arranged in short broken lines, with irregular spacing and imperfect baselines.",
+        "Sparse layout density with large quiet pastel negative space around the central gag and text blocks."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "umbrella-weather-report",
+      "copyPrompt": "Use the \"Naive Marker Quote Card Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a crooked yellow umbrella with a tiny deadpan face and two stick legs\nSubject action: standing inside a puddle as if giving serious weather advice\nProduct or prop: small blue raindrops and a bent paper weather chart\nLocation: inside a pale pink hand-drawn quote card\nBackground elements: three tiny cloud scribbles, scattered marker dots, and empty pastel space\nMain text: IF THE RAIN STARTS ASKING QUESTIONS STAND VERY STILL\nSecondary text: field note 07\nAccent symbol: small crooked cloud icon\nWardrobe style: simple character face and stick legs only, no clothing\n\nStyle direction:\nA tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale\npastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-\ncharacter gag rendered as flat naive illustration.\n\nKeep visible:\n- Skinny poster-card composition with a large pale pastel interior rectangle and rough uneven black border.\n- Small off-center tab or nameplate at the top and a tiny lower caption plate, both drawn like taped paper labels.\n- Single absurd central object-character taking most of the middle area, simplified into flat stacked shapes.\n- Naive hand-drawn black marker outlines with wobbly contours, uneven line weight, and visible human imperfection.\n- Blocky uppercase blue hand lettering arranged in short broken lines, with irregular spacing and imperfect baselines.\n\nAvoid:\nphotorealistic, 3D render, glossy digital art, perfect vector lines, polished comic inking,\nclean sans-serif type, realistic shadows, gradients, dense background, brand logo, username,\nwatermark, QR code, cow, cattle, burger, sandwich stack, copied source quote, copied celebrity\nname, exact source composition\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Sky Blue Home Life Doodle Poster Style",
+      "slug": "sky-blue-home-life-doodle-poster-style",
+      "category": "Type Posters",
+      "description": "Sky-blue home-life posters with house insets, giant black lettering, badges, and marker doodle scenes.",
+      "summary": "A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.",
+      "preview16": "../styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/sky-blue-home-life-doodle-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md",
+      "folder": "../styles/sky-blue-home-life-doodle-poster-style/",
+      "anchors": [
+        "Full-bleed pastel sky-blue background acts as the outer poster field.",
+        "A large off-white house-shaped inset with a rough black outline contains the scene.",
+        "Oversized black hand-lettered headline sits at the top with uneven stroke width and playful imbalance.",
+        "A small red rounded capsule badge and slanted secondary text add event-poster energy.",
+        "Characters and props use thick wobbly black marker outlines with flat color fills and almost no shading.",
+        "Cartoon anatomy is intentionally chunky, with large rounded pink limbs, simple dot eyes, and exaggerated hands or feet."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "balcony-plant-swap",
+      "copyPrompt": "Use the \"Sky Blue Home Life Doodle Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: two original rounded cartoon neighbors\nSubject action: trading tiny plant cuttings over a low balcony table\nProduct or prop: oversized watering can and three labeled seed cups\nLocation: small apartment balcony corner\nBackground elements: window rectangle, hanging towel, simple shelf, plant pot shapes, tiny bird icon, striped floor mat, and doodle arrows\nMain text: PLANT SWAP DAY\nSecondary text: sunny corner 10-12\nAccent symbol: red capsule badge with a leaf mark\nWardrobe style: loose home shirts, socks, apron pocket, and color-block slippers\n\nStyle direction:\nA naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant\nuneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life\nscenes drawn like marker doodles.\n\nKeep visible:\n- Full-bleed pastel sky-blue background acts as the outer poster field.\n- A large off-white house-shaped inset with a rough black outline contains the scene.\n- Oversized black hand-lettered headline sits at the top with uneven stroke width and playful imbalance.\n- A small red rounded capsule badge and slanted secondary text add event-poster energy.\n- Characters and props use thick wobbly black marker outlines with flat color fills and almost no shading.\n\nAvoid:\nwatermark, username, creator ID, platform logo, app UI, QR code, signature, brand logo, copied\nreference title, copied Chinese text, copied English subtitle, copied date range, copied red\nbadge wording, copied hashtag, exact source characters, raised feet pose, phone-reading pose,\nblack cat on sofa, exact sofa, exact lamp, exact shelf, exact house silhouette, photorealism, 3D\nrender, anime style, glossy vector polish, corporate icon style, luxury interior, cinematic\nlighting, realistic anatomy, thin elegant line art, long paragraphs, dense tiny text, dark\nhorror mood\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Playful Marker Grounding Poster Style",
+      "slug": "playful-marker-grounding-poster-style",
+      "category": "Type Posters",
+      "description": "Playful grounding posters with cream margins, marker blocks, uneven keylines, big lettering, and mascot figures.",
+      "summary": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.",
+      "preview16": "../styles/playful-marker-grounding-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/playful-marker-grounding-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/playful-marker-grounding-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/playful-marker-grounding-poster-style.md",
+      "folder": "../styles/playful-marker-grounding-poster-style/",
+      "anchors": [
+        "Cream poster-paper border with the artwork sitting inside a slightly inset field rather than bleeding to the edge.",
+        "Loose childlike marker-scribble background blocks, mostly bright sky cyan and sour lime green, with uneven white gaps.",
+        "Flat illustration with no realistic depth, no cast shadows, no gradients, and no polished vector smoothing.",
+        "Thick imperfect black or dark-brown outlines with variable pressure, rounded ends, and visibly wobbly hand-drawn edges.",
+        "One oversized simple subject dominates the lower middle of the poster, with tiny supporting props or characters as scale contrast.",
+        "Large hand-lettered headline at the top, irregular baseline, chunky brush-marker shapes, and dense casual spacing."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "water-break-reminder",
+      "copyPrompt": "Use the \"Playful Marker Grounding Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a giant smiling refillable water bottle mascot with simple white fill and thick black outline\nSubject action: tilting sideways and waving one rounded cap-arm while droplets bounce around it\nProduct or prop: tiny cup with two splash marks\nLocation: sunny kitchen corner drawn as a few symbolic counter lines\nBackground elements: cyan scribble patch above, lime scribble patch below, tiny lemon dots, little motion ticks\nMain text: DRINK UP\nSecondary text: tiny sips today\nAccent symbol: small yellow star\nWardrobe style: simple white gloves and tiny sneaker loops on the bottle mascot\n\nStyle direction:\nA naive hand-drawn poster style built from cream paper margins, loose marker-scribble color\nblocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures\narranged with clear public-service poster hierarchy.\n\nKeep visible:\n- Cream poster-paper border with the artwork sitting inside a slightly inset field rather than bleeding to the edge.\n- Loose childlike marker-scribble background blocks, mostly bright sky cyan and sour lime green, with uneven white gaps.\n- Flat illustration with no realistic depth, no cast shadows, no gradients, and no polished vector smoothing.\n- Thick imperfect black or dark-brown outlines with variable pressure, rounded ends, and visibly wobbly hand-drawn edges.\n- One oversized simple subject dominates the lower middle of the poster, with tiny supporting props or characters as scale contrast.\n\nAvoid:\nphotorealistic, 3D render, vector-perfect, glossy, gradient background, cinematic lighting,\nrealistic anatomy, dense scenery, commercial product clutter, UI screenshot, exact source\nslogan, Chinese source title, English source slogan, date text from source, dog, butterfly in\nupper right, white figure touching grass, watermark, signature, logo, QR code, username,\nplatform mark\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Rough Marker Monster Poster Style",
       "slug": "rough-marker-monster-poster-style",

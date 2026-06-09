@@ -1,0 +1,164 @@
+{
+  "style_name": "Naive Marker Quote Card Style",
+  "style_slug": "naive-marker-quote-card-style",
+  "style_version": "2.1",
+  "style_summary": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Skinny poster-card composition with a large pale pastel interior rectangle and rough uneven black border.",
+    "Small off-center tab or nameplate at the top and a tiny lower caption plate, both drawn like taped paper labels.",
+    "Single absurd central object-character taking most of the middle area, simplified into flat stacked shapes.",
+    "Naive hand-drawn black marker outlines with wobbly contours, uneven line weight, and visible human imperfection.",
+    "Blocky uppercase blue hand lettering arranged in short broken lines, with irregular spacing and imperfect baselines.",
+    "Sparse layout density with large quiet pastel negative space around the central gag and text blocks.",
+    "Flat pastel palette led by pale pink or cream ground, tan or soft object colors, one bright blue text accent, and one or two small green or yellow accents.",
+    "No realistic depth, no polished shading, no perspective rendering; forms stay frontal, childlike, and diagrammatic.",
+    "Small dot textures, scribble marks, and marker speckles inside large shapes instead of gradients or painterly rendering.",
+    "Deadpan humor mood: a handmade quote poster that treats a nonsensical statement as if it were a serious aphorism."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a cow, cattle head, animal legs, horns, or a cow body emerging from food.",
+    "Do not recreate a burger, bun, cheese slice, lettuce, meat patty, sandwich stack, or food-animal transformation premise.",
+    "Do not use the source quote text, including any wording about killing a cow or making a burger.",
+    "Do not use the visible celebrity name, quoted author name, signature, watermark, creator mark, or top label text from the source.",
+    "Do not repeat the exact vertical text placement, exact line breaks, exact top tab wording, or bottom nameplate wording from the source.",
+    "Do not use identifiable brand marks, platform marks, usernames, QR codes, or copied handwriting from the reference."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Naive hand-marker absurdist poster illustration.",
+    "layout": "A bordered pastel card fills most of the frame, with small paper-tab labels outside or touching the border, a central gag object, and handwritten quote text above and below.",
+    "subject_placement": "The central subject sits frontally in the middle, cropped large enough to feel iconic but still surrounded by negative space.",
+    "perspective": "Almost no perspective; simple frontal and side-profile parts combine into a flat symbolic drawing.",
+    "typography": "Hand-lettered uppercase forms, blue marker color, uneven letter sizes, compressed vertical stacking, and deliberately awkward baselines.",
+    "texture": "Scanned paper feel, thin speckles, marker dots, and slight wobble in all edges.",
+    "mood": "Absurd, homemade, deadpan, and lightly ridiculous."
+  },
+  "composition": {
+    "frame": "Use a rough hand-drawn rectangular border with slight asymmetry and visible white paper margin.",
+    "hierarchy": "Top tab first, upper quote block second, central object-character dominant, lower quote block third, bottom nameplate last.",
+    "negative_space": "Keep the card sparse; do not fill the background with many props or detailed scenery.",
+    "subject_scale": "The subject should occupy roughly half the card height in portrait and remain the single largest element in landscape.",
+    "aspect_behavior": "For 9:16, keep the tall stacked quote-card structure; for 16:9, preserve the same card logic by widening the pastel panel and placing the central subject slightly off-center with quote blocks still hand-stacked."
+  },
+  "typography": {
+    "lettering": "Use crude uppercase hand lettering that looks drawn with a blue felt marker, not a font.",
+    "placement": "Text should sit inside the pastel card in compact blocky groups, with awkward manual line breaks.",
+    "scale": "Main text is medium-large but never cleanly typeset; secondary label text is smaller and placed in a simple outlined tab.",
+    "rules": "All text must feel manually drawn, uneven, and slightly misaligned, with no polished typography, no perfect baseline, and no brand lettering."
+  },
+  "color_palette": {
+    "base": "Warm off-white paper margin and pale pink, peach, cream, or muted pastel interior field.",
+    "linework": "Black or very dark brown marker outlines.",
+    "text": "Bright cyan-blue or sky-blue marker lettering as the dominant accent.",
+    "object_colors": "Muted tan, beige, soft green, yellow, dusty red, and simple flat fills.",
+    "behavior": "Use few colors, large flat fills, and small speckle marks; avoid gradients, airbrush lighting, metallic effects, and saturated rainbow palettes."
+  },
+  "image_treatment": {
+    "rendering": "Flat hand-drawn marker illustration on scanned paper.",
+    "lighting": "Even paper lighting with no cast shadows, no cinematic contrast, and no volumetric effects.",
+    "edge_quality": "Wobbly marker outlines, occasional uneven corners, and deliberately imperfect shape closure.",
+    "surface": "Subtle paper grain and marker bleed are welcome, but the image should stay clean and readable."
+  },
+  "design_rules": [
+    "Always include a pastel card panel, rough black border, top tab, bottom label, central absurd object-character, and blue hand-lettered text.",
+    "Keep the composition sparse and flat; the joke should come from one impossible object-character, not from a busy scene.",
+    "Use handmade imperfections as the main aesthetic signal: uneven lines, awkward anatomy, crooked labels, and inconsistent text spacing.",
+    "Treat the written phrase as part of the drawing, not as clean overlay typography.",
+    "Preserve the deadpan quote-poster hierarchy even when the subject and prop change completely."
+  ],
+  "do": [
+    "Use a single central gag object with a simple face, limbs, or character-like behavior.",
+    "Use short absurd text blocks that look hand-lettered in blue marker.",
+    "Use rough black outlines and flat pastel fills with a few dot textures.",
+    "Leave visible quiet space in the pastel card.",
+    "Make top and bottom labels look like hand-drawn paper tabs."
+  ],
+  "avoid": [
+    "No photorealism, no 3D rendering, no vector-clean illustration, and no polished comic-book inking.",
+    "No dense scene full of objects, price tags, speech bubbles, or realistic environment detail.",
+    "No copied cow, burger, celebrity name, source quote, watermark, signature, or platform mark.",
+    "No perfectly typeset font, digital gradient, glossy texture, dramatic lighting, or realistic shadows.",
+    "No brand logos, usernames, QR codes, app UI marks, or creator labels."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Naive Marker Quote Card Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules: draw a rough skinny poster card with a pale pastel interior panel, uneven black marker border, a small crooked top tab, a small bottom nameplate, one central absurd object-character, and sparse quiet negative space. Render everything as flat naive hand-marker illustration on scanned paper, with wobbly black outlines, imperfect shape closure, small dot textures, simple frontal forms, and no realistic depth. Use bright blue uppercase hand lettering in compact broken lines, irregular spacing, and awkward baselines; the text must look manually drawn, not typeset. Use a limited pastel palette with pale pink or cream ground, tan and muted object fills, tiny green or yellow accents, and no gradients. The central subject should be large, deadpan, and simple, with any face or limbs drawn crudely. Preserve the quote-card hierarchy first, then change all source content.\n\nAvoid: photorealism, 3D render, polished vector art, clean comic-book inking, perfect typography, dense scenery, gradients, dramatic shadows, brand logos, usernames, QR codes, watermarks, copied source text, copied celebrity or author names, copied cow, copied burger, copied food-animal transformation premise.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "photorealistic, 3D render, glossy digital art, perfect vector lines, polished comic inking, clean sans-serif type, realistic shadows, gradients, dense background, brand logo, username, watermark, QR code, cow, cattle, burger, sandwich stack, copied source quote, copied celebrity name, exact source composition",
+  "examples": [
+    {
+      "case_name": "umbrella-weather-report",
+      "values": {
+        "SUBJECT": "a crooked yellow umbrella with a tiny deadpan face and two stick legs",
+        "SUBJECT_ACTION": "standing inside a puddle as if giving serious weather advice",
+        "PRODUCT_OR_PROP": "small blue raindrops and a bent paper weather chart",
+        "LOCATION": "inside a pale pink hand-drawn quote card",
+        "BACKGROUND_ELEMENTS": "three tiny cloud scribbles, scattered marker dots, and empty pastel space",
+        "MAIN_TEXT": "IF THE RAIN STARTS ASKING QUESTIONS STAND VERY STILL",
+        "SECONDARY_TEXT": "field note 07",
+        "ACCENT_SYMBOL": "small crooked cloud icon",
+        "WARDROBE_STYLE": "simple character face and stick legs only, no clothing",
+        "STYLE_FIDELITY_ANCHORS": "rough pastel card, black wobbly marker border, top tab, bottom label, central flat object-character, blue blocky hand lettering, sparse negative space, dot texture",
+        "SOURCE_CONTENT_TO_AVOID": "no cow, no burger, no sandwich stack, no food-animal joke, no celebrity name, no source quote, no copied tab text"
+      }
+    },
+    {
+      "case_name": "teapot-space-launch",
+      "values": {
+        "SUBJECT": "a squat tan teapot with round eyes, tiny arms, and short shoes",
+        "SUBJECT_ACTION": "pretending to launch into space while staying completely flat and still",
+        "PRODUCT_OR_PROP": "a tiny paper rocket plume and two green tea leaves",
+        "LOCATION": "inside a cream and pink hand-drawn quote card",
+        "BACKGROUND_ELEMENTS": "three small blue stars, a crooked moon dot, and lots of empty pastel space",
+        "MAIN_TEXT": "WHEN THE KETTLE LEAVES EARTH KEEP THE CUP READY",
+        "SECONDARY_TEXT": "kitchen orbit",
+        "ACCENT_SYMBOL": "tiny uneven star",
+        "WARDROBE_STYLE": "simple shoes and mitten-like hands drawn with black marker",
+        "STYLE_FIDELITY_ANCHORS": "naive hand-marker quote card, rough black border, pasted-looking top tab, bottom nameplate, blue uppercase marker text, flat pastel fills, wobbly outlines, no depth",
+        "SOURCE_CONTENT_TO_AVOID": "no cow, no burger, no meat, no lettuce, no source quote, no source author plate, no watermark"
+      }
+    },
+    {
+      "case_name": "lost-sock-manual",
+      "values": {
+        "SUBJECT": "a single striped sock with a worried face and four tiny feet",
+        "SUBJECT_ACTION": "reading a folded instruction page about how to be found",
+        "PRODUCT_OR_PROP": "creased laundry manual and one small green button",
+        "LOCATION": "inside a pale peach marker quote card",
+        "BACKGROUND_ELEMENTS": "two laundry bubble scribbles, small black speckles, and a blank pastel field",
+        "MAIN_TEXT": "ONCE YOU ESCAPE THE DRAWER PRETEND YOU WERE INVENTORY",
+        "SECONDARY_TEXT": "laundry lesson",
+        "ACCENT_SYMBOL": "small uneven button",
+        "WARDROBE_STYLE": "striped fabric marks, no realistic textile detail",
+        "STYLE_FIDELITY_ANCHORS": "tall handmade card, crooked top label, tiny bottom label, large central absurd object-character, rough black outlines, flat fills, blue marker lettering, sparse composition",
+        "SOURCE_CONTENT_TO_AVOID": "no cow, no burger, no animal-food hybrid, no celebrity name, no source slogan, no copied handwriting"
+      }
+    },
+    {
+      "case_name": "library-snack-warning",
+      "values": {
+        "SUBJECT": "a stack of three library books with a small blank face and noodle-like arms",
+        "SUBJECT_ACTION": "guarding a tiny cracker as if it were a sacred rule",
+        "PRODUCT_OR_PROP": "small yellow cracker and a green bookmark",
+        "LOCATION": "inside a soft pink handmade quote card",
+        "BACKGROUND_ELEMENTS": "two quiet shelf-line doodles, marker dots, and empty pastel space",
+        "MAIN_TEXT": "IF THE BOOK GETS HUNGRY WHISPER TO THE CRACKER",
+        "SECONDARY_TEXT": "quiet rule",
+        "ACCENT_SYMBOL": "tiny crooked bookmark",
+        "WARDROBE_STYLE": "simple book bands and stick arms only",
+        "STYLE_FIDELITY_ANCHORS": "pastel interior rectangle, uneven black marker frame, small top tab, bottom caption plate, central flat object-character, blue crude uppercase quote text, dot texture, deadpan handmade humor",
+        "SOURCE_CONTENT_TO_AVOID": "no cow, no burger, no cheese slice, no lettuce, no source quote, no source names, no platform or creator mark"
+      }
+    }
+  ]
+}
