@@ -1,9 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 66 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 68 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
 
+### Halftone Assemblage Metaphor PSA Poster Style
+
+<a href="../styles/halftone-assemblage-metaphor-psa-poster-style"><img src="../styles/halftone-assemblage-metaphor-psa-poster-style/preview-16x9.jpg" width="720" alt="Halftone Assemblage Metaphor PSA Poster Style preview"></a>
+
+A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.
+
+Files: [style.json](../styles/halftone-assemblage-metaphor-psa-poster-style/style.json) · [Copy Prompt](copy-prompts/halftone-assemblage-metaphor-psa-poster-style.md) · [16:9 preview](../styles/halftone-assemblage-metaphor-psa-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/halftone-assemblage-metaphor-psa-poster-style/preview-9x16.jpg) · [Folder](../styles/halftone-assemblage-metaphor-psa-poster-style)
+
+---
+
+### School Grid Paper Cutout Poster
+
+<a href="../styles/school-grid-paper-cutout-poster"><img src="../styles/school-grid-paper-cutout-poster/preview-16x9.jpg" width="720" alt="School Grid Paper Cutout Poster preview"></a>
+
+A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows.
+
+Files: [style.json](../styles/school-grid-paper-cutout-poster/style.json) · [Copy Prompt](copy-prompts/school-grid-paper-cutout-poster.md) · [16:9 preview](../styles/school-grid-paper-cutout-poster/preview-16x9.jpg) · [9:16 preview](../styles/school-grid-paper-cutout-poster/preview-9x16.jpg) · [Folder](../styles/school-grid-paper-cutout-poster)
+
+---
 ### Naive Marker Quote Card Style
 
 <a href="../styles/naive-marker-quote-card-style"><img src="../styles/naive-marker-quote-card-style/preview-16x9.jpg" width="720" alt="Naive Marker Quote Card Style preview"></a>

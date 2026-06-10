@@ -26,6 +26,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Folded Newspaper Product Ad Style | [Copy Prompt](folded-newspaper-product-ad-style.md) | [style.json](../../styles/folded-newspaper-product-ad-style/style.json) |
 | Gothic Cat Doodle Photo Collage Style | [Copy Prompt](gothic-cat-doodle-photo-collage-style.md) | [style.json](../../styles/gothic-cat-doodle-photo-collage-style/style.json) |
+| Halftone Assemblage Metaphor PSA Poster Style | [Copy Prompt](halftone-assemblage-metaphor-psa-poster-style.md) | [style.json](../../styles/halftone-assemblage-metaphor-psa-poster-style/style.json) |
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |
 | Kinetic Geometric Doodle Cutouts | [Copy Prompt](kinetic-geometric-doodle-cutouts.md) | [style.json](../../styles/kinetic-geometric-doodle-cutouts/style.json) |
@@ -54,6 +55,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
 | Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |
 | Rough Marker Monster Poster Style | [Copy Prompt](rough-marker-monster-poster-style.md) | [style.json](../../styles/rough-marker-monster-poster-style/style.json) |
+| School Grid Paper Cutout Poster | [Copy Prompt](school-grid-paper-cutout-poster.md) | [style.json](../../styles/school-grid-paper-cutout-poster/style.json) |
 | Sky Blue Home Life Doodle Poster Style | [Copy Prompt](sky-blue-home-life-doodle-poster-style.md) | [style.json](../../styles/sky-blue-home-life-doodle-poster-style/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |

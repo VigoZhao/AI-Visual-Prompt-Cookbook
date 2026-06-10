@@ -1,0 +1,171 @@
+{
+  "style_name": "Halftone Assemblage Metaphor PSA Poster Style",
+  "style_slug": "halftone-assemblage-metaphor-psa-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "The central idea is material-as-symbol: one category of visible source objects must be assembled into a different readable target silhouette.",
+    "The target silhouette must read clearly from a distance before the viewer notices the individual source pieces.",
+    "The source material must remain legible up close through repeated parts, seams, caps, folds, cables, rims, labels, or textures.",
+    "Aged warm cream paper background with visible grain and faint uneven printing.",
+    "One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene.",
+    "Large quiet negative space, with the assembled silhouette occupying the lower-middle field.",
+    "Compact top-left uppercase headline in heavy condensed sans lettering.",
+    "Two-color type hierarchy: deep navy for most words and saturated red for one or two emotional emphasis words.",
+    "Tiny bottom-center footer line plus a small row of simplified geometric symbols.",
+    "Soft pseudo-3D volume built from halftone highlights, object contours, dot screen, and low-contrast shadows.",
+    "Retro offset-print finish with halftone dots, registration softness, faded ink density, and muted palette.",
+    "Minimal background detail; the poster works as a clever symbolic object study."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate plastic bottles, bottle caps, or clear bottle ribbing as the source material.",
+    "Do not recreate a dog, pet, pet-friendly premise, or the original animal silhouette.",
+    "Do not use the original headline, footer slogan, recycle-icon cluster, or any closely paraphrased text.",
+    "Do not use the same diagonal bottle-body assembly, cap pile, loose cap detail, or two-tall-bottles-on-right composition.",
+    "Do not let the source material become a random pile, tower, product stack, or abstract sculpture without a clearly readable target silhouette.",
+    "Do not include brand logos, watermarks, signatures, QR codes, platform marks, or creator IDs."
+  ],
+  "visual_deconstruction": {
+    "style_category": "retro environmental PSA poster using symbolic object assemblage",
+    "semantic_mechanism": "The image creates meaning by using one material class to imitate another recognizable object or living form, producing a visual metaphor.",
+    "layout": "portrait-led poster grammar with generous empty cream space, top-left headline, large lower-middle assemblage silhouette, and tiny footer lockup",
+    "subject_treatment": "everyday objects remain individually visible while collectively forming a different silhouette, rendered in blue-green halftone ink",
+    "perspective": "front-facing object study with slight low-angle monumentality and gentle grounding shadow",
+    "typography": "bold uppercase condensed sans, tight word blocks, alternating navy and red emphasis",
+    "texture": "aged paper grain, coarse halftone, uneven ink coverage, and soft offset registration",
+    "mood": "public-service warning with clever symbolic wit and restrained retro charm"
+  },
+  "composition": {
+    "primary_layout": "Keep one large material-built silhouette as the visual hero, placed low-middle or slightly right of center with a clear top-left headline zone.",
+    "metaphor_rule": "The silhouette must be a new target form, while the visible pieces must come from a different source material category.",
+    "negative_space": "Reserve roughly half the image as warm paper field, especially above and around the assembled silhouette.",
+    "footer": "Place tiny supporting copy and simple symbols near the bottom center, far smaller than the headline.",
+    "depth": "Use shallow poster depth: volume is suggested by halftone highlights and soft contact shadow rather than realistic scene perspective."
+  },
+  "typography": {
+    "headline": "Heavy condensed uppercase sans lettering, compact line breaks, minimal tracking, and slightly imperfect print edges.",
+    "color_behavior": "Use navy for the base statement and red for one or two emphasis words.",
+    "placement": "Main text sits in the open upper-left field, not on top of the assemblage.",
+    "microcopy": "Footer type is tiny, centered, and treated like an old campaign imprint."
+  },
+  "color_palette": {
+    "paper": "#d9c982 aged cream yellow",
+    "subject_ink": "#5f8f8d muted blue green",
+    "dark_ink": "#1f5574 deep desaturated navy",
+    "accent_red": "#d50b37 saturated campaign red",
+    "shadow": "#6a9f9a low-opacity teal shadow",
+    "palette_rule": "Keep the image near a three-ink print system: cream ground, blue-green assemblage, navy/red type."
+  },
+  "image_treatment": {
+    "rendering": "Blue-green monochrome halftone assemblage illustration where individual source objects remain visible inside a readable target silhouette.",
+    "lighting": "Flat ambient poster light with soft internal highlights and minimal cast shadow.",
+    "print_finish": "Coarse paper grain, visible dot pattern, faded ink, and soft registration blur.",
+    "detail_level": "Enough detail to read the source pieces, but sparse surroundings and a clean overall silhouette."
+  },
+  "design_rules": [
+    "Each image must answer: what material is being used, and what different silhouette is it forming?",
+    "The assembled target silhouette must be readable from across the room.",
+    "The source pieces must stay identifiable when viewed up close.",
+    "Keep the object large enough to feel like a poster monument but leave strong negative space.",
+    "Use only a small amount of text: one short headline, one tiny footer line, and a minimal symbol row.",
+    "Preserve the blue-green halftone assemblage treatment on every case.",
+    "Let red type act as the main emotional accent while navy carries the rest of the message.",
+    "Keep all icons or symbols abstract and generic, never brand-like."
+  ],
+  "do": [
+    "Use visible source materials arranged into a different symbolic silhouette.",
+    "Use aged cream paper, muted blue-green halftone objects, navy type, and red emphasis.",
+    "Use concise uppercase PSA copy with compact line breaks.",
+    "Use a soft teal grounding shadow and minimal environmental detail.",
+    "Make the metaphor immediate: material first up close, silhouette first from far away."
+  ],
+  "avoid": [
+    "Avoid random piles, generic towers, or abstract stacks that do not form a recognizable silhouette.",
+    "Avoid plastic bottles, bottle caps, dog silhouettes, pet copy, and recycle-logo repetition.",
+    "Avoid photoreal product photography, glossy 3D render polish, dense collage, or cinematic lighting.",
+    "Avoid modern app UI, QR codes, watermarks, brand marks, price tags, and social platform artifacts.",
+    "Avoid long paragraphs, many labels, or text placed over the main assemblage."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Halftone Assemblage Metaphor PSA Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Core metaphor: one visible source material category must be assembled into a different recognizable target silhouette. The target silhouette should read first from a distance; the individual source pieces should become clear up close.\n- Composition: one dominant assembled silhouette in the lower-middle or slightly right field, compact top-left headline, tiny bottom-center footer, and generous empty warm paper space.\n- Typography: heavy condensed uppercase sans headline with navy words and a small number of saturated red emphasis words; tiny centered footer microcopy with simple abstract symbols.\n- Color: aged cream paper ground, muted blue-green halftone subject ink, deep desaturated navy text, and campaign red accents only.\n- Texture and lighting: coarse paper grain, visible halftone dot screen, faded offset-print registration softness, flat ambient light, soft teal grounding shadow, no glossy modern finish.\n- Graphic elements: minimal symbol row and small campaign imprint only; no dense decorative border, no stickers, no brand marks.\n\nAvoid: random piles that do not form a silhouette, photorealistic product photography, glossy 3D render, modern vector flat design, dense collage, cinematic shadows, saturated rainbow palette, plastic bottle animal, pet story, recycle-icon copy, brand logos, watermarks, QR codes, social UI, long paragraphs, readable copied source slogans.\n\nImportant content rule: match the reference style first, then change the source content. Preserve the material-to-silhouette symbolic mechanism, while using new source materials, new target silhouettes, new text, and no literal source content.",
+  "negative_prompt": "random pile, generic stack, abstract tower, unclear silhouette, plastic bottles, bottle caps, dog silhouette, pet-friendly text, original slogan, recycle-icon cluster, exact source layout, logos, watermarks, QR codes, platform UI, glossy photorealism, modern vector poster, dense scene, rainbow colors, cinematic lighting, long body copy",
+  "examples": [
+    {
+      "case_name": "repair-the-signal",
+      "values": {
+        "SUBJECT": "old headphones, cracked phone shells, charger bricks, adapter blocks, and coiled cables arranged to form a recognizable small bird silhouette",
+        "SUBJECT_ACTION": "the e-waste parts collectively read as a perched warning bird, while each electronic piece remains visible up close",
+        "PRODUCT_OR_PROP": "tangled audio cable loops for the wings, phone-shell fragments for the body, charger blocks for the feet, and a tiny screw as the eye",
+        "LOCATION": "blank retro campaign poster field",
+        "BACKGROUND_ELEMENTS": "faint paper speckles, soft teal contact shadow, and a tiny abstract symbol row at the bottom",
+        "MAIN_TEXT": "FIX IT FIRST",
+        "SECONDARY_TEXT": "repair more, waste less",
+        "ACCENT_SYMBOL": "three small broken-line squares",
+        "WARDROBE_STYLE": "not applicable; object-only material assemblage poster",
+        "STYLE_FIDELITY_ANCHORS": "material-as-silhouette metaphor, readable bird silhouette made from e-waste, aged cream paper, blue-green halftone object, navy and red condensed type, sparse PSA layout, tiny footer symbols",
+        "SOURCE_CONTENT_TO_AVOID": "no plastic bottles, no bottle caps, no dog or pet silhouette, no original slogan, no recycle icon cluster"
+      }
+    },
+    {
+      "case_name": "refill-the-day",
+      "values": {
+        "SUBJECT": "used paper coffee cups, cup sleeves, stirrers, lids, and bent straws arranged to form a clear fish silhouette",
+        "SUBJECT_ACTION": "the disposable drink pieces collectively become a fish shape, suggesting waste returning to water",
+        "PRODUCT_OR_PROP": "stacked cup rims for scales, cup sleeves for the body, straw curves for fins, and a small lid opening as the eye",
+        "LOCATION": "blank vintage public-service poster surface",
+        "BACKGROUND_ELEMENTS": "warm paper grain, faint offset ink mottling, soft teal floor shadow, tiny bottom-center campaign imprint",
+        "MAIN_TEXT": "REFILL AGAIN",
+        "SECONDARY_TEXT": "small habits carry forward",
+        "ACCENT_SYMBOL": "two small plus marks and a square dot",
+        "WARDROBE_STYLE": "not applicable; object-only material assemblage poster",
+        "STYLE_FIDELITY_ANCHORS": "clear target silhouette from a different source material, blue-green halftone fish made from coffee waste, upper-left block headline, red emphasis word, empty cream field, tiny footer line",
+        "SOURCE_CONTENT_TO_AVOID": "no plastic bottle shapes, no caps, no dog or pet pose, no copied text, no recycle symbols"
+      }
+    },
+    {
+      "case_name": "grow-the-block",
+      "values": {
+        "SUBJECT": "paper seed packets, gardening gloves, twine, small clay pot fragments, and plant tags arranged to form a simple tree silhouette",
+        "SUBJECT_ACTION": "the gardening materials collectively read as a young tree with trunk and canopy",
+        "PRODUCT_OR_PROP": "folded seed envelopes as leaves, glove fingers as branches, twine as trunk lines, clay fragments as roots, and tiny soil crumbs near the base",
+        "LOCATION": "minimal retro neighborhood campaign poster",
+        "BACKGROUND_ELEMENTS": "aged cream paper, almost empty backdrop, tiny bottom symbols that resemble abstract leaves without logos",
+        "MAIN_TEXT": "GROW CLOSE",
+        "SECONDARY_TEXT": "share seeds, share shade",
+        "ACCENT_SYMBOL": "four small leaf-like triangles",
+        "WARDROBE_STYLE": "not applicable; object-only material assemblage poster",
+        "STYLE_FIDELITY_ANCHORS": "readable tree silhouette built from gardening objects, muted cream and blue-green ink system, halftone dot shading, compact red and navy headline, low-detail background, poster-grain finish",
+        "SOURCE_CONTENT_TO_AVOID": "no bottles, no bottle caps, no dog or pet silhouette, no original footer slogan, no recycling-logo repetition"
+      }
+    },
+    {
+      "case_name": "ride-the-light",
+      "values": {
+        "SUBJECT": "bicycle spokes, brake cables, folded transit tickets, a handlebar grip, and a small bell arranged to form a large feather silhouette",
+        "SUBJECT_ACTION": "the commute parts collectively read as a light feather, symbolizing lower-impact movement",
+        "PRODUCT_OR_PROP": "thin wheel spokes as feather barbs, brake cable as the center shaft, folded tickets as layered vanes, and a bell near the base",
+        "LOCATION": "blank old civic-campaign poster field",
+        "BACKGROUND_ELEMENTS": "paper grain, faded ink density, soft teal base shadow, small bottom-center row of transit-like abstract marks",
+        "MAIN_TEXT": "MOVE LIGHTER",
+        "SECONDARY_TEXT": "one trip can change the air",
+        "ACCENT_SYMBOL": "three tiny arrowless chevrons",
+        "WARDROBE_STYLE": "not applicable; object-only material assemblage poster",
+        "STYLE_FIDELITY_ANCHORS": "readable feather silhouette made from transit and bicycle parts, sparse retro PSA layout, blue-green halftone object volume, navy and red type, warm cream negative space, tiny footer graphics",
+        "SOURCE_CONTENT_TO_AVOID": "no plastic bottle construction, no caps pile, no dog or pet body, no pet-related copy, no exact source composition"
+      }
+    }
+  ]
+}

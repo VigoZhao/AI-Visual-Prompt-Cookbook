@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 66,
+  "styleCount": 68,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Halftone Assemblage Metaphor PSA Poster Style",
+      "slug": "halftone-assemblage-metaphor-psa-poster-style",
+      "category": "Type Posters",
+      "description": "Retro PSA posters where everyday materials form symbolic halftone silhouettes on aged paper.",
+      "summary": "A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.",
+      "preview16": "../styles/halftone-assemblage-metaphor-psa-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/halftone-assemblage-metaphor-psa-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/halftone-assemblage-metaphor-psa-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/halftone-assemblage-metaphor-psa-poster-style.md",
+      "folder": "../styles/halftone-assemblage-metaphor-psa-poster-style/",
+      "anchors": [
+        "The central idea is material-as-symbol: one category of visible source objects must be assembled into a different readable target silhouette.",
+        "The target silhouette must read clearly from a distance before the viewer notices the individual source pieces.",
+        "The source material must remain legible up close through repeated parts, seams, caps, folds, cables, rims, labels, or textures.",
+        "Aged warm cream paper background with visible grain and faint uneven printing.",
+        "One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene.",
+        "Large quiet negative space, with the assembled silhouette occupying the lower-middle field."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "repair-the-signal",
+      "copyPrompt": "Use the \"Halftone Assemblage Metaphor PSA Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: old headphones, cracked phone shells, charger bricks, adapter blocks, and coiled cables arranged to form a recognizable small bird silhouette\nSubject action: the e-waste parts collectively read as a perched warning bird, while each electronic piece remains visible up close\nProduct or prop: tangled audio cable loops for the wings, phone-shell fragments for the body, charger blocks for the feet, and a tiny screw as the eye\nLocation: blank retro campaign poster field\nBackground elements: faint paper speckles, soft teal contact shadow, and a tiny abstract symbol row at the bottom\nMain text: FIX IT FIRST\nSecondary text: repair more, waste less\nAccent symbol: three small broken-line squares\nWardrobe style: not applicable; object-only material assemblage poster\n\nStyle direction:\nA sparse retro PSA poster system where one visible class of material is arranged into a\ndifferent recognizable symbolic silhouette, printed as a muted blue-green halftone object on\naged cream paper with compact red-and-navy campaign typography.\n\nKeep visible:\n- The central idea is material-as-symbol: one category of visible source objects must be assembled into a different readable target silhouette.\n- The target silhouette must read clearly from a distance before the viewer notices the individual source pieces.\n- The source material must remain legible up close through repeated parts, seams, caps, folds, cables, rims, labels, or textures.\n- Aged warm cream paper background with visible grain and faint uneven printing.\n- One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene.\n\nAvoid:\nrandom pile, generic stack, abstract tower, unclear silhouette, plastic bottles, bottle caps,\ndog silhouette, pet-friendly text, original slogan, recycle-icon cluster, exact source layout,\nlogos, watermarks, QR codes, platform UI, glossy photorealism, modern vector poster, dense\nscene, rainbow colors, cinematic lighting, long body copy\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "School Grid Paper Cutout Poster",
+      "slug": "school-grid-paper-cutout-poster",
+      "category": "Photo + Doodle",
+      "description": "Nostalgic grid-paper posters with torn-paper cutout objects, handwritten notes, and soft shadows.",
+      "summary": "A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows.",
+      "preview16": "../styles/school-grid-paper-cutout-poster/preview-16x9.jpg",
+      "preview9": "../styles/school-grid-paper-cutout-poster/preview-9x16.jpg",
+      "styleJson": "../styles/school-grid-paper-cutout-poster/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/school-grid-paper-cutout-poster.md",
+      "folder": "../styles/school-grid-paper-cutout-poster/",
+      "anchors": [
+        "Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.",
+        "One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.",
+        "The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.",
+        "Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.",
+        "Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat.",
+        "The layout is sparse, poster-like, and quiet, with generous negative space and no busy surrounding scene."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "paper-kite-after-school",
+      "copyPrompt": "Use the \"School Grid Paper Cutout Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a handmade kite shaped from torn paper\nSubject action: floating upward as if remembered from an after-school walk\nProduct or prop: a red cut-paper kite with cream paper tail strips\nLocation: a flat sheet of warm classroom grid paper\nBackground elements: mostly empty ruled squares, a tiny pencil dot, faint paper yellowing, and a narrow bottom margin\nMain text: AFTER SCHOOL WIND\nSecondary text: small weather note in the bottom margin\nAccent symbol: tiny generic red seal mark\nWardrobe style: no human figure, tactile handmade paper only\n\nStyle direction:\nA sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical\nnotebook writing, and one large centered torn-paper collage object photographed with shallow\nreal-paper shadows.\n\nKeep visible:\n- Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.\n- One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.\n- The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.\n- Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.\n- Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat.\n\nAvoid:\nsoft-serve ice cream, cone, dessert product, McDonald's, golden arches, restaurant logo, brand\nlockup, watermark, signature, QR code, copied Chinese source text, glossy 3D render, photoreal\nproduct ad, dense market scene, modern vector illustration, neon gradient, cinematic lighting,\nbusy background, realistic people, exact source composition\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Naive Marker Quote Card Style",
       "slug": "naive-marker-quote-card-style",

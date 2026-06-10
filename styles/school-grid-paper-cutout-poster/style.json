@@ -1,0 +1,170 @@
+{
+  "style_name": "School Grid Paper Cutout Poster",
+  "style_slug": "school-grid-paper-cutout-poster",
+  "style_version": "1.0.0",
+  "style_summary": "A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows.",
+  "environment_variables": {
+    "SUBJECT": "main subject or object silhouette",
+    "SUBJECT_ACTION": "simple visual action or implied purpose",
+    "PRODUCT_OR_PROP": "paper-built object, product, or prop",
+    "LOCATION": "flat classroom-paper setting or desk surface",
+    "BACKGROUND_ELEMENTS": "minimal grid-paper details and tiny margin marks",
+    "MAIN_TEXT": "short hand-written headline",
+    "SECONDARY_TEXT": "small supporting caption or bottom-margin note",
+    "ACCENT_SYMBOL": "small generic stamp, mark, or separator",
+    "WARDROBE_STYLE": "styling direction for any human or character detail, or material styling for objects",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.",
+    "One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.",
+    "The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.",
+    "Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.",
+    "Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat.",
+    "The layout is sparse, poster-like, and quiet, with generous negative space and no busy surrounding scene.",
+    "A compact hand-written vertical note appears near the upper-left, with uneven notebook-like strokes.",
+    "The image keeps a scanned vintage print finish: paper grain, mild yellowing, soft focus, and slight exposure falloff.",
+    "A narrow pale bottom margin can contain a tiny caption, preserving the old magazine-ad or school-poster feel.",
+    "Any small stamp or seal is generic and tiny; it must never become a recognizable brand logo."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a soft-serve ice cream silhouette.",
+    "Do not use a McDonald's logo, golden arches, brand colors as a logo, or any recognizable restaurant identity.",
+    "Do not copy the original Chinese vertical headline or its meaning about summer homework.",
+    "Do not use the exact orange cone plus white cream paper construction.",
+    "Do not recreate the same school-vacation homework joke or story premise.",
+    "Do not include the tiny original signature, watermark, or bottom-right brand lockup.",
+    "Do not place a central dessert product in the same shape relationship as the source."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Minimal vintage print advertisement using photographed paper collage on ruled classroom notebook paper.",
+    "composition_logic": "A large central paper object balances a small vertical text block on the upper-left, leaving the grid background mostly empty.",
+    "subject_placement": "The subject fills more than half the frame height and is vertically centered with its highest point near the upper-middle.",
+    "camera_perspective": "Straight-on overhead or copy-stand view with no deep perspective.",
+    "typography_style": "Loose hand-written vertical characters with narrow spacing, uneven stroke pressure, and a student-notebook feeling.",
+    "palette_behavior": "Warm aged-paper base, cool thin grid lines, off-white collage layers, and one vivid accent color.",
+    "graphic_elements": "Ruled grid, torn deckled paper edges, a small caption strip, and optional tiny seal-like mark.",
+    "texture_finish": "Real paper grain, slight scan softness, low contrast, and subtle shadows from layered paper.",
+    "lighting": "Soft diffuse overhead light with gentle shadow direction and no dramatic highlights.",
+    "mood": "Nostalgic, clever, quiet, handmade, school-memory driven, and lightly humorous."
+  },
+  "composition": [
+    "Use one large simple central subject, not a scene full of many objects.",
+    "Keep the background as continuous classroom grid paper with visible ruled squares.",
+    "Place the hand-written headline in the upper-left as one or two slim vertical columns.",
+    "Keep the composition flat and front-facing, with the subject occupying roughly 55 to 65 percent of image height.",
+    "Allow a narrow pale margin at the bottom for a small caption line."
+  ],
+  "typography": [
+    "Use hand-written notebook lettering, not clean digital type.",
+    "Prefer vertical writing columns or compact side notes.",
+    "Keep the writing dark graphite, charcoal, or faded ink.",
+    "Let strokes be imperfect and slightly uneven.",
+    "Use short text only so the background remains quiet."
+  ],
+  "color_palette": {
+    "base": "warm yellowed beige paper",
+    "grid": "muted blue-green thin lines",
+    "paper_layers": "cream, ivory, pale tan",
+    "accent": "one saturated cut-paper color such as red, cobalt, leaf green, or yellow",
+    "ink": "soft black, graphite, or brown-black",
+    "proportions": "about 75 percent beige grid paper, 15 percent off-white paper, 8 percent saturated accent, 2 percent dark handwritten ink"
+  },
+  "photographic_direction": [
+    "Photograph the composition like a physical paper collage on a desk or copy stand.",
+    "Keep light soft and diffuse, with tiny natural shadows under lifted paper edges.",
+    "Preserve tactile torn fibers and uneven paper thickness.",
+    "Avoid glossy product photography, hard reflections, or cinematic depth."
+  ],
+  "design_rules": [
+    "Extract the old school-paper advertising grammar, not the source product or brand.",
+    "Use one clear paper-built metaphor as the central subject.",
+    "Make the joke or concept readable through shape and caption, but keep the visual sparse.",
+    "Use paper tears and layered strips as the primary illustration technique.",
+    "Keep brand-like marks generic and small if used at all."
+  ],
+  "do": [
+    "Use a warm grid-paper ground with visible ruled squares.",
+    "Use a single torn-paper collage object with low relief shadows.",
+    "Use hand-written vertical notes with imperfect human strokes.",
+    "Use one vivid cut-paper accent color against cream paper.",
+    "Keep the poster quiet, nostalgic, and lightly witty."
+  ],
+  "avoid": [
+    "Avoid ice cream, soft-serve forms, cones, dessert ads, and the source story premise.",
+    "Avoid recognizable logos, restaurant branding, watermarks, QR codes, and signatures.",
+    "Avoid dense scenes, many props, price tags, glossy product renders, or photoreal objects.",
+    "Avoid modern vector flat design, 3D rendering, gradient backgrounds, and neon palettes.",
+    "Avoid copying the original Chinese text layout exactly or reusing its wording."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"school-grid-paper-cutout-poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: warm cream classroom grid paper background, straight-on copy-stand view, one oversized torn-paper collage object centered slightly right of the hand-written text block, generous empty grid space, and a narrow pale bottom margin.\n- Typography: one compact vertical column or two slim vertical columns of loose hand-drawn notebook characters on the upper-left side, dark graphite or faded ink, uneven and human, never clean digital type.\n- Color: mostly yellowed beige paper with muted blue-green grid lines, cream torn-paper layers, one saturated cut-paper accent color, and tiny dark handwritten marks.\n- Texture and lighting: real paper grain, deckled torn fibers, slight scan softness, low contrast vintage print finish, soft diffuse overhead light, and shallow physical shadows under lifted paper edges.\n- Graphic elements: ruled grid structure, torn paper silhouette, optional tiny generic seal-like mark, and a small bottom caption strip; keep all marks generic.\n\nAvoid: no ice cream, no soft-serve shape, no cone silhouette, no fast-food branding, no recognizable logo, no original Chinese headline, no source watermark or signature, no dense scene, no glossy product render, no 3D object, no vector poster, no QR code.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.",
+  "negative_prompt": "soft-serve ice cream, cone, dessert product, McDonald's, golden arches, restaurant logo, brand lockup, watermark, signature, QR code, copied Chinese source text, glossy 3D render, photoreal product ad, dense market scene, modern vector illustration, neon gradient, cinematic lighting, busy background, realistic people, exact source composition",
+  "examples": [
+    {
+      "case_name": "paper-kite-after-school",
+      "values": {
+        "SUBJECT": "a handmade kite shaped from torn paper",
+        "SUBJECT_ACTION": "floating upward as if remembered from an after-school walk",
+        "PRODUCT_OR_PROP": "a red cut-paper kite with cream paper tail strips",
+        "LOCATION": "a flat sheet of warm classroom grid paper",
+        "BACKGROUND_ELEMENTS": "mostly empty ruled squares, a tiny pencil dot, faint paper yellowing, and a narrow bottom margin",
+        "MAIN_TEXT": "AFTER SCHOOL WIND",
+        "SECONDARY_TEXT": "small weather note in the bottom margin",
+        "ACCENT_SYMBOL": "tiny generic red seal mark",
+        "WARDROBE_STYLE": "no human figure, tactile handmade paper only",
+        "STYLE_FIDELITY_ANCHORS": "warm beige grid paper, hand-written vertical note, one central torn-paper silhouette, soft paper shadows, sparse nostalgic poster",
+        "SOURCE_CONTENT_TO_AVOID": "no ice cream, no cone, no orange-and-white dessert construction, no restaurant logo, no original Chinese headline"
+      }
+    },
+    {
+      "case_name": "umbrella-rain-memory",
+      "values": {
+        "SUBJECT": "a small folded umbrella made from torn paper",
+        "SUBJECT_ACTION": "opening quietly on the page like a rainy-day memory",
+        "PRODUCT_OR_PROP": "a cobalt blue paper umbrella with cream rib strips",
+        "LOCATION": "aged notebook grid paper under soft overhead light",
+        "BACKGROUND_ELEMENTS": "thin blue-green grid lines, faint smudges, three tiny hand-drawn rain ticks, and a pale bottom strip",
+        "MAIN_TEXT": "RAINY DAY NOTE",
+        "SECONDARY_TEXT": "forgot it again",
+        "ACCENT_SYMBOL": "small graphite dash mark",
+        "WARDROBE_STYLE": "paper object only, no character",
+        "STYLE_FIDELITY_ANCHORS": "flat copy-stand view, central paper collage, deckled edges, handwritten vertical side note, warm old paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no soft-serve, no cone shape, no orange lower half, no brand mark, no source homework joke"
+      }
+    },
+    {
+      "case_name": "library-moon-bookmark",
+      "values": {
+        "SUBJECT": "a crescent moon bookmark assembled from torn paper",
+        "SUBJECT_ACTION": "resting over a grid-paper page as a quiet reading token",
+        "PRODUCT_OR_PROP": "a yellow cut-paper crescent with ivory layered paper ridges",
+        "LOCATION": "a warm school notebook page photographed flat",
+        "BACKGROUND_ELEMENTS": "empty ruled squares, one tiny margin fleck, faint aged-paper shadowing, and a small bottom caption area",
+        "MAIN_TEXT": "READING LAMP MOON",
+        "SECONDARY_TEXT": "library hour",
+        "ACCENT_SYMBOL": "tiny brown-black star mark",
+        "WARDROBE_STYLE": "simple paper collage material styling",
+        "STYLE_FIDELITY_ANCHORS": "large centered torn-paper object, minimal grid background, hand-made vertical writing, low relief shadows, vintage print softness",
+        "SOURCE_CONTENT_TO_AVOID": "no dessert, no ice cream swirl, no fast-food seal, no Chinese source copy, no summer homework premise"
+      }
+    },
+    {
+      "case_name": "garden-radio-sprout",
+      "values": {
+        "SUBJECT": "a little tabletop radio with a sprout antenna made from paper",
+        "SUBJECT_ACTION": "broadcasting a quiet garden signal on the notebook page",
+        "PRODUCT_OR_PROP": "a leaf-green torn-paper radio body with ivory paper dial strips",
+        "LOCATION": "a yellowed classroom grid-paper surface",
+        "BACKGROUND_ELEMENTS": "plain ruled grid, two tiny pencil calibration marks, light paper grain, and a white bottom margin",
+        "MAIN_TEXT": "GARDEN RADIO",
+        "SECONDARY_TEXT": "low volume morning",
+        "ACCENT_SYMBOL": "small generic red dot seal",
+        "WARDROBE_STYLE": "object-only handmade paper construction",
+        "STYLE_FIDELITY_ANCHORS": "warm grid-paper background, sparse ad layout, central paper collage silhouette, handwritten side text, soft shadowed paper relief",
+        "SOURCE_CONTENT_TO_AVOID": "no cone, no cream swirl, no orange dessert area, no restaurant identity, no original source text or watermark"
+      }
+    }
+  ]
+}

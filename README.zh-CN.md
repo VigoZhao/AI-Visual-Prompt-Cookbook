@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="风格数量" src="https://img.shields.io/badge/styles-66-ff5a7a?style=flat-square">
-  <img alt="预览图" src="https://img.shields.io/badge/previews-132-4cc9f0?style=flat-square">
+  <img alt="风格数量" src="https://img.shields.io/badge/styles-68-ff5a7a?style=flat-square">
+  <img alt="预览图" src="https://img.shields.io/badge/previews-136-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="语言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,18 +119,32 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 精选风格
 
-先看这 6 个风格。每个风格都保持轻量：一个 JSON 加两张预览图。完整 66 个风格见下面的 [All Styles](#all-styles) 画廊。
+先看这 6 个风格。每个风格都保持轻量：一个 JSON 加两张预览图。完整 68 个风格见下面的 [All Styles](#all-styles) 画廊。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/halftone-assemblage-metaphor-psa-poster-style"><img src="styles/halftone-assemblage-metaphor-psa-poster-style/preview-16x9.jpg" alt="Halftone Assemblage Metaphor PSA Poster Style preview"></a>
+<h3>Halftone Assemblage Metaphor PSA Poster Style</h3>
+<p>一种稀疏复古公益海报系统：把一类可见材料排列成另一种可识别的象征剪影，用蓝绿色网点印刷在老米色纸张上，并搭配紧凑的红色与海军蓝宣传字体。</p>
+<p><a href="styles/halftone-assemblage-metaphor-psa-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/halftone-assemblage-metaphor-psa-poster-style.md">复制提示词</a> · <a href="styles/halftone-assemblage-metaphor-psa-poster-style">目录</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/school-grid-paper-cutout-poster"><img src="styles/school-grid-paper-cutout-poster/preview-16x9.jpg" alt="School Grid Paper Cutout Poster preview"></a>
+<h3>School Grid Paper Cutout Poster</h3>
+<p>一种稀疏怀旧海报系统：温暖课堂方格纸、手写竖向笔记，以及一个大型居中撕纸拼贴物件，配合真实纸张的浅阴影。</p>
+<p><a href="styles/school-grid-paper-cutout-poster/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/school-grid-paper-cutout-poster.md">复制提示词</a> · <a href="styles/school-grid-paper-cutout-poster">目录</a></p>
+</td>
+<td width="33%" valign="top">
 <a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
 <h3>Naive Marker Quote Card Style</h3>
 <p>一种竖向手绘荒诞语录卡海报系统：粗糙黑色马克笔轮廓、浅粉彩面板、块状蓝色字形、歪斜标签页，以及一个简单中心物件角色笑点，整体是扁平稚拙插画。</p>
 <p><a href="styles/naive-marker-quote-card-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">复制提示词</a> · <a href="styles/naive-marker-quote-card-style">目录</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
 <h3>Sky Blue Home Life Doodle Poster Style</h3>
@@ -143,25 +157,11 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <p>一种稚拙手绘海报风格：米色纸张边距、松散马克笔涂写色块、粗厚不均匀关键线、超大休闲手写字，以及按清晰公益海报层级排布的简单吉祥物式人物。</p>
 <p><a href="styles/playful-marker-grounding-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">复制提示词</a> · <a href="styles/playful-marker-grounding-poster-style">目录</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
 <h3>Rough Marker Monster Poster Style</h3>
 <p>一种童趣怪物海报系统：厚重黑色马克笔轮廓、粗糙蜡笔粉彩填色、米色纸张颗粒、夸张搞怪生物形态，以及粗壮手写黑色文字。</p>
 <p><a href="styles/rough-marker-monster-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/rough-marker-monster-poster-style.md">复制提示词</a> · <a href="styles/rough-marker-monster-poster-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/cyan-red-shockwave-type-poster-style"><img src="styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg" alt="Cyan Red Shockwave Type Poster Style preview"></a>
-<h3>Cyan Red Shockwave Type Poster Style</h3>
-<p>一种平面插画海报系统：饱和青色背景、超大红色块状字、柠檬黄人物点缀、白色锯齿冲击波、粗红描边和紧凑旋转微文案，像地方旅行海报混合漫画冲击图形与丝网印刷街头标牌。</p>
-<p><a href="styles/cyan-red-shockwave-type-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/cyan-red-shockwave-type-poster-style.md">复制提示词</a> · <a href="styles/cyan-red-shockwave-type-poster-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/fantasy-scribble-mascot-poster-style"><img src="styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
-<h3>Fantasy Scribble Mascot Poster Style</h3>
-<p>一种粗粝手绘幻想海报系统：超大不规则字形、荧光马克笔吉祥物、厚重黑色轮廓、松散涂鸦装饰，以及白纸场上的童趣拼贴能量。</p>
-<p><a href="styles/fantasy-scribble-mascot-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">复制提示词</a> · <a href="styles/fantasy-scribble-mascot-poster-style">目录</a></p>
 </td>
 </tr>
 </table>
@@ -195,7 +195,7 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下面可以浏览全部 66 个风格。
+下面可以浏览全部 68 个风格。
 
 完整库包含上面的精选风格。每个风格的完整描述和全部文件链接见 [docs/CATALOG.md](docs/CATALOG.md)。
 
@@ -204,12 +204,28 @@ python3 scripts/validate-style-json.py .
 <table>
 <tr>
 <td width="33%" valign="top">
+<a id="halftone-assemblage-metaphor-psa-poster-style"></a>
+<a href="styles/halftone-assemblage-metaphor-psa-poster-style"><img src="styles/halftone-assemblage-metaphor-psa-poster-style/preview-16x9.jpg" alt="Halftone Assemblage Metaphor PSA Poster Style preview"></a>
+<p><strong><a href="styles/halftone-assemblage-metaphor-psa-poster-style">Halftone Assemblage Metaphor PSA Poster Style</a></strong><br>
+<em>复古公益海报，用日常材料拼出象征性网点剪影，铺在老纸张上。</em><br>
+<a href="styles/halftone-assemblage-metaphor-psa-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/halftone-assemblage-metaphor-psa-poster-style.md">prompt</a> · <a href="styles/halftone-assemblage-metaphor-psa-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="school-grid-paper-cutout-poster"></a>
+<a href="styles/school-grid-paper-cutout-poster"><img src="styles/school-grid-paper-cutout-poster/preview-16x9.jpg" alt="School Grid Paper Cutout Poster preview"></a>
+<p><strong><a href="styles/school-grid-paper-cutout-poster">School Grid Paper Cutout Poster</a></strong><br>
+<em>怀旧方格纸海报，撕纸剪贴物件、手写笔记和柔和纸影。</em><br>
+<a href="styles/school-grid-paper-cutout-poster/style.json">style.json</a> · <a href="docs/copy-prompts/school-grid-paper-cutout-poster.md">prompt</a> · <a href="styles/school-grid-paper-cutout-poster/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
 <a id="naive-marker-quote-card-style"></a>
 <a href="styles/naive-marker-quote-card-style"><img src="styles/naive-marker-quote-card-style/preview-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
 <p><strong><a href="styles/naive-marker-quote-card-style">Naive Marker Quote Card Style</a></strong><br>
 <em>荒诞语录卡海报，粗马克笔轮廓、粉彩面板、蓝色块字和物件笑点。</em><br>
 <a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sky-blue-home-life-doodle-poster-style"></a>
 <a href="styles/sky-blue-home-life-doodle-poster-style"><img src="styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
@@ -224,8 +240,6 @@ python3 scripts/validate-style-json.py .
 <em>轻快 grounding 海报，米色边距、马克笔色块、粗描边、大字和吉祥物人物。</em><br>
 <a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>
 <a href="styles/rough-marker-monster-poster-style"><img src="styles/rough-marker-monster-poster-style/preview-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -233,6 +247,8 @@ python3 scripts/validate-style-json.py .
 <em>童趣怪物海报，粗马克笔轮廓、蜡笔色块、米色纸纹和手写粗字。</em><br>
 <a href="styles/rough-marker-monster-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-marker-monster-poster-style.md">prompt</a> · <a href="styles/rough-marker-monster-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="cyan-red-shockwave-type-poster-style"></a>
 <a href="styles/cyan-red-shockwave-type-poster-style"><img src="styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg" alt="Cyan Red Shockwave Type Poster Style preview"></a>
@@ -247,8 +263,6 @@ python3 scripts/validate-style-json.py .
 <em>幻想吉祥物手绘海报，荧光马克笔色块、摇晃大字和密集涂鸦。</em><br>
 <a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="crayon-catalog-doodle-poster-style"></a>
 <a href="styles/crayon-catalog-doodle-poster-style"><img src="styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
@@ -256,6 +270,8 @@ python3 scripts/validate-style-json.py .
 <em>蜡笔目录海报，红色手写标题、简单产品涂鸦和折纸质感。</em><br>
 <a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-halftone-ransom-zine-poster-style"></a>
 <a href="styles/blue-halftone-ransom-zine-poster-style"><img src="styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
@@ -270,8 +286,6 @@ python3 scripts/validate-style-json.py .
 <em>菜市场蔬果海报，超大光泽作物、粗刷字体和象牙色纸面留白。</em><br>
 <a href="styles/market-brush-produce-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">prompt</a> · <a href="styles/market-brush-produce-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="folded-newspaper-product-ad-style"></a>
 <a href="styles/folded-newspaper-product-ad-style"><img src="styles/folded-newspaper-product-ad-style/preview-16x9.jpg" alt="Folded Newspaper Product Ad Style preview"></a>
@@ -279,6 +293,8 @@ python3 scripts/validate-style-json.py .
 <em>折叠报纸广告视觉，超大产品切图、密集分栏、印章和古金色标题。</em><br>
 <a href="styles/folded-newspaper-product-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/folded-newspaper-product-ad-style.md">prompt</a> · <a href="styles/folded-newspaper-product-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sunlit-supermodel-nameplate-editorial"></a>
 <a href="styles/sunlit-supermodel-nameplate-editorial"><img src="styles/sunlit-supermodel-nameplate-editorial/preview-16x9.jpg" alt="Sunlit Supermodel Nameplate Editorial preview"></a>
@@ -293,8 +309,6 @@ python3 scripts/validate-style-json.py .
 <em>黑底食物卡片广告，手刷中文、裁切摄影和街头小吃印刷质感。</em><br>
 <a href="styles/black-cutout-food-card-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">prompt</a> · <a href="styles/black-cutout-food-card-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="kinetic-geometric-doodle-cutouts"></a>
 <a href="styles/kinetic-geometric-doodle-cutouts"><img src="styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
@@ -302,6 +316,8 @@ python3 scripts/validate-style-json.py .
 <em>几何涂鸦切图插画，扁平色块、松散线条和纸张颗粒。</em><br>
 <a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="quiet-luxury-furniture-nameplate-poster-style"></a>
 <a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
@@ -316,8 +332,6 @@ python3 scripts/validate-style-json.py .
 <em>街头时尚封面大片，运动模糊建筑、奢华服装和宽字距衬线标题。</em><br>
 <a href="styles/kinetic-luxury-street-fashion-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sunlit-architectural-fashion-editorial"></a>
 <a href="styles/sunlit-architectural-fashion-editorial"><img src="styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg" alt="Sunlit Architectural Fashion Editorial preview"></a>
@@ -325,6 +339,8 @@ python3 scripts/validate-style-json.py .
 <em>日光建筑时装大片，低机位、温暖石材和拉长模特轮廓。</em><br>
 <a href="styles/sunlit-architectural-fashion-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">prompt</a> · <a href="styles/sunlit-architectural-fashion-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="multi-color-beverage-splash-ad-system-style"></a>
 <a href="styles/multi-color-beverage-splash-ad-system-style"><img src="styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
@@ -339,8 +355,6 @@ python3 scripts/validate-style-json.py .
 <em>黑黄漫画食物 zine 广告，变形大字、中文小字和发亮主体物。</em><br>
 <a href="styles/yellow-black-manga-food-zine-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">prompt</a> · <a href="styles/yellow-black-manga-food-zine-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="neon-outdoor-diary-longform-collage-style"></a>
 <a href="styles/neon-outdoor-diary-longform-collage-style"><img src="styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
@@ -348,6 +362,8 @@ python3 scripts/validate-style-json.py .
 <em>户外日记长图拼贴，酸性绿色标题、撕纸信息板和纪实切图。</em><br>
 <a href="styles/neon-outdoor-diary-longform-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">prompt</a> · <a href="styles/neon-outdoor-diary-longform-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="acid-lime-3d-streetwear-type-poster-style"></a>
 <a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
@@ -362,8 +378,6 @@ python3 scripts/validate-style-json.py .
 <em>黑蓝高端产品发布海报，发光剪影、裁切大字和极简发布文案。</em><br>
 <a href="styles/electric-blue-silhouette-product-launch-style/style.json">style.json</a> · <a href="docs/copy-prompts/electric-blue-silhouette-product-launch-style.md">prompt</a> · <a href="styles/electric-blue-silhouette-product-launch-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="luxury-perspective-checkerboard-editorial"></a>
 <a href="styles/luxury-perspective-checkerboard-editorial"><img src="styles/luxury-perspective-checkerboard-editorial/preview-16x9.jpg" alt="Luxury Perspective Checkerboard Editorial preview"></a>
@@ -371,6 +385,8 @@ python3 scripts/validate-style-json.py .
 <em>奢侈品编辑海报，棋盘格透视、手写体大字和精致留白。</em><br>
 <a href="styles/luxury-perspective-checkerboard-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/luxury-perspective-checkerboard-editorial.md">prompt</a> · <a href="styles/luxury-perspective-checkerboard-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sunny-3d-avatar-campaign-style"></a>
 <a href="styles/sunny-3d-avatar-campaign-style"><img src="styles/sunny-3d-avatar-campaign-style/preview-16x9.jpg" alt="Sunny 3D Avatar Campaign Style preview"></a>
@@ -385,8 +401,6 @@ python3 scripts/validate-style-json.py .
 <em>闪光灯 Y2K 拼贴，镜面 UI 面板、电蓝涂鸦线和粗粝屏幕噪点。</em><br>
 <a href="styles/y2k-mirror-ui-scribble-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-mirror-ui-scribble-collage-style.md">prompt</a> · <a href="styles/y2k-mirror-ui-scribble-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="neon-plush-gadget-pop-3d-style"></a>
 <a href="styles/neon-plush-gadget-pop-3d-style"><img src="styles/neon-plush-gadget-pop-3d-style/preview-16x9.jpg" alt="Neon Plush Gadget Pop 3D Style preview"></a>
@@ -394,6 +408,8 @@ python3 scripts/validate-style-json.py .
 <em>荧光玩具产品 3D 渲染，毛绒吉祥物搭配厚重小工具道具。</em><br>
 <a href="styles/neon-plush-gadget-pop-3d-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-plush-gadget-pop-3d-style.md">prompt</a> · <a href="styles/neon-plush-gadget-pop-3d-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-lime-kinetic-comic-type-poster-style"></a>
 <a href="styles/blue-lime-kinetic-comic-type-poster-style"><img src="styles/blue-lime-kinetic-comic-type-poster-style/preview-16x9.jpg" alt="Blue Lime Kinetic Comic Type Poster Style preview"></a>
@@ -408,8 +424,6 @@ python3 scripts/validate-style-json.py .
 <em>Blue perspective corridors with stacked Chinese display type.</em><br>
 <a href="styles/blue-chinese-perspective-type-canyon-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md">prompt</a> · <a href="styles/blue-chinese-perspective-type-canyon-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="rough-ink-music-doodle-poster-style"></a>
 <a href="styles/rough-ink-music-doodle-poster-style"><img src="styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg" alt="Rough Ink Music Doodle Poster Style preview"></a>
@@ -417,6 +431,8 @@ python3 scripts/validate-style-json.py .
 <em>Hand-inked music posters with brush lettering and playful doodles.</em><br>
 <a href="styles/rough-ink-music-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-ink-music-doodle-poster-style.md">prompt</a> · <a href="styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="mono-noir-type-portrait-poster-style"></a>
 <a href="styles/mono-noir-type-portrait-poster-style"><img src="styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg" alt="Mono Noir Type Portrait Poster Style preview"></a>
@@ -431,8 +447,6 @@ python3 scripts/validate-style-json.py .
 <em>Flat mascot posters with chunky block type and sticker figures.</em><br>
 <a href="styles/bold-block-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-block-mascot-poster-style.md">prompt</a> · <a href="styles/bold-block-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="blue-hud-macro-product-poster"></a>
 <a href="styles/blue-hud-macro-product-poster"><img src="styles/blue-hud-macro-product-poster/preview-16x9.jpg" alt="Blue HUD Macro Creator Tech Poster preview"></a>
@@ -440,6 +454,8 @@ python3 scripts/validate-style-json.py .
 <em>Glossy macro product posters with blue HUD launch graphics.</em><br>
 <a href="styles/blue-hud-macro-product-poster/style.json">style.json</a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">prompt</a> · <a href="styles/blue-hud-macro-product-poster/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="warm-fisheye-product-impact-ad-style"></a>
 <a href="styles/warm-fisheye-product-impact-ad-style"><img src="styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg" alt="Warm Fisheye Product Impact Ad Style preview"></a>
@@ -454,8 +470,6 @@ python3 scripts/validate-style-json.py .
 <em>Handmade sports posters with olive blocks and kinetic scribbles.</em><br>
 <a href="styles/olive-scribble-sports-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/olive-scribble-sports-poster-style.md">prompt</a> · <a href="styles/olive-scribble-sports-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="bold-anime-reaction-thumbnail-style"></a>
 <a href="styles/bold-anime-reaction-thumbnail-style"><img src="styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg" alt="Bold Anime Reaction Thumbnail Style preview"></a>
@@ -463,6 +477,8 @@ python3 scripts/validate-style-json.py .
 <em>High-impact anime thumbnails with bold yellow reaction typography.</em><br>
 <a href="styles/bold-anime-reaction-thumbnail-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">prompt</a> · <a href="styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="turquoise-red-techno-manga-poster-style"></a>
 <a href="styles/turquoise-red-techno-manga-poster-style"><img src="styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg" alt="Turquoise Red Techno Manga Poster Style preview"></a>
@@ -477,8 +493,6 @@ python3 scripts/validate-style-json.py .
 <em>Pop fisheye posters with orbiting type and chromatic arcs.</em><br>
 <a href="styles/chromatic-fisheye-orbit-pop-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md">prompt</a> · <a href="styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="naive-marker-psa-poster-style"></a>
 <a href="styles/naive-marker-psa-poster-style"><img src="styles/naive-marker-psa-poster-style/preview-16x9.jpg" alt="Naive Marker PSA Poster Style preview"></a>
@@ -486,6 +500,8 @@ python3 scripts/validate-style-json.py .
 <em>Friendly civic PSA posters with naive marker drawings.</em><br>
 <a href="styles/naive-marker-psa-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-psa-poster-style.md">prompt</a> · <a href="styles/naive-marker-psa-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-bubble-fisheye-action-poster-style"></a>
 <a href="styles/blue-bubble-fisheye-action-poster-style"><img src="styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg" alt="Blue Bubble Fisheye Action Poster Style preview"></a>
@@ -500,8 +516,6 @@ python3 scripts/validate-style-json.py .
 <em>Low-light bedroom snapshots with quiet doodle companion energy.</em><br>
 <a href="styles/cozy-bedroom-doodle-companion-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md">prompt</a> · <a href="styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="surreal-fish-doodle-landmark-photo-collage-style"></a>
 <a href="styles/surreal-fish-doodle-landmark-photo-collage-style"><img src="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg" alt="Surreal Fish Doodle Landmark Photo Collage Style preview"></a>
@@ -509,6 +523,8 @@ python3 scripts/validate-style-json.py .
 <em>Landmark travel photos remixed with folk-art fish doodles.</em><br>
 <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md">prompt</a> · <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="plush-comic-toy-product-poster-style"></a>
 <a href="styles/plush-comic-toy-product-poster-style"><img src="styles/plush-comic-toy-product-poster-style/preview-16x9.jpg" alt="Plush Comic Toy Product Poster Style preview"></a>
@@ -523,8 +539,6 @@ python3 scripts/validate-style-json.py .
 <em>Loose pet-comedy storyboard frames with warm sketch texture.</em><br>
 <a href="styles/rough-animation-pet-sketch-storyboard-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md">prompt</a> · <a href="styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="tri-color-hardcut-portrait-poster-style"></a>
 <a href="styles/tri-color-hardcut-portrait-poster-style"><img src="styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg" alt="Tri Color Hardcut Portrait Poster Style preview"></a>
@@ -532,6 +546,8 @@ python3 scripts/validate-style-json.py .
 <em>Three-color portrait posters built from hard-edged cutout planes.</em><br>
 <a href="styles/tri-color-hardcut-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md">prompt</a> · <a href="styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="clean-triptych-travel-vlog-thumbnail-style"></a>
 <a href="styles/clean-triptych-travel-vlog-thumbnail-style"><img src="styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg" alt="Clean Triptych Travel Vlog Thumbnail Style preview"></a>
@@ -546,8 +562,6 @@ python3 scripts/validate-style-json.py .
 <em>Real-life snapshots layered with mascot stickers and doodles.</em><br>
 <a href="styles/playful-mascot-doodle-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-mascot-doodle-snapshot-style.md">prompt</a> · <a href="styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="teenage-skate-scribble-screenprint-poster-style"></a>
 <a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster Style preview"></a>
@@ -555,6 +569,8 @@ python3 scripts/validate-style-json.py .
 <em>Retro skate posters with scribbled borders and screenprint grit.</em><br>
 <a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md">prompt</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="impact-burst-halftone-comic-poster-style"></a>
 <a href="styles/impact-burst-halftone-comic-poster-style"><img src="styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg" alt="Impact Burst Halftone Comic Poster Style preview"></a>
@@ -569,8 +585,6 @@ python3 scripts/validate-style-json.py .
 <em>Summer fisheye posters with sunny bubble typography.</em><br>
 <a href="styles/sunburst-fisheye-bubble-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md">prompt</a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="backseat-transit-doodle-letter-poster-style"></a>
 <a href="styles/backseat-transit-doodle-letter-poster-style"><img src="styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg" alt="Backseat Transit Doodle Letter Poster Style preview"></a>
@@ -578,6 +592,8 @@ python3 scripts/validate-style-json.py .
 <em>Transit photos turned into energetic hand-lettered travel posters.</em><br>
 <a href="styles/backseat-transit-doodle-letter-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md">prompt</a> · <a href="styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="analog-sticker-diary-portrait-poster-style"></a>
 <a href="styles/analog-sticker-diary-portrait-poster-style"><img src="styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg" alt="Analog Sticker Diary Portrait Poster Style preview"></a>
@@ -592,8 +608,6 @@ python3 scripts/validate-style-json.py .
 <em>Minimal diamond-aperture posters with folded perspective typography.</em><br>
 <a href="styles/folded-diamond-perspective-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/folded-diamond-perspective-type-poster-style.md">prompt</a> · <a href="styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="gothic-cat-doodle-photo-collage-style"></a>
 <a href="styles/gothic-cat-doodle-photo-collage-style"><img src="styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg" alt="Gothic Cat Doodle Photo Collage Style preview"></a>
@@ -601,6 +615,8 @@ python3 scripts/validate-style-json.py .
 <em>Dramatic architecture photos with playful cartoon creature overlays.</em><br>
 <a href="styles/gothic-cat-doodle-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md">prompt</a> · <a href="styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="k-pop-apocalypse-ransom-zine-style"></a>
 <a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg" alt="K-Pop Apocalypse Ransom Zine Style preview"></a>
@@ -615,8 +631,6 @@ python3 scripts/validate-style-json.py .
 <em>Crowded transit snapshots layered with marker doodles and oversized comic faces.</em><br>
 <a href="styles/metro-doodle-snapshot-diary-style/style.json">style.json</a> · <a href="docs/copy-prompts/metro-doodle-snapshot-diary-style.md">prompt</a> · <a href="styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="mountain-trail-monster-doodle-poster-style"></a>
 <a href="styles/mountain-trail-monster-doodle-poster-style"><img src="styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg" alt="Mountain Trail Monster Doodle Poster Style preview"></a>
@@ -624,6 +638,8 @@ python3 scripts/validate-style-json.py .
 <em>Outdoor hiking photos remixed with monster companions and annotations.</em><br>
 <a href="styles/mountain-trail-monster-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md">prompt</a> · <a href="styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-doodle-gallery-snapshot-style"></a>
 <a href="styles/neon-doodle-gallery-snapshot-style"><img src="styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg" alt="Neon Doodle Gallery Snapshot preview"></a>
@@ -638,8 +654,6 @@ python3 scripts/validate-style-json.py .
 <em>Outdoor editorial posters with warped neon kinetic typography.</em><br>
 <a href="styles/neon-kinetic-typographic-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-kinetic-typographic-poster-style.md">prompt</a> · <a href="styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="orange-brush-mascot-action-poster-style"></a>
 <a href="styles/orange-brush-mascot-action-poster-style"><img src="styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg" alt="Orange Brush Mascot Action Poster Style preview"></a>
@@ -647,6 +661,8 @@ python3 scripts/validate-style-json.py .
 <em>Sparse mascot illustrations with orange brush texture and print grain.</em><br>
 <a href="styles/orange-brush-mascot-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/orange-brush-mascot-action-poster-style.md">prompt</a> · <a href="styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="photo-illustration-overlay-poster-style"></a>
 <a href="styles/photo-illustration-overlay-poster-style"><img src="styles/photo-illustration-overlay-poster-style/preview-16x9.jpg" alt="Photo Illustration Overlay Poster preview"></a>
@@ -661,8 +677,6 @@ python3 scripts/validate-style-json.py .
 <em>Mobile city-event posters with fuzzy mascots and app-card framing.</em><br>
 <a href="styles/plush-city-festival-mobile-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/plush-city-festival-mobile-poster-style.md">prompt</a> · <a href="styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="pop-bubble-letter-photo-poster-style"></a>
 <a href="styles/pop-bubble-letter-photo-poster-style"><img src="styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg" alt="Pop Bubble Letter Photo Poster Style preview"></a>
@@ -670,6 +684,8 @@ python3 scripts/validate-style-json.py .
 <em>Fashion photo posters framed by candy-colored bubble letters.</em><br>
 <a href="styles/pop-bubble-letter-photo-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/pop-bubble-letter-photo-poster-style.md">prompt</a> · <a href="styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="soft-analog-future-editorial-poster-style"></a>
 <a href="styles/soft-analog-future-editorial-poster-style"><img src="styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg" alt="Soft Analog Future Editorial Poster preview"></a>
@@ -684,8 +700,6 @@ python3 scripts/validate-style-json.py .
 <em>Subway photos overlaid with social-media-style cartoon doodles and handwritten notes.</em><br>
 <a href="styles/subway-doodle-photo-hybrid-style/style.json">style.json</a> · <a href="docs/copy-prompts/subway-doodle-photo-hybrid-style.md">prompt</a> · <a href="styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="tokyo-kawaii-travel-collage-poster-style"></a>
 <a href="styles/tokyo-kawaii-travel-collage-poster-style"><img src="styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg" alt="Tokyo Kawaii Travel Collage Poster preview"></a>
@@ -693,6 +707,8 @@ python3 scripts/validate-style-json.py .
 <em>Maximal Tokyo travel collages with manga bubbles and stickers.</em><br>
 <a href="styles/tokyo-kawaii-travel-collage-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md">prompt</a> · <a href="styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="urban-transit-doodle-diary-style"></a>
 <a href="styles/urban-transit-doodle-diary-style"><img src="styles/urban-transit-doodle-diary-style/preview-16x9.jpg" alt="Urban Transit Doodle Diary Style preview"></a>
@@ -707,6 +723,7 @@ python3 scripts/validate-style-json.py .
 <em>Y2K hip-hop collage posters with acid type and photocopy grit.</em><br>
 <a href="styles/y2k-grunge-hiphop-cutout-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md">prompt</a> · <a href="styles/y2k-grunge-hiphop-cutout-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+<td width="33%" valign="top"></td>
 </tr>
 </table>
 
