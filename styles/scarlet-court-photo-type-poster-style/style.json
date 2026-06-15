@@ -1,0 +1,194 @@
+{
+  "style_name": "Scarlet Court Photo Type Poster",
+  "style_slug": "scarlet-court-photo-type-poster-style",
+  "style_version": "2.1.0",
+  "style_summary": "A saturated action-ad poster style built from a flat scarlet field, a hard-edged blue photographic sports panel, one cutout subject crossing between those zones, oversized warm-cream display typography, vertical side microcopy, and gritty printed-poster texture.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Dominant scarlet-red lower field occupying roughly half or more of the composition.",
+    "Hard-edged blue rectangular photo panel near the top, with crisp white sports-court or arena lines.",
+    "One oversized action subject crosses the seam between the blue panel and the red field.",
+    "Overhead or high-angle sports/editorial camera view with a strong diagonal action path.",
+    "Warm-cream giant geometric symbol or simple emblem below the subject, never a real logo.",
+    "Warm-cream extra-bold condensed display headline in the lower third.",
+    "Vertical side microcopy rails, set small and rotated along one or both edges.",
+    "Tiny centered bottom credit/microcopy block in white or cream, treated as graphic texture.",
+    "Hard sunlight, crisp cast shadow, high contrast, and saturated color separation.",
+    "Coarse printed grain and slight poster reproduction texture across flat color fields.",
+    "Sparse but forceful layout: one subject, one panel, one large symbol, one headline, minimal decoration.",
+    "Commercial sports-poster confidence with a decisive frozen motion moment."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate Serena Williams, her likeness, her pose, her tennis serve, or the tennis racket prop.",
+    "Do not recreate a tennis court net, tennis court geometry, or the exact blue-court top panel.",
+    "Do not use Nike, swoosh shapes, Just Do It, Serena Williams, Artz PRN, contact details, watermarks, signatures, or creator marks.",
+    "Do not copy the original Chinese side text, vertical name placement, bottom contact line, or slogan structure.",
+    "Do not use a yellow tennis outfit, black waistband, or the same overhead body silhouette.",
+    "Do not repeat the source story premise of a professional tennis athlete in a branded sport ad.",
+    "Do not use any real brand marks, real athlete names, event identities, QR codes, or platform handles.",
+    "Do not duplicate the exact red-blue split proportions so closely that the original poster is recognizable."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "A rigid rectangular blue photo window sits at the top, a flat scarlet field fills the lower area, and the subject acts as a bridge between photographic depth and graphic poster flatness.",
+    "subject_placement": "The subject is centered or slightly off-center, oversized, and caught in a decisive upward or diagonal action moment. Limbs or props should break the panel boundary and point toward the side rails or headline.",
+    "camera_perspective": "High-angle sports photography, like a press camera mounted above the action. The subject is seen from above but still reads with strong body scale and shadow.",
+    "typography_system": "Extra-heavy condensed sans display text in warm cream, paired with small all-caps vertical side rails and tiny centered bottom microcopy. Text is bold graphic mass, not paragraph-led layout.",
+    "color_behavior": "Scarlet red and electric blue are the dominant blocks. Warm cream is reserved for major graphic type and symbols. Small white text and black shadows add contrast. One accent color can appear in wardrobe or prop only.",
+    "texture_and_lighting": "Hard direct light, high-contrast photo cutout edges, crisp shadow shape, rough print grain, and slightly compressed poster reproduction."
+  },
+  "composition": {
+    "canvas": "Use the requested {ASPECT_RATIO} frame as a single full-bleed poster with no outer border, card, or mockup frame.",
+    "blue_panel": "Place a hard rectangular blue photographic panel near the top or upper side; keep its edges straight and graphic.",
+    "red_field": "Fill the remaining major field with flat saturated scarlet red.",
+    "subject_bridge": "Use one action subject only, scaled large enough to cross from the blue panel into the red field.",
+    "graphic_hierarchy": "Put a large warm-cream generic symbol or emblem below the subject, then a giant headline in the lower third.",
+    "microcopy": "Add small vertical side microcopy rails along one or both edges and a tiny centered bottom text block."
+  },
+  "typography": {
+    "display": "Extra-bold condensed geometric sans, all caps, warm cream, heavy weight, centered or locked to the lower third.",
+    "emblem": "A simple generic cream symbol such as a bolt, arc, slash, ring, star, or abstract curve; never a real logo or logo-like copy.",
+    "side_rails": "Small all-caps sans text, rotated vertically and aligned to the poster edges.",
+    "bottom_microcopy": "Tiny centered sans lines in white or cream, readable enough to feel intentional but secondary.",
+    "text_behavior": "Text should be short, declarative, and campaign-like while avoiding any source slogan or brand phrase."
+  },
+  "color_palette": {
+    "dominant": [
+      "scarlet red",
+      "electric court blue",
+      "deep cyan blue"
+    ],
+    "typography_and_symbols": [
+      "warm cream",
+      "ivory",
+      "off-white"
+    ],
+    "supporting": [
+      "black shadow",
+      "dark navy",
+      "clean white court lines",
+      "skin or material highlights"
+    ],
+    "accent": [
+      "acid yellow",
+      "safety orange",
+      "bright mint",
+      "hot pink",
+      "electric green"
+    ],
+    "palette_rule": "Keep the poster mostly red and blue; use cream for type and one accent color on the subject or prop."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Realistic high-energy action photography combined with flat graphic poster layout.",
+    "camera": "Overhead, top-down, or high oblique viewpoint with a press-photo feeling.",
+    "lighting": "Hard direct light, crisp cast shadow, high contrast, and saturated color separation.",
+    "motion": "Freeze a decisive leap, carry, dive, or breakdance moment sharply rather than using heavy blur.",
+    "finish": "Coarse print grain and slightly compressed poster reproduction across both photo and flat color fields."
+  },
+  "design_rules": [
+    "Use one dominant subject and one dominant action; avoid group scenes or split attention.",
+    "Keep the red field and blue panel as the two main layout zones.",
+    "Make the subject cross the panel boundary so the collage depth trick is obvious.",
+    "Use warm-cream display typography and a generic emblem as major graphic mass.",
+    "Keep side rails and bottom notes small, vertical or centered, and secondary.",
+    "Use hard sunlight, crisp shadows, and rough print grain to bind the photo and flat fields.",
+    "Change the sport, prop, text, and story premise from the source while preserving the poster grammar.",
+    "Avoid real logos, logo-like swooshes, athlete names, contact lines, watermarks, or copied campaign text."
+  ],
+  "do": [
+    "Use a saturated red lower field and a blue photographic panel.",
+    "Let one action subject cross the panel boundary.",
+    "Use cream oversized typography and a generic cream symbol.",
+    "Keep vertical side microcopy and tiny bottom notes.",
+    "Add coarse print grain and high-contrast direct light.",
+    "Change the sport, subject, prop, text, and story premise from the source."
+  ],
+  "avoid": [
+    "No real brand logos, swooshes, watermarks, signatures, usernames, QR codes, or contact details.",
+    "No Serena Williams, tennis serves, tennis rackets, tennis nets, or yellow tennis outfits.",
+    "No Just Do It, Serena Williams, Greatest Of All Time, Artz PRN, copied Chinese side text, or copied contact lines.",
+    "No dense collage clutter, decorative stickers, grunge rips, comic panels, painterly effects, or 3D render substitutes.",
+    "No soft muted palettes, beige lifestyle styling, dark studio lighting, or low-contrast editorial minimalism.",
+    "No tiny subjects that do not break the panel boundary."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} full-bleed action advertising poster in the Scarlet Court Photo Type Poster style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary side and bottom microcopy: {SECONDARY_TEXT}. Generic accent symbol: {ACCENT_SYMBOL}. Wardrobe and styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Composition: split the poster into a hard-edged electric-blue rectangular photographic panel near the top or upper side and a dominant flat scarlet-red field below or beside it; place one oversized realistic action subject so the body or prop crosses from the blue panel into the red field; keep the layout sparse and forceful with a clear seam, high-angle or overhead sports/editorial camera, decisive frozen motion, and a crisp cast shadow on the red field. Typography: use warm-cream extra-bold condensed geometric sans display type for {MAIN_TEXT} in the lower third, add a large warm-cream generic {ACCENT_SYMBOL} emblem below the subject, place tiny all-caps vertical side microcopy and a centered bottom note using {SECONDARY_TEXT}. Color and finish: saturated scarlet red, electric court blue, warm cream type, clean white panel lines, black hard shadows, one accent color on wardrobe or prop, coarse printed poster grain, slight reproduction texture, high contrast direct sunlight. Important content rule: preserve the red-blue panel poster system, cream typography, side rails, hard shadow, and print grain, but change the source subject, sport, prop, text, and story premise. Avoid real logos, brand marks, recognizable athletes, copied slogans, contact details, watermarks, tennis serves, tennis rackets, tennis nets, and logo-like swoosh shapes. Generate as a 4K ultra-high-resolution raster image.",
+  "negative_prompt": "Nike, swoosh, Just Do It, Serena Williams, Artz PRN, contact information, WhatsApp number, email address, copied Chinese side text, Greatest Of All Time wording, real brand logo, watermark, signature, creator ID, QR code, tennis serve, tennis racket, tennis net, yellow tennis outfit, copied source pose, copied source red-blue split, curved swoosh-like emblem, identifiable athlete likeness, dense collage clutter, stickers, torn paper, comic panels, 3D render, vector-only poster, painterly illustration, muted beige palette, dark studio lighting, low contrast, tiny distant subject, low-resolution text",
+  "examples": [
+    {
+      "case_name": "basketball-rise",
+      "values": {
+        "SUBJECT": "an anonymous outdoor basketball player",
+        "SUBJECT_ACTION": "rising for a one-handed rebound above the boundary of the photo panel",
+        "PRODUCT_OR_PROP": "a plain safety-orange basketball with no logo",
+        "LOCATION": "a sunlit public basketball court",
+        "BACKGROUND_ELEMENTS": "blue painted court surface, crisp white lane lines, no hoop branding, hard midday shadow",
+        "MAIN_TEXT": "RISE",
+        "SECONDARY_TEXT": "open court / noon session / repeat the jump",
+        "ACCENT_SYMBOL": "abstract cream lightning bolt",
+        "WARDROBE_STYLE": "navy shorts, white socks, and an acid-green sleeveless top with no marks",
+        "STYLE_FIDELITY_ANCHORS": "scarlet lower field, blue rectangular court photo panel, one oversized action subject crossing the seam, overhead sports camera, warm-cream generic emblem, cream condensed headline, vertical side microcopy, tiny centered bottom note, hard shadow, coarse print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no Serena Williams, no tennis serve, no racket, no tennis net, no Nike, no swoosh, no Just Do It, no yellow tennis outfit, no copied contact line"
+      }
+    },
+    {
+      "case_name": "market-crate-sprint",
+      "values": {
+        "SUBJECT": "a grocer in motion",
+        "SUBJECT_ACTION": "stepping quickly while lifting a produce crate out of the blue panel",
+        "PRODUCT_OR_PROP": "a blank red-orange crate of citrus with no labels",
+        "LOCATION": "a morning market walkway under a blue awning",
+        "BACKGROUND_ELEMENTS": "blue awning rectangle, white stall-frame lines, sunlit pavement, simplified fruit blur",
+        "MAIN_TEXT": "FRESH",
+        "SECONDARY_TEXT": "first delivery / market count / carry the day",
+        "ACCENT_SYMBOL": "cream four-point star",
+        "WARDROBE_STYLE": "white tee, navy apron, and a bright mint cap without branding",
+        "STYLE_FIDELITY_ANCHORS": "dominant scarlet field, top blue photo window, subject breaking the panel edge, high-angle editorial camera, large warm-cream emblem, bold cream lower headline, vertical side rails, small bottom microcopy, crisp shadow, grainy print surface",
+        "SOURCE_CONTENT_TO_AVOID": "no tennis player, no racket, no net, no Serena likeness, no Nike or swoosh, no Just Do It, no copied Chinese text, no original bottom contact details"
+      }
+    },
+    {
+      "case_name": "rooftop-breaker",
+      "values": {
+        "SUBJECT": "a breakdancer",
+        "SUBJECT_ACTION": "freezing in a diagonal one-hand balance across the panel seam",
+        "PRODUCT_OR_PROP": "a plain cobalt portable speaker near the shadow",
+        "LOCATION": "a rooftop practice court",
+        "BACKGROUND_ELEMENTS": "blue painted practice surface, white boundary lines, minimal roof rail, bright sky reflection",
+        "MAIN_TEXT": "MOVE",
+        "SECONDARY_TEXT": "practice hour / rhythm check / hold the line",
+        "ACCENT_SYMBOL": "cream half-ring",
+        "WARDROBE_STYLE": "black cropped jacket, cream shorts, and hot-pink socks with no logos",
+        "STYLE_FIDELITY_ANCHORS": "flat scarlet lower field, hard-edged blue sports photo panel, single oversized subject crossing zones, overhead high-oblique camera, cream abstract emblem, massive condensed cream headline, rotated side microcopy, tiny bottom note, hard sunlight shadow, rough printed grain",
+        "SOURCE_CONTENT_TO_AVOID": "no professional tennis athlete, no tennis serve silhouette, no racket, no court net, no Nike, no swoosh, no source slogan, no yellow tennis wardrobe"
+      }
+    },
+    {
+      "case_name": "pool-rescue-dive",
+      "values": {
+        "SUBJECT": "a lifeguard trainee",
+        "SUBJECT_ACTION": "diving sideways out of a blue pool-lane panel toward the red field",
+        "PRODUCT_OR_PROP": "a plain bright-red rescue float with no text",
+        "LOCATION": "an outdoor training pool",
+        "BACKGROUND_ELEMENTS": "blue pool water rectangle, white lane stripes, sun glare, clean deck edge",
+        "MAIN_TEXT": "READY",
+        "SECONDARY_TEXT": "water drill / quick count / stay sharp",
+        "ACCENT_SYMBOL": "cream block rescue cross",
+        "WARDROBE_STYLE": "navy training suit, white swim cap, and safety-orange wrist bands without marks",
+        "STYLE_FIDELITY_ANCHORS": "scarlet graphic field, blue rectangular photo panel, action subject crossing the panel boundary, overhead sports photography, cream generic emblem, lower-third cream condensed headline, vertical edge microcopy, tiny centered bottom text, crisp cast shadow, coarse poster grain",
+        "SOURCE_CONTENT_TO_AVOID": "no tennis court, no tennis net, no racket, no Serena Williams likeness, no Nike mark, no swoosh, no Just Do It wording, no copied side or bottom text"
+      }
+    }
+  ]
+}

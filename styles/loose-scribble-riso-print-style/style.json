@@ -1,0 +1,173 @@
+{
+  "style_name": "Loose Scribble Riso Print Style",
+  "style_slug": "loose-scribble-riso-print-style",
+  "style_version": "1.0.0",
+  "style_summary": "A sparse handmade riso or screenprint poster style with one large simplified subject, wavering black contour drawing, rough off-white paper, flat blue and coral-red overprint accents, handwritten margin text, and visible print grain.",
+  "environment_variables": {
+    "SUBJECT": "The new main subject or simplified object for the print.",
+    "SUBJECT_ACTION": "The simple pose, placement, or action of the subject.",
+    "PRODUCT_OR_PROP": "A small supporting prop or object detail that is not the original source prop.",
+    "LOCATION": "A minimal setting or surface that grounds the subject.",
+    "BACKGROUND_ELEMENTS": "Sparse background details such as a border, ground line, paper speckles, or one small accent mark.",
+    "MAIN_TEXT": "A short handmade phrase to place near the margin.",
+    "SECONDARY_TEXT": "Tiny supporting handwritten text or edition-like microcopy that does not mimic the source identity marks.",
+    "ACCENT_SYMBOL": "One small decorative mark, scribble, star, arrow, dot, or stamp-like accent.",
+    "WARDROBE_STYLE": "Styling direction for any character or object treatment, kept flat and handmade.",
+    "STYLE_FIDELITY_ANCHORS": "Observable style traits that must remain visible in the generated sample.",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content that generated samples must not recreate.",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Sparse single-subject composition with one large central object and generous off-white negative space.",
+    "Handmade rectangular border with wavering black lines close to the page edge.",
+    "Thick loose black contour strokes mixed with thin wandering scribble lines.",
+    "Flat riso or screenprint color fields with slight registration offset and uneven ink coverage.",
+    "Palette dominated by off-white paper, rough black ink, one sky or cornflower blue block, and one coral-red accent.",
+    "Simplified object silhouette with playful distortion instead of realistic perspective.",
+    "Casual handwritten uppercase side text, vertical or off-axis, in rough red or black marker.",
+    "Visible paper grain, dust, ink speckles, dry-brush texture, and imperfect print edges.",
+    "Low-detail tabletop or ground line anchoring the subject near the lower third.",
+    "Quiet intimate art-print mood, like a small numbered print rather than a commercial advertisement."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a blue vase or pitcher with a handle.",
+    "Do not include red flowers, arcing stems, or a bouquet emerging from the object.",
+    "Do not use the words FOR YOU or any close substitute that repeats the same gift-card premise.",
+    "Do not copy the bottom signature, artist name, edition number, watermark, or handwritten identity marks.",
+    "Do not duplicate the left-side tall black squiggle as the main graphic mark.",
+    "Do not repeat the exact central vase-on-table story or the same object proportions.",
+    "Do not use the original border, caption placement, or edition layout as a literal trace.",
+    "Do not include recognizable brand marks, creator IDs, QR codes, or platform marks."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Naive hand-drawn riso art print with sparse object-poster structure.",
+    "composition_and_layout": "One dominant subject around center, a low tabletop or ground line, quiet margins, loose edge border, and one or two scribble or text accents.",
+    "subject_placement": "Oversized simplified subject grounded low with slight imbalance from side text or a small accent mark.",
+    "camera_or_perspective": "Flat front-facing viewpoint with minimal depth and playful proportional distortion.",
+    "typography_style": "Quick hand-lettered uppercase or gestural script with uneven baseline, marker texture, and informal placement.",
+    "color_palette_behavior": "Warm off-white ground, rough black line, sky-blue or related cool spot color, coral-red accent, and optional tiny neutral specks.",
+    "graphic_elements": "Wavering border, ground smear, loose contour, scribble trails, dry-brush shadows, small accent symbol.",
+    "texture_and_finish": "Scanned print grain, uneven ink density, dust, speckles, edge noise, and small registration shifts.",
+    "lighting": "Flat print-based contrast with no realistic cast shadows or modeled gradients.",
+    "mood": "Intimate, playful, handmade, slightly awkward, and gallery-postcard-like."
+  },
+  "composition": {
+    "primary_structure": "Use one main object or subject only, scaled large and centered or slightly off-center.",
+    "negative_space": "Leave generous off-white paper around the subject and avoid filling the background.",
+    "grounding": "Place a simple tabletop, ledge, or ground smear near the lower third.",
+    "border": "Add a wavering hand-drawn rectangular border near the edge.",
+    "text_placement": "Place short handwritten text as a side note, bottom note, or tilted margin mark rather than a centered headline."
+  },
+  "typography": {
+    "lettering": "Rough hand-lettered words with uneven stroke thickness and imperfect alignment.",
+    "scale": "Use short phrases of one to three words, secondary text as tiny microcopy.",
+    "placement": "Allow vertical, tilted, or margin-hugging placement integrated with the drawing.",
+    "texture": "Letterforms should show marker drag, dry ink, and slightly broken edges.",
+    "avoid": "Avoid polished fonts, clean vector lettering, drop shadows, bevels, and digital UI text."
+  },
+  "color_palette": {
+    "paper_base": "Warm off-white, cream, faint beige.",
+    "ink": "Rough near-black with dry-brush gaps.",
+    "cool_field": "Sky blue, cornflower blue, faded cyan, or related flat spot color.",
+    "warm_accent": "Coral red, tomato red, salmon, or orange-red.",
+    "optional_neutral": "Tiny graphite gray or muted tan specks only.",
+    "palette_rule": "Keep color blocks few and imperfect; avoid rainbow, neon, glossy, or photo-real color behavior."
+  },
+  "image_treatment": {
+    "rendering_mode": "Flat illustration that looks like a scanned handmade riso or screenprint poster.",
+    "line_quality": "Loose black contours with wobble, skips, overlaps, and exploratory marks.",
+    "print_texture": "Visible paper tooth, dust, ink grain, dry brush, uneven coverage, and registration offset.",
+    "depth": "Minimal depth, no realistic perspective, no photographic lens behavior.",
+    "lighting": "Flat even print contrast with no cast shadows or volumetric light."
+  },
+  "design_rules": [
+    "Use one main subject and keep supporting details minimal.",
+    "Preserve the off-white paper field and rough black handmade border.",
+    "Use only a few flat spot-color blocks with imperfect registration.",
+    "Keep text short, handwritten, and marginal rather than typographic or promotional.",
+    "Anchor the subject with a low ground line, ledge, smear, or dry-brush patch.",
+    "Make the output look scanned from a physical print, not generated as clean digital art."
+  ],
+  "do": [
+    "Preserve the sparse object-poster layout and handmade border.",
+    "Keep black linework visibly rough, loose, and uneven.",
+    "Use off-white paper, a blue or cool block color, and a coral-red accent with restraint.",
+    "Add paper grain, dust, dry-brush texture, and small registration errors.",
+    "Change the subject, text, prop, and story for every sample."
+  ],
+  "avoid": [
+    "Photorealism, 3D render, glossy vector art, anime polish, or clean editorial poster design.",
+    "Dense scenes, many objects, product-label clutter, price tags, or commercial callouts.",
+    "Smooth digital gradients, airbrushed lighting, perfect geometry, or polished type.",
+    "The original vase, flowers, FOR YOU text, signature, edition number, or creator marks.",
+    "Watermarks, platform UI, QR codes, logos, usernames, and brand identifiers."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Loose Scribble Riso Print Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: one large simplified subject on warm off-white paper, generous empty margins, a low tabletop or ground line, and a wavering hand-drawn rectangular border close to the edge.\n- Typography: rough handwritten uppercase words with uneven stroke width, marker drag, and informal vertical, tilted, or margin-hugging placement.\n- Color: mostly off-white paper and rough black ink, with one flat sky or cornflower blue block and one coral-red accent, both slightly misregistered and unevenly printed.\n- Texture and lighting: scanned riso or screenprint texture, visible paper tooth, dust, speckles, dry-brush gaps, flat even contrast, no cast shadows, no modeled gradients.\n- Graphic elements: loose contour drawing, thin exploratory scribble lines, one small accent symbol, a rough bottom smear or ground patch, and imperfect ink edges.\n\nAvoid: photorealism, 3D render, glossy vector art, clean corporate poster design, dense collage, polished fonts, smooth gradients, watermarks, QR codes, logos, usernames, platform marks, exact source subject, exact source text, signature, or edition markings.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "No photorealism, no 3D render, no glossy vector art, no anime polish, no dense advertisement layout, no price labels, no clean sans-serif poster typography, no smooth gradients, no realistic shadows, no bouquet, no blue vase or pitcher with handle, no red flowers, no FOR YOU text, no signature, no edition number, no watermark, no creator ID, no QR code, no platform UI, no logo.",
+  "examples": [
+    {
+      "case_name": "window-herbs",
+      "values": {
+        "SUBJECT": "a flat basil seed packet with a stubby pencil crossing it, drawn as two loose rectangular shapes",
+        "SUBJECT_ACTION": "lying quietly on a narrow window ledge, tilted a little to one side",
+        "PRODUCT_OR_PROP": "one small torn paper label strip near the packet",
+        "LOCATION": "minimal indoor windowsill with only a single ledge line",
+        "BACKGROUND_ELEMENTS": "off-white paper, wavering border, a rough bottom ink smear, a tiny red corner mark, sparse dust speckles",
+        "MAIN_TEXT": "OPEN SOON",
+        "SECONDARY_TEXT": "little rain",
+        "ACCENT_SYMBOL": "small red four-dot stamp",
+        "WARDROBE_STYLE": "object-only still life, naive handmade contour, no character clothing",
+        "STYLE_FIDELITY_ANCHORS": "single large flat object cluster, rough black contour, flat blue overprint shadow, coral-red accent, off-white grainy paper, handwritten margin text, low ledge line, wavering border",
+        "SOURCE_CONTENT_TO_AVOID": "no vase, no pitcher, no handled container, no bouquet, no red flowers, no FOR YOU phrase, no signature, no edition number, no copied left squiggle"
+      }
+    },
+    {
+      "case_name": "desk-radio",
+      "values": {
+        "SUBJECT": "a compact tabletop radio with a rounded speaker and one crooked antenna",
+        "SUBJECT_ACTION": "sitting front-facing on a quiet desk surface",
+        "PRODUCT_OR_PROP": "a folded note card tucked partly under the radio",
+        "LOCATION": "plain tabletop with a low black ground line",
+        "BACKGROUND_ELEMENTS": "warm cream paper, uneven border, dry-brush black shadow patch, one tiny coral-red sound mark",
+        "MAIN_TEXT": "TUNE IN",
+        "SECONDARY_TEXT": "low noise",
+        "ACCENT_SYMBOL": "two small red signal ticks",
+        "WARDROBE_STYLE": "object-only still life with playful distortion and no realistic electronics detail",
+        "STYLE_FIDELITY_ANCHORS": "large simplified object, sparse margins, rough black contour, flat cool-blue color field, coral-red accent marks, paper grain, handmade border, informal side lettering",
+        "SOURCE_CONTENT_TO_AVOID": "no flower stems, no bouquet, no vase handle, no FOR YOU wording, no artist signature, no edition mark, no copied caption layout"
+      }
+    },
+    {
+      "case_name": "late-lamp",
+      "values": {
+        "SUBJECT": "a small enamel reading lamp with a rounded shade and bent neck",
+        "SUBJECT_ACTION": "leaning over a tiny scrap of paper on a mostly empty table",
+        "PRODUCT_OR_PROP": "a loose black power cord curling once near the base",
+        "LOCATION": "simple desk edge shown as one uneven horizontal line",
+        "BACKGROUND_ELEMENTS": "off-white paper field, hand-drawn border, dry blue overprint on the shade, red marginal note, black ink flecks",
+        "MAIN_TEXT": "STAY LATE",
+        "SECONDARY_TEXT": "lamp hour",
+        "ACCENT_SYMBOL": "small red crescent",
+        "WARDROBE_STYLE": "object-only still life, naive print shape, no human figure",
+        "STYLE_FIDELITY_ANCHORS": "single subject, flat frontal viewpoint, loose contour drawing, blue spot color, coral-red handwritten text, bottom ground smear, visible riso texture, quiet negative space",
+        "SOURCE_CONTENT_TO_AVOID": "no blue pitcher, no floral bouquet, no red blossoms, no gift-card phrase, no bottom signature, no original edition marks"
+      }
+    },
+    {
+      "case_name": "rain-umbrella",
+      "values": {
+        "SUBJECT": "a closed striped umbrella with a hooked handle, simplified into a tall uneven shape",
+        "SUBJECT_ACTION": "leaning against the faint outline of a small chair",
+        "PRODUCT_OR_PROP": "one tiny puddle mark under the umbrella tip",
+        "LOCATION": "nearly blank entryway floor with a single ground line",
+        "BACKGROUND_ELEMENTS": "cream paper, rough black border, a blue overprint stripe, coral-red side lettering, scattered ink dust",
+        "MAIN_TEXT": "AFTER RAIN",
+        "SECONDARY_TEXT": "walk slow",
+        "ACCENT_SYMBOL": "small red raindrop cluster",
+        "WARDROBE_STYLE": "object-only scene with flat playful distortion and no character wardrobe",
+        "STYLE_FIDELITY_ANCHORS": "sparse object poster, large central silhouette, loose black ink, misregistered blue and red spot colors, handwritten vertical note, low ground line, rough paper texture, handmade border",
+        "SOURCE_CONTENT_TO_AVOID": "no vase, no flowers, no stems, no FOR YOU text, no artist name, no edition number, no copied black side squiggle"
+      }
+    }
+  ]
+}

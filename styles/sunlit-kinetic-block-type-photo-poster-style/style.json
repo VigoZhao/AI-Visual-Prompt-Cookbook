@@ -1,0 +1,188 @@
+{
+  "style_name": "Sunlit Kinetic Block Type Photo Poster",
+  "style_slug": "sunlit-kinetic-block-type-photo-poster-style",
+  "style_version": "2.1.0",
+  "style_summary": "A high-energy editorial sports and lifestyle poster style built from full-bleed sunlit photography, oversized cream condensed block typography, diagonal subject crops, compact microcopy clusters, and vivid blue-sky color fields.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Full-bleed bright outdoor photographic base with clear blue sky or blue-toned open space occupying a major part of the frame.",
+    "Immense cream or warm-white condensed block sans typography, cropped by the canvas and partially hidden behind the subject.",
+    "A single oversized action subject crosses the poster diagonally and breaks through the type layer.",
+    "Low or close camera angle gives the body, object, or prop exaggerated scale and forward momentum.",
+    "Bottom and side edges carry secondary text blocks, large numerals, or stacked words in the same cream-white palette.",
+    "Compact white microcopy appears in short editorial paragraphs or bilingual-style clusters, aligned to strong grid positions.",
+    "Vivid accent color is concentrated on the prop, footwear, clothing, or object while the environment stays sky-blue and neutral.",
+    "Hard midday sunlight, crisp shadows, glossy skin or material highlights, and high contrast edges.",
+    "Layered poster hierarchy alternates between flat graphic type and realistic photography without illustration effects.",
+    "Minimal graphic ornament: small script-like mark, tiny symbol, short rules, or separators, never decorative clutter.",
+    "Dense but controlled layout: very little empty border, large foreground scale, and text locked to corners or bands.",
+    "Commercial event-poster energy with editorial sports-magazine confidence and motion-first composition."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a sprint runner in a starting crouch or the exact bent-over launch silhouette from the source.",
+    "Do not show the same running shoes, shoe color placement, race track angle, or foot-level shoe hero composition.",
+    "Do not use the words RUN, Right Now, any copied date range, or the original Chinese slogan.",
+    "Do not include Nike, swoosh marks, real sportswear logos, signature marks, watermarks, creator IDs, or brand names.",
+    "Do not duplicate the source story premise of a running mileage check-in gift campaign.",
+    "Do not reuse the same sky-road-athlete arrangement with the torso and arm matching the source crop.",
+    "Do not reproduce the exact large background letter shapes from the source as a recognizable copy.",
+    "Do not include identifiable faces, copyrighted athlete likenesses, or real event identities from the source."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "The poster uses a layered collision: giant type sits as an architectural background, the photographic subject cuts diagonally across it, and smaller text locks to corners and lower bands.",
+    "subject_placement": "The subject is oversized, close to the camera, cropped at edges, and placed so limbs, prop, or clothing overlap both sky and typography.",
+    "camera_perspective": "Low, close, wide-angle outdoor photo perspective with a horizon low in the frame and the subject moving through the viewer's space.",
+    "typography_system": "Ultra-bold condensed block sans display type for the main word, stacked chunky secondary words, compact microcopy in tight white paragraphs, and occasional handwritten-script accents.",
+    "color_behavior": "Dominant saturated cyan-blue sky, warm cream typography, neutral ground, dark subject shadows, and one intense accent color on the hero object or wardrobe.",
+    "texture_and_lighting": "Crisp sunlight, hard shadows, realistic photographic grain, slight motion tension, and clean poster-print contrast."
+  },
+  "composition": {
+    "canvas": "Use the requested {ASPECT_RATIO} frame as a full-bleed editorial poster, with no outer border or card.",
+    "type_layer": "Place massive cropped cream block letters behind the subject, filling more than half the canvas and touching or exceeding the edges.",
+    "photo_layer": "Use one realistic action photograph that overlaps the type and foreground, with the body or object forming a strong diagonal.",
+    "text_zones": "Reserve small grid-locked areas for microcopy at the top or mid-left, a stacked bottom-left wordmark area, a bottom-center short line, and a bottom-right numeral or label cluster.",
+    "balance": "Keep the layout dense and kinetic while preserving a clear hierarchy: main action first, giant type second, microcopy third."
+  },
+  "typography": {
+    "display": "Extra-condensed, extra-heavy block sans, warm cream, extremely large, cropped by frame edges, with tight spacing and poster-scale weight.",
+    "secondary": "Chunky stacked cream words or numerals placed at the lower edge, sometimes partially cropped.",
+    "microcopy": "Small white compact sans-serif paragraphs, event-note style, aligned in tight left or right blocks.",
+    "accent": "A small script-like mark or simple symbol can sit near the top, but it must be generic and non-branded.",
+    "text_behavior": "Text functions as graphic mass; legibility is important for the main word, while microcopy may read as compact editorial texture."
+  },
+  "color_palette": {
+    "dominant": [
+      "saturated sky blue",
+      "cyan outdoor blue",
+      "warm cream typography"
+    ],
+    "supporting": [
+      "sunlit asphalt gray",
+      "deep athletic shadow black",
+      "skin or material warm highlights",
+      "clean white microcopy"
+    ],
+    "accent": [
+      "hot coral",
+      "electric orange",
+      "acid yellow",
+      "neon lime",
+      "bright magenta"
+    ],
+    "palette_rule": "Keep blue and cream as the poster's main read, then concentrate saturated accents on the hero prop or wardrobe rather than scattering color everywhere."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Realistic commercial action photography combined with flat graphic poster typography.",
+    "lighting": "Bright direct sun, crisp highlights, hard cast shadows, clean summer atmosphere, and visible material shine.",
+    "lens": "Low-angle wide or close perspective that exaggerates the foreground object and makes the subject feel physically close.",
+    "motion": "Freeze the decisive action moment, with tension in limbs, fabric, object angle, or splash lines rather than blur-heavy effects.",
+    "finish": "Editorial print poster finish with clean contrast, slight realistic grain, and no painterly, cartoon, or 3D rendering."
+  },
+  "design_rules": [
+    "Use one dominant subject and one dominant action; do not split attention across many people or products.",
+    "Make the display type larger than the subject in area, but let the subject physically interrupt and obscure the letters.",
+    "Keep the typography cream or warm white against a blue-dominant outdoor photographic field.",
+    "Place compact microcopy in small rectangular blocks that feel like event terms, stats, or editorial notes.",
+    "Use a vivid accent only where it improves motion focus, such as on a bike frame, crate label, jacket, board, or paddle.",
+    "Crop at least one major element at the edge so the poster feels immediate and oversized.",
+    "Maintain a commercial poster hierarchy with bold bottom information bands or number clusters.",
+    "Avoid decorative overlays that are not present in the style, such as stickers, grunge rips, halftone clouds, or UI chrome."
+  ],
+  "do": [
+    "Use bright sunlit outdoor photography with strong blue fields.",
+    "Use giant cropped cream condensed typography as a structural background.",
+    "Let the subject overlap the type and break the flat graphic plane.",
+    "Use low-angle perspective and diagonal action to create speed.",
+    "Keep small editorial text blocks tight, white, and grid-aligned.",
+    "Use one concentrated neon or warm accent on the hero object or outfit."
+  ],
+  "avoid": [
+    "No real brand logos, swooshes, watermarks, signatures, usernames, QR codes, or creator marks.",
+    "No recreated runner-start scene, running shoe hero ad, or copied campaign text from the source.",
+    "No dense collage clutter, sticker packs, comic effects, 3D renders, vector-only graphics, or painterly illustration.",
+    "No soft beige lifestyle palette, dark studio lighting, muted editorial minimalism, or monochrome poster treatment.",
+    "No tiny subject floating in empty space; the action must be oversized and physically close.",
+    "No exact source layout duplication where the same word size, body angle, and bottom text arrangement become recognizable."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.",
+  "negative_prompt": "real brand logos, Nike, swoosh, signature watermark, creator ID, QR code, copied RUN text, copied Right Now text, copied date range, copied Chinese slogan, runner starting crouch, running shoe hero ad, exact source pose, exact source road and sky arrangement, identifiable athlete likeness, cluttered collage, sticker pack, comic halftone, 3D render, vector-only poster, painterly illustration, low-resolution text, dark studio scene, muted beige palette, tiny distant subject",
+  "examples": [
+    {
+      "case_name": "coastal-cyclist",
+      "values": {
+        "SUBJECT": "a road cyclist",
+        "SUBJECT_ACTION": "leaning hard into a coastal turn",
+        "PRODUCT_OR_PROP": "a matte silver racing bicycle with neon lime handlebar tape",
+        "LOCATION": "a sunlit oceanfront road",
+        "BACKGROUND_ELEMENTS": "low horizon, blue sky, pale sea line, sharp asphalt shadows",
+        "MAIN_TEXT": "SHIFT",
+        "SECONDARY_TEXT": "speed log / coastal interval / keep moving",
+        "ACCENT_SYMBOL": "slash",
+        "WARDROBE_STYLE": "clean black cycling kit with a small coral sleeve accent",
+        "STYLE_FIDELITY_ANCHORS": "blue full-bleed sunlit photo, giant cropped cream condensed type, diagonal oversized action subject, low camera angle, tight white microcopy blocks, bottom cream information clusters, one neon accent, crisp midday contrast",
+        "SOURCE_CONTENT_TO_AVOID": "no runner, no starting crouch, no running shoes as hero product, no Nike or swoosh, no RUN or Right Now wording, no copied date range"
+      }
+    },
+    {
+      "case_name": "market-crate-lift",
+      "values": {
+        "SUBJECT": "a grocer in motion",
+        "SUBJECT_ACTION": "lifting a crate of citrus from a delivery cart",
+        "PRODUCT_OR_PROP": "a bright orange produce crate with simple blank labels",
+        "LOCATION": "an open-air morning market under a blue awning",
+        "BACKGROUND_ELEMENTS": "sunlit pavement, blurred fruit stalls, hard shadows, patches of open sky",
+        "MAIN_TEXT": "FRESH",
+        "SECONDARY_TEXT": "morning drop / market count / open early",
+        "ACCENT_SYMBOL": "small star",
+        "WARDROBE_STYLE": "navy work apron, white tee, and a hot coral cap",
+        "STYLE_FIDELITY_ANCHORS": "blue-dominant full-bleed photo, giant cream block typography behind the action, close cropped diagonal subject, compact white event microcopy, cream bottom labels, bright prop accent, hard sunlight, editorial poster density",
+        "SOURCE_CONTENT_TO_AVOID": "no runner, no athletic shoe close-up, no race track, no Nike or sportswear marks, no RUN or Right Now wording, no copied source campaign premise"
+      }
+    },
+    {
+      "case_name": "urban-dancer",
+      "values": {
+        "SUBJECT": "a street dancer",
+        "SUBJECT_ACTION": "spinning through a high kick on a rooftop court",
+        "PRODUCT_OR_PROP": "a translucent blue training bag sliding near the foreground",
+        "LOCATION": "a rooftop practice court at noon",
+        "BACKGROUND_ELEMENTS": "open blue sky, low city rail, sunlit concrete, long crisp shadows",
+        "MAIN_TEXT": "MOVE",
+        "SECONDARY_TEXT": "practice hour / motion record / repeat the beat",
+        "ACCENT_SYMBOL": "short underline",
+        "WARDROBE_STYLE": "charcoal cropped jacket, cream shorts, and magenta socks",
+        "STYLE_FIDELITY_ANCHORS": "sunlit cyan photo field, enormous cropped cream condensed lettering, oversized diagonal body crossing type, low close camera, tight microcopy, bottom cream word clusters, vivid wardrobe accent, realistic hard-light finish",
+        "SOURCE_CONTENT_TO_AVOID": "no sprint runner pose, no running event, no shoe advertisement, no Nike or swoosh, no RUN text, no copied bottom date layout"
+      }
+    },
+    {
+      "case_name": "kayak-splash",
+      "values": {
+        "SUBJECT": "a kayaker",
+        "SUBJECT_ACTION": "cutting across a splashy blue channel",
+        "PRODUCT_OR_PROP": "a red paddle and acid yellow kayak nose",
+        "LOCATION": "a bright waterfront course",
+        "BACKGROUND_ELEMENTS": "blue water reflections, low shoreline, open sky, spray frozen in sunlight",
+        "MAIN_TEXT": "CUT",
+        "SECONDARY_TEXT": "water line / turn marker / hold the edge",
+        "ACCENT_SYMBOL": "wave dash",
+        "WARDROBE_STYLE": "black sleeveless vest with a clean white helmet and red paddle gloves",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed blue outdoor photo, huge warm-cream block sans headline, close action subject crossing diagonally, low waterline camera, compact white microcopy, cream lower information blocks, saturated prop accents, crisp sunlit realism",
+        "SOURCE_CONTENT_TO_AVOID": "no runner, no running shoes, no road start pose, no Nike mark, no RUN or Right Now text, no exact source athlete silhouette"
+      }
+    }
+  ]
+}

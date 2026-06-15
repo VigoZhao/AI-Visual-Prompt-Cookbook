@@ -1,8 +1,58 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 68 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 73 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Loose Scribble Riso Print Style
+
+<a href="../styles/loose-scribble-riso-print-style"><img src="../styles/loose-scribble-riso-print-style/preview-16x9.jpg" width="720" alt="Loose Scribble Riso Print Style preview"></a>
+
+A sparse handmade riso or screenprint poster style with one large simplified subject, wavering black contour drawing, rough off-white paper, flat blue and coral-red overprint accents, handwritten margin text, and visible print grain.
+
+Files: [style.json](../styles/loose-scribble-riso-print-style/style.json) · [Copy Prompt](copy-prompts/loose-scribble-riso-print-style.md) · [16:9 preview](../styles/loose-scribble-riso-print-style/preview-16x9.jpg) · [9:16 preview](../styles/loose-scribble-riso-print-style/preview-9x16.jpg) · [Folder](../styles/loose-scribble-riso-print-style)
+
+---
+
+### Jade Glyph Grocer Collage Poster Style
+
+<a href="../styles/jade-glyph-grocer-collage-poster-style"><img src="../styles/jade-glyph-grocer-collage-poster-style/preview-16x9.jpg" width="720" alt="Jade Glyph Grocer Collage Poster Style preview"></a>
+
+A sparse East Asian grocer-poster system built from warm cream paper, oversized jade-green hand-cut glyphs, pale vegetable silhouette clouds, tiny editorial headers, and one glossy produce-photo centerpiece layered over the typography.
+
+Files: [style.json](../styles/jade-glyph-grocer-collage-poster-style/style.json) · [Copy Prompt](copy-prompts/jade-glyph-grocer-collage-poster-style.md) · [16:9 preview](../styles/jade-glyph-grocer-collage-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/jade-glyph-grocer-collage-poster-style/preview-9x16.jpg) · [Folder](../styles/jade-glyph-grocer-collage-poster-style)
+
+---
+
+### Scarlet Court Photo Type Poster
+
+<a href="../styles/scarlet-court-photo-type-poster-style"><img src="../styles/scarlet-court-photo-type-poster-style/preview-16x9.jpg" width="720" alt="Scarlet Court Photo Type Poster preview"></a>
+
+A saturated action-ad poster style built from a flat scarlet field, a hard-edged blue photographic sports panel, one cutout subject crossing between those zones, oversized warm-cream display typography, vertical side microcopy, and gritty printed-poster texture.
+
+Files: [style.json](../styles/scarlet-court-photo-type-poster-style/style.json) · [Copy Prompt](copy-prompts/scarlet-court-photo-type-poster-style.md) · [16:9 preview](../styles/scarlet-court-photo-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/scarlet-court-photo-type-poster-style/preview-9x16.jpg) · [Folder](../styles/scarlet-court-photo-type-poster-style)
+
+---
+
+### Sunlit Kinetic Block Type Photo Poster
+
+<a href="../styles/sunlit-kinetic-block-type-photo-poster-style"><img src="../styles/sunlit-kinetic-block-type-photo-poster-style/preview-16x9.jpg" width="720" alt="Sunlit Kinetic Block Type Photo Poster preview"></a>
+
+A high-energy editorial sports and lifestyle poster style built from full-bleed sunlit photography, oversized cream condensed block typography, diagonal subject crops, compact microcopy clusters, and vivid blue-sky color fields.
+
+Files: [style.json](../styles/sunlit-kinetic-block-type-photo-poster-style/style.json) · [Copy Prompt](copy-prompts/sunlit-kinetic-block-type-photo-poster-style.md) · [16:9 preview](../styles/sunlit-kinetic-block-type-photo-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/sunlit-kinetic-block-type-photo-poster-style/preview-9x16.jpg) · [Folder](../styles/sunlit-kinetic-block-type-photo-poster-style)
+
+---
+
+### Scarlet Block Cutout Doodle Book Cover Style
+
+<a href="../styles/scarlet-block-cutout-doodle-book-cover-style"><img src="../styles/scarlet-block-cutout-doodle-book-cover-style/preview-16x9.jpg" width="720" alt="Scarlet Block Cutout Doodle Book Cover Style preview"></a>
+
+A stark literary cover system built from a white paper field, oversized scarlet serif letterforms, one central photoreal cutout object, rough black marker contour drawing, small bookish serif typography, and strong asymmetrical negative space.
+
+Files: [style.json](../styles/scarlet-block-cutout-doodle-book-cover-style/style.json) · [Copy Prompt](copy-prompts/scarlet-block-cutout-doodle-book-cover-style.md) · [16:9 preview](../styles/scarlet-block-cutout-doodle-book-cover-style/preview-16x9.jpg) · [9:16 preview](../styles/scarlet-block-cutout-doodle-book-cover-style/preview-9x16.jpg) · [Folder](../styles/scarlet-block-cutout-doodle-book-cover-style)
+
+---
 
 ### Halftone Assemblage Metaphor PSA Poster Style
 
@@ -23,6 +73,7 @@ A sparse nostalgic poster system built from warm classroom grid paper, hand-draw
 Files: [style.json](../styles/school-grid-paper-cutout-poster/style.json) · [Copy Prompt](copy-prompts/school-grid-paper-cutout-poster.md) · [16:9 preview](../styles/school-grid-paper-cutout-poster/preview-16x9.jpg) · [9:16 preview](../styles/school-grid-paper-cutout-poster/preview-9x16.jpg) · [Folder](../styles/school-grid-paper-cutout-poster)
 
 ---
+
 ### Naive Marker Quote Card Style
 
 <a href="../styles/naive-marker-quote-card-style"><img src="../styles/naive-marker-quote-card-style/preview-16x9.jpg" width="720" alt="Naive Marker Quote Card Style preview"></a>
@@ -52,6 +103,7 @@ A naive hand-drawn poster style built from cream paper margins, loose marker-scr
 Files: [style.json](../styles/playful-marker-grounding-poster-style/style.json) · [Copy Prompt](copy-prompts/playful-marker-grounding-poster-style.md) · [16:9 preview](../styles/playful-marker-grounding-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/playful-marker-grounding-poster-style/preview-9x16.jpg) · [Folder](../styles/playful-marker-grounding-poster-style)
 
 ---
+
 ### Rough Marker Monster Poster Style
 
 <a href="../styles/rough-marker-monster-poster-style"><img src="../styles/rough-marker-monster-poster-style/preview-16x9.jpg" width="720" alt="Rough Marker Monster Poster Style preview"></a>
@@ -71,6 +123,7 @@ A flat illustrated poster system built from a saturated cyan field, oversized re
 Files: [style.json](../styles/cyan-red-shockwave-type-poster-style/style.json) · [Copy Prompt](copy-prompts/cyan-red-shockwave-type-poster-style.md) · [16:9 preview](../styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/cyan-red-shockwave-type-poster-style/preview-9x16.jpg) · [Folder](../styles/cyan-red-shockwave-type-poster-style)
 
 ---
+
 ### Fantasy Scribble Mascot Poster Style
 
 <a href="../styles/fantasy-scribble-mascot-poster-style"><img src="../styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg" width="720" alt="Fantasy Scribble Mascot Poster Style preview"></a>
@@ -100,6 +153,7 @@ A rough cobalt-blue ransom-zine poster system built from torn white paper scraps
 Files: [style.json](../styles/blue-halftone-ransom-zine-poster-style/style.json) · [Copy Prompt](copy-prompts/blue-halftone-ransom-zine-poster-style.md) · [16:9 preview](../styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg) · [Folder](../styles/blue-halftone-ransom-zine-poster-style)
 
 ---
+
 ### Market Brush Produce Poster Style
 
 <a href="../styles/market-brush-produce-poster-style"><img src="../styles/market-brush-produce-poster-style/preview-16x9.jpg" width="720" alt="Market Brush Produce Poster Style preview"></a>

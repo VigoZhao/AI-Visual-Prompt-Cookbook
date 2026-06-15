@@ -1,0 +1,177 @@
+{
+  "style_name": "Scarlet Block Cutout Doodle Book Cover Style",
+  "style_slug": "scarlet-block-cutout-doodle-book-cover-style",
+  "style_version": "1.0.0",
+  "style_summary": "A stark literary cover system built from a white paper field, oversized scarlet serif letterforms, one central photoreal cutout object, rough black marker contour drawing, small bookish serif typography, and strong asymmetrical negative space.",
+  "environment_variables": {
+    "SUBJECT": "main photoreal cutout object or figure",
+    "SUBJECT_ACTION": "how the subject intersects, stands over, pierces, leans through, or interrupts the red typeforms",
+    "PRODUCT_OR_PROP": "secondary prop, tag, paper slip, cord, handle, or small object near the subject",
+    "LOCATION": "plain editorial cover field, archival tabletop, paper backdrop, or abstract book-cover space",
+    "BACKGROUND_ELEMENTS": "large cropped scarlet letterforms, white margin, tiny imprint marks, or minimal paper texture",
+    "MAIN_TEXT": "short invented cover title or headline",
+    "SECONDARY_TEXT": "small invented author, issue, edition, or imprint line",
+    "ACCENT_SYMBOL": "small black heart, dot, slash, asterisk, registration mark, or tiny printer ornament",
+    "WARDROBE_STYLE": "if the subject is human, stark modern clothing; if object, material and surface styling",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Pure white or warm-white paper field with generous margins and no scenic background.",
+    "Two to four enormous scarlet red serif or slab letterforms cropped by the frame and stacked behind the subject.",
+    "One central photoreal cutout subject placed in front of the red letters, with visible object detail and a subtle drop shadow.",
+    "A rough thick black marker contour drawing overlays and partly surrounds the subject, with uneven hand-drawn edges.",
+    "The marker line forms a loose silhouette, loop, or invented body-like extension rather than a clean vector outline.",
+    "Small uppercase serif typography appears as book-cover furniture: top-left name line, right-edge vertical title, and tiny footer.",
+    "Palette is disciplined: white paper, scarlet red, ink black, and the natural colors of the cutout subject.",
+    "Composition is asymmetrical and poster-like, with the subject interrupting the typography hierarchy.",
+    "The graphic system stays sparse: no dense scenery, no decorative pattern field, no many-object collage.",
+    "The overall mood is literary, absurd, tactile, and editorial, like a conceptual book cover."
+  ],
+  "source_content_to_avoid": [
+    "Do not use a fish, salmon, trout, seafood body, aquatic animal, or fish-shaped central subject.",
+    "Do not recreate the original Turkish cover text, author name, publisher mark, edition number, or right-edge title.",
+    "Do not copy the exact red background letter arrangement from the reference.",
+    "Do not reproduce the same black contour shape, long leg-like outline, or body wrap from the reference.",
+    "Do not include a recognizable Can Modern mark, heart logo, watermark, barcode, QR code, or real publisher identity.",
+    "Do not make the sample about the same story premise, translation credit, book edition, or original literary work."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": [
+      "conceptual literary book cover",
+      "photographic cutout over typography",
+      "scarlet and black editorial minimalism",
+      "rough marker intervention poster",
+      "absurd object-as-character cover"
+    ],
+    "composition_logic": "The design starts as a spare white book-cover field. Huge scarlet red serif or slab typeforms act as architecture, filling the center and lower frame while being cropped at the edges. A realistic cutout subject sits on top of those letters, mostly vertical, interrupting the red shapes. A rough black hand-drawn contour line is added as a disruptive second skin around the subject. Small serif text is used as furniture, not as a dense text block.",
+    "subject_placement": "The subject should occupy the central vertical axis or a slightly off-center position and overlap the biggest red letters. It should feel pasted onto the cover, not photographed in a scene. The black marker contour can extend around the subject into one or two exaggerated loops.",
+    "camera_and_perspective": "Use flatbed, catalog, or object-cutout photography with minimal perspective. The object is front-facing or slightly three-quarter, isolated cleanly from the white ground. Avoid deep environments.",
+    "typographic_character": "Use crisp old-style or slab serif type in uppercase. The red typeforms are not meant to be fully readable; they are monumental cropped graphic blocks. Smaller text can be legible but invented, with a vertical title strip on one side and a top-left author-like line.",
+    "texture_and_finish": "White paper grain, print-like red ink, clean photographic object detail, and an uneven black marker line. The line should feel physically drawn over a printed cover.",
+    "mood": "Dry wit, literary absurdity, museum-bookshop design, tactile print, spare but confrontational."
+  },
+  "composition": {
+    "layout": "Book-cover or poster frame with a white field, oversized cropped red letters behind, one central cutout subject in front, black marker contour overlay, and small serif text at the edges.",
+    "density": "Sparse and high-contrast; no crowding except where the large red typeforms collide with the subject.",
+    "hierarchy": "Red typography first as abstract structure, photoreal subject second as protagonist, black marker contour third as disruptive gesture, small text last.",
+    "negative_space": "Keep open white margins on at least one side and around the small typography.",
+    "aspect_ratio_behavior": "For 9:16, use a tall book-cover stack with vertical side text. For 16:9, preserve the same grammar by spreading the cropped red letters horizontally while keeping one dominant cutout subject."
+  },
+  "typography": {
+    "large_type": "Massive cropped scarlet serif or slab letterforms, preferably uppercase, acting as abstract shapes rather than fully readable words.",
+    "small_type": "Small black uppercase serif lines at top-left, side edge, and footer; keep them invented and bookish.",
+    "vertical_text": "A short invented title or label may run vertically along the right or left edge.",
+    "spacing": "Use generous tracking, restrained line count, and clear book-cover hierarchy.",
+    "avoid": "No modern sans UI, no logo typography, no real publisher text, no copied reference words."
+  },
+  "color_palette": {
+    "paper_white": "#F7F5EF",
+    "scarlet_red": "#C92B2D",
+    "ink_black": "#111111",
+    "soft_shadow_gray": "#B7B1A8",
+    "subject_natural_color": "Use restrained natural colors from the chosen cutout subject only."
+  },
+  "image_treatment": {
+    "subject": "Photoreal cutout with sharp edges, visible material texture, natural color, and a soft shadow falling onto the white paper.",
+    "background": "Flat white or warm-white printed cover field with subtle paper texture.",
+    "red_forms": "Flat scarlet ink shapes with no gradient, bevel, glow, or 3D treatment.",
+    "black_contour": "Uneven thick marker line, slightly fuzzy and imperfect, layered above the subject and type.",
+    "finish": "Print-editorial, tactile, minimal, high contrast, not digital UI."
+  },
+  "design_rules": [
+    "Use exactly one dominant photoreal cutout subject.",
+    "Place the subject in front of oversized cropped scarlet serif letterforms.",
+    "Make the black marker contour intentionally rough, heavy, and visibly hand-drawn.",
+    "Keep the field white and sparse; do not add a full environment or scenic background.",
+    "Use small invented serif text as book-cover furniture without copying real source text.",
+    "Let the subject interrupt the red letters and partly obscure them.",
+    "Keep palette discipline: white, scarlet, black, natural subject tones, and soft shadow only.",
+    "Use aspect-ratio-specific framing while preserving the same cover grammar."
+  ],
+  "do": [
+    "Use clean photoreal cutouts with tactile material detail.",
+    "Use giant cropped red serif letterforms as abstract graphic architecture.",
+    "Use a rough black marker contour that creates absurd object-as-character energy.",
+    "Use small uppercase serif text, including one vertical side line when the crop allows it.",
+    "Keep white margins, restrained colors, and literary-cover pacing.",
+    "Change the subject, words, prop, story, and red letter arrangement for every case."
+  ],
+  "avoid": [
+    "Do not use fish, seafood, aquatic animals, or the original book-cover content.",
+    "Do not copy the original text, publisher mark, heart symbol arrangement, or exact red letters.",
+    "Do not create a dense collage, realistic scene, product ad, or social-media layout.",
+    "Do not use glossy 3D, vector-only illustration, cartoon mascots, gradients, neon, or UI styling.",
+    "Do not include watermarks, usernames, QR codes, barcodes, platform marks, or real brand logos.",
+    "Do not make the marker line clean, thin, symmetrical, or polished."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster image in Scarlet Block Cutout Doodle Book Cover Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Secondary prop: {PRODUCT_OR_PROP}. Location or ground: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: \"{MAIN_TEXT}\". Secondary text: \"{SECONDARY_TEXT}\". Accent symbol: {ACCENT_SYMBOL}. Wardrobe or material styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Build the image as a stark conceptual literary book cover on a pure white or warm-white paper field. Use two to four enormous cropped scarlet red serif or slab letterforms behind the subject; the letters should be abstract graphic architecture, not a copied wordmark. Place one dominant photoreal cutout subject in front of the red letters with sharp edges, tactile material detail, natural color, and a soft paper shadow. Overlay a thick, rough, uneven black marker contour line that partly surrounds the subject and extends into a loose absurd silhouette or loop. Add small invented uppercase serif typography as cover furniture: a top-left name line, a vertical side title line when appropriate, and a tiny footer imprint. Keep the palette disciplined: white paper, scarlet red, ink black, soft gray shadow, and natural subject tones only. Keep the composition sparse, bookish, high-contrast, tactile, and editorial. Do not include fish, seafood, aquatic animals, the original Turkish text, original author or publisher marks, copied red letter layout, the same black contour shape, real logos, watermarks, barcodes, QR codes, usernames, UI elements, dense scenery, glossy 3D, vector-only illustration, neon gradients, or social-media design.",
+  "negative_prompt": "fish, salmon, trout, seafood, aquatic animal, original Turkish text, Umberto, Can Modern, publisher logo, heart logo, translation credit, exact red letter layout, copied reference cover, same black leg outline, barcode, QR code, watermark, username, creator ID, platform logo, app UI, real brand mark, dense collage, scenic background, product ad, glossy 3D, vector-only illustration, cartoon mascot, neon gradient, cyberpunk, horror, messy typography, sans-serif UI, low-resolution, blurry cutout",
+  "examples": [
+    {
+      "case_name": "urban-flower-archive",
+      "values": {
+        "SUBJECT": "a tall photoreal cutout of a matte white ceramic vase filled with orange poppies and two bent green stems",
+        "SUBJECT_ACTION": "standing upright through the center of cropped red letterforms, partly hiding a lower curve and piercing a top block",
+        "PRODUCT_OR_PROP": "a small cream paper archive tag tied to the vase neck with black string",
+        "LOCATION": "warm-white literary cover field with subtle paper grain",
+        "BACKGROUND_ELEMENTS": "two huge scarlet slab-serif letters cropped at the left edge and bottom edge, plus a narrow red vertical block behind the vase",
+        "MAIN_TEXT": "FLOWER INDEX",
+        "SECONDARY_TEXT": "ARCHIVE NOTE 07",
+        "ACCENT_SYMBOL": "tiny black asterisk near the footer",
+        "WARDROBE_STYLE": "matte ceramic surface, natural flower color, soft paper shadow, no clothing",
+        "STYLE_FIDELITY_ANCHORS": "white paper field, giant scarlet serif typeforms, central photoreal cutout, rough black marker contour, small serif cover text, sparse high-contrast literary layout",
+        "SOURCE_CONTENT_TO_AVOID": "no fish, no seafood, no Turkish book text, no real publisher mark, no copied red letter arrangement, no original black contour shape"
+      }
+    },
+    {
+      "case_name": "glass-meteor-manual",
+      "values": {
+        "SUBJECT": "a photoreal dark glass meteorite-like paperweight with chipped edges and smoky translucent highlights",
+        "SUBJECT_ACTION": "leaning diagonally across oversized red serif letter blocks as if pinning them to the page",
+        "PRODUCT_OR_PROP": "a thin folded receipt strip tucked under the glass edge",
+        "LOCATION": "plain white printed cover surface with one soft diagonal shadow",
+        "BACKGROUND_ELEMENTS": "massive cropped scarlet letterforms forming a stepped abstract structure behind the glass",
+        "MAIN_TEXT": "GLASS MANUAL",
+        "SECONDARY_TEXT": "FIELD EDITION",
+        "ACCENT_SYMBOL": "small black dot and slash printer mark",
+        "WARDROBE_STYLE": "smoky black glass, chipped mineral surface, subtle reflections kept restrained",
+        "STYLE_FIDELITY_ANCHORS": "white paper field, giant scarlet serif typeforms, central photoreal cutout, rough black marker contour, small serif cover text, sparse high-contrast literary layout",
+        "SOURCE_CONTENT_TO_AVOID": "no fish, no seafood, no Turkish book text, no real publisher mark, no copied red letter arrangement, no original black contour shape"
+      }
+    },
+    {
+      "case_name": "bakery-night-index",
+      "values": {
+        "SUBJECT": "a vertical photoreal cutout of a crusty baguette wrapped in a narrow strip of white butcher paper",
+        "SUBJECT_ACTION": "resting upright over the red typeforms while the black contour gives it an exaggerated walking outline",
+        "PRODUCT_OR_PROP": "a tiny black bakery ticket pinned to the paper wrap",
+        "LOCATION": "flat cream-white book-cover field, no shop or kitchen background",
+        "BACKGROUND_ELEMENTS": "one huge scarlet letter cropped across the middle and a second red letter curve cropped along the lower right",
+        "MAIN_TEXT": "BREAD AFTER DARK",
+        "SECONDARY_TEXT": "SMALL CATALOG",
+        "ACCENT_SYMBOL": "tiny black heart-like printer ornament",
+        "WARDROBE_STYLE": "golden crust texture, white paper wrap, realistic crumbs, soft shadow",
+        "STYLE_FIDELITY_ANCHORS": "white paper field, giant scarlet serif typeforms, central photoreal cutout, rough black marker contour, small serif cover text, sparse high-contrast literary layout",
+        "SOURCE_CONTENT_TO_AVOID": "no fish, no seafood, no Turkish book text, no real publisher mark, no copied red letter arrangement, no original black contour shape"
+      }
+    },
+    {
+      "case_name": "lamp-courier-catalog",
+      "values": {
+        "SUBJECT": "a photoreal brass desk lamp with a cream cone shade and a black cloth cord hanging down",
+        "SUBJECT_ACTION": "tilting forward over the red letter stack while the marker contour turns the cord into a loose walking-loop silhouette",
+        "PRODUCT_OR_PROP": "a small folded blue delivery note placed near the lamp base",
+        "LOCATION": "white editorial cover plane with slight paper texture and no room setting",
+        "BACKGROUND_ELEMENTS": "oversized scarlet serif blocks stacked behind the lamp and cropped hard by the frame",
+        "MAIN_TEXT": "LAMP COURIER",
+        "SECONDARY_TEXT": "NOCTURNE LIST",
+        "ACCENT_SYMBOL": "tiny black registration cross near the side text",
+        "WARDROBE_STYLE": "aged brass, cream shade, black cord, realistic cutout edges and soft shadow",
+        "STYLE_FIDELITY_ANCHORS": "white paper field, giant scarlet serif typeforms, central photoreal cutout, rough black marker contour, small serif cover text, sparse high-contrast literary layout",
+        "SOURCE_CONTENT_TO_AVOID": "no fish, no seafood, no Turkish book text, no real publisher mark, no copied red letter arrangement, no original black contour shape"
+      }
+    }
+  ]
+}

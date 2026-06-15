@@ -28,9 +28,11 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Gothic Cat Doodle Photo Collage Style | [Copy Prompt](gothic-cat-doodle-photo-collage-style.md) | [style.json](../../styles/gothic-cat-doodle-photo-collage-style/style.json) |
 | Halftone Assemblage Metaphor PSA Poster Style | [Copy Prompt](halftone-assemblage-metaphor-psa-poster-style.md) | [style.json](../../styles/halftone-assemblage-metaphor-psa-poster-style/style.json) |
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
+| Jade Glyph Grocer Collage Poster Style | [Copy Prompt](jade-glyph-grocer-collage-poster-style.md) | [style.json](../../styles/jade-glyph-grocer-collage-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |
 | Kinetic Geometric Doodle Cutouts | [Copy Prompt](kinetic-geometric-doodle-cutouts.md) | [style.json](../../styles/kinetic-geometric-doodle-cutouts/style.json) |
 | Kinetic Luxury Street Fashion Cover Style | [Copy Prompt](kinetic-luxury-street-fashion-cover-style.md) | [style.json](../../styles/kinetic-luxury-street-fashion-cover-style/style.json) |
+| Loose Scribble Riso Print Style | [Copy Prompt](loose-scribble-riso-print-style.md) | [style.json](../../styles/loose-scribble-riso-print-style/style.json) |
 | Luxury Perspective Checkerboard Editorial | [Copy Prompt](luxury-perspective-checkerboard-editorial.md) | [style.json](../../styles/luxury-perspective-checkerboard-editorial/style.json) |
 | Market Brush Produce Poster Style | [Copy Prompt](market-brush-produce-poster-style.md) | [style.json](../../styles/market-brush-produce-poster-style/style.json) |
 | Metro Doodle Snapshot Diary | [Copy Prompt](metro-doodle-snapshot-diary-style.md) | [style.json](../../styles/metro-doodle-snapshot-diary-style/style.json) |
@@ -55,12 +57,15 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
 | Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |
 | Rough Marker Monster Poster Style | [Copy Prompt](rough-marker-monster-poster-style.md) | [style.json](../../styles/rough-marker-monster-poster-style/style.json) |
+| Scarlet Block Cutout Doodle Book Cover Style | [Copy Prompt](scarlet-block-cutout-doodle-book-cover-style.md) | [style.json](../../styles/scarlet-block-cutout-doodle-book-cover-style/style.json) |
+| Scarlet Court Photo Type Poster | [Copy Prompt](scarlet-court-photo-type-poster-style.md) | [style.json](../../styles/scarlet-court-photo-type-poster-style/style.json) |
 | School Grid Paper Cutout Poster | [Copy Prompt](school-grid-paper-cutout-poster.md) | [style.json](../../styles/school-grid-paper-cutout-poster/style.json) |
 | Sky Blue Home Life Doodle Poster Style | [Copy Prompt](sky-blue-home-life-doodle-poster-style.md) | [style.json](../../styles/sky-blue-home-life-doodle-poster-style/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
 | Sunlit Architectural Fashion Editorial | [Copy Prompt](sunlit-architectural-fashion-editorial.md) | [style.json](../../styles/sunlit-architectural-fashion-editorial/style.json) |
+| Sunlit Kinetic Block Type Photo Poster | [Copy Prompt](sunlit-kinetic-block-type-photo-poster-style.md) | [style.json](../../styles/sunlit-kinetic-block-type-photo-poster-style/style.json) |
 | Sunlit Supermodel Nameplate Editorial | [Copy Prompt](sunlit-supermodel-nameplate-editorial.md) | [style.json](../../styles/sunlit-supermodel-nameplate-editorial/style.json) |
 | Sunny 3D Avatar Campaign Style | [Copy Prompt](sunny-3d-avatar-campaign-style.md) | [style.json](../../styles/sunny-3d-avatar-campaign-style/style.json) |
 | Surreal Fish Doodle Landmark Photo Collage Style | [Copy Prompt](surreal-fish-doodle-landmark-photo-collage-style.md) | [style.json](../../styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) |
