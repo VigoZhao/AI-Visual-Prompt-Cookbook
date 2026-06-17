@@ -10,6 +10,42 @@ window.COOKBOOK_STYLES = {
   ],
   "styles": [
     {
+      "name": "Sky Blue Lucky Tag Doodle Poster Style",
+      "slug": "sky-blue-lucky-tag-doodle-poster-style",
+      "category": "Photo + Doodle",
+      "description": "Sky-blue doodle posters with chunky white type, a hanging lucky-tag plaque, thick black outlines, and one big playful mascot.",
+      "summary": "A sparse flat doodle-poster system built around a saturated sky-blue field, chunky white headline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy colors, and one large simplified mascot or prop crossing the tag like a playful charm illustration.",
+      "preview16": "../styles/sky-blue-lucky-tag-doodle-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/sky-blue-lucky-tag-doodle-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/sky-blue-lucky-tag-doodle-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/sky-blue-lucky-tag-doodle-poster-style.md",
+      "folder": "../styles/sky-blue-lucky-tag-doodle-poster-style/",
+      "anchors": [
+        "Saturated sky-blue background fills the whole poster with no gradients or realistic depth.",
+        "A large off-white hanging lucky-tag plaque sits centered, slightly irregular, with a thick black outline and rounded clipped corners.",
+        "Two narrow red-orange cords or loops enter from the top and connect to a simple decorative knot or loop motif near the tag top.",
+        "The top headline is oversized white block lettering, chunky, uneven, tightly spaced, and partly pressed near the upper edge.",
+        "A short black handwritten label sits on the off-white tag surface, casual and marker-like rather than typeset.",
+        "One oversized simplified mascot or prop dominates the lower tag area and can spill outside the plaque edge."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "toast-rocket-token",
+      "copyPrompt": "Use the \"Sky Blue Lucky Tag Doodle Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a cheerful orange toaster mascot with a tiny star face on one slice\nSubject action: gliding sideways as if it is a little rocket\nProduct or prop: two toast slices, a blue handle stripe, and a small yellow butter square\nLocation: the center of a minimal off-white hanging tag plaque\nBackground elements: three black dot marks, one small blue stripe, tiny spark ticks, and a loose red loop accent\nMain text: TOAST LUCK\nSecondary text: morning charm\nAccent symbol: loose red loop with two black dots\nWardrobe style: simple green scarf band and pink mitten-like side tabs\n\nStyle direction:\nA sparse flat doodle-poster system built around a saturated sky-blue field, chunky white\nheadline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy\ncolors, and one large simplified mascot or prop crossing the tag like a playful charm\nillustration.\n\nKeep visible:\n- Saturated sky-blue background fills the whole poster with no gradients or realistic depth.\n- A large off-white hanging lucky-tag plaque sits centered, slightly irregular, with a thick black outline and rounded clipped corners.\n- Two narrow red-orange cords or loops enter from the top and connect to a simple decorative knot or loop motif near the tag top.\n- The top headline is oversized white block lettering, chunky, uneven, tightly spaced, and partly pressed near the upper edge.\n- A short black handwritten label sits on the off-white tag surface, casual and marker-like rather than typeset.\n\nAvoid:\nwatermark, username, creator ID, signature, platform logo, QR code, brand logo, copied top\nheadline, copied Japanese text, copied bottom creator text, original horse, orange horse head,\nrider, pig-like pink face, yellow striped scarf, green saddle body, brown leg, exact red knot,\nexact omamori replica, traditional shrine charm replica, photorealism, 3D render, anime style,\nglossy vector polish, thin elegant lines, realistic anatomy, realistic fabric, gradients,\nairbrush shading, dense scenic background, long paragraphs, tiny illegible text, dark horror\nmood\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
       "name": "Neon Type Photo Scribble Poster",
       "slug": "neon-type-photo-scribble-poster",
       "category": "Type Posters",
@@ -2623,42 +2659,6 @@ window.COOKBOOK_STYLES = {
       ],
       "exampleName": "Subway Beatmaker",
       "copyPrompt": "Use the \"Y2K Grunge Hip-Hop Cutout Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a beatmaker with silver headphones\nSubject action: leaning over a portable sampler in a subway corridor\nProduct or prop: compact sampler with sticker-covered pads\nLocation: black-and-white tiled subway passage\nBackground elements: dirty wall texture, torn flyers, photocopy noise, footer panels, arrows, and barcode scraps\nMain text: BASS LINE\nSecondary text: underground mix\nAccent symbol: acid yellow star and black tape strip\nWardrobe style: oversized denim jacket, loose cargo pants, chain necklace, and sticker-cutout photo edge\n\nStyle direction:\nA Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid\nyellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and\nphotocopied print noise.\n\nKeep visible:\n- Preserve the core visual identity: A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.\n- Place the subject as a large central photo cutout with an irregular white sticker-like outline.\n- Use a dirty black-and-white grunge wall background with BACKGROUND_ELEMENTS worked into the texture.\n- Add a bright acid yellow information strip at the bottom with small editorial text reading SECONDARY_TEXT, small inset photo frames, barcode-like graphic elements, and ACCENT_SYMBOL.\n- The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout.\n\nAvoid:\nclean minimalist design, luxury editorial style, smooth gradient background, polished corporate\nposter, modern sans-serif-only layout, sterile studio lighting, glossy 3D text, empty\nwhitespace, clean vector illustration, watermark, username, QR code, platform logo, app\ninterface marks\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
-    },
-    {
-      "name": "Sky Blue Lucky Tag Doodle Poster Style",
-      "slug": "sky-blue-lucky-tag-doodle-poster-style",
-      "category": "Photo + Doodle",
-      "description": "A sparse flat doodle-poster system built around a saturated sky-blue field, chunky white headline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy colors, and one large simplified mascot or prop crossing the tag like a playful charm illustration.",
-      "summary": "A sparse flat doodle-poster system built around a saturated sky-blue field, chunky white headline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy colors, and one large simplified mascot or prop crossing the tag like a playful charm illustration.",
-      "preview16": "../styles/sky-blue-lucky-tag-doodle-poster-style/preview-16x9.jpg",
-      "preview9": "../styles/sky-blue-lucky-tag-doodle-poster-style/preview-9x16.jpg",
-      "styleJson": "../styles/sky-blue-lucky-tag-doodle-poster-style/style.json",
-      "copyPromptDoc": "../docs/copy-prompts/sky-blue-lucky-tag-doodle-poster-style.md",
-      "folder": "../styles/sky-blue-lucky-tag-doodle-poster-style/",
-      "anchors": [
-        "Saturated sky-blue background fills the whole poster with no gradients or realistic depth.",
-        "A large off-white hanging lucky-tag plaque sits centered, slightly irregular, with a thick black outline and rounded clipped corners.",
-        "Two narrow red-orange cords or loops enter from the top and connect to a simple decorative knot or loop motif near the tag top.",
-        "The top headline is oversized white block lettering, chunky, uneven, tightly spaced, and partly pressed near the upper edge.",
-        "A short black handwritten label sits on the off-white tag surface, casual and marker-like rather than typeset.",
-        "One oversized simplified mascot or prop dominates the lower tag area and can spill outside the plaque edge."
-      ],
-      "variables": [
-        "SUBJECT",
-        "SUBJECT_ACTION",
-        "PRODUCT_OR_PROP",
-        "LOCATION",
-        "BACKGROUND_ELEMENTS",
-        "MAIN_TEXT",
-        "SECONDARY_TEXT",
-        "ACCENT_SYMBOL",
-        "WARDROBE_STYLE",
-        "STYLE_FIDELITY_ANCHORS",
-        "SOURCE_CONTENT_TO_AVOID",
-        "ASPECT_RATIO"
-      ],
-      "exampleName": "toast-rocket-token",
-      "copyPrompt": "Use the \"Sky Blue Lucky Tag Doodle Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a cheerful orange toaster mascot with a tiny star face on one slice\nSubject action: gliding sideways as if it is a little rocket\nProduct or prop: two toast slices, a blue handle stripe, and a small yellow butter square\nLocation: the center of a minimal off-white hanging tag plaque\nBackground elements: three black dot marks, one small blue stripe, tiny spark ticks, and a loose red loop accent\nMain text: TOAST LUCK\nSecondary text: morning charm\nAccent symbol: loose red loop with two black dots\nWardrobe style: simple green scarf band and pink mitten-like side tabs\n\nStyle direction:\nA sparse flat doodle-poster system built around a saturated sky-blue field, chunky white\nheadline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy\ncolors, and one large simplified mascot or prop crossing the tag like a playful charm\nillustration.\n\nKeep visible:\n- Saturated sky-blue background fills the whole poster with no gradients or realistic depth.\n- A large off-white hanging lucky-tag plaque sits centered, slightly irregular, with a thick black outline and rounded clipped corners.\n- Two narrow red-orange cords or loops enter from the top and connect to a simple decorative knot or loop motif near the tag top.\n- The top headline is oversized white block lettering, chunky, uneven, tightly spaced, and partly pressed near the upper edge.\n- A short black handwritten label sits on the off-white tag surface, casual and marker-like rather than typeset.\n\nAvoid:\nwatermark, username, creator ID, signature, platform logo, QR code, brand logo, copied top\nheadline, copied Japanese text, copied bottom creator text, original horse, orange horse head,\nrider, pig-like pink face, yellow striped scarf, green saddle body, brown leg, exact red knot,\nexact omamori replica, traditional shrine charm replica, photorealism, 3D render, anime style,\nglossy vector polish, thin elegant lines, realistic anatomy, realistic fabric, gradients,\nairbrush shading, dense scenic background, long paragraphs, tiny illegible text, dark horror\nmood\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
     }
   ]
 };

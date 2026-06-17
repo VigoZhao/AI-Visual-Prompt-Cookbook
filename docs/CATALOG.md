@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 74 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 75 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Sky Blue Lucky Tag Doodle Poster Style
+
+<a href="../styles/sky-blue-lucky-tag-doodle-poster-style"><img src="../styles/sky-blue-lucky-tag-doodle-poster-style/preview-16x9.jpg" width="720" alt="Sky Blue Lucky Tag Doodle Poster Style preview"></a>
+
+A sparse flat doodle-poster system built around a saturated sky-blue field, chunky white headline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy colors, and one large simplified mascot or prop crossing the tag like a playful charm illustration.
+
+Files: [style.json](../styles/sky-blue-lucky-tag-doodle-poster-style/style.json) · [Copy Prompt](copy-prompts/sky-blue-lucky-tag-doodle-poster-style.md) · [16:9 preview](../styles/sky-blue-lucky-tag-doodle-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/sky-blue-lucky-tag-doodle-poster-style/preview-9x16.jpg) · [Folder](../styles/sky-blue-lucky-tag-doodle-poster-style)
+
+---
 
 ### Neon Type Photo Scribble Poster
 
