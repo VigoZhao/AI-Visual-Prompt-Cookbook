@@ -1,0 +1,187 @@
+{
+  "style_name": "Sky Blue Lucky Tag Doodle Poster Style",
+  "style_slug": "sky-blue-lucky-tag-doodle-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A sparse flat doodle-poster system built around a saturated sky-blue field, chunky white headline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy colors, and one large simplified mascot or prop crossing the tag like a playful charm illustration.",
+  "environment_variables": {
+    "SUBJECT": "main original flat mascot, creature, object, or simple character",
+    "SUBJECT_ACTION": "simple sideways pose, float, carry, balance, glide, lean, or playful frozen gesture",
+    "PRODUCT_OR_PROP": "large original prop, snack, tool, token, charm object, bag, vessel, accessory, or simple product shape",
+    "LOCATION": "minimal poster setting inside an off-white hanging tag plaque",
+    "BACKGROUND_ELEMENTS": "small symbolic marks, stripes, cords, rounded panels, tiny label marks, or sparse doodle accents",
+    "MAIN_TEXT": "short original top headline in chunky white block letters",
+    "SECONDARY_TEXT": "short original black handwritten label on the tag",
+    "ACCENT_SYMBOL": "simple knot, loop, stripe, dot, badge, sparkle, or hand-drawn separator",
+    "WARDROBE_STYLE": "flat color-block styling, scarf, cap, socks, small pouch, simple accessory, or no clothing",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Saturated sky-blue background fills the whole poster with no gradients or realistic depth.",
+    "A large off-white hanging lucky-tag plaque sits centered, slightly irregular, with a thick black outline and rounded clipped corners.",
+    "Two narrow red-orange cords or loops enter from the top and connect to a simple decorative knot or loop motif near the tag top.",
+    "The top headline is oversized white block lettering, chunky, uneven, tightly spaced, and partly pressed near the upper edge.",
+    "A short black handwritten label sits on the off-white tag surface, casual and marker-like rather than typeset.",
+    "One oversized simplified mascot or prop dominates the lower tag area and can spill outside the plaque edge.",
+    "Shapes are toy-like, flat, and icon-simple with thick black contour lines and minimal internal detail.",
+    "Color fills are high-contrast flat blocks: sky blue, off-white, orange-red, green, yellow, pink, blue, brown, and black.",
+    "Linework is wobbly and hand-drawn, with rounded corners, blunt stroke endings, and imperfect alignment.",
+    "The composition is sparse and poster-like, with one main figure, a few small accents, and generous blue negative space.",
+    "Perspective is naive and flattened; object parts stack as graphic shapes instead of using realistic depth.",
+    "Mood is cheerful, lucky, handmade, childlike, and light, with a souvenir-card or charm-tag feeling."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the orange horse, rider, pig-like pink face, striped yellow scarf, green body, brown leg shape, or the exact side-facing horse pose.",
+    "Do not copy the source headline, Japanese kana, bottom creator text, names, marks, watermarks, or any exact source lettering.",
+    "Do not repeat the exact omamori charm premise, red knot shape, cord placement, plaque silhouette, and horse-riding story as a literal replica.",
+    "Do not include usernames, signatures, creator IDs, platform logos, QR codes, real brand marks, or watermark-like footer copy.",
+    "Do not use photorealism, polished vector corporate illustration, anime detail, 3D toy rendering, airbrushed shading, or realistic fabric texture.",
+    "Do not make the scene dense, scenic, perspective-heavy, or filled with many small objects that overwhelm the simple tag-poster structure."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "flat lucky-tag doodle poster, naive mascot charm illustration, sparse souvenir-card graphic system",
+    "composition_and_layout": "a full sky-blue field carries a large white headline at the top, a central off-white hanging tag below, a cord-and-knot accent near the tag top, and one large flat mascot or prop angled across the lower tag",
+    "subject_placement": "the subject is oversized and centered low, often crossing the tag boundary or cropping at the edge; supporting marks stay minimal and secondary",
+    "camera_angle_or_perspective": "front-facing flattened poster view with sideways mascot silhouettes, no vanishing point, and playful scale distortion",
+    "typography_style": "top text uses heavy rounded white block letters with hand-cut irregularity; secondary text uses loose black marker handwriting on the tag face",
+    "color_palette_behavior": "dominant sky blue and off-white structure with black outlines; bright accent fills appear as large clean blocks of orange-red, green, yellow, pink, blue, and brown",
+    "graphic_elements": "hanging cords, loop knot, rounded tag, simple stripes, dots, tiny marks, flat mascot body segments, small face details, and short hand-lettered labels",
+    "texture_and_finish": "clean flat fills, slight poster softness, hand-drawn edge wobble, no visible paper grain as a primary effect, no shading except rare tiny color separations",
+    "lighting": "pure flat graphic lighting; there are no shadows, highlights, or material reflections",
+    "mood": "bright, lucky, playful, handmade, souvenir-like, childlike, friendly, and slightly absurd"
+  },
+  "composition": {
+    "primary_structure": [
+      "Use a full-bleed saturated sky-blue poster background.",
+      "Place an off-white hanging tag plaque as the main scene container with a thick black outline.",
+      "Put the huge white headline across the top outside or partly above the tag.",
+      "Add two red-orange cords and a simple loop or knot accent near the tag top.",
+      "Place one large original mascot, object, or prop across the lower tag, letting it overlap or crop casually.",
+      "Keep secondary marks sparse: a tiny handwritten label, a few dots, stripes, or simple accent symbols.",
+      "Use flat front-facing geometry and avoid realistic perspective or detailed environments.",
+      "Keep the layout readable from a distance: one headline, one tag, one main figure."
+    ],
+    "vertical_9x16": "Stack the white headline in the top band, hang the tall off-white tag below it, and let the main mascot fill the lower half with a slight diagonal or side-facing sweep.",
+    "horizontal_16x9": "Stretch the white headline across the upper left or top band, widen the off-white tag into a broad plaque, and let the mascot run or float sideways across the lower center."
+  },
+  "typography": {
+    "headline": "massive white block letters with rounded chunky forms, uneven hand-cut edges, tight spacing, and a friendly poster-title weight",
+    "secondary_label": "short black handwritten marker label on the tag face, casual and slightly wobbly, never cleanly typeset",
+    "supporting_text": "only one or two short original words or tiny symbolic marks; no footer signature or creator-style line",
+    "text_behavior": "text acts as graphic shape and should remain simple, bold, sparse, and original"
+  },
+  "color_palette": {
+    "sky_blue": "#56AFDB",
+    "off_white": "#FFFDF1",
+    "ink_black": "#0B0B0B",
+    "cord_orange_red": "#FF4B1C",
+    "grass_green": "#08A84F",
+    "sun_yellow": "#FFD831",
+    "bubble_pink": "#F869D3",
+    "clear_blue": "#008DD0",
+    "warm_brown": "#8A430F",
+    "soft_shadow_cream": "#F7F4E6"
+  },
+  "image_treatment": {
+    "linework": "thick black hand-drawn outlines with slight wobble, blunt caps, rounded corners, and uneven contour pressure",
+    "fills": "flat solid color blocks with hard edges and no gradients, hatching, or realistic material modeling",
+    "texture": "clean poster finish with only subtle hand-drawn irregularity at the edges",
+    "shading": "nearly none; form is described by silhouette, outline, and color-block segmentation",
+    "detail_density": "low to medium-low density, with one dominant figure and only a handful of small accent marks"
+  },
+  "design_rules": [
+    "The sky-blue field, off-white hanging tag, red-orange cord detail, and chunky white headline must be visible in every sample.",
+    "Use only one main original mascot, object, or simple character so the composition stays sparse.",
+    "Keep all shapes flat, bold, and marker-outlined with no realistic depth or lighting.",
+    "Change the source content completely: subject, text, prop, story, and any identity marks must be original.",
+    "Use bright toy colors as large blocks rather than many tiny decorative details.",
+    "Let the main subject overlap the tag edge or crop slightly, but keep the tag readable.",
+    "Use handwritten black secondary text sparingly on the tag surface.",
+    "Avoid footer marks that could read as a signature, creator ID, or watermark."
+  ],
+  "do": [
+    "Use a saturated sky-blue background with a large off-white hanging plaque.",
+    "Use chunky white hand-cut headline letters at poster scale.",
+    "Draw one original mascot or prop with thick wobbly black lines and flat bright fills.",
+    "Include a simple red-orange cord, loop, or knot-inspired accent without copying the source knot exactly.",
+    "Keep the secondary label short, black, handwritten, and original.",
+    "Leave enough negative space for the design to feel bold and simple."
+  ],
+  "avoid": [
+    "Do not copy the source horse, rider, pig-like face, scarf, Japanese lettering, top phrase, bottom creator mark, or exact color placement.",
+    "Do not create a literal traditional omamori replica or repeat the same good-luck-horse story.",
+    "Do not include signatures, usernames, creator IDs, brand logos, QR codes, app marks, or watermark-like footer lines.",
+    "Do not use photorealistic rendering, 3D modeling, anime finish, glossy vector polish, thin elegant linework, or detailed scenery.",
+    "Do not overcrowd the tag with many props, labels, textures, or perspective environments.",
+    "Do not write long paragraphs, real Japanese text, copied text, or tiny illegible captions."
+  ],
+  "prompt_template": "Create an original {ASPECT_RATIO} flat doodle poster in the Sky Blue Lucky Tag Doodle Poster style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a saturated sky-blue full background, a large off-white hanging lucky-tag plaque with thick wobbly black outline, two narrow red-orange cords or loops from the top, and a simple knot or loop accent that is clearly different from the reference. Put huge chunky uneven white block-letter headline text reading {MAIN_TEXT} across the top. On the tag face, add a short black handwritten marker label reading {SECONDARY_TEXT}. Show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add only sparse supporting details: {BACKGROUND_ELEMENTS}. Style or accessorize the subject with {WARDROBE_STYLE}. Use flat toy-like shapes, thick black contours, rounded corners, bright solid color fills, naive front-facing perspective, minimal detail, no gradients, no realistic shadows, cheerful handmade charm-card mood, and no watermark or creator mark. All subject matter, text, props, symbols, and story details must be original and must not copy the reference.",
+  "negative_prompt": "watermark, username, creator ID, signature, platform logo, QR code, brand logo, copied top headline, copied Japanese text, copied bottom creator text, original horse, orange horse head, rider, pig-like pink face, yellow striped scarf, green saddle body, brown leg, exact red knot, exact omamori replica, traditional shrine charm replica, photorealism, 3D render, anime style, glossy vector polish, thin elegant lines, realistic anatomy, realistic fabric, gradients, airbrush shading, dense scenic background, long paragraphs, tiny illegible text, dark horror mood",
+  "examples": [
+    {
+      "case_name": "toast-rocket-token",
+      "values": {
+        "SUBJECT": "a cheerful orange toaster mascot with a tiny star face on one slice",
+        "SUBJECT_ACTION": "gliding sideways as if it is a little rocket",
+        "PRODUCT_OR_PROP": "two toast slices, a blue handle stripe, and a small yellow butter square",
+        "LOCATION": "the center of a minimal off-white hanging tag plaque",
+        "BACKGROUND_ELEMENTS": "three black dot marks, one small blue stripe, tiny spark ticks, and a loose red loop accent",
+        "MAIN_TEXT": "TOAST LUCK",
+        "SECONDARY_TEXT": "morning charm",
+        "ACCENT_SYMBOL": "loose red loop with two black dots",
+        "WARDROBE_STYLE": "simple green scarf band and pink mitten-like side tabs",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue field, off-white hanging tag, red-orange cord detail, chunky white headline, black handwritten label, thick wobbly black outlines, flat bright toy colors, sparse charm-card composition, oversized single mascot",
+        "SOURCE_CONTENT_TO_AVOID": "no horse, no rider, no pig face, no striped yellow scarf, no Japanese kana, no source headline, no creator mark, no exact knot or omamori replica"
+      }
+    },
+    {
+      "case_name": "watering-can-wish",
+      "values": {
+        "SUBJECT": "a round green watering-can creature with a simple smiling face",
+        "SUBJECT_ACTION": "leaning forward and pouring three blue drop shapes",
+        "PRODUCT_OR_PROP": "large yellow flower token and pink handle tabs",
+        "LOCATION": "the lower half of a minimal off-white hanging tag plaque",
+        "BACKGROUND_ELEMENTS": "short black dash marks, one tiny leaf icon, blue puddle stripe, and sparse dot accents",
+        "MAIN_TEXT": "GROW GOOD",
+        "SECONDARY_TEXT": "leaf wish",
+        "ACCENT_SYMBOL": "small red-orange loop and leaf dot",
+        "WARDROBE_STYLE": "no clothing, only a flat orange cap-like patch and two pink rounded feet",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue field, off-white hanging tag, red-orange cord detail, chunky white headline, black handwritten label, thick wobbly black outlines, flat bright toy colors, sparse charm-card composition, oversized single mascot",
+        "SOURCE_CONTENT_TO_AVOID": "no horse, no rider, no pig face, no striped yellow scarf, no Japanese kana, no source headline, no creator mark, no exact knot or omamori replica"
+      }
+    },
+    {
+      "case_name": "moon-scooter-badge",
+      "values": {
+        "SUBJECT": "a yellow crescent-moon scooter mascot with a tiny pink passenger star",
+        "SUBJECT_ACTION": "rolling sideways across the tag like a playful parade float",
+        "PRODUCT_OR_PROP": "two blue wheel circles, orange handle bar, and green seat block",
+        "LOCATION": "a simple souvenir-tag plaque with empty cream space around it",
+        "BACKGROUND_ELEMENTS": "two small black sparkle ticks, one blue speed stripe, and a red-orange cord loop above",
+        "MAIN_TEXT": "MOON RIDE",
+        "SECONDARY_TEXT": "night lucky",
+        "ACCENT_SYMBOL": "red-orange loop with a tiny star dash",
+        "WARDROBE_STYLE": "tiny passenger wears a simple blue cap and no detailed outfit",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue field, off-white hanging tag, red-orange cord detail, chunky white headline, black handwritten label, thick wobbly black outlines, flat bright toy colors, sparse charm-card composition, oversized single mascot",
+        "SOURCE_CONTENT_TO_AVOID": "no horse, no rider, no pig face, no striped yellow scarf, no Japanese kana, no source headline, no creator mark, no exact knot or omamori replica"
+      }
+    },
+    {
+      "case_name": "tool-fish-charm",
+      "values": {
+        "SUBJECT": "a teal fish-shaped hand tool mascot with a simple dot-eye smile",
+        "SUBJECT_ACTION": "floating diagonally while carrying a small orange pencil",
+        "PRODUCT_OR_PROP": "yellow ruler fin, pink eraser block, and brown handle tail",
+        "LOCATION": "a clean off-white hanging tag plaque with only a few marks",
+        "BACKGROUND_ELEMENTS": "tiny black measurement ticks, one blue stripe, two dot marks, and a loose red cord loop",
+        "MAIN_TEXT": "MAKE DAY",
+        "SECONDARY_TEXT": "tiny fix",
+        "ACCENT_SYMBOL": "red-orange loop with two dash marks",
+        "WARDROBE_STYLE": "no clothing, only flat color-block fins and a small pink pouch shape",
+        "STYLE_FIDELITY_ANCHORS": "sky-blue field, off-white hanging tag, red-orange cord detail, chunky white headline, black handwritten label, thick wobbly black outlines, flat bright toy colors, sparse charm-card composition, oversized single mascot",
+        "SOURCE_CONTENT_TO_AVOID": "no horse, no rider, no pig face, no striped yellow scarf, no Japanese kana, no source headline, no creator mark, no exact knot or omamori replica"
+      }
+    }
+  ]
+}
