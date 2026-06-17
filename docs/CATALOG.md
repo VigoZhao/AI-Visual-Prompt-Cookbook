@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 73 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 74 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Neon Type Photo Scribble Poster
+
+<a href="../styles/neon-type-photo-scribble-poster"><img src="../styles/neon-type-photo-scribble-poster/preview-16x9.jpg" width="720" alt="Neon Type Photo Scribble Poster preview"></a>
+
+A high-impact event poster system built from a toxic neon color field, huge black condensed typography, a centered documentary photo crop, and a raw white spray-marker gesture that cuts across the middle of the composition.
+
+Files: [style.json](../styles/neon-type-photo-scribble-poster/style.json) · [Copy Prompt](copy-prompts/neon-type-photo-scribble-poster.md) · [16:9 preview](../styles/neon-type-photo-scribble-poster/preview-16x9.jpg) · [9:16 preview](../styles/neon-type-photo-scribble-poster/preview-9x16.jpg) · [Folder](../styles/neon-type-photo-scribble-poster)
+
+---
 
 ### Loose Scribble Riso Print Style
 

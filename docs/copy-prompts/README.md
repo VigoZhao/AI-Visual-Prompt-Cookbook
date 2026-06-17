@@ -45,6 +45,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Neon Kinetic Typographic Poster | [Copy Prompt](neon-kinetic-typographic-poster-style.md) | [style.json](../../styles/neon-kinetic-typographic-poster-style/style.json) |
 | Neon Outdoor Diary Longform Collage Style | [Copy Prompt](neon-outdoor-diary-longform-collage-style.md) | [style.json](../../styles/neon-outdoor-diary-longform-collage-style/style.json) |
 | Neon Plush Gadget Pop 3D Style | [Copy Prompt](neon-plush-gadget-pop-3d-style.md) | [style.json](../../styles/neon-plush-gadget-pop-3d-style/style.json) |
+| Neon Type Photo Scribble Poster | [Copy Prompt](neon-type-photo-scribble-poster.md) | [style.json](../../styles/neon-type-photo-scribble-poster/style.json) |
 | Olive Scribble Sports Poster Style | [Copy Prompt](olive-scribble-sports-poster-style.md) | [style.json](../../styles/olive-scribble-sports-poster-style/style.json) |
 | Orange Brush Mascot Action Poster Style | [Copy Prompt](orange-brush-mascot-action-poster-style.md) | [style.json](../../styles/orange-brush-mascot-action-poster-style/style.json) |
 | Photo Illustration Overlay Poster | [Copy Prompt](photo-illustration-overlay-poster-style.md) | [style.json](../../styles/photo-illustration-overlay-poster-style/style.json) |

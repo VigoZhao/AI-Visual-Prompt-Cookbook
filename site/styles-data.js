@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 73,
+  "styleCount": 74,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Neon Type Photo Scribble Poster",
+      "slug": "neon-type-photo-scribble-poster",
+      "category": "Type Posters",
+      "description": "Neon event posters with huge condensed type, documentary photo crops, and raw white scribble gestures.",
+      "summary": "A high-impact event poster system built from a toxic neon color field, huge black condensed typography, a centered documentary photo crop, and a raw white spray-marker gesture that cuts across the middle of the composition.",
+      "preview16": "../styles/neon-type-photo-scribble-poster/preview-16x9.jpg",
+      "preview9": "../styles/neon-type-photo-scribble-poster/preview-9x16.jpg",
+      "styleJson": "../styles/neon-type-photo-scribble-poster/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/neon-type-photo-scribble-poster.md",
+      "folder": "../styles/neon-type-photo-scribble-poster/",
+      "anchors": [
+        "Single flat neon green field fills nearly the entire poster with no gradient and no scenic background outside the photo.",
+        "Massive black condensed sans-serif headline type is cropped by the canvas edges and dominates the top and bottom thirds.",
+        "Small all-caps metadata sits along the top margin with tight spacing and a blunt event-flyer tone.",
+        "A centered rectangular documentary photo block interrupts the typography and covers roughly half of the composition.",
+        "The photo uses gritty outdoor flash or hard daylight realism, shallow compression, and visible background bystanders or scene clutter.",
+        "The foreground subject is cropped large inside the photo block, with the body partly intersecting the lower handwritten layer."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-courier-run",
+      "copyPrompt": "Use the \"Neon Type Photo Scribble Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a young bicycle courier\nSubject action: leaning forward while pushing off into traffic\nProduct or prop: bright insulated delivery bag and handlebar light\nLocation: downtown curb outside a late-night food window\nBackground elements: blurred pedestrians, shop shutters, traffic cones, wet pavement reflections\nMain text: MIDNIGHT RUN\nSecondary text: route 07 - open late\nAccent symbol: ///\nWardrobe style: black windbreaker, reflective strap, work gloves, worn sneakers\n\nStyle direction:\nA high-impact event poster system built from a toxic neon color field, huge black condensed\ntypography, a centered documentary photo crop, and a raw white spray-marker gesture that cuts\nacross the middle of the composition.\n\nKeep visible:\n- Single flat neon green field fills nearly the entire poster with no gradient and no scenic background outside the photo.\n- Massive black condensed sans-serif headline type is cropped by the canvas edges and dominates the top and bottom thirds.\n- Small all-caps metadata sits along the top margin with tight spacing and a blunt event-flyer tone.\n- A centered rectangular documentary photo block interrupts the typography and covers roughly half of the composition.\n- The photo uses gritty outdoor flash or hard daylight realism, shallow compression, and visible background bystanders or scene clutter.\n\nAvoid:\nbasketball player, basketball court, dribbling, sports award poster, exact source text, NY vs\nNY, Nike mark, sponsor logo, watermark, username, QR code, platform UI, glossy 3D render, anime,\ncomic illustration, vector-only graphic, collage grid, gradient background, beige editorial\ndesign, ornate serif, clean corporate presentation, tiny headline, realistic logo typography\ncopied from a brand\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Loose Scribble Riso Print Style",
       "slug": "loose-scribble-riso-print-style",

@@ -1,0 +1,165 @@
+{
+  "style_name": "Neon Type Photo Scribble Poster",
+  "style_slug": "neon-type-photo-scribble-poster",
+  "style_version": "1.0.0",
+  "style_summary": "A high-impact event poster system built from a toxic neon color field, huge black condensed typography, a centered documentary photo crop, and a raw white spray-marker gesture that cuts across the middle of the composition.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Single flat neon green field fills nearly the entire poster with no gradient and no scenic background outside the photo.",
+    "Massive black condensed sans-serif headline type is cropped by the canvas edges and dominates the top and bottom thirds.",
+    "Small all-caps metadata sits along the top margin with tight spacing and a blunt event-flyer tone.",
+    "A centered rectangular documentary photo block interrupts the typography and covers roughly half of the composition.",
+    "The photo uses gritty outdoor flash or hard daylight realism, shallow compression, and visible background bystanders or scene clutter.",
+    "The foreground subject is cropped large inside the photo block, with the body partly intersecting the lower handwritten layer.",
+    "A thick white aerosol or paint-marker handwritten word sits across the middle-lower area, overlapping both the photo and black type.",
+    "The white gesture has soft spray bloom, uneven opacity, fast strokes, and occasional paint drips.",
+    "The layout feels like a street-sports event flyer: loud, direct, posterized, and compressed for social sharing.",
+    "Palette stays extremely limited: neon green background, black type, white scribble, and realistic photo colors only."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a basketball player, basketball court, dribbling pose, or ball-centered story.",
+    "Do not use the exact source words PLAYER, OF, THE, WEEK, NY vs NY, Week 1, June 27, Gersh, Chris Jeffrey, Basketball, or any similar sports-award phrase.",
+    "Do not include Nike marks, league marks, sponsor marks, watermarks, creator signatures, or platform UI.",
+    "Do not copy the same central athlete silhouette, facial expression, shirt graphic, or street-court crowd arrangement.",
+    "Do not reproduce the exact neon green and black text layout as the same words in the same positions.",
+    "Do not use a white graffiti word that reads like the original source text."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Street event flyer collage with documentary photo insertion, oversized typographic architecture, and aerosol handwriting.",
+    "composition_logic": "A flat poster base carries huge cropped black words; a central photo rectangle creates the only depth; white handwriting acts as the top layer.",
+    "subject_placement": "One dominant subject sits in the central photo block, cropped close enough to feel immediate but still surrounded by environmental witnesses.",
+    "camera_perspective": "Eye-level or slightly low documentary photo, realistic lens compression, imperfect live-event timing.",
+    "texture_and_finish": "Clean digital poster field with compressed social-media photo grain and soft spray-paint edges in the handwritten mark.",
+    "mood": "Competitive, loud, urban, time-sensitive, and announcement-driven."
+  },
+  "composition": {
+    "canvas": "Use a poster canvas in the requested aspect ratio with edge-to-edge neon green background.",
+    "type_hierarchy": "Place huge black condensed words behind the photo, cropped at the edges; keep small metadata in the top margin.",
+    "photo_block": "Place one centered rectangular photo block over the type; it should feel pasted onto the poster rather than blended into the background.",
+    "scribble_layer": "Add one large white spray-marker phrase or tag across the lower middle, overlapping the photo and the headline type.",
+    "spacing": "Keep the composition tight and poster-dense; avoid airy editorial layouts or multiple separate cards."
+  },
+  "typography": {
+    "headline": "Ultra-heavy condensed grotesk sans-serif, black, all caps, enormous scale, tight tracking, cropped by canvas edges.",
+    "metadata": "Small black all-caps sans-serif labels along the top edge and optionally bottom corners.",
+    "handwriting": "White aerosol handwriting, fast and gestural, thick strokes, soft bloom, uneven fill, paint drips.",
+    "text_behavior": "The typography is part of the composition, not a caption box; it can be partially hidden by the photo and scribble."
+  },
+  "color_palette": {
+    "base": "Neon electric green field, approximately 70 percent of the visible poster.",
+    "primary_type": "Pure black headline and metadata.",
+    "overlay": "White spray-marker handwriting with slight glow and soft overspray.",
+    "photo": "Naturalistic documentary color inside the central photo rectangle only.",
+    "palette_rule": "Do not introduce gradients, pastel systems, multicolor backgrounds, or decorative color blocks."
+  },
+  "photographic_direction": {
+    "photo_style": "Realistic candid event photography with a central subject, environmental bystanders, hard daylight or flash contrast, slight grain, and social-post compression.",
+    "depth": "Depth exists only inside the pasted photo block; the surrounding poster field remains flat.",
+    "subject_scale": "The subject should be close enough to occupy much of the photo rectangle and read immediately at social-feed size.",
+    "realism": "Keep human faces and props photographic, imperfect, and live-action rather than glossy studio renders."
+  },
+  "design_rules": [
+    "Use one dominant central photo block, not a collage grid.",
+    "Let black type run behind the photo and get clipped by both the image block and canvas edges.",
+    "Keep the white handwritten overlay large enough to cross layer boundaries.",
+    "Use only a few small metadata labels, aligned to the poster margins.",
+    "Protect the neon green field as the main visual signal.",
+    "Keep all branded marks generic or absent."
+  ],
+  "do": [
+    "Use huge black all-caps type as architecture.",
+    "Use a single documentary photo with a dominant cropped subject.",
+    "Use a large white spray-marker gesture with soft overspray and drips.",
+    "Keep the palette blunt: neon green, black, white, and realistic photo color.",
+    "Make the piece feel like an urgent street event announcement."
+  ],
+  "avoid": [
+    "No basketball player, basketball, sports award copy, Nike mark, or NY vs NY reference.",
+    "No glossy 3D render, vector-only flat illustration, anime, comic art, or polished studio ad look.",
+    "No gradients, beige editorial palette, ornate serif typography, or decorative frame.",
+    "No multiple-photo grid, floating UI cards, stickers, QR codes, usernames, or platform watermarks.",
+    "No tiny safe headline; the black type must be oversized and cropped."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Neon Type Photo Scribble Poster visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: edge-to-edge toxic neon green poster field, huge black ultra-condensed all-caps words cropped by the canvas edges, one centered rectangular documentary photo block pasted over the type, one large white aerosol handwriting layer crossing the lower middle of the photo and headline.\n- Typography: blunt event-flyer typography, black heavy condensed grotesk headline, tight all-caps metadata along the top and bottom margins, handwritten overlay made from thick white spray-marker strokes with soft overspray and small drips.\n- Color: neon green is the dominant field, black is used for all large type, white is used only for the handwritten gesture, and realistic photo color appears only inside the central photo rectangle.\n- Photography: central photo should look like candid live-event photography, eye-level or slightly low, gritty daylight or flash contrast, visible bystanders or environmental clutter, subject cropped large and immediate.\n- Graphic elements: keep a flat poster base, hard rectangular photo edges, no decorative frame, no gradients, no UI, no logo marks, no platform marks.\n\nImportant content rule: preserve the visual style first, then change the source content. Use the new subject, action, prop, location, background details, and text supplied above. Do not recreate the source content listed above.",
+  "negative_prompt": "basketball player, basketball court, dribbling, sports award poster, exact source text, NY vs NY, Nike mark, sponsor logo, watermark, username, QR code, platform UI, glossy 3D render, anime, comic illustration, vector-only graphic, collage grid, gradient background, beige editorial design, ornate serif, clean corporate presentation, tiny headline, realistic logo typography copied from a brand"
+,
+  "examples": [
+    {
+      "case_name": "night-courier-run",
+      "values": {
+        "SUBJECT": "a young bicycle courier",
+        "SUBJECT_ACTION": "leaning forward while pushing off into traffic",
+        "PRODUCT_OR_PROP": "bright insulated delivery bag and handlebar light",
+        "LOCATION": "downtown curb outside a late-night food window",
+        "BACKGROUND_ELEMENTS": "blurred pedestrians, shop shutters, traffic cones, wet pavement reflections",
+        "MAIN_TEXT": "MIDNIGHT RUN",
+        "SECONDARY_TEXT": "route 07 - open late",
+        "ACCENT_SYMBOL": "///",
+        "WARDROBE_STYLE": "black windbreaker, reflective strap, work gloves, worn sneakers",
+        "STYLE_FIDELITY_ANCHORS": "neon green field, huge cropped black condensed type, centered candid photo rectangle, white spray-marker overlay, gritty event-flyer density",
+        "SOURCE_CONTENT_TO_AVOID": "no basketball, no court, no sports award text, no Nike or NY vs NY marks"
+      }
+    },
+    {
+      "case_name": "warehouse-dance-battle",
+      "values": {
+        "SUBJECT": "a street dancer",
+        "SUBJECT_ACTION": "freezing mid-step during a warehouse dance battle",
+        "PRODUCT_OR_PROP": "portable speaker on the concrete floor",
+        "LOCATION": "industrial rehearsal warehouse",
+        "BACKGROUND_ELEMENTS": "circle of spectators, taped floor lines, open loading door, stacked crates",
+        "MAIN_TEXT": "FLOOR HEAT",
+        "SECONDARY_TEXT": "round two - door 5",
+        "ACCENT_SYMBOL": "X",
+        "WARDROBE_STYLE": "oversized black tee, nylon track pants, scuffed sneakers, wrist tape",
+        "STYLE_FIDELITY_ANCHORS": "toxic green poster base, massive black cropped headline, central realistic action photo, white aerosol handwriting with drips, tight social-poster compression",
+        "SOURCE_CONTENT_TO_AVOID": "no basketball athlete, no ball, no street court, no original player-week wording"
+      }
+    },
+    {
+      "case_name": "skate-workshop-demo",
+      "values": {
+        "SUBJECT": "a teenage skateboard mechanic",
+        "SUBJECT_ACTION": "tightening trucks before a curb demo",
+        "PRODUCT_OR_PROP": "scratched skateboard deck and small socket tool",
+        "LOCATION": "outdoor skate workshop beside a concrete ledge",
+        "BACKGROUND_ELEMENTS": "watching kids, folding table, spare wheels, chain-link fence, chalk marks",
+        "MAIN_TEXT": "DECK CHECK",
+        "SECONDARY_TEXT": "clinic 03 - east lot",
+        "ACCENT_SYMBOL": "+",
+        "WARDROBE_STYLE": "black work shirt, cargo shorts, cap, taped fingers",
+        "STYLE_FIDELITY_ANCHORS": "oversized black condensed type clipped by frame, centered documentary photo, flat neon green background, white spray tag across the lower center, urban event flyer mood",
+        "SOURCE_CONTENT_TO_AVOID": "no basketball court, no dribbling pose, no recognizable sports league or shoe logo"
+      }
+    },
+    {
+      "case_name": "pop-up-chef-tasting",
+      "values": {
+        "SUBJECT": "a pop-up chef",
+        "SUBJECT_ACTION": "handing a steaming bowl across a crowded counter",
+        "PRODUCT_OR_PROP": "paper bowl of noodles and metal ladle",
+        "LOCATION": "alley food pop-up at dusk",
+        "BACKGROUND_ELEMENTS": "waiting customers, handwritten menu board, string lights, stainless prep table",
+        "MAIN_TEXT": "LAST BOWL",
+        "SECONDARY_TEXT": "service 11 - until sold out",
+        "ACCENT_SYMBOL": "*",
+        "WARDROBE_STYLE": "black apron, rolled sleeves, disposable gloves, bandana",
+        "STYLE_FIDELITY_ANCHORS": "neon green poster field, huge black cropped all-caps type, central candid photo pasted over type, bold white spray-marker word, raw street announcement feel",
+        "SOURCE_CONTENT_TO_AVOID": "no basketball, no player-of-week copy, no Nike Basketball footer, no NY vs NY signature"
+      }
+    }
+  ]
+}
