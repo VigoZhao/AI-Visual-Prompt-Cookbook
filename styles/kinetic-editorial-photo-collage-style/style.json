@@ -1,0 +1,193 @@
+{
+  "style_name": "Kinetic Editorial Photo Collage",
+  "style_slug": "kinetic-editorial-photo-collage-style",
+  "style_version": "2.1.0",
+  "style_summary": "A high-energy action-poster system built from staggered photographic tiles on white space, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art urban scaffolding.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "White poster canvas remains visible around and between layered photographic panels rather than becoming a full-bleed single photo.",
+    "The scene is assembled from staggered rectangular photo tiles with slight offsets, overlaps, and uneven collage edges.",
+    "A single realistic action subject sits near the center and feels cut into or lifted from the photo-panel stack.",
+    "The action is frozen at a decisive airborne, twisting, leaning, or reaching moment with a clear diagonal line of movement.",
+    "Large black extra-condensed uppercase typography sits in the upper-left zone, stacked in two or three compact lines.",
+    "Loose black hand-drawn ink speed marks arc around the subject and sweep in from the frame edges with visible brush variation.",
+    "Thin monochrome line-art architecture, scaffolding, railings, or city silhouettes sits behind the photo subject as a graphic overlay.",
+    "Realistic daylight photography provides the base, while the drawn marks stay flat black and visibly hand-rendered.",
+    "Color is restrained: mostly sky blue, concrete gray, field or street green, white, black, and one saturated wardrobe or prop accent.",
+    "The composition feels commercial, youthful, athletic, and editorial without using real logos, team marks, or platform identifiers.",
+    "The graphic density is energetic but still sparse enough that white negative space remains a major part of the design.",
+    "Motion overlays behave like inked annotation and speed grammar, not comic halftone, stickers, neon trails, or 3D effects."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a young soccer player kicking a ball in midair.",
+    "Do not include soccer balls, footballs, ball trails, or ball-as-projectile graphics.",
+    "Do not use the words PLAY LIKE YOU OWN IT or any close paraphrase of that slogan.",
+    "Do not include Nike, swoosh marks, real sportswear logos, team crests, watermarks, creator IDs, or platform marks.",
+    "Do not duplicate the rooftop soccer-field scene, turf foreground, skyline placement, or exact panel arrangement from the source.",
+    "Do not copy the source athlete's face, red sleeveless uniform, body pose, leg angle, or expression.",
+    "Do not repeat the exact three flying illustrated ball forms or their curved streak paths.",
+    "Do not reproduce the small black brand mark at the bottom edge or any recognizable identity mark.",
+    "Do not use a sports-brand campaign premise where a lone soccer athlete owns the field."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Action editorial photo collage with graphic ink annotation and bold poster typography.",
+    "composition_logic": "The poster is a white canvas carrying a broken horizontal stack of rectangular photo fragments; the subject sits inside the stack while hand-drawn black marks cross over both photo and white space.",
+    "subject_placement": "The subject is central, medium-large, and isolated by motion, usually crossing the panels diagonally instead of standing straight.",
+    "camera_perspective": "Realistic outdoor daylight photography, mid-to-low perspective, enough environmental width to show ground, sky, and background architecture.",
+    "typography_system": "Black compressed all-caps headline type, heavy and narrow, locked to the top-left corner with tight leading and rough editorial poster force.",
+    "graphic_elements": "Black ink streaks, brush slashes, sketched object echoes, thin city/scaffold linework, and white speed lines that slice across the panels.",
+    "texture_and_finish": "Clean digital photo collage with slightly irregular paper-like panel layering and dry-brush ink edges; no aged paper, heavy grunge, or halftone fields.",
+    "mood": "Youthful, assertive, fast, urban, and campaign-like while staying unbranded."
+  },
+  "composition": {
+    "canvas": "Use the requested {ASPECT_RATIO} frame as a white poster surface, not a bordered card.",
+    "photo_panels": "Build the scene from overlapping rectangular photo panels with staggered left and right edges, slight rotations, and visible white gaps.",
+    "subject_layer": "Place one realistic action subject near center, crossing the photo-panel stack and partially overlapping drawn marks.",
+    "motion_layer": "Add black brush-speed arcs, scratch strokes, and thin white slash lines that point through the movement path.",
+    "type_layer": "Keep the main headline in the upper-left zone, black, condensed, stacked, and separated from the subject by white space.",
+    "background_layer": "Use faint monochrome line drawings of scaffolding, railings, skyline, racks, or structures behind the subject inside the photo area."
+  },
+  "typography": {
+    "display": "Tall condensed uppercase sans-serif, black, bold, narrow, with tight leading and a slightly rough poster-print edge.",
+    "placement": "Upper-left corner or upper-left vertical band, stacked in two or three lines, never centered like a title card.",
+    "scale": "Large enough to anchor the poster but smaller than the full collage stack; it should not cover the subject.",
+    "secondary": "Small sparse uppercase notes may appear as tiny editorial texture near panel edges, but the style should not become text-heavy.",
+    "text_behavior": "Words should feel like campaign commands or active verbs, short and punchy."
+  },
+  "color_palette": {
+    "dominant": [
+      "clean white negative space",
+      "black typography and ink",
+      "pale sky blue",
+      "concrete gray"
+    ],
+    "supporting": [
+      "muted field green",
+      "sunlit tan",
+      "steel blue-gray",
+      "soft architectural gray"
+    ],
+    "accent": [
+      "signal red",
+      "hot orange",
+      "electric teal",
+      "acid yellow"
+    ],
+    "palette_rule": "Keep the poster mostly white, black, and natural daylight photo colors; concentrate one saturated accent in the wardrobe or prop."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Realistic daylight action photography combined with flat drawn ink graphics and crisp editorial typography.",
+    "lighting": "Bright outdoor or skylit daylight with natural shadows and clean contrast.",
+    "lens": "Moderately wide lens or mid-distance sports/editorial perspective, allowing panels to show both subject and environment.",
+    "motion": "Freeze the decisive motion moment; imply speed through drawn streaks rather than heavy photo blur.",
+    "finish": "Clean commercial poster collage, sharp subject edges, layered photo tiles, and dry-brush black ink with visible line-weight variation."
+  },
+  "design_rules": [
+    "Use one main subject and one clear action, with no crowded group scene.",
+    "Keep the white canvas visible around the photo collage and ink marks.",
+    "Make the photo-panel stack the central structure rather than a full-bleed background.",
+    "Use black ink movement marks as the dominant graphic overlay.",
+    "Put the headline in the upper-left zone with compressed uppercase black type.",
+    "Use thin line-art architecture or scene details behind the subject to add editorial depth.",
+    "Concentrate bright color on the subject's wardrobe or prop, not across the whole frame.",
+    "Keep all branding generic and fictional; no real logos or identity marks."
+  ],
+  "do": [
+    "Use staggered rectangular photo panels on a clean white poster canvas.",
+    "Use bold black condensed type in the upper-left corner.",
+    "Use black dry-brush speed arcs, scratch marks, and edge slashes.",
+    "Use realistic daylight photography for the subject and setting.",
+    "Use one saturated accent on a prop or outfit.",
+    "Use thin monochrome line-art structures as background overlays."
+  ],
+  "avoid": [
+    "No soccer players, soccer balls, footballs, ball trails, or copied kicking poses.",
+    "No Nike, swoosh, team logos, real brand marks, watermarks, signatures, usernames, or QR codes.",
+    "No copied PLAY LIKE YOU OWN IT wording or close slogan variants.",
+    "No exact rooftop soccer-field scene, exact skyline/turf arrangement, or three flying illustrated balls.",
+    "No full-bleed single-photo sports ad without the broken photo-panel collage.",
+    "No comic halftone, sticker pack, neon cyber trails, painterly illustration, vector-only substitute, or 3D render.",
+    "No dense magazine page layout that removes the white negative space."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} poster image in the Kinetic Editorial Photo Collage visual style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: use a clean white poster canvas with visible negative space; assemble the scene from staggered overlapping rectangular daylight photo panels with uneven collage edges; place one realistic action subject near the center, frozen in a decisive diagonal movement; add black hand-drawn dry-brush speed arcs, scratch marks, sweeping edge slashes, and thin white motion cuts over the panels; add faint monochrome line-art architecture, racks, rails, or skyline details behind the subject; set the headline in the upper-left corner using tall compressed black uppercase sans-serif type with tight leading; keep color restrained to white, black, daylight sky blue, concrete gray, muted environment tones, and one saturated accent on the prop or wardrobe; keep the finish clean, commercial, editorial, energetic, and unbranded. Avoid real logos, watermarks, platform marks, soccer balls, copied slogans, copied people, and any direct recreation of the source image. Important content rule: preserve the collage typography, ink-motion grammar, panel layering, and white-space density first, then change the subject, action, prop, scene, and text.",
+  "negative_prompt": "soccer player, soccer ball, football, ball trail, kicking a ball, Nike, swoosh, real sportswear logo, team crest, watermark, creator ID, QR code, PLAY LIKE YOU OWN IT, own it slogan, copied slogan, exact source athlete, red sleeveless soccer uniform, rooftop soccer field, turf foreground, copied skyline, three flying illustrated balls, full-bleed single photo, comic halftone, sticker pack, neon trail, 3D render, vector-only graphic, painterly illustration, dense magazine layout, low-resolution text",
+  "examples": [
+    {
+      "case_name": "rooftop-skate-launch",
+      "values": {
+        "SUBJECT": "a skateboarder",
+        "SUBJECT_ACTION": "launching a high ollie over a painted curb",
+        "PRODUCT_OR_PROP": "a teal skateboard with orange wheels",
+        "LOCATION": "a sunlit rooftop parking deck",
+        "BACKGROUND_ELEMENTS": "low concrete barriers, pale blue sky, thin line-art railings, distant blocky buildings",
+        "MAIN_TEXT": "OWN THE AIR",
+        "SECONDARY_TEXT": "street session / noon deck / clean landing",
+        "ACCENT_SYMBOL": "short slash",
+        "WARDROBE_STYLE": "black shorts, white tee, signal-red socks, no logos",
+        "STYLE_FIDELITY_ANCHORS": "white canvas, staggered rectangular photo panels, central cutout action subject, black condensed upper-left headline, dry-brush speed arcs, thin line-art city structures, daylight photo realism, restrained palette with one saturated accent",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer player, no soccer ball, no Nike or swoosh, no PLAY LIKE YOU OWN IT wording, no copied kicking pose, no rooftop soccer turf"
+      }
+    },
+    {
+      "case_name": "market-courier-weave",
+      "values": {
+        "SUBJECT": "a bicycle courier",
+        "SUBJECT_ACTION": "weaving around stacked produce crates",
+        "PRODUCT_OR_PROP": "a matte black cargo bike with a hot-orange delivery box",
+        "LOCATION": "an open-air morning market street",
+        "BACKGROUND_ELEMENTS": "awning poles, produce stands, scaffold-like stall frames, blue sky slices, sunlit pavement",
+        "MAIN_TEXT": "CUT THROUGH",
+        "SECONDARY_TEXT": "market route / fast hands / fresh drop",
+        "ACCENT_SYMBOL": "small star",
+        "WARDROBE_STYLE": "gray windbreaker, black cap, teal gloves, no logos",
+        "STYLE_FIDELITY_ANCHORS": "white poster space, overlapping photo tiles, central realistic motion subject, top-left condensed black type, black brush streaks and edge slashes, thin line-art market structures, bright daylight, one saturated prop accent",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer athlete, no ball, no sports-brand campaign marks, no copied slogan, no rooftop turf scene, no illustrated flying balls"
+      }
+    },
+    {
+      "case_name": "harbor-kite-lift",
+      "values": {
+        "SUBJECT": "a kiteboarder",
+        "SUBJECT_ACTION": "lifting off a choppy harbor wake",
+        "PRODUCT_OR_PROP": "an acid-yellow board and black control bar",
+        "LOCATION": "a bright waterfront launch zone",
+        "BACKGROUND_ELEMENTS": "harbor railings, low skyline, open blue sky, spray frozen in sunlight, sketched pier outlines",
+        "MAIN_TEXT": "RIDE THE WIND",
+        "SECONDARY_TEXT": "harbor line / gust check / hold course",
+        "ACCENT_SYMBOL": "wave dash",
+        "WARDROBE_STYLE": "black wetsuit with a small red vest panel, no logos",
+        "STYLE_FIDELITY_ANCHORS": "clean white margins, broken rectangular daylight photo stack, one centered airborne subject, black condensed headline at upper left, ink speed curves, scratch marks, thin line-art architecture, sky-blue and gray palette with acid accent",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer, no football, no ball trails, no Nike, no copied source text, no young soccer player, no turf rooftop"
+      }
+    },
+    {
+      "case_name": "drumline-street-break",
+      "values": {
+        "SUBJECT": "a street drummer",
+        "SUBJECT_ACTION": "snapping both sticks downward mid-jump",
+        "PRODUCT_OR_PROP": "a compact silver snare drum on a shoulder harness",
+        "LOCATION": "a sunlit concrete plaza under transit tracks",
+        "BACKGROUND_ELEMENTS": "thin line-art beams, rail shadows, pale blue sky gaps, concrete steps, sparse crowd blur",
+        "MAIN_TEXT": "MAKE NOISE",
+        "SECONDARY_TEXT": "plaza count / hard break / stay loose",
+        "ACCENT_SYMBOL": "ink underline",
+        "WARDROBE_STYLE": "sleeveless charcoal top, white pants, hot-orange wrist tape, no logos",
+        "STYLE_FIDELITY_ANCHORS": "white negative-space canvas, staggered photo collage panels, central decisive action subject, black upper-left block typography, hand-drawn brush motion marks, thin structure linework, daylight realism, restrained palette with orange accent",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer player, no ball, no kicking pose, no Nike or swoosh, no source slogan, no identical skyline panel layout"
+      }
+    }
+  ]
+}

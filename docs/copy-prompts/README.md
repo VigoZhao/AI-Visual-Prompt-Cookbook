@@ -30,6 +30,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
 | Jade Glyph Grocer Collage Poster Style | [Copy Prompt](jade-glyph-grocer-collage-poster-style.md) | [style.json](../../styles/jade-glyph-grocer-collage-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |
+| Kinetic Editorial Photo Collage | [Copy Prompt](kinetic-editorial-photo-collage-style.md) | [style.json](../../styles/kinetic-editorial-photo-collage-style/style.json) |
 | Kinetic Geometric Doodle Cutouts | [Copy Prompt](kinetic-geometric-doodle-cutouts.md) | [style.json](../../styles/kinetic-geometric-doodle-cutouts/style.json) |
 | Kinetic Luxury Street Fashion Cover Style | [Copy Prompt](kinetic-luxury-street-fashion-cover-style.md) | [style.json](../../styles/kinetic-luxury-street-fashion-cover-style/style.json) |
 | Loose Scribble Riso Print Style | [Copy Prompt](loose-scribble-riso-print-style.md) | [style.json](../../styles/loose-scribble-riso-print-style/style.json) |
@@ -37,6 +38,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Market Brush Produce Poster Style | [Copy Prompt](market-brush-produce-poster-style.md) | [style.json](../../styles/market-brush-produce-poster-style/style.json) |
 | Metro Doodle Snapshot Diary | [Copy Prompt](metro-doodle-snapshot-diary-style.md) | [style.json](../../styles/metro-doodle-snapshot-diary-style/style.json) |
 | Mono Noir Type Portrait Poster Style | [Copy Prompt](mono-noir-type-portrait-poster-style.md) | [style.json](../../styles/mono-noir-type-portrait-poster-style/style.json) |
+| Monochrome Grid Sneaker Tech Spec | [Copy Prompt](monochrome-grid-sneaker-tech-spec.md) | [style.json](../../styles/monochrome-grid-sneaker-tech-spec/style.json) |
 | Mountain Trail Monster Doodle Poster Style | [Copy Prompt](mountain-trail-monster-doodle-poster-style.md) | [style.json](../../styles/mountain-trail-monster-doodle-poster-style/style.json) |
 | Multi-Color Beverage Splash Ad System Style | [Copy Prompt](multi-color-beverage-splash-ad-system-style.md) | [style.json](../../styles/multi-color-beverage-splash-ad-system-style/style.json) |
 | Naive Marker PSA Poster Style | [Copy Prompt](naive-marker-psa-poster-style.md) | [style.json](../../styles/naive-marker-psa-poster-style/style.json) |
@@ -67,6 +69,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
 | Sunlit Architectural Fashion Editorial | [Copy Prompt](sunlit-architectural-fashion-editorial.md) | [style.json](../../styles/sunlit-architectural-fashion-editorial/style.json) |
+| Sunlit Coastal Product Blitz | [Copy Prompt](sunlit-coastal-product-blitz.md) | [style.json](../../styles/sunlit-coastal-product-blitz/style.json) |
 | Sunlit Kinetic Block Type Photo Poster | [Copy Prompt](sunlit-kinetic-block-type-photo-poster-style.md) | [style.json](../../styles/sunlit-kinetic-block-type-photo-poster-style/style.json) |
 | Sunlit Supermodel Nameplate Editorial | [Copy Prompt](sunlit-supermodel-nameplate-editorial.md) | [style.json](../../styles/sunlit-supermodel-nameplate-editorial/style.json) |
 | Sunny 3D Avatar Campaign Style | [Copy Prompt](sunny-3d-avatar-campaign-style.md) | [style.json](../../styles/sunny-3d-avatar-campaign-style/style.json) |

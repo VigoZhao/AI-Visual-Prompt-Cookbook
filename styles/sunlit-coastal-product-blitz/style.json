@@ -1,0 +1,190 @@
+{
+  "style_name": "Sunlit Coastal Product Blitz",
+  "style_slug": "sunlit-coastal-product-blitz",
+  "style_version": "2.1.0",
+  "style_summary": "A high-density photoreal coastal product advertising style built from sunlit tabletop hero products, tropical foreground botanicals, blue ocean depth, oversized distressed white brush typography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Photoreal summer product advertisement with a sunlit rustic wooden tabletop in the foreground and an ocean, sky, or resort horizon behind it.",
+    "One large hero product or container sits near the center or front third, photographed with condensation, glossy highlights, and appetizing clarity.",
+    "Layered depth: blurred background venue elements, sharp foreground prop details, and leafy botanical framing crossing the top and lower corners.",
+    "Oversized white distressed brush-calligraphy headline dominates the upper or central area, with rough ink edges, drop shadow, and strong dimensional contrast.",
+    "Secondary English or compact sans-serif text appears in bold white all-caps blocks, usually left, right, or bottom aligned.",
+    "Curved arc callouts with spaced characters, bullet separators, or short taglines float around the hero product.",
+    "Gold foil medallion badges or seal stickers sit near a lower corner with embossed shine and dark small text.",
+    "Warm amber, citrus, coral, or product-color accents contrast with saturated turquoise ocean and bright white foam or typography.",
+    "High-density commercial poster layout: product, headline, callouts, badges, props, and bottom caption all visible without becoming a flat collage.",
+    "Bright direct coastal sunlight with crisp reflections, shallow depth of field, and realistic lens blur instead of illustration or vector styling.",
+    "Natural product-ad props such as fruit wedges, herbs, shells, rope, towel fabric, ice, or glassware arranged as tactile foreground evidence.",
+    "Festival-market energy: punchy, celebratory, slightly maximal, fresh-supply storytelling with handmade craft cues."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate beer, IPA, ale, beer foam in a pint glass, beer bottles, beer cans, hops, brewery tanks, or brewery equipment.",
+    "Do not use the original Wild Island name, West Coast IPA wording, IBU 65 claim, seven-hop claim, small-batch 200-bottle claim, or copied Chinese slogans.",
+    "Do not duplicate the exact beach brewery tabletop scene with a pint glass centered, hops scattered around, orange wedge in front, and bottle on the right.",
+    "Do not use the same brand label, mountain-island emblem, badge wording, signature marks, watermarks, or real brewery identity.",
+    "Do not copy the exact top-left calligraphy placement, exact curved IPA arc text, or bottom caption wording from the reference.",
+    "Do not make generated samples about alcoholic beverages unless explicitly requested later.",
+    "Do not include QR codes, usernames, platform marks, creator IDs, or recognizable commercial logos.",
+    "Do not preserve the source story premise of a limited West Coast IPA release shipped fresh from a craft brewery."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "The design is a full-bleed advertising poster built around a tactile hero product on a rustic tabletop. Large distressed brush type and white sans callouts form a dense overlay system while tropical props and background depth keep the scene photographic.",
+    "subject_placement": "The hero product is large, front-facing, and placed near the center or strong third line. Supporting product packs, ingredient props, or bottles can sit to the side but must stay subordinate.",
+    "camera_perspective": "Eye-level to slightly low tabletop camera with a shallow depth-of-field background, making the hero product feel physically close and the venue behind it aspirational.",
+    "typography_system": "Oversized rough white brush-calligraphy for the emotional headline, bold condensed white English all-caps for product category, compact bottom caption, arced callout text, and gold badge microtype.",
+    "color_behavior": "Turquoise ocean and bright sky create the cool field, while amber product liquid, citrus, coral, green leaves, or warm wood create the appetite accents. White typography and gold badges are the main graphic overlays.",
+    "texture_and_lighting": "Hard coastal sunlight, sparkling condensation, glossy glass or packaging, rough wood grain, leafy edges, blurred string lights or patio details, and embossed metallic badge shine."
+  },
+  "composition": {
+    "canvas": "Use the requested {ASPECT_RATIO} frame as a full-bleed photoreal advertising poster with no border, card, or app chrome.",
+    "hero_product": "Make one product or serving vessel visually dominant, large enough to anchor the frame and sharp enough to read as a premium commercial hero.",
+    "depth_layers": "Use a foreground tabletop with tactile ingredients, a midground hero product, and a softly blurred beach, island cafe, or resort production scene behind it.",
+    "text_overlay": "Place a very large rough white brush headline across the upper or central third, plus smaller white sans blocks and curved callouts around the product.",
+    "badge_zone": "Reserve one lower corner for one or two shiny gold medallion seals, and reserve the bottom edge for a bold white promotional caption."
+  },
+  "typography": {
+    "display": "Large white distressed Chinese brush-calligraphy style, rough ink edges, slight shadow, irregular baseline, and handmade festival energy.",
+    "english_block": "Bold condensed sans-serif in white all caps, tight spacing, short words, placed as product category or label text.",
+    "microcopy": "Small white or dark-on-gold type inside badges and short supporting lines; it works as commercial detail texture, not long paragraph text.",
+    "arc_text": "Curved callout text with bullet separators or dot accents, wrapping around the hero product or headline.",
+    "text_behavior": "Text must feel integrated into the poster as layered campaign graphics while remaining separate from real brand marks."
+  },
+  "color_palette": {
+    "dominant": [
+      "turquoise ocean blue",
+      "clear summer sky blue",
+      "sunlit weathered wood brown",
+      "bright white typography"
+    ],
+    "supporting": [
+      "leaf green",
+      "warm product amber",
+      "citrus orange",
+      "cream label paper",
+      "deep bottle or shadow brown"
+    ],
+    "accent": [
+      "gold foil badge",
+      "coral fruit flesh",
+      "lime green herb",
+      "red chili gloss",
+      "coconut white"
+    ],
+    "palette_rule": "Keep the background cool and coastal, the tabletop warm and tactile, the typography white, and the sale-proof elements metallic gold."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Photoreal commercial product photography combined with dense advertising typography and badge overlays.",
+    "lighting": "Bright direct summer sunlight, crisp highlights, reflective packaging, condensation sparkle, and clean warm shadows.",
+    "lens": "Tabletop product-ad lens with shallow depth of field; hero product sharp, foreground props crisp, distant beach or venue softly blurred.",
+    "finish": "Premium food-and-beverage campaign finish, high contrast, saturated but natural, slightly polished for billboard or social ad use.",
+    "texture": "Visible wood grain, droplets, fruit pulp, herb veins, rope fibers, metallic badge shine, and subtle realistic lens blur."
+  },
+  "design_rules": [
+    "Use one dominant product hero and keep all supporting props clearly subordinate.",
+    "Keep the poster dense with layered copy, callouts, badges, and props, but preserve a readable commercial hierarchy.",
+    "Use rough white brush type for emotional headline impact and condensed white sans type for category clarity.",
+    "Add curved callout text and bullet separators to make the poster feel like a crafted product feature blast.",
+    "Use one or two gold medallion seals near a lower corner to signal proof, limited run, award, or freshness.",
+    "Frame the scene with botanical or ingredient elements at top and bottom edges for tropical market abundance.",
+    "Keep all identity marks fictional or generic; no real logos, watermarks, QR codes, or copied brand names.",
+    "Change the product category, ingredient story, copy, badge claims, and props for every new case."
+  ],
+  "do": [
+    "Use sunlit coastal product photography with a rustic tabletop and ocean depth.",
+    "Use oversized distressed white brush typography with a subtle shadow.",
+    "Show tactile ingredient props and condensation or gloss on the hero product.",
+    "Include curved white callouts and compact sans-serif category labels.",
+    "Use shiny gold medallion seals as lower-corner proof badges.",
+    "Keep the mood fresh, celebratory, handmade, and commercially appetizing."
+  ],
+  "avoid": [
+    "No beer, IPA, hops, brewery tanks, pint glass beer foam, or copied beer-release story.",
+    "No Wild Island wording, West Coast IPA wording, IBU claim, seven-hop claim, or small-batch 200-bottle claim.",
+    "No real brand logos, watermarks, QR codes, creator marks, usernames, or platform marks.",
+    "No flat vector poster, 3D render, painterly illustration, UI mockup, or screenshot substitute.",
+    "No sparse luxury minimalism, dark studio lighting, muted beige-only palette, or text-free product photo.",
+    "No exact source layout duplication with the same glass, bottle, hops, orange wedge, and badge arrangement."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} full-bleed photoreal coastal product advertising poster in the Sunlit Coastal Product Blitz style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Subject and action: {SUBJECT} {SUBJECT_ACTION}. Product or prop hero: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Camera and composition: tabletop eye-level to slightly low commercial product perspective, one large sharp hero product near center or strong third line, rustic wooden table foreground, shallow depth-of-field coastal venue behind it, leafy or ingredient framing crossing the top and lower corners, dense but readable campaign hierarchy. Typography: place an oversized rough white Chinese brush-calligraphy-style headline reading {MAIN_TEXT} across the upper or central area with distressed ink edges and a subtle shadow. Add bold condensed white all-caps English category text and compact white sans-serif supporting text reading {SECONDARY_TEXT}. Add curved callout text with bullet separators using {ACCENT_SYMBOL} around the hero product. Badge system: add one or two shiny gold foil medallion seals near a lower corner with tiny generic proof text. Styling details: {WARDROBE_STYLE}. Color system: saturated turquoise ocean and bright sky, warm sunlit wood, crisp white typography, green botanicals, product-color accents, and metallic gold badges. Lighting and finish: bright direct coastal sunlight, glossy reflections, condensation or tactile ingredient texture, realistic lens blur, premium commercial poster finish. Important content rule: match the style first, then change the original content completely; do not include beer, IPA, hops, brewery equipment, Wild Island text, copied badge claims, real logos, watermarks, or QR codes. Generate as a 4K ultra-high-resolution raster image.",
+  "negative_prompt": "beer, IPA, ale, pint glass beer, beer foam, beer bottle, beer can, hops, brewery tank, brewery equipment, Wild Island, West Coast IPA, IBU 65, seven hops, small batch 200 bottles, copied Chinese slogan, copied reference layout, real brand logo, watermark, QR code, username, platform mark, creator ID, exact product label from source, flat vector art, 3D render, painterly illustration, UI screenshot, dark studio lighting, sparse minimalist luxury ad, low-resolution text, illegible main headline",
+  "examples": [
+    {
+      "case_name": "yuzu-sparkling-soda",
+      "values": {
+        "SUBJECT": "a chilled clear glass bottle and tall fizzing glass",
+        "SUBJECT_ACTION": "catching sunlight as sparkling yuzu soda bubbles over ice",
+        "PRODUCT_OR_PROP": "fictional yuzu sparkling soda with citrus slices, mint, and a blank cream label",
+        "LOCATION": "a seaside juice bar counter under a woven awning",
+        "BACKGROUND_ELEMENTS": "turquoise water, soft patio lights, blurred glass jars, fresh citrus baskets, green leaves overhead",
+        "MAIN_TEXT": "柚香暴击",
+        "SECONDARY_TEXT": "SPARKLING YUZU / FRESH POUR / SUMMER DROP",
+        "ACCENT_SYMBOL": "•",
+        "WARDROBE_STYLE": "fresh citrus-market styling with mint leaves, ice cubes, rope, and clean condensation",
+        "STYLE_FIDELITY_ANCHORS": "sunlit rustic tabletop, turquoise ocean background, central glossy product hero, leafy top framing, oversized distressed white brush headline, condensed white English label text, curved bullet callouts, gold foil badge seals, warm fruit accents, dense premium product-ad hierarchy",
+        "SOURCE_CONTENT_TO_AVOID": "no beer, IPA, hops, brewery equipment, pint glass beer foam, Wild Island wording, West Coast IPA text, IBU claim, seven-hop claim, orange-wedge beer scene, or copied badge wording"
+      }
+    },
+    {
+      "case_name": "coastal-cold-brew",
+      "values": {
+        "SUBJECT": "a chilled bottle of cold brew coffee beside a glass of coffee tonic",
+        "SUBJECT_ACTION": "standing on wet wood with ice, bubbles, and citrus peel catching hard sunlight",
+        "PRODUCT_OR_PROP": "fictional coastal cold brew bottle, coffee tonic glass, coffee beans, and a cream paper label",
+        "LOCATION": "a beachside morning cafe workbench",
+        "BACKGROUND_ELEMENTS": "blue sea horizon, blurred espresso tools, linen towel, hanging plants, warm reflections on glass",
+        "MAIN_TEXT": "晨浪冷萃",
+        "SECONDARY_TEXT": "COASTAL COLD BREW / ICE TONIC / MORNING ROAST",
+        "ACCENT_SYMBOL": "•",
+        "WARDROBE_STYLE": "artisan cafe styling with dark coffee liquid, citrus twist, wet glass, beans, and folded linen",
+        "STYLE_FIDELITY_ANCHORS": "photoreal coastal tabletop poster, shallow beach depth, large central product, condensation sparkle, giant rough white brush type, bold white English blocks, arc callouts with dots, shiny gold medallions, warm wood, green leaf framing, saturated summer color",
+        "SOURCE_CONTENT_TO_AVOID": "no beer, IPA, hops, brewery tanks, beer bottles, Wild Island name, West Coast IPA category, IBU number, seven-hop story, orange beer garnish, or copied source text"
+      }
+    },
+    {
+      "case_name": "island-chili-crisp",
+      "values": {
+        "SUBJECT": "an open jar of chili crisp with a spoon lifting glossy red oil",
+        "SUBJECT_ACTION": "glowing on a sunlit counter with sesame, garlic chips, and lime wedges scattered around",
+        "PRODUCT_OR_PROP": "fictional island chili crisp jar with a blank kraft label and woven rope tie",
+        "LOCATION": "a coastal street-food stall facing the water",
+        "BACKGROUND_ELEMENTS": "turquoise ocean blur, wooden trays, fresh herbs, paper napkins, soft awning shadow, glass condiment bottles",
+        "MAIN_TEXT": "辣浪上桌",
+        "SECONDARY_TEXT": "ISLAND CHILI CRISP / SMALL POT / FRESH HEAT",
+        "ACCENT_SYMBOL": "•",
+        "WARDROBE_STYLE": "street-market condiment styling with red chili oil, garlic texture, lime, cilantro, and weathered wood",
+        "STYLE_FIDELITY_ANCHORS": "bright beachside commercial photo, rustic tabletop, tactile ingredient props, ocean depth, oversized white distressed brush headline, condensed white product text, curved feature callouts, lower-corner gold seals, saturated red accent against turquoise and wood",
+        "SOURCE_CONTENT_TO_AVOID": "no beer, IPA, hops, brewery gear, pint glass, beer bottle on the right, Wild Island name, West Coast IPA wording, IBU or seven-hop claims, or original limited beer-release premise"
+      }
+    },
+    {
+      "case_name": "coconut-sun-gel",
+      "values": {
+        "SUBJECT": "a translucent jar of coconut aloe sun gel with a matching squeeze tube",
+        "SUBJECT_ACTION": "beading with water droplets beside cracked coconut, aloe slices, and white sand",
+        "PRODUCT_OR_PROP": "fictional coconut aloe after-sun gel jar and tube with blank cream labels",
+        "LOCATION": "a resort beach spa table under palm shade",
+        "BACKGROUND_ELEMENTS": "blue ocean, white umbrella blur, woven mat, glass water bottle, palm leaves, sunlit shells",
+        "MAIN_TEXT": "晒后清凉",
+        "SECONDARY_TEXT": "COCONUT ALOE GEL / COOL TOUCH / BEACH CARE",
+        "ACCENT_SYMBOL": "•",
+        "WARDROBE_STYLE": "fresh spa-product styling with coconut white, aloe green, wet droplets, woven fiber, and shell props",
+        "STYLE_FIDELITY_ANCHORS": "sunlit coastal tabletop, hero product sharp and glossy, tropical leaf framing, turquoise background, huge rough white brush typography, bold white English category block, curved callouts, shiny gold proof badges, warm natural props, high-density commercial poster layout",
+        "SOURCE_CONTENT_TO_AVOID": "no beer, alcoholic beverage, hops, brewery equipment, IPA text, Wild Island mark, beer glass, beer bottle, orange wedge beer garnish, IBU number, seven-hop claim, or copied source story"
+      }
+    }
+  ]
+}

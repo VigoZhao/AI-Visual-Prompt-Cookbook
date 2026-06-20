@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="风格数量" src="https://img.shields.io/badge/styles-75-ff5a7a?style=flat-square">
-  <img alt="预览图" src="https://img.shields.io/badge/previews-150-4cc9f0?style=flat-square">
+  <img alt="风格数量" src="https://img.shields.io/badge/styles-78-ff5a7a?style=flat-square">
+  <img alt="预览图" src="https://img.shields.io/badge/previews-156-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="语言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 精选风格
 
-先看这 6 个风格。每个风格都保持轻量：一个 JSON 加两张预览图。完整 75 个风格见下面的 [All Styles](#all-styles) 画廊。
+先看这 6 个风格。每个风格都保持轻量：一个 JSON 加两张预览图。完整 78 个风格见下面的 [All Styles](#all-styles) 画廊。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/kinetic-editorial-photo-collage-style"><img src="styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg" alt="Kinetic Editorial Photo Collage preview"></a>
+<h3>Kinetic Editorial Photo Collage</h3>
+<p>A high-energy action-poster system built from staggered photographic tiles on white space, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art urban scaffolding.</p>
+<p><a href="styles/kinetic-editorial-photo-collage-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/kinetic-editorial-photo-collage-style.md">复制提示词</a> · <a href="styles/kinetic-editorial-photo-collage-style">目录</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/sunlit-coastal-product-blitz"><img src="styles/sunlit-coastal-product-blitz/preview-16x9.jpg" alt="Sunlit Coastal Product Blitz preview"></a>
+<h3>Sunlit Coastal Product Blitz</h3>
+<p>A high-density photoreal coastal product advertising style built from sunlit tabletop hero products, tropical foreground botanicals, blue ocean depth, oversized distressed white brush typography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.</p>
+<p><a href="styles/sunlit-coastal-product-blitz/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/sunlit-coastal-product-blitz.md">复制提示词</a> · <a href="styles/sunlit-coastal-product-blitz">目录</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/monochrome-grid-sneaker-tech-spec"><img src="styles/monochrome-grid-sneaker-tech-spec/preview-16x9.jpg" alt="Monochrome Grid Sneaker Tech Spec preview"></a>
+<h3>Monochrome Grid Sneaker Tech Spec</h3>
+<p>A black-and-white footwear product analysis poster system with an oversized sneaker hero, pale engineering grid, top-strip evidence panels, macro material callouts, thin technical connector lines, pixelated uppercase typography, and coarse halftone print texture.</p>
+<p><a href="styles/monochrome-grid-sneaker-tech-spec/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/monochrome-grid-sneaker-tech-spec.md">复制提示词</a> · <a href="styles/monochrome-grid-sneaker-tech-spec">目录</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/sky-blue-lucky-tag-doodle-poster-style"><img src="styles/sky-blue-lucky-tag-doodle-poster-style/preview-16x9.jpg" alt="Sky Blue Lucky Tag Doodle Poster Style preview"></a>
@@ -142,26 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Loose Scribble Riso Print Style</h3>
 <p>A sparse handmade riso or screenprint poster style with one large simplified subject, wavering black contour drawing, rough off-white paper, flat blue and coral-red overprint accents, handwritten margin text, and visible print grain.</p>
 <p><a href="styles/loose-scribble-riso-print-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/loose-scribble-riso-print-style.md">复制提示词</a> · <a href="styles/loose-scribble-riso-print-style">目录</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/jade-glyph-grocer-collage-poster-style"><img src="styles/jade-glyph-grocer-collage-poster-style/preview-16x9.jpg" alt="Jade Glyph Grocer Collage Poster Style preview"></a>
-<h3>Jade Glyph Grocer Collage Poster Style</h3>
-<p>A sparse East Asian grocer-poster system built from warm cream paper, oversized jade-green hand-cut glyphs, pale vegetable silhouette clouds, tiny editorial headers, and one glossy produce-photo centerpiece layered over the typography.</p>
-<p><a href="styles/jade-glyph-grocer-collage-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/jade-glyph-grocer-collage-poster-style.md">复制提示词</a> · <a href="styles/jade-glyph-grocer-collage-poster-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/scarlet-court-photo-type-poster-style"><img src="styles/scarlet-court-photo-type-poster-style/preview-16x9.jpg" alt="Scarlet Court Photo Type Poster preview"></a>
-<h3>Scarlet Court Photo Type Poster</h3>
-<p>A saturated action-ad poster style built from a flat scarlet field, a hard-edged blue photographic sports panel, one cutout subject crossing between those zones, oversized warm-cream display typography, vertical side microcopy, and gritty printed-poster texture.</p>
-<p><a href="styles/scarlet-court-photo-type-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/scarlet-court-photo-type-poster-style.md">复制提示词</a> · <a href="styles/scarlet-court-photo-type-poster-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/sunlit-kinetic-block-type-photo-poster-style"><img src="styles/sunlit-kinetic-block-type-photo-poster-style/preview-16x9.jpg" alt="Sunlit Kinetic Block Type Photo Poster preview"></a>
-<h3>Sunlit Kinetic Block Type Photo Poster</h3>
-<p>A high-energy editorial sports and lifestyle poster style built from full-bleed sunlit photography, oversized cream condensed block typography, diagonal subject crops, compact microcopy clusters, and vivid blue-sky color fields.</p>
-<p><a href="styles/sunlit-kinetic-block-type-photo-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/sunlit-kinetic-block-type-photo-poster-style.md">复制提示词</a> · <a href="styles/sunlit-kinetic-block-type-photo-poster-style">目录</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下面可以浏览全部 75 个风格。
+下面可以浏览全部 78 个风格。
 
 完整库包含上面的精选风格。每个风格的完整描述和全部文件链接见 [docs/CATALOG.md](docs/CATALOG.md)。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="kinetic-editorial-photo-collage-style"></a>
+<a href="styles/kinetic-editorial-photo-collage-style"><img src="styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg" alt="Kinetic Editorial Photo Collage preview"></a>
+<p><strong><a href="styles/kinetic-editorial-photo-collage-style">Kinetic Editorial Photo Collage</a></strong><br>
+<em>High-energy action posters built from staggered photo tiles, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art scaffolding.</em><br>
+<a href="styles/kinetic-editorial-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-editorial-photo-collage-style.md">prompt</a> · <a href="styles/kinetic-editorial-photo-collage-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="sunlit-coastal-product-blitz"></a>
+<a href="styles/sunlit-coastal-product-blitz"><img src="styles/sunlit-coastal-product-blitz/preview-16x9.jpg" alt="Sunlit Coastal Product Blitz preview"></a>
+<p><strong><a href="styles/sunlit-coastal-product-blitz">Sunlit Coastal Product Blitz</a></strong><br>
+<em>Sunlit photoreal coastal product ads with tropical botanicals, ocean-blue depth, distressed white brush type, dense label blocks, curved callouts, and gold seal badges.</em><br>
+<a href="styles/sunlit-coastal-product-blitz/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-coastal-product-blitz.md">prompt</a> · <a href="styles/sunlit-coastal-product-blitz/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="monochrome-grid-sneaker-tech-spec"></a>
+<a href="styles/monochrome-grid-sneaker-tech-spec"><img src="styles/monochrome-grid-sneaker-tech-spec/preview-16x9.jpg" alt="Monochrome Grid Sneaker Tech Spec preview"></a>
+<p><strong><a href="styles/monochrome-grid-sneaker-tech-spec">Monochrome Grid Sneaker Tech Spec</a></strong><br>
+<em>Black-and-white footwear tech-spec posters with an oversized sneaker hero, engineering grid, evidence panels, macro callouts, pixelated uppercase type, and coarse halftone print.</em><br>
+<a href="styles/monochrome-grid-sneaker-tech-spec/style.json">style.json</a> · <a href="docs/copy-prompts/monochrome-grid-sneaker-tech-spec.md">prompt</a> · <a href="styles/monochrome-grid-sneaker-tech-spec/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="sky-blue-lucky-tag-doodle-poster-style"></a>

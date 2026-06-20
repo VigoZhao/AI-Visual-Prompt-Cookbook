@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 75,
+  "styleCount": 78,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,114 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Kinetic Editorial Photo Collage",
+      "slug": "kinetic-editorial-photo-collage-style",
+      "category": "Type Posters",
+      "description": "High-energy action posters built from staggered photo tiles, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art scaffolding.",
+      "summary": "A high-energy action-poster system built from staggered photographic tiles on white space, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art urban scaffolding.",
+      "preview16": "../styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg",
+      "preview9": "../styles/kinetic-editorial-photo-collage-style/preview-9x16.jpg",
+      "styleJson": "../styles/kinetic-editorial-photo-collage-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/kinetic-editorial-photo-collage-style.md",
+      "folder": "../styles/kinetic-editorial-photo-collage-style/",
+      "anchors": [
+        "White poster canvas remains visible around and between layered photographic panels rather than becoming a full-bleed single photo.",
+        "The scene is assembled from staggered rectangular photo tiles with slight offsets, overlaps, and uneven collage edges.",
+        "A single realistic action subject sits near the center and feels cut into or lifted from the photo-panel stack.",
+        "The action is frozen at a decisive airborne, twisting, leaning, or reaching moment with a clear diagonal line of movement.",
+        "Large black extra-condensed uppercase typography sits in the upper-left zone, stacked in two or three compact lines.",
+        "Loose black hand-drawn ink speed marks arc around the subject and sweep in from the frame edges with visible brush variation."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rooftop-skate-launch",
+      "copyPrompt": "Use the \"Kinetic Editorial Photo Collage\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a skateboarder\nSubject action: launching a high ollie over a painted curb\nProduct or prop: a teal skateboard with orange wheels\nLocation: a sunlit rooftop parking deck\nBackground elements: low concrete barriers, pale blue sky, thin line-art railings, distant blocky buildings\nMain text: OWN THE AIR\nSecondary text: street session / noon deck / clean landing\nAccent symbol: short slash\nWardrobe style: black shorts, white tee, signal-red socks, no logos\n\nStyle direction:\nA high-energy action-poster system built from staggered photographic tiles on white space, a\ncutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art\nurban scaffolding.\n\nKeep visible:\n- White poster canvas remains visible around and between layered photographic panels rather than becoming a full-bleed single photo.\n- The scene is assembled from staggered rectangular photo tiles with slight offsets, overlaps, and uneven collage edges.\n- A single realistic action subject sits near the center and feels cut into or lifted from the photo-panel stack.\n- The action is frozen at a decisive airborne, twisting, leaning, or reaching moment with a clear diagonal line of movement.\n- Large black extra-condensed uppercase typography sits in the upper-left zone, stacked in two or three compact lines.\n\nAvoid:\nsoccer player, soccer ball, football, ball trail, kicking a ball, Nike, swoosh, real sportswear\nlogo, team crest, watermark, creator ID, QR code, PLAY LIKE YOU OWN IT, own it slogan, copied\nslogan, exact source athlete, red sleeveless soccer uniform, rooftop soccer field, turf\nforeground, copied skyline, three flying illustrated balls, full-bleed single photo, comic\nhalftone, sticker pack, neon trail, 3D render, vector-only graphic, painterly illustration,\ndense magazine layout, low-resolution text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Sunlit Coastal Product Blitz",
+      "slug": "sunlit-coastal-product-blitz",
+      "category": "Product + Campaign",
+      "description": "Sunlit photoreal coastal product ads with tropical botanicals, ocean-blue depth, distressed white brush type, dense label blocks, curved callouts, and gold seal badges.",
+      "summary": "A high-density photoreal coastal product advertising style built from sunlit tabletop hero products, tropical foreground botanicals, blue ocean depth, oversized distressed white brush typography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.",
+      "preview16": "../styles/sunlit-coastal-product-blitz/preview-16x9.jpg",
+      "preview9": "../styles/sunlit-coastal-product-blitz/preview-9x16.jpg",
+      "styleJson": "../styles/sunlit-coastal-product-blitz/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/sunlit-coastal-product-blitz.md",
+      "folder": "../styles/sunlit-coastal-product-blitz/",
+      "anchors": [
+        "Photoreal summer product advertisement with a sunlit rustic wooden tabletop in the foreground and an ocean, sky, or resort horizon behind it.",
+        "One large hero product or container sits near the center or front third, photographed with condensation, glossy highlights, and appetizing clarity.",
+        "Layered depth: blurred background venue elements, sharp foreground prop details, and leafy botanical framing crossing the top and lower corners.",
+        "Oversized white distressed brush-calligraphy headline dominates the upper or central area, with rough ink edges, drop shadow, and strong dimensional contrast.",
+        "Secondary English or compact sans-serif text appears in bold white all-caps blocks, usually left, right, or bottom aligned.",
+        "Curved arc callouts with spaced characters, bullet separators, or short taglines float around the hero product."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "yuzu-sparkling-soda",
+      "copyPrompt": "Use the \"Sunlit Coastal Product Blitz\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a chilled clear glass bottle and tall fizzing glass\nSubject action: catching sunlight as sparkling yuzu soda bubbles over ice\nProduct or prop: fictional yuzu sparkling soda with citrus slices, mint, and a blank cream label\nLocation: a seaside juice bar counter under a woven awning\nBackground elements: turquoise water, soft patio lights, blurred glass jars, fresh citrus baskets, green leaves overhead\nMain text: 柚香暴击\nSecondary text: SPARKLING YUZU / FRESH POUR / SUMMER DROP\nAccent symbol: •\nWardrobe style: fresh citrus-market styling with mint leaves, ice cubes, rope, and clean condensation\n\nStyle direction:\nA high-density photoreal coastal product advertising style built from sunlit tabletop hero\nproducts, tropical foreground botanicals, blue ocean depth, oversized distressed white brush\ntypography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.\n\nKeep visible:\n- Photoreal summer product advertisement with a sunlit rustic wooden tabletop in the foreground and an ocean, sky, or resort horizon behind it.\n- One large hero product or container sits near the center or front third, photographed with condensation, glossy highlights, and appetizing clarity.\n- Layered depth: blurred background venue elements, sharp foreground prop details, and leafy botanical framing crossing the top and lower corners.\n- Oversized white distressed brush-calligraphy headline dominates the upper or central area, with rough ink edges, drop shadow, and strong dimensional contrast.\n- Secondary English or compact sans-serif text appears in bold white all-caps blocks, usually left, right, or bottom aligned.\n\nAvoid:\nbeer, IPA, ale, pint glass beer, beer foam, beer bottle, beer can, hops, brewery tank, brewery\nequipment, Wild Island, West Coast IPA, IBU 65, seven hops, small batch 200 bottles, copied\nChinese slogan, copied reference layout, real brand logo, watermark, QR code, username, platform\nmark, creator ID, exact product label from source, flat vector art, 3D render, painterly\nillustration, UI screenshot, dark studio lighting, sparse minimalist luxury ad, low-resolution\ntext, illegible main headline\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Monochrome Grid Sneaker Tech Spec",
+      "slug": "monochrome-grid-sneaker-tech-spec",
+      "category": "Product + Campaign",
+      "description": "Black-and-white footwear tech-spec posters with an oversized sneaker hero, engineering grid, evidence panels, macro callouts, pixelated uppercase type, and coarse halftone print.",
+      "summary": "A black-and-white footwear product analysis poster system with an oversized sneaker hero, pale engineering grid, top-strip evidence panels, macro material callouts, thin technical connector lines, pixelated uppercase typography, and coarse halftone print texture.",
+      "preview16": "../styles/monochrome-grid-sneaker-tech-spec/preview-16x9.jpg",
+      "preview9": "../styles/monochrome-grid-sneaker-tech-spec/preview-9x16.jpg",
+      "styleJson": "../styles/monochrome-grid-sneaker-tech-spec/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/monochrome-grid-sneaker-tech-spec.md",
+      "folder": "../styles/monochrome-grid-sneaker-tech-spec/",
+      "anchors": [
+        "Pale white or off-white grid-paper background with faint square guides.",
+        "Oversized sneaker hero in a three-quarter product angle, floating on the page with a soft contact shadow.",
+        "Coarse black-and-white halftone dots across all photography, product surfaces, and inset images.",
+        "Top horizontal strip of small action or texture frames separated by thin white gutters.",
+        "Rectangular macro inset panels that crop into shoe materials, outsole tread, foam, stitching, or mesh.",
+        "Thin black connector lines, L-shaped brackets, registration crosses, and tiny measurement ticks."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "nike-inspired-carbon-runner",
+      "copyPrompt": "Use the \"Monochrome Grid Sneaker Tech Spec\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a logo-free elite carbon-plate road running shoe with aerodynamic foam geometry and knit upper cues associated with modern race footwear\nSubject action: presented as a floating technical hero product with the outsole and midsole structure analyzed through callout panels\nProduct or prop: carbon plate slice diagram, knit mesh closeup, foam sidewall macro crop, and rubber forefoot traction detail\nLocation: clean monochrome product-spec poster field on pale engineering grid paper\nBackground elements: top strip of runner stride crops without visible brand marks, halftone outsole macro panels, thin callout lines, crosshair registration ticks\nMain text: AEROFOAM R-01\nSecondary text: carbon response / knit lock / race day traction / lab grid\nAccent symbol: L-shaped bracket and small crosshair ticks\nWardrobe style: cropped anonymous runner legs in plain black socks within the top strip only, no logos\n\nStyle direction:\nA black-and-white footwear product analysis poster system with an oversized sneaker hero, pale\nengineering grid, top-strip evidence panels, macro material callouts, thin technical connector\nlines, pixelated uppercase typography, and coarse halftone print texture.\n\nKeep visible:\n- Pale white or off-white grid-paper background with faint square guides.\n- Oversized sneaker hero in a three-quarter product angle, floating on the page with a soft contact shadow.\n- Coarse black-and-white halftone dots across all photography, product surfaces, and inset images.\n- Top horizontal strip of small action or texture frames separated by thin white gutters.\n- Rectangular macro inset panels that crop into shoe materials, outsole tread, foam, stitching, or mesh.\n\nAvoid:\nvisible brand logos, trademarks, Nike swoosh, adidas three-stripe mark, Puma cat logo, PEAK\nlogo, copied source text, PEAK FLASH 2, PEAK SPORTS, SNAKE PATTERN, exact wavy podded outsole\nfrom the reference, watermark, username, QR code, app UI, social media frame, full-color\npalette, neon gradient, glossy e-commerce product card, lifestyle scene, retail shelf, price\ntag, cinematic background, smooth untextured 3D render, vector art, flat SVG, HTML mockup,\ncrowded flyer\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Sky Blue Lucky Tag Doodle Poster Style",
       "slug": "sky-blue-lucky-tag-doodle-poster-style",

@@ -1,0 +1,175 @@
+{
+  "style_name": "Monochrome Grid Sneaker Tech Spec",
+  "style_slug": "monochrome-grid-sneaker-tech-spec",
+  "style_version": "1.0.0",
+  "style_summary": "A black-and-white footwear product analysis poster system with an oversized sneaker hero, pale engineering grid, top-strip evidence panels, macro material callouts, thin technical connector lines, pixelated uppercase typography, and coarse halftone print texture.",
+  "environment_variables": {
+    "SUBJECT": "main footwear subject",
+    "SUBJECT_ACTION": "how the footwear is presented or analyzed",
+    "PRODUCT_OR_PROP": "shoe product, outsole detail, material feature, or supporting prop",
+    "LOCATION": "clean technical poster field or abstract product-board setting",
+    "BACKGROUND_ELEMENTS": "grid, top strip, inset details, callout lines, technical marks, and supporting evidence panels",
+    "MAIN_TEXT": "short main product headline or model label",
+    "SECONDARY_TEXT": "small technical feature text or repeated microtype",
+    "ACCENT_SYMBOL": "separator, bracket, arrow, crosshair, measurement tick, or decorative technical symbol",
+    "WARDROBE_STYLE": "styling direction when feet, legs, or motion thumbnails appear",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal reference content and marks that samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Pale white or off-white grid-paper background with faint square guides.",
+    "Oversized sneaker hero in a three-quarter product angle, floating on the page with a soft contact shadow.",
+    "Coarse black-and-white halftone dots across all photography, product surfaces, and inset images.",
+    "Top horizontal strip of small action or texture frames separated by thin white gutters.",
+    "Rectangular macro inset panels that crop into shoe materials, outsole tread, foam, stitching, or mesh.",
+    "Thin black connector lines, L-shaped brackets, registration crosses, and tiny measurement ticks.",
+    "Sparse editorial layout with large negative space around the central shoe.",
+    "Pixelated uppercase headline near the lower-left or lower-third area.",
+    "Tiny condensed technical captions, feature tags, and repeated microtype blocks.",
+    "High-contrast monochrome lighting with deep black shadows and blown-out paper whites.",
+    "Product-first hierarchy where the hero shoe dominates and evidence panels support it.",
+    "Flat diagrammatic page system surrounding a tactile photographic product cutout."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the exact PEAK FLASH 2 shoe design, wavy podded outsole silhouette, or original panel arrangement.",
+    "Do not use the words PEAK, PEAK SPORTS, PEAK FLASH 2, SNAKE PATTERN, or the original feature caption.",
+    "Do not include the PEAK triangle logo or any copied brand mark from the reference.",
+    "Do not repeat the original top-strip running poses, seated athlete frame, or exact crop sequence.",
+    "Do not reuse the original quote block wording or question-mark filler typography.",
+    "Do not show visible Nike swoosh, adidas three-stripe mark, Puma cat/logo, or any other recognizable trademark.",
+    "Do not add watermarks, usernames, QR codes, app marks, creator signatures, or platform identity."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Monochrome sports-footwear technical poster and product dossier.",
+    "composition_logic": "One monumental isolated footwear product dominates the lower-middle field, supported by a top strip of evidence panels and a few macro callout boxes.",
+    "subject_placement": "Hero shoe is large, slightly off-center, and shown at a tactile three-quarter angle against a flat grid field.",
+    "camera_perspective": "Product photography perspective with crisp side and outsole detail, surrounded by flat diagrammatic layout marks.",
+    "typography_behavior": "Pixelated uppercase model headline, tiny condensed technical captions, compact microtype, and deliberate low-resolution texture.",
+    "palette_behavior": "Strict black, white, and gray palette; tonal interest comes from halftone density and contrast rather than color.",
+    "texture_finish": "Newspaper halftone dots, photocopy grain, scanner softness, and crisp black line overlays.",
+    "lighting_mood": "Hard monochrome product lighting with deep shadows and clean paper whites, measured and analytical rather than lifestyle-driven."
+  },
+  "composition": [
+    "Use one hero footwear product occupying roughly 45 to 60 percent of the image area.",
+    "Keep the shoe isolated on a pale grid field with no real-world environment behind it.",
+    "Place a narrow sequence of small black-and-white thumbnail panels along the top edge or upper band.",
+    "Add two to four macro panels around the product, connected with thin bracket lines or callout paths.",
+    "Use tiny technical text blocks in secondary positions such as left-middle, lower-right, or beside an inset.",
+    "Preserve asymmetric balance with dense evidence above and a large hero object below."
+  ],
+  "typography": {
+    "headline": "Uppercase pixel or bitmap sans-serif, low-resolution edges, compact spacing, usually placed in the lower-left or lower-third area.",
+    "captions": "Tiny condensed uppercase technical captions and feature tags, arranged in short stacked lines.",
+    "microtype": "Small repeated rows, coded notes, and placeholder-like marks are acceptable if they are not copied from the reference.",
+    "rules": [
+      "Keep text minimal and technical.",
+      "Use new generic product names and feature labels.",
+      "Do not create price labels, social captions, long ad copy, or brand slogans."
+    ]
+  },
+  "color_palette": {
+    "paper_white": "#f4f4f1",
+    "ink_black": "#050505",
+    "deep_gray": "#2a2a2a",
+    "mid_gray": "#8d8d8a",
+    "light_grid_gray": "#dadad5",
+    "behavior": "No color accent by default; use halftone density, line weight, and scale for emphasis."
+  },
+  "image_treatment": {
+    "rendering": "Photographic footwear cutout processed through monochrome halftone print and scanner grain.",
+    "surface": "Coarse dot pattern, visible paper grain, rough black edges, and slight photocopy softness.",
+    "lighting": "High-contrast hard light with deep black shadows and bright paper whites.",
+    "depth": "Depth appears in the shoe only; the surrounding page elements remain flat and technical."
+  },
+  "design_rules": [
+    "Every default case must be a footwear product poster.",
+    "Treat brand names only as generic product-category cues and remove visible logos or trademark marks.",
+    "Preserve the monochrome grid, halftone product cutout, top evidence strip, macro callouts, fine connector lines, and pixel typography.",
+    "Change the shoe silhouette, text, material story, top-strip content, and macro detail for every case.",
+    "Keep the poster sparse and measured rather than turning it into a dense retail advertisement.",
+    "Use real-looking shoe materials such as knit mesh, foam, suede, leather, rubber lugs, stitching, or outsole traction."
+  ],
+  "do": [
+    "Use a single oversized logo-free shoe as the visual anchor.",
+    "Include two to four macro closeups of shoe construction details.",
+    "Use black-and-white halftone texture over product and thumbnail imagery.",
+    "Add thin callout lines, brackets, crop marks, and registration crosses.",
+    "Use compact uppercase feature captions and a pixelated model headline."
+  ],
+  "avoid": [
+    "Visible brand logos, trademarks, copied PEAK identity, copied source text, or copied source panel layout.",
+    "Full-color sneaker advertising, glossy e-commerce cards, or smooth untextured 3D renders.",
+    "Lifestyle backgrounds, cinematic scenes, crowds, retail shelves, price tags, QR codes, or social media UI.",
+    "Overcrowded decorative stickers, gradients, bokeh, neon lighting, or colorful poster effects.",
+    "Exact recreation of the source shoe's wavy podded outsole and original top-strip action sequence."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Monochrome Grid Sneaker Tech Spec\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual requirements:\n- Composition: one oversized logo-free footwear product in a three-quarter product angle, floating on a pale engineering grid; a narrow top band of small black-and-white evidence panels; two to four macro inset boxes connected by thin technical lines; sparse negative space and asymmetric editorial balance.\n- Typography: pixelated uppercase product headline near the lower-left or lower-third area; tiny condensed uppercase feature captions; compact microtype; no copied slogans, no real brand marks, no social UI.\n- Color: strict black, white, and gray palette; off-white paper field, deep black shadows, mid-gray halftone texture, pale grid lines; no color accent.\n- Texture and lighting: coarse newspaper halftone, photocopy grain, scanner softness, hard monochrome product lighting, crisp shoe edges, soft contact shadow under the hero product.\n- Graphic elements: crop marks, registration crosses, L-shaped brackets, measurement ticks, rectangular macro panels, fine connector lines, and small technical labels aligned to the grid.\n\nImportant content rule: match the style fidelity anchors first, then change the source content. Keep every sample about footwear, but use a new shoe silhouette, new product text, new material story, new top-strip panels, and new macro details. Do not include any visible Nike swoosh, adidas three-stripe mark, Puma logo, PEAK mark, watermark, QR code, username, or copied reference text.",
+  "negative_prompt": "visible brand logos, trademarks, Nike swoosh, adidas three-stripe mark, Puma cat logo, PEAK logo, copied source text, PEAK FLASH 2, PEAK SPORTS, SNAKE PATTERN, exact wavy podded outsole from the reference, watermark, username, QR code, app UI, social media frame, full-color palette, neon gradient, glossy e-commerce product card, lifestyle scene, retail shelf, price tag, cinematic background, smooth untextured 3D render, vector art, flat SVG, HTML mockup, crowded flyer",
+  "examples": [
+    {
+      "case_name": "nike-inspired-carbon-runner",
+      "values": {
+        "SUBJECT": "a logo-free elite carbon-plate road running shoe with aerodynamic foam geometry and knit upper cues associated with modern race footwear",
+        "SUBJECT_ACTION": "presented as a floating technical hero product with the outsole and midsole structure analyzed through callout panels",
+        "PRODUCT_OR_PROP": "carbon plate slice diagram, knit mesh closeup, foam sidewall macro crop, and rubber forefoot traction detail",
+        "LOCATION": "clean monochrome product-spec poster field on pale engineering grid paper",
+        "BACKGROUND_ELEMENTS": "top strip of runner stride crops without visible brand marks, halftone outsole macro panels, thin callout lines, crosshair registration ticks",
+        "MAIN_TEXT": "AEROFOAM R-01",
+        "SECONDARY_TEXT": "carbon response / knit lock / race day traction / lab grid",
+        "ACCENT_SYMBOL": "L-shaped bracket and small crosshair ticks",
+        "WARDROBE_STYLE": "cropped anonymous runner legs in plain black socks within the top strip only, no logos",
+        "STYLE_FIDELITY_ANCHORS": "monochrome grid paper, oversized three-quarter shoe hero, coarse halftone, top evidence strip, macro inset panels, thin connector lines, pixel uppercase headline, tiny technical captions, sparse negative space",
+        "SOURCE_CONTENT_TO_AVOID": "no PEAK text or logo, no PEAK FLASH 2 shoe shape, no Nike swoosh, no copied running poses, no original quote block"
+      }
+    },
+    {
+      "case_name": "adidas-inspired-terrace-trainer",
+      "values": {
+        "SUBJECT": "a logo-free low-profile terrace training sneaker with suede overlays, gum sole, and generic parallel seam channels without any three-stripe mark",
+        "SUBJECT_ACTION": "displayed as a flat archival footwear specimen with material panels explaining suede nap, stitch density, and gum outsole grip",
+        "PRODUCT_OR_PROP": "suede toe box macro, gum rubber edge closeup, lace eyelet crop, and sidewall stitching detail",
+        "LOCATION": "minimal black-and-white catalog analysis board on faint square grid paper",
+        "BACKGROUND_ELEMENTS": "top strip of close cropped indoor court footwork frames, boxed material samples, fine grid-aligned callout paths, small registration crosses",
+        "MAIN_TEXT": "TERRACE UNIT 79",
+        "SECONDARY_TEXT": "suede shell / gum edge / court archive / indoor grip",
+        "ACCENT_SYMBOL": "small triangular arrow markers and bracket ticks",
+        "WARDROBE_STYLE": "anonymous cropped track pants and plain socks in the top-strip action panels, no logos",
+        "STYLE_FIDELITY_ANCHORS": "black-white-gray palette, pale grid field, oversized shoe cutout, gritty halftone dots, top film-strip panels, small macro boxes, fine connector lines, pixel model label, compact feature captions",
+        "SOURCE_CONTENT_TO_AVOID": "no PEAK identity, no adidas logo or three-stripe mark, no exact source shoe, no source text, no source action sequence"
+      }
+    },
+    {
+      "case_name": "puma-inspired-suede-court",
+      "values": {
+        "SUBJECT": "a logo-free suede court sneaker with a low rounded profile, thick laces, textured rubber cupsole, and a generic sweeping side panel that is not a trademark",
+        "SUBJECT_ACTION": "shown as a lab-scanned court shoe with inset panels isolating suede grain, lace weave, heel padding, and cupsole texture",
+        "PRODUCT_OR_PROP": "suede grain crop, lace knot macro, cupsole texture panel, heel collar foam detail",
+        "LOCATION": "monochrome product dossier page with off-white technical grid background",
+        "BACKGROUND_ELEMENTS": "upper band of court pivot motion crops, small boxed material samples, thin stepped connector line, crop corners, micro measurement marks",
+        "MAIN_TEXT": "COURT GHOST S-03",
+        "SECONDARY_TEXT": "suede density / lace load / heel pad / grip shell",
+        "ACCENT_SYMBOL": "stepped connector line with square registration marks",
+        "WARDROBE_STYLE": "plain monochrome court socks and cropped practice shorts visible only in the thumbnail strip, no logo marks",
+        "STYLE_FIDELITY_ANCHORS": "oversized central shoe, monochrome halftone print, pale grid-paper background, top thumbnail strip, macro material insets, thin callouts, pixelated uppercase headline, tiny technical labels, sparse editorial spacing",
+        "SOURCE_CONTENT_TO_AVOID": "no PEAK logo, no Puma cat logo or formstrip trademark, no copied PEAK FLASH 2 shape, no original feature caption, no watermarks"
+      }
+    },
+    {
+      "case_name": "technical-trail-lug-shoe",
+      "values": {
+        "SUBJECT": "a logo-free technical trail running shoe with armored mesh, reinforced toe bumper, sculpted midsole, and aggressive rubber lugs",
+        "SUBJECT_ACTION": "analyzed as an off-road traction platform with closeups of mud lugs, toe protection, drainage mesh, and heel stability geometry",
+        "PRODUCT_OR_PROP": "lugged outsole macro, toe bumper material crop, mesh drainage panel, heel stabilizer closeup",
+        "LOCATION": "clean studio product-spec board on pale monochrome grid paper, no landscape scene",
+        "BACKGROUND_ELEMENTS": "top strip of abstract trail foot placement crops without scenery, boxed outsole closeups, L-shaped callout brackets, small grid ticks and corner crop marks",
+        "MAIN_TEXT": "TRAIL NODE X4",
+        "SECONDARY_TEXT": "lug index / mesh drain / toe shield / heel lock",
+        "ACCENT_SYMBOL": "crosshair plus long L-shaped callout bracket",
+        "WARDROBE_STYLE": "anonymous cropped trail socks and plain black gaiter fragments in thumbnails only, no logos",
+        "STYLE_FIDELITY_ANCHORS": "monochrome technical poster, central oversized footwear hero, coarse halftone texture, faint grid background, top evidence strip, macro inset boxes, thin connector lines, pixel headline, tiny feature captions, high-contrast print lighting",
+        "SOURCE_CONTENT_TO_AVOID": "no PEAK text, no PEAK logo, no exact wavy pod sole from the reference, no real outdoor brand logos, no copied source panels or captions"
+      }
+    }
+  ]
+}

@@ -1,8 +1,38 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 75 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 78 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Kinetic Editorial Photo Collage
+
+<a href="../styles/kinetic-editorial-photo-collage-style"><img src="../styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg" width="720" alt="Kinetic Editorial Photo Collage preview"></a>
+
+A high-energy action-poster system built from staggered photographic tiles on white space, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art urban scaffolding.
+
+Files: [style.json](../styles/kinetic-editorial-photo-collage-style/style.json) · [Copy Prompt](copy-prompts/kinetic-editorial-photo-collage-style.md) · [16:9 preview](../styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/kinetic-editorial-photo-collage-style/preview-9x16.jpg) · [Folder](../styles/kinetic-editorial-photo-collage-style)
+
+---
+
+### Sunlit Coastal Product Blitz
+
+<a href="../styles/sunlit-coastal-product-blitz"><img src="../styles/sunlit-coastal-product-blitz/preview-16x9.jpg" width="720" alt="Sunlit Coastal Product Blitz preview"></a>
+
+A high-density photoreal coastal product advertising style built from sunlit tabletop hero products, tropical foreground botanicals, blue ocean depth, oversized distressed white brush typography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.
+
+Files: [style.json](../styles/sunlit-coastal-product-blitz/style.json) · [Copy Prompt](copy-prompts/sunlit-coastal-product-blitz.md) · [16:9 preview](../styles/sunlit-coastal-product-blitz/preview-16x9.jpg) · [9:16 preview](../styles/sunlit-coastal-product-blitz/preview-9x16.jpg) · [Folder](../styles/sunlit-coastal-product-blitz)
+
+---
+
+### Monochrome Grid Sneaker Tech Spec
+
+<a href="../styles/monochrome-grid-sneaker-tech-spec"><img src="../styles/monochrome-grid-sneaker-tech-spec/preview-16x9.jpg" width="720" alt="Monochrome Grid Sneaker Tech Spec preview"></a>
+
+A black-and-white footwear product analysis poster system with an oversized sneaker hero, pale engineering grid, top-strip evidence panels, macro material callouts, thin technical connector lines, pixelated uppercase typography, and coarse halftone print texture.
+
+Files: [style.json](../styles/monochrome-grid-sneaker-tech-spec/style.json) · [Copy Prompt](copy-prompts/monochrome-grid-sneaker-tech-spec.md) · [16:9 preview](../styles/monochrome-grid-sneaker-tech-spec/preview-16x9.jpg) · [9:16 preview](../styles/monochrome-grid-sneaker-tech-spec/preview-9x16.jpg) · [Folder](../styles/monochrome-grid-sneaker-tech-spec)
+
+---
 
 ### Sky Blue Lucky Tag Doodle Poster Style
 
