@@ -1,0 +1,193 @@
+{
+  "style_name": "Liquid Chrome Clearance Poster Style",
+  "style_slug": "liquid-chrome-clearance-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A high-impact commercial poster system built around glossy liquid-chrome 3D typography, extreme editorial crop, acid-lime to mint gradients, black condensed sale-interface typography, micro technical markings, barcode-like metadata, and a dense grid of retail control panels.",
+  "environment_variables": {
+    "SUBJECT": "main subject, product, figure, object, or commercial scene anchor",
+    "SUBJECT_ACTION": "main action, pose, motion, or transformation happening in the poster",
+    "PRODUCT_OR_PROP": "object, product, accessory, or prop that anchors the campaign",
+    "LOCATION": "environment, studio, retail space, street corner, showroom, or abstract setting",
+    "BACKGROUND_ELEMENTS": "secondary details such as panels, barcode marks, tiny maps, coordinate labels, product categories, meters, stickers, and sale-interface microcopy",
+    "MAIN_TEXT": "large campaign headline rendered as liquid chrome type or heavy black display type",
+    "SECONDARY_TEXT": "small supporting text, metadata, status labels, product notes, or compliance-style microcopy",
+    "ACCENT_SYMBOL": "small divider, target reticle, barcode mark, plus sign, globe, arrow, or technical icon",
+    "WARDROBE_STYLE": "styling, surface treatment, clothing, material finish, or product styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "One dominant photoreal subject or product crop occupies the center while interface typography and panels wrap around the edges.",
+    "The largest visual element is glossy liquid-chrome 3D lettering or a chrome splash that overlaps the subject and casts bright metallic highlights.",
+    "Background uses an acid-lime, chartreuse, mint, or pale aqua gradient with high clean brightness rather than dark cinematic atmosphere.",
+    "Black typography is heavy, condensed, uppercase, tightly stacked, and arranged like clearance retail signage or technical sale UI.",
+    "Layout is dense but gridded: margin rules, registration ticks, crosshair targets, small panels, category lists, status bars, coordinate text, and barcode blocks.",
+    "The poster mixes premium hyperreal materials with utilitarian low-cost retail systems, creating a luxury-meets-clearance tension.",
+    "Microcopy is distributed around the perimeter, with several small boxed modules and one or two large vertical or horizontal text blocks.",
+    "Edges include thin black hairlines, dotted guide rules, crop marks, small plus signs, and alignment markers.",
+    "Lighting is glossy studio lighting with sharp specular reflections on chrome, crisp skin or product detail, and strong black shadows only inside the central subject.",
+    "Color palette stays mostly lime, mint, black, white, and polished silver, with a single hot-pink or neon accent sticker used sparingly.",
+    "The design should feel like a futuristic fashion sale, cyber-retail poster, or identity-commerce campaign, not a clean corporate ad."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a close-up human face in the same right-facing profile crop.",
+    "Do not reuse a curly-haired person as the central identity image.",
+    "Do not use the exact words SALE, LIQUIDATION, 70% OFF, SS-24, CONSUME COMPLY DISAPPEAR, or IDENTITY IS TEMPORARY.",
+    "Do not copy the original vertical LIQUIDATION title treatment or the exact left-side discount hierarchy.",
+    "Do not recreate the same silver word spread across a person's eyes, nose, and mouth.",
+    "Do not reuse the original barcode numbers, coordinates, category list, Japanese text, clearance protocol card, or product categories.",
+    "Do not include the original small portrait card, the same pink checkout sticker text, or any watermark-like creator signature.",
+    "Do not make the premise a fashion clearance sale for apparel, footwear, accessories, archive, and exclusives.",
+    "Do not reproduce the exact green background framing, exact grid positions, or exact face-to-text overlap pattern.",
+    "Do not use identifiable real people, brand marks, platform marks, QR codes, or creator IDs."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Hyperreal cyber-retail poster, luxury streetwear sale graphic, liquid chrome typography advertisement, dense editorial UI layout.",
+    "composition_logic": "A huge central image dominates the page and is partially obscured by oversized chrome typography. Peripheral space is filled with structured retail UI modules, small copy blocks, vertical display text, barcodes, reticles, and alignment marks.",
+    "subject_placement": "The main subject is tightly cropped and pushed into the central field, often bleeding past the frame. Text and chrome graphics overlap the subject as if the type is a material poured across it.",
+    "camera_perspective": "Studio-photo realism with close crop, shallow depth cues, crisp material detail, and a slightly editorial fashion-ad angle.",
+    "typography_style": "Large black condensed sans typography, stacked uppercase retail language, tiny monospaced metadata, vertical word blocks, barcode-style numerals, and scattered technical microcopy.",
+    "color_behavior": "Bright chartreuse to mint/aqua gradient fields dominate; black UI text and silver chrome produce hard contrast; hot pink appears only as a small circular or sticker-like accent.",
+    "graphic_elements": "Thin hairline frames, dotted rules, target marks, product-status panels, category menus, size scales, barcodes, small globe icons, coordinate labels, micro labels, and clearance-card boxes.",
+    "texture_finish": "Glossy chrome liquid is mirror-polished and tactile. The background is flat and clean, while the central subject or object remains hyperreal with pores, scratches, fibers, condensation, or product material detail.",
+    "lighting_mood": "Bright commercial studio light with hard specular chrome reflections, high contrast black type, and synthetic retail urgency.",
+    "cultural_reference": "Y2K cyber fashion, system-interface streetwear flyers, luxury product editorials, liquidation posters, technical package labels, and speculative identity-commerce visuals."
+  },
+  "composition": {
+    "layout": "Use a dense poster grid with a central hero crop, technical margin marks, peripheral microcopy, and one massive typographic intervention.",
+    "hierarchy": "Liquid chrome headline or splash first, hero subject second, heavy black sale-interface text third, and micro UI details last.",
+    "negative_space": "Leave clean gradient zones around the grid, but keep the overall poster busy with edge metadata and panels.",
+    "cropping": "Crop subjects aggressively; allow chrome lettering, droplets, or reflective strokes to cross over the subject and extend toward the edges.",
+    "modules": "Include boxed labels, status bars, barcode blocks, small category menus, and one compact certification or protocol card."
+  },
+  "typography": {
+    "display": "Heavy condensed uppercase sans serif, vertically or horizontally stacked, very large, black, and tightly spaced.",
+    "chrome_type": "Oversized liquid chrome 3D script or blob-lettering may form the main word and should feel poured, reflective, and wet.",
+    "microcopy": "Small monospaced or grotesk uppercase text, barcode numerals, coordinates, status labels, compact captions, and clipped system copy.",
+    "placement": "Typography should hug margins, sit inside boxes, rotate vertically when needed, and interact with thin registration rules.",
+    "texture": "Black type is crisp and flat; chrome type is dimensional, reflective, and high gloss."
+  },
+  "color_palette": {
+    "dominant": [
+      "acid lime",
+      "chartreuse",
+      "mint",
+      "pale aqua"
+    ],
+    "neutrals": [
+      "black",
+      "white",
+      "deep shadow gray"
+    ],
+    "material_color": [
+      "mirror silver",
+      "liquid chrome",
+      "cool white highlights"
+    ],
+    "accent": [
+      "hot pink sticker accent",
+      "tiny cyan reflections"
+    ],
+    "proportion_rule": "Use roughly 55 percent lime or mint gradient, 25 percent central photo subject, 15 percent black UI typography, and 5 percent chrome highlight or neon accent."
+  },
+  "image_treatment": {
+    "rendering": "Photoreal commercial subject with an overlaid liquid-chrome typographic object, surrounded by flat graphic design UI.",
+    "lighting": "Glossy studio lighting, sharp metallic reflections, bright background, and clean contrast.",
+    "materials": "Chrome must look liquid, thick, reflective, and wet. Subjects should show realistic skin, product surface, fabric, plastic, rubber, glass, or metal detail.",
+    "texture": "Keep the background flat and clean; use tiny print artifacts only in micro UI details, not as heavy vintage distress.",
+    "depth": "Central objects can have depth and reflections, while the graphic system remains flat and editorial."
+  },
+  "design_rules": [
+    "Prioritize the liquid-chrome headline and central hero crop before adding secondary copy.",
+    "Use a bright acid-lime or mint field as the primary background for every sample.",
+    "Keep black technical UI and condensed typography crisp, flat, and high contrast.",
+    "Place margin ticks, reticles, small status bars, barcode marks, and boxed panels along the edges.",
+    "Use only one strong neon accent sticker or dot so the palette does not become multicolor.",
+    "Let chrome droplets, tails, or blobs extend across the subject but avoid covering the entire design.",
+    "Make text feel like a commercial control system rather than friendly editorial captions.",
+    "Preserve a premium fashion or product-ad mood while changing the product category and story."
+  ],
+  "do": [
+    "Use oversized glossy silver type, chrome splashes, and wet reflective letterforms.",
+    "Use tight crops, edge metadata, vertical text blocks, barcode motifs, and system panels.",
+    "Use a lime-to-mint gradient field with black type and a hot pink accent.",
+    "Use new subjects, new copy, new props, and new campaign premises for each sample.",
+    "Keep the frame dense, technical, and commercial without becoming cluttered beyond readability."
+  ],
+  "avoid": [
+    "Avoid the original face, original sale language, original discount numbers, and original liquidation premise.",
+    "Avoid clean minimalist layouts, soft lifestyle photography, beige palettes, or corporate SaaS dashboards.",
+    "Avoid flat vector-only art, hand-drawn cartoons, painterly illustration, or retro paper collage.",
+    "Avoid watermarks, usernames, platform logos, QR codes, real brand marks, or copied barcode numbers.",
+    "Avoid changing the style into a generic product render without the dense sale-interface graphic system."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Liquid Chrome Clearance Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: one dominant photoreal hero crop fills the center; oversized liquid chrome 3D lettering or a chrome splash overlaps the subject; the background is a bright acid-lime to mint or pale aqua gradient; black condensed uppercase sale-interface typography wraps around the edges; dense technical modules include hairline frames, crop marks, reticles, barcode blocks, coordinate-like numerals, status panels, category lists, and tiny monospaced metadata; lighting is glossy studio light with mirror reflections on chrome and crisp material detail on the subject; use mostly lime, mint, black, white, and silver with one small hot-pink sticker accent; keep the design premium, synthetic, urgent, and cyber-retail. Avoid exact source content, copied text, copied layout positions, watermarks, logos, platform marks, QR codes, real brands, low-resolution text, generic minimalist design, painterly illustration, and flat vector substitutes. Important content rule: match the reference style first, then change the source content with new subjects, new props, new scene details, and new text while preserving the style fidelity anchors.",
+  "negative_prompt": "Do not recreate the original close-up right-facing human profile, curly hair, SALE lettering, LIQUIDATION text, 70 percent discount language, SS-24 label, original category list, original barcode numbers, original coordinates, original pink sticker wording, original protocol card, watermarks, usernames, platform marks, QR codes, brand logos, clean minimalist ads, beige lifestyle photography, flat vector art, painterly illustration, soft corporate UI, or generic product mockup lighting.",
+  "examples": [
+    {
+      "case_name": "rain-courier-drop",
+      "values": {
+        "SUBJECT": "a helmeted night bicycle courier with a reflective delivery bag, cropped from shoulder to wheel with no visible identifiable face",
+        "SUBJECT_ACTION": "leaning into a fast turn as chrome droplets streak across the delivery bag and handlebar",
+        "PRODUCT_OR_PROP": "matte black electric cargo bike with reflective rain shell and sealed courier pack",
+        "LOCATION": "synthetic wet street corner reduced to a bright studio poster field",
+        "BACKGROUND_ELEMENTS": "route-status boxes, tiny map grid fragments, barcode blocks, shipment category rows, target reticles, dotted margin guides, and compliance-style labels",
+        "MAIN_TEXT": "RUSH",
+        "SECONDARY_TEXT": "same hour protocol / packed cold / zone 08",
+        "ACCENT_SYMBOL": "target reticle",
+        "WARDROBE_STYLE": "black technical rainwear, glossy helmet visor, reflective strips, utilitarian courier equipment",
+        "STYLE_FIDELITY_ANCHORS": "liquid chrome 3D headline, acid-lime mint gradient, dense black sale-interface grid, micro technical typography, hot-pink sticker accent, tight central photo crop",
+        "SOURCE_CONTENT_TO_AVOID": "no close-up profile face, no curly-haired identity image, no sale text, no liquidation premise, no original barcode or coordinates"
+      }
+    },
+    {
+      "case_name": "portable-brew-system",
+      "values": {
+        "SUBJECT": "a compact portable espresso machine and insulated cup, cropped huge like a luxury gadget",
+        "SUBJECT_ACTION": "pressurizing as chrome liquid lettering pours around steam, cup rim, and control dial",
+        "PRODUCT_OR_PROP": "portable espresso device, black ceramic cup, chrome pressure knob, tiny condensation beads",
+        "LOCATION": "bright commercial tabletop transformed into a cyber-retail poster field",
+        "BACKGROUND_ELEMENTS": "brew-level status panels, roast category list, barcode stripe, tiny technical diagrams, dotted rules, grid ticks, and microcopy blocks",
+        "MAIN_TEXT": "BREW",
+        "SECONDARY_TEXT": "pressure mode active / capsule free / repeat heat",
+        "ACCENT_SYMBOL": "plus sign",
+        "WARDROBE_STYLE": "gloss black plastic, brushed steel, wet chrome, white ceramic, steam highlights",
+        "STYLE_FIDELITY_ANCHORS": "oversized chrome word over photoreal object, lime-to-aqua field, condensed black interface typography, boxed retail modules, barcode metadata, sparse hot-pink sticker",
+        "SOURCE_CONTENT_TO_AVOID": "no human face, no apparel sale, no 70 percent discount, no SS season label, no copied source slogans"
+      }
+    },
+    {
+      "case_name": "modular-sofa-reboot",
+      "values": {
+        "SUBJECT": "a modular low-slung sofa segment with inflated cushions and a chrome side table",
+        "SUBJECT_ACTION": "separating into rearrangeable blocks while liquid chrome type flows between the cushions",
+        "PRODUCT_OR_PROP": "mint vinyl sofa modules, polished metal tray, transparent acrylic remote, product swatches",
+        "LOCATION": "empty showroom converted into a high-brightness clearance-interface poster",
+        "BACKGROUND_ELEMENTS": "room-mode panels, size scale rows, material codes, barcode label, coordinate-like showroom tags, thin frame rules, and reticle marks",
+        "MAIN_TEXT": "SHIFT",
+        "SECONDARY_TEXT": "sectional mode / replace the room / final layout",
+        "ACCENT_SYMBOL": "globe icon",
+        "WARDROBE_STYLE": "soft vinyl texture, mirror chrome table, pale cushion seams, product catalog precision",
+        "STYLE_FIDELITY_ANCHORS": "central photoreal product crop, chrome liquid headline, acid-lime gradient, black vertical type block, dense technical retail microcopy, boxed protocol-card module",
+        "SOURCE_CONTENT_TO_AVOID": "no person profile, no fashion categories, no liquidation title, no original left discount layout, no original portrait card"
+      }
+    },
+    {
+      "case_name": "sound-system-overdrive",
+      "values": {
+        "SUBJECT": "a transparent portable speaker with visible drivers, cable loops, and chrome hardware",
+        "SUBJECT_ACTION": "vibrating under a wave of liquid silver typography that splashes off the speaker grille",
+        "PRODUCT_OR_PROP": "clear-case speaker, coiled audio cable, tiny status LEDs, polished latch hardware",
+        "LOCATION": "studio product bay with an abstract neon retail control backdrop",
+        "BACKGROUND_ELEMENTS": "frequency meter bars, tiny mode toggles, barcode numerals, boxed warranty-style card, audio category menu, corner crop marks, and dotted guide lines",
+        "MAIN_TEXT": "LOUD",
+        "SECONDARY_TEXT": "bass state open / no mute / volume sequence",
+        "ACCENT_SYMBOL": "small arrow",
+        "WARDROBE_STYLE": "transparent plastic, black rubber, chrome screws, cyan reflections, glossy product details",
+        "STYLE_FIDELITY_ANCHORS": "mirror-liquid type crossing a photoreal hero object, chartreuse mint field, condensed black UI copy, edge metadata, barcode details, one hot-pink circle accent",
+        "SOURCE_CONTENT_TO_AVOID": "no human face, no sale or liquidation wording, no apparel premise, no original slogans, no repeated source layout"
+      }
+    }
+  ]
+}

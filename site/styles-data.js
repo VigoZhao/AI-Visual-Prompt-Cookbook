@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 78,
+  "styleCount": 80,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Liquid Chrome Clearance Poster Style",
+      "slug": "liquid-chrome-clearance-poster-style",
+      "category": "Editorial + Minimal",
+      "description": "High-impact clearance posters with glossy liquid-chrome 3D type, acid-lime gradients, sale-interface microcopy, and barcode-style retail panels.",
+      "summary": "A high-impact commercial poster system built around glossy liquid-chrome 3D typography, extreme editorial crop, acid-lime to mint gradients, black condensed sale-interface typography, micro technical markings, barcode-like metadata, and a dense grid of retail control panels.",
+      "preview16": "../styles/liquid-chrome-clearance-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/liquid-chrome-clearance-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/liquid-chrome-clearance-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/liquid-chrome-clearance-poster-style.md",
+      "folder": "../styles/liquid-chrome-clearance-poster-style/",
+      "anchors": [
+        "One dominant photoreal subject or product crop occupies the center while interface typography and panels wrap around the edges.",
+        "The largest visual element is glossy liquid-chrome 3D lettering or a chrome splash that overlaps the subject and casts bright metallic highlights.",
+        "Background uses an acid-lime, chartreuse, mint, or pale aqua gradient with high clean brightness rather than dark cinematic atmosphere.",
+        "Black typography is heavy, condensed, uppercase, tightly stacked, and arranged like clearance retail signage or technical sale UI.",
+        "Layout is dense but gridded: margin rules, registration ticks, crosshair targets, small panels, category lists, status bars, coordinate text, and barcode blocks.",
+        "The poster mixes premium hyperreal materials with utilitarian low-cost retail systems, creating a luxury-meets-clearance tension."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rain-courier-drop",
+      "copyPrompt": "Use the \"Liquid Chrome Clearance Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a helmeted night bicycle courier with a reflective delivery bag, cropped from shoulder to wheel with no visible identifiable face\nSubject action: leaning into a fast turn as chrome droplets streak across the delivery bag and handlebar\nProduct or prop: matte black electric cargo bike with reflective rain shell and sealed courier pack\nLocation: synthetic wet street corner reduced to a bright studio poster field\nBackground elements: route-status boxes, tiny map grid fragments, barcode blocks, shipment category rows, target reticles, dotted margin guides, and compliance-style labels\nMain text: RUSH\nSecondary text: same hour protocol / packed cold / zone 08\nAccent symbol: target reticle\nWardrobe style: black technical rainwear, glossy helmet visor, reflective strips, utilitarian courier equipment\n\nStyle direction:\nA high-impact commercial poster system built around glossy liquid-chrome 3D typography, extreme\neditorial crop, acid-lime to mint gradients, black condensed sale-interface typography, micro\ntechnical markings, barcode-like metadata, and a dense grid of retail control panels.\n\nKeep visible:\n- One dominant photoreal subject or product crop occupies the center while interface typography and panels wrap around the edges.\n- The largest visual element is glossy liquid-chrome 3D lettering or a chrome splash that overlaps the subject and casts bright metallic highlights.\n- Background uses an acid-lime, chartreuse, mint, or pale aqua gradient with high clean brightness rather than dark cinematic atmosphere.\n- Black typography is heavy, condensed, uppercase, tightly stacked, and arranged like clearance retail signage or technical sale UI.\n- Layout is dense but gridded: margin rules, registration ticks, crosshair targets, small panels, category lists, status bars, coordinate text, and barcode blocks.\n\nAvoid:\nDo not recreate the original close-up right-facing human profile, curly hair, SALE lettering,\nLIQUIDATION text, 70 percent discount language, SS-24 label, original category list, original\nbarcode numbers, original coordinates, original pink sticker wording, original protocol card,\nwatermarks, usernames, platform marks, QR codes, brand logos, clean minimalist ads, beige\nlifestyle photography, flat vector art, painterly illustration, soft corporate UI, or generic\nproduct mockup lighting.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Hot Ink Comic Poster",
+      "slug": "hot-ink-comic-poster",
+      "category": "Type Posters",
+      "description": "Loud underground comic flyers with mustard fields, coral cutouts, heavy marker outlines, hand-lettered bubble type, and dense comic symbols.",
+      "summary": "A loud flat comic flyer style built from a mustard-yellow field, coral-red cutout figures, heavy irregular black marker outlines, hand-lettered bubble type, scribbled microcopy, and dense comic symbols. It feels like an underground club poster or xeroxed street handbill, but the reusable system changes the subject, text, props, and story completely.",
+      "preview16": "../styles/hot-ink-comic-poster/preview-16x9.jpg",
+      "preview9": "../styles/hot-ink-comic-poster/preview-9x16.jpg",
+      "styleJson": "../styles/hot-ink-comic-poster/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/hot-ink-comic-poster.md",
+      "folder": "../styles/hot-ink-comic-poster/",
+      "anchors": [
+        "Full-bleed poster layout with a single oversized central figure or object taking roughly two thirds of the frame.",
+        "Mustard-yellow background dominates, with coral-red filled shapes and pure black linework as the main palette.",
+        "Very thick, uneven black marker outlines with rounded corners, ink pooling, and hand-drawn wobble.",
+        "Flat two-dimensional cutout rendering with no realistic depth, gradients, shadows, or perspective modeling.",
+        "Oversized hand-lettered bubble headline, often tilted, underlined, stacked, or pushed into the corner.",
+        "Small irregular handwritten microcopy blocks that act as texture rather than clean typography."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "midnight-noodle-run",
+      "copyPrompt": "Use the \"Hot Ink Comic Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a lanky bicycle courier with a square helmet and long rubbery arms\nSubject action: balancing on one foot while presenting a steaming takeout carton\nProduct or prop: an oversized noodle carton with abstract steam curls\nLocation: a tiny late-night corner noodle window\nBackground elements: zigzag menu scraps, speed lines, dot trails, tiny receipt shapes, and loose arrow marks\nMain text: NOODLE RUN\nSecondary text: hot box / open late / curbside dash / 12:40 am\nAccent symbol: black lightning bolts and chunky dot bursts\nWardrobe style: boxy courier jacket, round helmet, chunky sneakers, all simplified into coral-red flat shapes\n\nStyle direction:\nA loud flat comic flyer style built from a mustard-yellow field, coral-red cutout figures, heavy\nirregular black marker outlines, hand-lettered bubble type, scribbled microcopy, and dense comic\nsymbols. It feels like an underground club poster or xeroxed street handbill, but the reusable\nsystem changes the subject, text, props, and story completely.\n\nKeep visible:\n- Full-bleed poster layout with a single oversized central figure or object taking roughly two thirds of the frame.\n- Mustard-yellow background dominates, with coral-red filled shapes and pure black linework as the main palette.\n- Very thick, uneven black marker outlines with rounded corners, ink pooling, and hand-drawn wobble.\n- Flat two-dimensional cutout rendering with no realistic depth, gradients, shadows, or perspective modeling.\n- Oversized hand-lettered bubble headline, often tilted, underlined, stacked, or pushed into the corner.\n\nAvoid:\nphotorealistic, 3D render, gradient shading, cinematic light, soft shadow, detailed realism,\npolished vector logo, clean corporate typography, thin outlines, pastel palette, muted beige\npalette, glossy surface, animal mascot, feline features, paw-print symbols, musical instrument\nperformance, nightlife club lineup, copied reference title wording, visible website, watermark,\nusername, signature, QR code, brand logo, copied reference text, exact reference pose\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Kinetic Editorial Photo Collage",
       "slug": "kinetic-editorial-photo-collage-style",

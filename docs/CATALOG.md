@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 78 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 80 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Liquid Chrome Clearance Poster Style
+
+<a href="../styles/liquid-chrome-clearance-poster-style"><img src="../styles/liquid-chrome-clearance-poster-style/preview-16x9.jpg" width="720" alt="Liquid Chrome Clearance Poster Style preview"></a>
+
+A high-impact commercial poster system built around glossy liquid-chrome 3D typography, extreme editorial crop, acid-lime to mint gradients, black condensed sale-interface typography, micro technical markings, barcode-like metadata, and a dense grid of retail control panels.
+
+Files: [style.json](../styles/liquid-chrome-clearance-poster-style/style.json) · [Copy Prompt](copy-prompts/liquid-chrome-clearance-poster-style.md) · [16:9 preview](../styles/liquid-chrome-clearance-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/liquid-chrome-clearance-poster-style/preview-9x16.jpg) · [Folder](../styles/liquid-chrome-clearance-poster-style)
+
+---
+
+### Hot Ink Comic Poster
+
+<a href="../styles/hot-ink-comic-poster"><img src="../styles/hot-ink-comic-poster/preview-16x9.jpg" width="720" alt="Hot Ink Comic Poster preview"></a>
+
+A loud flat comic flyer style built from a mustard-yellow field, coral-red cutout figures, heavy irregular black marker outlines, hand-lettered bubble type, scribbled microcopy, and dense comic symbols. It feels like an underground club poster or xeroxed street handbill, but the reusable system changes the subject, text, props, and story completely.
+
+Files: [style.json](../styles/hot-ink-comic-poster/style.json) · [Copy Prompt](copy-prompts/hot-ink-comic-poster.md) · [16:9 preview](../styles/hot-ink-comic-poster/preview-16x9.jpg) · [9:16 preview](../styles/hot-ink-comic-poster/preview-9x16.jpg) · [Folder](../styles/hot-ink-comic-poster)
+
+---
 
 ### Kinetic Editorial Photo Collage
 

@@ -1,0 +1,163 @@
+{
+  "style_name": "Hot Ink Comic Poster",
+  "style_slug": "hot-ink-comic-poster",
+  "style_version": "1.0.0",
+  "style_summary": "A loud flat comic flyer style built from a mustard-yellow field, coral-red cutout figures, heavy irregular black marker outlines, hand-lettered bubble type, scribbled microcopy, and dense comic symbols. It feels like an underground club poster or xeroxed street handbill, but the reusable system changes the subject, text, props, and story completely.",
+  "environment_variables": {
+    "SUBJECT": "new central subject, not the reference character",
+    "SUBJECT_ACTION": "new expressive action or pose",
+    "PRODUCT_OR_PROP": "new object, product, prop, or visual anchor",
+    "LOCATION": "new environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details, small marks, and poster texture",
+    "MAIN_TEXT": "new oversized headline or graphic type",
+    "SECONDARY_TEXT": "new small supporting hand-lettered copy",
+    "ACCENT_SYMBOL": "new separator, sticker, burst, icon, or decorative mark",
+    "WARDROBE_STYLE": "new styling, clothing, character treatment, or surface treatment",
+    "STYLE_FIDELITY_ANCHORS": "observable traits that must remain visible in every generated image",
+    "SOURCE_CONTENT_TO_AVOID": "literal reference subject, text, props, marks, and story details to avoid",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Full-bleed poster layout with a single oversized central figure or object taking roughly two thirds of the frame.",
+    "Mustard-yellow background dominates, with coral-red filled shapes and pure black linework as the main palette.",
+    "Very thick, uneven black marker outlines with rounded corners, ink pooling, and hand-drawn wobble.",
+    "Flat two-dimensional cutout rendering with no realistic depth, gradients, shadows, or perspective modeling.",
+    "Oversized hand-lettered bubble headline, often tilted, underlined, stacked, or pushed into the corner.",
+    "Small irregular handwritten microcopy blocks that act as texture rather than clean typography.",
+    "Comic grammar of arrows, swoops, starbursts, dots, exclamation marks, music-like marks, and impact symbols.",
+    "Speech-bubble and sticker-like shapes with rough organic borders and uneven placement.",
+    "Crowded edge-to-edge energy with controlled negative spaces around the central red subject.",
+    "Scruffy xerox or screenprint finish with rough edges, slight registration imperfection, and low-tech poster texture.",
+    "Playful underground flyer mood: noisy, immediate, humorous, and graphic rather than polished or realistic."
+  ],
+  "source_content_to_avoid": [
+    "No cat, feline mascot, cat ears, tail, whiskers, paws, nine-lives joke, or animal-club premise.",
+    "No saxophone, jazz performance pose, music club lineup, or instrument-blowing action from the reference.",
+    "Do not copy the words Cool Cat, The City Club, Meow, Jazz, 7th Avenue, 7/18/89, 7/8/25, or any similar reference text.",
+    "Do not include the visible website, username-like text, watermark, signature, brand mark, or identity mark.",
+    "Avoid the same central red cat silhouette, sleepy closed-eye expression, raised elbow pose, and curling tail composition.",
+    "Avoid literal paw prints; use generic dots, sparks, bolts, bursts, or abstract marks instead.",
+    "Do not reuse the same speech-bubble arrangement, exact starburst placement, or bottom mirrored lettering setup.",
+    "Do not preserve the reference story of a cool jazz cat playing in a club."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Flat hand-drawn comic poster, street flyer, low-tech screenprint, and doodle typography hybrid.",
+    "composition_logic": "A large red simplified subject anchors the page while black lettering, speech shapes, bursts, arrows, and microcopy orbit the edges.",
+    "subject_placement": "The subject is oversized, front-facing or simple profile, placed near center with limbs or props breaking into surrounding text zones.",
+    "perspective": "No camera realism. Forms are orthographic, emblem-like, and cut from flat color fields.",
+    "texture": "The finish should feel marker-drawn and printed, with uneven strokes, rough text edges, and occasional registration wobble.",
+    "mood": "Playful, noisy, street-level, handmade, and slightly absurd."
+  },
+  "composition": {
+    "layout": "Use a full-bleed poster field with a dominant central coral-red subject and a ring of hand-lettered graphic fragments around it.",
+    "hierarchy": "One huge subject, one oversized headline, several smaller text clusters, and multiple black comic accents.",
+    "spacing": "Keep the page crowded but readable, with active margins and small pockets of yellow negative space.",
+    "crop_behavior": "Allow limbs, props, type, and symbols to nearly touch the frame without clean editorial margins."
+  },
+  "typography": {
+    "headline": "Large hand-lettered bubble or chunky script forms, coral fill with black outline, uneven baseline, playful distortion.",
+    "microcopy": "Small black marker handwriting, stacked vertically or tucked into corners, imperfect but graphic.",
+    "placement": "Type can run vertically, diagonally, around speech bubbles, underlined, or nested near bursts.",
+    "rule": "Lettering must look drawn by hand, not typeset with a clean font."
+  },
+  "color_palette": {
+    "background": "Hot mustard yellow, approximately #F5B51B.",
+    "primary_fill": "Coral red-orange, approximately #F44B35.",
+    "linework": "Dense black, approximately #050505.",
+    "optional_detail": "Small off-white gaps are allowed only as paper-like holes, never as a fourth dominant color.",
+    "behavior": "Keep the palette flat, high contrast, and restricted; no gradients, glow, metallics, or realistic lighting."
+  },
+  "image_treatment": {
+    "rendering_mode": "Flat graphic illustration with marker-like outlines and screenprint poster texture.",
+    "lighting": "Even flat light with high contrast created by color blocking, not shadows.",
+    "finish": "Slightly rough ink edges, imperfect line joins, low-tech print feel, and deliberate handmade irregularity.",
+    "resolution_intent": "Crisp enough for poster use while preserving hand-drawn roughness."
+  },
+  "design_rules": [
+    "Use exactly the restricted visual language of hot yellow ground, coral-red subject fills, and thick black marker drawing.",
+    "Build the poster around a new central subject and new headline while keeping the same noisy handmade hierarchy.",
+    "Surround the subject with abstract comic marks, speech shapes, arrows, bursts, dot trails, and hand-lettered fragments.",
+    "Keep all forms flat and simplified; do not introduce rendered volume, photographic textures, or detailed scenery.",
+    "Make small text behave as graphic rhythm and texture, not as clean publication typography."
+  ],
+  "do": [
+    "Use bold black keylines and imperfect hand lettering.",
+    "Leave visible yellow negative pockets between dense graphic clusters.",
+    "Change the subject, prop, action, place, and all words for every new case.",
+    "Make the output feel like a screenprinted poster or local flyer."
+  ],
+  "avoid": [
+    "Avoid photorealism, 3D render, airbrush, glossy gradients, cinematic lighting, and soft shadows.",
+    "Avoid cats, saxophones, jazz club copy, original names, dates, websites, signatures, and paw prints.",
+    "Avoid clean vector smoothness, perfect fonts, corporate layout, muted palettes, and spacious minimalist composition.",
+    "Avoid adding QR codes, app logos, creator handles, platform marks, or watermark-like signatures."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Hot Ink Comic Poster visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these concrete style rules: full-bleed hot mustard-yellow poster field; one oversized coral-red flat cutout subject occupying about two thirds of the composition; pure black thick hand-drawn marker outlines with rounded uneven joins and ink wobble; no depth, no gradient, no realistic shadow; large coral-filled black-outline hand-lettered headline pushed into a corner or across an edge; small black handwritten microcopy blocks arranged as texture; abstract comic arrows, swoops, starbursts, dot trails, exclamation marks, sticker shapes, and underlines around the subject; scruffy xerox or screenprint finish with imperfect edges and low-tech flyer energy. Preserve the style fidelity anchors before anything else, but use the new subject, new setting, new prop, and new text above. Avoid all source content listed above and avoid any watermark, logo, QR code, username, or platform mark.",
+  "negative_prompt": "photorealistic, 3D render, gradient shading, cinematic light, soft shadow, detailed realism, polished vector logo, clean corporate typography, thin outlines, pastel palette, muted beige palette, glossy surface, animal mascot, feline features, paw-print symbols, musical instrument performance, nightlife club lineup, copied reference title wording, visible website, watermark, username, signature, QR code, brand logo, copied reference text, exact reference pose",
+  "examples": [
+    {
+      "case_name": "midnight-noodle-run",
+      "values": {
+        "SUBJECT": "a lanky bicycle courier with a square helmet and long rubbery arms",
+        "SUBJECT_ACTION": "balancing on one foot while presenting a steaming takeout carton",
+        "PRODUCT_OR_PROP": "an oversized noodle carton with abstract steam curls",
+        "LOCATION": "a tiny late-night corner noodle window",
+        "BACKGROUND_ELEMENTS": "zigzag menu scraps, speed lines, dot trails, tiny receipt shapes, and loose arrow marks",
+        "MAIN_TEXT": "NOODLE RUN",
+        "SECONDARY_TEXT": "hot box / open late / curbside dash / 12:40 am",
+        "ACCENT_SYMBOL": "black lightning bolts and chunky dot bursts",
+        "WARDROBE_STYLE": "boxy courier jacket, round helmet, chunky sneakers, all simplified into coral-red flat shapes",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed mustard-yellow field, coral-red central cutout subject, thick uneven black marker outline, handmade bubble headline, scribbled microcopy, abstract comic marks, flat screenprint texture, crowded edge energy",
+        "SOURCE_CONTENT_TO_AVOID": "no animal mascot, no musical instrument performance, no nightlife club premise, no copied source title wording, no paw-print symbols, no original dates, no website, no same sleepy blowing pose"
+      }
+    },
+    {
+      "case_name": "laundromat-dance-break",
+      "values": {
+        "SUBJECT": "a dancing laundromat attendant with a round laundry basket held overhead",
+        "SUBJECT_ACTION": "twisting mid-step as socks and bubbles pop around the body",
+        "PRODUCT_OR_PROP": "a giant laundry basket and wobbling detergent bottle",
+        "LOCATION": "a compact neighborhood laundromat drawn as simple icons",
+        "BACKGROUND_ELEMENTS": "washer circles, suds dots, folded-shirt stickers, curved arrows, and punchy impact bursts",
+        "MAIN_TEXT": "SPIN NIGHT",
+        "SECONDARY_TEXT": "rinse / tumble / after hours / clean beat",
+        "ACCENT_SYMBOL": "soap-bubble dots, black asterisks, and a jagged burst",
+        "WARDROBE_STYLE": "rolled sleeves, apron pocket, soft cap, simplified playful worker silhouette",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed mustard-yellow field, coral-red central cutout subject, thick uneven black marker outline, handmade bubble headline, scribbled microcopy, abstract comic marks, flat screenprint texture, crowded edge energy",
+        "SOURCE_CONTENT_TO_AVOID": "no animal mascot, no musical instrument performance, no nightlife club premise, no copied source title wording, no paw-print symbols, no original dates, no website, no same sleepy blowing pose"
+      }
+    },
+    {
+      "case_name": "rocket-snack-stand",
+      "values": {
+        "SUBJECT": "a skateboard kid with a huge triangular sandwich backpack",
+        "SUBJECT_ACTION": "launching upward from a curb as snack wrappers burst outward",
+        "PRODUCT_OR_PROP": "foil sandwich, soda cup, and tiny paper tickets",
+        "LOCATION": "a schoolyard pop-up snack stand reduced to simple poster shapes",
+        "BACKGROUND_ELEMENTS": "ticket stubs, crooked menu blocks, starbursts, motion swoops, and scattered dot trails",
+        "MAIN_TEXT": "SNACK BLAST",
+        "SECONDARY_TEXT": "crispy / quick stop / lunch bell / extra sauce",
+        "ACCENT_SYMBOL": "jagged black explosion marks and round speed dots",
+        "WARDROBE_STYLE": "loose hoodie, shorts, cap, chunky skate shoes, all rendered as flat coral graphic shapes",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed mustard-yellow field, coral-red central cutout subject, thick uneven black marker outline, handmade bubble headline, scribbled microcopy, abstract comic marks, flat screenprint texture, crowded edge energy",
+        "SOURCE_CONTENT_TO_AVOID": "no animal mascot, no musical instrument performance, no nightlife club premise, no copied source title wording, no paw-print symbols, no original dates, no website, no same sleepy blowing pose"
+      }
+    },
+    {
+      "case_name": "plant-shop-alarm",
+      "values": {
+        "SUBJECT": "a busy florist with a giant watering can and oversized leaf shapes",
+        "SUBJECT_ACTION": "leaning forward while water arcs into a comic burst of leaves",
+        "PRODUCT_OR_PROP": "large watering can, simple potted sprout, and plant tag stickers",
+        "LOCATION": "a cramped neighborhood plant shop counter",
+        "BACKGROUND_ELEMENTS": "leaf stickers, price-tag shapes, black dot trails, hand arrows, and rough speech bubbles",
+        "MAIN_TEXT": "BLOOM BOOM",
+        "SECONDARY_TEXT": "daily water / tiny jungle / green alert / shop bell",
+        "ACCENT_SYMBOL": "leaf-shaped sparks, jagged burst marks, and dotted trails",
+        "WARDROBE_STYLE": "plain work apron, rolled cuffs, rounded shoes, simplified coral-red silhouette",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed mustard-yellow field, coral-red central cutout subject, thick uneven black marker outline, handmade bubble headline, scribbled microcopy, abstract comic marks, flat screenprint texture, crowded edge energy",
+        "SOURCE_CONTENT_TO_AVOID": "no animal mascot, no musical instrument performance, no nightlife club premise, no copied source title wording, no paw-print symbols, no original dates, no website, no same sleepy blowing pose"
+      }
+    }
+  ]
+}
