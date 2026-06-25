@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 80,
+  "styleCount": 82,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Red Yellow Grunge Skate Cover Style",
+      "slug": "red-yellow-grunge-skate-cover-style",
+      "category": "Zine + Collage",
+      "description": "Raw red-and-yellow action-culture covers with flash-lit cutouts, warped headline type, boxed callouts, and analog print grit.",
+      "summary": "A raw underground action-culture magazine cover style with oversized warped red-and-yellow headline type, flash-lit photographic cutouts, dark tilted street or venue backgrounds, dense boxed callouts, and coarse analog print degradation.",
+      "preview16": "../styles/red-yellow-grunge-skate-cover-style/preview-16x9.jpg",
+      "preview9": "../styles/red-yellow-grunge-skate-cover-style/preview-9x16.jpg",
+      "styleJson": "../styles/red-yellow-grunge-skate-cover-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/red-yellow-grunge-skate-cover-style.md",
+      "folder": "../styles/red-yellow-grunge-skate-cover-style/",
+      "anchors": [
+        "Oversized warped bubble or slab headline lettering fills the top third or half of the frame.",
+        "Primary type uses red fill with thick saturated yellow stroke, slightly uneven edges, and compact spacing.",
+        "One flash-lit photographic cutout subject breaks the type boundary and appears pasted onto the scene.",
+        "Background photography is dark, tilted, gritty, and architectural, with strong diagonal perspective.",
+        "Callout boxes cluster near the lower and side edges with tight stacked uppercase text.",
+        "Layout density is high, with little clean negative space and an intentionally crowded cover hierarchy."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "midnight-noodle-courier",
+      "copyPrompt": "Use the \"Red Yellow Grunge Skate Cover Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a helmeted night noodle courier\nSubject action: vaulting over a puddle outside a closed service alley\nProduct or prop: a strapped ramen delivery box with steam escaping\nLocation: rainy back-alley noodle shop loading zone at midnight\nBackground elements: tilted concrete walls, wet asphalt, buzzing security light, roll-up metal door, distant neon reflections\nMain text: NOODLE RUN\nSecondary text: HOT AFTER HOURS / CITY DELIVERY SPECIAL / FOUR ROUTES LEFT\nAccent symbol: bolt\nWardrobe style: reflective courier jacket, scuffed helmet, utility pants, soaked gloves\n\nStyle direction:\nA raw underground action-culture magazine cover style with oversized warped red-and-yellow\nheadline type, flash-lit photographic cutouts, dark tilted street or venue backgrounds, dense\nboxed callouts, and coarse analog print degradation.\n\nKeep visible:\n- Oversized warped bubble or slab headline lettering fills the top third or half of the frame.\n- Primary type uses red fill with thick saturated yellow stroke, slightly uneven edges, and compact spacing.\n- One flash-lit photographic cutout subject breaks the type boundary and appears pasted onto the scene.\n- Background photography is dark, tilted, gritty, and architectural, with strong diagonal perspective.\n- Callout boxes cluster near the lower and side edges with tight stacked uppercase text.\n\nAvoid:\nskateboarder, skateboard, skatepark, vintage car, copied magazine logo, copied cover text,\ncopied person, copied outfit, copied pose, real brand logo, watermark, QR code, platform UI,\ncreator signature, clean vector art, 3D render, glossy product render, minimalist poster, luxury\neditorial layout, thin elegant typography, sterile gradient, low-density layout, plain white\nbackground\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Monochrome Xerox Sports Dossier",
+      "slug": "monochrome-xerox-sports-dossier",
+      "category": "Type Posters",
+      "description": "Black-and-white xerox sports dossiers with cropped subjects, inset photo panels, distressed condensed type, and press-kit grain.",
+      "summary": "A black-and-white photocopied editorial collage system with oversized cropped subjects, overlapping inset photo panels, huge distressed condensed type, micro dossier labels, paper grain, halftone, scratches, and a sparse sports-press-kit mood.",
+      "preview16": "../styles/monochrome-xerox-sports-dossier/preview-16x9.jpg",
+      "preview9": "../styles/monochrome-xerox-sports-dossier/preview-9x16.jpg",
+      "styleJson": "../styles/monochrome-xerox-sports-dossier/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/monochrome-xerox-sports-dossier.md",
+      "folder": "../styles/monochrome-xerox-sports-dossier/",
+      "anchors": [
+        "Black-and-white photocopy palette with warm off-white paper, dense ink blacks, and compressed grayscale midtones.",
+        "One oversized cropped portrait or action figure occupying the main hierarchy, often cut off by the frame.",
+        "Two or three smaller rectangular inset photo panels overlapping the main image asymmetrically.",
+        "Heavy condensed uppercase sans headline spanning the lower third or lower edge.",
+        "Tiny uppercase dossier labels spaced across the top and bottom margins.",
+        "Visible halftone, xerox grain, paper fibers, dust, scratches, and ink drag across photos and blank paper."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-courier",
+      "copyPrompt": "Use the \"Monochrome Xerox Sports Dossier\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a fictional night courier with an intense cropped portrait and a second action view\nSubject action: sprinting through an empty transit underpass while gripping a folded route map\nProduct or prop: folded paper route map and worn messenger bag strap\nLocation: concrete transit underpass after midnight\nBackground elements: fluorescent ceiling strips, tiled wall fragments, blurred stair rail, empty platform signage with fictional glyphs\nMain text: NOCTURNE\nSecondary text: CITY RUN / MIDNIGHT FILE / CASE 004\nAccent symbol: thin circle-cross emblem\nWardrobe style: black windbreaker, reflective tape, fingerless gloves, scuffed messenger bag\n\nStyle direction:\nA black-and-white photocopied editorial collage system with oversized cropped subjects,\noverlapping inset photo panels, huge distressed condensed type, micro dossier labels, paper\ngrain, halftone, scratches, and a sparse sports-press-kit mood.\n\nKeep visible:\n- Black-and-white photocopy palette with warm off-white paper, dense ink blacks, and compressed grayscale midtones.\n- One oversized cropped portrait or action figure occupying the main hierarchy, often cut off by the frame.\n- Two or three smaller rectangular inset photo panels overlapping the main image asymmetrically.\n- Heavy condensed uppercase sans headline spanning the lower third or lower edge.\n- Tiny uppercase dossier labels spaced across the top and bottom margins.\n\nAvoid:\nreal public figure, celebrity athlete, real team logo, league logo, sponsor logo, basketball\njersey, Brooklyn, Nets, NBA, Jordan logo, Nike logo, Schroder, number 17, copied autograph,\ncopied circular logo, watermark, username, QR code, platform UI, clean vector poster, glossy\ncolor ad, 3D render, cinematic color grading, crowded sticker collage, exact source layout,\nexact source pose, exact source text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Liquid Chrome Clearance Poster Style",
       "slug": "liquid-chrome-clearance-poster-style",

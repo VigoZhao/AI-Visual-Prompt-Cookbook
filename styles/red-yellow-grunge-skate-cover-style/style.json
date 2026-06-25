@@ -1,0 +1,167 @@
+{
+  "style_name": "Red Yellow Grunge Skate Cover Style",
+  "style_slug": "red-yellow-grunge-skate-cover-style",
+  "style_version": "1.0.0",
+  "style_summary": "A raw underground action-culture magazine cover style with oversized warped red-and-yellow headline type, flash-lit photographic cutouts, dark tilted street or venue backgrounds, dense boxed callouts, and coarse analog print degradation.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small supporting text or microcopy",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Oversized warped bubble or slab headline lettering fills the top third or half of the frame.",
+    "Primary type uses red fill with thick saturated yellow stroke, slightly uneven edges, and compact spacing.",
+    "One flash-lit photographic cutout subject breaks the type boundary and appears pasted onto the scene.",
+    "Background photography is dark, tilted, gritty, and architectural, with strong diagonal perspective.",
+    "Callout boxes cluster near the lower and side edges with tight stacked uppercase text.",
+    "Layout density is high, with little clean negative space and an intentionally crowded cover hierarchy.",
+    "Palette is dominated by red, yellow, black, and cool blue-gray night tones.",
+    "Texture includes coarse paper grain, scanner noise, halftone dirt, color bleed, and softened print edges.",
+    "Lighting is harsh direct flash on the subject against a darker ambient background.",
+    "Mood references underground action culture, punk event flyers, thrifted magazine covers, and DIY zine printing."
+  ],
+  "source_content_to_avoid": [
+    "No skateboarder, skate jump, skateboard deck, or skatepark discovery premise.",
+    "No parked vintage car, truck foreground, or duplicate night parking-lot story.",
+    "No original headline, cover lines, slogans, names, or similar wording.",
+    "No copied face, expression, body pose, yellow shirt, patterned shorts, or shoe styling.",
+    "No same building angle, same car composition, or exact source scene structure.",
+    "No real logos, magazine marks, creator signatures, watermarks, platform UI, or QR codes."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Punk action-culture photo collage cover, vintage zine scan, and underground event flyer.",
+    "composition_logic": "Giant top masthead, one cutout action subject crossing the masthead, tilted dark photographic background, and dense lower callout blocks.",
+    "subject_placement": "A single flash-lit subject or hero object is scaled large enough to overlap the title and scene, usually upper center or upper right.",
+    "camera_perspective": "Low-angle or tilted wide-lens background with direct-flash snapshot subject and mild fisheye distortion.",
+    "typography_style": "All-caps warped display lettering with chunky slab or bubble contours, red fill, yellow stroke, rough edges, tight spacing, and stacked supporting copy.",
+    "color_behavior": "Hot red and yellow carry the graphic system while black and cool blue-gray hold the photographic scene.",
+    "texture_finish": "Scanned paper grain, photocopy noise, halftone dirt, soft ink spread, registration drift, and worn edges.",
+    "mood": "Rowdy, nostalgic, reckless, noisy, handmade, and collectible."
+  },
+  "composition": {
+    "hierarchy": "The headline is the largest object, followed by the cutout subject, then the dark environment, then secondary callout boxes.",
+    "layout_density": "Crowded magazine-cover density with minimal clean negative space and tight edge activity.",
+    "framing": "Use a low or tilted perspective background; allow the subject and type to overlap aggressively.",
+    "callout_placement": "Place boxed blurbs in lower corners, side edges, or over dark background areas."
+  },
+  "typography": {
+    "main_type": "Oversized red display letters with thick yellow outlines, hand-cut rough contours, compressed spacing, and uneven curves.",
+    "secondary_type": "Tight stacked uppercase text inside chunky red or yellow boxed labels.",
+    "text_behavior": "Type behaves as physical ink and pasted graphic matter, not as clean digital interface text.",
+    "avoid": "Avoid thin elegant fonts, neat editorial captions, polished geometric sans systems, and clean corporate type."
+  },
+  "color_palette": {
+    "primary_red": "#d91f28",
+    "outline_yellow": "#ffd52a",
+    "night_blue_gray": "#466d7d",
+    "deep_black": "#090b0e",
+    "concrete_gray": "#586368",
+    "dirty_paper_highlight": "#e0d28b",
+    "palette_behavior": "Keep red and yellow dominant for lettering and labels, with cool blue-gray and black for background photography."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Photographic collage cover, not illustration, not vector art, and not 3D render.",
+    "subject_treatment": "The main subject looks like a direct-flash snapshot cutout pasted above the background.",
+    "background_treatment": "Backgrounds are dark, compressed, tilted, and grainy, with visible night-scene architecture or interior structure.",
+    "finish": "Apply coarse scan texture, photocopy dirt, ink bleed, halftone speckle, mild blur, and imperfect color registration across the whole image."
+  },
+  "design_rules": [
+    "Make the top headline physically large enough to feel cropped, warped, and nearly too big for the page.",
+    "Keep the red-fill and yellow-outline type treatment as the dominant graphic signature.",
+    "Use one flash-lit cutout subject or hero object to break the boundary between typography and photography.",
+    "Set the scene in a dark, angled, gritty photographic location with strong diagonal structure.",
+    "Build dense boxed cover lines with tight uppercase lettering near the bottom and edges.",
+    "Apply analog print degradation globally so the image reads as a scanned zine cover."
+  ],
+  "do": [
+    "Use new subjects, new scenes, new props, and new text while preserving the cover grammar.",
+    "Keep the layout loud, crowded, tilted, and physically printed.",
+    "Use direct flash, strong contrast, and rough cutout edges around the main subject.",
+    "Use red/yellow labels and warped headline lettering as the clearest style signal.",
+    "Let text overlap photographic areas and feel pasted by hand."
+  ],
+  "avoid": [
+    "Do not recreate the skateboard, skateboarder, skate jump, vintage car, or lost skatepark premise.",
+    "Do not copy the original text, names, slogans, face, outfit, pose, or source composition.",
+    "Do not use watermarks, real brand marks, platform UI, QR codes, or creator signatures.",
+    "Do not create clean vector graphics, glossy 3D renders, minimal posters, luxury editorial layouts, or sterile gradients.",
+    "Do not use neat modern typography that removes the rough distorted magazine-cover character."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Red Yellow Grunge Skate Cover Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual requirements:\n- Composition: a loud underground magazine-cover layout with an oversized warped masthead occupying the top third or half of the frame, one large flash-lit photo cutout overlapping the title, a dark tilted photographic setting behind it, and dense boxed callouts clustered near the lower and side edges.\n- Typography: main headline lettering is all caps, hand-cut, warped bubble or slab display type with red fill, thick saturated yellow outline, rough ink edges, tight spacing, and slightly uneven baselines; supporting text is stacked uppercase inside chunky red/yellow callout labels.\n- Color: dominate the graphic system with hot red and saturated yellow, grounded by black, concrete gray, and cool blue-gray night photography; keep colors screen-printed, contaminated, and slightly misregistered.\n- Texture and lighting: use harsh direct flash on the cutout subject, darker ambient background photography, coarse paper grain, scanner noise, halftone dirt, ink spread, soft blur, and worn zine-cover surface.\n- Graphic elements: add thick-bordered sticker labels, short editorial blurbs, rough rectangular boxes, compact name-list blocks, and a small accent symbol, all integrated into the crowded cover hierarchy.\n\nAvoid: no skateboarder, no skateboard, no vintage car, no lost skatepark story, no copied source text, no copied names, no copied face or outfit, no real logos, no watermark, no QR code, no platform UI, no clean vector poster, no 3D render, no minimalist layout, no glossy luxury editorial finish, no neat modern typography.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "skateboarder, skateboard, skatepark, vintage car, copied magazine logo, copied cover text, copied person, copied outfit, copied pose, real brand logo, watermark, QR code, platform UI, creator signature, clean vector art, 3D render, glossy product render, minimalist poster, luxury editorial layout, thin elegant typography, sterile gradient, low-density layout, plain white background",
+  "examples": [
+    {
+      "case_name": "midnight-noodle-courier",
+      "values": {
+        "SUBJECT": "a helmeted night noodle courier",
+        "SUBJECT_ACTION": "vaulting over a puddle outside a closed service alley",
+        "PRODUCT_OR_PROP": "a strapped ramen delivery box with steam escaping",
+        "LOCATION": "rainy back-alley noodle shop loading zone at midnight",
+        "BACKGROUND_ELEMENTS": "tilted concrete walls, wet asphalt, buzzing security light, roll-up metal door, distant neon reflections",
+        "MAIN_TEXT": "NOODLE RUN",
+        "SECONDARY_TEXT": "HOT AFTER HOURS / CITY DELIVERY SPECIAL / FOUR ROUTES LEFT",
+        "ACCENT_SYMBOL": "bolt",
+        "WARDROBE_STYLE": "reflective courier jacket, scuffed helmet, utility pants, soaked gloves",
+        "STYLE_FIDELITY_ANCHORS": "giant warped red headline with yellow stroke, flash-lit cutout subject, gritty tilted night photo background, dense boxed callouts, heavy scanned paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboarder, no skateboard, no vintage car, no lost skatepark story, no copied reference text or names"
+      }
+    },
+    {
+      "case_name": "arcade-repair-legend",
+      "values": {
+        "SUBJECT": "an exhausted arcade repair technician",
+        "SUBJECT_ACTION": "climbing across two broken pinball cabinets with a tool pouch swinging",
+        "PRODUCT_OR_PROP": "a cracked joystick panel and a bundle of colored wires",
+        "LOCATION": "shuttered basement arcade after closing",
+        "BACKGROUND_ELEMENTS": "tilted rows of dark cabinets, coin slots, taped posters, exposed ceiling pipes, emergency light glow",
+        "MAIN_TEXT": "GAME FIX",
+        "SECONDARY_TEXT": "LAST CREDIT / HIGH SCORE RESCUE / BUTTONS JAMMED AGAIN",
+        "ACCENT_SYMBOL": "star",
+        "WARDROBE_STYLE": "grease-stained work shirt, patched vest, old sneakers, headlamp",
+        "STYLE_FIDELITY_ANCHORS": "massive red/yellow distorted masthead, pasted direct-flash photo cutout, dark diagonal photo setting, stacked sticker labels, analog zine scan texture",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboarder, no skateboard, no car, no lost skatepark premise, no original phrases or copied faces"
+      }
+    },
+    {
+      "case_name": "rooftop-radio-pirate",
+      "values": {
+        "SUBJECT": "a rooftop pirate-radio host",
+        "SUBJECT_ACTION": "balancing on an air-conditioning unit while raising a small antenna",
+        "PRODUCT_OR_PROP": "a portable transmitter covered in masking tape labels",
+        "LOCATION": "industrial rooftop above a night city block",
+        "BACKGROUND_ELEMENTS": "slanted roofline, vents, cables, water tower silhouette, blue-gray skyline haze, harsh utility lamp",
+        "MAIN_TEXT": "STATIC CLUB",
+        "SECONDARY_TEXT": "BROADCAST NOW / NO PERMIT NIGHT / FREQUENCY FEVER",
+        "ACCENT_SYMBOL": "arrow",
+        "WARDROBE_STYLE": "oversized windbreaker, fingerless gloves, taped headphones, worn boots",
+        "STYLE_FIDELITY_ANCHORS": "oversized warped top lettering, hot red fill with thick yellow outline, flash cutout over dark tilted photo, crowded cover blurbs, photocopied grain and ink bleed",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboarder, no skate action, no vintage vehicle, no copied source copy, no duplicate cover composition"
+      }
+    },
+    {
+      "case_name": "laundromat-dance-marathon",
+      "values": {
+        "SUBJECT": "a breakdance performer in a tiny laundromat",
+        "SUBJECT_ACTION": "freezing mid-spin between washing machines",
+        "PRODUCT_OR_PROP": "a rolling laundry basket spilling bright towels",
+        "LOCATION": "all-night corner laundromat during an improvised dance party",
+        "BACKGROUND_ELEMENTS": "tilted washer doors, fluorescent ceiling panels, coin machine, detergent boxes, taped event flyers",
+        "MAIN_TEXT": "SPIN CYCLE",
+        "SECONDARY_TEXT": "OPEN ALL NIGHT / FLOOR BATTLE / DRYER HEAT EDITION",
+        "ACCENT_SYMBOL": "spark",
+        "WARDROBE_STYLE": "baggy track jacket, striped socks, scuffed dance shoes, sweatband",
+        "STYLE_FIDELITY_ANCHORS": "giant rough red/yellow masthead, flash-lit pasted action subject, dark compressed photo background, dense lower callout blocks, coarse scanned magazine texture",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboard, no car, no skatepark discovery, no original visible text, no copied person or outfit"
+      }
+    }
+  ]
+}

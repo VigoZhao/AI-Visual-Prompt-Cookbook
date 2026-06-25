@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 80 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 82 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Red Yellow Grunge Skate Cover Style
+
+<a href="../styles/red-yellow-grunge-skate-cover-style"><img src="../styles/red-yellow-grunge-skate-cover-style/preview-16x9.jpg" width="720" alt="Red Yellow Grunge Skate Cover Style preview"></a>
+
+A raw underground action-culture magazine cover style with oversized warped red-and-yellow headline type, flash-lit photographic cutouts, dark tilted street or venue backgrounds, dense boxed callouts, and coarse analog print degradation.
+
+Files: [style.json](../styles/red-yellow-grunge-skate-cover-style/style.json) · [Copy Prompt](copy-prompts/red-yellow-grunge-skate-cover-style.md) · [16:9 preview](../styles/red-yellow-grunge-skate-cover-style/preview-16x9.jpg) · [9:16 preview](../styles/red-yellow-grunge-skate-cover-style/preview-9x16.jpg) · [Folder](../styles/red-yellow-grunge-skate-cover-style)
+
+---
+
+### Monochrome Xerox Sports Dossier
+
+<a href="../styles/monochrome-xerox-sports-dossier"><img src="../styles/monochrome-xerox-sports-dossier/preview-16x9.jpg" width="720" alt="Monochrome Xerox Sports Dossier preview"></a>
+
+A black-and-white photocopied editorial collage system with oversized cropped subjects, overlapping inset photo panels, huge distressed condensed type, micro dossier labels, paper grain, halftone, scratches, and a sparse sports-press-kit mood.
+
+Files: [style.json](../styles/monochrome-xerox-sports-dossier/style.json) · [Copy Prompt](copy-prompts/monochrome-xerox-sports-dossier.md) · [16:9 preview](../styles/monochrome-xerox-sports-dossier/preview-16x9.jpg) · [9:16 preview](../styles/monochrome-xerox-sports-dossier/preview-9x16.jpg) · [Folder](../styles/monochrome-xerox-sports-dossier)
+
+---
 
 ### Liquid Chrome Clearance Poster Style
 

@@ -1,0 +1,164 @@
+{
+  "style_name": "Monochrome Xerox Sports Dossier",
+  "style_slug": "monochrome-xerox-sports-dossier",
+  "style_version": "1.0.0",
+  "style_summary": "A black-and-white photocopied editorial collage system with oversized cropped subjects, overlapping inset photo panels, huge distressed condensed type, micro dossier labels, paper grain, halftone, scratches, and a sparse sports-press-kit mood.",
+  "environment_variables": {
+    "SUBJECT": "The new fictional main subject to feature in the poster.",
+    "SUBJECT_ACTION": "The subject's new action, pose, or movement beat.",
+    "PRODUCT_OR_PROP": "A new object, product, uniform detail, tool, or prop that supports the scene.",
+    "LOCATION": "The new setting or environment for the collage.",
+    "BACKGROUND_ELEMENTS": "Secondary scene details that appear in inset panels or paper margins.",
+    "MAIN_TEXT": "Short fictional headline text rendered as the large lower-third type block.",
+    "SECONDARY_TEXT": "Tiny fictional dossier labels, metadata, or supporting microcopy.",
+    "ACCENT_SYMBOL": "A small separator, emblem, rule, or decorative symbol.",
+    "WARDROBE_STYLE": "The subject's clothing, kit, styling, or material treatment.",
+    "STYLE_FIDELITY_ANCHORS": "Observable style traits that must remain visible in every sample.",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content that generated samples must not recreate.",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Black-and-white photocopy palette with warm off-white paper, dense ink blacks, and compressed grayscale midtones.",
+    "One oversized cropped portrait or action figure occupying the main hierarchy, often cut off by the frame.",
+    "Two or three smaller rectangular inset photo panels overlapping the main image asymmetrically.",
+    "Heavy condensed uppercase sans headline spanning the lower third or lower edge.",
+    "Tiny uppercase dossier labels spaced across the top and bottom margins.",
+    "Visible halftone, xerox grain, paper fibers, dust, scratches, and ink drag across photos and blank paper.",
+    "Flat editorial collage depth with hard rectangular panel edges, limited shadow, and no cinematic perspective.",
+    "High contrast facial, fabric, or object detail with crushed blacks and blown paper whites.",
+    "Sparse marker-like accent marks, thin rules, small symbols, rough scribbles, or autograph-like strokes.",
+    "Tight poster margins with a large white border and a centered emblem-like micro mark near the bottom."
+  ],
+  "source_content_to_avoid": [
+    "Do not depict Dennis Schroder, his likeness, his name, his jersey number, his facial expression, or his pose.",
+    "Do not include Brooklyn Nets, NBA, Jordan, Nike, sponsor patches, or any real team or league branding.",
+    "Do not use a basketball guard story, basketball jersey identity, basketball court action, or arm-extension pose from the source.",
+    "Do not use source text such as BROOKLYN, NETS, NUMBER, SEVENTEEN, SCHRODER, BRAUNSCHWEIG, GERMANY, GUARD, or THE MENACE.",
+    "Do not copy the autograph, circular bottom logo, watermark, signature, or creator mark.",
+    "Do not recreate the same three-photo arrangement, exact panel positions, or exact lower-nameplate structure.",
+    "Do not depict a recognizable public figure, celebrity athlete, real uniform, or existing sports campaign.",
+    "Do not include platform UI, QR code, username, app watermark, or social-media overlay."
+  ],
+  "visual_deconstruction": {
+    "style_category": "monochrome editorial photo-collage sports poster with xerox print degradation",
+    "layout": "dominant cropped photo panel, smaller overlapping inset panels, large lower headline, micro labels, wide paper margin",
+    "subject_placement": "main figure is oversized, close-cropped, and slightly left or center weighted; secondary panels stack on one side",
+    "camera_perspective": "editorial portrait or action photography flattened into scanned print panels, with no deep perspective illusion",
+    "finish": "photocopy grain, halftone, dust, scratches, ink drag, rough paper texture, and distressed type edges"
+  },
+  "composition": {
+    "primary_structure": "one large photo block dominates the page while two or three smaller rectangular insets overlap its right, upper, or lower edge",
+    "negative_space": "off-white paper border remains visible around the collage, especially near the top and lower margins",
+    "headline_zone": "a giant condensed headline anchors the lower third or lower edge and may overlap the image block",
+    "micro_metadata": "tiny uppercase labels appear along the top and bottom margin as visual rhythm",
+    "orientation_adaptation": "for 9:16, stack vertically with a dominant central figure; for 16:9, stretch the main photo and headline horizontally while preserving inset panels"
+  },
+  "typography": {
+    "main_type": "extra-bold condensed uppercase sans, very large scale, tight spacing, distressed photocopy edges",
+    "secondary_type": "small uppercase condensed metadata labels, spaced in groups, printed as if absorbed into paper",
+    "type_behavior": "type is structural and poster-like, not decorative captioning; it should feel inked into the paper texture",
+    "text_policy": "use short fictional words only, never real brand names, real team names, source names, or source slogans"
+  },
+  "color_palette": {
+    "base": "warm off-white paper and pale gray scanned background",
+    "ink": "deep black, charcoal gray, dirty mid-gray, and blown paper white",
+    "contrast": "crushed blacks with rough halftone midtones and clipped highlights",
+    "accent_policy": "default output is strictly monochrome with no colored accent"
+  },
+  "image_treatment": {
+    "photo_style": "photoreal editorial photography degraded through xerox, halftone, scanner noise, paper grain, and ink wear",
+    "lighting": "hard high-contrast black-and-white lighting with bright paper whites and dense shadow blocks",
+    "surface": "matte printed paper, visible fibers, speckles, scuffs, and subtle fold or smear artifacts",
+    "depth": "flat collage layering with hard panel edges and minimal shadow"
+  },
+  "design_rules": [
+    "Keep the image black-and-white and print-degraded, with no clean digital color polish.",
+    "Use one dominant cropped subject plus smaller inset panels instead of a single full-bleed photograph.",
+    "Make the lower headline oversized, condensed, distressed, and integrated into the paper grain.",
+    "Place small uppercase metadata labels along the top or bottom margin as a dossier rhythm.",
+    "Preserve a wide off-white paper field with dust, scratches, scuffs, and ink wear.",
+    "Keep graphic accents sparse: thin rules, small symbols, rough marker strokes, and no crowded sticker system."
+  ],
+  "do": [
+    "Use fictional subjects, fictional headline text, and fictional dossier labels.",
+    "Preserve the xerox halftone texture and high-contrast black-and-white photo treatment.",
+    "Crop the main subject aggressively so the figure feels poster-scale.",
+    "Use asymmetric inset panels to imply motion, identity, or backstory.",
+    "Let type and image overlap slightly while remaining readable."
+  ],
+  "avoid": [
+    "Avoid real teams, real leagues, sponsor logos, public figures, and brand marks.",
+    "Avoid basketball jerseys, basketball guard narratives, and source-specific text.",
+    "Avoid glossy color ads, clean vector graphics, 3D renders, UI screens, and cinematic lighting.",
+    "Avoid exact source panel placement, source pose, source autograph, or circular source logo.",
+    "Avoid watermarks, usernames, QR codes, app marks, and social platform chrome."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Monochrome Xerox Sports Dossier\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: build a black-and-white editorial collage from one oversized cropped main photo block plus two or three smaller rectangular inset photo panels, with asymmetrical overlap, hard panel edges, wide off-white paper border, tiny top and bottom metadata labels, and a huge lower-third condensed headline.\n- Typography: use distressed extra-bold condensed uppercase sans lettering for the main text, very small uppercase condensed labels for secondary text, tight spacing, ink roughness, and type that appears printed into the paper.\n- Color: strictly monochrome warm off-white paper, charcoal gray, dirty mid-gray, dense black ink, crushed shadows, clipped highlights, and no colored accent.\n- Texture and lighting: harsh high-contrast editorial photography flattened through xerox grain, halftone dots, scanner noise, paper fibers, dust, scratches, scuffs, and ink drag.\n- Graphic elements: use sparse thin rules, small emblem-like symbols, rough marker strokes, and one loose fictional signature-like scribble; keep all marks non-identifying.\n\nAvoid: no real people, no real teams, no real leagues, no sponsor logos, no basketball identity, no copied source names, no copied source text, no jersey branding, no watermark, no QR code, no username, no clean vector art, no glossy color advertising, no 3D render, no UI mockup, no exact recreation of the reference panel layout.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "real public figure, celebrity athlete, real team logo, league logo, sponsor logo, basketball jersey, Brooklyn, Nets, NBA, Jordan logo, Nike logo, Schroder, number 17, copied autograph, copied circular logo, watermark, username, QR code, platform UI, clean vector poster, glossy color ad, 3D render, cinematic color grading, crowded sticker collage, exact source layout, exact source pose, exact source text",
+  "examples": [
+    {
+      "case_name": "night-courier",
+      "values": {
+        "SUBJECT": "a fictional night courier with an intense cropped portrait and a second action view",
+        "SUBJECT_ACTION": "sprinting through an empty transit underpass while gripping a folded route map",
+        "PRODUCT_OR_PROP": "folded paper route map and worn messenger bag strap",
+        "LOCATION": "concrete transit underpass after midnight",
+        "BACKGROUND_ELEMENTS": "fluorescent ceiling strips, tiled wall fragments, blurred stair rail, empty platform signage with fictional glyphs",
+        "MAIN_TEXT": "NOCTURNE",
+        "SECONDARY_TEXT": "CITY RUN / MIDNIGHT FILE / CASE 004",
+        "ACCENT_SYMBOL": "thin circle-cross emblem",
+        "WARDROBE_STYLE": "black windbreaker, reflective tape, fingerless gloves, scuffed messenger bag",
+        "STYLE_FIDELITY_ANCHORS": "monochrome xerox sports dossier collage, oversized cropped main photo, inset panels, huge distressed condensed headline, micro labels, paper grain, halftone, scratches, sparse rules",
+        "SOURCE_CONTENT_TO_AVOID": "no basketball player, no team jersey, no real team, no source names, no copied autograph, no source number, no sponsor logo"
+      }
+    },
+    {
+      "case_name": "fencing-final",
+      "values": {
+        "SUBJECT": "a fictional masked fencer shown in a severe cropped portrait and two motion fragments",
+        "SUBJECT_ACTION": "resetting after a decisive lunge with the foil angled down",
+        "PRODUCT_OR_PROP": "foil blade and mesh fencing mask",
+        "LOCATION": "bare training hall with taped floor lines",
+        "BACKGROUND_ELEMENTS": "scoreboard-like blank rectangles, wall padding, chalky floor marks, blurred practice silhouettes",
+        "MAIN_TEXT": "POINT",
+        "SECONDARY_TEXT": "FINAL TOUCH / SALLE NOIR / FILE 012",
+        "ACCENT_SYMBOL": "small crossed-line mark",
+        "WARDROBE_STYLE": "white fencing jacket rendered as gritty gray-white fabric, dark glove, mesh mask texture",
+        "STYLE_FIDELITY_ANCHORS": "black-and-white photocopy palette, dominant cropped figure, smaller rectangular inset panels, lower-third condensed type, tiny dossier labels, xerox grain, halftone, hard panel edges",
+        "SOURCE_CONTENT_TO_AVOID": "no basketball identity, no Brooklyn or Nets text, no source athlete likeness, no jersey number, no brand logo, no copied panel arrangement"
+      }
+    },
+    {
+      "case_name": "velodrome-sprinter",
+      "values": {
+        "SUBJECT": "a fictional track cyclist with a close cropped face panel and a second racing body panel",
+        "SUBJECT_ACTION": "leaning into a banked curve at full speed",
+        "PRODUCT_OR_PROP": "track bicycle drop bars and matte helmet",
+        "LOCATION": "indoor velodrome with pale wooden banking",
+        "BACKGROUND_ELEMENTS": "blurred lane lines, empty rail, timing board reduced to abstract blocks, paper scuff overlays",
+        "MAIN_TEXT": "VELOCITY",
+        "SECONDARY_TEXT": "LAP HEAT / TRACK FILE / SPLIT 038",
+        "ACCENT_SYMBOL": "small double-bar separator",
+        "WARDROBE_STYLE": "plain unbranded skinsuit, matte helmet, dark gloves, no readable logos",
+        "STYLE_FIDELITY_ANCHORS": "monochrome high-contrast editorial photo collage, wide paper margin, inset photo blocks, huge distressed condensed headline, small uppercase metadata labels, xerox dust and scratches",
+        "SOURCE_CONTENT_TO_AVOID": "no real cyclist, no real team, no sponsor patches, no basketball jersey, no source text, no autograph, no public figure"
+      }
+    },
+    {
+      "case_name": "breakbeat-dancer",
+      "values": {
+        "SUBJECT": "a fictional street dancer with a stern close cropped portrait and a second frozen motion panel",
+        "SUBJECT_ACTION": "holding a mid-spin freeze on one hand in a rehearsal hall",
+        "PRODUCT_OR_PROP": "creased portable speaker and taped floor marker",
+        "LOCATION": "plain rehearsal room with scuffed floor and mirrored wall mostly cropped away",
+        "BACKGROUND_ELEMENTS": "blurred speaker stack, tape crosses, torn paper edge, empty wall panels, faint reflection fragments",
+        "MAIN_TEXT": "AFTERIMAGE",
+        "SECONDARY_TEXT": "FLOOR CUT / SESSION 07 / NIGHT CREW",
+        "ACCENT_SYMBOL": "small boxed star",
+        "WARDROBE_STYLE": "oversized blank sweatshirt, loose track pants, worn sneakers with no brand marks",
+        "STYLE_FIDELITY_ANCHORS": "strict monochrome xerox collage, oversized cropped subject, asymmetrical inset panels, distressed lower headline, micro labels, paper fibers, halftone grain, ink wear, sparse scribble accents",
+        "SOURCE_CONTENT_TO_AVOID": "no Dennis Schroder, no basketball player, no jersey number, no team marks, no source words, no source autograph, no real brand logos"
+      }
+    }
+  ]
+}
