@@ -1,0 +1,182 @@
+{
+  "style_name": "Y2K Streetwear Sticker Collage Style",
+  "style_slug": "y2k-streetwear-sticker-collage-style",
+  "style_version": "1.0.0",
+  "style_summary": "A dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic typography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast social-poster texture.",
+  "environment_variables": {
+    "SUBJECT": "New primary subject or group, different from the source person.",
+    "SUBJECT_ACTION": "New visible action or pose, different from the source seated posture.",
+    "PRODUCT_OR_PROP": "Invented object, product, or prop used as a foreground sticker element.",
+    "LOCATION": "New urban or culture setting, different from the source street furniture scene.",
+    "BACKGROUND_ELEMENTS": "Secondary scene details, surfaces, inset panels, or sticker props.",
+    "MAIN_TEXT": "Invented large headline text with no copied slogan or brand wording.",
+    "SECONDARY_TEXT": "Invented small sticker label, subtitle, or microcopy.",
+    "ACCENT_SYMBOL": "Decorative symbol for a speech bubble, badge, or callout.",
+    "WARDROBE_STYLE": "Wardrobe or styling direction that supports the street-culture mood without copying the source outfit.",
+    "STYLE_FIDELITY_ANCHORS": "The visible style traits that must carry over in every generated sample.",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content, brands, text, pose, props, and story details that must not be recreated.",
+    "ASPECT_RATIO": "Output aspect ratio, either 9:16 or 16:9."
+  },
+  "style_fidelity_anchors": [
+    "Dense poster collage hierarchy with one oversized cutout-photo subject.",
+    "A smaller tilted inset panel, reflection, phone-screen-like rectangle, or framed cutout.",
+    "Thick white and black sticker outlines around type, figures, props, and bubbles.",
+    "Inflated Y2K comic headline lettering with warped baseline and stacked outline.",
+    "Saturated yellow accents balanced against cobalt blue, teal green, red, white, and gray pavement tones.",
+    "Wide-angle street-camera perspective with shallow urban depth and compressed social-post framing.",
+    "Foreground props cropped large and treated like stickers, badges, or visual jokes.",
+    "Speech bubble or callout with symbolic marks instead of long readable dialogue.",
+    "Glossy, oversharpened, high-contrast photographic treatment with controlled compression texture.",
+    "Streetwear styling, baggy silhouettes, caps, sporty layers, and playful accessory details.",
+    "Chaotic but readable layout with layered diagonals, overlaps, and bottom-heavy type.",
+    "Pop-zine mood: prankish, loud, urban, game-like, and youth-culture coded."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the original seated streetwear subject or their exact body pose.",
+    "Do not reuse the original storefront or transit-stop setting.",
+    "Do not reuse the soda can, pizza slice, caution sign, cap pins, or the same prop arrangement.",
+    "Do not copy the original city/country/shirt lettering, bottom slogan, logo-like number mark, or speech-bubble symbols.",
+    "Do not include the creator signature, username, watermark, platform mark, or QR code.",
+    "Do not include recognizable real brand logos or copied package marks.",
+    "Do not copy the green-blue striped rugby shirt, yellow shoes, and teal cap combination.",
+    "Do not repeat the source story premise of a person sitting by street furniture with game or sneaker-life captions."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Photographic Y2K streetwear collage poster with comic title treatment and sticker-prop overlays.",
+    "layout": "A large cutout subject dominates the frame while inset panels, foreground props, speech bubbles, and giant type crowd the remaining space.",
+    "perspective": "Casual wide-angle street-camera perspective, slightly tilted, with shallow urban depth and close foreground objects.",
+    "texture": "High-contrast compressed social-image sharpness, glossy photo surfaces, controlled print grain, and clean sticker edges.",
+    "mood": "Loud, playful, prankish, street-culture coded, and game-like."
+  },
+  "composition": {
+    "primary_structure": "One oversized cutout-photo subject occupies 45-70 percent of the canvas, offset from center.",
+    "secondary_structure": "A tilted inset photo, reflective panel, or cutout object overlaps the background.",
+    "type_placement": "A large headline anchors the top, bottom, or corner and overlaps with photo material.",
+    "prop_logic": "Foreground props are scaled up, outlined, and cropped at canvas edges like stickers.",
+    "density": "High density with layered diagonals and very limited calm negative space."
+  },
+  "typography": {
+    "headline": "Huge rounded Y2K comic or varsity-adjacent display letters with black outer keylines and white separator strokes.",
+    "subtype": "Small slanted labels, badge text, and sticker microcopy, kept invented and brand-free.",
+    "behavior": "Warped baseline, mixed fill colors, stacked outlines, and type overlapping photo cutouts.",
+    "legibility": "Main headline must remain readable even when partly layered with subjects and props."
+  },
+  "color_palette": {
+    "primary_accents": [
+      "caution yellow",
+      "cobalt blue",
+      "teal green"
+    ],
+    "secondary_accents": [
+      "punch red",
+      "clean white",
+      "deep black"
+    ],
+    "base_tones": [
+      "gray pavement",
+      "dark glass",
+      "asphalt",
+      "muted metal",
+      "shadowed storefront tones"
+    ],
+    "palette_behavior": "High saturation on clothing, type, and props over neutral urban photographic texture."
+  },
+  "photographic_direction": {
+    "base": "Photoreal urban street photography.",
+    "treatment": "Cutout collage with sticker outlines, boosted contrast, hard whites and blacks, and controlled print/compression texture.",
+    "lighting": "Available city light or storefront light with punchy contrast, not cinematic studio lighting.",
+    "prohibited_modes": "No 3D render, no anime conversion, no flat vector poster, no clean luxury editorial."
+  },
+  "design_rules": [
+    "Keep one dominant cutout-photo subject much larger than the props and inset panel.",
+    "Use a smaller tilted inset panel or framed crop as a recurring secondary layer.",
+    "Outline important figures, props, headlines, and bubbles with thick white and black keylines.",
+    "Use a giant Y2K comic headline as a structural element, not a small caption.",
+    "Balance bright yellow, cobalt blue, teal green, red, black, and white over gray street-photo base tones.",
+    "Add at least one playful foreground prop cropped against an edge.",
+    "Use a speech bubble, badge, or callout with invented symbolic marks.",
+    "Keep texture intentional and clean; preserve high resolution and legibility."
+  ],
+  "do": [
+    "Preserve chaotic Y2K street-poster density.",
+    "Use realistic photo subjects with cutout treatment and sticker outlines.",
+    "Add a large outlined comic headline with invented text.",
+    "Include playful foreground props and a tilted inset panel.",
+    "Keep deliberate print or compression texture controlled and high resolution."
+  ],
+  "avoid": [
+    "Do not recreate the original person, pose, clothes, props, brands, text, or story.",
+    "Do not include watermarks, usernames, platform logos, QR codes, or creator IDs.",
+    "Do not use recognizable real brands or copied package design.",
+    "Do not shift into sparse minimalist design, clean fashion editorial, 3D render, anime, or flat vector art.",
+    "Do not let accidental noise, illegible type, or muddy AI texture overwhelm the collage."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the \"Y2K Streetwear Sticker Collage Style\" visual system.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as literal visual direction:\n- Composition: dense social-poster photo collage with one oversized cutout-photo subject pushed off center, a smaller tilted inset panel or reflective crop, oversized foreground sticker props, a speech bubble or badge, and a huge top, bottom, or corner headline.\n- Perspective: casual wide-angle street-camera perspective with shallow urban depth, slightly tilted diagonals, cropped edges, and close foreground objects.\n- Typography: inflated Y2K comic headline letters, thick black outer keyline, white separator stroke, mixed red, blue, yellow, black, and white fills, warped baseline, plus smaller slanted sticker labels.\n- Color: saturated caution yellow, cobalt blue, teal green, punch red, deep black, and clean white over gray pavement, dark glass, asphalt, and muted metal.\n- Photo treatment: photoreal street-image base, hard cutout edges, glossy oversharpened contrast, controlled social-poster compression texture, clean sticker outlines, no vector-only look.\n- Graphic elements: sticker props, speech bubble with symbolic marks, badge buttons, warning-label shapes, clipped photo objects, and tilted frames.\n\nImportant content rule: match the style fidelity anchors first, then change the source content. Use the new subject, new scene, new props, new headline, and new story details. Do not recreate anything listed in the source content to avoid.",
+  "negative_prompt": "No original reference subject, no copied pose, no original props or products, no recognizable brands, no copied slogans, no creator signature, no usernames, no watermarks, no QR codes, no platform UI, no clean minimalist layout, no luxury editorial, no 3D render, no anime conversion, no flat vector-only illustration, no fake brand logos, no illegible headline, no accidental compression artifacts, no muddy pixel noise.",
+  "examples": [
+    {
+      "case_name": "rooftop-courier",
+      "values": {
+        "SUBJECT": "a bike courier in motion, shown as a large cutout-photo figure",
+        "SUBJECT_ACTION": "vaulting over a low rooftop service pipe while gripping a messenger strap",
+        "PRODUCT_OR_PROP": "an invented sticker-covered insulated delivery box and loose route tags",
+        "LOCATION": "a city rooftop service lane at sunset with vents and painted safety rails",
+        "BACKGROUND_ELEMENTS": "tilted reflective panel showing a second courier silhouette, edge-cropped traffic cone, badge stickers, and concrete roof texture",
+        "MAIN_TEXT": "RUN THE BLOCK",
+        "SECONDARY_TEXT": "rush route / level 02",
+        "ACCENT_SYMBOL": "!! * ->",
+        "WARDROBE_STYLE": "baggy cargo pants, bright windbreaker, fingerless gloves, and a small brim cap in mismatched streetwear colors",
+        "STYLE_FIDELITY_ANCHORS": "oversized cutout subject, tilted inset panel, thick sticker outlines, comic headline, saturated yellow-blue-green accents, foreground sticker props, speech bubble symbols, high-contrast photoreal collage",
+        "SOURCE_CONTENT_TO_AVOID": "no seated source pose, no soda can, no pizza, no caution sign, no copied shirt text, no original bottom slogan, no watermark, no real brand logos"
+      }
+    },
+    {
+      "case_name": "late-night-laundromat",
+      "values": {
+        "SUBJECT": "a night-shift stylist with headphones, shown as a large cutout-photo figure",
+        "SUBJECT_ACTION": "snapping a bright jacket in the air beside spinning washers",
+        "PRODUCT_OR_PROP": "invented detergent pods, sticker laundry cards, and a giant cropped plastic hanger",
+        "LOCATION": "a neon laundromat with tile floor, chrome doors, and vending-machine glow",
+        "BACKGROUND_ELEMENTS": "tilted dryer-door reflection with a small secondary figure, speech bubble, loose sock stickers, and shiny floor highlights",
+        "MAIN_TEXT": "OPEN LATE",
+        "SECONDARY_TEXT": "spin cycle club",
+        "ACCENT_SYMBOL": "* @ !!",
+        "WARDROBE_STYLE": "oversized track jacket, wide denim shorts, striped socks, and glossy sneakers in teal, red, and yellow accents",
+        "STYLE_FIDELITY_ANCHORS": "dense photo collage, inset reflection panel, thick white-black keylines, loud Y2K comic type, foreground props, saturated primary accents, playful symbols, controlled social-poster texture",
+        "SOURCE_CONTENT_TO_AVOID": "no original street furniture scene, no soda can, no pizza slice, no copied cap pins, no source outfit colors as a full set, no real brands, no creator signature"
+      }
+    },
+    {
+      "case_name": "flower-bike-run",
+      "values": {
+        "SUBJECT": "a florist courier wearing oversized sunglasses, shown as a large cutout-photo figure",
+        "SUBJECT_ACTION": "loading wrapped flowers onto a cargo bike while turning toward the camera",
+        "PRODUCT_OR_PROP": "invented bouquet sleeves, ribbon stickers, and a giant cropped hand pump",
+        "LOCATION": "a corner flower shop sidewalk after rain with awning shadows and wet pavement",
+        "BACKGROUND_ELEMENTS": "tilted shop-window reflection, loose petal stickers, badge buttons, bike basket details, and a small callout bubble",
+        "MAIN_TEXT": "PLANT MODE",
+        "SECONDARY_TEXT": "fresh drop / no wilt",
+        "ACCENT_SYMBOL": "# ? *",
+        "WARDROBE_STYLE": "baggy utility vest, color-block rugby layer, rolled work pants, and bright rubber clogs without copying the source outfit",
+        "STYLE_FIDELITY_ANCHORS": "huge cutout-photo subject, tilted inset, sticker prop scale, bold comic headline, yellow-blue-green-red palette, thick outlines, urban pavement base, playful pop-zine mood",
+        "SOURCE_CONTENT_TO_AVOID": "no seated person, no transit-stop storefront, no original soda or food props, no source text, no exact green-blue shirt and yellow shoes combination, no watermarks"
+      }
+    },
+    {
+      "case_name": "arcade-repair-crew",
+      "values": {
+        "SUBJECT": "an arcade repair technician in a cropped photo cutout",
+        "SUBJECT_ACTION": "kneeling beside an open game cabinet while holding a coil of colored cable",
+        "PRODUCT_OR_PROP": "invented token bucket, joystick parts, stickered tool pouch, and oversized warning tag",
+        "LOCATION": "a narrow retro arcade aisle with patterned carpet, lit cabinet sides, and reflective glass",
+        "BACKGROUND_ELEMENTS": "tilted inset photo of a teammate testing buttons, speech bubble, coin stickers, cable loops, and cropped cabinet art with no real logos",
+        "MAIN_TEXT": "BONUS ROUND",
+        "SECONDARY_TEXT": "fix it live",
+        "ACCENT_SYMBOL": "!! + *",
+        "WARDROBE_STYLE": "oversized mechanic shirt, baggy work jeans, bright cap, chunky sneakers, and enamel-style patches with invented symbols",
+        "STYLE_FIDELITY_ANCHORS": "crowded Y2K sticker collage, photoreal cutout subject, smaller tilted panel, huge outlined headline, badge props, speech bubble symbols, saturated yellow-blue-teal-red accents, glossy controlled texture",
+        "SOURCE_CONTENT_TO_AVOID": "no original person or pose, no soda can, no pizza, no caution sign, no original bottom phrase, no country-number logo, no real brands, no creator handle"
+      }
+    }
+  ]
+}

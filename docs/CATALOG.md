@@ -1,8 +1,38 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 82 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 85 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Electric Blue Cutout Manga Poster Style
+
+<a href="../styles/electric-blue-cutout-manga-poster-style"><img src="../styles/electric-blue-cutout-manga-poster-style/preview-16x9.jpg" width="720" alt="Electric Blue Cutout Manga Poster Style preview"></a>
+
+A reusable illustrated poster style built from saturated electric-blue fields, sharp white cutout geometry, oversized rounded modular typography, warm orange microtype, and one cel-shaded manga subject with a large foreground prop in exaggerated perspective.
+
+Files: [style.json](../styles/electric-blue-cutout-manga-poster-style/style.json) · [Copy Prompt](copy-prompts/electric-blue-cutout-manga-poster-style.md) · [16:9 preview](../styles/electric-blue-cutout-manga-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/electric-blue-cutout-manga-poster-style/preview-9x16.jpg) · [Folder](../styles/electric-blue-cutout-manga-poster-style)
+
+---
+
+### Y2K Streetwear Sticker Collage Style
+
+<a href="../styles/y2k-streetwear-sticker-collage-style"><img src="../styles/y2k-streetwear-sticker-collage-style/preview-16x9.jpg" width="720" alt="Y2K Streetwear Sticker Collage Style preview"></a>
+
+A dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic typography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast social-poster texture.
+
+Files: [style.json](../styles/y2k-streetwear-sticker-collage-style/style.json) · [Copy Prompt](copy-prompts/y2k-streetwear-sticker-collage-style.md) · [16:9 preview](../styles/y2k-streetwear-sticker-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/y2k-streetwear-sticker-collage-style/preview-9x16.jpg) · [Folder](../styles/y2k-streetwear-sticker-collage-style)
+
+---
+
+### Cream Smoke City Manga Poster Style
+
+<a href="../styles/cream-smoke-city-manga-poster-style"><img src="../styles/cream-smoke-city-manga-poster-style/preview-16x9.jpg" width="720" alt="Cream Smoke City Manga Poster Style preview"></a>
+
+A vertical and horizontal illustration system built from fine manga ink contour lines, huge cream-toned organic cloud masses, sparse teal framing shapes, peach skin or object accents, and precise miniature urban architecture rendered with clean paper space.
+
+Files: [style.json](../styles/cream-smoke-city-manga-poster-style/style.json) · [Copy Prompt](copy-prompts/cream-smoke-city-manga-poster-style.md) · [16:9 preview](../styles/cream-smoke-city-manga-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/cream-smoke-city-manga-poster-style/preview-9x16.jpg) · [Folder](../styles/cream-smoke-city-manga-poster-style)
+
+---
 
 ### Red Yellow Grunge Skate Cover Style
 

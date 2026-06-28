@@ -1,0 +1,175 @@
+{
+  "style_name": "Electric Blue Cutout Manga Poster Style",
+  "style_slug": "electric-blue-cutout-manga-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A reusable illustrated poster style built from saturated electric-blue fields, sharp white cutout geometry, oversized rounded modular typography, warm orange microtype, and one cel-shaded manga subject with a large foreground prop in exaggerated perspective.",
+  "environment_variables": {
+    "SUBJECT": "Primary illustrated character, mascot, product, or object that carries the poster narrative.",
+    "SUBJECT_ACTION": "The active pose, gesture, or motion beat for the primary subject.",
+    "PRODUCT_OR_PROP": "Oversized foreground object, product, tool, case, device, package, or visual anchor.",
+    "LOCATION": "Simplified setting cue or event context, kept graphic rather than scenic.",
+    "BACKGROUND_ELEMENTS": "Sparse secondary details, white cutouts, motion lines, compact label clusters, and small graphic marks.",
+    "MAIN_TEXT": "Large invented headline or event-title text, never copied from the reference.",
+    "SECONDARY_TEXT": "Small supporting copy, time-like copy, section labels, or short invented microcopy.",
+    "ACCENT_SYMBOL": "Small separator mark, label symbol, star, dot, arrow, waveform, or decorative glyph.",
+    "WARDROBE_STYLE": "Subject styling, clothing shape, hair direction, accessory language, and character treatment.",
+    "STYLE_FIDELITY_ANCHORS": "Observable traits that must remain visible in every generated sample.",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source-image content that must not be recreated.",
+    "ASPECT_RATIO": "9:16 or 16:9."
+  },
+  "style_fidelity_anchors": [
+    "Dominant saturated electric-blue field with hard white cutout geometry at the edges.",
+    "Huge rounded modular white display letterforms cropped beyond the frame and used as poster architecture.",
+    "Warm orange-yellow supporting type in compact labels, tilted subheads, and small information blocks.",
+    "One cel-shaded manga or anime subject with clean dark keylines and simplified blocked shadows.",
+    "Large foreground prop or product in exaggerated three-quarter perspective, overlapping the lower edge.",
+    "Sparse graphic-stage composition with only a few background cues rather than a detailed environment.",
+    "Sharp angular white negative-space wedges that cut into the blue field.",
+    "Thin white motion lines, scribbles, or waveform marks used sparingly across the blue area.",
+    "Palette hierarchy of electric blue and white first, orange accents second, muted figure and prop colors third.",
+    "Clean high-resolution digital print finish with only controlled light poster texture.",
+    "Slight low-angle or three-quarter perspective that makes the prop feel closer than the subject.",
+    "Playful independent-culture mood that feels musical, urban, youthful, and handmade without becoming messy."
+  ],
+  "source_content_to_avoid": [
+    "The original party flyer, date, venue, contact email, ticket price, and music-event lineup structure.",
+    "The words KISEI, ALL GENRE PARTY, Music Space, 7th HEAVEN, guest live, DJ live, door price, or any visible performer names.",
+    "The same traveler character pulling a sticker-covered rolling suitcase.",
+    "The lace head covering, goggles or glasses, blue top, black outerwear, baggy jeans, exact pose, and body silhouette.",
+    "The suitcase stickers, penguin-like mark, orange mascot sticker, QR-like marks, signatures, or brand-like identity marks.",
+    "The travel-arrival story, foreground luggage prop, venue flyer information hierarchy, and exact cropped title layout.",
+    "Watermarks, usernames, creator marks, platform logos, QR codes, emails, and exact Japanese source text."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Electric-blue manga event poster with indie flyer energy.",
+    "composition_logic": "One central illustrated subject interrupts oversized cropped typography, while a large foreground prop pushes into the lower edge.",
+    "subject_placement": "Subject sits slightly right of center or lower center, leaning into the poster field and partially behind the foreground object.",
+    "camera_perspective": "Slight low-angle or three-quarter perspective with the prop scaled larger than natural distance.",
+    "typography_behavior": "Massive rounded white modular display strokes act as architecture; smaller orange type clusters provide rhythm and event texture.",
+    "color_behavior": "Electric blue and white dominate, orange-yellow accents carry information energy, and subject colors are muted secondary notes.",
+    "graphic_elements": "White angular wedges, rounded display strokes, orange label blocks, thin white motion lines, and sparse decorative separators.",
+    "texture_finish": "Clean digital print with minimal controlled paper grain, crisp edges, and no uncontrolled noise.",
+    "lighting_mood": "Flat graphic poster lighting for the field, cel-shaded subject depth, energetic urban youth-culture mood."
+  },
+  "composition": {
+    "canvas": "Use the requested aspect ratio as a finished poster composition, not a scene screenshot.",
+    "field": "Make the electric-blue field dominant, interrupted by hard white cutout planes and cropped letterforms.",
+    "hierarchy": "The huge type and blue-white geometry establish the poster first, then the manga subject, then the foreground prop, then orange microtype.",
+    "subject_scale": "Keep one main subject large enough to read from a distance, with the prop even closer and larger at the lower edge.",
+    "negative_space": "Use white wedges and blue open areas deliberately; avoid filling every area with objects."
+  },
+  "typography": {
+    "display": "Extra-large rounded modular sans or bubble-like letter architecture in white, cropped at the edges.",
+    "supporting": "Chunky orange-yellow sans labels, small date-like blocks, tilted subheads, and compact microcopy.",
+    "legibility": "Invented text can be stylized but should be placed as readable poster elements whenever possible.",
+    "placement": "Main display text belongs near the top or behind the subject; secondary labels sit left, right, or in small white blocks."
+  },
+  "color_palette": {
+    "electric_blue": "#1f8dea",
+    "white": "#ffffff",
+    "orange_yellow": "#f5aa24",
+    "deep_ink": "#1c2630",
+    "cool_gray": "#8c9aa4",
+    "muted_secondary_notes": "Low-saturation clothing and prop colors such as navy, slate, moss, cream, and soft gray.",
+    "palette_behavior": "Blue and white carry the structure, orange carries small information bursts, and character colors stay secondary."
+  },
+  "image_treatment": {
+    "rendering": "Cel-shaded manga illustration for subject and foreground prop, flat graphic poster field behind them.",
+    "linework": "Clean dark keylines, controlled interior folds, crisp prop seams, and simplified shadow blocks.",
+    "finish": "High-resolution clean digital print with subtle controlled poster grain only.",
+    "lighting": "Flat poster lighting with limited cel-shaded depth on the figure and prop.",
+    "depth": "Mild depth from prop perspective and character overlap, never full photorealistic depth."
+  },
+  "design_rules": [
+    "Keep the electric-blue, white, and orange hierarchy visible in every sample.",
+    "Use one manga subject and one oversized foreground prop as the central content engine.",
+    "Crop the largest rounded white type beyond the canvas so it becomes architectural.",
+    "Use hard white cutout wedges to shape the poster silhouette and negative space.",
+    "Use sparse orange labels and microtype as rhythm, not as dense readable production copy.",
+    "Keep the scene graphic and minimal instead of building a realistic location."
+  ],
+  "do": [
+    "Preserve the blue-white-orange poster hierarchy.",
+    "Use oversized rounded display type as a structural background layer.",
+    "Use cel-shaded manga linework for the figure and prop.",
+    "Push a large prop into the lower foreground with exaggerated perspective.",
+    "Add a few thin white motion lines or waveform marks on the blue field.",
+    "Invent new event text, subject, prop, and setting for every case."
+  ],
+  "avoid": [
+    "Do not recreate the original flyer, traveler, suitcase, names, date, venue, price, email, or travel story.",
+    "Do not use photorealism, 3D render styling, painterly fantasy art, generic vector flatness, or vaporwave gradients.",
+    "Do not add real logos, QR codes, watermarks, usernames, social handles, or signature marks.",
+    "Do not overcrowd the poster with a full scenic background, crowd, or many small props.",
+    "Do not replace the rounded cropped typography with ordinary centered headline text.",
+    "Do not let texture become muddy digital noise or heavy grunge."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Electric Blue Cutout Manga Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Foreground prop or product: {PRODUCT_OR_PROP}. Location or event context: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe and styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these concrete style rules: dominant saturated electric-blue background; hard white angular cutout wedges; huge rounded modular white display letterforms cropped past the canvas; compact warm orange-yellow label typography; one cel-shaded manga subject with crisp dark keylines; one oversized foreground prop in exaggerated three-quarter perspective; sparse graphic-stage composition; thin white motion or waveform lines; clean high-resolution digital print finish with only subtle controlled poster texture. Match the visual family first, then change the literal content. Do not reproduce the original flyer, original character, original luggage prop, original names, original venue information, watermarks, QR codes, platform marks, or real logos.",
+  "negative_prompt": "Photorealistic rendering, 3D toy render, painterly fantasy illustration, generic flat vector poster, vaporwave gradient poster, heavy grunge, muddy dithering, random pixel noise, copied flyer text, KISEI, ALL GENRE PARTY, Music Space, 7th HEAVEN, source performer names, rolling suitcase, traveler pulling luggage, copied outfit, copied stickers, venue email, QR code, watermark, username, platform logo, real brand logo, crowded realistic background, illegible clutter, dull one-color design.",
+  "examples": [
+    {
+      "case_name": "night-courier-bento",
+      "values": {
+        "SUBJECT": "a teenage bike courier with short silver hair and a confident sideways glance",
+        "SUBJECT_ACTION": "twisting mid-step while holding a matte bicycle helmet and bracing one knee forward",
+        "PRODUCT_OR_PROP": "an oversized cube-shaped insulated bento delivery box covered with abstract non-logo decals",
+        "LOCATION": "a simplified late-night snack route outside a tiny corner food window",
+        "BACKGROUND_ELEMENTS": "electric-blue field, hard white diagonal cutouts, compact orange route labels, one thin white speed line",
+        "MAIN_TEXT": "NOVA DROP",
+        "SECONDARY_TEXT": "late bite / city route / 20:00",
+        "ACCENT_SYMBOL": "solid dot",
+        "WARDROBE_STYLE": "oversized black parka, neon green gloves, loose cargo shorts, sport socks, clean manga linework",
+        "STYLE_FIDELITY_ANCHORS": "electric-blue field, cropped rounded white letter architecture, orange microtype, one cel-shaded manga figure, large lower foreground prop, sparse white cutout geometry, thin white motion line, clean print finish",
+        "SOURCE_CONTENT_TO_AVOID": "no party flyer copy, no KISEI text, no venue data, no traveler pulling suitcase, no lace head covering, no copied stickers, no QR codes or logos"
+      }
+    },
+    {
+      "case_name": "rooftop-gardener-radio",
+      "values": {
+        "SUBJECT": "a rooftop gardener with cropped green hair and a relaxed mischievous expression",
+        "SUBJECT_ACTION": "leaning forward to adjust a dangling plant tag while stepping over a low parapet line",
+        "PRODUCT_OR_PROP": "a chunky portable radio planter with sprouts growing from the speaker grille and abstract sticker shapes",
+        "LOCATION": "a simplified rooftop summer pop-up with no realistic skyline detail",
+        "BACKGROUND_ELEMENTS": "large white cutout wedge, cropped rounded headline strokes, tiny orange roof labels, a thin white waveform arc",
+        "MAIN_TEXT": "SKY SPROUT",
+        "SECONDARY_TEXT": "roof set / plant swap / 16:30",
+        "ACCENT_SYMBOL": "small star",
+        "WARDROBE_STYLE": "loose mesh overshirt, cropped work vest, wide utility pants, rubber clogs, cel-shaded folds",
+        "STYLE_FIDELITY_ANCHORS": "dominant electric blue, giant white rounded type cropped off-frame, orange supporting labels, one cel-shaded manga subject, oversized prop in lower foreground, angular white negative space, sparse scene cues, crisp keylines",
+        "SOURCE_CONTENT_TO_AVOID": "no original event title, no music venue text, no rolling suitcase, no travel arrival premise, no copied pose or outfit, no watermarks or brand marks"
+      }
+    },
+    {
+      "case_name": "aquarium-tech-capsule",
+      "values": {
+        "SUBJECT": "a young aquarium maintenance technician with navy bobbed hair and transparent gloves",
+        "SUBJECT_ACTION": "crouching in a dynamic three-quarter pose while checking a small handheld meter",
+        "PRODUCT_OR_PROP": "an oversized clear capsule tank on stubby feet with stylized bubbles and abstract caution decals",
+        "LOCATION": "a graphic after-hours aquarium service announcement with no real venue branding",
+        "BACKGROUND_ELEMENTS": "electric-blue poster field, white angular cutouts, cropped bubble-like type, orange service callouts, thin white bubble trail",
+        "MAIN_TEXT": "BUBBLE SHIFT",
+        "SECONDARY_TEXT": "tank care / night check / 21:10",
+        "ACCENT_SYMBOL": "double slash",
+        "WARDROBE_STYLE": "short waterproof jacket, rolled technical pants, rubber boots, simple utility pouch, crisp manga shading",
+        "STYLE_FIDELITY_ANCHORS": "blue and white poster architecture, huge rounded cropped letters, orange small labels, central manga subject, large lower prop in perspective, white cutout wedges, clean digital print texture, sparse graphic environment",
+        "SOURCE_CONTENT_TO_AVOID": "no KISEI layout, no guest or DJ text, no date block from the source, no traveler character, no suitcase stickers, no exact source typography, no QR code"
+      }
+    },
+    {
+      "case_name": "arcade-runner-prize",
+      "values": {
+        "SUBJECT": "an arcade runner with asymmetrical pink-black hair and a focused grin",
+        "SUBJECT_ACTION": "lunging sideways as if sliding into frame while pointing at the main headline",
+        "PRODUCT_OR_PROP": "an oversized translucent claw-machine prize capsule filled with abstract toy shapes and non-logo sticker bursts",
+        "LOCATION": "a simplified underground arcade game-night poster with no real arcade branding",
+        "BACKGROUND_ELEMENTS": "cropped white modular lettering, blue open field, angular white side cut, orange token labels, one thin white zigzag mark",
+        "MAIN_TEXT": "TOKEN RUSH",
+        "SECONDARY_TEXT": "bonus round / local play / 18:45",
+        "ACCENT_SYMBOL": "small arrow",
+        "WARDROBE_STYLE": "oversized striped jersey, fingerless gloves, baggy tech pants, clean cel-shaded streetwear folds",
+        "STYLE_FIDELITY_ANCHORS": "saturated electric-blue field, huge rounded white type as structure, orange compact typography, one cel-shaded manga figure, oversized foreground object, hard white cutout wedges, thin motion marks, youthful indie flyer mood",
+        "SOURCE_CONTENT_TO_AVOID": "no source party names, no suitcase or travel prop, no venue details, no copied character silhouette, no lace headwear, no copied marks, no platform or creator identifiers"
+      }
+    }
+  ]
+}

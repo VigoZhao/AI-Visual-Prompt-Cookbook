@@ -1,0 +1,185 @@
+{
+  "style_name": "Cream Smoke City Manga Poster Style",
+  "style_slug": "cream-smoke-city-manga-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A vertical and horizontal illustration system built from fine manga ink contour lines, huge cream-toned organic cloud masses, sparse teal framing shapes, peach skin or object accents, and precise miniature urban architecture rendered with clean paper space.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small supporting text or microcopy",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Cream, ivory, and warm gray organic cloud or vapor masses dominate the upper composition with dense nested curl contours.",
+    "Thin black manga ink lines define every edge, window, curl, and small floating fragment with controlled variation in line weight.",
+    "Large central subject scale is cropped close, with a calm surreal expression or still pose and a lot of empty off-white paper around it.",
+    "Miniature urban or architectural details collect along the lower edge or side edges, drawn as precise low-depth blocks with window grids.",
+    "A deep teal or blue-green flat shape acts as a sweeping background frame, border, or negative-space anchor rather than a realistic sky.",
+    "The palette stays restrained: off-white paper, cream smoke, pale gray shadow, muted teal, peach or coral accent, and black linework.",
+    "Depth is shallow and poster-like, mixing flat silhouettes with lightly shaded forms instead of cinematic lighting or realistic volume.",
+    "Floating droplets, tiny curls, dots, and fragments orbit the main subject and connect large forms to small architectural details.",
+    "Halftone hatching, stippled gray texture, and fine crosshatch patches appear selectively inside shadows and building surfaces.",
+    "The image reads as a clean editorial manga poster with poetic surrealism, not a comic panel sequence, realistic anime still, or ad layout."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a young boy with short black hair staring upward.",
+    "Do not show smoke erupting directly from the top of a child's head.",
+    "Do not use an orange crewneck shirt as the central wardrobe anchor.",
+    "Do not copy the same dense city skyline wrapped around the lower torso.",
+    "Do not reuse the blue ocean-wave shape from the bottom-left corner.",
+    "Do not reuse the same surprised open-mouth expression or blue reflective eyes.",
+    "Do not repeat the story premise of a person overwhelmed by a smoke explosion above their head.",
+    "Do not include signatures, watermarks, creator marks, platform marks, or copied text."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Surreal editorial manga poster illustration with flat poster space, precise ink drawing, and dense organic linework.",
+    "composition_and_layout": "One oversized central figure or object anchors the middle, an enormous cream organic mass rises or sweeps above it, and small architectural blocks form a compressed city-like base.",
+    "subject_placement": "The subject is close-cropped and centered or slightly low in frame, with the largest visual mass hovering above or around the upper half.",
+    "camera_or_perspective": "Low-angle portrait framing for people and shallow isometric or front-on geometry for buildings and props.",
+    "typography_style": "No strong headline typography in the reference; any text should appear only as tiny hand-drawn signage or restrained microcopy.",
+    "color_palette_behavior": "The image depends on warm neutral paper and cream forms, with muted teal as the dominant contrast and coral or peach as a small accent.",
+    "graphic_elements": "Curled puffs, droplets, small chips, stipple patches, window grids, hatch fills, and a sweeping flat teal boundary.",
+    "texture_and_finish": "Clean digital ink with subtle paper warmth, light gray shadows, selective stipple, and no dirty digital noise.",
+    "lighting": "Soft ambient poster light with minimal cast shadow and gentle tonal patches.",
+    "mood_and_reference": "Quiet, wonder-struck, slightly anxious urban surrealism with Japanese manga poster sensitivity."
+  },
+  "composition": {
+    "rules": [
+      "Use one dominant central subject or object, cropped large enough to feel monumental against the small background details.",
+      "Let a cream organic mass occupy much of the upper or side field with nested contour loops and floating fragments.",
+      "Keep open off-white paper areas visible so the dense linework can breathe.",
+      "Place architectural blocks, rooftops, stalls, railings, or machines as compact miniature geometry along the lower or side edge.",
+      "Use a single flat teal frame shape to sweep behind the subject or along an edge without becoming a realistic background."
+    ],
+    "hierarchy": "Organic cream mass first, central subject second, miniature architecture third, floating fragments fourth."
+  },
+  "typography": {
+    "rules": [
+      "Avoid large poster headlines unless the case explicitly requires a tiny sign.",
+      "If text appears, draw it as small hand-lettered signage, roof labels, ticket marks, or microcopy integrated into the architecture.",
+      "Keep letters sparse, black or dark gray, and secondary to the linework.",
+      "Never use glossy digital fonts, modern UI text, brand logos, or watermark-like marks."
+    ]
+  },
+  "color_palette": {
+    "primary": [
+      "off-white paper",
+      "warm cream",
+      "pale gray",
+      "black ink"
+    ],
+    "secondary": [
+      "deep muted teal",
+      "blue-green shadow"
+    ],
+    "accent": [
+      "soft peach",
+      "muted coral",
+      "small red-brown details"
+    ],
+    "proportions": "About 60 percent cream and paper, 20 percent pale gray ink shading, 15 percent teal framing, and 5 percent coral or peach accent."
+  },
+  "image_treatment": {
+    "rendering_mode": "Flat high-resolution manga poster illustration with clean ink contours, controlled gray hatching, and shallow depth.",
+    "linework": "Thin black contour lines, dense nested curls, precise building outlines, fine window grids, and small floating particles.",
+    "texture": "Subtle paper warmth, selective halftone hatching, light stippled shadow, and clean edges.",
+    "lighting": "Even ambient light with soft gray patches and no dramatic shadows."
+  },
+  "design_rules": [
+    "Preserve the contrast between enormous organic cloud forms and tiny architectural geometry.",
+    "Keep the palette warm, restrained, and print-like, with teal used as a flat shape rather than a gradient background.",
+    "Use line density as the main drama instead of realistic rendering, lens blur, glow, or heavy painterly shading.",
+    "Keep faces, objects, and buildings simplified but carefully described with ink contours and small hatching textures.",
+    "Let floating curls, droplets, and chips bridge the main subject to the surrounding environment."
+  ],
+  "do": [
+    "Use cream smoke-like, steam-like, petal-like, or paper-like organic masses with many nested ink loops.",
+    "Draw compact city, station, market, greenhouse, observatory, or workshop details as precise low-depth architecture.",
+    "Use off-white negative space and a muted teal frame shape to keep the poster airy.",
+    "Add small coral, peach, or muted red accents sparingly.",
+    "Keep the result clean, crisp, and editorial rather than gritty or cinematic."
+  ],
+  "avoid": [
+    "Do not generate photorealism, 3D render style, glossy anime stills, painterly fantasy art, or western superhero comic rendering.",
+    "Do not copy the original boy, orange shirt, smoke-from-head action, blue wave shape, or identical city wrap.",
+    "Do not add watermarks, creator signatures, social media UI, platform logos, QR codes, or brand marks.",
+    "Do not use saturated rainbow palettes, neon glow, lens flares, heavy gradients, muddy grit, or accidental digital noise.",
+    "Do not create large readable slogan typography as the main composition."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Cream Smoke City Manga Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules: Use a clean surreal editorial manga poster look with off-white paper space, warm cream organic masses, pale gray hatching, thin black contour linework, precise miniature architecture, and one muted teal flat framing shape. Keep the main subject large and close-cropped, with the biggest visual drama coming from nested curls, puffs, droplets, and tiny floating fragments. Keep depth shallow and poster-like, with soft ambient lighting, small stipple patches, clean edge control, and no cinematic realism. If text is requested, use only tiny hand-drawn signage or microcopy integrated into buildings or props.\n\nAvoid: photorealism, 3D render, glossy anime still, painterly fantasy art, western superhero comic style, large slogan typography, copied faces, copied clothing, copied city layout, copied wave shape, watermarks, signatures, logos, platform UI, QR codes, neon glow, heavy gradients, muddy grit, accidental digital noise.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.",
+  "negative_prompt": "photorealistic, 3D render, glossy anime screencap, western superhero comic, painterly fantasy, thick airbrush, neon gradient, lens flare, cinematic blur, large modern headline type, logo, watermark, username, QR code, social media frame, copied boy, copied orange shirt, smoke erupting from a child's head, copied blue wave, identical city skyline, messy digital noise, compression artifacts",
+  "examples": [
+    {
+      "case_name": "rooftop-florist",
+      "values": {
+        "SUBJECT": "an adult rooftop florist with a quiet sideways gaze",
+        "SUBJECT_ACTION": "lifting a shallow tray of seedlings as cream petal clouds unfurl from the greenhouse vents nearby",
+        "PRODUCT_OR_PROP": "seedling tray, pruning shears, tiny rooftop greenhouse vents",
+        "LOCATION": "a compact rooftop garden above low apartment blocks",
+        "BACKGROUND_ELEMENTS": "miniature balconies, water tanks, railings, small planters, and window grids along the lower edge",
+        "MAIN_TEXT": "tiny hand-lettered greenhouse label only",
+        "SECONDARY_TEXT": "small seed tag microcopy on one planter",
+        "ACCENT_SYMBOL": "small leaf-shaped dot",
+        "WARDROBE_STYLE": "muted coral work apron over a pale shirt, no orange crewneck",
+        "STYLE_FIDELITY_ANCHORS": "cream organic mass, thin manga ink lines, close-cropped central subject, miniature architecture base, muted teal frame, off-white paper, pale gray hatching, floating fragments",
+        "SOURCE_CONTENT_TO_AVOID": "no young boy, no smoke from head, no orange shirt, no blue wave, no identical city wrap, no surprised open-mouth face"
+      }
+    },
+    {
+      "case_name": "subway-cellist",
+      "values": {
+        "SUBJECT": "a seated subway cellist with short silver hair",
+        "SUBJECT_ACTION": "holding a cello bow still while cream ribbons of sheet music and steam coil above the platform",
+        "PRODUCT_OR_PROP": "wooden cello, folded music sheets, station clock",
+        "LOCATION": "an underground train platform drawn like a miniature urban canyon",
+        "BACKGROUND_ELEMENTS": "small tile walls, sign boards without readable brand text, railings, stair blocks, and train-window grids",
+        "MAIN_TEXT": "no headline text",
+        "SECONDARY_TEXT": "tiny station tick marks only",
+        "ACCENT_SYMBOL": "small musical rest mark",
+        "WARDROBE_STYLE": "deep teal coat with a muted peach scarf",
+        "STYLE_FIDELITY_ANCHORS": "dense cream curls, precise black linework, shallow poster depth, compact architectural details, teal framing shape, sparse warm palette, stippled gray shadows",
+        "SOURCE_CONTENT_TO_AVOID": "no child staring upward, no head smoke explosion, no orange shirt, no ocean wave border, no copied skyline"
+      }
+    },
+    {
+      "case_name": "night-market-courier",
+      "values": {
+        "SUBJECT": "a raincoat courier paused beside a delivery bicycle",
+        "SUBJECT_ACTION": "checking a folded paper map as cream lantern steam curls from market stalls behind them",
+        "PRODUCT_OR_PROP": "folded map, bicycle basket, paper lanterns, small parcel stack",
+        "LOCATION": "a narrow night market street simplified into stacked stall geometry",
+        "BACKGROUND_ELEMENTS": "awnings, signs reduced to unreadable marks, vents, rooftop boxes, and tiny stall counters",
+        "MAIN_TEXT": "tiny unreadable stall sign marks only",
+        "SECONDARY_TEXT": "small receipt-like ticks on paper tags",
+        "ACCENT_SYMBOL": "small circular lantern mark",
+        "WARDROBE_STYLE": "pale yellow raincoat with a coral collar accent",
+        "STYLE_FIDELITY_ANCHORS": "flat manga poster, cream vapor masses, nested curl contours, miniature building geometry, muted teal edge frame, off-white paper, clean ink, controlled halftone texture",
+        "SOURCE_CONTENT_TO_AVOID": "no boy portrait, no smoke from scalp, no blue reflective eyes, no orange crewneck, no wave at bottom-left"
+      }
+    },
+    {
+      "case_name": "archive-astronomer",
+      "values": {
+        "SUBJECT": "an adult archive astronomer with round glasses",
+        "SUBJECT_ACTION": "tilting a brass astrolabe while cream star-map clouds expand from open drawers behind them",
+        "PRODUCT_OR_PROP": "brass astrolabe, paper star charts, shallow archive drawers",
+        "LOCATION": "a rooftop observatory archive above compact apartment blocks",
+        "BACKGROUND_ELEMENTS": "domed observatory roof, drawer stacks, antenna lines, tiny windows, and boxed rooftop rooms",
+        "MAIN_TEXT": "no headline text",
+        "SECONDARY_TEXT": "tiny catalog numbers on drawer tabs",
+        "ACCENT_SYMBOL": "small four-point star",
+        "WARDROBE_STYLE": "soft gray sweater with a muted coral neckerchief",
+        "STYLE_FIDELITY_ANCHORS": "cream cloud field, fine manga contours, close central crop, small city-like architecture base, teal flat border shape, pale gray hatching, sparse coral accent, floating dots",
+        "SOURCE_CONTENT_TO_AVOID": "no young boy, no smoke exploding from head, no orange shirt, no same city skyline, no ocean-wave framing, no copied surprised expression"
+      }
+    }
+  ]
+}

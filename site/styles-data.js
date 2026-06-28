@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 82,
+  "styleCount": 85,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,114 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Electric Blue Cutout Manga Poster Style",
+      "slug": "electric-blue-cutout-manga-poster-style",
+      "category": "Type Posters",
+      "description": "Electric-blue manga posters with white cutout geometry, rounded modular type, orange microtype, and a cel-shaded subject in exaggerated perspective.",
+      "summary": "A reusable illustrated poster style built from saturated electric-blue fields, sharp white cutout geometry, oversized rounded modular typography, warm orange microtype, and one cel-shaded manga subject with a large foreground prop in exaggerated perspective.",
+      "preview16": "../styles/electric-blue-cutout-manga-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/electric-blue-cutout-manga-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/electric-blue-cutout-manga-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/electric-blue-cutout-manga-poster-style.md",
+      "folder": "../styles/electric-blue-cutout-manga-poster-style/",
+      "anchors": [
+        "Dominant saturated electric-blue field with hard white cutout geometry at the edges.",
+        "Huge rounded modular white display letterforms cropped beyond the frame and used as poster architecture.",
+        "Warm orange-yellow supporting type in compact labels, tilted subheads, and small information blocks.",
+        "One cel-shaded manga or anime subject with clean dark keylines and simplified blocked shadows.",
+        "Large foreground prop or product in exaggerated three-quarter perspective, overlapping the lower edge.",
+        "Sparse graphic-stage composition with only a few background cues rather than a detailed environment."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-courier-bento",
+      "copyPrompt": "Use the \"Electric Blue Cutout Manga Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a teenage bike courier with short silver hair and a confident sideways glance\nSubject action: twisting mid-step while holding a matte bicycle helmet and bracing one knee forward\nProduct or prop: an oversized cube-shaped insulated bento delivery box covered with abstract non-logo decals\nLocation: a simplified late-night snack route outside a tiny corner food window\nBackground elements: electric-blue field, hard white diagonal cutouts, compact orange route labels, one thin white speed line\nMain text: NOVA DROP\nSecondary text: late bite / city route / 20:00\nAccent symbol: solid dot\nWardrobe style: oversized black parka, neon green gloves, loose cargo shorts, sport socks, clean manga linework\n\nStyle direction:\nA reusable illustrated poster style built from saturated electric-blue fields, sharp white\ncutout geometry, oversized rounded modular typography, warm orange microtype, and one cel-shaded\nmanga subject with a large foreground prop in exaggerated perspective.\n\nKeep visible:\n- Dominant saturated electric-blue field with hard white cutout geometry at the edges.\n- Huge rounded modular white display letterforms cropped beyond the frame and used as poster architecture.\n- Warm orange-yellow supporting type in compact labels, tilted subheads, and small information blocks.\n- One cel-shaded manga or anime subject with clean dark keylines and simplified blocked shadows.\n- Large foreground prop or product in exaggerated three-quarter perspective, overlapping the lower edge.\n\nAvoid:\nPhotorealistic rendering, 3D toy render, painterly fantasy illustration, generic flat vector\nposter, vaporwave gradient poster, heavy grunge, muddy dithering, random pixel noise, copied\nflyer text, KISEI, ALL GENRE PARTY, Music Space, 7th HEAVEN, source performer names, rolling\nsuitcase, traveler pulling luggage, copied outfit, copied stickers, venue email, QR code,\nwatermark, username, platform logo, real brand logo, crowded realistic background, illegible\nclutter, dull one-color design.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Y2K Streetwear Sticker Collage Style",
+      "slug": "y2k-streetwear-sticker-collage-style",
+      "category": "Zine + Collage",
+      "description": "Dense Y2K street collages with cutout subjects, sticker props, comic typography, and saturated yellow-blue-green accents.",
+      "summary": "A dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic typography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast social-poster texture.",
+      "preview16": "../styles/y2k-streetwear-sticker-collage-style/preview-16x9.jpg",
+      "preview9": "../styles/y2k-streetwear-sticker-collage-style/preview-9x16.jpg",
+      "styleJson": "../styles/y2k-streetwear-sticker-collage-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/y2k-streetwear-sticker-collage-style.md",
+      "folder": "../styles/y2k-streetwear-sticker-collage-style/",
+      "anchors": [
+        "Dense poster collage hierarchy with one oversized cutout-photo subject.",
+        "A smaller tilted inset panel, reflection, phone-screen-like rectangle, or framed cutout.",
+        "Thick white and black sticker outlines around type, figures, props, and bubbles.",
+        "Inflated Y2K comic headline lettering with warped baseline and stacked outline.",
+        "Saturated yellow accents balanced against cobalt blue, teal green, red, white, and gray pavement tones.",
+        "Wide-angle street-camera perspective with shallow urban depth and compressed social-post framing."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rooftop-courier",
+      "copyPrompt": "Use the \"Y2K Streetwear Sticker Collage Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a bike courier in motion, shown as a large cutout-photo figure\nSubject action: vaulting over a low rooftop service pipe while gripping a messenger strap\nProduct or prop: an invented sticker-covered insulated delivery box and loose route tags\nLocation: a city rooftop service lane at sunset with vents and painted safety rails\nBackground elements: tilted reflective panel showing a second courier silhouette, edge-cropped traffic cone, badge stickers, and concrete roof texture\nMain text: RUN THE BLOCK\nSecondary text: rush route / level 02\nAccent symbol: !! * ->\nWardrobe style: baggy cargo pants, bright windbreaker, fingerless gloves, and a small brim cap in mismatched streetwear colors\n\nStyle direction:\nA dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic\ntypography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast\nsocial-poster texture.\n\nKeep visible:\n- Dense poster collage hierarchy with one oversized cutout-photo subject.\n- A smaller tilted inset panel, reflection, phone-screen-like rectangle, or framed cutout.\n- Thick white and black sticker outlines around type, figures, props, and bubbles.\n- Inflated Y2K comic headline lettering with warped baseline and stacked outline.\n- Saturated yellow accents balanced against cobalt blue, teal green, red, white, and gray pavement tones.\n\nAvoid:\nNo original reference subject, no copied pose, no original props or products, no recognizable\nbrands, no copied slogans, no creator signature, no usernames, no watermarks, no QR codes, no\nplatform UI, no clean minimalist layout, no luxury editorial, no 3D render, no anime conversion,\nno flat vector-only illustration, no fake brand logos, no illegible headline, no accidental\ncompression artifacts, no muddy pixel noise.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Cream Smoke City Manga Poster Style",
+      "slug": "cream-smoke-city-manga-poster-style",
+      "category": "Type Posters",
+      "description": "Manga ink city scenes with cream cloud masses, sparse teal frames, peach accents, and precise miniature urban architecture.",
+      "summary": "A vertical and horizontal illustration system built from fine manga ink contour lines, huge cream-toned organic cloud masses, sparse teal framing shapes, peach skin or object accents, and precise miniature urban architecture rendered with clean paper space.",
+      "preview16": "../styles/cream-smoke-city-manga-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/cream-smoke-city-manga-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/cream-smoke-city-manga-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/cream-smoke-city-manga-poster-style.md",
+      "folder": "../styles/cream-smoke-city-manga-poster-style/",
+      "anchors": [
+        "Cream, ivory, and warm gray organic cloud or vapor masses dominate the upper composition with dense nested curl contours.",
+        "Thin black manga ink lines define every edge, window, curl, and small floating fragment with controlled variation in line weight.",
+        "Large central subject scale is cropped close, with a calm surreal expression or still pose and a lot of empty off-white paper around it.",
+        "Miniature urban or architectural details collect along the lower edge or side edges, drawn as precise low-depth blocks with window grids.",
+        "A deep teal or blue-green flat shape acts as a sweeping background frame, border, or negative-space anchor rather than a realistic sky.",
+        "The palette stays restrained: off-white paper, cream smoke, pale gray shadow, muted teal, peach or coral accent, and black linework."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rooftop-florist",
+      "copyPrompt": "Use the \"Cream Smoke City Manga Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an adult rooftop florist with a quiet sideways gaze\nSubject action: lifting a shallow tray of seedlings as cream petal clouds unfurl from the greenhouse vents nearby\nProduct or prop: seedling tray, pruning shears, tiny rooftop greenhouse vents\nLocation: a compact rooftop garden above low apartment blocks\nBackground elements: miniature balconies, water tanks, railings, small planters, and window grids along the lower edge\nMain text: tiny hand-lettered greenhouse label only\nSecondary text: small seed tag microcopy on one planter\nAccent symbol: small leaf-shaped dot\nWardrobe style: muted coral work apron over a pale shirt, no orange crewneck\n\nStyle direction:\nA vertical and horizontal illustration system built from fine manga ink contour lines, huge\ncream-toned organic cloud masses, sparse teal framing shapes, peach skin or object accents, and\nprecise miniature urban architecture rendered with clean paper space.\n\nKeep visible:\n- Cream, ivory, and warm gray organic cloud or vapor masses dominate the upper composition with dense nested curl contours.\n- Thin black manga ink lines define every edge, window, curl, and small floating fragment with controlled variation in line weight.\n- Large central subject scale is cropped close, with a calm surreal expression or still pose and a lot of empty off-white paper around it.\n- Miniature urban or architectural details collect along the lower edge or side edges, drawn as precise low-depth blocks with window grids.\n- A deep teal or blue-green flat shape acts as a sweeping background frame, border, or negative-space anchor rather than a realistic sky.\n\nAvoid:\nphotorealistic, 3D render, glossy anime screencap, western superhero comic, painterly fantasy,\nthick airbrush, neon gradient, lens flare, cinematic blur, large modern headline type, logo,\nwatermark, username, QR code, social media frame, copied boy, copied orange shirt, smoke\nerupting from a child's head, copied blue wave, identical city skyline, messy digital noise,\ncompression artifacts\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Red Yellow Grunge Skate Cover Style",
       "slug": "red-yellow-grunge-skate-cover-style",

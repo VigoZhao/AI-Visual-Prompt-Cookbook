@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-82-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-164-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-85-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-170-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,11 +119,31 @@ Ingin mencoba versi singkat dulu? Buka [Copy Prompt Library](docs/copy-prompts/R
 
 ## Gaya Unggulan
 
-Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 82 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
+Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 85 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/electric-blue-cutout-manga-poster-style"><img src="styles/electric-blue-cutout-manga-poster-style/preview-16x9.jpg" alt="Electric Blue Cutout Manga Poster Style preview"></a>
+<h3>Electric Blue Cutout Manga Poster Style</h3>
+<p>A reusable illustrated poster style built from saturated electric-blue fields, sharp white cutout geometry, oversized rounded modular typography, warm orange microtype, and one cel-shaded manga subject with a large foreground prop in exaggerated perspective.</p>
+<p><a href="styles/electric-blue-cutout-manga-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/electric-blue-cutout-manga-poster-style.md">Salin Prompt</a> · <a href="styles/electric-blue-cutout-manga-poster-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/y2k-streetwear-sticker-collage-style"><img src="styles/y2k-streetwear-sticker-collage-style/preview-16x9.jpg" alt="Y2K Streetwear Sticker Collage Style preview"></a>
+<h3>Y2K Streetwear Sticker Collage Style</h3>
+<p>A dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic typography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast social-poster texture.</p>
+<p><a href="styles/y2k-streetwear-sticker-collage-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/y2k-streetwear-sticker-collage-style.md">Salin Prompt</a> · <a href="styles/y2k-streetwear-sticker-collage-style">Folder</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/cream-smoke-city-manga-poster-style"><img src="styles/cream-smoke-city-manga-poster-style/preview-16x9.jpg" alt="Cream Smoke City Manga Poster Style preview"></a>
+<h3>Cream Smoke City Manga Poster Style</h3>
+<p>A vertical and horizontal illustration system built from fine manga ink contour lines, huge cream-toned organic cloud masses, sparse teal framing shapes, peach skin or object accents, and precise miniature urban architecture rendered with clean paper space.</p>
+<p><a href="styles/cream-smoke-city-manga-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/cream-smoke-city-manga-poster-style.md">Salin Prompt</a> · <a href="styles/cream-smoke-city-manga-poster-style">Folder</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a href="styles/red-yellow-grunge-skate-cover-style"><img src="styles/red-yellow-grunge-skate-cover-style/preview-16x9.jpg" alt="Red Yellow Grunge Skate Cover Style preview"></a>
@@ -142,26 +162,6 @@ Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua
 <h3>Liquid Chrome Clearance Poster Style</h3>
 <p>A high-impact commercial poster system built around glossy liquid-chrome 3D typography, extreme editorial crop, acid-lime to mint gradients, black condensed sale-interface typography, micro technical markings, barcode-like metadata, and a dense grid of retail control panels.</p>
 <p><a href="styles/liquid-chrome-clearance-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/liquid-chrome-clearance-poster-style.md">Salin Prompt</a> · <a href="styles/liquid-chrome-clearance-poster-style">Folder</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/hot-ink-comic-poster"><img src="styles/hot-ink-comic-poster/preview-16x9.jpg" alt="Hot Ink Comic Poster preview"></a>
-<h3>Hot Ink Comic Poster</h3>
-<p>A loud flat comic flyer style built from a mustard-yellow field, coral-red cutout figures, heavy irregular black marker outlines, hand-lettered bubble type, scribbled microcopy, and dense comic symbols. It feels like an underground club poster or xeroxed street handbill, but the reusable system changes the subject, text, props, and story completely.</p>
-<p><a href="styles/hot-ink-comic-poster/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/hot-ink-comic-poster.md">Salin Prompt</a> · <a href="styles/hot-ink-comic-poster">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/kinetic-editorial-photo-collage-style"><img src="styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg" alt="Kinetic Editorial Photo Collage preview"></a>
-<h3>Kinetic Editorial Photo Collage</h3>
-<p>A high-energy action-poster system built from staggered photographic tiles on white space, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art urban scaffolding.</p>
-<p><a href="styles/kinetic-editorial-photo-collage-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/kinetic-editorial-photo-collage-style.md">Salin Prompt</a> · <a href="styles/kinetic-editorial-photo-collage-style">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/sunlit-coastal-product-blitz"><img src="styles/sunlit-coastal-product-blitz/preview-16x9.jpg" alt="Sunlit Coastal Product Blitz preview"></a>
-<h3>Sunlit Coastal Product Blitz</h3>
-<p>A high-density photoreal coastal product advertising style built from sunlit tabletop hero products, tropical foreground botanicals, blue ocean depth, oversized distressed white brush typography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.</p>
-<p><a href="styles/sunlit-coastal-product-blitz/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/sunlit-coastal-product-blitz.md">Salin Prompt</a> · <a href="styles/sunlit-coastal-product-blitz">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Jelajahi semua 82 gaya di bawah.
+Jelajahi semua 85 gaya di bawah.
 
 Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan semua tautan file per gaya, lihat [docs/CATALOG.md](docs/CATALOG.md).
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="electric-blue-cutout-manga-poster-style"></a>
+<a href="styles/electric-blue-cutout-manga-poster-style"><img src="styles/electric-blue-cutout-manga-poster-style/preview-16x9.jpg" alt="Electric Blue Cutout Manga Poster Style preview"></a>
+<p><strong><a href="styles/electric-blue-cutout-manga-poster-style">Electric Blue Cutout Manga Poster Style</a></strong><br>
+<em>Electric-blue manga posters with white cutout geometry, rounded modular type, orange microtype, and a cel-shaded subject in exaggerated perspective.</em><br>
+<a href="styles/electric-blue-cutout-manga-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/electric-blue-cutout-manga-poster-style.md">prompt</a> · <a href="styles/electric-blue-cutout-manga-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="y2k-streetwear-sticker-collage-style"></a>
+<a href="styles/y2k-streetwear-sticker-collage-style"><img src="styles/y2k-streetwear-sticker-collage-style/preview-16x9.jpg" alt="Y2K Streetwear Sticker Collage Style preview"></a>
+<p><strong><a href="styles/y2k-streetwear-sticker-collage-style">Y2K Streetwear Sticker Collage Style</a></strong><br>
+<em>Dense Y2K street collages with cutout subjects, sticker props, comic typography, and saturated yellow-blue-green accents.</em><br>
+<a href="styles/y2k-streetwear-sticker-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-streetwear-sticker-collage-style.md">prompt</a> · <a href="styles/y2k-streetwear-sticker-collage-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="cream-smoke-city-manga-poster-style"></a>
+<a href="styles/cream-smoke-city-manga-poster-style"><img src="styles/cream-smoke-city-manga-poster-style/preview-16x9.jpg" alt="Cream Smoke City Manga Poster Style preview"></a>
+<p><strong><a href="styles/cream-smoke-city-manga-poster-style">Cream Smoke City Manga Poster Style</a></strong><br>
+<em>Manga ink city scenes with cream cloud masses, sparse teal frames, peach accents, and precise miniature urban architecture.</em><br>
+<a href="styles/cream-smoke-city-manga-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/cream-smoke-city-manga-poster-style.md">prompt</a> · <a href="styles/cream-smoke-city-manga-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="red-yellow-grunge-skate-cover-style"></a>
