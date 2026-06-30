@@ -1,0 +1,183 @@
+{
+  "style_name": "Neon Stadium 3D Hero Type Poster Style",
+  "style_slug": "neon-stadium-3d-hero-type-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A hyper-saturated 3D event-poster style with toy-like heroic figures, extreme low-angle action, enormous cropped condensed typography, neon lime and purple color fields, orange-red graphic slashes, stadium light bloom, foreground motion blur, debris, and clean high-resolution tactile surfaces.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Maximal stadium-poster composition with a giant foreground hero and smaller supporting figures in depth.",
+    "Extreme low wide-angle camera with a foreground object, limb, or prop pushed close to the lens.",
+    "Toy-like 3D character rendering with chunky anatomy, simplified expressive faces, glossy skin, and tactile sportswear.",
+    "High depth stack with close foreground impact, midground hero, background crowd, sky, and headline type.",
+    "Oversized ultra-condensed block typography cropped by the frame and partially hidden behind the subject.",
+    "Neon palette led by electric purple and acid lime with hot orange-red slashes, turquoise accents, white glare, and blue sky.",
+    "Sharp diagonal graphic wedges and slice marks cutting through letters and corners.",
+    "Stadium floodlight flare, sun bloom, and crisp rim highlights around bodies and props.",
+    "Controlled turf, dust, sweat, debris, and motion-smear texture around the action zone.",
+    "Fabric mesh, sock ribbing, shoe scuffs, and plastic-like skin rendered cleanly at high resolution.",
+    "Low horizon with sky and venue architecture leaving room for huge typography.",
+    "Loud competitive event mood that feels fast, heroic, playful, and commercial."
+  ],
+  "source_content_to_avoid": [
+    "Soccer or football players, soccer ball, goalkeeping, kicking a ball, sliding on turf, or a soccer match premise.",
+    "FIFA, World Cup, 2026 tournament context, official event identity, team crests, or sports federation marks.",
+    "Exact text from the reference, including FIFA WORLD CUP, SOCCER EVENT, and WE ARE 26.",
+    "Purple-and-black number 10 or number 28 jerseys, white national-team kits, and the same shirt-number composition.",
+    "The central outstretched-arm player pose, the exact running chase arrangement, and the foreground soccer-ball impact.",
+    "Distinctive faces, bodies, hair silhouettes, expressions, costume details, or anatomy from the reference.",
+    "The original stadium layout, sun position, color-block placement, and cropped text layout copied as a one-to-one arrangement.",
+    "Any watermark, signature, logo, platform mark, QR code, username, or creator identity."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Glossy 3D animated sports key art mixed with bold commercial event-poster typography.",
+    "composition_logic": "Panoramic action scene with one giant central figure, foreground impact blur, smaller competitors in depth, and headline typography used as structural architecture.",
+    "subject_placement": "One oversized hero dominates nearly half the frame and is cropped by at least one edge; secondary subjects are smaller and staggered along diagonal movement paths.",
+    "camera_perspective": "Low, wide-angle, near-ground camera with exaggerated scale, lens proximity, and strong foreground-to-background depth.",
+    "typography_style": "Ultra-heavy condensed uppercase sans letters, extremely large, tightly cropped, vertically stretched, and layered behind figures.",
+    "color_palette_behavior": "Electric complementary clashes rather than natural sports colors; purple and acid lime dominate with orange-red cuts, turquoise flashes, white glare, and cool sky blue.",
+    "graphic_elements": "Geometric wedges, diagonal slices, cropped color blocks, flare glints, and bottom-corner shards.",
+    "texture_finish": "Clean 3D render with fabric weave, sweat beads, turf or ground particles, dirt, controlled motion blur, and glossy highlights.",
+    "lighting": "Bright outdoor stadium daylight or arena spectacle with floodlight glare, sun bloom, rim highlights, and atmospheric sky depth.",
+    "mood": "Fast, heroic, playful, toyetic, competitive, and high-budget."
+  },
+  "composition": {
+    "hero_scale": "Use one huge foreground hero cropped aggressively by at least one edge.",
+    "camera": "Place the camera low and close to a prop or ground surface for dramatic wide-angle scale.",
+    "depth": "Build a layered action path from foreground impact to midground hero to background crowd and sky.",
+    "type_layering": "Place massive cropped typography behind the hero and allow the body or prop to interrupt the letterforms.",
+    "ratio_behavior": "For 9:16, stack the hero vertically with headline type rising behind the body; for 16:9, stretch the action sweep across a panoramic stadium scene."
+  },
+  "typography": {
+    "headline": "Ultra-condensed, bold, uppercase sans-serif, very large and cropped.",
+    "placement": "Headline type sits behind or around the figure as a graphic wall, not as a small caption.",
+    "microtype": "Small supporting text can appear as widely spaced event microtype near the top edge or lower corner.",
+    "texture": "Typography should stay clean, poster-like, and readable despite partial occlusion.",
+    "avoid": "No script fonts, handwriting, UI panels, official logos, or copied source wording."
+  },
+  "color_palette": {
+    "primary": [
+      "electric purple",
+      "acid lime"
+    ],
+    "secondary": [
+      "orange-red",
+      "turquoise",
+      "white glare",
+      "cool sky blue",
+      "black",
+      "grass or ground green"
+    ],
+    "proportions": "Let purple and acid lime dominate the typography and jersey or gear accents; use orange-red as diagonal shard energy; use turquoise as small accent flashes.",
+    "behavior": "Prefer hard neon color blocks and crisp graphic contrast, with natural sky and arena tones only as support."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Polished 3D animated key-art treatment, not flat vector art and not documentary photography.",
+    "lens": "Wide-angle action lens placed close to the ground or prop.",
+    "surface_detail": "Tactile clothing mesh, gear scuffs, sweat beads, controlled dirt, and glossy plastic-like skin.",
+    "motion": "Directional blur, debris, and particle streaks should reinforce the action path without hiding the main subject.",
+    "lighting": "Bright stadium spectacle with rim highlights, floodlight flare, sun bloom, and clean high-resolution contrast."
+  },
+  "design_rules": [
+    "Preserve the low-angle stadium spectacle, giant hero crop, deep supporting figures, and wide-angle action scale.",
+    "Preserve the oversized condensed headline type as a visual structure behind the subject.",
+    "Preserve the electric purple, acid lime, orange-red, turquoise, sky blue, and white glare palette.",
+    "Preserve clean 3D toy-like surfaces, tactile fabric, glossy highlights, and controlled impact texture.",
+    "Change the sport, prop, scene details, text, wardrobe, color placement, and story premise in every example.",
+    "Keep graphic wedges and diagonal slashes bold and sparse enough that the subject and headline remain readable."
+  ],
+  "do": [
+    "Use one oversized foreground hero with smaller secondary figures or props in depth.",
+    "Use huge cropped uppercase headline type layered behind the hero.",
+    "Use neon lime, electric purple, orange-red, turquoise, and bright white glare as dominant graphic color.",
+    "Use controlled motion blur, debris, sweat, fabric weave, scuffs, and stadium light bloom.",
+    "Use new event wording, new props, new wardrobe, and new action premises."
+  ],
+  "avoid": [
+    "Do not recreate soccer, soccer balls, FIFA wording, World Cup references, or the original slogan.",
+    "Do not copy jersey numbers, team uniforms, the central outstretched-arm pose, or the same character arrangement.",
+    "Do not add watermarks, logos, QR codes, usernames, federation marks, or creator signatures.",
+    "Do not drift into flat vector art, manga, documentary photography, generic game screenshots, or low-resolution AI texture.",
+    "Do not let foreground blur, particles, or giant typography make the image unreadable."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Neon Stadium 3D Hero Type Poster Style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual direction: build a hyper-saturated 3D animated event-poster scene with one giant foreground hero, smaller supporting figures or props in deep perspective, a low wide-angle camera near the ground or action prop, and huge ultra-condensed uppercase typography cropped behind the figure. Use electric purple and acid lime as dominant poster colors, hot orange-red diagonal slashes, turquoise accent flashes, white glare, bright sky blue, stadium or arena light bloom, crisp rim highlights, controlled foreground motion blur, particles, sweat, dust, fabric mesh, gear scuffs, glossy toy-like skin, chunky simplified anatomy, expressive faces, and clean high-resolution tactile surfaces. Let the headline type act as a graphic wall behind the subject, partially blocked by the body and props. Use diagonal wedges and slice marks at corners and through letterforms. Keep the mood loud, heroic, playful, competitive, and commercial.\n\nAvoid: soccer, soccer balls, FIFA, World Cup, 2026 event references, official marks, copied source slogans, copied jersey numbers, copied character poses, watermarks, platform marks, QR codes, creator signatures, flat vector substitutes, documentary realism, generic game screenshots, muddy AI grain, broken anatomy, and illegible text.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.",
+  "negative_prompt": "soccer, football match, soccer ball, FIFA, World Cup, 2026 event identity, WE ARE 26, SOCCER EVENT, official team crest, federation mark, copied jersey number 10, copied jersey number 28, copied source pose, copied source character design, watermark, username, platform logo, QR code, creator signature, flat vector art, manga cover, documentary photo, generic video-game screenshot, muddy AI grain, compression artifacts, low-resolution texture, broken anatomy, extra limbs, unreadable headline, garbled microtext",
+  "examples": [
+    {
+      "case_name": "night-relay",
+      "values": {
+        "SUBJECT": "a toy-like relay sprinter with a determined face and chunky heroic proportions",
+        "SUBJECT_ACTION": "exploding out of a curve and thrusting a baton forward through rain mist",
+        "PRODUCT_OR_PROP": "metallic relay baton and wet track lane markers",
+        "LOCATION": "night athletics arena with a low camera beside the track",
+        "BACKGROUND_ELEMENTS": "smaller rival sprinters in depth, crowd ribbons, floodlights, sparks, rain spray, and blue storm sky",
+        "MAIN_TEXT": "NIGHT RELAY",
+        "SECONDARY_TEXT": "SPEED SERIES",
+        "ACCENT_SYMBOL": "diagonal lightning slash",
+        "WARDROBE_STYLE": "purple and acid-lime sprint suit with black compression sleeves and glossy track spikes",
+        "STYLE_FIDELITY_ANCHORS": "giant foreground hero, low wide-angle stadium perspective, massive cropped condensed type, electric purple and acid lime palette, orange-red diagonal slashes, clean toy-like 3D rendering, stadium light bloom, fabric texture, sweat, debris, and controlled motion blur",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer, no soccer ball, no FIFA, no World Cup, no WE ARE 26, no copied jersey numbers, no team crests, no central outstretched soccer pose"
+      }
+    },
+    {
+      "case_name": "roller-rush",
+      "values": {
+        "SUBJECT": "a toy-like roller derby captain with a fierce expression and oversized protective pads",
+        "SUBJECT_ACTION": "carving hard around a banked rink while reaching past a neon checkpoint",
+        "PRODUCT_OR_PROP": "glowing quad skates and a scratched rink barrier",
+        "LOCATION": "packed indoor arena with a low camera inches from the rink floor",
+        "BACKGROUND_ELEMENTS": "two smaller derby racers trailing behind, crowd lights, confetti shards, smoke puffs, and scoreboard glow",
+        "MAIN_TEXT": "ROLL RUSH",
+        "SECONDARY_TEXT": "ARENA NIGHT",
+        "ACCENT_SYMBOL": "orange-red corner wedge",
+        "WARDROBE_STYLE": "black, purple, and acid-lime derby kit with glossy helmet, elbow pads, and striped socks",
+        "STYLE_FIDELITY_ANCHORS": "giant foreground hero, low wide-angle stadium perspective, massive cropped condensed type, electric purple and acid lime palette, orange-red diagonal slashes, clean toy-like 3D rendering, stadium light bloom, fabric texture, sweat, debris, and controlled motion blur",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer, no soccer ball, no FIFA, no World Cup, no WE ARE 26, no copied jersey numbers, no team crests, no central outstretched soccer pose"
+      }
+    },
+    {
+      "case_name": "drone-race",
+      "values": {
+        "SUBJECT": "a toy-like drone-racing pilot in a glossy visor helmet with chunky heroic proportions",
+        "SUBJECT_ACTION": "launching forward as a racing drone rockets past the lens",
+        "PRODUCT_OR_PROP": "neon quadcopter racing drone with motion-blurred prop guards",
+        "LOCATION": "open-air tech arena with a low camera beside a launch pad",
+        "BACKGROUND_ELEMENTS": "smaller pilots, luminous gate arches, crowd tiers, vapor trails, flying debris, and bright sky glare",
+        "MAIN_TEXT": "AIR CLASH",
+        "SECONDARY_TEXT": "DRONE CUP",
+        "ACCENT_SYMBOL": "turquoise target slash",
+        "WARDROBE_STYLE": "purple flight jersey, acid-lime gloves, black utility shorts, and glossy protective visor",
+        "STYLE_FIDELITY_ANCHORS": "giant foreground hero, low wide-angle stadium perspective, massive cropped condensed type, electric purple and acid lime palette, orange-red diagonal slashes, clean toy-like 3D rendering, stadium light bloom, fabric texture, sweat, debris, and controlled motion blur",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer, no soccer ball, no FIFA, no World Cup, no WE ARE 26, no copied jersey numbers, no team crests, no central outstretched soccer pose"
+      }
+    },
+    {
+      "case_name": "racket-storm",
+      "values": {
+        "SUBJECT": "a toy-like racket-sport striker with a focused frown and chunky athletic build",
+        "SUBJECT_ACTION": "lunging diagonally into a smash as the racket sweeps close to the camera",
+        "PRODUCT_OR_PROP": "oversized graphite racket and glowing shuttle-like impact burst",
+        "LOCATION": "sunlit indoor-outdoor arena court with a low camera near the service line",
+        "BACKGROUND_ELEMENTS": "two smaller opponents in depth, crowd stands, roof trusses, light flares, court dust, and color shards",
+        "MAIN_TEXT": "SMASH STORM",
+        "SECONDARY_TEXT": "FINAL HEAT",
+        "ACCENT_SYMBOL": "acid-lime split triangle",
+        "WARDROBE_STYLE": "purple-black court kit with acid-lime wristbands, ribbed socks, and scuffed shoes",
+        "STYLE_FIDELITY_ANCHORS": "giant foreground hero, low wide-angle stadium perspective, massive cropped condensed type, electric purple and acid lime palette, orange-red diagonal slashes, clean toy-like 3D rendering, stadium light bloom, fabric texture, sweat, debris, and controlled motion blur",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer, no soccer ball, no FIFA, no World Cup, no WE ARE 26, no copied jersey numbers, no team crests, no central outstretched soccer pose"
+      }
+    }
+  ]
+}

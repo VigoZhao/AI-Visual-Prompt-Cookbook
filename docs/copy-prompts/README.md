@@ -22,6 +22,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Crayon Catalog Doodle Poster Style | [Copy Prompt](crayon-catalog-doodle-poster-style.md) | [style.json](../../styles/crayon-catalog-doodle-poster-style/style.json) |
 | Cream Smoke City Manga Poster Style | [Copy Prompt](cream-smoke-city-manga-poster-style.md) | [style.json](../../styles/cream-smoke-city-manga-poster-style/style.json) |
 | Cyan Red Shockwave Type Poster Style | [Copy Prompt](cyan-red-shockwave-type-poster-style.md) | [style.json](../../styles/cyan-red-shockwave-type-poster-style/style.json) |
+| Dusk Cyan Layered Type Poster Style | [Copy Prompt](dusk-cyan-layered-type-poster-style.md) | [style.json](../../styles/dusk-cyan-layered-type-poster-style/style.json) |
 | Electric Blue Cutout Manga Poster Style | [Copy Prompt](electric-blue-cutout-manga-poster-style.md) | [style.json](../../styles/electric-blue-cutout-manga-poster-style/style.json) |
 | Electric Blue Silhouette Product Launch Style | [Copy Prompt](electric-blue-silhouette-product-launch-style.md) | [style.json](../../styles/electric-blue-silhouette-product-launch-style/style.json) |
 | Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
@@ -52,6 +53,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Neon Kinetic Typographic Poster | [Copy Prompt](neon-kinetic-typographic-poster-style.md) | [style.json](../../styles/neon-kinetic-typographic-poster-style/style.json) |
 | Neon Outdoor Diary Longform Collage Style | [Copy Prompt](neon-outdoor-diary-longform-collage-style.md) | [style.json](../../styles/neon-outdoor-diary-longform-collage-style/style.json) |
 | Neon Plush Gadget Pop 3D Style | [Copy Prompt](neon-plush-gadget-pop-3d-style.md) | [style.json](../../styles/neon-plush-gadget-pop-3d-style/style.json) |
+| Neon Stadium 3D Hero Type Poster Style | [Copy Prompt](neon-stadium-3d-hero-type-poster-style.md) | [style.json](../../styles/neon-stadium-3d-hero-type-poster-style/style.json) |
 | Neon Type Photo Scribble Poster | [Copy Prompt](neon-type-photo-scribble-poster.md) | [style.json](../../styles/neon-type-photo-scribble-poster/style.json) |
 | Olive Scribble Sports Poster Style | [Copy Prompt](olive-scribble-sports-poster-style.md) | [style.json](../../styles/olive-scribble-sports-poster-style/style.json) |
 | Orange Brush Mascot Action Poster Style | [Copy Prompt](orange-brush-mascot-action-poster-style.md) | [style.json](../../styles/orange-brush-mascot-action-poster-style/style.json) |

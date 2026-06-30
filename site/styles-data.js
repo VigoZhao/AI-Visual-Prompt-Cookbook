@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 85,
+  "styleCount": 87,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Neon Stadium 3D Hero Type Poster Style",
+      "slug": "neon-stadium-3d-hero-type-poster-style",
+      "category": "Type Posters",
+      "description": "Hyper-saturated 3D stadium posters with toy-like heroes, cropped condensed type, lime-and-purple fields, and motion-blurred debris.",
+      "summary": "A hyper-saturated 3D event-poster style with toy-like heroic figures, extreme low-angle action, enormous cropped condensed typography, neon lime and purple color fields, orange-red graphic slashes, stadium light bloom, foreground motion blur, debris, and clean high-resolution tactile surfaces.",
+      "preview16": "../styles/neon-stadium-3d-hero-type-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/neon-stadium-3d-hero-type-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/neon-stadium-3d-hero-type-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/neon-stadium-3d-hero-type-poster-style.md",
+      "folder": "../styles/neon-stadium-3d-hero-type-poster-style/",
+      "anchors": [
+        "Maximal stadium-poster composition with a giant foreground hero and smaller supporting figures in depth.",
+        "Extreme low wide-angle camera with a foreground object, limb, or prop pushed close to the lens.",
+        "Toy-like 3D character rendering with chunky anatomy, simplified expressive faces, glossy skin, and tactile sportswear.",
+        "High depth stack with close foreground impact, midground hero, background crowd, sky, and headline type.",
+        "Oversized ultra-condensed block typography cropped by the frame and partially hidden behind the subject.",
+        "Neon palette led by electric purple and acid lime with hot orange-red slashes, turquoise accents, white glare, and blue sky."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-relay",
+      "copyPrompt": "Use the \"Neon Stadium 3D Hero Type Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a toy-like relay sprinter with a determined face and chunky heroic proportions\nSubject action: exploding out of a curve and thrusting a baton forward through rain mist\nProduct or prop: metallic relay baton and wet track lane markers\nLocation: night athletics arena with a low camera beside the track\nBackground elements: smaller rival sprinters in depth, crowd ribbons, floodlights, sparks, rain spray, and blue storm sky\nMain text: NIGHT RELAY\nSecondary text: SPEED SERIES\nAccent symbol: diagonal lightning slash\nWardrobe style: purple and acid-lime sprint suit with black compression sleeves and glossy track spikes\n\nStyle direction:\nA hyper-saturated 3D event-poster style with toy-like heroic figures, extreme low-angle action,\nenormous cropped condensed typography, neon lime and purple color fields, orange-red graphic\nslashes, stadium light bloom, foreground motion blur, debris, and clean high-resolution tactile\nsurfaces.\n\nKeep visible:\n- Maximal stadium-poster composition with a giant foreground hero and smaller supporting figures in depth.\n- Extreme low wide-angle camera with a foreground object, limb, or prop pushed close to the lens.\n- Toy-like 3D character rendering with chunky anatomy, simplified expressive faces, glossy skin, and tactile sportswear.\n- High depth stack with close foreground impact, midground hero, background crowd, sky, and headline type.\n- Oversized ultra-condensed block typography cropped by the frame and partially hidden behind the subject.\n\nAvoid:\nsoccer, football match, soccer ball, FIFA, World Cup, 2026 event identity, WE ARE 26, SOCCER\nEVENT, official team crest, federation mark, copied jersey number 10, copied jersey number 28,\ncopied source pose, copied source character design, watermark, username, platform logo, QR code,\ncreator signature, flat vector art, manga cover, documentary photo, generic video-game\nscreenshot, muddy AI grain, compression artifacts, low-resolution texture, broken anatomy, extra\nlimbs, unreadable headline, garbled microtext\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Dusk Cyan Layered Type Poster Style",
+      "slug": "dusk-cyan-layered-type-poster-style",
+      "category": "Type Posters",
+      "description": "Full-bleed dusk photo posters with navy silhouettes, oversized cyan-and-white type, script swashes, and crisp vector icons.",
+      "summary": "A full-bleed dusk-photo poster system with dark navy silhouettes, oversized cyan and white typography, a huge cropped bottom word, script-like swashes, tiny editorial microcopy, and clean vector icon overlays.",
+      "preview16": "../styles/dusk-cyan-layered-type-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/dusk-cyan-layered-type-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/dusk-cyan-layered-type-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/dusk-cyan-layered-type-poster-style.md",
+      "folder": "../styles/dusk-cyan-layered-type-poster-style/",
+      "anchors": [
+        "Full-bleed dusk or blue-hour photographic background with a dark silhouette mass anchoring the lower half.",
+        "Central-to-lower oversized title stack, including one huge cropped bottom word near the frame edge.",
+        "Bright cyan and clean white typography over deep navy shadows, with one small warm orange or peach accent.",
+        "Mixture of extra-bold geometric sans type and one expressive script-style swash or cursive letterform.",
+        "Dense poster hierarchy with large title, mid-size label text, tiny all-caps microcopy, small numerals, and compact side captions.",
+        "Flat vector overlays on top of the photo: circles, thin orbital arcs, plus marks, arrows, bracket labels, and simple icon silhouettes."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-market-neon",
+      "copyPrompt": "Use the \"Dusk Cyan Layered Type Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a compact street food kiosk glowing under a single paper lantern canopy\nSubject action: standing quiet after rain while steam rises softly from the counter\nProduct or prop: stacked ceramic bowls, blue receipt slips, and a small enamel menu tile\nLocation: empty urban night market alley at blue hour\nBackground elements: dark shop silhouettes, reflected puddles, distant electric signs as soft bands of light, low mist\nMain text: NIGHT MARKET\nSecondary text: quiet neon after rain / small hours index 04\nAccent symbol: circled cross with paired plus marks\nWardrobe style: no people, object-led scene with crisp poster text and clean prop styling\n\nStyle direction:\nA full-bleed dusk-photo poster system with dark navy silhouettes, oversized cyan and white\ntypography, a huge cropped bottom word, script-like swashes, tiny editorial microcopy, and clean\nvector icon overlays.\n\nKeep visible:\n- Full-bleed dusk or blue-hour photographic background with a dark silhouette mass anchoring the lower half.\n- Central-to-lower oversized title stack, including one huge cropped bottom word near the frame edge.\n- Bright cyan and clean white typography over deep navy shadows, with one small warm orange or peach accent.\n- Mixture of extra-bold geometric sans type and one expressive script-style swash or cursive letterform.\n- Dense poster hierarchy with large title, mid-size label text, tiny all-caps microcopy, small numerals, and compact side captions.\n\nAvoid:\ncoastal sunset, ocean bay, mountain ridge, waves, sun behind mountains, original Sunset text,\noriginal Serenity text, bilingual source phrases, page-count UI, carousel arrows, app dots,\nwatermark, username, QR code, logo, platform controls, exact source title layout, mountain-\ninside-sun badge, pure vector illustration, 3D render, corporate layout, crowded retail ad\nclutter, illegible typography, random pseudo text, dirty compression artifacts, low-resolution\nnoise, uncontrolled glitch, muddy grain\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Electric Blue Cutout Manga Poster Style",
       "slug": "electric-blue-cutout-manga-poster-style",

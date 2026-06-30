@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 85 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 87 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Neon Stadium 3D Hero Type Poster Style
+
+<a href="../styles/neon-stadium-3d-hero-type-poster-style"><img src="../styles/neon-stadium-3d-hero-type-poster-style/preview-16x9.jpg" width="720" alt="Neon Stadium 3D Hero Type Poster Style preview"></a>
+
+A hyper-saturated 3D event-poster style with toy-like heroic figures, extreme low-angle action, enormous cropped condensed typography, neon lime and purple color fields, orange-red graphic slashes, stadium light bloom, foreground motion blur, debris, and clean high-resolution tactile surfaces.
+
+Files: [style.json](../styles/neon-stadium-3d-hero-type-poster-style/style.json) · [Copy Prompt](copy-prompts/neon-stadium-3d-hero-type-poster-style.md) · [16:9 preview](../styles/neon-stadium-3d-hero-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/neon-stadium-3d-hero-type-poster-style/preview-9x16.jpg) · [Folder](../styles/neon-stadium-3d-hero-type-poster-style)
+
+---
+
+### Dusk Cyan Layered Type Poster Style
+
+<a href="../styles/dusk-cyan-layered-type-poster-style"><img src="../styles/dusk-cyan-layered-type-poster-style/preview-16x9.jpg" width="720" alt="Dusk Cyan Layered Type Poster Style preview"></a>
+
+A full-bleed dusk-photo poster system with dark navy silhouettes, oversized cyan and white typography, a huge cropped bottom word, script-like swashes, tiny editorial microcopy, and clean vector icon overlays.
+
+Files: [style.json](../styles/dusk-cyan-layered-type-poster-style/style.json) · [Copy Prompt](copy-prompts/dusk-cyan-layered-type-poster-style.md) · [16:9 preview](../styles/dusk-cyan-layered-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/dusk-cyan-layered-type-poster-style/preview-9x16.jpg) · [Folder](../styles/dusk-cyan-layered-type-poster-style)
+
+---
 
 ### Electric Blue Cutout Manga Poster Style
 

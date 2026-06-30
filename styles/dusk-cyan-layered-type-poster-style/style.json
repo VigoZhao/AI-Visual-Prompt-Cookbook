@@ -1,0 +1,161 @@
+{
+  "style_name": "Dusk Cyan Layered Type Poster Style",
+  "style_slug": "dusk-cyan-layered-type-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A full-bleed dusk-photo poster system with dark navy silhouettes, oversized cyan and white typography, a huge cropped bottom word, script-like swashes, tiny editorial microcopy, and clean vector icon overlays.",
+  "environment_variables": {
+    "SUBJECT": "Main background subject or focal visual that should replace the source landscape content.",
+    "SUBJECT_ACTION": "What the subject is doing or how the scene is behaving.",
+    "PRODUCT_OR_PROP": "Object, product, prop, or symbolic visual anchor in the new scene.",
+    "LOCATION": "Environment or setting for the new poster.",
+    "BACKGROUND_ELEMENTS": "Secondary scene details, silhouettes, distant lights, haze, or graphic depth cues.",
+    "MAIN_TEXT": "Primary poster headline text, kept short enough for oversized display type.",
+    "SECONDARY_TEXT": "Small supporting caption, index copy, or editorial microcopy.",
+    "ACCENT_SYMBOL": "Small separator, line icon, circled mark, bracket code, plus sign, or arrow-like symbol.",
+    "WARDROBE_STYLE": "Styling direction when people appear, or object/scene styling when no person appears.",
+    "STYLE_FIDELITY_ANCHORS": "Observable style traits that must remain visible in every sample.",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content that generated samples must not recreate.",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Full-bleed dusk or blue-hour photographic background with a dark silhouette mass anchoring the lower half.",
+    "Central-to-lower oversized title stack, including one huge cropped bottom word near the frame edge.",
+    "Bright cyan and clean white typography over deep navy shadows, with one small warm orange or peach accent.",
+    "Mixture of extra-bold geometric sans type and one expressive script-style swash or cursive letterform.",
+    "Dense poster hierarchy with large title, mid-size label text, tiny all-caps microcopy, small numerals, and compact side captions.",
+    "Flat vector overlays on top of the photo: circles, thin orbital arcs, plus marks, arrows, bracket labels, and simple icon silhouettes.",
+    "High contrast between pastel warm glow areas and cool shadowed foreground.",
+    "Slight analog print grain and matte poster texture while preserving crisp text and clean edges.",
+    "Asymmetric diagonal or stepped background silhouette that creates movement behind the type.",
+    "Depth created by scale, overlap, transparency, and contrast rather than 3D rendering or heavy perspective props."
+  ],
+  "source_content_to_avoid": [
+    "No coastal sunset, ocean bay, mountain ridge, wave scene, or sun setting behind mountains.",
+    "No reuse of the words Sunset, Serenity, the original bilingual phrases, the year marker, or visible carousel/page-count UI.",
+    "No recreation of the exact central title arrangement, lower giant Sunset crop, or mountain-inside-sun badge.",
+    "No platform controls, watermarks, usernames, QR codes, app UI dots, screenshot navigation arrows, or brand marks.",
+    "No preservation of the original quiet mountain-sea contemplation premise.",
+    "No same orange sun placement, same mountain icon, or same left/right coast silhouette."
+  ],
+  "visual_deconstruction": {
+    "style_category": "Photographic editorial poster with maximal layered typography and clean vector graphics.",
+    "composition": "Full-bleed background, heavy central title block, cropped oversized bottom word, and small text islands at corners.",
+    "subject_placement": "The scene acts as atmospheric background while typography becomes the dominant foreground subject.",
+    "perspective": "Mostly flat poster composition over a real photo, with shallow scene depth and minimal perspective emphasis.",
+    "mood": "Calm, cinematic, travel-editorial, nostalgic, and typographically assertive."
+  },
+  "composition": {
+    "layout": "Use a full-bleed image base with the darkest visual mass low in frame, large type across the center and lower third, and a huge cropped word near the bottom edge.",
+    "hierarchy": "Primary headline dominates, script swash crosses it, microcopy sits around it, and one icon badge punctuates the upper side of the type cluster.",
+    "spacing": "Dense but not chaotic, with open sky or glow above and compressed graphic energy through the middle."
+  },
+  "typography": {
+    "primary": "Extra-bold geometric sans, wide or condensed, tightly stacked, mostly cyan or white.",
+    "secondary": "Tiny all-caps microcopy, small bilingual-poster-like caption blocks, bracketed numbers, and clean index labels.",
+    "decorative": "One large script-style initial or swash used as a sweeping graphic stroke."
+  },
+  "color_palette": {
+    "deep_navy_shadow": "#061928",
+    "blue_black_foreground": "#0a2433",
+    "bright_cyan_type": "#58b9f6",
+    "soft_ice_white": "#f5fbff",
+    "peach_dusk_glow": "#f7b284",
+    "orange_accent_orb": "#ff5d1f",
+    "muted_mist_blue": "#5f92ad",
+    "palette_behavior": "Cool dark base with cyan and white type, balanced by a small peach or orange glow accent."
+  },
+  "image_treatment": {
+    "background": "Photo-real dusk or nightfall scene with posterized contrast, soft haze, dark silhouettes, and controlled grain.",
+    "overlays": "Flat vector graphics and crisp typography composited above the photo.",
+    "texture": "Matte analog print grain and faint paper softness, never dirty digital noise."
+  },
+  "design_rules": [
+    "Use a photographic environment as the base layer and place typography as the main visual event.",
+    "Keep the biggest type cropped, stacked, and close to the lower edge, with cyan and white as the dominant text colors.",
+    "Add a script-like swash that crosses or loops around the main block type.",
+    "Place one circular badge or warm orb near the title, with a simple icon that matches the new subject rather than the source mountains.",
+    "Use small captions, index numbers, plus marks, bracket labels, thin arcs, and simple arrows as controlled editorial texture.",
+    "Keep all generated text short, clean, and legible enough to read as designed poster typography."
+  ],
+  "do": [
+    "Preserve the full-bleed dusk-photo base with cool shadows and a warm glow accent.",
+    "Preserve the bold cyan and white type hierarchy with one huge cropped bottom word.",
+    "Preserve the mix of block sans, script swash, microcopy, and technical symbols.",
+    "Preserve controlled print grain, clean edges, and high legibility.",
+    "Change the subject, scene, props, headline, support captions, and symbolic icon for each case."
+  ],
+  "avoid": [
+    "Do not recreate coast, ocean, mountain, waves, sunset-behind-ridge, or the same quiet mountain-sea premise.",
+    "Do not include original words, translated captions, page UI, watermarks, usernames, QR codes, or platform controls.",
+    "Do not drift into flat vector-only art, 3D product render, crowded commercial ad clutter, or realistic documentary photo without graphic typography.",
+    "Do not add messy noise, illegible small text, random pseudo-text artifacts, or uncontrolled glitch effects."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Dusk Cyan Layered Type Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual design constraints:\n- Composition: full-bleed photographic dusk or blue-hour background, dark navy mass in the lower half, oversized title stack through the center and lower third, one huge cropped bottom word near the frame edge, small caption clusters at corners, and one circular icon badge or warm orb near the main title.\n- Typography: extra-bold geometric sans headline in cyan and white, a sweeping script-style swash crossing the title, tiny all-caps microcopy, bracketed numbers, plus marks, clean side captions, and short readable poster text.\n- Color: deep navy and blue-black base, bright cyan and ice white type, soft peach haze, one restrained orange accent, high contrast between warm glow and cool shadow.\n- Texture and lighting: backlit blue-hour atmosphere, soft haze, matte analog print grain, crisp type edges, clean vector overlays, no uncontrolled digital noise.\n- Graphic elements: thin orbital arcs, small dots, circled marks, simple arrows, bracket labels, and a flat icon silhouette related to the new subject, not mountains.\n\nImportant content rule: match the style fidelity anchors first, then change the source content. Use the new subject, new scene details, new prop, new headline, and new icon. Do not recreate the source landscape, original text, source title layout, platform UI, watermark, or mountain-sun symbol.",
+  "negative_prompt": "coastal sunset, ocean bay, mountain ridge, waves, sun behind mountains, original Sunset text, original Serenity text, bilingual source phrases, page-count UI, carousel arrows, app dots, watermark, username, QR code, logo, platform controls, exact source title layout, mountain-inside-sun badge, pure vector illustration, 3D render, corporate layout, crowded retail ad clutter, illegible typography, random pseudo text, dirty compression artifacts, low-resolution noise, uncontrolled glitch, muddy grain",
+  "examples": [
+    {
+      "case_name": "night-market-neon",
+      "values": {
+        "SUBJECT": "a compact street food kiosk glowing under a single paper lantern canopy",
+        "SUBJECT_ACTION": "standing quiet after rain while steam rises softly from the counter",
+        "PRODUCT_OR_PROP": "stacked ceramic bowls, blue receipt slips, and a small enamel menu tile",
+        "LOCATION": "empty urban night market alley at blue hour",
+        "BACKGROUND_ELEMENTS": "dark shop silhouettes, reflected puddles, distant electric signs as soft bands of light, low mist",
+        "MAIN_TEXT": "NIGHT MARKET",
+        "SECONDARY_TEXT": "quiet neon after rain / small hours index 04",
+        "ACCENT_SYMBOL": "circled cross with paired plus marks",
+        "WARDROBE_STYLE": "no people, object-led scene with crisp poster text and clean prop styling",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed dusk photo, deep navy lower silhouette, oversized cyan and white type, huge cropped bottom word, script swash, tiny microcopy, warm orb accent, thin arcs, matte grain",
+        "SOURCE_CONTENT_TO_AVOID": "no coastal sunset, no mountains, no sea, no waves, no original words, no platform UI, no mountain-sun icon"
+      }
+    },
+    {
+      "case_name": "rain-room-library",
+      "values": {
+        "SUBJECT": "a glass reading room with one illuminated table lamp and stacked books",
+        "SUBJECT_ACTION": "glowing calmly while rain streaks across the windows",
+        "PRODUCT_OR_PROP": "open notebook, fountain pen, translucent bookmark, and a small brass desk lamp",
+        "LOCATION": "quiet upper-floor city library during a stormy evening",
+        "BACKGROUND_ELEMENTS": "blurred apartment windows, dark bookcase silhouettes, rain haze, faint blue reflections",
+        "MAIN_TEXT": "RAIN ROOM",
+        "SECONDARY_TEXT": "pages hold the light / archive note 12",
+        "ACCENT_SYMBOL": "thin arrow under a bracketed number",
+        "WARDROBE_STYLE": "no visible people, still-life reading environment with editorial poster styling",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed blue-hour photo, dark lower mass, oversized cyan and white title, cropped bottom word, script swash, tiny all-caps captions, circular warm lamp badge, thin vector arcs, controlled grain",
+        "SOURCE_CONTENT_TO_AVOID": "no ocean, no mountain ridge, no setting sun, no waves, no original text, no carousel controls, no mountain badge"
+      }
+    },
+    {
+      "case_name": "glass-train-platform",
+      "values": {
+        "SUBJECT": "an empty elevated train platform with a luminous glass shelter",
+        "SUBJECT_ACTION": "waiting in stillness as a blue light trail passes behind the shelter",
+        "PRODUCT_OR_PROP": "small transit clock, folded paper map, and a glowing route marker",
+        "LOCATION": "quiet metropolitan transit station at dusk",
+        "BACKGROUND_ELEMENTS": "steel rail silhouettes, distant tower lights, wet platform reflections, low blue fog",
+        "MAIN_TEXT": "LAST TRAIN",
+        "SECONDARY_TEXT": "signal sleeps beside the glass / route index 07",
+        "ACCENT_SYMBOL": "small plus sign pair and a circled route dot",
+        "WARDROBE_STYLE": "empty station scene, clean transit objects, no character focus",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed dusk photo, cool navy shadows, large cyan and white block type, huge cropped lower word, cursive swash, technical microcopy, warm circular accent, orbital arcs, matte print grain",
+        "SOURCE_CONTENT_TO_AVOID": "no coastline, no mountains, no orange mountain sun, no waves, no original source words, no app UI marks"
+      }
+    },
+    {
+      "case_name": "orbit-flower-dome",
+      "values": {
+        "SUBJECT": "a botanical glasshouse with one luminous white flower installation at the center",
+        "SUBJECT_ACTION": "opening under cool evening light while mist collects against the glass roof",
+        "PRODUCT_OR_PROP": "translucent seed capsules, blue plant tags, and a circular irrigation dial",
+        "LOCATION": "empty greenhouse dome after closing time",
+        "BACKGROUND_ELEMENTS": "dark leaf silhouettes, glass rib shadows, peach glow through fogged panes, soft blue floor reflection",
+        "MAIN_TEXT": "ORBIT BLOOM",
+        "SECONDARY_TEXT": "glass keeps the garden awake / specimen note 19",
+        "ACCENT_SYMBOL": "tiny asterisk and thin orbital ring",
+        "WARDROBE_STYLE": "no people, botanical installation treated as a cinematic poster subject",
+        "STYLE_FIDELITY_ANCHORS": "full-bleed dusk-photo base, dark lower silhouette, oversized cyan and white typography, cropped bottom word, script-like swash, microcopy clusters, warm orange accent, circular badge, clean arcs, controlled grain",
+        "SOURCE_CONTENT_TO_AVOID": "no sea, no coast, no mountain, no wave scene, no original title words, no platform UI, no mountain-inside-sun badge"
+      }
+    }
+  ]
+}
