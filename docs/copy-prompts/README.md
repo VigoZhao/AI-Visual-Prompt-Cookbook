@@ -33,6 +33,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Hot Ink Comic Poster | [Copy Prompt](hot-ink-comic-poster.md) | [style.json](../../styles/hot-ink-comic-poster/style.json) |
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
 | Jade Glyph Grocer Collage Poster Style | [Copy Prompt](jade-glyph-grocer-collage-poster-style.md) | [style.json](../../styles/jade-glyph-grocer-collage-poster-style/style.json) |
+| Jagged Red Street Photo Event Poster Style | [Copy Prompt](jagged-red-street-photo-event-poster-style.md) | [style.json](../../styles/jagged-red-street-photo-event-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |
 | Kinetic Editorial Photo Collage | [Copy Prompt](kinetic-editorial-photo-collage-style.md) | [style.json](../../styles/kinetic-editorial-photo-collage-style/style.json) |
 | Kinetic Geometric Doodle Cutouts | [Copy Prompt](kinetic-geometric-doodle-cutouts.md) | [style.json](../../styles/kinetic-geometric-doodle-cutouts/style.json) |

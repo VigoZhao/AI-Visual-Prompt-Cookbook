@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 87 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 88 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Jagged Red Street Photo Event Poster Style
+
+<a href="../styles/jagged-red-street-photo-event-poster-style"><img src="../styles/jagged-red-street-photo-event-poster-style/preview-16x9.jpg" width="720" alt="Jagged Red Street Photo Event Poster Style preview"></a>
+
+A high-impact street event poster system combining a black-and-white documentary photo core, oversized jagged red and black display lettering, thick white sticker-like gutters, and sparse three-color print energy.
+
+Files: [style.json](../styles/jagged-red-street-photo-event-poster-style/style.json) · [Copy Prompt](copy-prompts/jagged-red-street-photo-event-poster-style.md) · [16:9 preview](../styles/jagged-red-street-photo-event-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/jagged-red-street-photo-event-poster-style/preview-9x16.jpg) · [Folder](../styles/jagged-red-street-photo-event-poster-style)
+
+---
 
 ### Neon Stadium 3D Hero Type Poster Style
 

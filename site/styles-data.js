@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 87,
+  "styleCount": 88,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Jagged Red Street Photo Event Poster Style",
+      "slug": "jagged-red-street-photo-event-poster-style",
+      "category": "Type Posters",
+      "description": "High-impact street posters with black-and-white photo cores, jagged red-and-black display type, thick white gutters, and three-color print energy.",
+      "summary": "A high-impact street event poster system combining a black-and-white documentary photo core, oversized jagged red and black display lettering, thick white sticker-like gutters, and sparse three-color print energy.",
+      "preview16": "../styles/jagged-red-street-photo-event-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/jagged-red-street-photo-event-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/jagged-red-street-photo-event-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/jagged-red-street-photo-event-poster-style.md",
+      "folder": "../styles/jagged-red-street-photo-event-poster-style/",
+      "anchors": [
+        "Poster built from a central black-and-white documentary photograph plus oversized display type above and below.",
+        "Dominant headline letters are jagged, hand-cut, angular, and irregular, with chunky wedge-shaped strokes.",
+        "Palette stays tightly limited to bright red, near-black, white, and grayscale photography.",
+        "Large red letterforms use thick white outlines or gutters so they read like cut paper pasted over the photo.",
+        "Black lettering is used as a secondary type layer, usually smaller, dense, and blocky.",
+        "The central photo has hard daylight contrast, deep shadows, blown white highlights, and street-documentary realism."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "after-hours-arcade-rally",
+      "copyPrompt": "Use the \"Jagged Red Street Photo Event Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: two friends carrying a boxed tabletop arcade controller through a doorway\nSubject action: stepping into a basement venue after dark\nProduct or prop: corded arcade controller and a short stack of flyers\nLocation: narrow downtown alley outside a basement game room\nBackground elements: brick doorway, old wall lamp, bicycle rack, distant pedestrians, bright pavement highlights\nMain text: BUTTON MASH NIGHT\nSecondary text: SAT 8PM / BASEMENT ROOM / ALL AGES\nAccent symbol: small fictional lightning badge\nWardrobe style: casual hoodies, work pants, canvas sneakers, documentary streetwear silhouettes\n\nStyle direction:\nA high-impact street event poster system combining a black-and-white documentary photo core,\noversized jagged red and black display lettering, thick white sticker-like gutters, and sparse\nthree-color print energy.\n\nKeep visible:\n- Poster built from a central black-and-white documentary photograph plus oversized display type above and below.\n- Dominant headline letters are jagged, hand-cut, angular, and irregular, with chunky wedge-shaped strokes.\n- Palette stays tightly limited to bright red, near-black, white, and grayscale photography.\n- Large red letterforms use thick white outlines or gutters so they read like cut paper pasted over the photo.\n- Black lettering is used as a secondary type layer, usually smaller, dense, and blocky.\n\nAvoid:\nskateboarding, skateboard, skate contest, skater trick, crouching filmer, original street\ncorner, bakery storefront, parked car composition from source, Game of Skate, Friday 6PM,\nEveryone Welcome, Itavally, The Arshmates, real logo, real brand mark, watermark, signature, QR\ncode, username, platform interface, glossy 3D render, corporate flyer, clean vector-only poster,\ncomic book illustration, full-color photograph, rainbow palette, beige vintage paper, neon\ngradient, script font, serif poster font, tiny unreadable text, warped letters, muddy halftone,\ncompression artifacts, accidental digital noise\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Neon Stadium 3D Hero Type Poster Style",
       "slug": "neon-stadium-3d-hero-type-poster-style",

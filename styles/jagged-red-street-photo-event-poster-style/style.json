@@ -1,0 +1,187 @@
+{
+  "style_name": "Jagged Red Street Photo Event Poster Style",
+  "style_slug": "jagged-red-street-photo-event-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A high-impact street event poster system combining a black-and-white documentary photo core, oversized jagged red and black display lettering, thick white sticker-like gutters, and sparse three-color print energy.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Poster built from a central black-and-white documentary photograph plus oversized display type above and below.",
+    "Dominant headline letters are jagged, hand-cut, angular, and irregular, with chunky wedge-shaped strokes.",
+    "Palette stays tightly limited to bright red, near-black, white, and grayscale photography.",
+    "Large red letterforms use thick white outlines or gutters so they read like cut paper pasted over the photo.",
+    "Black lettering is used as a secondary type layer, usually smaller, dense, and blocky.",
+    "The central photo has hard daylight contrast, deep shadows, blown white highlights, and street-documentary realism.",
+    "Top type occupies a heavy banner-like mass, often overlapping the photo edge and compressing the upper space.",
+    "Bottom type forms two loud event-information blocks with uneven baselines and sharp internal negative shapes.",
+    "Small sponsor-like mark or badge may appear as a tiny graphic accent, but it must be fictional and non-branded.",
+    "Composition feels like a screenprinted punk event flyer: raw, loud, handmade, and direct.",
+    "Edges are crisp and graphic, not softly airbrushed; type should feel physically cut, pasted, and slightly misaligned.",
+    "White background space is active and structural, creating strong gutters around the photo and the lettering."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate skateboarding, skateboard tricks, skate competitions, or a person filming a skater.",
+    "Do not use the original street corner, bakery storefront, parked cars, tree trunk, or exact sidewalk scene.",
+    "Do not copy the original words Game of Skate, Friday 6PM, Everyone Welcome, Itavally, or any similar event copy.",
+    "Do not include the original sponsor mark, The Arshmates text, decorative curls, or any real brand logo.",
+    "Do not repeat the exact top-heavy headline layout spelling or the same bottom two-block text arrangement.",
+    "Do not copy the same human poses, skateboard prop, crouching filmer silhouette, or midair action premise.",
+    "Do not include watermarks, usernames, QR codes, platform marks, signatures, or creator IDs.",
+    "Do not shift into a polished corporate ad, glossy 3D poster, comic illustration, or clean vector-only layout."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Black-and-white street photo punk flyer with jagged display typography and screenprint poster treatment.",
+    "composition_logic": "The poster is divided into three aggressive layers: huge top headline type, a central documentary photo slab, and loud bottom event type blocks. White gutters separate and outline the layers.",
+    "subject_placement": "Human or object action sits inside the photo area, usually low to mid-frame, while typography dominates the poster more than the subject.",
+    "perspective": "Photo content uses real street-level camera perspective and daylight documentary optics; typography floats flat above the photo as cut-paper graphic matter.",
+    "typography": "Display type is angular, irregular, wedge-cut, and hand-built; red carries the loudest words, black carries compact secondary words.",
+    "color_behavior": "The image uses a severe red, black, white, and grayscale palette. Red is reserved for the main attention words; black anchors detail text and logo-like marks.",
+    "texture": "Photo grain, printed contrast, and slight screenprint roughness are visible but controlled; white outlines remain clean and legible.",
+    "mood": "Urban, handmade, local, energetic, raw, public-notice, and punk community flyer."
+  },
+  "composition": {
+    "frame": "Use a clean white poster field with a rectangular black-and-white photo block occupying the middle band or central field.",
+    "layout": "Build a top-dominant headline, central grayscale documentary photo, and bottom event-information type blocks with strong white gutters.",
+    "subject_scale": "Keep the photographed subject smaller than the lettering; the subject should feel captured in a candid scene rather than posed as a studio hero.",
+    "negative_space": "Use white space as an outline and separation system around type and photo edges, not as empty minimalism.",
+    "aspect_ratio_behavior": "For 9:16, stack the top headline, photo, and bottom type vertically with a flyer-like hierarchy. For 16:9, let the headline sweep across the width, keep the photo band wide, and place bottom type in split blocks."
+  },
+  "typography": {
+    "type_style": "Use jagged angular block lettering with exaggerated wedges, uneven counters, sharp corners, and handmade cutout proportions.",
+    "hierarchy": "Main text should be huge, red, and top-dominant; event details should be red and black in oversized bottom blocks; secondary text should be compact black lettering.",
+    "placement": "Type may overlap the photo edge slightly but must remain readable through thick white outlines and gutters.",
+    "texture": "Letter edges can be slightly imperfect like screenprint or cut paper, but the words must stay legible.",
+    "restrictions": "No clean corporate sans, no script lettering, no serif poster type, no neon chrome, no platform UI labels, and no real brand marks."
+  },
+  "color_palette": {
+    "dominant": [
+      "paper white",
+      "black-and-white photo grayscale",
+      "hot primary red"
+    ],
+    "secondary": [
+      "near-black ink",
+      "soft gray photo highlights",
+      "deep shadow black"
+    ],
+    "accent": [
+      "tiny fictional black badge details",
+      "small white knockout spaces"
+    ],
+    "palette_proportions": "Approximately 45 percent grayscale photography, 30 percent white paper and gutters, 20 percent red display type, and 5 percent black secondary type or badge marks.",
+    "avoid": "Avoid full-color photography, gradients, pastel palettes, beige vintage paper, glossy neon, rainbow accents, and realistic colored skin tones."
+  },
+  "photographic_direction": {
+    "rendering": "Use a high-contrast black-and-white documentary photograph as the central scene, with realistic street or venue perspective.",
+    "lighting": "Favor hard daylight, strong shadows, bright pavement or wall highlights, and documentary contrast rather than cinematic color lighting.",
+    "texture": "Apply controlled photo grain and screenprint texture while keeping faces, objects, and lettering crisp.",
+    "edge_quality": "Keep photo edges rectangular or slightly cropped, while type edges are jagged and cutout-like with bold white surrounds.",
+    "depth": "Depth belongs only inside the black-and-white photo; typography and graphic marks remain flat pasted poster layers."
+  },
+  "design_rules": [
+    "Use one central black-and-white documentary photo block and do not replace it with illustration.",
+    "Make the headline visually louder than the photo subject through scale, red color, and jagged cutout form.",
+    "Keep the palette to red, black, white, and grayscale only.",
+    "Use thick white gutters or outlines around red type wherever it overlaps the photo or other lettering.",
+    "Add a tiny fictional sponsor-like badge only if needed for balance; it must not resemble a real logo.",
+    "Make the bottom text feel like event information, with two or three oversized words and compact black support copy.",
+    "Let baselines and letter widths vary slightly so the typography feels hand-cut and manually arranged.",
+    "Moderate photo grain and print texture so the poster reads as intentional screenprint, not degraded digital noise."
+  ],
+  "do": [
+    "Preserve the loud red jagged headline and black secondary lettering hierarchy.",
+    "Use a candid black-and-white street, venue, or community photo as the central image layer.",
+    "Keep strong white structural gutters between typography and photo.",
+    "Make the poster feel handmade, local, raw, and event-driven.",
+    "Use fictional event text that is short, bold, and readable.",
+    "Keep all raster samples clean and high-resolution despite the intentional print texture."
+  ],
+  "avoid": [
+    "No skateboarding, skate contest, skateboard prop, crouching filmer, or copied source scene.",
+    "No original poster text, real sponsor text, watermarks, signatures, QR codes, usernames, or platform marks.",
+    "No polished corporate layout, glossy 3D render, vector-only substitute, or comic illustration.",
+    "No full-color photo, gradients, soft airbrush, watercolor, beige retro palette, or neon chrome.",
+    "No tiny illegible type clusters replacing the huge jagged display lettering.",
+    "No accidental compression artifacts, dirty AI grit, muddy halftone, or warped unreadable letters."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster image in the Jagged Red Street Photo Event Poster Style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these fixed style rules: build the poster on a clean white field; use a central high-contrast black-and-white documentary photo block with real street-level or venue-level perspective; place enormous jagged red hand-cut display lettering across the top as the dominant graphic mass; surround red letters with thick white cut-paper gutters where they overlap the photo; add blocky black secondary lettering in the lower area; form the bottom event information from oversized uneven red and black word blocks; keep the palette strictly red, black, white, and grayscale; include only a tiny fictional badge or accent mark if needed; make the whole design feel like a raw screenprinted local event flyer with crisp pasted layers, slight handmade misalignment, hard daylight contrast, and controlled print grain.\n\nAvoid skateboarding, skate contests, skateboard props, crouching filmers, the source poster's exact street scene, any original text, real logos, watermarks, QR codes, platform UI, polished corporate design, 3D render, vector-only flatness, comic illustration, full-color photography, gradients, beige vintage paper, neon chrome, warped unreadable text, and uncontrolled digital noise. Important content rule: match the visual style first, then change the source content completely while preserving the style fidelity anchors.",
+  "negative_prompt": "skateboarding, skateboard, skate contest, skater trick, crouching filmer, original street corner, bakery storefront, parked car composition from source, Game of Skate, Friday 6PM, Everyone Welcome, Itavally, The Arshmates, real logo, real brand mark, watermark, signature, QR code, username, platform interface, glossy 3D render, corporate flyer, clean vector-only poster, comic book illustration, full-color photograph, rainbow palette, beige vintage paper, neon gradient, script font, serif poster font, tiny unreadable text, warped letters, muddy halftone, compression artifacts, accidental digital noise",
+  "examples": [
+    {
+      "case_name": "after-hours-arcade-rally",
+      "values": {
+        "SUBJECT": "two friends carrying a boxed tabletop arcade controller through a doorway",
+        "SUBJECT_ACTION": "stepping into a basement venue after dark",
+        "PRODUCT_OR_PROP": "corded arcade controller and a short stack of flyers",
+        "LOCATION": "narrow downtown alley outside a basement game room",
+        "BACKGROUND_ELEMENTS": "brick doorway, old wall lamp, bicycle rack, distant pedestrians, bright pavement highlights",
+        "MAIN_TEXT": "BUTTON MASH NIGHT",
+        "SECONDARY_TEXT": "SAT 8PM / BASEMENT ROOM / ALL AGES",
+        "ACCENT_SYMBOL": "small fictional lightning badge",
+        "WARDROBE_STYLE": "casual hoodies, work pants, canvas sneakers, documentary streetwear silhouettes",
+        "STYLE_FIDELITY_ANCHORS": "black-and-white documentary photo center, huge jagged red top type, black bottom lettering, thick white gutters, red black white grayscale palette, raw screenprint flyer energy",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboarding, no skateboard, no filming crouch, no bakery street corner, no original sponsor mark, no source event text"
+      }
+    },
+    {
+      "case_name": "laundry-room-record-swap",
+      "values": {
+        "SUBJECT": "a record collector kneeling beside milk crates of vinyl",
+        "SUBJECT_ACTION": "pulling one sleeve from a crate under fluorescent laundry-room light",
+        "PRODUCT_OR_PROP": "vinyl crates, paper price tabs, folding table",
+        "LOCATION": "old coin laundry converted into a weekend record swap",
+        "BACKGROUND_ELEMENTS": "washing machines, tile floor reflections, hanging shirts, open doorway to the sidewalk",
+        "MAIN_TEXT": "VINYL SWAP",
+        "SECONDARY_TEXT": "SUN 2PM / CASH TABLE / BRING A BAG",
+        "ACCENT_SYMBOL": "small fictional record badge",
+        "WARDROBE_STYLE": "flannel shirt, dark jeans, low sneakers, practical secondhand styling",
+        "STYLE_FIDELITY_ANCHORS": "black-and-white documentary photo center, huge jagged red top type, black bottom lettering, thick white gutters, red black white grayscale palette, raw screenprint flyer energy",
+        "SOURCE_CONTENT_TO_AVOID": "no skate contest, no skateboard prop, no copied sidewalk action, no source top headline, no sponsor curls, no real brand logos"
+      }
+    },
+    {
+      "case_name": "rooftop-noodle-pop-up",
+      "values": {
+        "SUBJECT": "a cook holding a steaming noodle bowl beside a folding table",
+        "SUBJECT_ACTION": "leaning forward to hand the bowl to someone outside the frame",
+        "PRODUCT_OR_PROP": "paper bowls, metal ladle, handwritten menu board",
+        "LOCATION": "small rooftop food pop-up above a neighborhood storefront",
+        "BACKGROUND_ELEMENTS": "roof railing, hanging bulbs, city wall, stacked crates, hard sunset shadows rendered in grayscale",
+        "MAIN_TEXT": "NOODLE ROOF",
+        "SECONDARY_TEXT": "FRI 7PM / HOT BOWLS / WALK UP",
+        "ACCENT_SYMBOL": "small fictional bowl badge",
+        "WARDROBE_STYLE": "plain apron, rolled sleeves, cap, utilitarian kitchen clothing",
+        "STYLE_FIDELITY_ANCHORS": "black-and-white documentary photo center, huge jagged red top type, black bottom lettering, thick white gutters, red black white grayscale palette, raw screenprint flyer energy",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboard, no filmer, no bakery sign, no original Friday 6PM copy, no copied sponsor mark, no exact source composition"
+      }
+    },
+    {
+      "case_name": "community-radio-yard-party",
+      "values": {
+        "SUBJECT": "a community radio host adjusting a microphone on a folding table",
+        "SUBJECT_ACTION": "calling out toward people gathered just outside the photo crop",
+        "PRODUCT_OR_PROP": "portable speaker, coiled cable, handwritten request cards",
+        "LOCATION": "small paved yard behind a neighborhood community hall",
+        "BACKGROUND_ELEMENTS": "chain-link fence, plastic chairs, mural wall, bright afternoon shadows, open gate",
+        "MAIN_TEXT": "RADIO YARD",
+        "SECONDARY_TEXT": "THU 6PM / REQUEST LINE / FREE ENTRY",
+        "ACCENT_SYMBOL": "small fictional radio-wave badge",
+        "WARDROBE_STYLE": "work jacket, plain tee, cap, casual outdoor event clothing",
+        "STYLE_FIDELITY_ANCHORS": "black-and-white documentary photo center, huge jagged red top type, black bottom lettering, thick white gutters, red black white grayscale palette, raw screenprint flyer energy",
+        "SOURCE_CONTENT_TO_AVOID": "no skateboarding, no board, no filmer crouch, no source street props, no original words, no real sponsor or watermark"
+      }
+    }
+  ]
+}
