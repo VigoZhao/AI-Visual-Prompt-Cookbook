@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 88 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 89 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Scarlet Megatype Action Collage Style
+
+<a href="../styles/scarlet-megatype-action-collage-style"><img src="../styles/scarlet-megatype-action-collage-style/preview-16x9.jpg" width="720" alt="Scarlet Megatype Action Collage Style preview"></a>
+
+A high-impact action poster system built from a saturated scarlet field, oversized diagonal block typography, layered photographic cutout subjects, hard graphic shadows, compact editorial text blocks, and controlled print grain. It feels like a premium campaign key art poster for speed, pressure, and team momentum without preserving the original sports team, logo, phrase, or exact scene.
+
+Files: [style.json](../styles/scarlet-megatype-action-collage-style/style.json) · [Copy Prompt](copy-prompts/scarlet-megatype-action-collage-style.md) · [16:9 preview](../styles/scarlet-megatype-action-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/scarlet-megatype-action-collage-style/preview-9x16.jpg) · [Folder](../styles/scarlet-megatype-action-collage-style)
+
+---
 
 ### Jagged Red Street Photo Event Poster Style
 

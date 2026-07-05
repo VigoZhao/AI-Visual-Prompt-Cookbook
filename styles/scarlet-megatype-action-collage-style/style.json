@@ -1,0 +1,182 @@
+{
+  "style_name": "Scarlet Megatype Action Collage Style",
+  "style_slug": "scarlet-megatype-action-collage-style",
+  "style_version": "2.1",
+  "style_summary": "A high-impact action poster system built from a saturated scarlet field, oversized diagonal block typography, layered photographic cutout subjects, hard graphic shadows, compact editorial text blocks, and controlled print grain. It feels like a premium campaign key art poster for speed, pressure, and team momentum without preserving the original sports team, logo, phrase, or exact scene.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Dominant saturated scarlet red field with warm off-white geometric ground shapes and sparse black accents.",
+    "Oversized condensed uppercase wordforms run diagonally through the poster and are cropped by the frame.",
+    "Layered photographic cutout subjects appear at different scales, with one heroic foreground figure and smaller supporting figures.",
+    "The main figure uses low wide-angle perspective, aggressive foreshortening, and limbs or props reaching toward the viewer.",
+    "Photo subjects are high contrast, red-black graded, sharply cut out, and integrated into a flat poster field.",
+    "Hard graphic cast shadows stretch across the off-white ground plane and reinforce the diagonal movement.",
+    "A compact top-corner identity block uses a simple black icon, stacked heavy condensed uppercase title, and a small stat-like label.",
+    "Thin vector streaks, diagonal slashes, and angular underlines guide motion without cluttering the frame.",
+    "Fast-moving props can carry controlled radial or directional motion blur while the main figures remain legible.",
+    "The surface has moderated paper grain, screenprint scuff, and subtle halftone texture without dirty digital noise.",
+    "The layout is asymmetric: heavy action across one side, clear editorial type block on the opposing upper corner, and enough red negative space to keep hierarchy readable.",
+    "Typography is blunt, industrial, tightly stacked, and mostly white or black, never decorative or playful."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate Canada, Canadian national-team identity, maple leaf symbols, Canada Soccer marks, or any real federation logo.",
+    "Do not use soccer, football players, a soccer ball, a kick, a header, pitch markings, or the same sports action premise.",
+    "Do not copy the phrases TRUE NORTH, CANADA, 16/48, or any source jersey numbers.",
+    "Do not reproduce the red national kit, Nike swoosh, player likenesses, exact faces, or exact body silhouettes from the reference.",
+    "Do not recreate the same upper-left logo and upper-right title arrangement as a literal copy.",
+    "Do not preserve the original ball-above-head focal prop, the foreground kicking pose, or the same four-player arrangement.",
+    "Do not include watermarks, usernames, QR codes, social platform UI, signatures, or creator marks."
+  ],
+  "visual_deconstruction": {
+    "style_category": "photographic sports-editorial poster collage with screenprint texture and giant integrated typography",
+    "composition_logic": "diagonal mega-type and ground shapes create a tilted stage; action figures sit on top of the type as cutouts; a corner type lockup supplies campaign information",
+    "subject_placement": "one oversized action subject dominates the left or center field, while two or three smaller supporting subjects create depth and sequence",
+    "camera_perspective": "low, close, wide-angle action perspective with strong foreshortening and frame-breaking limbs or props",
+    "typography_behavior": "bold condensed uppercase sans-serif, vertically stacked, tightly set, cropped by the frame, and treated as physical poster architecture",
+    "palette_behavior": "mostly scarlet red and off-white, with black as a hard accent and tiny touches of deep gray or muted skin tones inside photographic cutouts",
+    "graphic_elements": "simple icon silhouettes, stat labels, speed slashes, diagonal underlines, stark shadows, and massive cropped letters",
+    "texture_finish": "coarse paper grain, slight ink scuffing, subtle halftone, and controlled motion blur on fast objects",
+    "lighting_mood": "hard high-contrast lighting, strong subject highlights, dense blacks, and urgent campaign-poster confidence"
+  },
+  "composition": [
+    "Use a dominant scarlet background with a large off-white diagonal ground plane or letter field that cuts across the image.",
+    "Place one foreground subject at heroic scale, cropped close to the frame and angled along the diagonal text axis.",
+    "Add two or three smaller supporting cutout figures or object echoes to create motion sequence and poster depth.",
+    "Keep the main headline as oversized cropped diagonal type behind the subject rather than a flat caption.",
+    "Place a compact editorial information lockup in an upper corner, separated from the action by red negative space.",
+    "Use hard cast shadows as graphic shapes on the off-white ground to connect the cutout figures to the poster surface."
+  ],
+  "typography": {
+    "headline": "Ultra-condensed uppercase sans-serif, huge scale, white or off-white, diagonal, cropped, and partially hidden behind the subject.",
+    "corner_lockup": "Stacked condensed uppercase words in white, with one black icon and a small black stat capsule or label.",
+    "micro_type": "Small uppercase label text with tight leading, used sparingly for campaign-code energy.",
+    "rules": [
+      "Use bold poster type as structure, not decoration.",
+      "Keep text short, legible, and blunt.",
+      "Use tight vertical stacking and strong rectangular alignment.",
+      "Avoid script, serif, bubble, handwritten, cute, luxury, or ornate type."
+    ]
+  },
+  "color_palette": {
+    "primary": "saturated scarlet red, roughly 70 to 80 percent of the image",
+    "secondary": "warm off-white or bone white for ground planes and enormous type",
+    "accent": "dense black for icon, micro labels, shadows, and small type",
+    "support": "muted photographic skin, fabric, gray, or equipment tones heavily pushed into the red-black grade",
+    "rules": [
+      "Keep the palette sharply limited and campaign-like.",
+      "Let red dominate the field and white carry the typography or ground.",
+      "Use black as a decisive graphic accent, never as a soft gradient theme.",
+      "Avoid rainbow palettes, pastel tones, neon effects, glossy 3D colors, and atmospheric blue cinematic grading."
+    ]
+  },
+  "photographic_direction": {
+    "rendering_mode": "photo-collage poster with realistic cutout subjects embedded into flat graphic fields",
+    "subject_treatment": "high-contrast athletic or performance photography, strong highlights, clipped edges, red-black grade, and visible but controlled print grain",
+    "motion": "main subject stays sharp enough to read; fast props or trailing limbs can use directional blur to imply speed",
+    "lighting": "hard directional light and dense shadow shapes, not soft studio beauty lighting",
+    "finish": "matte printed poster surface with paper grain, scuffs, and subtle halftone"
+  },
+  "design_rules": [
+    "Preserve the scarlet, off-white, and black campaign-poster palette in every output.",
+    "Build each image around diagonal mega-type and action cutouts rather than a centered product shot.",
+    "Use a corner information lockup with icon, stacked headline, and small stat-like secondary label.",
+    "Keep subjects photographic, high contrast, and sharply separated from the flat graphic background.",
+    "Use hard shadows and slashes as graphic motion cues.",
+    "Change the content theme completely while retaining the same density, hierarchy, and poster mechanics."
+  ],
+  "do": [
+    "Use one dominant foreground subject with foreshortened action and supporting smaller figures.",
+    "Use massive cropped white type as a physical ground or backdrop.",
+    "Use controlled paper grain, print scuff, and halftone to make the poster feel printed.",
+    "Use short blunt uppercase text that reads as a campaign slogan without copying the source words.",
+    "Use sparse but strong black symbols and labels."
+  ],
+  "avoid": [
+    "Avoid soccer, football, Canada, maple leaves, real team marks, Nike marks, or direct national-team references.",
+    "Avoid copying the source phrase, jersey numbers, layout lockup, ball focal point, or player poses.",
+    "Avoid flat vector-only illustration, 3D render style, cute mascot style, comic book inking, and painterly fantasy art.",
+    "Avoid busy background scenes, many small props, price labels, UI overlays, and decorative stickers.",
+    "Avoid muddy digital noise, illegible faces, smeared typography, watermarks, signatures, and QR codes."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the \"Scarlet Megatype Action Collage Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: saturated scarlet red field, enormous cropped off-white condensed uppercase wordforms running diagonally through the frame, one heroic foreground photo-cutout subject, two or three smaller supporting cutouts, and a compact upper-corner information lockup with a simple black icon.\n- Perspective: low wide-angle action perspective with aggressive foreshortening; limbs, tools, vehicles, fabric, or props can break toward the viewer; keep the subject integrated with a flat poster plane.\n- Typography: blunt industrial condensed uppercase sans-serif, huge diagonal main type behind the action, tight stacked corner type, short stat-like secondary label, mostly white and black, legible and unsmeared.\n- Color: scarlet red dominates, warm off-white carries the ground and mega-type, black adds icons, labels, and shadows, photographic tones are muted and pushed into a red-black campaign grade.\n- Texture and lighting: matte printed poster surface, controlled paper grain, subtle halftone, hard highlights, dense shadows, crisp cutout edges, and controlled motion blur only on fast-moving props.\n- Graphic elements: diagonal speed slashes, angular underlines, stark cast shadows, simple icon silhouette, and spare campaign-code details.\n\nAvoid all source content and marks named in the source-content field. Do not use soccer, football, Canada, maple leaves, real team logos, brand marks, watermarks, QR codes, signatures, or the original phrases. Match the style fidelity anchors first, then change the subject, action, prop, scene, text, and story premise.",
+  "negative_prompt": "Canada, maple leaf, soccer, football player, soccer ball, national team kit, real sports federation logo, Nike swoosh, TRUE NORTH, CANADA text, 16/48, source jersey numbers, real athlete likeness, copied pose, copied layout, watermark, signature, QR code, social UI, platform logo, 3D render, flat vector illustration, cartoon mascot, comic ink page, painterly fantasy, crowded marketplace, decorative sticker collage, pastel palette, rainbow palette, blue cinematic color grade, muddy noise, illegible typography, smeared faces, low-resolution compression artifacts",
+  "examples": [
+    {
+      "case_name": "rooftop-courier",
+      "values": {
+        "SUBJECT": "a helmeted urban bike courier with two supporting runners",
+        "SUBJECT_ACTION": "launching across a wet rooftop ledge while reaching forward through rain spray",
+        "PRODUCT_OR_PROP": "matte black messenger tube and reflective delivery satchel",
+        "LOCATION": "downtown rooftop relay route at dusk",
+        "BACKGROUND_ELEMENTS": "tilted white runway blocks, scarlet negative space, red vector speed streaks, distant roof vents reduced to black silhouettes",
+        "MAIN_TEXT": "NIGHT RUN",
+        "SECONDARY_TEXT": "URBAN RELAY 07/24",
+        "ACCENT_SYMBOL": "solid black compass-star icon",
+        "WARDROBE_STYLE": "scarlet shell jacket, black compression layers, reflective tape, clean shoes, no logos",
+        "STYLE_FIDELITY_ANCHORS": "scarlet field, off-white diagonal mega-type, cutout photo action figures, hard shadows, compact corner lockup, controlled paper grain",
+        "SOURCE_CONTENT_TO_AVOID": "no Canada, no maple leaf, no soccer, no ball, no team marks, no copied source text, no real brand logos"
+      }
+    },
+    {
+      "case_name": "velodrome-sprint",
+      "values": {
+        "SUBJECT": "a track cyclist with two trailing riders",
+        "SUBJECT_ACTION": "leaning into an indoor banked turn with the front wheel foreshortened toward the viewer",
+        "PRODUCT_OR_PROP": "deep-section racing bicycle and aerodynamic helmet",
+        "LOCATION": "minimal indoor velodrome",
+        "BACKGROUND_ELEMENTS": "giant off-white diagonal track-letter slab, red infield, black timing ticks, angular speed slashes",
+        "MAIN_TEXT": "FINAL LAP",
+        "SECONDARY_TEXT": "SPRINT INDEX 03/12",
+        "ACCENT_SYMBOL": "black stopwatch icon",
+        "WARDROBE_STYLE": "scarlet skinsuit with black panels, matte helmet, no sponsor marks",
+        "STYLE_FIDELITY_ANCHORS": "dominant scarlet and off-white palette, diagonal mega-type, photographic cutout athletes, hard graphic shadows, stacked corner type, print scuff texture",
+        "SOURCE_CONTENT_TO_AVOID": "no soccer, no football, no Canada, no maple leaf, no ball above head, no copied player pose, no brand marks"
+      }
+    },
+    {
+      "case_name": "storm-rescue",
+      "values": {
+        "SUBJECT": "a mountain rescue lead climber with two teammates",
+        "SUBJECT_ACTION": "vaulting over angular snow barriers while throwing a rope line forward",
+        "PRODUCT_OR_PROP": "coiled rescue rope and compact emergency pack",
+        "LOCATION": "abstract alpine rescue drill",
+        "BACKGROUND_ELEMENTS": "oversized off-white ice-letter shapes, scarlet sky, black route-marker icon, red diagonal underlines",
+        "MAIN_TEXT": "HIGH ALERT",
+        "SECONDARY_TEXT": "RIDGE UNIT 14/32",
+        "ACCENT_SYMBOL": "black summit-triangle icon",
+        "WARDROBE_STYLE": "scarlet technical shell, black harness, dark gloves, no outdoor brand logos",
+        "STYLE_FIDELITY_ANCHORS": "heroic foreshortened cutout, smaller supporting figures, scarlet poster field, huge cropped type, hard shadows, compact upper-corner lockup",
+        "SOURCE_CONTENT_TO_AVOID": "no national team identity, no soccer action, no ball, no maple leaf, no Canada word, no copied jersey or original composition"
+      }
+    },
+    {
+      "case_name": "stage-dance",
+      "values": {
+        "SUBJECT": "a contemporary dance lead performer with three ensemble silhouettes",
+        "SUBJECT_ACTION": "spinning through a low leap while a long ribbon arcs across the frame",
+        "PRODUCT_OR_PROP": "white performance ribbon with controlled motion blur",
+        "LOCATION": "minimal rehearsal stage transformed into a graphic poster field",
+        "BACKGROUND_ELEMENTS": "scarlet backdrop, huge off-white diagonal floor letters, red slice marks, dense black stage shadows",
+        "MAIN_TEXT": "FULL BEAT",
+        "SECONDARY_TEXT": "CREW EDIT 09/18",
+        "ACCENT_SYMBOL": "black four-point stage mark",
+        "WARDROBE_STYLE": "scarlet performance top, black leggings, clean sneakers, no logos",
+        "STYLE_FIDELITY_ANCHORS": "scarlet-red campaign background, off-white diagonal megatype, layered photo cutouts, high contrast hard light, graphic cast shadows, tight corner type block",
+        "SOURCE_CONTENT_TO_AVOID": "no Canada, no maple leaf, no soccer players, no soccer ball, no team uniforms, no original slogan, no copied foreground kick pose"
+      }
+    }
+  ]
+}

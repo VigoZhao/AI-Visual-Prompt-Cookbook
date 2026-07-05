@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 88,
+  "styleCount": 89,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Scarlet Megatype Action Collage Style",
+      "slug": "scarlet-megatype-action-collage-style",
+      "category": "Type Posters",
+      "description": "Scarlet action key-art with diagonal block megatype, layered cutout subjects, hard graphic shadows, and controlled print grain.",
+      "summary": "A high-impact action poster system built from a saturated scarlet field, oversized diagonal block typography, layered photographic cutout subjects, hard graphic shadows, compact editorial text blocks, and controlled print grain. It feels like a premium campaign key art poster for speed, pressure, and team momentum without preserving the original sports team, logo, phrase, or exact scene.",
+      "preview16": "../styles/scarlet-megatype-action-collage-style/preview-16x9.jpg",
+      "preview9": "../styles/scarlet-megatype-action-collage-style/preview-9x16.jpg",
+      "styleJson": "../styles/scarlet-megatype-action-collage-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/scarlet-megatype-action-collage-style.md",
+      "folder": "../styles/scarlet-megatype-action-collage-style/",
+      "anchors": [
+        "Dominant saturated scarlet red field with warm off-white geometric ground shapes and sparse black accents.",
+        "Oversized condensed uppercase wordforms run diagonally through the poster and are cropped by the frame.",
+        "Layered photographic cutout subjects appear at different scales, with one heroic foreground figure and smaller supporting figures.",
+        "The main figure uses low wide-angle perspective, aggressive foreshortening, and limbs or props reaching toward the viewer.",
+        "Photo subjects are high contrast, red-black graded, sharply cut out, and integrated into a flat poster field.",
+        "Hard graphic cast shadows stretch across the off-white ground plane and reinforce the diagonal movement."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rooftop-courier",
+      "copyPrompt": "Use the \"Scarlet Megatype Action Collage Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a helmeted urban bike courier with two supporting runners\nSubject action: launching across a wet rooftop ledge while reaching forward through rain spray\nProduct or prop: matte black messenger tube and reflective delivery satchel\nLocation: downtown rooftop relay route at dusk\nBackground elements: tilted white runway blocks, scarlet negative space, red vector speed streaks, distant roof vents reduced to black silhouettes\nMain text: NIGHT RUN\nSecondary text: URBAN RELAY 07/24\nAccent symbol: solid black compass-star icon\nWardrobe style: scarlet shell jacket, black compression layers, reflective tape, clean shoes, no logos\n\nStyle direction:\nA high-impact action poster system built from a saturated scarlet field, oversized diagonal\nblock typography, layered photographic cutout subjects, hard graphic shadows, compact editorial\ntext blocks, and controlled print grain. It feels like a premium campaign key art poster for\nspeed, pressure, and team momentum without preserving the original sports team, logo, phrase, or\nexact scene.\n\nKeep visible:\n- Dominant saturated scarlet red field with warm off-white geometric ground shapes and sparse black accents.\n- Oversized condensed uppercase wordforms run diagonally through the poster and are cropped by the frame.\n- Layered photographic cutout subjects appear at different scales, with one heroic foreground figure and smaller supporting figures.\n- The main figure uses low wide-angle perspective, aggressive foreshortening, and limbs or props reaching toward the viewer.\n- Photo subjects are high contrast, red-black graded, sharply cut out, and integrated into a flat poster field.\n\nAvoid:\nCanada, maple leaf, soccer, football player, soccer ball, national team kit, real sports\nfederation logo, Nike swoosh, TRUE NORTH, CANADA text, 16/48, source jersey numbers, real\nathlete likeness, copied pose, copied layout, watermark, signature, QR code, social UI, platform\nlogo, 3D render, flat vector illustration, cartoon mascot, comic ink page, painterly fantasy,\ncrowded marketplace, decorative sticker collage, pastel palette, rainbow palette, blue cinematic\ncolor grade, muddy noise, illegible typography, smeared faces, low-resolution compression\nartifacts\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Jagged Red Street Photo Event Poster Style",
       "slug": "jagged-red-street-photo-event-poster-style",
