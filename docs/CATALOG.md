@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 89 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 91 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Red Black Manga Tabloid Poster Style
+
+<a href="../styles/red-black-manga-tabloid-poster-style"><img src="../styles/red-black-manga-tabloid-poster-style/preview-16x9.jpg" width="720" alt="Red Black Manga Tabloid Poster Style preview"></a>
+
+A dense black, white, and scarlet manga tabloid poster system with oversized condensed type, cropped ink characters, editorial metadata blocks, halftone shading, red spot-color shock graphics, and folded photocopy paper texture.
+
+Files: [style.json](../styles/red-black-manga-tabloid-poster-style/style.json) · [Copy Prompt](copy-prompts/red-black-manga-tabloid-poster-style.md) · [16:9 preview](../styles/red-black-manga-tabloid-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/red-black-manga-tabloid-poster-style/preview-9x16.jpg) · [Folder](../styles/red-black-manga-tabloid-poster-style)
+
+---
+
+### Ice Cyan Megatype Action Poster Style
+
+<a href="../styles/ice-cyan-megatype-action-poster-style"><img src="../styles/ice-cyan-megatype-action-poster-style/preview-16x9.jpg" width="720" alt="Ice Cyan Megatype Action Poster Style preview"></a>
+
+A kinetic editorial action poster style built from an ice-white canvas, oversized deep-cyan condensed typography, pale gray ghost text layers, a central cutout action photograph, neon chartreuse motion blurs, small barcode and registration marks, and sparse magazine-style microcopy.
+
+Files: [style.json](../styles/ice-cyan-megatype-action-poster-style/style.json) · [Copy Prompt](copy-prompts/ice-cyan-megatype-action-poster-style.md) · [16:9 preview](../styles/ice-cyan-megatype-action-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/ice-cyan-megatype-action-poster-style/preview-9x16.jpg) · [Folder](../styles/ice-cyan-megatype-action-poster-style)
+
+---
 
 ### Scarlet Megatype Action Collage Style
 

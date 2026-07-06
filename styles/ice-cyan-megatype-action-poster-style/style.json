@@ -1,0 +1,161 @@
+{
+  "style_name": "Ice Cyan Megatype Action Poster Style",
+  "style_slug": "ice-cyan-megatype-action-poster-style",
+  "style_version": "1.0.0",
+  "style_summary": "A kinetic editorial action poster style built from an ice-white canvas, oversized deep-cyan condensed typography, pale gray ghost text layers, a central cutout action photograph, neon chartreuse motion blurs, small barcode and registration marks, and sparse magazine-style microcopy.",
+  "environment_variables": {
+    "SUBJECT": "Primary person, object, or scene focus for the poster.",
+    "SUBJECT_ACTION": "Large readable movement, pose, or gesture that creates forward energy.",
+    "PRODUCT_OR_PROP": "Object, product, tool, gear, instrument, or prop featured without brand marks.",
+    "LOCATION": "Minimal stage, court, studio, street, or field setting that supports the poster.",
+    "BACKGROUND_ELEMENTS": "Secondary graphic or environmental details that stay sparse and poster-like.",
+    "MAIN_TEXT": "Short oversized headline set in condensed deep-cyan type.",
+    "SECONDARY_TEXT": "Small supporting label, date, or editorial microcopy.",
+    "ACCENT_SYMBOL": "Abstract chartreuse symbol, barcode strip, burst, or motion mark that is not a logo.",
+    "WARDROBE_STYLE": "Styling direction, clothing, material color, silhouette, or visual treatment.",
+    "STYLE_FIDELITY_ANCHORS": "Observable style traits that must remain visible in the generated image.",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content that generated samples must not recreate.",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Ice-white or very pale gray poster field with generous clean negative space around the action stack.",
+    "Huge ultra-condensed all-caps typography in deep petrol cyan, cropped by the frame and partially hidden behind the subject.",
+    "Very large pale gray ghost words repeat behind the main headline as translucent vertical and horizontal background structure.",
+    "One central photographic cutout action subject overlaps the type, with dramatic foreshortening and a limb, tool, or prop pushing toward the viewer.",
+    "Layered collage depth: ghost type at the rear, deep-cyan headline in the middle, subject cutout in front, and small graphic marks above all layers.",
+    "Neon chartreuse motion blurs appear as soft abstract disks or streaks near the edges, never as literal copied balls.",
+    "Small editorial print details: barcode strip, fine outline boxes, tiny footer paragraph, spaced vertical side label, and a compact burnt-orange date or issue tag.",
+    "Sharp high-contrast commercial action photography with rim light, clean cutout edges, controlled shadow, and no gritty distress.",
+    "Sparse lime doodle grammar: radial bursts, small wavy underline, short zigzag, or speed mark used as punctuation around the subject.",
+    "Palette stays restrained: mostly ice white and cool gray, heavy deep cyan type, chartreuse accents, and tiny warm orange details."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a tennis player, tennis racket, tennis ball, or tennis match premise.",
+    "Do not copy the exact seated swing pose, raised racket silhouette, visible shoe sole crop, white tennis outfit, headband, or orange socks.",
+    "Do not reuse the headline words Challenge Yourself, Yourself, Daily Poster Design, or the year 2025.",
+    "Do not copy the exact bottom motivational paragraph or its line breaks.",
+    "Do not recreate the same chartreuse tennis balls as literal sports balls; use abstract motion blurs instead.",
+    "Do not include recognizable athletes, brand marks, tournament logos, club logos, QR codes, watermarks, usernames, or platform marks.",
+    "Do not duplicate the exact reference layout as a tennis poster with the same text stack and same body silhouette.",
+    "Do not add dense retail labels, price tags, UI chrome, or unrelated decorative clutter."
+  ],
+  "visual_deconstruction": {
+    "style_category": "High-energy sports and culture editorial poster with photographic action cutout and oversized typographic collage.",
+    "layout": "Mostly white vertical poster field with stacked oversize cyan type through the center, pale gray repeated ghost type behind it, and one action subject breaking forward over both layers.",
+    "subject_placement": "The subject is centered slightly off-axis, enlarged, sharply cut out, and allowed to cover headline letters while one body part or prop projects toward the viewer.",
+    "camera_perspective": "Low or front-close editorial action perspective with strong foreshortening, dynamic diagonal body lines, and clean commercial lighting.",
+    "texture_finish": "Clean digital editorial finish with crisp type, subtle print softness, controlled drop shadow, and soft neon blur accents.",
+    "mood": "Competitive, energetic, aspirational, magazine-like, technical, and polished."
+  },
+  "composition": {
+    "frame": "Use an ice-white poster field with light gray typography extending beyond the crop and a narrow vertical side-label zone.",
+    "hierarchy": "Make the main headline the largest graphic mass, then push the photographic subject through it as the dominant focal point.",
+    "layering": "Keep a clear order of pale gray ghost text, deep cyan headline, cutout subject, small chartreuse marks, barcode, and tiny footer copy.",
+    "crop": "Crop large letters and allow the subject or prop to cross the frame edge for physical action scale.",
+    "spacing": "Maintain a sparse editorial field with few supporting elements and strong blank space."
+  },
+  "typography": {
+    "headline": "Use extremely tall condensed sans-serif all caps, deep petrol cyan, heavy weight, tight spacing, and cropped block-like letterforms.",
+    "ghost_type": "Repeat oversized words in pale gray behind the main headline at very low contrast, sometimes rotated or stacked beyond the canvas.",
+    "secondary": "Use small clean sans-serif microcopy, a vertical spaced-letter label, a narrow barcode strip, and a compact orange date or issue tag.",
+    "behavior": "Type should interlock with the subject, with letters partially obscured by the cutout but still readable as a bold poster structure."
+  },
+  "color_palette": {
+    "base": "Ice white, cool white, and very pale gray dominate the poster.",
+    "primary_type": "Deep petrol cyan or blue-green ink for the main headline and some small label text.",
+    "accent": "Neon chartreuse for motion blurs, radial bursts, wavy underlines, and speed marks.",
+    "warm_detail": "Small burnt orange or rust-orange accent for date, issue number, sock, tape, or tiny label.",
+    "contrast": "High contrast between crisp dark cyan typography and the bright field, with translucent gray layers kept quiet.",
+    "proportions": "About 70 percent white and pale gray, 20 percent deep cyan, 7 percent chartreuse, and 3 percent warm orange."
+  },
+  "photographic_direction": {
+    "rendering": "Use realistic high-resolution action photography treated as a clean cutout collage element.",
+    "lighting": "Strong rim light and directional highlights on the subject, with controlled shadows and a cool editorial finish.",
+    "lens": "Close wide-angle or telephoto-compressed action perspective that makes one limb, object, or tool feel larger and closer.",
+    "finish": "Crisp subject detail, sharp typography, subtle drop shadow, clean edges, and soft abstract motion blur accents."
+  },
+  "design_rules": [
+    "Build every sample as a finished editorial poster, not a plain action photograph.",
+    "Use one dominant cutout subject and keep supporting objects minimal.",
+    "Make the deep-cyan condensed headline a structural layer that the subject overlaps.",
+    "Use pale gray ghost typography as background architecture rather than decoration alone.",
+    "Use chartreuse blur disks, bursts, and wavy marks as abstract motion energy, not literal source props.",
+    "Include small print-system details such as a barcode strip, vertical side text, tiny footer copy, or fine outline boxes.",
+    "Change the subject, action, prop, setting, and text for every case while keeping the poster grammar intact."
+  ],
+  "do": [
+    "Use a clean ice-white field, cropped deep-cyan megatype, and pale gray ghost text.",
+    "Center one photographic cutout subject with dynamic foreshortened motion.",
+    "Add sparse chartreuse motion marks and a tiny warm orange date or issue detail.",
+    "Preserve the editorial sports-magazine polish, controlled shadows, and crisp type.",
+    "Keep all content brand-neutral and free of protected marks."
+  ],
+  "avoid": [
+    "No tennis player, tennis racket, tennis ball, tennis court story, or source pose recreation.",
+    "No copied Challenge Yourself text, Daily Poster Design label, 2025 date, or bottom source paragraph.",
+    "No recognizable athletes, brand logos, tournament marks, watermarks, usernames, QR codes, or platform UI.",
+    "No dense catalog advertising, price labels, product spec overload, or social media screenshot chrome.",
+    "No flat vector-only poster, 3D render, manga panel, comic book halftone page, or gritty grunge flyer.",
+    "No illegible typography, distorted anatomy, extra limbs, random logo-like symbols, muddy noise, or low-resolution artifacts."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Ice Cyan Megatype Action Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual requirements:\n- Composition: finished editorial action poster on an ice-white field with pale gray ghost words in the rear, deep-cyan oversized condensed headline through the center, a cutout photographic subject in front, and sparse chartreuse motion marks above all layers.\n- Subject scale: one dominant subject should be centered slightly off-axis, enlarged, foreshortened, and cropped so a limb, tool, or prop projects toward the viewer and overlaps the headline.\n- Typography: use ultra-condensed all-caps sans-serif type, deep petrol cyan for the main headline, very pale gray repeated ghost words behind it, a spaced vertical side label, a narrow barcode strip, tiny footer microcopy, and a compact burnt-orange date or issue tag.\n- Color: keep the field mostly ice white and pale gray, use deep petrol cyan for type, neon chartreuse for abstract motion blurs and doodle bursts, and tiny warm orange details.\n- Graphic elements: add soft chartreuse abstract blur disks near edges, a lime radial burst, a short wavy underline or zigzag, fine outline boxes, and a small barcode strip, all sparse and editorial.\n- Photography: use crisp high-resolution action photography as a clean cutout collage element, with rim light, controlled shadow, sharp edges, realistic fabric or material detail, and polished magazine finish.\n\nAvoid tennis subjects, tennis rackets, tennis balls, copied source text, copied source pose, source outfit, source year, brand marks, watermarks, QR codes, social media UI, dense clutter, flat vector-only rendering, 3D toy rendering, manga panel style, distorted anatomy, illegible letters, muddy noise, and compression artifacts.\n\nImportant content rule: match the style fidelity anchors first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the poster grammar.",
+  "negative_prompt": "tennis player, tennis racket, tennis ball, tennis court premise, Challenge Yourself text, Daily Poster Design text, 2025 date, copied motivational footer paragraph, white tennis outfit, headband, orange tennis socks, seated swing pose, visible shoe sole copied from source, recognizable athlete, protected logo, tournament mark, brand wordmark, watermark, username, QR code, platform UI, dense product catalog layout, price tags, flat vector-only poster, 3D render, manga page, comic halftone panel, gritty grunge flyer, distorted hands, extra limbs, illegible typography, random logo-like marks, muddy digital noise, compression artifacts, low-resolution texture",
+  "examples": [
+    {
+      "case_name": "studio-dancer-leap",
+      "values": {
+        "SUBJECT": "a contemporary dancer suspended mid-leap with arms extended and both feet angled away from the camera",
+        "SUBJECT_ACTION": "twisting diagonally through the type stack while a ribbon streamer and sleeve sweep toward the viewer",
+        "PRODUCT_OR_PROP": "translucent ribbon streamer trailing from the wrist",
+        "LOCATION": "minimal ice-white rehearsal studio treated as a poster field",
+        "BACKGROUND_ELEMENTS": "pale gray ghost words, cropped deep-cyan headline blocks, abstract chartreuse motion blurs, tiny barcode strip",
+        "MAIN_TEXT": "MOVE LOUD",
+        "SECONDARY_TEXT": "rhythm issue / daily form",
+        "ACCENT_SYMBOL": "lime radial burst with a short wavy underline",
+        "WARDROBE_STYLE": "silver-white technical warmup set with cyan seam trim and a small burnt-orange sleeve tab, no orange socks"
+      }
+    },
+    {
+      "case_name": "parkour-courier-vault",
+      "values": {
+        "SUBJECT": "a bike courier vaulting over a low concrete barrier",
+        "SUBJECT_ACTION": "swinging the shoulder and messenger bag toward the lens while both feet trail behind the body",
+        "PRODUCT_OR_PROP": "matte messenger sling bag and fingerless gloves without visible branding",
+        "LOCATION": "clean city underpass reduced to pale gray panels and white space",
+        "BACKGROUND_ELEMENTS": "vertical side label, pale ghost type, deep-cyan cropped words, chartreuse speed blurs near the corners",
+        "MAIN_TEXT": "FAST LINE",
+        "SECONDARY_TEXT": "urban route / issue 03",
+        "ACCENT_SYMBOL": "small chartreuse zigzag and black barcode strip",
+        "WARDROBE_STYLE": "white wind shell, charcoal shorts, cyan strap detail, and tiny orange reflective tabs"
+      }
+    },
+    {
+      "case_name": "drummer-impact-hit",
+      "values": {
+        "SUBJECT": "a marching drummer lunging forward with a snare drum strapped high",
+        "SUBJECT_ACTION": "cross-striking the sticks as the drum rim tilts toward the viewer",
+        "PRODUCT_OR_PROP": "white snare drum, black drumsticks, and a translucent cymbal flare",
+        "LOCATION": "minimal indoor arena entrance simplified into ice-white and pale gray planes",
+        "BACKGROUND_ELEMENTS": "oversized ghost typography, deep-cyan headline stack, fine outline boxes, chartreuse impact marks around the drum",
+        "MAIN_TEXT": "BEAT RUSH",
+        "SECONDARY_TEXT": "tempo test / field note",
+        "ACCENT_SYMBOL": "lime radial impact burst and tiny orange issue tag",
+        "WARDROBE_STYLE": "white cropped performance jacket, cyan harness straps, black gloves, and small orange tape detail"
+      }
+    },
+    {
+      "case_name": "scooter-air-twist",
+      "values": {
+        "SUBJECT": "a freestyle scooter rider rotating above a simple ramp lip",
+        "SUBJECT_ACTION": "pulling the handlebar across the body while the deck points toward the camera",
+        "PRODUCT_OR_PROP": "brushed-metal stunt scooter with plain wheels and no decals",
+        "LOCATION": "minimal indoor skate hall reduced to cool gray shadows and white poster space",
+        "BACKGROUND_ELEMENTS": "pale gray repeated words, deep-cyan cropped headline, vertical spaced side text, chartreuse abstract blur disks",
+        "MAIN_TEXT": "AIR MODE",
+        "SECONDARY_TEXT": "flight study / issue 12",
+        "ACCENT_SYMBOL": "chartreuse speed burst and fine red-orange outline box",
+        "WARDROBE_STYLE": "white overshirt, pale gray cargo pants, cyan helmet strap, and burnt-orange shoe lace accent"
+      }
+    }
+  ]
+}

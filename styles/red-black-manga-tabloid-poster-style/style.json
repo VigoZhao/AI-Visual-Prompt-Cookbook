@@ -1,0 +1,162 @@
+{
+  "style_name": "Red Black Manga Tabloid Poster Style",
+  "style_slug": "red-black-manga-tabloid-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A dense black, white, and scarlet manga tabloid poster system with oversized condensed type, cropped ink characters, editorial metadata blocks, halftone shading, red spot-color shock graphics, and folded photocopy paper texture.",
+  "environment_variables": {
+    "SUBJECT": "primary figure, product, or object to feature",
+    "SUBJECT_ACTION": "clear pose, gesture, or action for the feature subject",
+    "PRODUCT_OR_PROP": "object, tool, product, or symbolic prop held or featured",
+    "LOCATION": "setting implied through panels, captions, or background graphics",
+    "BACKGROUND_ELEMENTS": "secondary panels, icons, stripes, bursts, or environmental fragments",
+    "MAIN_TEXT": "large headline text",
+    "SECONDARY_TEXT": "small supporting captions, labels, dates, and microcopy",
+    "ACCENT_SYMBOL": "small separator mark, icon, star, spark, cross, globe, or warning glyph",
+    "WARDROBE_STYLE": "styling, uniform, costume, or surface treatment",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits injected from the top-level style lock",
+    "SOURCE_CONTENT_TO_AVOID": "literal source details injected from the top-level content exclusion lock",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "White crumpled-paper base with visible fold creases, photocopy wear, and imperfect poster grain.",
+    "Strict black, white, and scarlet palette, with scarlet used as spot-color shocks, fills, stripes, eyes, marks, and panel accents.",
+    "Oversized heavy condensed sans-serif display typography that dominates the top or bottom of the layout.",
+    "Dense editorial collage layout with multiple manga panels, inset facial crops, captions, ratings, labels, icons, and metadata strips.",
+    "Central subject area uses large cropped manga-style ink drawing with flat paper depth rather than cinematic perspective.",
+    "Linework is high-contrast black ink with rough screen tones, halftone dots, hatch shading, and photocopied edge breaks.",
+    "Secondary panels use black rectangular frames, partial face crops, extreme eye crops, and cropped action fragments.",
+    "Graphic accents include small stars, crosses, separator glyphs, warning labels, red splatters, vertical bars, spiral backgrounds, and tiny symbol rows.",
+    "Composition feels like a character data sheet, underground zine cover, tabloid spread, and restricted-file label combined.",
+    "Lighting is flat and poster-like, with contrast created by ink density, paper texture, and red overlays rather than realistic shadows.",
+    "Text hierarchy mixes giant headline words, compact uppercase label blocks, Japanese-inspired title spacing, tiny paragraphs, and numeric date stamps."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate Asa Mitaka, Yoru, or any recognizable Chainsaw Man character identity.",
+    "Do not use the exact names ASA, MITAKA, YORU, Japanese name captions, or the original character biography text.",
+    "Do not recreate the school-uniform duo, the same two female figures back-to-back, or the same possessed-war-devil premise.",
+    "Do not copy the exact screaming face, red eye streaks, handheld phone pose, raised index-finger panel, or split morality story.",
+    "Do not reuse the original bottom rating label, creator signature, watermark, date, or layout text.",
+    "Do not copy the exact panel arrangement, exact face crops, exact red spiral panel, or exact blood-splatter placement.",
+    "Do not include platform marks, usernames, QR codes, brand marks, or copyright-identifiable manga titles."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Manga editorial zine poster, photocopied character dossier, punk tabloid spread, and graphic fan-magazine cover.",
+    "composition_and_layout": "Asymmetrical but grid-driven collage with a huge headline block, large central illustration, surrounding rectangular manga panels, compact paragraphs, rating labels, icon rows, and a secondary headline zone.",
+    "subject_placement": "The main figure or object should be cropped large and close, overlapping panels and type, with smaller supporting crops placed around it like evidence fragments.",
+    "camera_or_perspective": "Mostly flat frontal or three-quarter manga views with shallow paper depth; detail comes from crops and panels rather than realistic camera depth.",
+    "typography_style": "Black ultra-bold condensed sans display type, compact uppercase label text, tiny paragraph blocks, and spaced title glyphs.",
+    "color_palette_behavior": "Monochrome dominates, scarlet appears as aggressive spot color for attention, danger, motion, panels, and small marks.",
+    "graphic_elements": "Panel frames, tiny icons, splatters, vertical stripes, spiral fields, rating boxes, label bars, stars, crosses, and micro-metadata.",
+    "texture_and_finish": "Wrinkled paper, photocopy grain, halftone screens, uneven ink, slightly distressed edges, and printed-poster roughness.",
+    "lighting": "Flat editorial lighting with no cinematic gradients or physical cast shadows.",
+    "mood_and_cultural_reference": "Tense, rebellious, hyper-graphic, underground manga magazine energy with restricted dossier attitude."
+  },
+  "composition": [
+    "Use a dense magazine-poster grid with one oversized headline zone, one large cropped hero drawing, and several smaller inset panels.",
+    "Keep the subject scale aggressive: cropped shoulders, hands, face, product, or prop should break into neighboring type or frame areas.",
+    "Balance one dominant central image with compact supporting panels, microtext, icon rows, and label blocks.",
+    "Use black rectangular frames and red field panels to create rhythm without relying on realistic scene depth.",
+    "Leave only controlled breathing room around major type; most of the design should feel intentionally packed and editorial."
+  ],
+  "typography": [
+    "Use massive black condensed sans-serif headline typography with tight spacing and poster-scale weight.",
+    "Add compact uppercase label blocks, warning-style captions, tiny paragraph text, and numeric metadata.",
+    "Mix horizontal English display type with sparse Japanese-inspired glyph spacing or small separator marks when appropriate.",
+    "Typography should look printed into the poster surface, not floating as a glossy digital overlay.",
+    "Do not use decorative script, rounded bubble lettering, neon signage, or clean corporate UI type."
+  ],
+  "color_palette": [
+    "Dominant colors are off-white paper, dense black ink, and one saturated scarlet red.",
+    "Scarlet should cover roughly 10-25 percent of the composition as spot color, not a full multicolor palette.",
+    "Use red for panels, stripes, warning marks, eyes, splatters, callouts, and focal graphic shocks.",
+    "Keep grayscale detail as black ink, halftone, and paper texture rather than soft photographic gradients."
+  ],
+  "image_treatment": [
+    "Manga-style black ink drawing with rough halftone shading, hatch marks, and photocopied screen-tone texture.",
+    "Flat poster lighting on a wrinkled paper substrate, with grain and folded creases visible across the whole image.",
+    "Use sharp panel crops, partial faces, hands, tools, product closeups, and eye-level fragments.",
+    "Edges should feel printed and slightly distressed, with occasional ink breakup and red overprint misalignment.",
+    "Avoid photorealism, 3D rendering, painterly anime gradients, glossy digital polish, and cinematic lens blur."
+  ],
+  "design_rules": [
+    "Build the image as a finished editorial poster, not as a single comic panel.",
+    "Keep the palette restricted to black, white, and scarlet red.",
+    "Combine huge display type with small data labels and manga panel fragments.",
+    "Use paper texture, halftone, and photocopy wear as visible surface rules.",
+    "Make every generated sample change the source subject, text, premise, props, and identity marks."
+  ],
+  "do": [
+    "Use one large cropped hero subject with supporting inset panels.",
+    "Use scarlet red sparingly but forcefully for graphic shock.",
+    "Use big condensed headlines and tiny dossier-like supporting text.",
+    "Use halftone dots, rough black ink, paper creases, and photocopy distress.",
+    "Use new text and new subject matter for every sample."
+  ],
+  "avoid": [
+    "Avoid copying recognizable characters, names, face designs, poses, or story premise from the reference.",
+    "Avoid full-color anime illustration, soft digital painting, glossy 3D, or cinematic photorealism.",
+    "Avoid clean corporate poster design, minimal layouts, pastel palettes, and spacious luxury editorial styling.",
+    "Avoid watermarks, usernames, platform logos, QR codes, and creator signatures.",
+    "Avoid storing rendered full prompts inside the package files."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"red-black-manga-tabloid-poster-style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: Create a dense manga editorial tabloid poster on wrinkled off-white paper, with one oversized condensed black headline zone, one large cropped hero drawing, several black-framed inset panels, tiny dossier captions, label blocks, icon rows, and red graphic accents. Keep the layout packed, asymmetrical, and grid-aware.\n- Typography: Use massive black condensed sans display type, compact uppercase warning labels, tiny paragraph blocks, numeric metadata, and sparse separator glyphs. Make all text look printed into the paper surface with rough ink edges.\n- Color: Restrict the palette to off-white paper, dense black ink, and saturated scarlet red. Use red as spot color for shocks, stripes, panels, splatters, eyes, callouts, and small symbols only.\n- Texture and lighting: Use flat poster lighting, visible folded paper creases, photocopy grain, halftone dots, hatch shading, screen tones, distressed black ink, and slight red overprint misregistration. Avoid realistic shadows and smooth gradients.\n- Graphic elements: Add black panel frames, cropped face or detail panels, warning/rating labels, vertical red bars, spiral or stripe fields, tiny icons, stars, crosses, and micro-metadata rows.\n\nAvoid: photorealism, glossy 3D, clean corporate minimalism, soft pastel anime, full-color painterly rendering, cinematic lens blur, smooth gradient lighting, brand marks, watermarks, usernames, QR codes, creator signatures, and any source-specific names, faces, poses, props, premise, or exact layout.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "No recognizable source characters, no original names or titles, no copied pose, no copied panel arrangement, no watermark, no username, no QR code, no brand logo, no glossy 3D, no photorealism, no full-color anime painting, no soft pastel palette, no corporate minimal poster, no cinematic blur, no clean vector flatness, no rendered prompt text artifacts.",
+  "examples": [
+    {
+      "case_name": "night-courier-dossier",
+      "values": {
+        "SUBJECT": "an adult bicycle courier with wind-tossed hair and a messenger bag",
+        "SUBJECT_ACTION": "turning sharply while gripping a folded delivery manifest",
+        "PRODUCT_OR_PROP": "creased city map, small radio pager, and stamped parcel label",
+        "LOCATION": "rainy back-alley delivery route implied through cropped sign fragments",
+        "BACKGROUND_ELEMENTS": "red vertical speed bars, black inset face crops, tiny route icons, warning label blocks, and broken streetlight silhouettes",
+        "MAIN_TEXT": "MIDNIGHT RUN",
+        "SECONDARY_TEXT": "route 07 / fragile cargo / no delay",
+        "ACCENT_SYMBOL": "✦",
+        "WARDROBE_STYLE": "black courier jacket, reflective tape strips, fingerless gloves, and scuffed messenger gear"
+      }
+    },
+    {
+      "case_name": "espresso-machine-file",
+      "values": {
+        "SUBJECT": "a focused barista and an angular chrome espresso machine rendered as black ink",
+        "SUBJECT_ACTION": "slamming a portafilter into place while steam cuts across the panel grid",
+        "PRODUCT_OR_PROP": "espresso machine, ceramic cup, pressure gauge, and stamped bean bag",
+        "LOCATION": "after-hours coffee counter suggested by menu scraps and tiled wall crops",
+        "BACKGROUND_ELEMENTS": "scarlet steam bursts, halftone cup closeups, rating-label blocks, tiny bean icons, and red checker stripes",
+        "MAIN_TEXT": "PRESSURE SHOT",
+        "SECONDARY_TEXT": "single origin / 04:30 / extraction file",
+        "ACCENT_SYMBOL": "✚",
+        "WARDROBE_STYLE": "dark apron, rolled sleeves, ink-black hair silhouette, and utility towel at the waist"
+      }
+    },
+    {
+      "case_name": "greenhouse-evidence-board",
+      "values": {
+        "SUBJECT": "a botanist holding an oversized carnivorous plant clipping",
+        "SUBJECT_ACTION": "pinning a specimen tag to a glass board while looking over one shoulder",
+        "PRODUCT_OR_PROP": "pressed leaf sample, specimen scissors, and numbered plant tag",
+        "LOCATION": "locked greenhouse archive with fractured glass panes and plant silhouettes",
+        "BACKGROUND_ELEMENTS": "red root diagrams, black closeup panels of leaves and eyes, barcode labels, icon rows, and vertical warning bars",
+        "MAIN_TEXT": "GROWTH CASE",
+        "SECONDARY_TEXT": "specimen 19 / restricted bloom / observe only",
+        "ACCENT_SYMBOL": "※",
+        "WARDROBE_STYLE": "lab coat over dark shirt, rubber gloves, utility belt, and clipped ID tag with no logo"
+      }
+    },
+    {
+      "case_name": "lunar-mechanic-manual",
+      "values": {
+        "SUBJECT": "a moonbase mechanic with a cracked helmet visor tucked under one arm",
+        "SUBJECT_ACTION": "pointing a diagnostic wrench toward a failing rover component",
+        "PRODUCT_OR_PROP": "boxy lunar rover wheel, diagnostic wrench, oxygen gauge, and repair checklist",
+        "LOCATION": "interior maintenance bay of a fictional moon outpost",
+        "BACKGROUND_ELEMENTS": "scarlet hazard stripes, black mechanical closeup panels, moon map fragments, tiny tool icons, and stamped inspection labels",
+        "MAIN_TEXT": "VACUUM FIX",
+        "SECONDARY_TEXT": "bay 12 / seal breach / manual override",
+        "ACCENT_SYMBOL": "✶",
+        "WARDROBE_STYLE": "patched pressure suit liner, black gloves, utility harness, and taped knee guards"
+      }
+    }
+  ]
+}

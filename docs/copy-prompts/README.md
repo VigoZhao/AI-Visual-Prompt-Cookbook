@@ -31,6 +31,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Gothic Cat Doodle Photo Collage Style | [Copy Prompt](gothic-cat-doodle-photo-collage-style.md) | [style.json](../../styles/gothic-cat-doodle-photo-collage-style/style.json) |
 | Halftone Assemblage Metaphor PSA Poster Style | [Copy Prompt](halftone-assemblage-metaphor-psa-poster-style.md) | [style.json](../../styles/halftone-assemblage-metaphor-psa-poster-style/style.json) |
 | Hot Ink Comic Poster | [Copy Prompt](hot-ink-comic-poster.md) | [style.json](../../styles/hot-ink-comic-poster/style.json) |
+| Ice Cyan Megatype Action Poster Style | [Copy Prompt](ice-cyan-megatype-action-poster-style.md) | [style.json](../../styles/ice-cyan-megatype-action-poster-style/style.json) |
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
 | Jade Glyph Grocer Collage Poster Style | [Copy Prompt](jade-glyph-grocer-collage-poster-style.md) | [style.json](../../styles/jade-glyph-grocer-collage-poster-style/style.json) |
 | Jagged Red Street Photo Event Poster Style | [Copy Prompt](jagged-red-street-photo-event-poster-style.md) | [style.json](../../styles/jagged-red-street-photo-event-poster-style/style.json) |
@@ -65,6 +66,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Plush Comic Toy Product Poster Style | [Copy Prompt](plush-comic-toy-product-poster-style.md) | [style.json](../../styles/plush-comic-toy-product-poster-style/style.json) |
 | Pop Bubble Letter Photo Poster Style | [Copy Prompt](pop-bubble-letter-photo-poster-style.md) | [style.json](../../styles/pop-bubble-letter-photo-poster-style/style.json) |
 | Quiet Luxury Furniture Nameplate Poster Style | [Copy Prompt](quiet-luxury-furniture-nameplate-poster-style.md) | [style.json](../../styles/quiet-luxury-furniture-nameplate-poster-style/style.json) |
+| Red Black Manga Tabloid Poster Style | [Copy Prompt](red-black-manga-tabloid-poster-style.md) | [style.json](../../styles/red-black-manga-tabloid-poster-style/style.json) |
 | Red Yellow Grunge Skate Cover Style | [Copy Prompt](red-yellow-grunge-skate-cover-style.md) | [style.json](../../styles/red-yellow-grunge-skate-cover-style/style.json) |
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
 | Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |

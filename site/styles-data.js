@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 89,
+  "styleCount": 91,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Red Black Manga Tabloid Poster Style",
+      "slug": "red-black-manga-tabloid-poster-style",
+      "category": "Type Posters",
+      "description": "Dense red-black manga tabloids with cropped ink characters, editorial metadata blocks, halftone shading, and photocopy paper texture.",
+      "summary": "A dense black, white, and scarlet manga tabloid poster system with oversized condensed type, cropped ink characters, editorial metadata blocks, halftone shading, red spot-color shock graphics, and folded photocopy paper texture.",
+      "preview16": "../styles/red-black-manga-tabloid-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/red-black-manga-tabloid-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/red-black-manga-tabloid-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/red-black-manga-tabloid-poster-style.md",
+      "folder": "../styles/red-black-manga-tabloid-poster-style/",
+      "anchors": [
+        "White crumpled-paper base with visible fold creases, photocopy wear, and imperfect poster grain.",
+        "Strict black, white, and scarlet palette, with scarlet used as spot-color shocks, fills, stripes, eyes, marks, and panel accents.",
+        "Oversized heavy condensed sans-serif display typography that dominates the top or bottom of the layout.",
+        "Dense editorial collage layout with multiple manga panels, inset facial crops, captions, ratings, labels, icons, and metadata strips.",
+        "Central subject area uses large cropped manga-style ink drawing with flat paper depth rather than cinematic perspective.",
+        "Linework is high-contrast black ink with rough screen tones, halftone dots, hatch shading, and photocopied edge breaks."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-courier-dossier",
+      "copyPrompt": "Use the \"Red Black Manga Tabloid Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an adult bicycle courier with wind-tossed hair and a messenger bag\nSubject action: turning sharply while gripping a folded delivery manifest\nProduct or prop: creased city map, small radio pager, and stamped parcel label\nLocation: rainy back-alley delivery route implied through cropped sign fragments\nBackground elements: red vertical speed bars, black inset face crops, tiny route icons, warning label blocks, and broken streetlight silhouettes\nMain text: MIDNIGHT RUN\nSecondary text: route 07 / fragile cargo / no delay\nAccent symbol: ✦\nWardrobe style: black courier jacket, reflective tape strips, fingerless gloves, and scuffed messenger gear\n\nStyle direction:\nA dense black, white, and scarlet manga tabloid poster system with oversized condensed type,\ncropped ink characters, editorial metadata blocks, halftone shading, red spot-color shock\ngraphics, and folded photocopy paper texture.\n\nKeep visible:\n- White crumpled-paper base with visible fold creases, photocopy wear, and imperfect poster grain.\n- Strict black, white, and scarlet palette, with scarlet used as spot-color shocks, fills, stripes, eyes, marks, and panel accents.\n- Oversized heavy condensed sans-serif display typography that dominates the top or bottom of the layout.\n- Dense editorial collage layout with multiple manga panels, inset facial crops, captions, ratings, labels, icons, and metadata strips.\n- Central subject area uses large cropped manga-style ink drawing with flat paper depth rather than cinematic perspective.\n\nAvoid:\nNo recognizable source characters, no original names or titles, no copied pose, no copied panel\narrangement, no watermark, no username, no QR code, no brand logo, no glossy 3D, no\nphotorealism, no full-color anime painting, no soft pastel palette, no corporate minimal poster,\nno cinematic blur, no clean vector flatness, no rendered prompt text artifacts.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Ice Cyan Megatype Action Poster Style",
+      "slug": "ice-cyan-megatype-action-poster-style",
+      "category": "Type Posters",
+      "description": "Ice-white action posters with oversized cyan megatype, ghost text layers, a cutout action photo, and chartreuse motion blur.",
+      "summary": "A kinetic editorial action poster style built from an ice-white canvas, oversized deep-cyan condensed typography, pale gray ghost text layers, a central cutout action photograph, neon chartreuse motion blurs, small barcode and registration marks, and sparse magazine-style microcopy.",
+      "preview16": "../styles/ice-cyan-megatype-action-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/ice-cyan-megatype-action-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/ice-cyan-megatype-action-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/ice-cyan-megatype-action-poster-style.md",
+      "folder": "../styles/ice-cyan-megatype-action-poster-style/",
+      "anchors": [
+        "Ice-white or very pale gray poster field with generous clean negative space around the action stack.",
+        "Huge ultra-condensed all-caps typography in deep petrol cyan, cropped by the frame and partially hidden behind the subject.",
+        "Very large pale gray ghost words repeat behind the main headline as translucent vertical and horizontal background structure.",
+        "One central photographic cutout action subject overlaps the type, with dramatic foreshortening and a limb, tool, or prop pushing toward the viewer.",
+        "Layered collage depth: ghost type at the rear, deep-cyan headline in the middle, subject cutout in front, and small graphic marks above all layers.",
+        "Neon chartreuse motion blurs appear as soft abstract disks or streaks near the edges, never as literal copied balls."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "studio-dancer-leap",
+      "copyPrompt": "Use the \"Ice Cyan Megatype Action Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a contemporary dancer suspended mid-leap with arms extended and both feet angled away from the camera\nSubject action: twisting diagonally through the type stack while a ribbon streamer and sleeve sweep toward the viewer\nProduct or prop: translucent ribbon streamer trailing from the wrist\nLocation: minimal ice-white rehearsal studio treated as a poster field\nBackground elements: pale gray ghost words, cropped deep-cyan headline blocks, abstract chartreuse motion blurs, tiny barcode strip\nMain text: MOVE LOUD\nSecondary text: rhythm issue / daily form\nAccent symbol: lime radial burst with a short wavy underline\nWardrobe style: silver-white technical warmup set with cyan seam trim and a small burnt-orange sleeve tab, no orange socks\n\nStyle direction:\nA kinetic editorial action poster style built from an ice-white canvas, oversized deep-cyan\ncondensed typography, pale gray ghost text layers, a central cutout action photograph, neon\nchartreuse motion blurs, small barcode and registration marks, and sparse magazine-style\nmicrocopy.\n\nKeep visible:\n- Ice-white or very pale gray poster field with generous clean negative space around the action stack.\n- Huge ultra-condensed all-caps typography in deep petrol cyan, cropped by the frame and partially hidden behind the subject.\n- Very large pale gray ghost words repeat behind the main headline as translucent vertical and horizontal background structure.\n- One central photographic cutout action subject overlaps the type, with dramatic foreshortening and a limb, tool, or prop pushing toward the viewer.\n- Layered collage depth: ghost type at the rear, deep-cyan headline in the middle, subject cutout in front, and small graphic marks above all layers.\n\nAvoid:\ntennis player, tennis racket, tennis ball, tennis court premise, Challenge Yourself text, Daily\nPoster Design text, 2025 date, copied motivational footer paragraph, white tennis outfit,\nheadband, orange tennis socks, seated swing pose, visible shoe sole copied from source,\nrecognizable athlete, protected logo, tournament mark, brand wordmark, watermark, username, QR\ncode, platform UI, dense product catalog layout, price tags, flat vector-only poster, 3D render,\nmanga page, comic halftone panel, gritty grunge flyer, distorted hands, extra limbs, illegible\ntypography, random logo-like marks, muddy digital noise, compression artifacts, low-resolution\ntexture\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Scarlet Megatype Action Collage Style",
       "slug": "scarlet-megatype-action-collage-style",
