@@ -1,0 +1,48 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate style.json files
+        run: python3 scripts/validate-style-json.py
+
+      - name: Check generated site data is in sync
+        run: |
+          python3 scripts/build-pages-mvp.py
+          python3 scripts/generate-copy-prompts.py
+          git diff --exit-code -- site/styles-data.js docs/ || {
+            echo "::error::Generated files are out of sync. Run scripts/build-pages-mvp.py and scripts/generate-copy-prompts.py, then commit the result."
+            exit 1
+          }
+
+      - name: Check every style has a gallery thumbnail
+        run: |
+          fail=0
+          for d in styles/*/; do
+            slug=$(basename "$d")
+            if [ ! -f "assets/thumbs/$slug-16x9.jpg" ]; then
+              echo "::error::missing assets/thumbs/$slug-16x9.jpg (run scripts/generate-thumbnails.py)"
+              fail=1
+            fi
+          done
+          exit $fail
+
+      - name: Check style folders contain exactly the three public files
+        run: |
+          fail=0
+          for d in styles/*/; do
+            files=$(ls "$d" | grep -v '^\.DS_Store$' | sort | tr '\n' ' ')
+            if [ "$files" != "preview-16x9.jpg preview-9x16.jpg style.json " ]; then
+              echo "::error::$d has unexpected contents: $files"
+              fail=1
+            fi
+          done
+          exit $fail
