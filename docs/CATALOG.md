@@ -6,7 +6,7 @@ Complete descriptions and all file links for each of the 94 styles. For a visual
 
 ### Yellow Graffiti Fisheye Manga Street Poster Style
 
-<a href="../styles/yellow-graffiti-fisheye-manga-street-poster-style"><img src="../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg" width="720" alt="Yellow Graffiti Fisheye Manga Street Poster Style preview"></a>
+<a href="../styles/yellow-graffiti-fisheye-manga-street-poster-style"><img src="../assets/thumbs/yellow-graffiti-fisheye-manga-street-poster-style-16x9.jpg" width="720" alt="Yellow Graffiti Fisheye Manga Street Poster Style preview"></a>
 
 A hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink cutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag texture, and soft anxious character emotion.
 
@@ -16,7 +16,7 @@ Files: [style.json](../styles/yellow-graffiti-fisheye-manga-street-poster-style/
 
 ### Red Yellow Product Trophy Collage Style
 
-<a href="../styles/red-yellow-product-trophy-collage-style"><img src="../styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg" width="720" alt="Red Yellow Product Trophy Collage Style preview"></a>
+<a href="../styles/red-yellow-product-trophy-collage-style"><img src="../assets/thumbs/red-yellow-product-trophy-collage-style-16x9.jpg" width="720" alt="Red Yellow Product Trophy Collage Style preview"></a>
 
 A fast-food billboard inspired product collage system with saturated red and yellow poster blocks, oversized condensed typography, glossy cutout products, and a central world-champion trophy silhouette assembled from representative unbranded product objects.
 
@@ -26,7 +26,7 @@ Files: [style.json](../styles/red-yellow-product-trophy-collage-style/style.json
 
 ### Manga Dossier Blueprint Poster
 
-<a href="../styles/manga-dossier-blueprint-poster"><img src="../styles/manga-dossier-blueprint-poster/preview-16x9.jpg" width="720" alt="Manga Dossier Blueprint Poster preview"></a>
+<a href="../styles/manga-dossier-blueprint-poster"><img src="../assets/thumbs/manga-dossier-blueprint-poster-16x9.jpg" width="720" alt="Manga Dossier Blueprint Poster preview"></a>
 
 A distressed manga character-dossier poster system with cream paper margins, oversized condensed typography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects, small inset frames, catalog labels, and editorial annotation rails.
 
