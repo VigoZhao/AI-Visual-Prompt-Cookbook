@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-91-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-182-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-94-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-188-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,49 +119,49 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 注目スタイル
 
-まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。91 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
+まずこの 6 つを見ると、ライブラリの幅がわかります。すべてのスタイルは 1 つの JSON と 2 枚のプレビュー画像で構成されています。94 種すべては下の [All Styles](#all-styles) ギャラリーで確認できます。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
 <td width="33%" valign="top">
-<a href="styles/red-black-manga-tabloid-poster-style"><img src="assets/thumbs/red-black-manga-tabloid-poster-style-16x9.jpg" alt="Red Black Manga Tabloid Poster Style preview"></a>
+<a href="styles/yellow-graffiti-fisheye-manga-street-poster-style"><img src="styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg" alt="Yellow Graffiti Fisheye Manga Street Poster Style preview"></a>
+<h3>Yellow Graffiti Fisheye Manga Street Poster Style</h3>
+<p>A hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink cutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag texture, and soft anxious character emotion.</p>
+<p><a href="styles/yellow-graffiti-fisheye-manga-street-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/yellow-graffiti-fisheye-manga-street-poster-style.md">プロンプトをコピー</a> · <a href="styles/yellow-graffiti-fisheye-manga-street-poster-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/red-yellow-product-trophy-collage-style"><img src="styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg" alt="Red Yellow Product Trophy Collage Style preview"></a>
+<h3>Red Yellow Product Trophy Collage Style</h3>
+<p>A fast-food billboard inspired product collage system with saturated red and yellow poster blocks, oversized condensed typography, glossy cutout products, and a central world-champion trophy silhouette assembled from representative unbranded product objects.</p>
+<p><a href="styles/red-yellow-product-trophy-collage-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/red-yellow-product-trophy-collage-style.md">プロンプトをコピー</a> · <a href="styles/red-yellow-product-trophy-collage-style">フォルダ</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/manga-dossier-blueprint-poster"><img src="styles/manga-dossier-blueprint-poster/preview-16x9.jpg" alt="Manga Dossier Blueprint Poster preview"></a>
+<h3>Manga Dossier Blueprint Poster</h3>
+<p>A distressed manga character-dossier poster system with cream paper margins, oversized condensed typography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects, small inset frames, catalog labels, and editorial annotation rails.</p>
+<p><a href="styles/manga-dossier-blueprint-poster/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/manga-dossier-blueprint-poster.md">プロンプトをコピー</a> · <a href="styles/manga-dossier-blueprint-poster">フォルダ</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="styles/red-black-manga-tabloid-poster-style"><img src="styles/red-black-manga-tabloid-poster-style/preview-16x9.jpg" alt="Red Black Manga Tabloid Poster Style preview"></a>
 <h3>Red Black Manga Tabloid Poster Style</h3>
 <p>A dense black, white, and scarlet manga tabloid poster system with oversized condensed type, cropped ink characters, editorial metadata blocks, halftone shading, red spot-color shock graphics, and folded photocopy paper texture.</p>
 <p><a href="styles/red-black-manga-tabloid-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/red-black-manga-tabloid-poster-style.md">プロンプトをコピー</a> · <a href="styles/red-black-manga-tabloid-poster-style">フォルダ</a></p>
 </td>
 <td width="33%" valign="top">
-<a href="styles/ice-cyan-megatype-action-poster-style"><img src="assets/thumbs/ice-cyan-megatype-action-poster-style-16x9.jpg" alt="Ice Cyan Megatype Action Poster Style preview"></a>
+<a href="styles/ice-cyan-megatype-action-poster-style"><img src="styles/ice-cyan-megatype-action-poster-style/preview-16x9.jpg" alt="Ice Cyan Megatype Action Poster Style preview"></a>
 <h3>Ice Cyan Megatype Action Poster Style</h3>
 <p>A kinetic editorial action poster style built from an ice-white canvas, oversized deep-cyan condensed typography, pale gray ghost text layers, a central cutout action photograph, neon chartreuse motion blurs, small barcode and registration marks, and sparse magazine-style microcopy.</p>
 <p><a href="styles/ice-cyan-megatype-action-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/ice-cyan-megatype-action-poster-style.md">プロンプトをコピー</a> · <a href="styles/ice-cyan-megatype-action-poster-style">フォルダ</a></p>
 </td>
 <td width="33%" valign="top">
-<a href="styles/scarlet-megatype-action-collage-style"><img src="assets/thumbs/scarlet-megatype-action-collage-style-16x9.jpg" alt="Scarlet Megatype Action Collage Style preview"></a>
+<a href="styles/scarlet-megatype-action-collage-style"><img src="styles/scarlet-megatype-action-collage-style/preview-16x9.jpg" alt="Scarlet Megatype Action Collage Style preview"></a>
 <h3>Scarlet Megatype Action Collage Style</h3>
 <p>A high-impact action poster system built from a saturated scarlet field, oversized diagonal block typography, layered photographic cutout subjects, hard graphic shadows, compact editorial text blocks, and controlled print grain. It feels like a premium campaign key art poster for speed, pressure, and team momentum without preserving the original sports team, logo, phrase, or exact scene.</p>
 <p><a href="styles/scarlet-megatype-action-collage-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/scarlet-megatype-action-collage-style.md">プロンプトをコピー</a> · <a href="styles/scarlet-megatype-action-collage-style">フォルダ</a></p>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="styles/jagged-red-street-photo-event-poster-style"><img src="assets/thumbs/jagged-red-street-photo-event-poster-style-16x9.jpg" alt="Jagged Red Street Photo Event Poster Style preview"></a>
-<h3>Jagged Red Street Photo Event Poster Style</h3>
-<p>A high-impact street event poster system combining a black-and-white documentary photo core, oversized jagged red and black display lettering, thick white sticker-like gutters, and sparse three-color print energy.</p>
-<p><a href="styles/jagged-red-street-photo-event-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/jagged-red-street-photo-event-poster-style.md">プロンプトをコピー</a> · <a href="styles/jagged-red-street-photo-event-poster-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/neon-stadium-3d-hero-type-poster-style"><img src="assets/thumbs/neon-stadium-3d-hero-type-poster-style-16x9.jpg" alt="Neon Stadium 3D Hero Type Poster Style preview"></a>
-<h3>Neon Stadium 3D Hero Type Poster Style</h3>
-<p>A hyper-saturated 3D event-poster style with toy-like heroic figures, extreme low-angle action, enormous cropped condensed typography, neon lime and purple color fields, orange-red graphic slashes, stadium light bloom, foreground motion blur, debris, and clean high-resolution tactile surfaces.</p>
-<p><a href="styles/neon-stadium-3d-hero-type-poster-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/neon-stadium-3d-hero-type-poster-style.md">プロンプトをコピー</a> · <a href="styles/neon-stadium-3d-hero-type-poster-style">フォルダ</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/y2k-streetwear-sticker-collage-style"><img src="assets/thumbs/y2k-streetwear-sticker-collage-style-16x9.jpg" alt="Y2K Streetwear Sticker Collage Style preview"></a>
-<h3>Y2K Streetwear Sticker Collage Style</h3>
-<p>A dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic typography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast social-poster texture.</p>
-<p><a href="styles/y2k-streetwear-sticker-collage-style/style.json"><strong>style.json を開く</strong></a> · <a href="docs/copy-prompts/y2k-streetwear-sticker-collage-style.md">プロンプトをコピー</a> · <a href="styles/y2k-streetwear-sticker-collage-style">フォルダ</a></p>
 </td>
 </tr>
 </table>
@@ -195,13 +195,36 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-下で全 91 スタイルを閲覧できます。
+下で全 94 スタイルを閲覧できます。
 
 上の注目スタイルを含む完全なライブラリです。各スタイルの詳細説明と全ファイルリンクは [docs/CATALOG.md](docs/CATALOG.md) を参照してください。
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
+<tr>
+<td width="33%" valign="top">
+<a id="yellow-graffiti-fisheye-manga-street-poster-style"></a>
+<a href="styles/yellow-graffiti-fisheye-manga-street-poster-style"><img src="styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg" alt="Yellow Graffiti Fisheye Manga Street Poster Style preview"></a>
+<p><strong><a href="styles/yellow-graffiti-fisheye-manga-street-poster-style">Yellow Graffiti Fisheye Manga Street Poster Style</a></strong><br>
+<em>Fisheye street posters mixing manga ink cutouts, sprayed yellow graffiti type, pavement tag texture, and anxious character energy.</em><br>
+<a href="styles/yellow-graffiti-fisheye-manga-street-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/yellow-graffiti-fisheye-manga-street-poster-style.md">prompt</a> · <a href="styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="red-yellow-product-trophy-collage-style"></a>
+<a href="styles/red-yellow-product-trophy-collage-style"><img src="styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg" alt="Red Yellow Product Trophy Collage Style preview"></a>
+<p><strong><a href="styles/red-yellow-product-trophy-collage-style">Red Yellow Product Trophy Collage Style</a></strong><br>
+<em>Fast-food billboard collages with red-and-yellow blocks, glossy cutout products, and a trophy silhouette built from product objects.</em><br>
+<a href="styles/red-yellow-product-trophy-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/red-yellow-product-trophy-collage-style.md">prompt</a> · <a href="styles/red-yellow-product-trophy-collage-style/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="manga-dossier-blueprint-poster"></a>
+<a href="styles/manga-dossier-blueprint-poster"><img src="styles/manga-dossier-blueprint-poster/preview-16x9.jpg" alt="Manga Dossier Blueprint Poster preview"></a>
+<p><strong><a href="styles/manga-dossier-blueprint-poster">Manga Dossier Blueprint Poster</a></strong><br>
+<em>Manga dossier posters with cream margins, grayscale ink portraits, cobalt-blue technical panels, and editorial annotation rails.</em><br>
+<a href="styles/manga-dossier-blueprint-poster/style.json">style.json</a> · <a href="docs/copy-prompts/manga-dossier-blueprint-poster.md">prompt</a> · <a href="styles/manga-dossier-blueprint-poster/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top">
 <a id="red-black-manga-tabloid-poster-style"></a>

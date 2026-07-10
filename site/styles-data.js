@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 91,
+  "styleCount": 94,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,114 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Yellow Graffiti Fisheye Manga Street Poster Style",
+      "slug": "yellow-graffiti-fisheye-manga-street-poster-style",
+      "category": "Type Posters",
+      "description": "Fisheye street posters mixing manga ink cutouts, sprayed yellow graffiti type, pavement tag texture, and anxious character energy.",
+      "summary": "A hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink cutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag texture, and soft anxious character emotion.",
+      "preview16": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/yellow-graffiti-fisheye-manga-street-poster-style.md",
+      "folder": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/",
+      "anchors": [
+        "Cool blue-gray fisheye street-photo base with wide-angle distortion, slight horizon tilt, storefront machines, curb lines, road markings, and compressed urban detail.",
+        "One oversized manga cutout subject sits in the foreground, centered and close to camera, with a large head and upper body, small foreshortened feet, and top-down lens exaggeration.",
+        "Manga rendering uses clean dark brown and black linework, simple shaded clothing folds, soft peach skin, blush hatching, and muted emotional facial expression.",
+        "The photo background remains realistic and desaturated while the subject is flatter, warmer, and inked, creating a clear collage contrast between real street and drawn figure.",
+        "The upper third carries a huge sprayed yellow graffiti headline, thick and loose, with rounded strokes, drips, dot overspray, and partial overlap behind the subject.",
+        "Small white block captions sit across the midline like compact street-zine type, using bold simple lettering with slight roughness and limited word count."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-laundromat-run",
+      "copyPrompt": "Use the \"Yellow Graffiti Fisheye Manga Street Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an adult laundromat attendant with tired eyes and a canvas laundry bag\nSubject action: hugging the laundry bag to their chest while stepping onto a wet sidewalk\nProduct or prop: canvas laundry bag, receipt strip, and a small detergent box with no brand text\nLocation: narrow late-night laundromat entrance on a side street\nBackground elements: round washer windows, cool fluorescent window glow, curb stripes, puddled asphalt, taped paper notices, and bent street railings\nMain text: SPIN LATE\nSecondary text: wash all night / cold street / last load\nAccent symbol: !!\nWardrobe style: oversized cardigan, cuffed work pants, canvas sneakers, simple apron, and soft anxious manga expression\n\nStyle direction:\nA hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink\ncutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag\ntexture, and soft anxious character emotion.\n\nKeep visible:\n- Cool blue-gray fisheye street-photo base with wide-angle distortion, slight horizon tilt, storefront machines, curb lines, road markings, and compressed urban detail.\n- One oversized manga cutout subject sits in the foreground, centered and close to camera, with a large head and upper body, small foreshortened feet, and top-down lens exaggeration.\n- Manga rendering uses clean dark brown and black linework, simple shaded clothing folds, soft peach skin, blush hatching, and muted emotional facial expression.\n- The photo background remains realistic and desaturated while the subject is flatter, warmer, and inked, creating a clear collage contrast between real street and drawn figure.\n- The upper third carries a huge sprayed yellow graffiti headline, thick and loose, with rounded strokes, drips, dot overspray, and partial overlap behind the subject.\n\nAvoid:\nNo copied source character, no bashful fists pose, no school uniform romance scene, no vending-\nmachine recreation, no exact Japanese captions, no copied yellow tag, no copied pavement word,\nno watermark, no username, no QR code, no brand logo, no real storefront sign, no franchise\ntitle, no pure photoreal portrait, no full anime-only scene, no 3D render, no glossy vector\nposter, no dense tabloid panel collage, no luxury minimalism, no cinematic bokeh, no rendered\nprompt text artifacts.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Red Yellow Product Trophy Collage Style",
+      "slug": "red-yellow-product-trophy-collage-style",
+      "category": "Product + Campaign",
+      "description": "Fast-food billboard collages with red-and-yellow blocks, glossy cutout products, and a trophy silhouette built from product objects.",
+      "summary": "A fast-food billboard inspired product collage system with saturated red and yellow poster blocks, oversized condensed typography, glossy cutout products, and a central world-champion trophy silhouette assembled from representative unbranded product objects.",
+      "preview16": "../styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg",
+      "preview9": "../styles/red-yellow-product-trophy-collage-style/preview-9x16.jpg",
+      "styleJson": "../styles/red-yellow-product-trophy-collage-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/red-yellow-product-trophy-collage-style.md",
+      "folder": "../styles/red-yellow-product-trophy-collage-style/",
+      "anchors": [
+        "Saturated red background field with warm yellow structural panels, white type, and small green or black accent marks.",
+        "Commercial fast-food poster hierarchy: oversized headline band, centered product sculpture, compact footer strip, and strong grid alignment.",
+        "Central trophy silhouette assembled from many cutout products, with globe-like top, narrow waist, upward side curves, and flared base.",
+        "Glossy studio product photography with crisp cutout edges, simplified shadows, and flat poster-like depth.",
+        "Dense product clustering inside the trophy shape while the surrounding poster keeps generous negative space.",
+        "Heavy condensed sans-serif typography, large scale, tight spacing, and simple stacked headline placement."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "fast-food-feast-trophy",
+      "copyPrompt": "Use the \"Red Yellow Product Trophy Collage Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a celebratory product sculpture shaped like a world-champion trophy\nSubject action: formed from layered food cutouts that stack upward into a clear cup silhouette\nProduct or prop: unbranded burgers, plain red fry cartons with no logos, soft-drink cups, nuggets, sauce tubs, pickle chips, and sesame buns\nLocation: flat red studio poster set\nBackground elements: yellow top headline slab, rounded arch-like corner blocks, white cutout sparks, narrow footer strip\nMain text: FEAST CUP\nSecondary text: new lineup / hot and bright\nAccent symbol: star spark\nWardrobe style: no people; food photographed as clean glossy cutout objects\n\nStyle direction:\nA fast-food billboard inspired product collage system with saturated red and yellow poster\nblocks, oversized condensed typography, glossy cutout products, and a central world-champion\ntrophy silhouette assembled from representative unbranded product objects.\n\nKeep visible:\n- Saturated red background field with warm yellow structural panels, white type, and small green or black accent marks.\n- Commercial fast-food poster hierarchy: oversized headline band, centered product sculpture, compact footer strip, and strong grid alignment.\n- Central trophy silhouette assembled from many cutout products, with globe-like top, narrow waist, upward side curves, and flared base.\n- Glossy studio product photography with crisp cutout edges, simplified shadows, and flat poster-like depth.\n- Dense product clustering inside the trophy shape while the surrounding poster keeps generous negative space.\n\nAvoid:\nofficial logos, brand wordmarks, official slogans, exact packaging trade dress, exact FIFA World\nCup trophy replica, tournament names, sponsor marks, celebrity athletes, national flags, team\ncrests, stadium crowd, mascot, QR code, barcode, watermark, username, app UI, fake endorsement,\ncluttered menu board, unreadable tiny text, low resolution, blur, distorted product shapes,\nmalformed text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Manga Dossier Blueprint Poster",
+      "slug": "manga-dossier-blueprint-poster",
+      "category": "Type Posters",
+      "description": "Manga dossier posters with cream margins, grayscale ink portraits, cobalt-blue technical panels, and editorial annotation rails.",
+      "summary": "A distressed manga character-dossier poster system with cream paper margins, oversized condensed typography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects, small inset frames, catalog labels, and editorial annotation rails.",
+      "preview16": "../styles/manga-dossier-blueprint-poster/preview-16x9.jpg",
+      "preview9": "../styles/manga-dossier-blueprint-poster/preview-9x16.jpg",
+      "styleJson": "../styles/manga-dossier-blueprint-poster/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/manga-dossier-blueprint-poster.md",
+      "folder": "../styles/manga-dossier-blueprint-poster/",
+      "anchors": [
+        "Layered editorial dossier layout with a dominant grayscale manga ink portrait, a smaller dynamic full-body figure, boxed inset panels, narrow annotation rails, and asymmetrical negative space.",
+        "Warm off-white paper base with visible speckles, scuffs, worn ink, photocopy grain, and distressed screenprint edges.",
+        "Limited palette led by charcoal black, cool grays, deep cobalt blue, desaturated navy, and bright cyan accents; color appears in panels, type, and kinetic energy marks rather than full-scene realism.",
+        "Oversized condensed all-caps sans-serif headline blocks with weathered ink texture, stacked title hierarchy, and compact microcopy labels in small uppercase type.",
+        "Manga/anime illustration treatment with confident black linework, crosshatching, cel-shaded grayscale faces, angular hair or clothing shapes, and crisp contour drawing.",
+        "Large flat cobalt rectangle or blueprint panel behind the subject, often with faded technical symbols, diagram marks, stripes, rulers, or registration ticks."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "night-courier",
+      "copyPrompt": "Use the \"Manga Dossier Blueprint Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a young urban bicycle courier with wind-tossed hair and a focused half-smile\nSubject action: leaning forward with one hand extended while a smaller action pose skids across the foreground\nProduct or prop: weathered messenger bag, compact bike light, and folded delivery map\nLocation: rainy elevated train district at midnight\nBackground elements: faint rail map lines, wet street reflections reduced to blue diagram marks, small inset frame of a bicycle wheel, catalog stripes\nMain text: NIGHT COURIER\nSecondary text: district run / route 07 / signal clear\nAccent symbol: winged wheel emblem\nWardrobe style: cropped technical jacket, fingerless gloves, patched courier pants, wind-swept streetwear silhouette\n\nStyle direction:\nA distressed manga character-dossier poster system with cream paper margins, oversized condensed\ntypography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects,\nsmall inset frames, catalog labels, and editorial annotation rails.\n\nKeep visible:\n- Layered editorial dossier layout with a dominant grayscale manga ink portrait, a smaller dynamic full-body figure, boxed inset panels, narrow annotation rails, and asymmetrical negative space.\n- Warm off-white paper base with visible speckles, scuffs, worn ink, photocopy grain, and distressed screenprint edges.\n- Limited palette led by charcoal black, cool grays, deep cobalt blue, desaturated navy, and bright cyan accents; color appears in panels, type, and kinetic energy marks rather than full-scene realism.\n- Oversized condensed all-caps sans-serif headline blocks with weathered ink texture, stacked title hierarchy, and compact microcopy labels in small uppercase type.\n- Manga/anime illustration treatment with confident black linework, crosshatching, cel-shaded grayscale faces, angular hair or clothing shapes, and crisp contour drawing.\n\nAvoid:\nphotorealistic portrait, 3D render, glossy game art, smooth vector minimalism, soft gradients,\ncinematic lens flare, heavy bokeh, realistic full environment, pirate imagery, phoenix bird,\nskull-and-crossbones, franchise logo, copied anime character, copied source text, signature,\nwatermark, username, QR code, platform logo, exact source layout tracing\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Red Black Manga Tabloid Poster Style",
       "slug": "red-black-manga-tabloid-poster-style",

@@ -1,0 +1,162 @@
+{
+  "style_name": "Red Yellow Product Trophy Collage Style",
+  "style_slug": "red-yellow-product-trophy-collage-style",
+  "style_version": "2.1.0",
+  "style_summary": "A fast-food billboard inspired product collage system with saturated red and yellow poster blocks, oversized condensed typography, glossy cutout products, and a central world-champion trophy silhouette assembled from representative unbranded product objects.",
+  "environment_variables": {
+    "SUBJECT": "The main product sculpture or hero object",
+    "SUBJECT_ACTION": "How the product objects are arranged or behaving",
+    "PRODUCT_OR_PROP": "The product family, product archetypes, or props used to build the sculpture",
+    "LOCATION": "The poster environment or studio setting",
+    "BACKGROUND_ELEMENTS": "Secondary blocks, tabs, stickers, panels, or supporting poster elements",
+    "MAIN_TEXT": "Large headline text placed in the poster grid",
+    "SECONDARY_TEXT": "Small supporting text or microcopy placed in bars or panels",
+    "ACCENT_SYMBOL": "A simple decorative separator, star, spark, tab, or sticker icon",
+    "WARDROBE_STYLE": "Human styling direction, or a no-people product styling note",
+    "STYLE_FIDELITY_ANCHORS": "Observable visual traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content and protected identity marks that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Saturated red background field with warm yellow structural panels, white type, and small green or black accent marks.",
+    "Commercial fast-food poster hierarchy: oversized headline band, centered product sculpture, compact footer strip, and strong grid alignment.",
+    "Central trophy silhouette assembled from many cutout products, with globe-like top, narrow waist, upward side curves, and flared base.",
+    "Glossy studio product photography with crisp cutout edges, simplified shadows, and flat poster-like depth.",
+    "Dense product clustering inside the trophy shape while the surrounding poster keeps generous negative space.",
+    "Heavy condensed sans-serif typography, large scale, tight spacing, and simple stacked headline placement.",
+    "Rounded corner blocks, arch-like curves, sticker bursts, tab labels, and small rectangle panels used as graphic grammar.",
+    "Bright retail contrast, clean print finish, sharp highlights, and polished advertising art direction.",
+    "No scenic background; all depth is created by product overlap, shadow chips, and poster layers.",
+    "Playful launch-poster mood with a clear front-facing trophy composition and direct product readability."
+  ],
+  "source_content_to_avoid": [
+    "Official McDonald's arches, exact McDonald's packaging, slogans, mascots, menu boards, or restaurant interiors.",
+    "Official FIFA, World Cup, national team, league, tournament, or sponsor logos and any exact trophy replica.",
+    "Official Coca-Cola, Nike, Adidas, LEGO, Apple, Starbucks, or other brand marks, wordmarks, slogans, packaging trade dress, or protected label layouts.",
+    "Celebrity athletes, real players, mascots, national flags, team crests, fan crowds, stadium signage, or broadcast graphics.",
+    "QR codes, watermarks, usernames, app UI, platform marks, barcodes, legal text copied from real ads, or fake endorsements.",
+    "Direct recreation of any existing McDonald's poster layout, campaign copy, price offer, or official product shot."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Fast-food inspired product launch poster and high-contrast retail collage.",
+    "composition_and_layout": "A strict poster grid with a large top headline, central product-built trophy silhouette, side accent tabs, and a narrow bottom strip.",
+    "subject_placement": "The product sculpture occupies the center and most of the vertical height, with products scaled for instant readability.",
+    "camera_or_perspective": "Front-facing studio cutout view with shallow product overlap and minimal perspective distortion.",
+    "typography_style": "Heavy condensed sans-serif headline, stacked or arched placement, white and yellow type on red fields, small microcopy bands.",
+    "color_palette_behavior": "Red dominates the field, yellow creates structural emphasis, white adds typographic punch, and green or black accents add rhythm.",
+    "graphic_elements": "Rounded panels, arch-like curves, sticker bursts, small tabs, star separators, arrow-like labels, and menu-panel rectangles.",
+    "texture_and_finish": "Clean glossy product highlights, print-ready sharpness, mild poster grain, and controlled shadow chips.",
+    "lighting": "Even commercial studio light with bright edge highlights and consistent soft shadows under cutout objects.",
+    "mood_and_cultural_reference": "Playful quick-service celebration poster, product-first, direct, loud, and immediately readable.",
+    "reusable_design_rules": "Always build a central trophy silhouette from products, keep the background graphic and flat, and make the headline feel like a retail launch poster.",
+    "things_to_avoid": "No official logos, no exact campaign copy, no official trophy replica, no realistic stadium scene, no cluttered lifestyle photography."
+  },
+  "composition": {
+    "primary_structure": "One hero product sculpture in the shape of a world-champion trophy, centered and symmetrical.",
+    "layout_grid": "Top headline band, central trophy area, optional side sticker or tab, compact footer strip.",
+    "negative_space": "Keep clean red or yellow space around the trophy so the silhouette reads at thumbnail size.",
+    "cropping": "Products may slightly break the trophy boundary, but the trophy contour must remain obvious.",
+    "depth": "Use shallow overlap, clean drop shadows, and stacked product layers rather than deep perspective scenery."
+  },
+  "typography": {
+    "headline": "Massive condensed sans-serif, uppercase, white or yellow, placed in a fixed headline band.",
+    "supporting_text": "Small blocky microcopy in simple horizontal bars, treated as graphic texture rather than dense reading material.",
+    "alignment": "Strict grid alignment with centered hierarchy and a few offset tabs.",
+    "restrictions": "Do not use official slogans, official brand names, sponsor copy, or tournament names."
+  },
+  "color_palette": {
+    "dominant": "Saturated poster red.",
+    "secondary": "Warm golden yellow.",
+    "neutral": "Clean white and deep black for type and contrast.",
+    "accents": "Small controlled green, silver, cream, or product-specific accent colors.",
+    "proportions": "About 55 percent red, 25 percent yellow, 15 percent product color, and 5 percent white or black accents."
+  },
+  "image_treatment": {
+    "rendering_mode": "Polished advertising collage using crisp raster product cutouts and flat poster graphics.",
+    "lighting": "Bright commercial studio highlights with consistent soft contact shadows.",
+    "finish": "4K print-ready, sharp product edges, mild paper grain, no distressed or glitch effects.",
+    "product_readability": "Each product object should be recognizable as an archetype even when clustered into the trophy silhouette."
+  },
+  "design_rules": [
+    "Build the trophy shape from many individual product objects instead of drawing the trophy as a solid icon.",
+    "Use red and yellow poster architecture to echo fast-food advertising layout without copying any official brand system.",
+    "Keep all brand references unbranded at the object level: no logos, wordmarks, slogans, or exact packaging.",
+    "Make the central trophy silhouette readable first, then make individual products readable on closer inspection.",
+    "Use large headline type and small footer microcopy as layout devices, not as real campaign claims.",
+    "Keep backgrounds flat, graphic, and commercial rather than photographic or cinematic."
+  ],
+  "do": [
+    "Use glossy cutout products to assemble a clear trophy silhouette.",
+    "Keep the headline large, simple, and grid-aligned.",
+    "Use yellow panels and rounded arch-like blocks as structural accents.",
+    "Preserve strong red/yellow/white contrast and direct retail poster energy.",
+    "Leave enough negative space for the trophy outline to read from a distance."
+  ],
+  "avoid": [
+    "Do not include official logos, wordmarks, exact packaging, slogans, or sponsor marks.",
+    "Do not create an exact FIFA World Cup trophy copy or use tournament names.",
+    "Do not turn the image into a stadium scene, crowd scene, realistic menu board, or lifestyle photo.",
+    "Do not overload the poster with prices, QR codes, barcodes, disclaimers, or tiny unreadable text.",
+    "Do not use SVG-like flat icons as substitutes for generated raster product objects."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"red-yellow-product-trophy-collage-style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: build a central world-champion trophy silhouette from many small product objects; use a globe-like top, narrowed waist, flared base, and symmetrical upward side curves, with a big headline band above and a narrow footer strip below. Keep the background plain and graphic, not scenic.\n- Typography: use massive condensed sans-serif headline type in white or yellow, tight grid alignment, small legal-like microcopy bars, and no official brand names or slogans.\n- Color: use a saturated red field, warm yellow panels, white highlights, small green or black accents, and high commercial poster contrast.\n- Texture and lighting: combine glossy studio product photography with flat poster shadows, crisp cutout edges, bright commercial highlights, and a clean print finish.\n- Graphic elements: use rounded blocks, arch-like curves, sticker bursts, arrow tabs, star separators, and small price-panel-like rectangles, but no real logos.\n\nAvoid: exact McDonald's, FIFA, Coca-Cola, Nike, Adidas, LEGO, Apple, Starbucks, or other official logos; no official trophy replica; no QR codes, no watermarks, no UI, no photoreal crowd scene, no mascot, no celebrity, no exact packaging trade dress.\n\nImportant content rule: match the fast-food billboard inspired layout first, then change the content by using the specified product family to construct an original trophy silhouette.",
+  "negative_prompt": "official logos, brand wordmarks, official slogans, exact packaging trade dress, exact FIFA World Cup trophy replica, tournament names, sponsor marks, celebrity athletes, national flags, team crests, stadium crowd, mascot, QR code, barcode, watermark, username, app UI, fake endorsement, cluttered menu board, unreadable tiny text, low resolution, blur, distorted product shapes, malformed text",
+  "examples": [
+    {
+      "case_name": "fast-food-feast-trophy",
+      "values": {
+        "SUBJECT": "a celebratory product sculpture shaped like a world-champion trophy",
+        "SUBJECT_ACTION": "formed from layered food cutouts that stack upward into a clear cup silhouette",
+        "PRODUCT_OR_PROP": "unbranded burgers, plain red fry cartons with no logos, soft-drink cups, nuggets, sauce tubs, pickle chips, and sesame buns",
+        "LOCATION": "flat red studio poster set",
+        "BACKGROUND_ELEMENTS": "yellow top headline slab, rounded arch-like corner blocks, white cutout sparks, narrow footer strip",
+        "MAIN_TEXT": "FEAST CUP",
+        "SECONDARY_TEXT": "new lineup / hot and bright",
+        "ACCENT_SYMBOL": "star spark",
+        "WARDROBE_STYLE": "no people; food photographed as clean glossy cutout objects"
+      }
+    },
+    {
+      "case_name": "soda-can-trophy",
+      "values": {
+        "SUBJECT": "a fizzy beverage trophy sculpture",
+        "SUBJECT_ACTION": "assembled from cans, bottles, ice cubes, straws, and bubbles into a tall trophy silhouette",
+        "PRODUCT_OR_PROP": "unbranded red soda cans, glass bottles with blank labels, plastic cups, crushed ice, silver pull tabs, lemon slices, and fizz bubbles",
+        "LOCATION": "red and yellow studio poster with a polished product-ad finish",
+        "BACKGROUND_ELEMENTS": "diagonal yellow burst panel, white bubble stickers, black microcopy tabs, small rounded footer badge",
+        "MAIN_TEXT": "FIZZ GLORY",
+        "SECONDARY_TEXT": "crack it open / cold bright rush",
+        "ACCENT_SYMBOL": "bubble star",
+        "WARDROBE_STYLE": "no people; drinks styled as glossy advertising cutouts"
+      }
+    },
+    {
+      "case_name": "sports-gear-trophy",
+      "values": {
+        "SUBJECT": "a sports product trophy built from gear",
+        "SUBJECT_ACTION": "curved sneakers, stitched balls, laces, socks, and mesh tags rise together into a trophy contour",
+        "PRODUCT_OR_PROP": "unbranded athletic sneakers, stitched soccer balls, shoelaces, performance socks, sweatbands, and metallic whistle charms",
+        "LOCATION": "front-facing red poster stage with yellow structural blocks",
+        "BACKGROUND_ELEMENTS": "arched yellow side panels, white motion tabs, black scoreboard-like footer strip, small star stickers",
+        "MAIN_TEXT": "PLAY CUP",
+        "SECONDARY_TEXT": "kick off / built to move",
+        "ACCENT_SYMBOL": "lightning tab",
+        "WARDROBE_STYLE": "no athletes; gear is isolated, polished, and product-lit"
+      }
+    },
+    {
+      "case_name": "blocks-and-gadgets-trophy",
+      "values": {
+        "SUBJECT": "a playful trophy sculpture made from toy and tech products",
+        "SUBJECT_ACTION": "colorful bricks, blank-screen devices, earbuds, game controllers, and small boxes interlock into the cup shape",
+        "PRODUCT_OR_PROP": "unbranded construction bricks, blank smartphones, wireless earbuds, compact game controllers, charging cables, and plain retail boxes",
+        "LOCATION": "graphic red launch poster with yellow display panels",
+        "BACKGROUND_ELEMENTS": "rounded yellow product shelves, white sticker bursts, black label tabs, tiny grid dots, compact footer strip",
+        "MAIN_TEXT": "BUILD WIN",
+        "SECONDARY_TEXT": "stack it / play it / charge it",
+        "ACCENT_SYMBOL": "plus star",
+        "WARDROBE_STYLE": "no people; products are clean cutouts with glossy highlights"
+      }
+    }
+  ]
+}

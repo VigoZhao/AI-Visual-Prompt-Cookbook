@@ -1,0 +1,163 @@
+{
+  "style_name": "Manga Dossier Blueprint Poster",
+  "style_slug": "manga-dossier-blueprint-poster",
+  "style_version": "1.0.0",
+  "style_summary": "A distressed manga character-dossier poster system with cream paper margins, oversized condensed typography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects, small inset frames, catalog labels, and editorial annotation rails.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action or pose",
+    "PRODUCT_OR_PROP": "object, product, prop, or visual anchor",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details and visual texture",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small supporting text or microcopy",
+    "ACCENT_SYMBOL": "separator, sticker, symbol, or decorative mark",
+    "WARDROBE_STYLE": "styling, clothing, character, or visual treatment",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Layered editorial dossier layout with a dominant grayscale manga ink portrait, a smaller dynamic full-body figure, boxed inset panels, narrow annotation rails, and asymmetrical negative space.",
+    "Warm off-white paper base with visible speckles, scuffs, worn ink, photocopy grain, and distressed screenprint edges.",
+    "Limited palette led by charcoal black, cool grays, deep cobalt blue, desaturated navy, and bright cyan accents; color appears in panels, type, and kinetic energy marks rather than full-scene realism.",
+    "Oversized condensed all-caps sans-serif headline blocks with weathered ink texture, stacked title hierarchy, and compact microcopy labels in small uppercase type.",
+    "Manga/anime illustration treatment with confident black linework, crosshatching, cel-shaded grayscale faces, angular hair or clothing shapes, and crisp contour drawing.",
+    "Large flat cobalt rectangle or blueprint panel behind the subject, often with faded technical symbols, diagram marks, stripes, rulers, or registration ticks.",
+    "Cyan hand-painted energy, smoke, splash, ribbon, or wind strokes sweeping across the foreground and partially wrapping the smaller figure.",
+    "Catalog-card details such as number boxes, small badges, short profile paragraphs, thin rules, side labels, and compact emblem-like symbols.",
+    "Poster reads like a collectible profile sheet or tactical character card, dense but still controlled, with strong left-to-right title/portrait hierarchy.",
+    "Flat print lighting with high contrast, no photographic depth of field, no glossy 3D rendering, and no cinematic lens effects."
+  ],
+  "source_content_to_avoid": [
+    "Do not depict Marco, The Phoenix, Whitebeard Pirates, One Piece characters, pirate crews, skull-and-crossbones marks, or any recognizable franchise iconography.",
+    "Do not reuse the original blue phoenix flame bird concept, the exact relaxed smirking portrait, the open coat pose, bead necklace, pirate flag, or ship imagery.",
+    "Do not copy the source text including MARCO, THE PHOENIX, WHITEBEARD PIRATES, NUMBER 16, quoted dialogue, Japanese side text, or the signature.",
+    "Do not recreate a pirate commander dossier, anime fan poster, or character sheet tied to the same story premise.",
+    "Do not include watermarks, platform marks, artist signatures, usernames, QR codes, or creator IDs.",
+    "Do not use the exact original layout proportions or exact placement of the portrait, inset panels, title wording, and signature as a traced composition."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Distressed manga editorial dossier poster with technical blueprint accents and collectible character-card information design.",
+    "composition_and_layout": "Tall poster logic with a large portrait occupying the upper center/right, huge stacked typography on the left, small profile-copy blocks and number labels beneath, inset monochrome frames near the lower left, and vertical side annotation along the outer edge. The horizontal variant should preserve the same dossier hierarchy by stretching the title band and placing portrait, inset panels, and action figure across a wider editorial spread.",
+    "subject_placement": "Hero subject is cropped large, usually from chest or shoulders upward, with a secondary smaller action pose crossing the foreground; both figures overlap a strong blue rectangular field and printed metadata.",
+    "camera_or_perspective": "Mostly flat poster perspective with slight low-angle or three-quarter manga portrait view; the smaller figure can use dynamic foreshortening but remains ink-drawn rather than realistic.",
+    "typography_style": "Tall condensed grotesque headline, heavy black and blue blocks, weathered ink, all caps, tight line spacing, tiny uppercase labels, small paragraph text, narrow side rails, and number-box typography.",
+    "color_palette_behavior": "Cream paper and monochrome ink dominate; cobalt blue creates the structural panel and secondary title color; cyan is reserved for kinetic paint-like strokes; accents remain restrained.",
+    "graphic_elements": "Blueprint panel, small emblems, catalog number box, barcode-like stripes, profile text blocks, inset image frames, thin rules, vertical annotations, registration ticks, faded technical marks, and painted energy strokes.",
+    "texture_and_finish": "Aged paper, screenprint distress, dust, ink wear, photocopied gray values, faint halftone, rough panel edges, and dry-brush energy marks.",
+    "lighting": "Flat editorial print contrast, cel-shaded grayscale forms, no realistic cast shadows, no rim-lit cinema glow except cyan graphic energy.",
+    "mood_and_cultural_reference": "Collectible manga profile poster, tactical dossier, premium fan-zine editorial, and worn screenprinted character archive."
+  },
+  "composition": [
+    "Build every image as a printed dossier poster, not a scene illustration: title, portrait, action figure, profile copy, inset frames, and technical labels should all coexist.",
+    "Use one oversized grayscale manga portrait as the primary visual anchor, cropped boldly and placed slightly off-center.",
+    "Add one smaller dynamic subject pose in the foreground, crossing through cyan kinetic strokes without hiding the title hierarchy.",
+    "Keep a strong cobalt blueprint rectangle or panel behind the portrait with faint line art, symbols, and registration details.",
+    "Use dense but ordered editorial metadata: number block, label rows, tiny profile paragraph, side rail text, inset panels, and separators.",
+    "Maintain margins and poster breathing room with warm cream paper visible around the graphic system."
+  ],
+  "typography": [
+    "Use oversized condensed all-caps sans-serif headline typography with weathered ink texture.",
+    "Stack the main text as two or three bold title lines; mix black and cobalt-blue headline color.",
+    "Use small uppercase metadata labels, narrow vertical annotation text, and tiny paragraph blocks for dossier texture.",
+    "Add a boxed catalog number or compact identifier block using bold numerals and thick borders.",
+    "Avoid elegant serif display, script signatures, neon bubble type, soft rounded type, or modern app UI typography."
+  ],
+  "color_palette": {
+    "paper": "#eee9de",
+    "charcoal_ink": "#171717",
+    "cool_gray": "#858783",
+    "deep_cobalt": "#0f5f88",
+    "navy_shadow": "#17364b",
+    "cyan_energy": "#57c3dc",
+    "usage": "Approximately 55 percent cream paper and grayscale ink, 25 percent cobalt/navy structural panels and headline type, 15 percent cyan kinetic strokes, and 5 percent tiny black technical marks."
+  },
+  "image_treatment": [
+    "Manga-style ink drawing with strong contours, crosshatching, textured grayscale fills, and cel-shaded facial planes.",
+    "Cyan effects should look hand-painted and screenprinted, with rough dry edges and transparent overlaps.",
+    "Print distress is visible across every layer: paper grain, ink scuffs, worn headline texture, speckled blue blocks, and subtle halftone.",
+    "The result should feel like a finished premium poster scan, clean enough to read but visibly analog and aged.",
+    "No photographic model, no 3D game render, no glossy vector polish, no smooth gradient lighting."
+  ],
+  "design_rules": [
+    "Preserve the poster-as-dossier grammar: big nameplate, portrait, action vignette, blue information panel, inset panels, and catalog metadata.",
+    "Keep the palette disciplined: cream, black, gray, cobalt, navy, and cyan only unless a case absolutely needs a tiny neutral accent.",
+    "Use text as graphic texture and readable title hierarchy, but never copy the source wording or franchise identity.",
+    "Let cyan strokes function as kinetic foreground design elements that wrap around the subject and connect the panels.",
+    "Use asymmetry and overlap while keeping the image organized enough to scan as a collectible profile sheet.",
+    "Every case must introduce a new subject, setting, props, and text while preserving the same manga dossier visual family."
+  ],
+  "do": [
+    "Use weathered condensed headline type, number boxes, small metadata labels, and vertical annotation rails.",
+    "Include at least one grayscale portrait, one smaller dynamic figure or object vignette, one cobalt blueprint panel, and cyan kinetic strokes.",
+    "Use aged paper grain, ink distress, scuffed blue blocks, halftone gray, and rough screenprint edges.",
+    "Change all names, symbols, props, narrative roles, and story premises for each generated sample."
+  ],
+  "avoid": [
+    "Avoid pirate imagery, phoenix flames, skull marks, franchise logos, source names, signatures, and recognizably similar character features.",
+    "Avoid photorealistic portraits, 3D renders, glossy gradients, cinematic bokeh, app UI cards, and smooth vector poster minimalism.",
+    "Avoid cluttered full environments, modern advertising price labels, platform watermarks, QR codes, and creator IDs.",
+    "Avoid using generic anime fan-art composition without the editorial dossier typography and print metadata system."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Manga Dossier Blueprint Poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules: Make the image a distressed manga editorial dossier poster on warm off-white speckled paper. Build a layered layout with one oversized grayscale ink portrait, one smaller dynamic foreground figure or product vignette, a deep cobalt blueprint rectangle behind the subject, inset monochrome panels, compact metadata blocks, narrow side annotation rails, registration ticks, and a boxed catalog number. Use oversized condensed all-caps sans-serif headline typography with weathered black and cobalt ink, tight stacked hierarchy, tiny uppercase labels, and small profile-copy blocks. Render the subject with crisp manga linework, crosshatching, cel-shaded grayscale planes, textured halftone, and angular silhouette language. Add bright cyan hand-painted energy, smoke, wind, splash, or ribbon strokes that sweep across the foreground and connect the panels. Keep the palette limited to cream paper, charcoal black, cool gray, deep cobalt, navy shadow, and cyan accent. Preserve flat print lighting, screenprint distress, scuffed ink, worn paper, rough blue-panel edges, and controlled editorial density. For 9:16, favor a tall collectible poster with the title column and metadata along the side; for 16:9, expand the same dossier system into a wide editorial spread while preserving the portrait-title-action hierarchy.\n\nAvoid: no photorealism, no 3D render, no glossy vector art, no smooth gradients, no cinematic bokeh, no full realistic background scene, no platform watermark, no QR code, no creator signature, no franchise logo, no pirate motif, no phoenix motif, no skull-and-crossbones mark, no copied source names, no copied source quote, no source character likeness.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "photorealistic portrait, 3D render, glossy game art, smooth vector minimalism, soft gradients, cinematic lens flare, heavy bokeh, realistic full environment, pirate imagery, phoenix bird, skull-and-crossbones, franchise logo, copied anime character, copied source text, signature, watermark, username, QR code, platform logo, exact source layout tracing",
+  "examples": [
+    {
+      "case_name": "night-courier",
+      "values": {
+        "SUBJECT": "a young urban bicycle courier with wind-tossed hair and a focused half-smile",
+        "SUBJECT_ACTION": "leaning forward with one hand extended while a smaller action pose skids across the foreground",
+        "PRODUCT_OR_PROP": "weathered messenger bag, compact bike light, and folded delivery map",
+        "LOCATION": "rainy elevated train district at midnight",
+        "BACKGROUND_ELEMENTS": "faint rail map lines, wet street reflections reduced to blue diagram marks, small inset frame of a bicycle wheel, catalog stripes",
+        "MAIN_TEXT": "NIGHT COURIER",
+        "SECONDARY_TEXT": "district run / route 07 / signal clear",
+        "ACCENT_SYMBOL": "winged wheel emblem",
+        "WARDROBE_STYLE": "cropped technical jacket, fingerless gloves, patched courier pants, wind-swept streetwear silhouette"
+      }
+    },
+    {
+      "case_name": "tea-roaster",
+      "values": {
+        "SUBJECT": "an older artisan tea roaster with sharp eyes and swept-back silver hair",
+        "SUBJECT_ACTION": "tilting a roasting pan while a smaller figure steps through curling steam in the foreground",
+        "PRODUCT_OR_PROP": "black iron tea pan, paper tea packets, and a wooden tasting spoon",
+        "LOCATION": "narrow mountain tea workshop",
+        "BACKGROUND_ELEMENTS": "botanical diagram marks, small inset frame of tea leaves, numbered quality tag, faded hillside contour lines",
+        "MAIN_TEXT": "FIRE LEAF",
+        "SECONDARY_TEXT": "small batch / spring harvest / batch 24",
+        "ACCENT_SYMBOL": "three-leaf seal",
+        "WARDROBE_STYLE": "rolled cotton sleeves, indigo apron, work-worn collar, calm workshop profile"
+      }
+    },
+    {
+      "case_name": "weather-pilot",
+      "values": {
+        "SUBJECT": "a calm orbital weather pilot with cropped hair and a confident side glance",
+        "SUBJECT_ACTION": "reaching toward a holographic wind gauge while a smaller flight pose cuts through storm-ribbon graphics",
+        "PRODUCT_OR_PROP": "compact flight helmet, pressure gauge, and folded atmospheric chart",
+        "LOCATION": "high-altitude weather station above layered cloud bands",
+        "BACKGROUND_ELEMENTS": "barometric diagrams, cloud contour symbols, inset frame of a stratosphere window, tiny mission labels",
+        "MAIN_TEXT": "SKY VECTOR",
+        "SECONDARY_TEXT": "upper air / pressure watch / unit 12",
+        "ACCENT_SYMBOL": "split-circle wind mark",
+        "WARDROBE_STYLE": "navy flight coat, ribbed collar, utility harness, clean technical uniform details"
+      }
+    },
+    {
+      "case_name": "rally-mechanic",
+      "values": {
+        "SUBJECT": "a desert rally mechanic with spiky dust-streaked hair and a knowing grin",
+        "SUBJECT_ACTION": "pulling a wrench forward while a smaller action figure vaults over a tire trail",
+        "PRODUCT_OR_PROP": "oversized torque wrench, rally tire, and taped service notebook",
+        "LOCATION": "sun-bleached desert pit lane",
+        "BACKGROUND_ELEMENTS": "route-card diagrams, dust cloud reduced to cyan brush arcs, inset frame of a service flag, small technical warning labels",
+        "MAIN_TEXT": "DUST CREW",
+        "SECONDARY_TEXT": "service bay / stage 03 / torque ready",
+        "ACCENT_SYMBOL": "crossed-wrench badge",
+        "WARDROBE_STYLE": "open mechanic jacket, grease-marked tank top, tool belt, rugged cropped trousers"
+      }
+    }
+  ]
+}

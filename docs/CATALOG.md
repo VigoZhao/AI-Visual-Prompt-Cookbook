@@ -1,8 +1,38 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 91 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 94 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Yellow Graffiti Fisheye Manga Street Poster Style
+
+<a href="../styles/yellow-graffiti-fisheye-manga-street-poster-style"><img src="../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg" width="720" alt="Yellow Graffiti Fisheye Manga Street Poster Style preview"></a>
+
+A hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink cutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag texture, and soft anxious character emotion.
+
+Files: [style.json](../styles/yellow-graffiti-fisheye-manga-street-poster-style/style.json) · [Copy Prompt](copy-prompts/yellow-graffiti-fisheye-manga-street-poster-style.md) · [16:9 preview](../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-9x16.jpg) · [Folder](../styles/yellow-graffiti-fisheye-manga-street-poster-style)
+
+---
+
+### Red Yellow Product Trophy Collage Style
+
+<a href="../styles/red-yellow-product-trophy-collage-style"><img src="../styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg" width="720" alt="Red Yellow Product Trophy Collage Style preview"></a>
+
+A fast-food billboard inspired product collage system with saturated red and yellow poster blocks, oversized condensed typography, glossy cutout products, and a central world-champion trophy silhouette assembled from representative unbranded product objects.
+
+Files: [style.json](../styles/red-yellow-product-trophy-collage-style/style.json) · [Copy Prompt](copy-prompts/red-yellow-product-trophy-collage-style.md) · [16:9 preview](../styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/red-yellow-product-trophy-collage-style/preview-9x16.jpg) · [Folder](../styles/red-yellow-product-trophy-collage-style)
+
+---
+
+### Manga Dossier Blueprint Poster
+
+<a href="../styles/manga-dossier-blueprint-poster"><img src="../styles/manga-dossier-blueprint-poster/preview-16x9.jpg" width="720" alt="Manga Dossier Blueprint Poster preview"></a>
+
+A distressed manga character-dossier poster system with cream paper margins, oversized condensed typography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects, small inset frames, catalog labels, and editorial annotation rails.
+
+Files: [style.json](../styles/manga-dossier-blueprint-poster/style.json) · [Copy Prompt](copy-prompts/manga-dossier-blueprint-poster.md) · [16:9 preview](../styles/manga-dossier-blueprint-poster/preview-16x9.jpg) · [9:16 preview](../styles/manga-dossier-blueprint-poster/preview-9x16.jpg) · [Folder](../styles/manga-dossier-blueprint-poster)
+
+---
 
 ### Red Black Manga Tabloid Poster Style
 

@@ -1,0 +1,163 @@
+{
+  "style_name": "Yellow Graffiti Fisheye Manga Street Poster Style",
+  "style_slug": "yellow-graffiti-fisheye-manga-street-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink cutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag texture, and soft anxious character emotion.",
+  "environment_variables": {
+    "SUBJECT": "primary figure, product, or object to feature",
+    "SUBJECT_ACTION": "clear pose, gesture, or action for the feature subject",
+    "PRODUCT_OR_PROP": "object, product, or prop held or featured",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details and street-photo texture",
+    "MAIN_TEXT": "large graffiti headline text",
+    "SECONDARY_TEXT": "small supporting caption text",
+    "ACCENT_SYMBOL": "spray mark, sticker, arrow, punctuation, or small decorative symbol",
+    "WARDROBE_STYLE": "styling, clothing, character, or surface treatment",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits injected from the top-level style lock",
+    "SOURCE_CONTENT_TO_AVOID": "literal source details injected from the top-level content exclusion lock",
+    "ASPECT_RATIO": "9:16 or 16:9"
+  },
+  "style_fidelity_anchors": [
+    "Cool blue-gray fisheye street-photo base with wide-angle distortion, slight horizon tilt, storefront machines, curb lines, road markings, and compressed urban detail.",
+    "One oversized manga cutout subject sits in the foreground, centered and close to camera, with a large head and upper body, small foreshortened feet, and top-down lens exaggeration.",
+    "Manga rendering uses clean dark brown and black linework, simple shaded clothing folds, soft peach skin, blush hatching, and muted emotional facial expression.",
+    "The photo background remains realistic and desaturated while the subject is flatter, warmer, and inked, creating a clear collage contrast between real street and drawn figure.",
+    "The upper third carries a huge sprayed yellow graffiti headline, thick and loose, with rounded strokes, drips, dot overspray, and partial overlap behind the subject.",
+    "Small white block captions sit across the midline like compact street-zine type, using bold simple lettering with slight roughness and limited word count.",
+    "The bottom foreground includes a large chalky white pavement tag or painted ground mark following the fisheye perspective.",
+    "Palette behavior is mostly cool concrete blue, vending-light gray, asphalt charcoal, warm cream clothing tones, peach skin, electric yellow paint, and white caption accents.",
+    "Lighting is natural overcast street light with vending or storefront glow; contrast comes from color blocking and ink outlines rather than cinematic shadows.",
+    "The mood is intimate, awkward, urban, and poster-like, mixing candid street photography, youth manga cover emotion, and informal graffiti culture.",
+    "Edges should feel like a finished digital collage poster, with the drawn subject cleanly integrated over the photographed environment without glossy 3D depth."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the original young girl, bashful fists pose, exact face, brown hair shape, orange hair clip, cream blouse, necktie, or pleated skirt.",
+    "Do not recreate the same vending-machine corner, drink rows, road layout, curb placement, sign positions, or photographic background arrangement.",
+    "Do not reuse the original yellow graffiti word shape, exact white Japanese captions, bottom pavement text, watermark, username, or signature.",
+    "Do not use recognizable manga franchise names, copied characters, school-uniform romance framing, or a shy character standing directly in front of vending machines.",
+    "Do not include platform marks, QR codes, creator IDs, brand logos, real beverage labels, or exact storefront signage from the source image.",
+    "Do not copy the original top/bottom text placement exactly; preserve the type grammar while changing words, marks, and layout details."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Hybrid fisheye street-photo manga poster, urban sticker-zine cover, and graffiti-tag social graphic.",
+    "composition_and_layout": "A wide-angle street photograph fills the frame. A single oversized illustrated manga subject is centered in front, the top is dominated by loose yellow graffiti lettering, small white captions cross the middle, and a large pavement tag anchors the bottom.",
+    "subject_placement": "The foreground subject is close and top-down, with a large head and hands near the face or chest, body tapering toward small feet on the pavement. The subject overlaps the background machines and partially interrupts the graffiti headline.",
+    "camera_or_perspective": "Extreme wide-angle or fisheye street-camera perspective, looking downward from slightly above the subject, with road stripes, curb edges, and ground lettering curving into depth.",
+    "typography_style": "Thick hand-sprayed yellow headline tags with dot overspray, compact white block captions, and chalky pavement graffiti. Text feels painted into the scene or printed as zine overlay rather than typeset cleanly.",
+    "color_palette_behavior": "Desaturated blue-gray city photo tones carry the background. The subject adds warm cream and peach. Electric yellow and white are the only loud graphic accents.",
+    "graphic_elements": "Spray-paint headline, white caption hits, chalky floor tag, rough overspray dots, casual sticker-like accent marks, and hard collage separation between photo and inked character.",
+    "texture_and_finish": "Real asphalt grain, vending-machine reflections, compressed street-photo detail, smooth anime ink lines, blush hatch marks, spray-paint speckle, and rough pavement paint.",
+    "lighting": "Overcast outdoor light with cool machine glow; flat enough to keep the manga subject legible, with no dramatic rim light or cinematic depth of field.",
+    "mood_and_cultural_reference": "Contemporary Japanese street-snapshot energy, informal graffiti culture, fan-zine cover composition, and manga emotional closeup."
+  },
+  "composition": [
+    "Use one centered manga cutout subject over a realistic fisheye urban-photo environment.",
+    "Keep the camera high and close so the subject's head and hands feel large while feet and ground tags recede.",
+    "Reserve the top band for a thick sprayed yellow graffiti headline that can run behind or around the subject.",
+    "Place small white captions across the left and right midline, avoiding long paragraphs or clean editorial blocks.",
+    "Anchor the lower foreground with a chalky pavement tag, road marking, or painted ground graphic that follows perspective.",
+    "Let background street details stay recognizable but secondary, with machines, storefronts, curbs, rails, and signage softened by the fisheye view."
+  ],
+  "typography": [
+    "Use large loose graffiti lettering for the main headline, with thick rounded strokes, uneven baseline, drips, and overspray.",
+    "Use short white supporting captions in compact bold block lettering, spaced like street-zine callouts.",
+    "Use a chalky or spray-painted bottom ground tag that looks physically painted onto asphalt or concrete.",
+    "Keep text brief and graphic; avoid dense paragraphs, clean corporate type, elegant serif lettering, or perfect vector logos.",
+    "Do not reuse source-language strings, creator signatures, or recognizable franchise titles."
+  ],
+  "color_palette": [
+    "Background tones should be cool blue-gray, concrete gray, asphalt charcoal, vending-light white, and muted storefront color.",
+    "Character tones should be warm cream, tan, peach, brown ink, and muted clothing colors that stand apart from the cool photo base.",
+    "Electric yellow is the dominant accent and should appear mainly in the top graffiti headline and small spray flecks.",
+    "White appears in small captions and pavement tags, with rough painted edges rather than polished UI crispness.",
+    "Avoid broad rainbow palettes, neon gradients, heavy purple-blue glow, sepia vintage filters, or one-color monochrome treatment."
+  ],
+  "photographic_direction": [
+    "Build the background as a realistic fisheye street photograph with wide-angle distortion and visible pavement texture.",
+    "Render the foreground subject as manga-style line art with clean ink contours, simple cell shading, blush hatching, and warm flat color.",
+    "Keep the collage join intentional: the illustrated subject is clearly drawn, but scale, contact shadow, and perspective make it feel placed into the street photo.",
+    "Use natural overcast daylight or storefront-machine glow, not dramatic film lighting or glossy studio reflection.",
+    "Preserve high detail in street texture while keeping the manga subject simplified and emotionally readable."
+  ],
+  "design_rules": [
+    "Combine photographic urban background, manga foreground cutout, yellow spray headline, white captions, and pavement tag in every sample.",
+    "Keep the subject close, centered, and top-down with fisheye scale distortion.",
+    "Make the top yellow graffiti loud enough to read as the main graphic signal, but do not copy the source tag shape.",
+    "Use new subjects, new props, new locations, and new text for every generated case.",
+    "Exclude watermarks, usernames, platform marks, real logos, exact storefront signs, and franchise-identifiable text."
+  ],
+  "do": [
+    "Use realistic street-photo texture under a drawn manga subject.",
+    "Use thick yellow spray-paint type with overspray and drips.",
+    "Use compact white captions and a ground-level chalk or spray tag.",
+    "Use soft emotional manga facial detail, blush hatching, clean ink outlines, and simple clothing folds.",
+    "Use fisheye perspective, curb lines, road paint, storefront machines, and urban clutter as structure."
+  ],
+  "avoid": [
+    "Avoid copying the original character, pose, clothing, hair clip, vending-machine scene, Japanese captions, top tag, bottom tag, or watermark.",
+    "Avoid full anime illustration without a real-photo base, pure photoreal portraits, 3D renders, clean vector posters, or cinematic street photography with no manga cutout.",
+    "Avoid using real brand names, platform marks, QR codes, creator IDs, copyright-identifiable manga titles, or exact storefront text.",
+    "Avoid dense editorial collage panels, luxury minimalism, glossy gradients, bokeh-heavy backgrounds, or painterly fantasy rendering.",
+    "Avoid storing rendered full prompts inside the package files."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"yellow-graffiti-fisheye-manga-street-poster-style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: Create a hybrid street poster with a cool fisheye urban-photo background, one oversized centered manga cutout subject in the foreground, a large top-band yellow spray-paint headline, short white caption hits near the middle, and a chalky white pavement tag or painted ground mark at the bottom. Keep the subject close to camera with top-down scale distortion, large head and hands, smaller feet, and street lines bending into the fisheye perspective.\n- Typography: Use loose hand-sprayed yellow graffiti for the main headline, with rounded thick strokes, drips, dot overspray, and uneven baseline. Use compact white block captions as short street-zine callouts. Use chalky or spray-painted ground lettering for the bottom mark. Make all text graphic and brief, not clean corporate typography.\n- Color: Keep the background mostly cool blue-gray, concrete gray, asphalt charcoal, vending-light white, and muted storefront color. Render the subject in warmer cream, tan, peach, muted browns, and black or dark brown ink. Use electric yellow as the loud accent and white as secondary caption paint.\n- Texture and lighting: Use realistic asphalt grain, storefront reflections, compressed street-photo detail, smooth manga ink contours, simple cell shading, blush hatch marks, spray-paint speckle, rough pavement paint, and flat overcast daylight with subtle machine glow. Avoid cinematic shadows, glossy 3D depth, and heavy blur.\n- Graphic elements: Add yellow overspray dots, small sticker-like marks, white caption hits, curb stripes, road paint, vending or storefront glow, concrete seams, and a bottom pavement tag that follows perspective.\n\nAvoid: photoreal-only portraits, pure anime backgrounds, 3D render, glossy vector poster, clean corporate layout, dense tabloid collage panels, luxury minimalism, heavy gradients, bokeh blur, real brand logos, watermarks, usernames, QR codes, platform marks, creator signatures, exact source text, copied character, copied pose, copied vending-machine composition, and any source-specific franchise identity.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+  "negative_prompt": "No copied source character, no bashful fists pose, no school uniform romance scene, no vending-machine recreation, no exact Japanese captions, no copied yellow tag, no copied pavement word, no watermark, no username, no QR code, no brand logo, no real storefront sign, no franchise title, no pure photoreal portrait, no full anime-only scene, no 3D render, no glossy vector poster, no dense tabloid panel collage, no luxury minimalism, no cinematic bokeh, no rendered prompt text artifacts.",
+  "examples": [
+    {
+      "case_name": "night-laundromat-run",
+      "values": {
+        "SUBJECT": "an adult laundromat attendant with tired eyes and a canvas laundry bag",
+        "SUBJECT_ACTION": "hugging the laundry bag to their chest while stepping onto a wet sidewalk",
+        "PRODUCT_OR_PROP": "canvas laundry bag, receipt strip, and a small detergent box with no brand text",
+        "LOCATION": "narrow late-night laundromat entrance on a side street",
+        "BACKGROUND_ELEMENTS": "round washer windows, cool fluorescent window glow, curb stripes, puddled asphalt, taped paper notices, and bent street railings",
+        "MAIN_TEXT": "SPIN LATE",
+        "SECONDARY_TEXT": "wash all night / cold street / last load",
+        "ACCENT_SYMBOL": "!!",
+        "WARDROBE_STYLE": "oversized cardigan, cuffed work pants, canvas sneakers, simple apron, and soft anxious manga expression"
+      }
+    },
+    {
+      "case_name": "coffee-kiosk-skater",
+      "values": {
+        "SUBJECT": "an adult street skater carrying a tray of canned cold brew",
+        "SUBJECT_ACTION": "leaning toward the camera with one hand braced on a skateboard",
+        "PRODUCT_OR_PROP": "blank cold brew cans, paper tray, scuffed skateboard, and stickered helmet with no logos",
+        "LOCATION": "compact sidewalk coffee kiosk beside a narrow road",
+        "BACKGROUND_ELEMENTS": "service window glow, small menu boards with unreadable marks, traffic cones, curb paint, metal shutters, and wet concrete",
+        "MAIN_TEXT": "NO SLEEP",
+        "SECONDARY_TEXT": "first cup / last trick / keep rolling",
+        "ACCENT_SYMBOL": "->",
+        "WARDROBE_STYLE": "loose coach jacket, striped socks, worn sneakers, helmet straps, and warm manga linework"
+      }
+    },
+    {
+      "case_name": "record-shop-mascot",
+      "values": {
+        "SUBJECT": "a sleepy record-shop clerk holding a plush cat mascot",
+        "SUBJECT_ACTION": "peering up from under messy bangs while pressing the plush against a stack of vinyl sleeves",
+        "PRODUCT_OR_PROP": "blank vinyl sleeves, plush cat mascot, price stickers without readable brands, and portable speaker",
+        "LOCATION": "tiny secondhand record shop entrance under a rain awning",
+        "BACKGROUND_ELEMENTS": "crate stacks, glowing shop window, paper sale tags, curbside poster scraps, bike handlebar crop, and asphalt paint",
+        "MAIN_TEXT": "SIDE B",
+        "SECONDARY_TEXT": "needle drop / shop open / soft static",
+        "ACCENT_SYMBOL": "**",
+        "WARDROBE_STYLE": "boxy work shirt, loose trousers, small enamel pins with abstract shapes, and shy manga facial blush"
+      }
+    },
+    {
+      "case_name": "rain-arcade-mechanic",
+      "values": {
+        "SUBJECT": "an arcade cabinet mechanic with a small tool pouch",
+        "SUBJECT_ACTION": "holding a loose joystick module up to the fisheye camera",
+        "PRODUCT_OR_PROP": "unbranded joystick module, screwdriver, ticket roll, and folded repair note",
+        "LOCATION": "rainy alley arcade entrance with shuttered storefronts",
+        "BACKGROUND_ELEMENTS": "glowing game screens with abstract shapes, tiled entry step, wet road paint, warning cones, cables, and a dark service door",
+        "MAIN_TEXT": "INSERT SUN",
+        "SECONDARY_TEXT": "free play / jammed lever / after rain",
+        "ACCENT_SYMBOL": "++",
+        "WARDROBE_STYLE": "short utility jacket, cargo skirt or shorts over leggings, work gloves, and expressive manga eyes with blush hatching"
+      }
+    }
+  ]
+}
