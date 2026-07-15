@@ -1,0 +1,170 @@
+{
+  "style_name": "Crimson Ink Manga Dossier",
+  "style_slug": "crimson-ink-manga-dossier",
+  "style_version": "2.1.0",
+  "style_summary": "A high-density manga editorial dossier poster built from one dramatically foreshortened illustrated hero, oversized distressed condensed headlines, modular newspaper sidebars, monochrome comic insets, and a strict crimson-black-warm-paper palette.",
+  "environment_variables": {
+    "SUBJECT": "The original central illustrated character",
+    "SUBJECT_ACTION": "The character's dramatic editorial action",
+    "PRODUCT_OR_PROP": "The key object or symbolic prop",
+    "LOCATION": "The story setting translated into editorial backdrop fragments",
+    "BACKGROUND_ELEMENTS": "Architecture, diagrams, manga insets, dossier panels, and secondary scene details",
+    "MAIN_TEXT": "Short oversized headline text",
+    "SECONDARY_TEXT": "Brief dossier headings, captions, and pull quotes",
+    "ACCENT_SYMBOL": "A simple symbolic motif used in diagrams or callouts",
+    "WARDROBE_STYLE": "Original costume and styling direction",
+    "STYLE_FIDELITY_ANCHORS": "Observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content and identity marks that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "One dominant hand-drawn manga character occupies roughly two thirds of the frame and breaks across surrounding editorial panels.",
+    "Dramatic low-angle or close wide-angle perspective with strong foreground foreshortening and a confident upward gaze.",
+    "Oversized uppercase condensed sans-serif headline spans the upper field, partially hidden behind the hero and cropped by the edges.",
+    "Dense asymmetrical magazine-newspaper layout with narrow side columns, boxed dossiers, pull quotes, captions, and small comic insets.",
+    "Restricted palette of deep crimson red, carbon black, warm off-white paper, and grayscale illustration, with red used as the sole chromatic accent.",
+    "Crisp black manga linework, selective gray screentone, white highlights, and restrained crimson tinting on the central figure.",
+    "Distressed ink edges, rough registration, paper grain, halftone dots, dry-brush smears, and controlled ink splatter.",
+    "Vertical city or industrial silhouettes and diagrammatic symbols anchor the lower corners and sidebars.",
+    "High information density around the perimeter while the face, torso, and foreground gesture remain visually legible.",
+    "Hard flat editorial contrast rather than cinematic gradients, soft photography, glossy 3D rendering, or pastel shading.",
+    "Urgent underground manga-magazine mood that mixes character profile, interview archive, warning file, and propaganda-poster energy."
+  ],
+  "source_content_to_avoid": [
+    "Makima, Chainsaw Man, Devil Hunters, the Control Devil, Denji, or any names, terminology, characters, lore, or insignia from the source franchise.",
+    "A red-haired braided woman with concentric golden eyes, black business suit, white shirt, black tie, or the source character's face and costume.",
+    "The exact palm-reaching pose, low-angle body silhouette, facial expression, braid arrangement, or hand anatomy from the reference.",
+    "The phrases HEY BRO, THIS IS MAKIMA, CONTROL IS THE ONLY THING THAT BRINGS PEACE, OBEDIENCE IS NOT FEAR, or any copied headline, quote, caption, or interview text.",
+    "Tokyo Tower, the exact red city skyline, the concentric control-eye diagram, chains, blood splashes tied to the original story, or matching inset panels.",
+    "The exact arrangement, size, and placement of the source headline, portrait, sidebars, comic panels, quote blocks, and bottom information card.",
+    "Manga publisher marks, anime logos, Japanese title locks, official character art, creator signatures, watermarks, usernames, QR codes, or platform marks.",
+    "Any recognizable copyrighted character, celebrity likeness, official uniform, franchise emblem, brand mark, or copied story premise."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Japanese manga character profile poster fused with a distressed newspaper dossier and underground editorial spread.",
+    "composition_and_layout": "A giant cropped headline crowns the frame; a single foreshortened character overlaps most layers; narrow sidebars, comic crops, quote boxes, diagrams, and a bottom identity card create a dense perimeter.",
+    "subject_placement": "The hero is centered but diagonally weighted, with the face near the upper middle, torso filling the center, and one foreground object or gesture enlarged toward the viewer.",
+    "camera_or_perspective": "Close low-angle wide-lens illustration with deliberate foreshortening; supporting panels remain flat and orthographic like pasted print fragments.",
+    "typography_style": "Extra-bold condensed uppercase sans-serif for headlines, compact condensed headings, serif body copy, occasional italic pull quotes, distressed edges, and aggressive cropping.",
+    "color_palette_behavior": "Warm paper white carries the page, black builds linework and blocks, deep crimson creates headlines and architectural accents, and gray screentone separates illustration planes.",
+    "graphic_elements": "Rule lines, inset manga frames, interview Q-and-A blocks, warning cards, crosshair or radial diagrams, city silhouettes, caption strips, torn wedges, ink splatter, and dry-brush marks.",
+    "texture_and_finish": "Aged uncoated paper, coarse halftone, photocopy grain, offset misregistration, dry ink, scratched headline fill, and sharp cut-paper boundaries.",
+    "lighting": "Graphic cel-like illumination with hard value separation, white face highlights, deep black costume folds, and no naturalistic ambient gradient.",
+    "mood_and_cultural_reference": "Urgent, charismatic, slightly ominous character journalism with manga anthology and counterculture newsprint energy.",
+    "reusable_design_rules": "Keep one illustrated hero dominant, preserve the editorial hierarchy and three-color print logic, surround the figure with original story fragments, and make every text block secondary to the silhouette.",
+    "things_to_avoid": "No source character, copied layout, copied text, franchise symbolism, full-color anime screenshot, soft romance illustration, glossy 3D render, clean corporate brochure, or photoreal portrait."
+  },
+  "composition": {
+    "primary_structure": "One oversized central manga hero in front of a cropped headline, framed by asymmetric dossier columns and a lower information panel.",
+    "layout_grid": "Use a loose twelve-column editorial grid, but let the figure break the grid and overlap at least three modules.",
+    "negative_space": "Keep only small warm-paper breathing zones around the face and headline; the perimeter should remain richly populated but organized.",
+    "cropping": "Crop the hero below the waist or at the thighs, allow the headline and architecture to run off-frame, and enlarge one prop or gesture in the foreground without copying the source pose.",
+    "aspect_adaptation": "For 4:5, stack compact sidebars vertically along both edges while keeping the hero dominant; for 5:4, spread dossier panels laterally while retaining the huge hero and top headline.",
+    "depth": "Create depth through illustrated foreshortening and paper-layer overlap, while all editorial modules stay flat."
+  },
+  "typography": {
+    "headline": "Extra-bold condensed uppercase sans-serif, deep crimson or black, very large, tightly tracked, distressed, partly occluded, and edge-cropped.",
+    "section_heads": "Bold condensed black or white-on-black labels with short declarative phrasing.",
+    "body_copy": "Small serif newspaper columns used as controlled texture; keep lines compact and legible enough to feel intentional.",
+    "pull_quotes": "Large crimson condensed quotation blocks with a small italic attribution line.",
+    "restrictions": "Use only original short copy; never imitate franchise names, source slogans, publisher title locks, or exact Japanese logotypes."
+  },
+  "color_palette": {
+    "dominant": "Warm uncoated paper white, approximately 50 percent.",
+    "secondary": "Carbon black and charcoal grayscale, approximately 32 percent.",
+    "accent": "Deep blood-crimson red, approximately 18 percent and never replaced by a rainbow palette.",
+    "behavior": "Use crimson for the giant headline, selected hair or costume zones, diagrams, skyline blocks, rules, and splatter; keep all other content grayscale.",
+    "contrast": "Hard poster contrast with large solid blacks, exposed paper whites, and sparse middle grays."
+  },
+  "image_treatment": {
+    "rendering_mode": "Original hand-drawn manga illustration integrated with raster newsprint collage, not a screenshot or vector mockup.",
+    "linework": "Confident black ink contours, variable-weight hatching, fine facial detail, bold fabric shadows, and selective white knockouts.",
+    "tonal_treatment": "Grayscale screentone and crosshatching with limited flat crimson overlays.",
+    "finish": "Print-ready high resolution with controlled authentic paper and ink texture; distress must not obscure the hero's face, hands, or typography hierarchy.",
+    "text_rendering": "Keep the main headline short and prominent; supporting copy may behave as editorial texture but should avoid random glyph clutter."
+  },
+  "design_rules": [
+    "Match the editorial hierarchy and print grammar before introducing new content.",
+    "Use one original hero, one symbolic prop, one giant headline, and six to ten secondary modules.",
+    "Let the hero overlap the headline and dossier frames so the page feels physically assembled.",
+    "Use only crimson, black, warm paper white, and grayscale; reserve crimson for hierarchy and symbolic emphasis.",
+    "Combine condensed display type with serif newspaper copy and small manga dialogue fragments.",
+    "Adapt the modular grid to both portrait and landscape without shrinking the hero into a small centered figure.",
+    "Keep ink distress and splatter controlled, intentional, and secondary to legibility.",
+    "Invent every character, costume, phrase, diagram, inset, skyline, and story premise from scratch."
+  ],
+  "do": [
+    "Use a dramatically foreshortened original manga hero as the dominant layer.",
+    "Crop and distress the oversized headline while keeping its words readable.",
+    "Build sidebars from interviews, diagrams, manga insets, city silhouettes, quotes, and warning cards.",
+    "Preserve the warm-paper, black, gray, and crimson print ratio across every case.",
+    "Use halftone, paper grain, dry brush, and subtle offset misregistration as tactile print evidence."
+  ],
+  "avoid": [
+    "Do not recreate the source character, costume, pose, expression, text, skyline, symbols, inset art, or panel arrangement.",
+    "Do not include franchise titles, publisher marks, creator signatures, logos, watermarks, usernames, or QR codes.",
+    "Do not drift into glossy full-color anime, photorealism, 3D rendering, clean vector infographic, or soft watercolor.",
+    "Do not use excessive digital noise, heavy blur, illegible glitch text, or chaotic splatter over the subject.",
+    "Do not turn the editorial perimeter into unrelated advertising cards, price tags, or app UI."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"crimson-ink-manga-dossier\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: make one original hand-drawn manga hero fill roughly two thirds of the frame in a dramatic low-angle or close wide-angle view. Place an enormous cropped headline behind the hero. Surround the figure with six to ten asymmetric newspaper dossier modules, monochrome manga insets, quote blocks, diagrams, and a lower information card. Let the figure break across the editorial grid.\n- Typography: use extra-bold condensed uppercase sans-serif for the huge distressed headline, compact condensed section labels, small serif newsprint columns, and one large crimson pull quote. Keep the supplied main text readable and use only original copy.\n- Color: restrict the page to warm off-white paper, carbon black, grayscale screentone, and deep crimson red. Use crimson only for the headline, selected character zones, diagrams, architectural silhouettes, rules, and controlled ink accents.\n- Texture and lighting: render crisp variable-weight manga ink linework, hatching, hard cel-like value separation, coarse halftone, aged uncoated paper grain, dry-brush wear, slight offset misregistration, and sharp white highlights.\n- Graphic elements: use rule lines, boxed dossiers, cropped manga frames, interview Q-and-A blocks, warning labels, radial or technical diagrams, city or industrial silhouettes, caption strips, torn wedges, and restrained ink splatter. Adapt these modules laterally for landscape and vertically for portrait.\n\nAvoid: any recognizable copyrighted character, franchise name, official manga panel, copied pose, copied wording, exact source layout, logo, publisher mark, watermark, username, QR code, platform UI, celebrity likeness, glossy full-color anime screenshot, photoreal portrait, 3D render, soft pastel illustration, clean corporate brochure, excessive digital noise, blur, malformed hands, unreadable giant headline, or chaotic text clutter.\n\nImportant content rule: match the high-density crimson manga dossier visual family first, then change the source content completely. Use the specified original subject, action, prop, setting, text, costume, diagrams, and story premise while preserving every style fidelity anchor.",
+  "negative_prompt": "Makima, Chainsaw Man, Control Devil, Devil Hunter, Denji, red braided office woman, golden concentric eyes, black business suit and tie, palm-reaching pose, source quotes, Tokyo Tower, copied skyline, copied manga panels, copied layout, franchise logo, publisher mark, anime title lock, recognizable copyrighted character, celebrity likeness, official uniform, brand mark, signature, watermark, username, QR code, app UI, glossy full-color anime screenshot, photoreal portrait, 3D render, soft pastel, watercolor, clean vector infographic, corporate brochure, rainbow palette, excessive glitch, excessive noise, heavy blur, chaotic splatter, malformed hands, duplicate limbs, unreadable giant headline, random glyph clutter, low resolution",
+  "examples": [
+    {
+      "case_name": "lunar-mechanic",
+      "values": {
+        "SUBJECT": "an original young lunar mechanic with a close-cropped silver undercut and grease-marked cheek",
+        "SUBJECT_ACTION": "bracing one boot on a service crate while lifting a cracked astronaut helmet above shoulder height",
+        "PRODUCT_OR_PROP": "a scratched transparent space helmet with exposed repair clamps and a small oxygen gauge",
+        "LOCATION": "an improvised moon-base repair bay",
+        "BACKGROUND_ELEMENTS": "lunar antenna silhouettes, exploded helmet diagrams, wrench closeups, a tiny rover manga inset, maintenance interview columns, and warning cards",
+        "MAIN_TEXT": "FIX THE VOID",
+        "SECONDARY_TEXT": "LUNAR REPAIR FILE / PRESSURE HOLDS / NIGHT SHIFT 07",
+        "ACCENT_SYMBOL": "broken orbit ring",
+        "WARDROBE_STYLE": "bulky original utility overalls, rolled sleeves, magnetic boots, no recognizable mission patches or logos"
+      }
+    },
+    {
+      "case_name": "storm-cartographer",
+      "values": {
+        "SUBJECT": "an original middle-aged storm cartographer with short wind-tossed black hair and a weathered face",
+        "SUBJECT_ACTION": "twisting toward the viewer while unfurling a long hand-drawn pressure map across the foreground",
+        "PRODUCT_OR_PROP": "a folded weather chart marked with invented isobars and compass notes",
+        "LOCATION": "a cliffside forecasting station above a violent sea",
+        "BACKGROUND_ELEMENTS": "lighthouse silhouettes, wave cross-sections, barometer diagrams, seabird manga insets, field notes, interview columns, and danger labels",
+        "MAIN_TEXT": "READ THE STORM",
+        "SECONDARY_TEXT": "GALE ARCHIVE / PRESSURE FALLING / COAST FILE 12",
+        "ACCENT_SYMBOL": "spiral pressure glyph",
+        "WARDROBE_STYLE": "long original oilskin coat, layered knit collar, utility belt, no naval insignia or branded gear"
+      }
+    },
+    {
+      "case_name": "night-train-conductor",
+      "values": {
+        "SUBJECT": "an original elderly night-train conductor with angular spectacles and a neatly trimmed white mustache",
+        "SUBJECT_ACTION": "leaning from a carriage doorway and snapping an antique pocket watch open near the foreground",
+        "PRODUCT_OR_PROP": "an ornate unbranded pocket watch with an invented railway timetable engraved inside",
+        "LOCATION": "a midnight mountain rail platform",
+        "BACKGROUND_ELEMENTS": "locomotive silhouettes, tunnel diagrams, punched ticket manga closeups, passenger interview snippets, track maps, and delay notices",
+        "MAIN_TEXT": "LAST TRAIN",
+        "SECONDARY_TEXT": "MIDNIGHT ROUTE / PLATFORM FILE / DEPARTURE 00:17",
+        "ACCENT_SYMBOL": "split clock face",
+        "WARDROBE_STYLE": "original high-collar wool uniform and cap with abstract geometric badge, no real railway identity"
+      }
+    },
+    {
+      "case_name": "desert-botanist",
+      "values": {
+        "SUBJECT": "an original desert botanist with cropped curls, protective goggles, and a focused expression",
+        "SUBJECT_ACTION": "kneeling low and holding a newly opened seed capsule toward a hard overhead light",
+        "PRODUCT_OR_PROP": "a strange geometric seed pod containing a tiny luminous sprout",
+        "LOCATION": "a wind-eroded greenhouse at the edge of a salt desert",
+        "BACKGROUND_ELEMENTS": "greenhouse rib silhouettes, root diagrams, specimen manga insets, field journal columns, water-ration labels, and heat charts",
+        "MAIN_TEXT": "SEED AFTER SUN",
+        "SECONDARY_TEXT": "SPECIMEN FILE / WATER REMAINS / GERMINATION DAY 31",
+        "ACCENT_SYMBOL": "radial seed cross-section",
+        "WARDROBE_STYLE": "original wrapped field coat, dust scarf, utility gloves, plain goggles, no brand marks or franchise costume cues"
+      }
+    }
+  ]
+}

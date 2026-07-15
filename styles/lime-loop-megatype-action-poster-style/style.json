@@ -1,0 +1,174 @@
+{
+  "style_name": "Lime Loop Megatype Action Poster",
+  "style_slug": "lime-loop-megatype-action-poster-style",
+  "style_version": "2.1.0",
+  "style_summary": "A high-energy studio action-poster system combining an overhead wide-angle photographic subject, enormous stacked dark-green display type, a continuous fluorescent-lime motion loop, clean white negative space, and crisp commercial lighting.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "Bright white or very pale gray seamless studio field with generous clean negative space and no environmental clutter.",
+    "Three stacked rows of enormous ultra-heavy dark forest-green sans-serif words acting as the poster's architectural background.",
+    "A single photoreal action subject is seen from a steep overhead wide-angle perspective and appears to surge diagonally toward the viewer.",
+    "The subject is large, foreshortened, sharply cut out, and layered in front of some letters while other graphic elements cross the body.",
+    "One thick fluorescent-lime continuous ribbon or orbit sweeps through the frame in a broad loop, creating both foreground and background overlaps.",
+    "The hero prop is pushed toward a frame edge and enlarged by lens perspective, reinforcing speed and physical reach.",
+    "The palette stays tightly controlled: white field, near-black forest type, one saturated green wardrobe family, and neon-lime motion graphics.",
+    "Lighting is crisp high-key commercial studio light with clean facial detail, controlled highlights, and soft directional floor shadows.",
+    "Typography remains flat, solid, untextured, tightly spaced, and partially obscured by the subject without outlines, bevels, or decorative effects.",
+    "The mood is confident, athletic, contemporary, and campaign-ready, balancing minimal graphic design with an explosive decisive-action photograph."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a female tennis player serving or the same one-arm-up, racket-out pose.",
+    "Do not include a tennis racket, tennis ball, tennis court, net, or any tennis-specific equipment.",
+    "Do not use the words GAME, SET, MATCH or any close rearrangement of that phrase.",
+    "Do not copy the exact S-shaped lime path, the exact ball placement, or the source subject's body silhouette.",
+    "Do not reproduce the source woman's face, hairstyle, green shirt with white skirt combination, or identifiable likeness.",
+    "Do not use real sportswear marks, tournament identities, sponsor logos, signatures, watermarks, usernames, or creator IDs.",
+    "Do not reuse the story premise of a tennis serve frozen at contact point.",
+    "Do not duplicate the exact three-line word geometry so closely that the original poster remains recognizable."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "A sparse white studio poster is structured by three giant stacked word rows. A single overhead action photograph slices diagonally across the type, while a thick neon loop travels behind and in front of the subject to stitch the layers together.",
+    "subject_placement": "The hero occupies the center-right or center-left at oversized scale, with one limb or prop extending toward an outer edge. Strong foreshortening makes the body feel airborne and physically close.",
+    "camera_perspective": "Steep top-down, close wide-angle camera with exaggerated hands, feet, or prop scale and a visible soft shadow below the subject.",
+    "typography_system": "Ultra-heavy geometric or grotesk sans serif in near-black forest green, stacked in three short rows, tightly tracked, extremely large, flat-filled, and cropped or interrupted by the subject.",
+    "color_behavior": "Approximately seventy percent white field, twenty percent deep forest typography and shadows, and ten percent fluorescent lime plus saturated green wardrobe accents.",
+    "graphic_grammar": "One uninterrupted thick luminous ribbon creates a broad orbit with smooth vector-like curvature, changing depth as it passes behind and over the photo cutout.",
+    "texture_and_lighting": "Clean photoreal studio finish, high-key light, crisp subject edges, subtle material highlights, soft cast shadow, and almost no visible grain.",
+    "mood": "Bold contemporary sports-editorial confidence with minimal clutter and immediate kinetic impact."
+  },
+  "composition": {
+    "canvas": "Use the requested aspect ratio as a clean full-frame poster with a white or very pale neutral field and no border.",
+    "type_layer": "Build three stacked rows of huge dark forest-green headline words behind the subject; letters should fill most of the width and may crop lightly at the sides.",
+    "photo_layer": "Place one sharply isolated photoreal subject at oversized scale across the center on a strong diagonal, with pronounced overhead foreshortening and one prop near an edge.",
+    "ribbon_layer": "Draw one thick fluorescent-lime loop with a broad continuous curve; alternate its depth so one section passes behind the subject and another crosses the foreground.",
+    "shadow_layer": "Add a restrained soft directional shadow beneath the body and prop to preserve physical depth without turning the background into a scene.",
+    "hierarchy": "Read order is action subject first, neon loop second, giant stacked message third, with any small supporting copy remaining quiet."
+  },
+  "typography": {
+    "display": "Ultra-heavy geometric or grotesk sans serif, uppercase, near-black forest green, extremely large, tightly tracked, flat-filled, and stacked across three rows.",
+    "placement": "Keep the display words behind the subject and let the body naturally obscure portions while preserving enough letterform mass to read the phrase.",
+    "secondary": "Use only one compact uppercase sans label in dark green if needed, aligned to a quiet outer corner and visually subordinate.",
+    "text_behavior": "Typography is a solid structural field rather than decoration; no outlines, shadows, gradients, bevels, textures, italics, or mixed-font collage."
+  },
+  "color_palette": {
+    "dominant": [
+      "clean studio white #F7F8F7",
+      "deep forest green #003B2B"
+    ],
+    "accent": [
+      "fluorescent lime #B8FF45",
+      "saturated sport green #087A3F"
+    ],
+    "supporting": [
+      "soft neutral shadow gray #D9DDDA",
+      "natural skin and material tones"
+    ],
+    "palette_rule": "Keep the white field dominant, use deep green only for megatype and selected wardrobe masses, and reserve fluorescent lime for the single motion loop or one tiny prop accent."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Photoreal commercial studio action photography combined with flat graphic typography and one clean vector-like ribbon.",
+    "lens": "Close wide-angle lens from a steep overhead position, using intentional foreshortening without fisheye distortion that warps the face.",
+    "action": "Freeze a decisive airborne, reaching, striking, turning, or landing instant with clear muscular tension and believable prop interaction.",
+    "lighting": "Large high-key studio source with clean skin and fabric detail, modest contrast, controlled highlights, and one soft directional floor shadow.",
+    "cutout_finish": "Crisp natural silhouette edges with no sticker outline, glow, painterly residue, or halo.",
+    "output_finish": "Polished editorial campaign raster, clean and sharp, with no excessive grain, compression noise, or cinematic background effects."
+  },
+  "design_rules": [
+    "Use exactly one hero subject and one hero prop; avoid supporting characters and scene-building clutter.",
+    "Maintain three short stacked headline rows with consistent scale, weight, color, and tight spacing.",
+    "Let the subject break the typography plane through natural overlap, but keep the words legible as large graphic masses.",
+    "Use one continuous fluorescent-lime loop, not multiple disconnected swooshes, scribbles, arrows, or speed lines.",
+    "Alternate the loop's depth exactly enough to create one convincing behind-and-in-front weave through the photographic layer.",
+    "Keep the subject's decisive action diagonal and use steep overhead foreshortening to exaggerate reach.",
+    "Preserve ample white field around the typography and ribbon despite the oversized subject.",
+    "Keep small copy minimal and generic, and exclude every brand, event, signature, and platform identity mark."
+  ],
+  "do": [
+    "Use a clean white seamless studio ground and high-key photographic finish.",
+    "Use giant dark-green uppercase words as the primary background structure.",
+    "Use a single neon-lime orbit to connect background, subject, and foreground.",
+    "Use top-down wide-angle action photography with strong but believable foreshortening.",
+    "Keep the composition sparse, legible, and visually immediate."
+  ],
+  "avoid": [
+    "No tennis subject matter, tennis equipment, source slogan, source likeness, or copied serve silhouette.",
+    "No real logos, brand names, team marks, event marks, watermarks, usernames, signatures, or QR codes.",
+    "No busy arena, outdoor scenery, audience, dense props, collage panels, stickers, UI chrome, or decorative microcopy blocks.",
+    "No illustration, painterly treatment, 3D character, comic halftone, grunge paper, retro print distress, or glitch effects.",
+    "No dark cinematic background, colored gradient field, heavy motion blur, harsh noise, or low-resolution text.",
+    "No multiple ribbons, particle trails, lightning, flames, splashes, or unrelated graphic ornaments."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Lime Loop Megatype Action Poster style. Style fidelity anchors that must remain clearly visible: {STYLE_FIDELITY_ANCHORS}. Source content that must not be recreated: {SOURCE_CONTENT_TO_AVOID}. Subject and action: {SUBJECT} {SUBJECT_ACTION}, interacting believably with {PRODUCT_OR_PROP}. Setting: {LOCATION}, reduced to a bright white or very pale gray seamless studio field with only {BACKGROUND_ELEMENTS}. Camera and composition: use one close photoreal subject, oversized in frame, seen from a steep overhead wide-angle perspective with strong but believable foreshortening; make the action cross the center diagonally and push one limb or prop toward an outer edge. Typography: place three stacked rows of immense ultra-heavy uppercase geometric sans text reading {MAIN_TEXT} behind the subject, in flat near-black forest green with tight tracking; keep the words readable as graphic masses while the body obscures selected letter areas. Supporting copy: add only one quiet compact uppercase label reading {SECONDARY_TEXT} and a minimal generic {ACCENT_SYMBOL} if it does not add clutter. Graphic element: create exactly one thick fluorescent-lime continuous orbit with smooth broad curvature; weave one segment behind the subject and one segment across the foreground, without copying the source path. Wardrobe and styling: {WARDROBE_STYLE}, using saturated green selectively while keeping all garments and props unbranded. Lighting and finish: crisp high-key commercial studio photography, clean facial and fabric detail, controlled highlights, subtle soft directional shadow below the subject, sharp natural cutout edges, clean flat typography, no visible paper texture. Palette: dominant white field, deep forest-green type, saturated green wardrobe, fluorescent-lime loop, restrained natural material tones. Avoid extra people, environmental scenery, gradients, decorative collage elements, multiple ribbons, motion blur, illustration, 3D rendering, real logos, watermarks, and source content. Important content rule: match the visual style first, then change the source subject, action, prop, text, identity, and story. Render at 4K ultra-high resolution with clean typography and polished campaign-poster detail.",
+  "negative_prompt": "tennis player, tennis serve, tennis racket, tennis ball, tennis court, net, GAME SET MATCH, copied lime path, copied pose, copied face, green shirt with white tennis skirt, real brand logo, sportswear mark, tournament mark, watermark, username, signature, QR code, multiple people, audience, stadium, outdoor landscape, busy scene, collage panels, stickers, UI elements, multiple ribbons, lightning, flames, particles, splashes, gradient background, dark cinematic lighting, painterly illustration, comic art, halftone, grunge, retro distress, 3D character, fisheye face distortion, heavy motion blur, noisy texture, compression artifacts, malformed anatomy, unreadable headline",
+  "examples": [
+    {
+      "case_name": "airborne-bmx-turn",
+      "values": {
+        "SUBJECT": "an unbranded BMX rider",
+        "SUBJECT_ACTION": "whipping the bicycle sideways in a compact airborne turn while looking toward the landing",
+        "PRODUCT_OR_PROP": "a matte silver BMX bicycle with one fluorescent-lime grip",
+        "LOCATION": "a seamless high-key photo studio",
+        "BACKGROUND_ELEMENTS": "the giant stacked headline, the single lime orbit, and a soft bicycle shadow",
+        "MAIN_TEXT": "RIDE FIND AIR",
+        "SECONDARY_TEXT": "MOTION STUDY 01",
+        "ACCENT_SYMBOL": "small centered dot",
+        "WARDROBE_STYLE": "deep green technical jersey, charcoal trousers, plain white helmet, and unbranded shoes"
+      }
+    },
+    {
+      "case_name": "freestyle-dance-freeze",
+      "values": {
+        "SUBJECT": "a contemporary freestyle dancer",
+        "SUBJECT_ACTION": "holding a dramatic one-hand balance with one leg sweeping upward toward the lens",
+        "PRODUCT_OR_PROP": "a pair of plain over-ear headphones held loosely in the free hand",
+        "LOCATION": "a seamless high-key photo studio",
+        "BACKGROUND_ELEMENTS": "the giant stacked headline, the single lime orbit, and a soft body shadow",
+        "MAIN_TEXT": "MOVE FEEL FLOW",
+        "SECONDARY_TEXT": "RHYTHM STUDY 02",
+        "ACCENT_SYMBOL": "short horizontal dash",
+        "WARDROBE_STYLE": "forest-green cropped jacket, pale neutral wide trousers, and unbranded dark sneakers"
+      }
+    },
+    {
+      "case_name": "drum-strike-surge",
+      "values": {
+        "SUBJECT": "a studio percussionist",
+        "SUBJECT_ACTION": "lunging forward during a decisive downward strike with both arms at different depths",
+        "PRODUCT_OR_PROP": "one compact matte-black floor drum and two plain wooden drumsticks",
+        "LOCATION": "a seamless high-key photo studio",
+        "BACKGROUND_ELEMENTS": "the giant stacked headline, the single lime orbit, and a restrained drum shadow",
+        "MAIN_TEXT": "COUNT HIT REPEAT",
+        "SECONDARY_TEXT": "TEMPO STUDY 03",
+        "ACCENT_SYMBOL": "small plus sign",
+        "WARDROBE_STYLE": "saturated green sleeveless top, off-white work trousers, and unbranded black boots"
+      }
+    },
+    {
+      "case_name": "parkour-vault-flight",
+      "values": {
+        "SUBJECT": "an unbranded parkour athlete",
+        "SUBJECT_ACTION": "vaulting over a low block with one hand planted and both legs cutting diagonally through the air",
+        "PRODUCT_OR_PROP": "a simple pale-gray rectangular vault block",
+        "LOCATION": "a seamless high-key photo studio",
+        "BACKGROUND_ELEMENTS": "the giant stacked headline, the single lime orbit, the vault block, and a soft landing shadow",
+        "MAIN_TEXT": "RUN LEAP LAND",
+        "SECONDARY_TEXT": "FLIGHT STUDY 04",
+        "ACCENT_SYMBOL": "small open circle",
+        "WARDROBE_STYLE": "dark forest athletic shirt, white loose shorts over neutral compression tights, and unbranded lime-accent trainers"
+      }
+    }
+  ]
+}

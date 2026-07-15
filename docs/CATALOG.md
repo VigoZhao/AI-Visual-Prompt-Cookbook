@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 94 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 96 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Crimson Ink Manga Dossier
+
+<a href="../styles/crimson-ink-manga-dossier"><img src="../assets/thumbs/crimson-ink-manga-dossier-16x9.jpg" width="720" alt="Crimson Ink Manga Dossier preview"></a>
+
+A high-density manga editorial dossier poster built from one dramatically foreshortened illustrated hero, oversized distressed condensed headlines, modular newspaper sidebars, monochrome comic insets, and a strict crimson-black-warm-paper palette.
+
+Files: [style.json](../styles/crimson-ink-manga-dossier/style.json) · [Copy Prompt](copy-prompts/crimson-ink-manga-dossier.md) · [16:9 preview](../styles/crimson-ink-manga-dossier/preview-16x9.jpg) · [9:16 preview](../styles/crimson-ink-manga-dossier/preview-9x16.jpg) · [Folder](../styles/crimson-ink-manga-dossier)
+
+---
+
+### Lime Loop Megatype Action Poster
+
+<a href="../styles/lime-loop-megatype-action-poster-style"><img src="../assets/thumbs/lime-loop-megatype-action-poster-style-16x9.jpg" width="720" alt="Lime Loop Megatype Action Poster preview"></a>
+
+A high-energy studio action-poster system combining an overhead wide-angle photographic subject, enormous stacked dark-green display type, a continuous fluorescent-lime motion loop, clean white negative space, and crisp commercial lighting.
+
+Files: [style.json](../styles/lime-loop-megatype-action-poster-style/style.json) · [Copy Prompt](copy-prompts/lime-loop-megatype-action-poster-style.md) · [16:9 preview](../styles/lime-loop-megatype-action-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/lime-loop-megatype-action-poster-style/preview-9x16.jpg) · [Folder](../styles/lime-loop-megatype-action-poster-style)
+
+---
 
 ### Yellow Graffiti Fisheye Manga Street Poster Style
 

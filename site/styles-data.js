@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 94,
+  "styleCount": 96,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Crimson Ink Manga Dossier",
+      "slug": "crimson-ink-manga-dossier",
+      "category": "Type Posters",
+      "description": "High-density manga dossier posters with a foreshortened hero, distressed condensed headlines, newspaper sidebars, and a crimson-black-paper palette.",
+      "summary": "A high-density manga editorial dossier poster built from one dramatically foreshortened illustrated hero, oversized distressed condensed headlines, modular newspaper sidebars, monochrome comic insets, and a strict crimson-black-warm-paper palette.",
+      "preview16": "../styles/crimson-ink-manga-dossier/preview-16x9.jpg",
+      "preview9": "../styles/crimson-ink-manga-dossier/preview-9x16.jpg",
+      "styleJson": "../styles/crimson-ink-manga-dossier/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/crimson-ink-manga-dossier.md",
+      "folder": "../styles/crimson-ink-manga-dossier/",
+      "anchors": [
+        "One dominant hand-drawn manga character occupies roughly two thirds of the frame and breaks across surrounding editorial panels.",
+        "Dramatic low-angle or close wide-angle perspective with strong foreground foreshortening and a confident upward gaze.",
+        "Oversized uppercase condensed sans-serif headline spans the upper field, partially hidden behind the hero and cropped by the edges.",
+        "Dense asymmetrical magazine-newspaper layout with narrow side columns, boxed dossiers, pull quotes, captions, and small comic insets.",
+        "Restricted palette of deep crimson red, carbon black, warm off-white paper, and grayscale illustration, with red used as the sole chromatic accent.",
+        "Crisp black manga linework, selective gray screentone, white highlights, and restrained crimson tinting on the central figure."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "lunar-mechanic",
+      "copyPrompt": "Use the \"Crimson Ink Manga Dossier\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an original young lunar mechanic with a close-cropped silver undercut and grease-marked cheek\nSubject action: bracing one boot on a service crate while lifting a cracked astronaut helmet above shoulder height\nProduct or prop: a scratched transparent space helmet with exposed repair clamps and a small oxygen gauge\nLocation: an improvised moon-base repair bay\nBackground elements: lunar antenna silhouettes, exploded helmet diagrams, wrench closeups, a tiny rover manga inset, maintenance interview columns, and warning cards\nMain text: FIX THE VOID\nSecondary text: LUNAR REPAIR FILE / PRESSURE HOLDS / NIGHT SHIFT 07\nAccent symbol: broken orbit ring\nWardrobe style: bulky original utility overalls, rolled sleeves, magnetic boots, no recognizable mission patches or logos\n\nStyle direction:\nA high-density manga editorial dossier poster built from one dramatically foreshortened\nillustrated hero, oversized distressed condensed headlines, modular newspaper sidebars,\nmonochrome comic insets, and a strict crimson-black-warm-paper palette.\n\nKeep visible:\n- One dominant hand-drawn manga character occupies roughly two thirds of the frame and breaks across surrounding editorial panels.\n- Dramatic low-angle or close wide-angle perspective with strong foreground foreshortening and a confident upward gaze.\n- Oversized uppercase condensed sans-serif headline spans the upper field, partially hidden behind the hero and cropped by the edges.\n- Dense asymmetrical magazine-newspaper layout with narrow side columns, boxed dossiers, pull quotes, captions, and small comic insets.\n- Restricted palette of deep crimson red, carbon black, warm off-white paper, and grayscale illustration, with red used as the sole chromatic accent.\n\nAvoid:\nMakima, Chainsaw Man, Control Devil, Devil Hunter, Denji, red braided office woman, golden\nconcentric eyes, black business suit and tie, palm-reaching pose, source quotes, Tokyo Tower,\ncopied skyline, copied manga panels, copied layout, franchise logo, publisher mark, anime title\nlock, recognizable copyrighted character, celebrity likeness, official uniform, brand mark,\nsignature, watermark, username, QR code, app UI, glossy full-color anime screenshot, photoreal\nportrait, 3D render, soft pastel, watercolor, clean vector infographic, corporate brochure,\nrainbow palette, excessive glitch, excessive noise, heavy blur, chaotic splatter, malformed\nhands, duplicate limbs, unreadable giant headline, random glyph clutter, low resolution\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Lime Loop Megatype Action Poster",
+      "slug": "lime-loop-megatype-action-poster-style",
+      "category": "Type Posters",
+      "description": "Studio action posters with an overhead subject, stacked dark-green megatype, a fluorescent-lime motion loop, and clean white space.",
+      "summary": "A high-energy studio action-poster system combining an overhead wide-angle photographic subject, enormous stacked dark-green display type, a continuous fluorescent-lime motion loop, clean white negative space, and crisp commercial lighting.",
+      "preview16": "../styles/lime-loop-megatype-action-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/lime-loop-megatype-action-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/lime-loop-megatype-action-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/lime-loop-megatype-action-poster-style.md",
+      "folder": "../styles/lime-loop-megatype-action-poster-style/",
+      "anchors": [
+        "Bright white or very pale gray seamless studio field with generous clean negative space and no environmental clutter.",
+        "Three stacked rows of enormous ultra-heavy dark forest-green sans-serif words acting as the poster's architectural background.",
+        "A single photoreal action subject is seen from a steep overhead wide-angle perspective and appears to surge diagonally toward the viewer.",
+        "The subject is large, foreshortened, sharply cut out, and layered in front of some letters while other graphic elements cross the body.",
+        "One thick fluorescent-lime continuous ribbon or orbit sweeps through the frame in a broad loop, creating both foreground and background overlaps.",
+        "The hero prop is pushed toward a frame edge and enlarged by lens perspective, reinforcing speed and physical reach."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "airborne-bmx-turn",
+      "copyPrompt": "Use the \"Lime Loop Megatype Action Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an unbranded BMX rider\nSubject action: whipping the bicycle sideways in a compact airborne turn while looking toward the landing\nProduct or prop: a matte silver BMX bicycle with one fluorescent-lime grip\nLocation: a seamless high-key photo studio\nBackground elements: the giant stacked headline, the single lime orbit, and a soft bicycle shadow\nMain text: RIDE FIND AIR\nSecondary text: MOTION STUDY 01\nAccent symbol: small centered dot\nWardrobe style: deep green technical jersey, charcoal trousers, plain white helmet, and unbranded shoes\n\nStyle direction:\nA high-energy studio action-poster system combining an overhead wide-angle photographic subject,\nenormous stacked dark-green display type, a continuous fluorescent-lime motion loop, clean white\nnegative space, and crisp commercial lighting.\n\nKeep visible:\n- Bright white or very pale gray seamless studio field with generous clean negative space and no environmental clutter.\n- Three stacked rows of enormous ultra-heavy dark forest-green sans-serif words acting as the poster's architectural background.\n- A single photoreal action subject is seen from a steep overhead wide-angle perspective and appears to surge diagonally toward the viewer.\n- The subject is large, foreshortened, sharply cut out, and layered in front of some letters while other graphic elements cross the body.\n- One thick fluorescent-lime continuous ribbon or orbit sweeps through the frame in a broad loop, creating both foreground and background overlaps.\n\nAvoid:\ntennis player, tennis serve, tennis racket, tennis ball, tennis court, net, GAME SET MATCH,\ncopied lime path, copied pose, copied face, green shirt with white tennis skirt, real brand\nlogo, sportswear mark, tournament mark, watermark, username, signature, QR code, multiple\npeople, audience, stadium, outdoor landscape, busy scene, collage panels, stickers, UI elements,\nmultiple ribbons, lightning, flames, particles, splashes, gradient background, dark cinematic\nlighting, painterly illustration, comic art, halftone, grunge, retro distress, 3D character,\nfisheye face distortion, heavy motion blur, noisy texture, compression artifacts, malformed\nanatomy, unreadable headline\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Yellow Graffiti Fisheye Manga Street Poster Style",
       "slug": "yellow-graffiti-fisheye-manga-street-poster-style",

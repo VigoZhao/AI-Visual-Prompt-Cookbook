@@ -21,6 +21,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Cozy Bedroom Doodle Companion Snapshot Style | [Copy Prompt](cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](../../styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
 | Crayon Catalog Doodle Poster Style | [Copy Prompt](crayon-catalog-doodle-poster-style.md) | [style.json](../../styles/crayon-catalog-doodle-poster-style/style.json) |
 | Cream Smoke City Manga Poster Style | [Copy Prompt](cream-smoke-city-manga-poster-style.md) | [style.json](../../styles/cream-smoke-city-manga-poster-style/style.json) |
+| Crimson Ink Manga Dossier | [Copy Prompt](crimson-ink-manga-dossier.md) | [style.json](../../styles/crimson-ink-manga-dossier/style.json) |
 | Cyan Red Shockwave Type Poster Style | [Copy Prompt](cyan-red-shockwave-type-poster-style.md) | [style.json](../../styles/cyan-red-shockwave-type-poster-style/style.json) |
 | Dusk Cyan Layered Type Poster Style | [Copy Prompt](dusk-cyan-layered-type-poster-style.md) | [style.json](../../styles/dusk-cyan-layered-type-poster-style/style.json) |
 | Electric Blue Cutout Manga Poster Style | [Copy Prompt](electric-blue-cutout-manga-poster-style.md) | [style.json](../../styles/electric-blue-cutout-manga-poster-style/style.json) |
@@ -39,6 +40,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Kinetic Editorial Photo Collage | [Copy Prompt](kinetic-editorial-photo-collage-style.md) | [style.json](../../styles/kinetic-editorial-photo-collage-style/style.json) |
 | Kinetic Geometric Doodle Cutouts | [Copy Prompt](kinetic-geometric-doodle-cutouts.md) | [style.json](../../styles/kinetic-geometric-doodle-cutouts/style.json) |
 | Kinetic Luxury Street Fashion Cover Style | [Copy Prompt](kinetic-luxury-street-fashion-cover-style.md) | [style.json](../../styles/kinetic-luxury-street-fashion-cover-style/style.json) |
+| Lime Loop Megatype Action Poster | [Copy Prompt](lime-loop-megatype-action-poster-style.md) | [style.json](../../styles/lime-loop-megatype-action-poster-style/style.json) |
 | Liquid Chrome Clearance Poster Style | [Copy Prompt](liquid-chrome-clearance-poster-style.md) | [style.json](../../styles/liquid-chrome-clearance-poster-style/style.json) |
 | Loose Scribble Riso Print Style | [Copy Prompt](loose-scribble-riso-print-style.md) | [style.json](../../styles/loose-scribble-riso-print-style/style.json) |
 | Luxury Perspective Checkerboard Editorial | [Copy Prompt](luxury-perspective-checkerboard-editorial.md) | [style.json](../../styles/luxury-perspective-checkerboard-editorial/style.json) |
