@@ -1,0 +1,168 @@
+{
+  "style_name": "Xerox Neon Editorial Collage",
+  "style_slug": "xerox-neon-editorial-collage-style",
+  "style_version": "2.1",
+  "style_summary": "A high-impact editorial poster system combining an oversized distressed black headline, one monochrome halftone photo cutout, electric cyan and green registration shadows, horizontal fluorescent paint swashes, loose marker scribbles, and a pale photocopied paper field.",
+  "environment_variables": {
+    "SUBJECT": "one recognizable but non-famous human subject",
+    "SUBJECT_ACTION": "a simple upward, balancing, reaching, listening, or poised gesture",
+    "PRODUCT_OR_PROP": "one isolated object interacting with the subject",
+    "LOCATION": "an implied editorial setting flattened into a paper poster field",
+    "BACKGROUND_ELEMENTS": "a few broad paint swashes and sparse marks",
+    "MAIN_TEXT": "one short three-to-seven-letter headline",
+    "SECONDARY_TEXT": "one short handwritten supporting phrase",
+    "ACCENT_SYMBOL": "one loose looping marker gesture",
+    "WARDROBE_STYLE": "unbranded clothing with a simple readable silhouette",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A single oversized monochrome photographic cutout occupies the lower center and overlaps the headline.",
+    "One huge condensed uppercase word spans nearly the full width behind the subject as the dominant background architecture.",
+    "Headline letters are dry-brushed, eroded, irregular, and nearly black rather than clean digital type.",
+    "The base is a pale gray-white photocopied paper field with visible dot grain and softly mottled fibers.",
+    "The subject is rendered in hard black, white, and gray halftone with newspaper-like posterization and no smooth skin tones.",
+    "A cyan block shadow and a thin electric green misregistration rim separate the cutout from the headline.",
+    "Broad fluorescent paint swashes cross horizontally behind the subject in cyan, hot coral, magenta, and warm yellow-orange.",
+    "Sparse black looping marker scribbles cross the margins and occasionally pass over the figure.",
+    "A small handwritten secondary phrase sits on one colored swash, contrasting with the monumental headline.",
+    "Depth stays shallow and collage-flat, built from overlapping paper, ink, paint, and cutout layers rather than realistic space.",
+    "Contrast is hard and graphic while the colored accents remain flat, bright, and limited in area.",
+    "The mood is urgent, youthful, rebellious, and art-directed like an independent culture magazine cover."
+  ],
+  "source_content_to_avoid": [
+    "Lionel Messi or any identifiable celebrity athlete",
+    "an Argentina striped number-ten football jersey or national-team crest",
+    "balancing a football on the forehead or head",
+    "a football as the featured prop",
+    "the giant word GOAT or the small vertical word THE",
+    "the sentence Football has many idols but only one Messi",
+    "the original frontal footballer pose and body silhouette",
+    "the Daniel Design Creative signature or any creator mark",
+    "Adidas marks, AFA marks, national-team marks, sponsor marks, or other logos",
+    "the exact paint-stroke positions, exact letter shapes, or exact scribble paths from the reference"
+  ],
+  "visual_deconstruction": {
+    "overall_style": "Photocopied culture-magazine cover, distressed type poster, fluorescent mixed-media editorial collage.",
+    "layout": "A monumental background word establishes the frame; one centered cutout rises from the bottom and interrupts it; color strokes form a broken horizontal middle band.",
+    "subject_placement": "Single figure, roughly half to two-thirds frame height, lower-center anchored, with the head or prop entering the headline zone.",
+    "perspective": "Flat frontal or slightly low editorial portrait perspective with almost no environmental depth.",
+    "texture": "Coarse newspaper halftone, Xerox dust, paper fibers, dry brush erosion, torn cutout edges, and controlled misregistration.",
+    "lighting": "Hard posterized tonal separation rather than modeled photographic illumination.",
+    "mood": "Defiant, kinetic, celebratory, handmade, and contemporary despite the analog print finish."
+  },
+  "composition": [
+    "Set one enormous distressed word behind all other elements and let portions crop at the frame edges.",
+    "Anchor a single full or three-quarter figure at lower center, overlapping at least two headline letters.",
+    "Place the interactive prop close to the head, hands, or upper torso to form a compact focal cluster.",
+    "Run three to five broad flat paint swashes across the middle third, with uneven torn or dry-brush ends.",
+    "Preserve generous pale paper around the loud elements so the poster remains graphic rather than cluttered.",
+    "Use only a few sweeping marker lines as foreground gestures."
+  ],
+  "typography": {
+    "headline": "Ultra-condensed, very heavy uppercase display lettering, hand-painted or dry-brushed, eroded along every edge, scaled as background architecture.",
+    "secondary": "Small loose monoline handwriting or scratchy narrow capitals set directly on a color swash.",
+    "hierarchy": "One monumental word first, central cutout second, compact handwritten phrase third; no additional text tiers.",
+    "text_behavior": "Short invented wording only; imperfect alignment and handmade baselines are desirable."
+  },
+  "color_palette": {
+    "paper_white": "#E9E9E7",
+    "carbon_black": "#090909",
+    "halftone_gray": "#777777",
+    "electric_cyan": "#00A9C7",
+    "registration_green": "#00FF70",
+    "hot_coral": "#FF4528",
+    "signal_magenta": "#E452D9",
+    "warm_yellow": "#FFB526"
+  },
+  "image_treatment": {
+    "subject": "Convert the photograph into a high-contrast grayscale newspaper halftone cutout with coarse dots, crushed blacks, pale highlights, and rough hand-cut edges.",
+    "separation": "Add a chunky cyan offset shadow plus a very thin green misregistration edge, never a smooth neon glow.",
+    "background": "Use pale scanned paper with subtle dot mesh and mottled fibers; keep it predominantly light.",
+    "finish": "Analog collage and screen-print character with deliberate but controlled grain; retain readable silhouettes and clean color fields."
+  },
+  "design_rules": [
+    "Build hierarchy from one word, one subject, one prop, one small phrase, and a restrained set of paint strokes.",
+    "Keep all imagery flat and tactile; overlap replaces realistic perspective.",
+    "Let cyan and green hug the subject while coral, magenta, and yellow travel horizontally.",
+    "Use distressed edges consistently across headline, paint, and cutout without burying the composition in random noise.",
+    "Keep every subject, prop, phrase, garment, and identity mark original and unbranded."
+  ],
+  "do": [
+    "Use one bold central cutout with a simple, instantly readable action.",
+    "Maintain the monumental distressed headline as the largest visual mass.",
+    "Use coarse halftone and paper grain at visibly different scales.",
+    "Keep accent colors flat, fluorescent, and spatially separated.",
+    "Allow imperfect ink edges and slight registration offsets.",
+    "Use fresh subjects, props, settings, and wording for every application."
+  ],
+  "avoid": [
+    "Do not recreate the football theme, celebrity identity, uniform, pose, wording, logos, or signature from the source.",
+    "Do not use glossy 3D typography, smooth gradients, soft neon glow, polished vector edges, or cinematic depth.",
+    "Do not add multiple people, dense scenery, sticker clutter, interface panels, or long copy.",
+    "Do not make the figure full-color or smoothly retouched.",
+    "Do not let grain become muddy pixel noise that destroys faces, type, or silhouettes.",
+    "Do not include watermarks, usernames, creator IDs, QR codes, platform marks, or brand logos."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Xerox Neon Editorial Collage\" visual style. Style fidelity anchors have first priority: {STYLE_FIDELITY_ANCHORS} Source content that must not be recreated: {SOURCE_CONTENT_TO_AVOID} Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop: {PRODUCT_OR_PROP}. Implied location: {LOCATION}. Wardrobe: {WARDROBE_STYLE}. Background details: {BACKGROUND_ELEMENTS}. Main headline: \"{MAIN_TEXT}\". Secondary handwritten phrase: \"{SECONDARY_TEXT}\". Accent gesture: {ACCENT_SYMBOL}. Composition: place one oversized monochrome halftone photo cutout at lower center, overlapping a single enormous ultra-condensed distressed black uppercase word that spans nearly the full frame behind it. Keep the depth collage-flat and the pale paper field open. Position the prop near the head, hands, or upper torso as a compact focal cluster. Cross the middle with three to five broad fluorescent dry-brush swashes in cyan, hot coral, magenta, and yellow-orange. Add only a few loose black marker loops. Typography: make the main word monumental, dry-brushed, eroded, and irregular; make the secondary phrase small, scratchy, handwritten, and placed on one colored swash. Color: approximately seventy percent pale paper and grayscale carbon ink, with restricted flat fluorescent accents. Image treatment: convert the subject into coarse black-white-gray newspaper halftone with crushed blacks, rough cutout edges, a chunky cyan offset shadow, and a thin electric-green misregistration rim. Use visible paper fibers, Xerox dust, screen-print ink skips, and tactile analog texture, but keep the face, silhouette, and headline legible. Lighting is hard posterized tonal separation, not realistic modeling. The result should feel urgent, youthful, rebellious, and art-directed like an independent culture magazine cover. Avoid glossy 3D, gradients, soft glow, smooth vector art, cinematic scenery, multiple subjects, dense stickers, long paragraphs, full-color skin, brand marks, logos, signatures, usernames, QR codes, platform marks, and watermarks. Important content rule: match the visual system first, then use wholly new subject matter, action, prop, phrase, wardrobe, and story premise.",
+  "negative_prompt": "identifiable celebrity, famous athlete, football, soccer ball, Argentina jersey, number ten jersey, national-team crest, GOAT headline, copied slogan, copied pose, creator signature, watermark, username, QR code, platform logo, brand logo, sponsor mark, multiple people, detailed scenery, sticker overload, long paragraph, glossy 3D type, chrome, gradient, neon glow, smooth vector edges, cinematic lighting, realistic depth, full-color skin, beauty retouching, excessive random noise, illegible headline, muddy silhouette",
+  "examples": [
+    {
+      "case_name": "rooftop-radio-balance",
+      "values": {
+        "SUBJECT": "a young rooftop radio host",
+        "SUBJECT_ACTION": "tilting their head while balancing a compact portable radio on one raised palm",
+        "PRODUCT_OR_PROP": "an unbranded rectangular portable radio",
+        "LOCATION": "an implied city rooftop reduced to a flat editorial poster field",
+        "BACKGROUND_ELEMENTS": "two tiny antenna ticks and broad torn paint swashes",
+        "MAIN_TEXT": "TUNE",
+        "SECONDARY_TEXT": "find the hidden frequency",
+        "ACCENT_SYMBOL": "a long looping signal line",
+        "WARDROBE_STYLE": "an unbranded oversized windbreaker and plain dark trousers"
+      }
+    },
+    {
+      "case_name": "ceramic-studio-poise",
+      "values": {
+        "SUBJECT": "a contemporary ceramic artist",
+        "SUBJECT_ACTION": "looking upward while holding a small sculptural vessel beside one cheek",
+        "PRODUCT_OR_PROP": "an asymmetrical unbranded clay vessel",
+        "LOCATION": "an implied ceramics studio flattened into a paper collage",
+        "BACKGROUND_ELEMENTS": "one shelf-line fragment and layered fluorescent paint bars",
+        "MAIN_TEXT": "FORM",
+        "SECONDARY_TEXT": "shape follows instinct",
+        "ACCENT_SYMBOL": "a sweeping hand-drawn contour loop",
+        "WARDROBE_STYLE": "a plain work jacket and dark apron without logos"
+      }
+    },
+    {
+      "case_name": "night-courier-reach",
+      "values": {
+        "SUBJECT": "an urban bicycle courier",
+        "SUBJECT_ACTION": "reaching upward to catch a folded paper map suspended above one hand",
+        "PRODUCT_OR_PROP": "a folded abstract street map without readable brands",
+        "LOCATION": "an implied late-night street reduced to graphic paper layers",
+        "BACKGROUND_ELEMENTS": "three directional ticks and staggered fluorescent swashes",
+        "MAIN_TEXT": "ROAM",
+        "SECONDARY_TEXT": "take the long way home",
+        "ACCENT_SYMBOL": "a loose route line curling across the margin",
+        "WARDROBE_STYLE": "an unbranded reflective shell over simple dark layers"
+      }
+    },
+    {
+      "case_name": "garden-sound-listener",
+      "values": {
+        "SUBJECT": "a field-recording enthusiast",
+        "SUBJECT_ACTION": "standing poised and listening while lifting a compact microphone above shoulder height",
+        "PRODUCT_OR_PROP": "a small unbranded handheld microphone with a fuzzy windscreen",
+        "LOCATION": "an implied botanical greenhouse flattened into an editorial paper field",
+        "BACKGROUND_ELEMENTS": "two simplified leaf silhouettes and broken fluorescent brush bands",
+        "MAIN_TEXT": "HUSH",
+        "SECONDARY_TEXT": "the quiet has a pulse",
+        "ACCENT_SYMBOL": "a broad waveform-like marker loop",
+        "WARDROBE_STYLE": "a plain utility vest over a light long-sleeve shirt"
+      }
+    }
+  ]
+}

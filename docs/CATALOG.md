@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 96 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 98 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Pink Anime Motorcycle Spec Poster Style
+
+<a href="../styles/pink-anime-motorcycle-spec-poster-style"><img src="../assets/thumbs/pink-anime-motorcycle-spec-poster-style-16x9.jpg" width="720" alt="Pink Anime Motorcycle Spec Poster Style preview"></a>
+
+A dense motorsport dossier poster system that pairs one original anime rider with one hero motorcycle. Each poster combines a glossy three-quarter product view, a full-body cel-shaded character, oversized italic model-code typography, a pale cream and hot-magenta editorial grid, a monochrome halftone character echo, a three-panel detail strip, and a compact technical specification card. The series keeps one visual grammar while changing the motorcycle, rider styling, accent color, text, and performance details in every case.
+
+Files: [style.json](../styles/pink-anime-motorcycle-spec-poster-style/style.json) · [Copy Prompt](copy-prompts/pink-anime-motorcycle-spec-poster-style.md) · [16:9 preview](../styles/pink-anime-motorcycle-spec-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/pink-anime-motorcycle-spec-poster-style/preview-9x16.jpg) · [Folder](../styles/pink-anime-motorcycle-spec-poster-style)
+
+---
+
+### Xerox Neon Editorial Collage
+
+<a href="../styles/xerox-neon-editorial-collage-style"><img src="../assets/thumbs/xerox-neon-editorial-collage-style-16x9.jpg" width="720" alt="Xerox Neon Editorial Collage preview"></a>
+
+A high-impact editorial poster system combining an oversized distressed black headline, one monochrome halftone photo cutout, electric cyan and green registration shadows, horizontal fluorescent paint swashes, loose marker scribbles, and a pale photocopied paper field.
+
+Files: [style.json](../styles/xerox-neon-editorial-collage-style/style.json) · [Copy Prompt](copy-prompts/xerox-neon-editorial-collage-style.md) · [16:9 preview](../styles/xerox-neon-editorial-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/xerox-neon-editorial-collage-style/preview-9x16.jpg) · [Folder](../styles/xerox-neon-editorial-collage-style)
+
+---
 
 ### Crimson Ink Manga Dossier
 

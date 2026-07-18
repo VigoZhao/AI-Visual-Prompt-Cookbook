@@ -1,0 +1,185 @@
+{
+  "style_name": "Pink Anime Motorcycle Spec Poster Style",
+  "style_slug": "pink-anime-motorcycle-spec-poster-style",
+  "style_version": "2.1",
+  "style_summary": "A dense motorsport dossier poster system that pairs one original anime rider with one hero motorcycle. Each poster combines a glossy three-quarter product view, a full-body cel-shaded character, oversized italic model-code typography, a pale cream and hot-magenta editorial grid, a monochrome halftone character echo, a three-panel detail strip, and a compact technical specification card. The series keeps one visual grammar while changing the motorcycle, rider styling, accent color, text, and performance details in every case.",
+  "environment_variables": {
+    "SUBJECT": "one original fictional anime motorcycle rider or pit-racing character",
+    "SUBJECT_ACTION": "confident pose and interaction beside the motorcycle",
+    "PRODUCT_OR_PROP": "one specific motorcycle model or clearly described superbike archetype, shown without copied logos",
+    "LOCATION": "clean cream studio poster stage with a shallow motorsport paddock mood",
+    "BACKGROUND_ELEMENTS": "halftone character echo, diagonal speed bands, checkered micro-patterns, three detail crops, specification card, slanted labels, and a soft ground shadow",
+    "MAIN_TEXT": "short original motorcycle model code or campaign headline",
+    "SECONDARY_TEXT": "short original technical tagline and compact fictional performance labels",
+    "ACCENT_SYMBOL": "checkered strip, triple slash, speed spark, racing number, or angular chevron",
+    "WARDROBE_STYLE": "original racing-inspired fashion coordinated with the motorcycle accent color, with no copied character costume",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "Dense premium motorsport dossier hierarchy on a warm cream page with controlled negative space in the upper-left and around the outer margins.",
+    "One hero motorcycle dominates the lower-middle in a dramatic front three-quarter view, with glossy semi-real materials, crisp fairing edges, and a low soft studio shadow.",
+    "One full-body original cel-shaded anime rider stands beside and overlaps the motorcycle, creating a clean photo-illustration hybrid silhouette.",
+    "Oversized italic condensed sans model-code typography occupies the upper-left, using black and hot magenta with tight tracking and aggressive horizontal scale.",
+    "A large monochrome hot-magenta halftone echo of the rider sits behind the live character as a cropped editorial watermark shape.",
+    "The lower section contains three bordered close-up panels for fairing, cockpit, exhaust, wheel, or tail details, followed by a compact black technical specification card.",
+    "Slanted magenta ribbons, triple slashes, checkered micro-patterns, tiny arrows, vertical side labels, and sparse four-point sparkles form the graphic grammar.",
+    "Palette behavior stays roughly sixty-five percent warm cream, twenty percent pink or magenta, ten percent black, and five percent motorcycle-specific accent color.",
+    "Characters use clean anime linework, bright cel shading, controlled highlights, long fashion proportions, and expressive but original faces.",
+    "Motorcycles are rendered more materially than the character, but both share crisp edges, high contrast, and polished commercial key art lighting.",
+    "Fine halftone dots and subtle uncoated print grain add tactile editorial texture while the hero bike remains clean and sharp.",
+    "The mood is stylish, energetic, technical, collectible, and enthusiast-focused rather than cinematic, gritty, or photoreal documentary."
+  ],
+  "source_content_to_avoid": [
+    "The exact pink Mercedes-AMG GT3 race car, its body graphics, racing number, sponsors, logos, grille, or rear wing.",
+    "The named or recognizable source anime character, her face, wink, salute pose, goggles, pink outfit, boots, umbrella, or body silhouette.",
+    "The source title, team name, character name, slogans, specification values, label wording, and vertical text.",
+    "The exact relationship of the source character leaning against the car while holding an umbrella.",
+    "Any copied manufacturer logo, racing team logo, sponsor mark, creator signature, username, watermark, QR code, or platform mark.",
+    "An exact tracing of the source panel dimensions, text positions, decorative marks, or crop boundaries.",
+    "A four-wheel race-car story premise; every default case must instead feature one motorcycle and one original rider."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "anime motorsport editorial poster, itasha-inspired racing dossier, technical product key art, character-and-machine collectible print",
+    "composition": "The page reads top-to-bottom as brandless racing identity, enormous model code, hero machine-and-character pairing, detail inspection strip, then technical data and a closing slogan. A large hot-magenta halftone character echo fills the upper-right background without competing with the foreground rider.",
+    "subject_placement": "The motorcycle spans roughly fifty-five to sixty-five percent of the width and sits low in a front three-quarter view. The rider stands on the opposite side of the bike's leading mass, overlaps its rear or side silhouette, and remains fully visible from head to boots.",
+    "camera_or_perspective": "Use a low eye-level to slightly elevated front three-quarter motorcycle view that exaggerates the front fairing and wheel while preserving the full machine. The rider is shown at a clean full-body fashion angle rather than strong foreshortening.",
+    "typography_style": "Extra-bold italic condensed sans headlines, huge alphanumeric model codes, compact technical grotesk labels, slanted ribbon captions, vertical side text, micro uppercase annotations, and occasional brush-italic closing copy.",
+    "color_behavior": "Warm ivory is the field; hot pink and magenta define the core identity; black anchors type and specifications; white keeps panels crisp; one controlled vehicle-specific accent distinguishes each case without replacing the pink system.",
+    "graphic_elements": "Checkered micro-strips, triple diagonal slashes, racing-number boxes, arrow bullets, sparkles, speed bands, vertical labels, thin rules, three bordered detail crops, and a black angled specification block.",
+    "texture_finish": "Crisp commercial rendering over subtle paper grain, with halftone dots in the background portrait, clean vector-like editorial shapes, restrained glossy highlights on the bike, and minimal soft shadows.",
+    "lighting": "Bright soft studio key light from upper-left, controlled glossy reflections on paint and metal, gentle contact shadow beneath the motorcycle and rider, and almost no environmental cast.",
+    "mood": "Energetic, fashionable, technical, collectible, optimistic, and rooted in Japanese racing-poster culture."
+  },
+  "composition": {
+    "layout_rules": [
+      "Use one motorcycle plus one original character as the non-negotiable content formula for every case.",
+      "Reserve the upper-left for the largest model-code headline and compact identity marks.",
+      "Put a cropped magenta halftone echo of the rider behind the foreground figure in the upper-right.",
+      "Render the motorcycle in a dominant low front three-quarter view across the lower-middle.",
+      "Keep the full-body rider on the side of the composition, overlapping the motorcycle without hiding the front wheel, headlight, or core fairing silhouette.",
+      "Add three close-up detail panels in a straight or slightly slanted strip near the bottom.",
+      "Anchor the lower edge with a black specification card, a short identity lockup, and an original energetic closing phrase.",
+      "Use thin rules, ribbons, checkers, slashes, and sparkles as connective tissue rather than free-floating decoration."
+    ],
+    "vertical_4x5": "Stack the model code in the upper-left, halftone rider echo in the upper-right, hero bike across the lower-middle, full-body rider at the right edge, and a three-panel inspection strip plus technical card along the bottom.",
+    "horizontal_5x4": "Extend the model code across the upper-left and center, place the motorcycle across the lower-left two-thirds, position the full-body rider on the right third, and run the three detail panels and technical card as a compact bottom rail."
+  },
+  "typography": {
+    "headline": "Oversized extra-bold italic condensed sans, usually a short model code, in hot magenta or black with tight tracking and broad horizontal presence.",
+    "secondary": "Small uppercase condensed grotesk for specifications and annotations; slanted magenta ribbons for section labels; optional brush-italic phrase for the closing emotional line.",
+    "text_rules": [
+      "Keep the largest title to one to three words or a short alphanumeric code.",
+      "Use newly invented headlines and campaign phrases rather than manufacturer slogans.",
+      "Technical text should be compact, plausible, and secondary to the bike and rider.",
+      "Do not reproduce source names, sponsor marks, team identities, or creator credits."
+    ]
+  },
+  "color_palette": {
+    "warm_cream": "#F7F0EC",
+    "paper_white": "#FFFDFC",
+    "signature_hot_pink": "#E95A91",
+    "deep_magenta": "#C93470",
+    "ink_black": "#161316",
+    "soft_charcoal": "#343036",
+    "halftone_rose": "#EBA0BB",
+    "shadow_mauve": "#D6C2C9",
+    "italian_red_accent": "#E72F37",
+    "supercharged_lime_accent": "#9BE226",
+    "motorsport_blue_accent": "#2474D9",
+    "electric_blue_accent": "#1558E8"
+  },
+  "image_treatment": {
+    "rendering": "Hybrid key art: polished semi-real 3D-like motorcycle rendering paired with clean 2D cel-shaded anime character illustration and vector editorial graphics.",
+    "texture": "Fine paper grain, restrained halftone fields, crisp type and panel edges, clean paint reflections, and no heavy distress.",
+    "depth": "Shallow studio depth with a soft floor shadow; the graphic page remains flat while the bike and rider project forward as cutout hero elements.",
+    "linework": "Anime character uses clean tapered ink lines and cel-shadow boundaries; motorcycle uses precise mechanical edges, fairing seams, highlights, and tire detail."
+  },
+  "design_rules": [
+    "Treat all four cases as one collectible series, not four unrelated poster concepts.",
+    "Change the motorcycle, character design, accent color, headline, pose, and inspection details in each case while retaining the same layout grammar.",
+    "Keep hot magenta present in every case even when the motorcycle introduces red, lime, or blue.",
+    "Use brandless or de-badged motorcycle visuals; recognizable model cues may guide proportions, but copied logos and sponsor graphics are excluded.",
+    "Use an original fictional rider in every case with coordinated but non-infringing racing fashion.",
+    "Balance material motorcycle rendering with graphic anime illustration rather than making both fully photoreal or both flat cartoon.",
+    "Make the detail strip genuinely relate to the featured motorcycle: fairing, cockpit, exhaust, suspension, wheel, or tail.",
+    "Keep text legible where possible but prioritize strong graphic hierarchy over long body copy."
+  ],
+  "do": [
+    "Use one motorcycle and one original anime rider in every generated case.",
+    "Use a warm cream, hot-magenta, black, and white base palette.",
+    "Use a huge italic model code, halftone character echo, detail strip, and specification card.",
+    "Show distinct motorcycle silhouettes and model-specific mechanical features.",
+    "Coordinate rider wardrobe accents with the bike color.",
+    "Keep the poster dense, clean, premium, and collectible."
+  ],
+  "avoid": [
+    "The source race car, original character, exact pose, copied livery, source text, names, slogans, and layout tracing.",
+    "Manufacturer logos, sponsor marks, team badges, creator signatures, watermarks, usernames, QR codes, or platform marks.",
+    "Generic unrelated vehicles, multiple motorcycles, or character-only illustrations.",
+    "Photoreal human skin, live-action photography, gritty night streets, cinematic scenery, or dramatic environmental backgrounds.",
+    "Sparse minimalism, cyberpunk neon, painterly fantasy, rough manga panels, or heavy grunge that erases the clean technical-poster finish.",
+    "Unreadable walls of microtext, malformed motorcycle geometry, extra wheels, fused limbs, or a character obscuring the hero machine."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Pink Anime Motorcycle Spec Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nMotorcycle: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these literal style rules. Composition: create a dense premium motorsport dossier on a warm cream page; reserve the upper-left for an enormous italic model-code headline; place a monochrome hot-magenta halftone echo of the rider in the upper-right; show one motorcycle dominating the lower-middle in a low front three-quarter view; place one full-body original cel-shaded rider beside and partly overlapping the machine; finish the lower area with three bordered close-up panels and a compact black technical specification card. For 4:5, use a tall stacked reading path; for 5:4, widen the same hierarchy into a compact landscape editorial spread. Typography: use extra-bold italic condensed sans for the main code, compact uppercase technical grotesk for annotations, slanted magenta label ribbons, vertical side text, thin rules, and one short brush-italic closing phrase. Color: keep roughly sixty-five percent warm cream, twenty percent hot pink or magenta, ten percent black and white, and five percent motorcycle-specific accent color. Texture and lighting: pair polished semi-real motorcycle materials with clean anime cel shading, subtle paper grain, fine halftone dots, crisp edges, bright soft studio light, controlled paint reflections, and a low soft contact shadow. Graphic elements: use checkered micro-strips, triple slashes, racing-number boxes, small arrows, speed sparkles, diagonal bands, three inspection crops, and a black angled specification block. Make the four-case system feel like one collectible series. Keep all text original, short, and graphic. Render a finished premium poster, not a sketch.\n\nAvoid: copied source character, copied face or pose, the source race car, copied pink livery, copied title or slogans, exact layout tracing, copied brand or sponsor logos, manufacturer badges, creator signature, watermark, username, QR code, platform mark, multiple motorcycles, photoreal person, live-action photography, dark street scene, cinematic background, cyberpunk neon, sparse minimalist layout, rough storyboard, malformed wheels, extra limbs, or unreadable paragraph text.\n\nImportant content rule: match the reference style system first, then change the source content. Every sample must feature one new motorcycle and one new original rider while preserving the same typography, cream-magenta palette behavior, halftone echo, technical panel strip, and dense editorial hierarchy.",
+  "negative_prompt": "copied source character, recognizable source face, source salute pose, source goggles and costume, source umbrella, source Mercedes-AMG GT3, four-wheel race car, copied pink livery, copied title, copied slogans, copied specification values, exact layout tracing, manufacturer logo, sponsor logo, team badge, creator signature, watermark, username, QR code, platform mark, app mark, multiple motorcycles, photoreal person, live-action photography, gritty night street, cinematic scenery, cyberpunk neon, sparse minimalism, painterly fantasy, rough manga page, storyboard sketch, heavy grunge, malformed motorcycle, extra wheel, fused limb, extra limb, illegible paragraph text, low resolution, excessive noise",
+  "examples": [
+    {
+      "case_name": "ducati-panigale-v4",
+      "values": {
+        "SUBJECT": "an original adult anime Italian track rider with long dark auburn hair and a focused confident expression",
+        "SUBJECT_ACTION": "standing beside the motorcycle with one hand resting lightly near the tail and the other holding a de-badged full-face helmet at her hip",
+        "PRODUCT_OR_PROP": "a de-badged Ducati Panigale V4-inspired Italian red superbike with sharp twin-eye fairing, sculpted fuel tank, visible single-sided swingarm, black wheels, and no manufacturer logo",
+        "LOCATION": "warm cream studio racing dossier with a faint premium paddock atmosphere",
+        "BACKGROUND_ELEMENTS": "magenta halftone rider echo, diagonal red speed bands, checkered micro-strip, close-up panels of winglet fairing, cockpit, and single-sided rear wheel, plus a black fictional V4 specification card",
+        "MAIN_TEXT": "ROSSA V4",
+        "SECONDARY_TEXT": "ITALIAN APEX / V4 PERFORMANCE STUDY / RIDE THE RED LINE",
+        "ACCENT_SYMBOL": "red triple-chevron and small checkered strip",
+        "WARDROBE_STYLE": "original black and cream racing-fashion suit with restrained red panels, short fitted jacket, tall track boots, no copied patches or logos"
+      }
+    },
+    {
+      "case_name": "kawasaki-ninja-h2",
+      "values": {
+        "SUBJECT": "an original adult anime Japanese speed engineer with short silver hair, green eyes, and an energetic grin",
+        "SUBJECT_ACTION": "leaning slightly toward the bike while presenting a de-badged key card and resting one boot on a low paddock stand",
+        "PRODUCT_OR_PROP": "a de-badged Kawasaki Ninja H2-inspired supercharged lime-and-black superbike with angular mirrored fairing, trellis frame cues, turbine-like intake, black wheels, and no manufacturer logo",
+        "LOCATION": "warm cream studio racing dossier with a precise high-speed laboratory mood",
+        "BACKGROUND_ELEMENTS": "magenta halftone rider echo, lime diagonal speed bands, turbine iconography, close-up panels of intake, trellis frame, and exhaust, plus a black fictional supercharger specification card",
+        "MAIN_TEXT": "H2 VORTEX",
+        "SECONDARY_TEXT": "BOOSTED VELOCITY / SUPERCHARGED STUDY / CHASE THE PRESSURE",
+        "ACCENT_SYMBOL": "lime turbine spark and triple slash",
+        "WARDROBE_STYLE": "original cropped black racing jacket with cream panels, lime seam accents, fitted shorts over opaque sport tights, and tall black boots, no brand marks"
+      }
+    },
+    {
+      "case_name": "bmw-s1000rr",
+      "values": {
+        "SUBJECT": "an original adult anime European endurance rider with chin-length cobalt hair and a calm analytical expression",
+        "SUBJECT_ACTION": "standing upright beside the front wheel while checking a small telemetry tablet with one gloved hand",
+        "PRODUCT_OR_PROP": "a de-badged BMW S 1000 RR-inspired white superbike with blue and red geometric accents, compact asymmetric technical detailing, aero winglets, black wheels, and no manufacturer logo",
+        "LOCATION": "warm cream studio racing dossier with a clean endurance-team briefing mood",
+        "BACKGROUND_ELEMENTS": "magenta halftone rider echo, blue-red diagonal data bands, telemetry grid fragments, close-up panels of winglet, digital cockpit, and rear-set controls, plus a black fictional inline-four specification card",
+        "MAIN_TEXT": "RR 1000",
+        "SECONDARY_TEXT": "PRECISION LAP / INLINE-FOUR STUDY / MEASURE THE MOMENT",
+        "ACCENT_SYMBOL": "blue-red split chevron and telemetry crosshair",
+        "WARDROBE_STYLE": "original white technical racing suit with navy structure lines, small red seams, cobalt gloves, and clean tall boots, no copied manufacturer graphics"
+      }
+    },
+    {
+      "case_name": "yamaha-yzf-r1",
+      "values": {
+        "SUBJECT": "an original adult anime night-race rider with long black hair tied in a high ribbon and a playful self-assured smile",
+        "SUBJECT_ACTION": "standing beside the motorcycle while fastening one glove and turning her shoulders toward the viewer",
+        "PRODUCT_OR_PROP": "a de-badged Yamaha YZF-R1-inspired electric-blue superbike with compact central intake, slim projector-eye fairing, sculpted aluminum frame, black wheels, and no manufacturer logo",
+        "LOCATION": "warm cream studio racing dossier with a clean grand-prix test-session mood",
+        "BACKGROUND_ELEMENTS": "magenta halftone rider echo, electric-blue diagonal motion bands, waveform marks, close-up panels of central intake, projector headlight, and high tail, plus a black fictional crossplane specification card",
+        "MAIN_TEXT": "R1 BLUE SHIFT",
+        "SECONDARY_TEXT": "CROSSPLANE PULSE / TRACK STUDY / OWN THE RHYTHM",
+        "ACCENT_SYMBOL": "electric-blue waveform spark and racing-number box",
+        "WARDROBE_STYLE": "original cream and black racing-fashion set with electric-blue panels, short structured jacket, asymmetrical skirt-over-shorts, and white-blue track boots, no logos"
+      }
+    }
+  ]
+}

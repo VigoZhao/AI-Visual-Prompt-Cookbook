@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 96,
+  "styleCount": 98,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Pink Anime Motorcycle Spec Poster Style",
+      "slug": "pink-anime-motorcycle-spec-poster-style",
+      "category": "Product + Campaign",
+      "description": "Anime motorsport dossier posters pairing an original rider with a hero motorcycle, oversized italic model codes, a cream-and-magenta editorial grid, and a compact spec card.",
+      "summary": "A dense motorsport dossier poster system that pairs one original anime rider with one hero motorcycle. Each poster combines a glossy three-quarter product view, a full-body cel-shaded character, oversized italic model-code typography, a pale cream and hot-magenta editorial grid, a monochrome halftone character echo, a three-panel detail strip, and a compact technical specification card. The series keeps one visual grammar while changing the motorcycle, rider styling, accent color, text, and performance details in every case.",
+      "preview16": "../styles/pink-anime-motorcycle-spec-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/pink-anime-motorcycle-spec-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/pink-anime-motorcycle-spec-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/pink-anime-motorcycle-spec-poster-style.md",
+      "folder": "../styles/pink-anime-motorcycle-spec-poster-style/",
+      "anchors": [
+        "Dense premium motorsport dossier hierarchy on a warm cream page with controlled negative space in the upper-left and around the outer margins.",
+        "One hero motorcycle dominates the lower-middle in a dramatic front three-quarter view, with glossy semi-real materials, crisp fairing edges, and a low soft studio shadow.",
+        "One full-body original cel-shaded anime rider stands beside and overlaps the motorcycle, creating a clean photo-illustration hybrid silhouette.",
+        "Oversized italic condensed sans model-code typography occupies the upper-left, using black and hot magenta with tight tracking and aggressive horizontal scale.",
+        "A large monochrome hot-magenta halftone echo of the rider sits behind the live character as a cropped editorial watermark shape.",
+        "The lower section contains three bordered close-up panels for fairing, cockpit, exhaust, wheel, or tail details, followed by a compact black technical specification card."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "ducati-panigale-v4",
+      "copyPrompt": "Use the \"Pink Anime Motorcycle Spec Poster Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an original adult anime Italian track rider with long dark auburn hair and a focused confident expression\nSubject action: standing beside the motorcycle with one hand resting lightly near the tail and the other holding a de-badged full-face helmet at her hip\nProduct or prop: a de-badged Ducati Panigale V4-inspired Italian red superbike with sharp twin-eye fairing, sculpted fuel tank, visible single-sided swingarm, black wheels, and no manufacturer logo\nLocation: warm cream studio racing dossier with a faint premium paddock atmosphere\nBackground elements: magenta halftone rider echo, diagonal red speed bands, checkered micro-strip, close-up panels of winglet fairing, cockpit, and single-sided rear wheel, plus a black fictional V4 specification card\nMain text: ROSSA V4\nSecondary text: ITALIAN APEX / V4 PERFORMANCE STUDY / RIDE THE RED LINE\nAccent symbol: red triple-chevron and small checkered strip\nWardrobe style: original black and cream racing-fashion suit with restrained red panels, short fitted jacket, tall track boots, no copied patches or logos\n\nStyle direction:\nA dense motorsport dossier poster system that pairs one original anime rider with one hero\nmotorcycle. Each poster combines a glossy three-quarter product view, a full-body cel-shaded\ncharacter, oversized italic model-code typography, a pale cream and hot-magenta editorial grid,\na monochrome halftone character echo, a three-panel detail strip, and a compact technical\nspecification card. The series keeps one visual grammar while changing the motorcycle, rider\nstyling, accent color, text, and performance details in every case.\n\nKeep visible:\n- Dense premium motorsport dossier hierarchy on a warm cream page with controlled negative space in the upper-left and around the outer margins.\n- One hero motorcycle dominates the lower-middle in a dramatic front three-quarter view, with glossy semi-real materials, crisp fairing edges, and a low soft studio shadow.\n- One full-body original cel-shaded anime rider stands beside and overlaps the motorcycle, creating a clean photo-illustration hybrid silhouette.\n- Oversized italic condensed sans model-code typography occupies the upper-left, using black and hot magenta with tight tracking and aggressive horizontal scale.\n- A large monochrome hot-magenta halftone echo of the rider sits behind the live character as a cropped editorial watermark shape.\n\nAvoid:\ncopied source character, recognizable source face, source salute pose, source goggles and\ncostume, source umbrella, source Mercedes-AMG GT3, four-wheel race car, copied pink livery,\ncopied title, copied slogans, copied specification values, exact layout tracing, manufacturer\nlogo, sponsor logo, team badge, creator signature, watermark, username, QR code, platform mark,\napp mark, multiple motorcycles, photoreal person, live-action photography, gritty night street,\ncinematic scenery, cyberpunk neon, sparse minimalism, painterly fantasy, rough manga page,\nstoryboard sketch, heavy grunge, malformed motorcycle, extra wheel, fused limb, extra limb,\nillegible paragraph text, low resolution, excessive noise\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Xerox Neon Editorial Collage",
+      "slug": "xerox-neon-editorial-collage-style",
+      "category": "Type Posters",
+      "description": "Photocopied editorial collage posters with a distressed black headline, a halftone photo cutout, cyan-green misregistration, fluorescent paint swashes, and marker scribbles.",
+      "summary": "A high-impact editorial poster system combining an oversized distressed black headline, one monochrome halftone photo cutout, electric cyan and green registration shadows, horizontal fluorescent paint swashes, loose marker scribbles, and a pale photocopied paper field.",
+      "preview16": "../styles/xerox-neon-editorial-collage-style/preview-16x9.jpg",
+      "preview9": "../styles/xerox-neon-editorial-collage-style/preview-9x16.jpg",
+      "styleJson": "../styles/xerox-neon-editorial-collage-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/xerox-neon-editorial-collage-style.md",
+      "folder": "../styles/xerox-neon-editorial-collage-style/",
+      "anchors": [
+        "A single oversized monochrome photographic cutout occupies the lower center and overlaps the headline.",
+        "One huge condensed uppercase word spans nearly the full width behind the subject as the dominant background architecture.",
+        "Headline letters are dry-brushed, eroded, irregular, and nearly black rather than clean digital type.",
+        "The base is a pale gray-white photocopied paper field with visible dot grain and softly mottled fibers.",
+        "The subject is rendered in hard black, white, and gray halftone with newspaper-like posterization and no smooth skin tones.",
+        "A cyan block shadow and a thin electric green misregistration rim separate the cutout from the headline."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rooftop-radio-balance",
+      "copyPrompt": "Use the \"Xerox Neon Editorial Collage\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a young rooftop radio host\nSubject action: tilting their head while balancing a compact portable radio on one raised palm\nProduct or prop: an unbranded rectangular portable radio\nLocation: an implied city rooftop reduced to a flat editorial poster field\nBackground elements: two tiny antenna ticks and broad torn paint swashes\nMain text: TUNE\nSecondary text: find the hidden frequency\nAccent symbol: a long looping signal line\nWardrobe style: an unbranded oversized windbreaker and plain dark trousers\n\nStyle direction:\nA high-impact editorial poster system combining an oversized distressed black headline, one\nmonochrome halftone photo cutout, electric cyan and green registration shadows, horizontal\nfluorescent paint swashes, loose marker scribbles, and a pale photocopied paper field.\n\nKeep visible:\n- A single oversized monochrome photographic cutout occupies the lower center and overlaps the headline.\n- One huge condensed uppercase word spans nearly the full width behind the subject as the dominant background architecture.\n- Headline letters are dry-brushed, eroded, irregular, and nearly black rather than clean digital type.\n- The base is a pale gray-white photocopied paper field with visible dot grain and softly mottled fibers.\n- The subject is rendered in hard black, white, and gray halftone with newspaper-like posterization and no smooth skin tones.\n\nAvoid:\nidentifiable celebrity, famous athlete, football, soccer ball, Argentina jersey, number ten\njersey, national-team crest, GOAT headline, copied slogan, copied pose, creator signature,\nwatermark, username, QR code, platform logo, brand logo, sponsor mark, multiple people, detailed\nscenery, sticker overload, long paragraph, glossy 3D type, chrome, gradient, neon glow, smooth\nvector edges, cinematic lighting, realistic depth, full-color skin, beauty retouching, excessive\nrandom noise, illegible headline, muddy silhouette\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Crimson Ink Manga Dossier",
       "slug": "crimson-ink-manga-dossier",

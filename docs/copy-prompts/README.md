@@ -63,6 +63,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Olive Scribble Sports Poster Style | [Copy Prompt](olive-scribble-sports-poster-style.md) | [style.json](../../styles/olive-scribble-sports-poster-style/style.json) |
 | Orange Brush Mascot Action Poster Style | [Copy Prompt](orange-brush-mascot-action-poster-style.md) | [style.json](../../styles/orange-brush-mascot-action-poster-style/style.json) |
 | Photo Illustration Overlay Poster | [Copy Prompt](photo-illustration-overlay-poster-style.md) | [style.json](../../styles/photo-illustration-overlay-poster-style/style.json) |
+| Pink Anime Motorcycle Spec Poster Style | [Copy Prompt](pink-anime-motorcycle-spec-poster-style.md) | [style.json](../../styles/pink-anime-motorcycle-spec-poster-style/style.json) |
 | Playful Marker Grounding Poster Style | [Copy Prompt](playful-marker-grounding-poster-style.md) | [style.json](../../styles/playful-marker-grounding-poster-style/style.json) |
 | Playful Mascot Doodle Snapshot Style | [Copy Prompt](playful-mascot-doodle-snapshot-style.md) | [style.json](../../styles/playful-mascot-doodle-snapshot-style/style.json) |
 | Plush City Festival Mobile Poster | [Copy Prompt](plush-city-festival-mobile-poster-style.md) | [style.json](../../styles/plush-city-festival-mobile-poster-style/style.json) |
@@ -96,6 +97,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Turquoise Red Techno Manga Poster Style | [Copy Prompt](turquoise-red-techno-manga-poster-style.md) | [style.json](../../styles/turquoise-red-techno-manga-poster-style/style.json) |
 | Urban Transit Doodle Diary Style | [Copy Prompt](urban-transit-doodle-diary-style.md) | [style.json](../../styles/urban-transit-doodle-diary-style/style.json) |
 | Warm Fisheye Product Impact Ad Style | [Copy Prompt](warm-fisheye-product-impact-ad-style.md) | [style.json](../../styles/warm-fisheye-product-impact-ad-style/style.json) |
+| Xerox Neon Editorial Collage | [Copy Prompt](xerox-neon-editorial-collage-style.md) | [style.json](../../styles/xerox-neon-editorial-collage-style/style.json) |
 | Y2K Grunge Hip-Hop Cutout Poster Style | [Copy Prompt](y2k-grunge-hiphop-cutout-poster-style.md) | [style.json](../../styles/y2k-grunge-hiphop-cutout-poster-style/style.json) |
 | Y2K Mirror UI Scribble Collage Style | [Copy Prompt](y2k-mirror-ui-scribble-collage-style.md) | [style.json](../../styles/y2k-mirror-ui-scribble-collage-style/style.json) |
 | Y2K Streetwear Sticker Collage Style | [Copy Prompt](y2k-streetwear-sticker-collage-style.md) | [style.json](../../styles/y2k-streetwear-sticker-collage-style/style.json) |
