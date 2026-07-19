@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 98,
+  "styleCount": 99,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Retro Future Chrome Portrait Dossier",
+      "slug": "retro-future-chrome-portrait-dossier",
+      "category": "Editorial + Minimal",
+      "description": "Retro-futurist editorial portrait posters with a technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, optical diagrams, and coarse halftone print grain.",
+      "summary": "A retro-futurist editorial portrait system built from an asymmetric technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, modular grid lines, optical diagrams, and coarse halftone print grain in midnight indigo, warm cream, hot magenta, cobalt, and coral.",
+      "preview16": "../styles/retro-future-chrome-portrait-dossier/preview-16x9.jpg",
+      "preview9": "../styles/retro-future-chrome-portrait-dossier/preview-9x16.jpg",
+      "styleJson": "../styles/retro-future-chrome-portrait-dossier/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/retro-future-chrome-portrait-dossier.md",
+      "folder": "../styles/retro-future-chrome-portrait-dossier/",
+      "anchors": [
+        "Asymmetric editorial split with a narrow technical dossier column occupying roughly one third of the frame and a dominant portrait field occupying the remaining two thirds.",
+        "An extreme close-up portrait cropped decisively by multiple frame edges, with the face much larger than life and very little empty space.",
+        "Flat posterized illustration rather than photography: clean ink-like contours, simplified tonal planes, selective airbrushed blush, and sharp screen-print separations.",
+        "Midnight indigo is the structural base; warm cream carries skin and type; hot magenta, cobalt blue, coral orange, and small pale-yellow highlights create electric contrast.",
+        "Liquid-chrome or polished alloy shapes cut across the portrait as reflective ribbons, shards, visors, or object fragments with navy, cyan, magenta, and cream reflections.",
+        "A thin cream modular grid, hairline panel dividers, corner registration crosses, and geometric frames organize the entire composition."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "lunar-geologist",
+      "copyPrompt": "Use the \"Retro Future Chrome Portrait Dossier\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an older lunar geologist with silver cropped hair and a calm weathered face\nSubject action: tilting toward a mineral scanner while studying a luminous sample just outside the frame\nProduct or prop: a faceted moon-rock specimen capsule and a curved spectral scanner\nLocation: an abstract orbital mineral archive rendered as dossier graphics rather than a literal room\nBackground elements: wireframe crater sample, orbital contour map, diffraction rings, mineral lattice panel, and a low terrain mesh\nMain text: MOON TRACE\nSecondary text: sample 07 / spectral archive / quiet orbit\nAccent symbol: four-point locator star\nWardrobe style: indigo pressure collar, cream technical fabric, small coral fasteners, no helmet\n\nStyle direction:\nA retro-futurist editorial portrait system built from an asymmetric technical dossier sidebar,\nan edge-cropped posterized face, liquid-chrome interruptions, modular grid lines, optical\ndiagrams, and coarse halftone print grain in midnight indigo, warm cream, hot magenta, cobalt,\nand coral.\n\nKeep visible:\n- Asymmetric editorial split with a narrow technical dossier column occupying roughly one third of the frame and a dominant portrait field occupying the remaining two thirds.\n- An extreme close-up portrait cropped decisively by multiple frame edges, with the face much larger than life and very little empty space.\n- Flat posterized illustration rather than photography: clean ink-like contours, simplified tonal planes, selective airbrushed blush, and sharp screen-print separations.\n- Midnight indigo is the structural base; warm cream carries skin and type; hot magenta, cobalt blue, coral orange, and small pale-yellow highlights create electric contrast.\n- Liquid-chrome or polished alloy shapes cut across the portrait as reflective ribbons, shards, visors, or object fragments with navy, cyan, magenta, and cream reflections.\n\nAvoid:\nphotoreal portrait, generic 3D render, clean vector infographic, minimalist white layout, pastel\nlifestyle palette, cinematic background, centered conventional bust, tiny distant subject,\ngeneric floating HUD, exact source face, eye spiral, copied chrome paths, copied torus\nwireframe, copied optical squares, copied headline, signature, artist credit, logo, watermark,\nusername, QR code, platform UI, brand mark, rainbow palette, excessive blur, uncontrolled\nglitch, muddy shadows, low resolution, unreadable headline, duplicated eyes, extra facial\nfeatures, distorted anatomy, malformed hands\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Pink Anime Motorcycle Spec Poster Style",
       "slug": "pink-anime-motorcycle-spec-poster-style",

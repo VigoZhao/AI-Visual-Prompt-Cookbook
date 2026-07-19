@@ -1,0 +1,170 @@
+{
+  "style_name": "Retro Future Chrome Portrait Dossier",
+  "style_slug": "retro-future-chrome-portrait-dossier",
+  "style_version": "2.1.0",
+  "style_summary": "A retro-futurist editorial portrait system built from an asymmetric technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, modular grid lines, optical diagrams, and coarse halftone print grain in midnight indigo, warm cream, hot magenta, cobalt, and coral.",
+  "environment_variables": {
+    "SUBJECT": "The new portrait subject or character archetype",
+    "SUBJECT_ACTION": "The subtle action, gaze, or expressive beat",
+    "PRODUCT_OR_PROP": "The new prop, instrument, specimen, tool, or object integrated into the portrait",
+    "LOCATION": "The abstract editorial setting or implied environment",
+    "BACKGROUND_ELEMENTS": "Technical diagrams, optical motifs, maps, grids, or data-panel details",
+    "MAIN_TEXT": "A short original italic display headline",
+    "SECONDARY_TEXT": "Original compact dossier labels and supporting microcopy",
+    "ACCENT_SYMBOL": "A simple original star, crosshair, spark, orbit, or locator symbol",
+    "WARDROBE_STYLE": "The new wardrobe, makeup, accessories, or styling direction",
+    "STYLE_FIDELITY_ANCHORS": "Observable visual traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content and identity marks that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "Asymmetric editorial split with a narrow technical dossier column occupying roughly one third of the frame and a dominant portrait field occupying the remaining two thirds.",
+    "An extreme close-up portrait cropped decisively by multiple frame edges, with the face much larger than life and very little empty space.",
+    "Flat posterized illustration rather than photography: clean ink-like contours, simplified tonal planes, selective airbrushed blush, and sharp screen-print separations.",
+    "Midnight indigo is the structural base; warm cream carries skin and type; hot magenta, cobalt blue, coral orange, and small pale-yellow highlights create electric contrast.",
+    "Liquid-chrome or polished alloy shapes cut across the portrait as reflective ribbons, shards, visors, or object fragments with navy, cyan, magenta, and cream reflections.",
+    "A thin cream modular grid, hairline panel dividers, corner registration crosses, and geometric frames organize the entire composition.",
+    "The dossier sidebar stacks one large wireframe object, an italic extended headline, small star-like separators, optical stripes, micro-label blocks, and a wireframe terrain or waveform panel.",
+    "Typography pairs one bold forward-leaning techno display word with tiny condensed technical labels and restrained handwritten-style annotation marks.",
+    "Coarse halftone dots, visible paper tooth, ink speckle, and mild color misregistration unify every surface while preserving readable silhouettes.",
+    "Lighting is graphic and high-contrast, with cream highlights, magenta cheek shadows, blue-violet contour shadows, and no naturalistic cast-light environment.",
+    "The mood combines late-1990s cyber-editorial design, speculative product manuals, anime-influenced beauty illustration, and experimental rave-flyer print culture."
+  ],
+  "source_content_to_avoid": [
+    "The original glamorous woman's exact face, eye shape, expression, exposed shoulder pose, hairstyle, beauty marks, or facial proportions.",
+    "The literal spiral symbol inside the eye, chrome fragments crossing the same facial landmarks, or the exact blade and visor silhouettes.",
+    "The original torus wireframe, zebra optical squares, four-corner plus marks, lower wireframe landscape, or their exact arrangement.",
+    "The words RAVISHING and MADE BY SAMIA, the creator signature, initials, captions, pseudo-copy, or any copied letterforms from the source.",
+    "The exact one-third sidebar dimensions, original panel boundaries, grid intersections, or pixel-level composition.",
+    "Any watermark, username, platform logo, QR code, app mark, artist identity, brand mark, or recognizable campaign identity."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Retro-futurist cyber-editorial portrait poster with technical dossier graphics and halftone screen-print texture.",
+    "composition_and_layout": "A dense asymmetric two-column page: a narrow stacked information rail on one side and a dominant close-up portrait on the other, both locked together by thin grid lines and framed modules.",
+    "subject_placement": "The portrait fills nearly the entire hero field and is cut by the top, side, and bottom edges; the eye and mouth create the primary diagonal reading path.",
+    "camera_or_perspective": "Extreme close-up with a slight low or oblique angle, flattened into graphic illustration while chrome pieces retain exaggerated reflective depth.",
+    "typography_style": "One large italic extended techno headline, tiny condensed dossier labels, sparse handwritten annotation, and abstract microcopy used as texture.",
+    "color_palette_behavior": "A dark indigo ground supports warm cream figure planes; magenta and cobalt shadows alternate against coral and pale-yellow accents, with no neutral photographic color.",
+    "graphic_elements": "Hairline grids, registration crosses, wireframe meshes, optical waves, star sparks, small specimen panels, contour terrains, and chrome interruptions.",
+    "texture_and_finish": "Coarse printed halftone, paper grain, screen-print speckle, mild ink trapping, and slightly imperfect color registration.",
+    "lighting": "Hard graphic highlight planes and saturated shadow blocks instead of realistic illumination; chrome carries sharp multi-color reflections.",
+    "mood_and_cultural_reference": "Futuristic fashion editorial, speculative interface manual, Y2K rave flyer, and anime-influenced beauty poster.",
+    "reusable_design_rules": "Keep the sidebar functional and diagrammatic, make the portrait monumental, route chrome elements through the portrait diagonally, and bind all parts with the same grid and print texture.",
+    "things_to_avoid": "No photoreal portrait, clean vector minimalism, soft pastel lifestyle scene, cinematic 3D environment, exact source face, copied text, or literal source diagrams."
+  },
+  "composition": {
+    "primary_structure": "Use an asymmetric technical rail plus a dominant portrait field; preserve the hierarchy in both orientations while reflowing individual modules for the selected aspect ratio.",
+    "portrait_crop": "Scale the subject so the head or helmet touches at least three edges and the main facial feature remains the visual anchor.",
+    "dossier_rail": "Stack a wireframe hero diagram, display headline, micro-label band, two optical or map modules, a small credit-free footer bar, and a terrain or waveform panel.",
+    "grid": "Overlay thin cream hairlines across both columns, using irregular modular cells rather than a uniform spreadsheet grid.",
+    "depth": "Keep skin and background flat, then create selective depth only through reflective chrome overlaps and a few occlusion layers."
+  },
+  "typography": {
+    "headline": "One short uppercase word or two-word phrase in a bold extended italic techno display face, cream on indigo, with tight tracking and a forward racing slant.",
+    "supporting_text": "Tiny condensed uppercase dossier labels and short original microcopy arranged in compact columns; it should read as designed information texture, never copied source text.",
+    "annotation": "Use only one or two restrained handwritten-style marks for coordinate-like notes or specimen identifiers.",
+    "alignment": "Lock type to panel edges, span the headline across most of the dossier width, and use hairline rules above and below key text bands.",
+    "restrictions": "No creator credit, signature, watermark, brand, existing slogan, copied display word, or dense paragraph that competes with the portrait."
+  },
+  "color_palette": {
+    "structural_base": "Midnight indigo and near-black violet, approximately 45 percent of the image.",
+    "figure_and_type": "Warm cream and pale butter yellow, approximately 25 percent.",
+    "electric_accents": "Hot magenta and saturated cobalt blue, approximately 20 percent.",
+    "warm_accents": "Coral orange and salmon pink, approximately 8 percent.",
+    "micro_highlights": "Small cyan and near-white glints, approximately 2 percent.",
+    "behavior": "Use hard neighboring color blocks and overprinted halftone transitions rather than smooth photographic gradients."
+  },
+  "image_treatment": {
+    "rendering_mode": "Finished raster editorial illustration with posterized portrait planes, ink contours, selective airbrush shading, and highly reflective chrome collage elements.",
+    "print_finish": "Apply consistent coarse halftone, visible paper tooth, mild ink speckle, and slight chromatic misregistration without obscuring facial anatomy or text hierarchy.",
+    "chrome": "Render polished alloy as elongated curved fragments with controlled navy, cyan, magenta, coral, and cream reflections; keep edges crisp and sculptural.",
+    "clarity": "Maintain clear face anatomy, distinct panel borders, readable short headline, and separated optical diagrams despite the dense layout.",
+    "output": "Print-ready ultra-high-resolution raster artwork, not a photographed poster mockup and not a UI screenshot."
+  },
+  "design_rules": [
+    "Preserve the asymmetric dossier-plus-portrait hierarchy in every variation.",
+    "Make the subject monumental and edge-cropped; do not shrink it into a conventional centered bust portrait.",
+    "Let chrome shapes interrupt and connect the portrait, but change their silhouette and facial placement for every new case.",
+    "Populate the information rail with newly invented wireframes and optical diagrams derived from each case's prop or setting.",
+    "Use the thin grid to bridge both columns and to create deliberate editorial cropping.",
+    "Keep the palette limited to indigo, cream, magenta, cobalt, coral, and tiny cyan highlights.",
+    "Apply the same halftone and paper texture to figure, diagrams, type, and chrome so the page feels printed as one object.",
+    "Treat microcopy as compact original dossier texture and reserve legibility priority for the short main headline."
+  ],
+  "do": [
+    "Use a decisive one-third/two-thirds asymmetric hierarchy.",
+    "Crop the portrait boldly across multiple frame edges.",
+    "Create new wireframe diagrams from the selected case prop.",
+    "Use reflective chrome as the only strongly dimensional material.",
+    "Keep ink grain visible but controlled and intentional.",
+    "Use short original headlines with strong forward motion."
+  ],
+  "avoid": [
+    "Do not copy the source face, eye spiral, chrome paths, text, signature, or exact diagram set.",
+    "Do not make a clean vector infographic, photoreal beauty ad, 3D character render, or cinematic scene.",
+    "Do not replace the dossier rail with generic floating HUD graphics.",
+    "Do not use rainbow color, white backgrounds, soft beige minimalism, or low-contrast pastel grading.",
+    "Do not flood the artwork with blur, glitch noise, illegible text, or random decorative clutter.",
+    "Do not include logos, QR codes, watermarks, usernames, UI chrome, or artist credits."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"retro-future-chrome-portrait-dossier\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these concrete style rules:\n- Composition: build a dense asymmetric editorial poster with a technical dossier rail occupying roughly one third and a dominant extreme close-up portrait occupying roughly two thirds. Crop the subject through at least three frame edges. Reflow the modules intelligently for the selected aspect ratio while keeping the rail visibly narrower than the portrait field. Span thin cream modular grid lines across both zones.\n- Dossier rail: stack one large wireframe diagram derived from the chosen prop, a bold forward-leaning display headline, small star or crosshair separators, compact original dossier labels, two optical or map-like modules, and a lower terrain, waveform, or contour mesh.\n- Portrait: use flat posterized illustration with clean ink contours, simplified cream highlight planes, hot-magenta blush shadows, cobalt-violet contour shadows, and a strong oblique facial or helmet crop. Route newly shaped polished alloy ribbons, fragments, or reflective object parts diagonally through the portrait without covering essential anatomy.\n- Typography: set the exact short main text once in a bold extended italic techno display face, cream on indigo, with tight tracking. Use the secondary text sparingly as compact condensed technical labels and abstract information texture. Do not add a creator credit or signature.\n- Color: use approximately 45 percent midnight indigo, 25 percent warm cream and pale yellow, 20 percent hot magenta and cobalt, 8 percent coral, and 2 percent cyan or white glints. Avoid neutral photographic color.\n- Texture and lighting: unify all surfaces with coarse controlled halftone dots, visible paper tooth, mild ink speckle, and slight color misregistration. Keep facial anatomy, silhouette, panel borders, and the main headline crisp. Use graphic high-contrast color planes instead of naturalistic lighting.\n- Graphic elements: use hairline frames, irregular grid cells, registration crosses, wireframe meshes, optical waves, star sparks, specimen panels, and contour diagrams that relate to the selected case.\n\nAvoid: photorealism, generic 3D render, clean flat vector minimalism, cinematic environment, soft lifestyle lighting, excessive blur, uncontrolled glitch, illegible headline, rainbow palette, white minimalist background, duplicated facial features, malformed hands, watermarks, usernames, QR codes, platform marks, logos, signatures, copied text, and exact source content.\n\nImportant content rule: match the extracted poster system first, then change the source content. Use the specified new subject, action, prop, environment, diagrams, headline, styling, chrome silhouette, and story premise while preserving the style fidelity anchors.",
+  "negative_prompt": "photoreal portrait, generic 3D render, clean vector infographic, minimalist white layout, pastel lifestyle palette, cinematic background, centered conventional bust, tiny distant subject, generic floating HUD, exact source face, eye spiral, copied chrome paths, copied torus wireframe, copied optical squares, copied headline, signature, artist credit, logo, watermark, username, QR code, platform UI, brand mark, rainbow palette, excessive blur, uncontrolled glitch, muddy shadows, low resolution, unreadable headline, duplicated eyes, extra facial features, distorted anatomy, malformed hands",
+  "examples": [
+    {
+      "case_name": "lunar-geologist",
+      "values": {
+        "SUBJECT": "an older lunar geologist with silver cropped hair and a calm weathered face",
+        "SUBJECT_ACTION": "tilting toward a mineral scanner while studying a luminous sample just outside the frame",
+        "PRODUCT_OR_PROP": "a faceted moon-rock specimen capsule and a curved spectral scanner",
+        "LOCATION": "an abstract orbital mineral archive rendered as dossier graphics rather than a literal room",
+        "BACKGROUND_ELEMENTS": "wireframe crater sample, orbital contour map, diffraction rings, mineral lattice panel, and a low terrain mesh",
+        "MAIN_TEXT": "MOON TRACE",
+        "SECONDARY_TEXT": "sample 07 / spectral archive / quiet orbit",
+        "ACCENT_SYMBOL": "four-point locator star",
+        "WARDROBE_STYLE": "indigo pressure collar, cream technical fabric, small coral fasteners, no helmet"
+      }
+    },
+    {
+      "case_name": "desert-rally-navigator",
+      "values": {
+        "SUBJECT": "a freckled desert rally navigator with wind-swept copper hair and a focused sideways gaze",
+        "SUBJECT_ACTION": "leaning into a route calculation as reflective map strips sweep past the cheek",
+        "PRODUCT_OR_PROP": "a compact analog compass module and segmented route ribbon",
+        "LOCATION": "an abstract night-stage navigation dossier for a fictional salt-flat route",
+        "BACKGROUND_ELEMENTS": "wireframe compass housing, topographic bands, tire-wave optical panel, checkpoint stars, and a dune contour mesh",
+        "MAIN_TEXT": "VECTOR RUN",
+        "SECONDARY_TEXT": "stage three / bearing 241 / dusk signal",
+        "ACCENT_SYMBOL": "crosshair spark",
+        "WARDROBE_STYLE": "cream racing balaclava rolled at the neck, cobalt suit panels, coral stitching, no logos"
+      }
+    },
+    {
+      "case_name": "abyssal-botanist",
+      "values": {
+        "SUBJECT": "a dark-skinned abyssal botanist with close-cropped curls and translucent protective lenses",
+        "SUBJECT_ACTION": "turning toward a newly opened bioluminescent seed pod with quiet astonishment",
+        "PRODUCT_OR_PROP": "a spiral glass specimen vial and polished sampling petals",
+        "LOCATION": "an abstract deep-ocean research dossier with no literal submarine interior",
+        "BACKGROUND_ELEMENTS": "wireframe seed pod, sonar rings, pressure graph, microscopic cell stripes, specimen stars, and a seabed contour mesh",
+        "MAIN_TEXT": "DEEP BLOOM",
+        "SECONDARY_TEXT": "pressure nine / living sample / blue silence",
+        "ACCENT_SYMBOL": "orbiting seed spark",
+        "WARDROBE_STYLE": "high indigo research collar, cream polymer panels, magenta lens tint, coral seam tabs"
+      }
+    },
+    {
+      "case_name": "modular-sound-architect",
+      "values": {
+        "SUBJECT": "an androgynous sound architect with a shaved head, graphic cobalt eyeliner, and a concentrated listening expression",
+        "SUBJECT_ACTION": "angling one ear toward a rising tone while metallic sound ribbons arc around the jaw",
+        "PRODUCT_OR_PROP": "a palm-sized modular synthesizer node and sculptural audio ribbon",
+        "LOCATION": "an abstract underground signal laboratory expressed only through editorial diagrams",
+        "BACKGROUND_ELEMENTS": "wireframe oscillator node, phase rings, zebra-like waveform panel, patch matrix, signal stars, and a lower frequency terrain",
+        "MAIN_TEXT": "PHASE SHIFT",
+        "SECONDARY_TEXT": "channel four / harmonic field / live circuit",
+        "ACCENT_SYMBOL": "double-wave star",
+        "WARDROBE_STYLE": "black-violet sculptural collar, cream ear cuff, coral cable accents, no branding"
+      }
+    }
+  ]
+}

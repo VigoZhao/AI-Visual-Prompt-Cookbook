@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 98 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 99 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Retro Future Chrome Portrait Dossier
+
+<a href="../styles/retro-future-chrome-portrait-dossier"><img src="../assets/thumbs/retro-future-chrome-portrait-dossier-16x9.jpg" width="720" alt="Retro Future Chrome Portrait Dossier preview"></a>
+
+A retro-futurist editorial portrait system built from an asymmetric technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, modular grid lines, optical diagrams, and coarse halftone print grain in midnight indigo, warm cream, hot magenta, cobalt, and coral.
+
+Files: [style.json](../styles/retro-future-chrome-portrait-dossier/style.json) · [Copy Prompt](copy-prompts/retro-future-chrome-portrait-dossier.md) · [16:9 preview](../styles/retro-future-chrome-portrait-dossier/preview-16x9.jpg) · [9:16 preview](../styles/retro-future-chrome-portrait-dossier/preview-9x16.jpg) · [Folder](../styles/retro-future-chrome-portrait-dossier)
+
+---
 
 ### Pink Anime Motorcycle Spec Poster Style
 

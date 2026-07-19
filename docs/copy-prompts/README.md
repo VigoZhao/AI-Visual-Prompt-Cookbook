@@ -73,6 +73,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Red Black Manga Tabloid Poster Style | [Copy Prompt](red-black-manga-tabloid-poster-style.md) | [style.json](../../styles/red-black-manga-tabloid-poster-style/style.json) |
 | Red Yellow Grunge Skate Cover Style | [Copy Prompt](red-yellow-grunge-skate-cover-style.md) | [style.json](../../styles/red-yellow-grunge-skate-cover-style/style.json) |
 | Red Yellow Product Trophy Collage Style | [Copy Prompt](red-yellow-product-trophy-collage-style.md) | [style.json](../../styles/red-yellow-product-trophy-collage-style/style.json) |
+| Retro Future Chrome Portrait Dossier | [Copy Prompt](retro-future-chrome-portrait-dossier.md) | [style.json](../../styles/retro-future-chrome-portrait-dossier/style.json) |
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
 | Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |
 | Rough Marker Monster Poster Style | [Copy Prompt](rough-marker-monster-poster-style.md) | [style.json](../../styles/rough-marker-monster-poster-style/style.json) |
