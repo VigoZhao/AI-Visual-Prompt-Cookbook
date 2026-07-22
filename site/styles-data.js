@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 99,
+  "styleCount": 100,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Cyan Grain Macro Megatype Poster",
+      "slug": "cyan-grain-macro-megatype-poster-style",
+      "category": "Type Posters",
+      "description": "Sparse experimental posters built from one radically enlarged macro photograph, a saturated cyan field, monumental interlocking white letterforms, and tactile analog print grain.",
+      "summary": "A sparse experimental editorial poster system built from one radically enlarged macro photograph, a saturated cyan field, monumental white geometric letterforms that interlock with the subject, wide white margins, compact technical metadata, and tactile analog print grain.",
+      "preview16": "../styles/cyan-grain-macro-megatype-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/cyan-grain-macro-megatype-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/cyan-grain-macro-megatype-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/cyan-grain-macro-megatype-poster-style.md",
+      "folder": "../styles/cyan-grain-macro-megatype-poster-style/",
+      "anchors": [
+        "One tactile photographic subject is enlarged to an extreme macro scale and cropped aggressively by two or three canvas edges.",
+        "The camera sits unusually close and slightly below or beside the subject, emphasizing surface texture, silhouette, and physical presence rather than a complete body view.",
+        "A saturated cyan-to-sky-blue rectangular field occupies most of the active image area while a broad clean white outer margin remains visible.",
+        "One very short word appears as enormous white geometric condensed sans-serif letterforms spanning the upper third, with deliberate gaps and partial occlusion by the subject.",
+        "The subject overlaps the megatype and blue field as one continuous photographic mass; typography and photography interlock rather than sit in separate bands.",
+        "A compact condensed technical date or catalog label sits near the upper-left margin, balanced by tiny footer metadata at the lower-right."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "scarlet-parrot-profile",
+      "copyPrompt": "Use the \"Cyan Grain Macro Megatype Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a scarlet macaw shown as one enormous feathered profile\nSubject action: tilting its head upward so the curved beak and cheek feathers interrupt the display letters\nProduct or prop: one sharply defined charcoal beak and a small pale eye ring\nLocation: a minimal daylight studio with no visible habitat\nBackground elements: an uninterrupted cyan field with three tiny deep-blue registration brackets\nMain text: CALL\nSecondary text: 2031 / field note 04 / vivid\nAccent symbol: a tiny right-angle corner bracket\nWardrobe style: natural scarlet, coral, and muted gold plumage with highly tactile feather detail\n\nStyle direction:\nA sparse experimental editorial poster system built from one radically enlarged macro\nphotograph, a saturated cyan field, monumental white geometric letterforms that interlock with\nthe subject, wide white margins, compact technical metadata, and tactile analog print grain.\n\nKeep visible:\n- One tactile photographic subject is enlarged to an extreme macro scale and cropped aggressively by two or three canvas edges.\n- The camera sits unusually close and slightly below or beside the subject, emphasizing surface texture, silhouette, and physical presence rather than a complete body view.\n- A saturated cyan-to-sky-blue rectangular field occupies most of the active image area while a broad clean white outer margin remains visible.\n- One very short word appears as enormous white geometric condensed sans-serif letterforms spanning the upper third, with deliberate gaps and partial occlusion by the subject.\n- The subject overlaps the megatype and blue field as one continuous photographic mass; typography and photography interlock rather than sit in separate bands.\n\nAvoid:\nhamster, guinea pig, rodent, tan-and-white small pet, source chin-up pose, pink rodent nose,\nHUG, simplicity, 2025, 12mm, source date, source numbering, creator handle, design credit,\nsignature, logo, trademark, watermark, username, QR code, platform UI, second subject, crowd,\nfull scene, dense collage, price burst, promotional sticker, gradient, glossy 3D, vector\nillustration, cinematic lighting, lens flare, neon palette, full-bleed borderless image, long\nbody copy, outlined type, drop shadow, illegible word, malformed anatomy, extra limbs, excessive\ngrain, heavy scratches, chromatic glitch, blur, compression artifacts\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Retro Future Chrome Portrait Dossier",
       "slug": "retro-future-chrome-portrait-dossier",

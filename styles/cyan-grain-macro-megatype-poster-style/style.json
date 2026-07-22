@@ -1,0 +1,169 @@
+{
+  "style_name": "Cyan Grain Macro Megatype Poster",
+  "style_slug": "cyan-grain-macro-megatype-poster-style",
+  "style_version": "2.1.0",
+  "style_summary": "A sparse experimental editorial poster system built from one radically enlarged macro photograph, a saturated cyan field, monumental white geometric letterforms that interlock with the subject, wide white margins, compact technical metadata, and tactile analog print grain.",
+  "environment_variables": {
+    "SUBJECT": "The single photographed animal, object, plant, or product hero",
+    "SUBJECT_ACTION": "The subtle gesture, orientation, or physical behavior of the hero",
+    "PRODUCT_OR_PROP": "One defining detail or secondary physical feature",
+    "LOCATION": "The minimal studio or abstract setting",
+    "BACKGROUND_ELEMENTS": "Sparse background marks or controlled empty field",
+    "MAIN_TEXT": "A very short monumental display word",
+    "SECONDARY_TEXT": "Compact technical metadata and one short footer word",
+    "ACCENT_SYMBOL": "A tiny bracket, corner mark, dash, or index symbol",
+    "WARDROBE_STYLE": "Surface, material, plumage, foliage, or styling direction",
+    "STYLE_FIDELITY_ANCHORS": "Observable visual traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "One tactile photographic subject is enlarged to an extreme macro scale and cropped aggressively by two or three canvas edges.",
+    "The camera sits unusually close and slightly below or beside the subject, emphasizing surface texture, silhouette, and physical presence rather than a complete body view.",
+    "A saturated cyan-to-sky-blue rectangular field occupies most of the active image area while a broad clean white outer margin remains visible.",
+    "One very short word appears as enormous white geometric condensed sans-serif letterforms spanning the upper third, with deliberate gaps and partial occlusion by the subject.",
+    "The subject overlaps the megatype and blue field as one continuous photographic mass; typography and photography interlock rather than sit in separate bands.",
+    "A compact condensed technical date or catalog label sits near the upper-left margin, balanced by tiny footer metadata at the lower-right.",
+    "A single distressed lowercase footer word anchors the lower-left edge in white with a rough letterpress or photocopy texture.",
+    "The palette is tightly limited to white, vivid cyan-blue, the subject's natural warm or dark material colors, and a few deep blue micro-marks.",
+    "Fine paper fibers, dry ink grain, faint scratches, and restrained analog wear cover both the flat field and the photograph without destroying detail.",
+    "The mood is playful, tactile, experimental, and editorial, with high negative space and a late-modernist independent poster sensibility."
+  ],
+  "source_content_to_avoid": [
+    "A hamster, guinea pig, rodent, or other round tan-and-white small pet shown from below.",
+    "The exact chin-up rodent profile, pink nose, whisker silhouette, beige fur pattern, or body crop from the reference.",
+    "The word HUG, the footer word simplicity, the date-like string 2025, the measurement 12mm, or the original poster numbering.",
+    "The original creator handle, design credit, signature, watermark, username, platform mark, or identity text.",
+    "The exact placement, spacing, or fragmentation of the source letterforms and metadata.",
+    "A literal reconstruction of the same cyan rectangle, rodent silhouette, white margin proportions, and original story premise.",
+    "Logos, trademarks, QR codes, app interface elements, fake institutional seals, or branded product identifiers."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Experimental macro-photography poster with late-modernist editorial typography and tactile analog print finishing.",
+    "composition_and_layout": "A wide white border frames a cyan active field. A small technical label starts the upper-left hierarchy, enormous white megatype crosses the upper third, and one macro subject swells upward from the lower area to interrupt the letters. Tiny footer elements stabilize both bottom corners.",
+    "subject_placement": "One subject dominates roughly two thirds of the active field, cropped by the bottom and side edges and shown so close that texture becomes a graphic shape.",
+    "camera_or_perspective": "Extreme close-up from a low, side, or three-quarter angle with modest wide-lens exaggeration, shallow but readable depth, and no environmental narrative.",
+    "typography_style": "Ultra-condensed geometric sans display lettering at monumental scale, a narrow condensed technical label, a distressed lowercase footer word, and tiny monospaced or pixel-like metadata.",
+    "color_palette_behavior": "White and saturated cyan establish the page; the photographed hero contributes one natural contrasting material family while deep blue appears only in tiny registration marks.",
+    "graphic_elements": "Four sparse corner brackets or registration ticks, one hard-edged cyan rectangle, fragmented letter apertures, and tiny catalog-style footer marks.",
+    "texture_and_finish": "Matte paper grain, dry cyan ink, light photocopy abrasion, faint fibers, soft photographic grain, and minor edge wear applied consistently but sparingly.",
+    "lighting": "Bright frontal or high side studio light reveals surface detail with soft shadows, lifted midtones, and no dramatic cinematic rim light.",
+    "mood_and_cultural_reference": "Playful independent design-school poster, experimental type specimen, and tactile zine print rather than commercial advertising.",
+    "reusable_design_rules": "Use only one macro hero, one cyan field, one short white word, one upper-left technical label, one distressed footer word, and minimal micro-marks. Preserve spaciousness and aggressive scale.",
+    "things_to_avoid": "No rodent content, dense collage, extra objects, scenic backgrounds, logos, glossy 3D, neon gradients, heavy glitch, or busy promotional copy."
+  },
+  "composition": {
+    "primary_structure": "A clean white canvas with a large inset cyan rectangle, one small upper-left metadata cluster, monumental white letters across the upper third, one macro hero filling the lower and middle zones, and tiny footer labels.",
+    "hero_behavior": "Crop the hero so strongly that it becomes an abstract tactile mass while retaining one instantly readable identifying detail. Let its silhouette cover portions of the headline.",
+    "layout_density": "Very sparse: one subject and one word do nearly all the visual work, with at least 12 to 18 percent of the canvas reading as white outer margin or open field.",
+    "perspective": "Use an extremely close low-side or three-quarter viewpoint with subtle wide-angle enlargement and no deep scenic space.",
+    "ratio_adaptation": "For 4:5, stack metadata, megatype, and rising subject vertically. For 5:4, widen the cyan field and word while keeping the subject cropped from the lower-right or lower-center and preserving the white perimeter."
+  },
+  "typography": {
+    "headline": "One short word of two to five uppercase letters in a tall condensed geometric sans-serif, pure white, extremely large, tightly tracked, and deliberately interrupted by the subject.",
+    "technical_label": "A compact upper-left line in a narrow condensed techno sans-serif, cyan or deep blue on white, using a new year, index, or measurement-like notation.",
+    "footer": "One rough lowercase word at lower-left in white distressed type, paired with two or three tiny monospaced metadata fragments at lower-right.",
+    "layering": "Keep the megatype behind the photographic hero, but retain enough open letter structure to read the word quickly.",
+    "restrictions": "Use short correctly spelled new text only; no source words, creator credits, logos, outlined type, bevels, shadows, or long body copy."
+  },
+  "color_palette": {
+    "outer_paper": "Clean warm white, approximately #F7F6F0.",
+    "active_field": "Saturated cyan and sky blue, approximately #10AEE5 to #18B9EC.",
+    "display_type": "Flat paper white, approximately #FFFDF7.",
+    "micro_accents": "Deep marine blue, approximately #00568B.",
+    "hero_color": "One natural material family selected for strong temperature or value contrast against cyan.",
+    "proportions": "About 55 percent cyan field, 25 percent photographed subject color, 18 percent white paper and type, and 2 percent dark-blue marks."
+  },
+  "photographic_direction": {
+    "capture": "Photograph one real-looking hero at macro distance with a 24 to 50 mm equivalent lens, slight low-angle distortion, and enough depth of field to retain key surface texture.",
+    "crop": "Exclude most contextual space and allow the body or object to exit the lower and side edges; preserve one defining contour or detail near the upper-middle region.",
+    "lighting": "Use bright diffuse studio light with a subtle high-side direction, controlled highlights, soft shadows, and visible tactile detail.",
+    "color_grade": "Hold the cyan field vivid, keep the subject's natural color slightly faded and warm or dark, lift blacks gently, and avoid glossy digital contrast.",
+    "print_finish": "Unify the composition with fine paper fibers, mild dry-ink grain, a few subtle scratches, and slight print softness while keeping the image clean and legible."
+  },
+  "design_rules": [
+    "Make the gigantic white word the first read and the macro photographic material the immediate second read.",
+    "Use exactly one dominant hero and one defining physical detail; do not expand the scene with supporting props.",
+    "Keep the cyan field hard-edged inside a clearly visible white perimeter.",
+    "Let the hero cover selected parts of the headline while preserving fast word recognition.",
+    "Balance the upper-left technical label with tiny bottom-corner metadata and a distressed footer word.",
+    "Apply restrained grain continuously across the cyan field, subject, type, and paper.",
+    "Replace every literal subject, word, number, credit, and identity cue from the source."
+  ],
+  "do": [
+    "Use a single sharply recognizable subject at radical macro scale.",
+    "Preserve wide white margins and a saturated cyan active rectangle.",
+    "Set one short white word as monumental condensed geometry.",
+    "Reveal tactile fur, feather, leaf, leather, metal, or painted-surface detail.",
+    "Keep metadata tiny, sparse, and catalog-like.",
+    "Use fine analog grain without making the result dirty or illegible."
+  ],
+  "avoid": [
+    "Do not use hamsters, rodents, the source pose, HUG, simplicity, 2025, 12mm, or creator credit text.",
+    "Do not add a second hero, a narrative environment, dense collage, stickers, prices, or promotional badges.",
+    "Do not use gradients, glossy 3D rendering, dramatic cinematic lighting, deep perspective scenes, or full-bleed borderless layouts.",
+    "Do not bury all of the headline behind the subject or fill the page with long text.",
+    "Do not add logos, watermarks, signatures, usernames, QR codes, or platform marks.",
+    "Do not use excessive noise, heavy scratches, chromatic glitch, blur, or compression damage."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} finished experimental editorial poster in the \"cyan-grain-macro-megatype-poster-style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these literal style rules:\n- Composition: place a large hard-edged saturated cyan rectangle inside a broad clean white border. Put compact condensed technical metadata near the upper-left white margin, one monumental white display word across the upper third of the cyan field, one radically enlarged macro photographic hero rising from the lower area and crossing the letters, a rough lowercase footer word at lower-left, and tiny catalog metadata at lower-right. Preserve abundant open field and use no extra scene objects.\n- Subject and perspective: photograph exactly one hero extremely close from a low-side or three-quarter angle so it is cropped by the bottom and side edges and becomes a tactile abstract mass while one defining feature stays recognizable. The subject must cover selected portions of the headline but not destroy word recognition.\n- Typography: use a tall ultra-condensed geometric sans-serif for the short uppercase white headline, a narrow techno-condensed sans for the upper-left label, distressed lowercase letterpress type for one footer word, and tiny monospaced metadata. Keep all visible words brief, correctly spelled, flat-printed, and free of outlines or shadows.\n- Color: use warm paper white, vivid cyan-to-sky-blue, pure white type, tiny deep-marine registration marks, and one contrasting natural material family from the subject. Keep the palette strict and avoid multicolor decoration.\n- Texture and lighting: use bright diffuse studio light with soft high-side direction, readable surface detail, lifted midtones, matte paper fibers, fine dry-ink grain, faint scratches, and mild photocopy wear. Keep the finish tactile but clean, with no heavy degradation.\n- Graphic elements: use only the cyan inset field, three or four tiny bracket or dash marks, fragmented letter apertures caused by overlap, and minimal corner metadata. No stickers, price bursts, frames inside frames, or decorative illustrations.\n\nAvoid: hamster, guinea pig, rodent, tan-and-white small pet, source pose, HUG, simplicity, 2025, 12mm, source numbering, creator credit, signature, logo, trademark, watermark, username, QR code, platform UI, second hero, crowd, scenic environment, dense collage, promotional badge, gradient, glossy 3D render, vector illustration, cinematic light, lens flare, neon, long copy, illegible text, malformed subject anatomy, excessive noise, heavy scratches, glitch, blur, or compression artifacts.\n\nImportant content rule: match the style fidelity anchors first, then replace the source content completely. Use the specified new subject, material detail, gesture, word, metadata, and accent mark while preserving the sparse macro-photography and monumental-type system.",
+  "negative_prompt": "hamster, guinea pig, rodent, tan-and-white small pet, source chin-up pose, pink rodent nose, HUG, simplicity, 2025, 12mm, source date, source numbering, creator handle, design credit, signature, logo, trademark, watermark, username, QR code, platform UI, second subject, crowd, full scene, dense collage, price burst, promotional sticker, gradient, glossy 3D, vector illustration, cinematic lighting, lens flare, neon palette, full-bleed borderless image, long body copy, outlined type, drop shadow, illegible word, malformed anatomy, extra limbs, excessive grain, heavy scratches, chromatic glitch, blur, compression artifacts",
+  "examples": [
+    {
+      "case_name": "scarlet-parrot-profile",
+      "values": {
+        "SUBJECT": "a scarlet macaw shown as one enormous feathered profile",
+        "SUBJECT_ACTION": "tilting its head upward so the curved beak and cheek feathers interrupt the display letters",
+        "PRODUCT_OR_PROP": "one sharply defined charcoal beak and a small pale eye ring",
+        "LOCATION": "a minimal daylight studio with no visible habitat",
+        "BACKGROUND_ELEMENTS": "an uninterrupted cyan field with three tiny deep-blue registration brackets",
+        "MAIN_TEXT": "CALL",
+        "SECONDARY_TEXT": "2031 / field note 04 / vivid",
+        "ACCENT_SYMBOL": "a tiny right-angle corner bracket",
+        "WARDROBE_STYLE": "natural scarlet, coral, and muted gold plumage with highly tactile feather detail"
+      }
+    },
+    {
+      "case_name": "chrome-rangefinder-camera",
+      "values": {
+        "SUBJECT": "a vintage chrome rangefinder camera enlarged into a monumental mechanical block",
+        "SUBJECT_ACTION": "canting upward from the lower-right so its lens rim crosses the headline",
+        "PRODUCT_OR_PROP": "one large black glass lens, knurled focus ring, and brushed metal top plate",
+        "LOCATION": "a clean tabletop studio abstracted away by the extreme crop",
+        "BACKGROUND_ELEMENTS": "a flat cyan field with a single short navy dash near the top edge",
+        "MAIN_TEXT": "FOCUS",
+        "SECONDARY_TEXT": "frame 08 / optic study / clear",
+        "ACCENT_SYMBOL": "a tiny centered dash",
+        "WARDROBE_STYLE": "brushed silver metal, worn black leatherette, and controlled glass reflections"
+      }
+    },
+    {
+      "case_name": "desert-cactus-spine",
+      "values": {
+        "SUBJECT": "a ribbed columnar cactus enlarged until its waxy green surface fills the lower frame",
+        "SUBJECT_ACTION": "leaning slightly left while one crown and several spines cut into the megatype",
+        "PRODUCT_OR_PROP": "a single pale flower bud and crisp radial spine clusters",
+        "LOCATION": "a minimal bright studio with no desert landscape",
+        "BACKGROUND_ELEMENTS": "open cyan around the crown with sparse corner-registration ticks",
+        "MAIN_TEXT": "GROW",
+        "SECONDARY_TEXT": "study 13 / dry form / steady",
+        "ACCENT_SYMBOL": "a tiny square index mark",
+        "WARDROBE_STYLE": "dusty green waxy ribs, ivory spines, and one muted coral flower bud"
+      }
+    },
+    {
+      "case_name": "cobalt-running-shoe",
+      "values": {
+        "SUBJECT": "one cobalt-blue running shoe treated as an oversized tactile product sculpture",
+        "SUBJECT_ACTION": "rising diagonally from the bottom edge with the toe and laces masking parts of the word",
+        "PRODUCT_OR_PROP": "a thick off-white foam sole, woven mesh upper, and one loose lace loop",
+        "LOCATION": "a seamless studio surface hidden by the close crop",
+        "BACKGROUND_ELEMENTS": "a saturated cyan rectangle with only two small marine-blue catalog ticks",
+        "MAIN_TEXT": "MOVE",
+        "SECONDARY_TEXT": "motion 21 / mesh test / light",
+        "ACCENT_SYMBOL": "a tiny split corner mark",
+        "WARDROBE_STYLE": "unbranded cobalt knit mesh, chalk-white foam, and subtle wear texture"
+      }
+    }
+  ]
+}

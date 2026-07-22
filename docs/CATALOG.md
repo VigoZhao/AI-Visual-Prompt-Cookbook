@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 99 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 100 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Cyan Grain Macro Megatype Poster
+
+<a href="../styles/cyan-grain-macro-megatype-poster-style"><img src="../assets/thumbs/cyan-grain-macro-megatype-poster-style-16x9.jpg" width="720" alt="Cyan Grain Macro Megatype Poster preview"></a>
+
+A sparse experimental editorial poster system built from one radically enlarged macro photograph, a saturated cyan field, monumental white geometric letterforms that interlock with the subject, wide white margins, compact technical metadata, and tactile analog print grain.
+
+Files: [style.json](../styles/cyan-grain-macro-megatype-poster-style/style.json) · [Copy Prompt](copy-prompts/cyan-grain-macro-megatype-poster-style.md) · [16:9 preview](../styles/cyan-grain-macro-megatype-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/cyan-grain-macro-megatype-poster-style/preview-9x16.jpg) · [Folder](../styles/cyan-grain-macro-megatype-poster-style)
+
+---
 
 ### Retro Future Chrome Portrait Dossier
 
