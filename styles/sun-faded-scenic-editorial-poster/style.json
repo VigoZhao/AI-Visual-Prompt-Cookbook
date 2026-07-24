@@ -1,0 +1,163 @@
+{
+  "style_name": "Sun-Faded Scenic Editorial Poster",
+  "style_slug": "sun-faded-scenic-editorial-poster",
+  "style_version": "2.1.0",
+  "style_summary": "A nostalgic scenic editorial poster system that combines enormous warm-ivory condensed headlines, one flowing tangerine script accent, tiny travel-magazine microcopy, and a low-angle analog photograph beneath a broad cyan sky with sun-faded film grain.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A two-zone poster hierarchy: oversized typography dominates the upper half while one full-width scenic photograph anchors the lower half.",
+    "The headline uses monumental warm-ivory ultra-condensed sans lettering, stacked in two block lines with very tight spacing.",
+    "A single large tangerine-orange calligraphic word crosses the center of the block headline as a lively contrasting layer.",
+    "Three tiny editorial caption islands sit across the top margin, with bold condensed words mixed with delicate italic connective words.",
+    "A small centered all-caps subtitle sits below the display headline and above the photographic subject.",
+    "The photograph is shot from a low or near-ground viewpoint with the main subject in the lower-middle and a thin distant horizon.",
+    "Broad cyan-to-pale-aqua sky creates generous negative space and visually unifies the typographic and photographic zones.",
+    "Palette behavior stays restrained: cyan sky, warm ivory type, vivid tangerine accent, natural green or earth ground, and dark details.",
+    "Analog finish is continuous across type and photo: fine film grain, faded pigments, soft highlight bloom, slight print speckle, and gentle edge wear.",
+    "Lighting feels like clear late-morning or golden-hour daylight with long grounded shadows, never studio-lit or cinematic-night.",
+    "The mood is optimistic, leisurely, and mid-century travel-editorial, with a sparse composition and no dense graphic clutter."
+  ],
+  "source_content_to_avoid": [
+    "The exact orange vintage two-door coupe, rear three-quarter vehicle pose, license plate, chrome bumper, or parked-car subject.",
+    "The exact grassy field, distant tree line, rear-of-car road-trip scene, or identical horizon placement.",
+    "The original headline and supporting copy, including ENJOY, THE WORLD, SKIP FOR THREE DAYS, PLEASE, BACK TO THE ROAD, or close variants.",
+    "The original orange script word placement when paired with the same source wording or same story premise.",
+    "Any signature, watermark, username, platform mark, car marque, license plate text, logo, or identity mark.",
+    "A story about abandoning work for several days and returning to the road in the featured orange car."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Sun-faded mid-century travel-editorial poster combining display typography with an analog scenic photograph.",
+    "composition_logic": "A narrow top-caption strip leads into two huge stacked headline rows; a script accent bridges them; a small centered subtitle marks the transition to a full-width photograph in the lower half.",
+    "subject_placement": "One recognizable subject sits in the lower-middle, large enough to read instantly but surrounded by ground and a thin landscape horizon.",
+    "camera_perspective": "Low or near-ground wide-angle view, eye line close to the subject's lower half, with a level horizon and abundant open sky.",
+    "texture_finish": "Printed analog-film finish with fine grain, mild color fade, slightly chalky type, soft bloom, tiny dust, and restrained paper speckle."
+  },
+  "composition": {
+    "layout": "Reserve roughly the upper 48 to 56 percent for typography and sky, and the lower 44 to 52 percent for one uninterrupted scenic photograph.",
+    "hierarchy": "Read order is giant block headline, orange script accent, photographic subject, then tiny top and center microcopy.",
+    "headline_structure": "Stack the main phrase in two huge centered rows; allow the script accent to overlap the gap and partially cross both rows without hiding legibility.",
+    "subject_scale": "Keep one main subject around one-quarter to one-third of the canvas width, centered or slightly off-center in the lower-middle.",
+    "spacing": "Maintain a slim top margin, tight display-type leading, an open cyan sky field, and an uncluttered lower foreground."
+  },
+  "typography": {
+    "main_type": "Ultra-heavy, tall, condensed sans display lettering in warm ivory, all caps, tightly tracked, slightly weathered, and centered.",
+    "script_accent": "One oversized tangerine-orange calligraphic italic word with sweeping entry and exit strokes, crossing the block headline.",
+    "top_captions": "Three small all-caps condensed caption islands aligned left, center, and right; optionally mix one or two tiny elegant italic connector words.",
+    "subtitle": "Small centered all-caps geometric sans in ivory, arranged in one or two short lines just above the photo subject.",
+    "text_behavior": "Text should feel hand-composed and printed into the sky, not like floating UI, signage, or glossy digital effects."
+  },
+  "color_palette": {
+    "dominant_sky": "Dusty cyan and turquoise grading into pale aqua near the horizon.",
+    "headline": "Warm ivory, bone white, or sun-aged cream with subtle ink grain.",
+    "accent": "Saturated tangerine orange used mainly for the script word and one small subject detail.",
+    "landscape": "Natural grass green, sage, sand, rust, or muted earth colors depending on the scene.",
+    "shadows": "Deep forest green, soft charcoal, and subdued blue-black rather than pure black.",
+    "proportion": "Approximately 55 percent cyan/aqua, 25 percent natural ground tones, 15 percent ivory type, and 5 percent orange accent."
+  },
+  "photographic_direction": {
+    "rendering": "Use believable analog location photography with a slightly softened 1970s editorial color print character, never illustration or 3D rendering.",
+    "camera": "Low viewpoint with a moderate wide lens, level horizon, one crisp subject, and gentle atmospheric falloff in the far background.",
+    "lighting": "Clear directional daylight, warm highlights, readable material texture, and one long grounded shadow.",
+    "grade": "Favor cyan skies, warm orange highlights, green or ochre ground, moderate contrast, lifted faded blacks, and fine film grain.",
+    "mood": "Unhurried escape, outdoor optimism, simple freedom, and vintage magazine wanderlust."
+  },
+  "design_rules": [
+    "Use exactly one full-width photographic scene rather than a collage or framed photo card.",
+    "Let the open sky serve as the background for all major typography.",
+    "Build the headline from two oversized warm-ivory condensed rows and one contrasting orange script word.",
+    "Keep the script accent to one word or very short phrase with expressive swashes.",
+    "Place three sparse top-caption islands and one small centered subtitle; avoid additional labels or badges.",
+    "Keep the horizon thin, distant, and mostly horizontal behind the lower subject.",
+    "Apply the same sun-faded grain and print wear across photo, sky, and lettering.",
+    "Preserve large quiet areas and a low object count."
+  ],
+  "do": [
+    "Keep the giant ivory condensed headline as the main graphic mass.",
+    "Use one tangerine calligraphic accent that visibly overlaps the block type.",
+    "Photograph a single new subject at a low angle in an open-air setting.",
+    "Preserve the cyan-sky, warm-accent, natural-ground palette behavior.",
+    "Use fine analog grain, mild fading, soft bloom, and gently imperfect print edges.",
+    "Keep the composition sparse enough to read instantly at poster scale."
+  ],
+  "avoid": [
+    "No orange vintage coupe, rear car view, recognizable automobile badge, license plate, grassy parked-car recreation, or source wording.",
+    "No glossy modern ad finish, HDR, dramatic night lighting, neon, metallic type, bevels, drop shadows, or 3D typography.",
+    "No dense collage, multiple photo panels, stickers, arrows, price tags, UI components, or promotional badges.",
+    "No illustrated, painterly, cartoon, vector-only, or synthetic 3D subject treatment.",
+    "No watermarks, signatures, usernames, logos, brand marks, QR codes, or platform identifiers.",
+    "No people looking directly at camera in a posed fashion campaign; keep behavior candid and scene-led."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Sun-Faded Scenic Editorial Poster visual style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol or script word: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these concrete style rules: divide the design into an upper typographic sky zone and a lower full-width scenic photograph; place two enormous stacked rows of ultra-heavy warm-ivory condensed all-caps type across the upper half; cross the central gap with one oversized tangerine-orange calligraphic italic accent word with long swashes; distribute three tiny editorial caption islands across the top margin and one small centered all-caps subtitle below the headline; keep a broad dusty-cyan-to-pale-aqua sky behind the lettering; photograph one main subject from a low near-ground viewpoint in the lower-middle with a thin level horizon, natural ground, and a long daylight shadow; restrict the palette to cyan sky, ivory type, tangerine accent, natural green or earth ground, and dark details; cover the entire poster with coherent fine analog film grain, mild sun fading, soft highlight bloom, subtle paper speckle, and lightly worn print edges; preserve a sparse optimistic mid-century travel-magazine mood. Avoid the source vehicle and scene, source wording, recognizable brands, license plates, logos, signatures, watermarks, dense collage, multiple panels, stickers, UI, glossy HDR, studio light, night scenes, neon, illustration, vector-only art, 3D rendering, metallic or beveled type, gradients, and excessive noise. Important content rule: match the style fidelity anchors first, then change the source content with a new subject, action, prop, setting, text, and story premise.",
+  "negative_prompt": "Do not recreate the orange vintage two-door coupe, rear three-quarter car pose, chrome bumper, license plate, grassy parked-car field, tree line, original headline, original captions, return-to-the-road premise, signature, watermark, logo, username, brand mark, QR code, glossy commercial automotive ad, HDR, night scene, neon, studio lighting, illustration, cartoon, vector poster, 3D render, metallic or beveled type, drop shadows, dense collage, multiple photo panels, stickers, price bursts, UI chrome, clutter, severe chromatic aberration, blocky compression, or excessive noise.",
+  "examples": [
+    {
+      "case_name": "Misty Lake Launch",
+      "values": {
+        "SUBJECT": "a solo paddler with a cream canvas canoe",
+        "SUBJECT_ACTION": "guiding the canoe into still water at first light",
+        "PRODUCT_OR_PROP": "a wooden paddle and rolled ochre dry bag",
+        "LOCATION": "a misty alpine lake shore",
+        "BACKGROUND_ELEMENTS": "silver water, distant pine ridge, low morning haze, pebbled shallows, and a clean level horizon",
+        "MAIN_TEXT": "FIND THE STILLNESS",
+        "SECONDARY_TEXT": "FIRST LIGHT / QUIET WATER / TAKE IT SLOW",
+        "ACCENT_SYMBOL": "Breathe",
+        "WARDROBE_STYLE": "sun-faded navy field jacket, cream trousers, and simple brown boots"
+      }
+    },
+    {
+      "case_name": "Desert Star Watch",
+      "values": {
+        "SUBJECT": "a field astronomer beside a compact silver telescope",
+        "SUBJECT_ACTION": "adjusting the telescope before sunset while facing the open plateau",
+        "PRODUCT_OR_PROP": "a brushed-metal telescope on a black tripod and a folded star chart",
+        "LOCATION": "a high desert overlook in clear late-afternoon light",
+        "BACKGROUND_ELEMENTS": "ochre ground, distant flat mesas, sparse sage, long shadow, and an enormous empty cyan sky",
+        "MAIN_TEXT": "WAIT FOR THE STARS",
+        "SECONDARY_TEXT": "CLEAR SKIES / LAST LIGHT / LOOK UP",
+        "ACCENT_SYMBOL": "Tonight",
+        "WARDROBE_STYLE": "rust-orange windbreaker, faded denim, and a plain canvas cap without marks"
+      }
+    },
+    {
+      "case_name": "Coastal Cycle Pause",
+      "values": {
+        "SUBJECT": "a touring cyclist with a seafoam-green steel bicycle",
+        "SUBJECT_ACTION": "resting one hand on the bicycle while watching the sea",
+        "PRODUCT_OR_PROP": "a canvas handlebar roll and a plain silver water bottle",
+        "LOCATION": "a windswept coastal bluff above a calm bay",
+        "BACKGROUND_ELEMENTS": "short golden grass, a distant blue headland, thin white surf, and a low uninterrupted horizon",
+        "MAIN_TEXT": "FOLLOW THE BREEZE",
+        "SECONDARY_TEXT": "COASTLINE / NO HURRY / KEEP MOVING",
+        "ACCENT_SYMBOL": "Drift",
+        "WARDROBE_STYLE": "cream knit cycling top, burnt-orange shorts, white socks, and an unbranded dark helmet"
+      }
+    },
+    {
+      "case_name": "Greenhouse Harvest",
+      "values": {
+        "SUBJECT": "a greenhouse grower carrying a shallow crate of ripe citrus",
+        "SUBJECT_ACTION": "walking between open glasshouse doors into the morning sun",
+        "PRODUCT_OR_PROP": "a weathered wooden produce crate filled with yellow and orange citrus",
+        "LOCATION": "the edge of a rural greenhouse and orchard",
+        "BACKGROUND_ELEMENTS": "low glass panes, orderly orchard rows, soft hills, dew-bright ground, and a broad clear cyan sky",
+        "MAIN_TEXT": "GROW WITH THE SEASON",
+        "SECONDARY_TEXT": "MORNING PICK / OPEN AIR / SHARE THE GOOD",
+        "ACCENT_SYMBOL": "Together",
+        "WARDROBE_STYLE": "sage work shirt, cream canvas trousers, orange gloves, and practical dark boots"
+      }
+    }
+  ]
+}

@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 100 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 101 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Sun-Faded Scenic Editorial Poster
+
+<a href="../styles/sun-faded-scenic-editorial-poster"><img src="../assets/thumbs/sun-faded-scenic-editorial-poster-16x9.jpg" width="720" alt="Sun-Faded Scenic Editorial Poster preview"></a>
+
+A nostalgic scenic editorial poster system that combines enormous warm-ivory condensed headlines, one flowing tangerine script accent, tiny travel-magazine microcopy, and a low-angle analog photograph beneath a broad cyan sky with sun-faded film grain.
+
+Files: [style.json](../styles/sun-faded-scenic-editorial-poster/style.json) · [Copy Prompt](copy-prompts/sun-faded-scenic-editorial-poster.md) · [16:9 preview](../styles/sun-faded-scenic-editorial-poster/preview-16x9.jpg) · [9:16 preview](../styles/sun-faded-scenic-editorial-poster/preview-9x16.jpg) · [Folder](../styles/sun-faded-scenic-editorial-poster)
+
+---
 
 ### Cyan Grain Macro Megatype Poster
 

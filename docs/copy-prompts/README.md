@@ -86,6 +86,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Sky Blue Lucky Tag Doodle Poster Style | [Copy Prompt](sky-blue-lucky-tag-doodle-poster-style.md) | [style.json](../../styles/sky-blue-lucky-tag-doodle-poster-style/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
+| Sun-Faded Scenic Editorial Poster | [Copy Prompt](sun-faded-scenic-editorial-poster.md) | [style.json](../../styles/sun-faded-scenic-editorial-poster/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
 | Sunlit Architectural Fashion Editorial | [Copy Prompt](sunlit-architectural-fashion-editorial.md) | [style.json](../../styles/sunlit-architectural-fashion-editorial/style.json) |
 | Sunlit Coastal Product Blitz | [Copy Prompt](sunlit-coastal-product-blitz.md) | [style.json](../../styles/sunlit-coastal-product-blitz/style.json) |

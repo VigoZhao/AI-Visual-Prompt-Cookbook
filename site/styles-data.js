@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 100,
+  "styleCount": 101,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Sun-Faded Scenic Editorial Poster",
+      "slug": "sun-faded-scenic-editorial-poster",
+      "category": "Editorial + Minimal",
+      "description": "Nostalgic scenic travel posters with enormous warm-ivory condensed headlines, a flowing tangerine script accent, tiny magazine microcopy, and sun-faded analog film grain.",
+      "summary": "A nostalgic scenic editorial poster system that combines enormous warm-ivory condensed headlines, one flowing tangerine script accent, tiny travel-magazine microcopy, and a low-angle analog photograph beneath a broad cyan sky with sun-faded film grain.",
+      "preview16": "../styles/sun-faded-scenic-editorial-poster/preview-16x9.jpg",
+      "preview9": "../styles/sun-faded-scenic-editorial-poster/preview-9x16.jpg",
+      "styleJson": "../styles/sun-faded-scenic-editorial-poster/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/sun-faded-scenic-editorial-poster.md",
+      "folder": "../styles/sun-faded-scenic-editorial-poster/",
+      "anchors": [
+        "A two-zone poster hierarchy: oversized typography dominates the upper half while one full-width scenic photograph anchors the lower half.",
+        "The headline uses monumental warm-ivory ultra-condensed sans lettering, stacked in two block lines with very tight spacing.",
+        "A single large tangerine-orange calligraphic word crosses the center of the block headline as a lively contrasting layer.",
+        "Three tiny editorial caption islands sit across the top margin, with bold condensed words mixed with delicate italic connective words.",
+        "A small centered all-caps subtitle sits below the display headline and above the photographic subject.",
+        "The photograph is shot from a low or near-ground viewpoint with the main subject in the lower-middle and a thin distant horizon."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "Misty Lake Launch",
+      "copyPrompt": "Use the \"Sun-Faded Scenic Editorial Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a solo paddler with a cream canvas canoe\nSubject action: guiding the canoe into still water at first light\nProduct or prop: a wooden paddle and rolled ochre dry bag\nLocation: a misty alpine lake shore\nBackground elements: silver water, distant pine ridge, low morning haze, pebbled shallows, and a clean level horizon\nMain text: FIND THE STILLNESS\nSecondary text: FIRST LIGHT / QUIET WATER / TAKE IT SLOW\nAccent symbol: Breathe\nWardrobe style: sun-faded navy field jacket, cream trousers, and simple brown boots\n\nStyle direction:\nA nostalgic scenic editorial poster system that combines enormous warm-ivory condensed\nheadlines, one flowing tangerine script accent, tiny travel-magazine microcopy, and a low-angle\nanalog photograph beneath a broad cyan sky with sun-faded film grain.\n\nKeep visible:\n- A two-zone poster hierarchy: oversized typography dominates the upper half while one full-width scenic photograph anchors the lower half.\n- The headline uses monumental warm-ivory ultra-condensed sans lettering, stacked in two block lines with very tight spacing.\n- A single large tangerine-orange calligraphic word crosses the center of the block headline as a lively contrasting layer.\n- Three tiny editorial caption islands sit across the top margin, with bold condensed words mixed with delicate italic connective words.\n- A small centered all-caps subtitle sits below the display headline and above the photographic subject.\n\nAvoid:\nDo not recreate the orange vintage two-door coupe, rear three-quarter car pose, chrome bumper,\nlicense plate, grassy parked-car field, tree line, original headline, original captions, return-\nto-the-road premise, signature, watermark, logo, username, brand mark, QR code, glossy\ncommercial automotive ad, HDR, night scene, neon, studio lighting, illustration, cartoon, vector\nposter, 3D render, metallic or beveled type, drop shadows, dense collage, multiple photo panels,\nstickers, price bursts, UI chrome, clutter, severe chromatic aberration, blocky compression, or\nexcessive noise.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Cyan Grain Macro Megatype Poster",
       "slug": "cyan-grain-macro-megatype-poster-style",

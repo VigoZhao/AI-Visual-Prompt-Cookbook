@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-100-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-200-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-101-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-202-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,12 +119,18 @@ Ingin mencoba versi singkat dulu? Buka [Copy Prompt Library](docs/copy-prompts/R
 
 ## Gaya Unggulan
 
-Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 100 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
+Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua gambar preview. Jelajahi 101 gaya lengkap di galeri [All Styles](#all-styles) di bawah.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
+<td width="33%" valign="top">
+<a href="styles/sun-faded-scenic-editorial-poster"><img src="assets/thumbs/sun-faded-scenic-editorial-poster-16x9.jpg" alt="Sun-Faded Scenic Editorial Poster preview"></a>
+<h3>Sun-Faded Scenic Editorial Poster</h3>
+<p>A nostalgic scenic editorial poster system that combines enormous warm-ivory condensed headlines, one flowing tangerine script accent, tiny travel-magazine microcopy, and a low-angle analog photograph beneath a broad cyan sky with sun-faded film grain.</p>
+<p><a href="styles/sun-faded-scenic-editorial-poster/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/sun-faded-scenic-editorial-poster.md">Salin Prompt</a> · <a href="styles/sun-faded-scenic-editorial-poster">Folder</a></p>
+</td>
 <td width="33%" valign="top">
 <a href="styles/cyan-grain-macro-megatype-poster-style"><img src="assets/thumbs/cyan-grain-macro-megatype-poster-style-16x9.jpg" alt="Cyan Grain Macro Megatype Poster preview"></a>
 <h3>Cyan Grain Macro Megatype Poster</h3>
@@ -137,14 +143,14 @@ Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua
 <p>A retro-futurist editorial portrait system built from an asymmetric technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, modular grid lines, optical diagrams, and coarse halftone print grain in midnight indigo, warm cream, hot magenta, cobalt, and coral.</p>
 <p><a href="styles/retro-future-chrome-portrait-dossier/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/retro-future-chrome-portrait-dossier.md">Salin Prompt</a> · <a href="styles/retro-future-chrome-portrait-dossier">Folder</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="styles/pink-anime-motorcycle-spec-poster-style"><img src="assets/thumbs/pink-anime-motorcycle-spec-poster-style-16x9.jpg" alt="Pink Anime Motorcycle Spec Poster Style preview"></a>
 <h3>Pink Anime Motorcycle Spec Poster Style</h3>
 <p>A dense anime motorsport dossier poster system pairing one original cel-shaded rider with one hero motorcycle, built from a glossy three-quarter product view, oversized italic model-code typography, a cream-and-hot-magenta editorial grid, a monochrome halftone character echo, and a compact technical spec card.</p>
 <p><a href="styles/pink-anime-motorcycle-spec-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/pink-anime-motorcycle-spec-poster-style.md">Salin Prompt</a> · <a href="styles/pink-anime-motorcycle-spec-poster-style">Folder</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="styles/xerox-neon-editorial-collage-style"><img src="assets/thumbs/xerox-neon-editorial-collage-style-16x9.jpg" alt="Xerox Neon Editorial Collage preview"></a>
 <h3>Xerox Neon Editorial Collage</h3>
@@ -156,12 +162,6 @@ Enam sistem visual ini cocok untuk memulai. Setiap gaya berisi satu JSON dan dua
 <h3>Crimson Ink Manga Dossier</h3>
 <p>A high-density manga editorial dossier poster built from one dramatically foreshortened illustrated hero, oversized distressed condensed headlines, modular newspaper sidebars, monochrome comic insets, and a strict crimson-black-warm-paper palette.</p>
 <p><a href="styles/crimson-ink-manga-dossier/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/crimson-ink-manga-dossier.md">Salin Prompt</a> · <a href="styles/crimson-ink-manga-dossier">Folder</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/lime-loop-megatype-action-poster-style"><img src="assets/thumbs/lime-loop-megatype-action-poster-style-16x9.jpg" alt="Lime Loop Megatype Action Poster preview"></a>
-<h3>Lime Loop Megatype Action Poster</h3>
-<p>A high-energy studio action-poster system combining an overhead wide-angle photographic subject, enormous stacked dark-green display type, a continuous fluorescent-lime motion loop, clean white negative space, and crisp commercial lighting.</p>
-<p><a href="styles/lime-loop-megatype-action-poster-style/style.json"><strong>Buka style.json</strong></a> · <a href="docs/copy-prompts/lime-loop-megatype-action-poster-style.md">Salin Prompt</a> · <a href="styles/lime-loop-megatype-action-poster-style">Folder</a></p>
 </td>
 </tr>
 </table>
@@ -195,7 +195,7 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-Jelajahi semua 100 gaya di bawah.
+Jelajahi semua 101 gaya di bawah.
 
 Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan semua tautan file per gaya, lihat [docs/CATALOG.md](docs/CATALOG.md).
 
@@ -203,6 +203,13 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 
 <table>
 <tr>
+<td width="33%" valign="top">
+<a id="sun-faded-scenic-editorial-poster"></a>
+<a href="styles/sun-faded-scenic-editorial-poster"><img src="assets/thumbs/sun-faded-scenic-editorial-poster-16x9.jpg" alt="Sun-Faded Scenic Editorial Poster preview"></a>
+<p><strong><a href="styles/sun-faded-scenic-editorial-poster">Sun-Faded Scenic Editorial Poster</a></strong><br>
+<em>Nostalgic scenic travel posters with enormous warm-ivory condensed headlines, a flowing tangerine script accent, tiny magazine microcopy, and sun-faded analog film grain.</em><br>
+<a href="styles/sun-faded-scenic-editorial-poster/style.json">style.json</a> · <a href="docs/copy-prompts/sun-faded-scenic-editorial-poster.md">prompt</a> · <a href="styles/sun-faded-scenic-editorial-poster/preview-9x16.jpg">9:16</a></p>
+</td>
 <td width="33%" valign="top">
 <a id="cyan-grain-macro-megatype-poster-style"></a>
 <a href="styles/cyan-grain-macro-megatype-poster-style"><img src="assets/thumbs/cyan-grain-macro-megatype-poster-style-16x9.jpg" alt="Cyan Grain Macro Megatype Poster preview"></a>
@@ -217,6 +224,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Retro-futurist editorial portrait posters with a technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, optical diagrams, and coarse halftone print grain.</em><br>
 <a href="styles/retro-future-chrome-portrait-dossier/style.json">style.json</a> · <a href="docs/copy-prompts/retro-future-chrome-portrait-dossier.md">prompt</a> · <a href="styles/retro-future-chrome-portrait-dossier/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="pink-anime-motorcycle-spec-poster-style"></a>
 <a href="styles/pink-anime-motorcycle-spec-poster-style"><img src="assets/thumbs/pink-anime-motorcycle-spec-poster-style-16x9.jpg" alt="Pink Anime Motorcycle Spec Poster Style preview"></a>
@@ -224,8 +233,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Anime motorsport dossier posters pairing an original rider with a hero motorcycle, oversized italic model codes, a cream-and-magenta editorial grid, and a compact spec card.</em><br>
 <a href="styles/pink-anime-motorcycle-spec-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/pink-anime-motorcycle-spec-poster-style.md">prompt</a> · <a href="styles/pink-anime-motorcycle-spec-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="xerox-neon-editorial-collage-style"></a>
 <a href="styles/xerox-neon-editorial-collage-style"><img src="assets/thumbs/xerox-neon-editorial-collage-style-16x9.jpg" alt="Xerox Neon Editorial Collage preview"></a>
@@ -240,6 +247,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>High-density manga dossier posters with a foreshortened hero, distressed condensed headlines, newspaper sidebars, and a crimson-black-paper palette.</em><br>
 <a href="styles/crimson-ink-manga-dossier/style.json">style.json</a> · <a href="docs/copy-prompts/crimson-ink-manga-dossier.md">prompt</a> · <a href="styles/crimson-ink-manga-dossier/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="lime-loop-megatype-action-poster-style"></a>
 <a href="styles/lime-loop-megatype-action-poster-style"><img src="assets/thumbs/lime-loop-megatype-action-poster-style-16x9.jpg" alt="Lime Loop Megatype Action Poster preview"></a>
@@ -247,8 +256,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Studio action posters with an overhead subject, stacked dark-green megatype, a fluorescent-lime motion loop, and clean white space.</em><br>
 <a href="styles/lime-loop-megatype-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/lime-loop-megatype-action-poster-style.md">prompt</a> · <a href="styles/lime-loop-megatype-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="yellow-graffiti-fisheye-manga-street-poster-style"></a>
 <a href="styles/yellow-graffiti-fisheye-manga-street-poster-style"><img src="assets/thumbs/yellow-graffiti-fisheye-manga-street-poster-style-16x9.jpg" alt="Yellow Graffiti Fisheye Manga Street Poster Style preview"></a>
@@ -263,6 +270,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Fast-food billboard collages with red-and-yellow blocks, glossy cutout products, and a trophy silhouette built from product objects.</em><br>
 <a href="styles/red-yellow-product-trophy-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/red-yellow-product-trophy-collage-style.md">prompt</a> · <a href="styles/red-yellow-product-trophy-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="manga-dossier-blueprint-poster"></a>
 <a href="styles/manga-dossier-blueprint-poster"><img src="assets/thumbs/manga-dossier-blueprint-poster-16x9.jpg" alt="Manga Dossier Blueprint Poster preview"></a>
@@ -270,8 +279,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Manga dossier posters with cream margins, grayscale ink portraits, cobalt-blue technical panels, and editorial annotation rails.</em><br>
 <a href="styles/manga-dossier-blueprint-poster/style.json">style.json</a> · <a href="docs/copy-prompts/manga-dossier-blueprint-poster.md">prompt</a> · <a href="styles/manga-dossier-blueprint-poster/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="red-black-manga-tabloid-poster-style"></a>
 <a href="styles/red-black-manga-tabloid-poster-style"><img src="assets/thumbs/red-black-manga-tabloid-poster-style-16x9.jpg" alt="Red Black Manga Tabloid Poster Style preview"></a>
@@ -286,6 +293,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Ice-white action posters with oversized cyan megatype, ghost text layers, a cutout action photo, and chartreuse motion blur.</em><br>
 <a href="styles/ice-cyan-megatype-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/ice-cyan-megatype-action-poster-style.md">prompt</a> · <a href="styles/ice-cyan-megatype-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="scarlet-megatype-action-collage-style"></a>
 <a href="styles/scarlet-megatype-action-collage-style"><img src="assets/thumbs/scarlet-megatype-action-collage-style-16x9.jpg" alt="Scarlet Megatype Action Collage Style preview"></a>
@@ -293,8 +302,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Scarlet action key-art with diagonal block megatype, layered cutout subjects, hard graphic shadows, and controlled print grain.</em><br>
 <a href="styles/scarlet-megatype-action-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/scarlet-megatype-action-collage-style.md">prompt</a> · <a href="styles/scarlet-megatype-action-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="jagged-red-street-photo-event-poster-style"></a>
 <a href="styles/jagged-red-street-photo-event-poster-style"><img src="assets/thumbs/jagged-red-street-photo-event-poster-style-16x9.jpg" alt="Jagged Red Street Photo Event Poster Style preview"></a>
@@ -309,6 +316,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Hyper-saturated 3D stadium posters with toy-like heroes, cropped condensed type, lime-and-purple fields, and motion-blurred debris.</em><br>
 <a href="styles/neon-stadium-3d-hero-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-stadium-3d-hero-type-poster-style.md">prompt</a> · <a href="styles/neon-stadium-3d-hero-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="dusk-cyan-layered-type-poster-style"></a>
 <a href="styles/dusk-cyan-layered-type-poster-style"><img src="assets/thumbs/dusk-cyan-layered-type-poster-style-16x9.jpg" alt="Dusk Cyan Layered Type Poster Style preview"></a>
@@ -316,8 +325,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Full-bleed dusk photo posters with navy silhouettes, oversized cyan-and-white type, script swashes, and crisp vector icons.</em><br>
 <a href="styles/dusk-cyan-layered-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/dusk-cyan-layered-type-poster-style.md">prompt</a> · <a href="styles/dusk-cyan-layered-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="electric-blue-cutout-manga-poster-style"></a>
 <a href="styles/electric-blue-cutout-manga-poster-style"><img src="assets/thumbs/electric-blue-cutout-manga-poster-style-16x9.jpg" alt="Electric Blue Cutout Manga Poster Style preview"></a>
@@ -332,6 +339,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Dense Y2K street collages with cutout subjects, sticker props, comic typography, and saturated yellow-blue-green accents.</em><br>
 <a href="styles/y2k-streetwear-sticker-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-streetwear-sticker-collage-style.md">prompt</a> · <a href="styles/y2k-streetwear-sticker-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="cream-smoke-city-manga-poster-style"></a>
 <a href="styles/cream-smoke-city-manga-poster-style"><img src="assets/thumbs/cream-smoke-city-manga-poster-style-16x9.jpg" alt="Cream Smoke City Manga Poster Style preview"></a>
@@ -339,8 +348,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Manga ink city scenes with cream cloud masses, sparse teal frames, peach accents, and precise miniature urban architecture.</em><br>
 <a href="styles/cream-smoke-city-manga-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/cream-smoke-city-manga-poster-style.md">prompt</a> · <a href="styles/cream-smoke-city-manga-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="red-yellow-grunge-skate-cover-style"></a>
 <a href="styles/red-yellow-grunge-skate-cover-style"><img src="assets/thumbs/red-yellow-grunge-skate-cover-style-16x9.jpg" alt="Red Yellow Grunge Skate Cover Style preview"></a>
@@ -355,6 +362,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Black-and-white xerox sports dossiers with cropped subjects, inset photo panels, distressed condensed type, and press-kit grain.</em><br>
 <a href="styles/monochrome-xerox-sports-dossier/style.json">style.json</a> · <a href="docs/copy-prompts/monochrome-xerox-sports-dossier.md">prompt</a> · <a href="styles/monochrome-xerox-sports-dossier/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="liquid-chrome-clearance-poster-style"></a>
 <a href="styles/liquid-chrome-clearance-poster-style"><img src="assets/thumbs/liquid-chrome-clearance-poster-style-16x9.jpg" alt="Liquid Chrome Clearance Poster Style preview"></a>
@@ -362,8 +371,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>High-impact clearance posters with glossy liquid-chrome 3D type, acid-lime gradients, sale-interface microcopy, and barcode-style retail panels.</em><br>
 <a href="styles/liquid-chrome-clearance-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/liquid-chrome-clearance-poster-style.md">prompt</a> · <a href="styles/liquid-chrome-clearance-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="hot-ink-comic-poster"></a>
 <a href="styles/hot-ink-comic-poster"><img src="assets/thumbs/hot-ink-comic-poster-16x9.jpg" alt="Hot Ink Comic Poster preview"></a>
@@ -378,6 +385,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>High-energy action posters built from staggered photo tiles, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art scaffolding.</em><br>
 <a href="styles/kinetic-editorial-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-editorial-photo-collage-style.md">prompt</a> · <a href="styles/kinetic-editorial-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sunlit-coastal-product-blitz"></a>
 <a href="styles/sunlit-coastal-product-blitz"><img src="assets/thumbs/sunlit-coastal-product-blitz-16x9.jpg" alt="Sunlit Coastal Product Blitz preview"></a>
@@ -385,8 +394,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Sunlit photoreal coastal product ads with tropical botanicals, ocean-blue depth, distressed white brush type, dense label blocks, curved callouts, and gold seal badges.</em><br>
 <a href="styles/sunlit-coastal-product-blitz/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-coastal-product-blitz.md">prompt</a> · <a href="styles/sunlit-coastal-product-blitz/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="monochrome-grid-sneaker-tech-spec"></a>
 <a href="styles/monochrome-grid-sneaker-tech-spec"><img src="assets/thumbs/monochrome-grid-sneaker-tech-spec-16x9.jpg" alt="Monochrome Grid Sneaker Tech Spec preview"></a>
@@ -401,6 +408,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Sky-blue doodle posters with chunky white type, a hanging lucky-tag plaque, thick black outlines, and one big playful mascot.</em><br>
 <a href="styles/sky-blue-lucky-tag-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-lucky-tag-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-lucky-tag-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-type-photo-scribble-poster"></a>
 <a href="styles/neon-type-photo-scribble-poster"><img src="assets/thumbs/neon-type-photo-scribble-poster-16x9.jpg" alt="Neon Type Photo Scribble Poster preview"></a>
@@ -408,8 +417,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Neon event posters with huge condensed type, documentary photo crops, and raw white scribble gestures.</em><br>
 <a href="styles/neon-type-photo-scribble-poster/style.json">style.json</a> · <a href="docs/copy-prompts/neon-type-photo-scribble-poster.md">prompt</a> · <a href="styles/neon-type-photo-scribble-poster/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="loose-scribble-riso-print-style"></a>
 <a href="styles/loose-scribble-riso-print-style"><img src="assets/thumbs/loose-scribble-riso-print-style-16x9.jpg" alt="Loose Scribble Riso Print Style preview"></a>
@@ -424,6 +431,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Cream grocer posters with jade glyphs, vegetable silhouettes, and glossy produce-photo centerpieces.</em><br>
 <a href="styles/jade-glyph-grocer-collage-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/jade-glyph-grocer-collage-poster-style.md">prompt</a> · <a href="styles/jade-glyph-grocer-collage-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="scarlet-court-photo-type-poster-style"></a>
 <a href="styles/scarlet-court-photo-type-poster-style"><img src="assets/thumbs/scarlet-court-photo-type-poster-style-16x9.jpg" alt="Scarlet Court Photo Type Poster preview"></a>
@@ -431,8 +440,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Scarlet action posters with blue sports panels, cutout athletes, cream typography, and gritty print texture.</em><br>
 <a href="styles/scarlet-court-photo-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/scarlet-court-photo-type-poster-style.md">prompt</a> · <a href="styles/scarlet-court-photo-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sunlit-kinetic-block-type-photo-poster-style"></a>
 <a href="styles/sunlit-kinetic-block-type-photo-poster-style"><img src="assets/thumbs/sunlit-kinetic-block-type-photo-poster-style-16x9.jpg" alt="Sunlit Kinetic Block Type Photo Poster preview"></a>
@@ -447,6 +454,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Literary white-paper covers with scarlet letterforms, central cutout objects, marker contours, and asymmetrical space.</em><br>
 <a href="styles/scarlet-block-cutout-doodle-book-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/scarlet-block-cutout-doodle-book-cover-style.md">prompt</a> · <a href="styles/scarlet-block-cutout-doodle-book-cover-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="halftone-assemblage-metaphor-psa-poster-style"></a>
 <a href="styles/halftone-assemblage-metaphor-psa-poster-style"><img src="assets/thumbs/halftone-assemblage-metaphor-psa-poster-style-16x9.jpg" alt="Halftone Assemblage Metaphor PSA Poster Style preview"></a>
@@ -454,8 +463,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster PSA retro dengan material sehari-hari yang membentuk siluet halftone simbolik di atas kertas tua.</em><br>
 <a href="styles/halftone-assemblage-metaphor-psa-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/halftone-assemblage-metaphor-psa-poster-style.md">prompt</a> · <a href="styles/halftone-assemblage-metaphor-psa-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="school-grid-paper-cutout-poster"></a>
 <a href="styles/school-grid-paper-cutout-poster"><img src="assets/thumbs/school-grid-paper-cutout-poster-16x9.jpg" alt="School Grid Paper Cutout Poster preview"></a>
@@ -470,6 +477,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster quote-card absurd dengan outline marker kasar, panel pastel, huruf biru, dan gag objek.</em><br>
 <a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sky-blue-home-life-doodle-poster-style"></a>
 <a href="styles/sky-blue-home-life-doodle-poster-style"><img src="assets/thumbs/sky-blue-home-life-doodle-poster-style-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
@@ -477,8 +486,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster home-life biru langit dengan inset rumah, lettering hitam besar, badge, dan adegan doodle marker.</em><br>
 <a href="styles/sky-blue-home-life-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="playful-marker-grounding-poster-style"></a>
 <a href="styles/playful-marker-grounding-poster-style"><img src="assets/thumbs/playful-marker-grounding-poster-style-16x9.jpg" alt="Playful Marker Grounding Poster Style preview"></a>
@@ -493,6 +500,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster monster naif dengan outline marker tebal, warna krayon, kertas krem, dan huruf handmade.</em><br>
 <a href="styles/rough-marker-monster-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-marker-monster-poster-style.md">prompt</a> · <a href="styles/rough-marker-monster-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="cyan-red-shockwave-type-poster-style"></a>
 <a href="styles/cyan-red-shockwave-type-poster-style"><img src="assets/thumbs/cyan-red-shockwave-type-poster-style-16x9.jpg" alt="Cyan Red Shockwave Type Poster Style preview"></a>
@@ -500,8 +509,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster impact sian-merah dengan tipe blok raksasa, shockwave bergerigi, aksen kuning, dan microcopy miring.</em><br>
 <a href="styles/cyan-red-shockwave-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/cyan-red-shockwave-type-poster-style.md">prompt</a> · <a href="styles/cyan-red-shockwave-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="fantasy-scribble-mascot-poster-style"></a>
 <a href="styles/fantasy-scribble-mascot-poster-style"><img src="assets/thumbs/fantasy-scribble-mascot-poster-style-16x9.jpg" alt="Fantasy Scribble Mascot Poster Style preview"></a>
@@ -516,6 +523,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster katalog krayon yang lapang dengan headline merah handmade, doodle sederhana, dan tekstur kertas lipat.</em><br>
 <a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-halftone-ransom-zine-poster-style"></a>
 <a href="styles/blue-halftone-ransom-zine-poster-style"><img src="assets/thumbs/blue-halftone-ransom-zine-poster-style-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
@@ -523,8 +532,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster ransom-zine biru kobalt dengan sobekan kertas, cutout halftone, dan lettering marker.</em><br>
 <a href="styles/blue-halftone-ransom-zine-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md">prompt</a> · <a href="styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="market-brush-produce-poster-style"></a>
 <a href="styles/market-brush-produce-poster-style"><img src="assets/thumbs/market-brush-produce-poster-style-16x9.jpg" alt="Market Brush Produce Poster Style preview"></a>
@@ -539,6 +546,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Advertorial koran lipat dengan cutout produk besar, kolom padat, stempel, dan judul antique-gold.</em><br>
 <a href="styles/folded-newspaper-product-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/folded-newspaper-product-ad-style.md">prompt</a> · <a href="styles/folded-newspaper-product-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sunlit-supermodel-nameplate-editorial"></a>
 <a href="styles/sunlit-supermodel-nameplate-editorial"><img src="assets/thumbs/sunlit-supermodel-nameplate-editorial-16x9.jpg" alt="Sunlit Supermodel Nameplate Editorial preview"></a>
@@ -546,8 +555,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Editorial supermodel sunlit dengan tekstur outdoor, nameplate, dan tipografi lower-third bersih.</em><br>
 <a href="styles/sunlit-supermodel-nameplate-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md">prompt</a> · <a href="styles/sunlit-supermodel-nameplate-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="black-cutout-food-card-ad-style"></a>
 <a href="styles/black-cutout-food-card-ad-style"><img src="assets/thumbs/black-cutout-food-card-ad-style-16x9.jpg" alt="Black Cutout Food Card Ad preview"></a>
@@ -562,6 +569,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Cutout doodle geometris playful dengan bidang warna datar, garis longgar, dan grain kertas.</em><br>
 <a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="quiet-luxury-furniture-nameplate-poster-style"></a>
 <a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="assets/thumbs/quiet-luxury-furniture-nameplate-poster-style-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
@@ -569,8 +578,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Poster nameplate furnitur quiet luxury dengan type hijau hutan dan chip katalog.</em><br>
 <a href="styles/quiet-luxury-furniture-nameplate-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md">prompt</a> · <a href="styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="kinetic-luxury-street-fashion-cover-style"></a>
 <a href="styles/kinetic-luxury-street-fashion-cover-style"><img src="assets/thumbs/kinetic-luxury-street-fashion-cover-style-16x9.jpg" alt="Kinetic Luxury Street Fashion Cover Style preview"></a>
@@ -585,6 +592,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Editorial fashion berpencahayaan matahari dengan arsitektur rendah, batu hangat, dan siluet panjang.</em><br>
 <a href="styles/sunlit-architectural-fashion-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">prompt</a> · <a href="styles/sunlit-architectural-fashion-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="multi-color-beverage-splash-ad-system-style"></a>
 <a href="styles/multi-color-beverage-splash-ad-system-style"><img src="assets/thumbs/multi-color-beverage-splash-ad-system-style-16x9.jpg" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
@@ -592,8 +601,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Iklan peluncuran minuman multiwarna dengan type 3D putih besar dan gerak splash beku.</em><br>
 <a href="styles/multi-color-beverage-splash-ad-system-style/style.json">style.json</a> · <a href="docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md">prompt</a> · <a href="styles/multi-color-beverage-splash-ad-system-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="yellow-black-manga-food-zine-ad-style"></a>
 <a href="styles/yellow-black-manga-food-zine-ad-style"><img src="assets/thumbs/yellow-black-manga-food-zine-ad-style-16x9.jpg" alt="Yellow Black Manga Food Zine Ad Style preview"></a>
@@ -608,6 +615,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Kolase diary outdoor longform dengan type acid-green, panel kertas robek, dan cutout foto.</em><br>
 <a href="styles/neon-outdoor-diary-longform-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">prompt</a> · <a href="styles/neon-outdoor-diary-longform-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="acid-lime-3d-streetwear-type-poster-style"></a>
 <a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="assets/thumbs/acid-lime-3d-streetwear-type-poster-style-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
@@ -615,8 +624,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Kampanye streetwear C4D glossy dengan type blok hitam dan aksen acid-lime.</em><br>
 <a href="styles/acid-lime-3d-streetwear-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/acid-lime-3d-streetwear-type-poster-style.md">prompt</a> · <a href="styles/acid-lime-3d-streetwear-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="electric-blue-silhouette-product-launch-style"></a>
 <a href="styles/electric-blue-silhouette-product-launch-style"><img src="assets/thumbs/electric-blue-silhouette-product-launch-style-16x9.jpg" alt="Electric Blue Silhouette Product Launch Style preview"></a>
@@ -631,6 +638,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Editorial mewah dengan perspektif checkerboard, script besar, dan ruang putih halus.</em><br>
 <a href="styles/luxury-perspective-checkerboard-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/luxury-perspective-checkerboard-editorial.md">prompt</a> · <a href="styles/luxury-perspective-checkerboard-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sunny-3d-avatar-campaign-style"></a>
 <a href="styles/sunny-3d-avatar-campaign-style"><img src="assets/thumbs/sunny-3d-avatar-campaign-style-16x9.jpg" alt="Sunny 3D Avatar Campaign Style preview"></a>
@@ -638,8 +647,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Avatar 3D kampanye cerah dengan langit biru, tipografi miring besar, dan garis neon.</em><br>
 <a href="styles/sunny-3d-avatar-campaign-style/style.json">style.json</a> · <a href="docs/copy-prompts/sunny-3d-avatar-campaign-style.md">prompt</a> · <a href="styles/sunny-3d-avatar-campaign-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="y2k-mirror-ui-scribble-collage-style"></a>
 <a href="styles/y2k-mirror-ui-scribble-collage-style"><img src="assets/thumbs/y2k-mirror-ui-scribble-collage-style-16x9.jpg" alt="Y2K Mirror UI Scribble Collage Style preview"></a>
@@ -654,6 +661,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Render 3D produk mainan neon dengan maskot plush dan gadget chunky.</em><br>
 <a href="styles/neon-plush-gadget-pop-3d-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-plush-gadget-pop-3d-style.md">prompt</a> · <a href="styles/neon-plush-gadget-pop-3d-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-lime-kinetic-comic-type-poster-style"></a>
 <a href="styles/blue-lime-kinetic-comic-type-poster-style"><img src="assets/thumbs/blue-lime-kinetic-comic-type-poster-style-16x9.jpg" alt="Blue Lime Kinetic Comic Type Poster Style preview"></a>
@@ -661,8 +670,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Electric-blue comic posters with lime speech panels and massive black type.</em><br>
 <a href="styles/blue-lime-kinetic-comic-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-lime-kinetic-comic-type-poster-style.md">prompt</a> · <a href="styles/blue-lime-kinetic-comic-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="blue-chinese-perspective-type-canyon-style"></a>
 <a href="styles/blue-chinese-perspective-type-canyon-style"><img src="assets/thumbs/blue-chinese-perspective-type-canyon-style-16x9.jpg" alt="Blue Chinese Perspective Type Canyon Style preview"></a>
@@ -677,6 +684,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Hand-inked music posters with brush lettering and playful doodles.</em><br>
 <a href="styles/rough-ink-music-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-ink-music-doodle-poster-style.md">prompt</a> · <a href="styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="mono-noir-type-portrait-poster-style"></a>
 <a href="styles/mono-noir-type-portrait-poster-style"><img src="assets/thumbs/mono-noir-type-portrait-poster-style-16x9.jpg" alt="Mono Noir Type Portrait Poster Style preview"></a>
@@ -684,8 +693,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Black-and-white editorial portraits with massive lowercase type.</em><br>
 <a href="styles/mono-noir-type-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/mono-noir-type-portrait-poster-style.md">prompt</a> · <a href="styles/mono-noir-type-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="bold-block-mascot-poster-style"></a>
 <a href="styles/bold-block-mascot-poster-style"><img src="assets/thumbs/bold-block-mascot-poster-style-16x9.jpg" alt="Bold Block Mascot Poster Style preview"></a>
@@ -700,6 +707,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Glossy macro product posters with blue HUD launch graphics.</em><br>
 <a href="styles/blue-hud-macro-product-poster/style.json">style.json</a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">prompt</a> · <a href="styles/blue-hud-macro-product-poster/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="warm-fisheye-product-impact-ad-style"></a>
 <a href="styles/warm-fisheye-product-impact-ad-style"><img src="assets/thumbs/warm-fisheye-product-impact-ad-style-16x9.jpg" alt="Warm Fisheye Product Impact Ad Style preview"></a>
@@ -707,8 +716,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Warm fisheye product ads with bold Chinese social-commerce type.</em><br>
 <a href="styles/warm-fisheye-product-impact-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/warm-fisheye-product-impact-ad-style.md">prompt</a> · <a href="styles/warm-fisheye-product-impact-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="olive-scribble-sports-poster-style"></a>
 <a href="styles/olive-scribble-sports-poster-style"><img src="assets/thumbs/olive-scribble-sports-poster-style-16x9.jpg" alt="Olive Scribble Sports Poster Style preview"></a>
@@ -723,6 +730,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>High-impact anime thumbnails with bold yellow reaction typography.</em><br>
 <a href="styles/bold-anime-reaction-thumbnail-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">prompt</a> · <a href="styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="turquoise-red-techno-manga-poster-style"></a>
 <a href="styles/turquoise-red-techno-manga-poster-style"><img src="assets/thumbs/turquoise-red-techno-manga-poster-style-16x9.jpg" alt="Turquoise Red Techno Manga Poster Style preview"></a>
@@ -730,8 +739,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Retro techno-manga posters with turquoise hardware and red lettering.</em><br>
 <a href="styles/turquoise-red-techno-manga-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/turquoise-red-techno-manga-poster-style.md">prompt</a> · <a href="styles/turquoise-red-techno-manga-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="chromatic-fisheye-orbit-pop-poster-style"></a>
 <a href="styles/chromatic-fisheye-orbit-pop-poster-style"><img src="assets/thumbs/chromatic-fisheye-orbit-pop-poster-style-16x9.jpg" alt="Chromatic Fisheye Orbit Pop Poster Style preview"></a>
@@ -746,6 +753,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Friendly civic PSA posters with naive marker drawings.</em><br>
 <a href="styles/naive-marker-psa-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-psa-poster-style.md">prompt</a> · <a href="styles/naive-marker-psa-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-bubble-fisheye-action-poster-style"></a>
 <a href="styles/blue-bubble-fisheye-action-poster-style"><img src="assets/thumbs/blue-bubble-fisheye-action-poster-style-16x9.jpg" alt="Blue Bubble Fisheye Action Poster Style preview"></a>
@@ -753,8 +762,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Youth action posters with blue bubble type and fisheye photos.</em><br>
 <a href="styles/blue-bubble-fisheye-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md">prompt</a> · <a href="styles/blue-bubble-fisheye-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cozy-bedroom-doodle-companion-snapshot-style"></a>
 <a href="styles/cozy-bedroom-doodle-companion-snapshot-style"><img src="assets/thumbs/cozy-bedroom-doodle-companion-snapshot-style-16x9.jpg" alt="Cozy Bedroom Doodle Companion Snapshot Style preview"></a>
@@ -769,6 +776,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Landmark travel photos remixed with folk-art fish doodles.</em><br>
 <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md">prompt</a> · <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="plush-comic-toy-product-poster-style"></a>
 <a href="styles/plush-comic-toy-product-poster-style"><img src="assets/thumbs/plush-comic-toy-product-poster-style-16x9.jpg" alt="Plush Comic Toy Product Poster Style preview"></a>
@@ -776,8 +785,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Toy-product posters with fuzzy plush heroes and comic typography.</em><br>
 <a href="styles/plush-comic-toy-product-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/plush-comic-toy-product-poster-style.md">prompt</a> · <a href="styles/plush-comic-toy-product-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="rough-animation-pet-sketch-storyboard-style"></a>
 <a href="styles/rough-animation-pet-sketch-storyboard-style"><img src="assets/thumbs/rough-animation-pet-sketch-storyboard-style-16x9.jpg" alt="Rough Animation Pet Sketch Storyboard Style preview"></a>
@@ -792,6 +799,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Three-color portrait posters built from hard-edged cutout planes.</em><br>
 <a href="styles/tri-color-hardcut-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md">prompt</a> · <a href="styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="clean-triptych-travel-vlog-thumbnail-style"></a>
 <a href="styles/clean-triptych-travel-vlog-thumbnail-style"><img src="assets/thumbs/clean-triptych-travel-vlog-thumbnail-style-16x9.jpg" alt="Clean Triptych Travel Vlog Thumbnail Style preview"></a>
@@ -799,8 +808,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Clean travel thumbnails with three photo panels and soft notes.</em><br>
 <a href="styles/clean-triptych-travel-vlog-thumbnail-style/style.json">style.json</a> · <a href="docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md">prompt</a> · <a href="styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="playful-mascot-doodle-snapshot-style"></a>
 <a href="styles/playful-mascot-doodle-snapshot-style"><img src="assets/thumbs/playful-mascot-doodle-snapshot-style-16x9.jpg" alt="Playful Mascot Doodle Snapshot Style preview"></a>
@@ -815,6 +822,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Retro skate posters with scribbled borders and screenprint grit.</em><br>
 <a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md">prompt</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="impact-burst-halftone-comic-poster-style"></a>
 <a href="styles/impact-burst-halftone-comic-poster-style"><img src="assets/thumbs/impact-burst-halftone-comic-poster-style-16x9.jpg" alt="Impact Burst Halftone Comic Poster Style preview"></a>
@@ -822,8 +831,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Loud comic posters with impact type and halftone bursts.</em><br>
 <a href="styles/impact-burst-halftone-comic-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/impact-burst-halftone-comic-poster-style.md">prompt</a> · <a href="styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sunburst-fisheye-bubble-type-poster-style"></a>
 <a href="styles/sunburst-fisheye-bubble-type-poster-style"><img src="assets/thumbs/sunburst-fisheye-bubble-type-poster-style-16x9.jpg" alt="Sunburst Fisheye Bubble Type Poster Style preview"></a>
@@ -838,6 +845,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Transit photos turned into energetic hand-lettered travel posters.</em><br>
 <a href="styles/backseat-transit-doodle-letter-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md">prompt</a> · <a href="styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="analog-sticker-diary-portrait-poster-style"></a>
 <a href="styles/analog-sticker-diary-portrait-poster-style"><img src="assets/thumbs/analog-sticker-diary-portrait-poster-style-16x9.jpg" alt="Analog Sticker Diary Portrait Poster Style preview"></a>
@@ -845,8 +854,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Nostalgic diary portraits with stickers and distressed lettering.</em><br>
 <a href="styles/analog-sticker-diary-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md">prompt</a> · <a href="styles/analog-sticker-diary-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="folded-diamond-perspective-type-poster-style"></a>
 <a href="styles/folded-diamond-perspective-type-poster-style"><img src="assets/thumbs/folded-diamond-perspective-type-poster-style-16x9.jpg" alt="Folded Diamond Perspective Type Poster Style preview"></a>
@@ -861,6 +868,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Dramatic architecture photos with playful cartoon creature overlays.</em><br>
 <a href="styles/gothic-cat-doodle-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md">prompt</a> · <a href="styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="k-pop-apocalypse-ransom-zine-style"></a>
 <a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="assets/thumbs/k-pop-apocalypse-ransom-zine-style-16x9.jpg" alt="K-Pop Apocalypse Ransom Zine Style preview"></a>
@@ -868,8 +877,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Maximal K-pop zines with ransom type and sticker blocks.</em><br>
 <a href="styles/k-pop-apocalypse-ransom-zine-style/style.json">style.json</a> · <a href="docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md">prompt</a> · <a href="styles/k-pop-apocalypse-ransom-zine-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="metro-doodle-snapshot-diary-style"></a>
 <a href="styles/metro-doodle-snapshot-diary-style"><img src="assets/thumbs/metro-doodle-snapshot-diary-style-16x9.jpg" alt="Metro Doodle Snapshot Diary preview"></a>
@@ -884,6 +891,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Outdoor hiking photos remixed with monster companions and annotations.</em><br>
 <a href="styles/mountain-trail-monster-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md">prompt</a> · <a href="styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-doodle-gallery-snapshot-style"></a>
 <a href="styles/neon-doodle-gallery-snapshot-style"><img src="assets/thumbs/neon-doodle-gallery-snapshot-style-16x9.jpg" alt="Neon Doodle Gallery Snapshot preview"></a>
@@ -891,8 +900,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Phone photos covered in hot neon diary doodles.</em><br>
 <a href="styles/neon-doodle-gallery-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-doodle-gallery-snapshot-style.md">prompt</a> · <a href="styles/neon-doodle-gallery-snapshot-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="neon-kinetic-typographic-poster-style"></a>
 <a href="styles/neon-kinetic-typographic-poster-style"><img src="assets/thumbs/neon-kinetic-typographic-poster-style-16x9.jpg" alt="Neon Kinetic Typographic Poster preview"></a>
@@ -907,6 +914,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Sparse mascot illustrations with orange brush texture and print grain.</em><br>
 <a href="styles/orange-brush-mascot-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/orange-brush-mascot-action-poster-style.md">prompt</a> · <a href="styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="photo-illustration-overlay-poster-style"></a>
 <a href="styles/photo-illustration-overlay-poster-style"><img src="assets/thumbs/photo-illustration-overlay-poster-style-16x9.jpg" alt="Photo Illustration Overlay Poster preview"></a>
@@ -914,8 +923,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>City photos composited with saturated 2D character overlays.</em><br>
 <a href="styles/photo-illustration-overlay-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/photo-illustration-overlay-poster-style.md">prompt</a> · <a href="styles/photo-illustration-overlay-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="plush-city-festival-mobile-poster-style"></a>
 <a href="styles/plush-city-festival-mobile-poster-style"><img src="assets/thumbs/plush-city-festival-mobile-poster-style-16x9.jpg" alt="Plush City Festival Mobile Poster preview"></a>
@@ -930,6 +937,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Fashion photo posters framed by candy-colored bubble letters.</em><br>
 <a href="styles/pop-bubble-letter-photo-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/pop-bubble-letter-photo-poster-style.md">prompt</a> · <a href="styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="soft-analog-future-editorial-poster-style"></a>
 <a href="styles/soft-analog-future-editorial-poster-style"><img src="assets/thumbs/soft-analog-future-editorial-poster-style-16x9.jpg" alt="Soft Analog Future Editorial Poster preview"></a>
@@ -937,8 +946,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Quiet analog-future editorials with grids and retro technology.</em><br>
 <a href="styles/soft-analog-future-editorial-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/soft-analog-future-editorial-poster-style.md">prompt</a> · <a href="styles/soft-analog-future-editorial-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="subway-doodle-photo-hybrid-style"></a>
 <a href="styles/subway-doodle-photo-hybrid-style"><img src="assets/thumbs/subway-doodle-photo-hybrid-style-16x9.jpg" alt="Subway Doodle Photo Hybrid preview"></a>
@@ -953,6 +960,8 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Maximal Tokyo travel collages with manga bubbles and stickers.</em><br>
 <a href="styles/tokyo-kawaii-travel-collage-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md">prompt</a> · <a href="styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="urban-transit-doodle-diary-style"></a>
 <a href="styles/urban-transit-doodle-diary-style"><img src="assets/thumbs/urban-transit-doodle-diary-style-16x9.jpg" alt="Urban Transit Doodle Diary Style preview"></a>
@@ -960,8 +969,6 @@ Pustaka lengkap ini mencakup gaya unggulan di atas. Untuk deskripsi lengkap dan 
 <em>Public-space photos remixed with bold foreground gestures and travel diary notes.</em><br>
 <a href="styles/urban-transit-doodle-diary-style/style.json">style.json</a> · <a href="docs/copy-prompts/urban-transit-doodle-diary-style.md">prompt</a> · <a href="styles/urban-transit-doodle-diary-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="y2k-grunge-hiphop-cutout-poster-style"></a>
 <a href="styles/y2k-grunge-hiphop-cutout-poster-style"><img src="assets/thumbs/y2k-grunge-hiphop-cutout-poster-style-16x9.jpg" alt="Y2K Grunge Hip-Hop Cutout Poster Style preview"></a>
