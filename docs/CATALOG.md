@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 101 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 103 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Urban Photo Ink Beast Collage Style
+
+<a href="../styles/urban-photo-ink-beast-collage-style"><img src="../assets/thumbs/urban-photo-ink-beast-collage-style-16x9.jpg" width="720" alt="Urban Photo Ink Beast Collage Style preview"></a>
+
+A surreal editorial collage system that layers monumental flat-ink beasts and tiny theatrical figures over softly faded archival city photography, using black-and-white cut-paper masses, unruly hand-drawn contour work, and sparse cobalt, vermilion, lemon, and blush accents.
+
+Files: [style.json](../styles/urban-photo-ink-beast-collage-style/style.json) · [Copy Prompt](copy-prompts/urban-photo-ink-beast-collage-style.md) · [16:9 preview](../styles/urban-photo-ink-beast-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/urban-photo-ink-beast-collage-style/preview-9x16.jpg) · [Folder](../styles/urban-photo-ink-beast-collage-style)
+
+---
+
+### Prismatic Glass Animal Weekend Editorial
+
+<a href="../styles/prismatic-glass-animal-weekend-editorial"><img src="../assets/thumbs/prismatic-glass-animal-weekend-editorial-16x9.jpg" width="720" alt="Prismatic Glass Animal Weekend Editorial preview"></a>
+
+A sparse black editorial-poster system built around one oversized translucent animal sculpture with smoky glass depth, liquid-chrome edges, and restrained rainbow refractions, framed by futuristic typographic micro-editorial content about small weekend rituals.
+
+Files: [style.json](../styles/prismatic-glass-animal-weekend-editorial/style.json) · [Copy Prompt](copy-prompts/prismatic-glass-animal-weekend-editorial.md) · [16:9 preview](../styles/prismatic-glass-animal-weekend-editorial/preview-16x9.jpg) · [9:16 preview](../styles/prismatic-glass-animal-weekend-editorial/preview-9x16.jpg) · [Folder](../styles/prismatic-glass-animal-weekend-editorial)
+
+---
 
 ### Sun-Faded Scenic Editorial Poster
 

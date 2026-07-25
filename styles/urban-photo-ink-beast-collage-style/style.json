@@ -1,0 +1,172 @@
+{
+  "style_name": "Urban Photo Ink Beast Collage Style",
+  "style_slug": "urban-photo-ink-beast-collage-style",
+  "style_version": "2.1.0",
+  "style_summary": "A surreal editorial collage system that layers monumental flat-ink beasts and tiny theatrical figures over softly faded archival city photography, using black-and-white cut-paper masses, unruly hand-drawn contour work, and sparse cobalt, vermilion, lemon, and blush accents.",
+  "environment_variables": {
+    "SUBJECT": "The monumental illustrated creature or hybrid foreground subject",
+    "SUBJECT_ACTION": "The expressive action linking the giant subject to the smaller figure",
+    "PRODUCT_OR_PROP": "The story prop carried, offered, balanced, or transformed",
+    "LOCATION": "The real photographed urban or architectural setting",
+    "BACKGROUND_ELEMENTS": "Secondary architecture, sky, street details, or distant environmental cues",
+    "MAIN_TEXT": "Main display text, usually none",
+    "SECONDARY_TEXT": "Secondary text, usually none",
+    "ACCENT_SYMBOL": "Small hand-drawn airborne glyph, motion curl, or abstract machine-like symbol",
+    "WARDROBE_STYLE": "The smaller figure's graphic costume and color accents",
+    "STYLE_FIDELITY_ANCHORS": "Observable visual traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content and identity marks that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A softly faded real architectural photograph forms the full-bleed background, while all narrative subjects are unmistakably flat hand-drawn collage layers.",
+    "One monumental black-dominant beast occupies roughly half the frame and breaks across the photographic perspective as an impossible foreground cutout.",
+    "A much smaller theatrical human or creature creates an asymmetrical two-character interaction with the giant subject.",
+    "Creature bodies use broad near-solid black and paper-white masses, abrupt cut-paper silhouettes, and minimal gray modeling instead of realistic volume.",
+    "Contours are thick, wobbly, uneven, and visibly hand-inked, with wiry scribbles, loops, ticks, and short dash textures inside hair, feathers, clothing, or skin.",
+    "The illustration palette is tightly controlled: black and white dominate, cobalt blue and vermilion red punctuate faces or props, lemon yellow creates one sweeping accent, and blush pink appears sparingly.",
+    "The background keeps photographic depth and upward-looking architectural perspective, while the illustrated figures remain front-facing, flattened, and optically pasted on top.",
+    "Facial features are mask-like and exaggerated, with graphic eyes, teeth, tongues, noses, and hands simplified into bold emblematic shapes.",
+    "Small abstract airborne glyphs combine thin black rods, loops, circles, colored wing-like strokes, and motion curls to animate otherwise open sky.",
+    "No headline typography is required; rhythm comes from silhouette, scale contrast, repeated ink marks, and color accents rather than a poster text grid.",
+    "The finish feels like a 1960s to 1980s experimental magazine photomontage: slightly faded photo color, clean opaque ink overlays, playful menace, and absurd theatrical humor."
+  ],
+  "source_content_to_avoid": [
+    "A giant gorilla, ape, King Kong-like monster, or any matching black primate anatomy, roaring pose, open fanged mouth, or outstretched grasping arm.",
+    "A frightened or screaming woman in a white dress being grabbed, lifted, trapped, attacked, or placed in a damsel-in-distress scenario.",
+    "The Empire State Building, recognizable Manhattan canyon, New York landmark skyline, or the exact upward-looking street composition of the reference.",
+    "Biplanes, propeller aircraft, fighter planes, aircraft attacks, or matching red-yellow-blue airplane-like glyphs.",
+    "The exact black beast and white-dressed figure overlap, identical gestures, matching costume, or the same monster-versus-captive story premise.",
+    "Copied facial expressions, teeth arrangement, blue nose, yellow eye shapes, red heels, yellow hair plume, or other distinctive character anatomy from the source.",
+    "Copied slogans, names, signatures, artist marks, watermarks, usernames, platform logos, app marks, QR codes, or brand marks.",
+    "Photorealistic monsters, cinematic creature effects, comic-book panels, manga rendering, polished vector mascots, 3D characters, or children's-book softness."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Surreal urban photomontage with flat expressionist ink characters and cut-paper collage energy.",
+    "composition_and_layout": "A full-bleed vintage city photograph provides deep perspective; one giant illustrated creature anchors a side or lower diagonal while a much smaller figure counterbalances it, leaving a pocket of sky for two or three floating glyphs.",
+    "subject_placement": "The giant subject is aggressively cropped or frame-breaking and occupies about 45 to 60 percent of the image; the secondary figure sits near the opposite third at a dramatically smaller scale.",
+    "camera_or_perspective": "The photographic layer uses a low street-level or upward-looking architectural view; the illustrated layers ignore realistic perspective and read as flat paper forms pasted across the scene.",
+    "typography_style": "Typography is absent by default. If requested, limit it to one tiny hand-drawn label that behaves like an ink annotation rather than a headline.",
+    "color_palette_behavior": "Muted blue-gray, tan, and brick photographic color sits beneath dominant black-and-white drawings, with small cobalt, vermilion, lemon, and blush interventions.",
+    "graphic_elements": "Airborne rod-and-loop glyphs, motion curls, wiry internal scribbles, repeated dash textures, blunt paper-white highlights, colored eye and mouth masks, and one long ribbon-like yellow accent.",
+    "texture_and_finish": "The photo is lightly faded and softly grainy; drawn layers stay opaque and sharp but retain uneven ink edges, hand pressure, and small registration-like irregularities.",
+    "lighting": "Natural ambient daylight belongs only to the photo; illustrated figures use flat local color with almost no cast shadows or volumetric shading.",
+    "mood_and_cultural_reference": "Absurd, energetic, mischievous, and slightly menacing, like experimental editorial collage or an underground illustrated magazine spread.",
+    "reusable_design_rules": "Keep the photo-versus-drawing material split obvious, preserve the giant-to-tiny scale jump, use one sweeping yellow accent and sparse primary-color marks, and let hand-drawn imperfections carry the image.",
+    "things_to_avoid": "Do not unify the layers into one realistic world, smooth the linework, fill the frame with many objects, add large typography, or recreate the original gorilla-and-captive narrative."
+  },
+  "composition": {
+    "primary_structure": "One enormous black-dominant illustrated creature crossing a real photographed city scene, paired with one smaller theatrical figure in a playful collaborative action.",
+    "scale_hierarchy": "The giant subject is four to eight times the visual scale of the secondary figure; tiny airborne glyphs sit in open sky as a third scale tier.",
+    "background_perspective": "Use a low-angle or deep-street architectural photograph with converging facades, a visible strip of sky, and no famous landmark centered as an icon.",
+    "negative_space": "Reserve 15 to 25 percent of the frame as uncluttered sky or pale architecture so the dark silhouette and floating marks remain legible.",
+    "cropping": "Allow the giant beast to exit one or two edges and let a limb, tail, feather, or prop bridge toward the smaller figure.",
+    "depth": "Keep photographic depth in the background but render every narrative subject as flat opaque paper and ink with almost no cast shadow."
+  },
+  "typography": {
+    "default": "No main headline and no secondary copy.",
+    "optional_text": "If a case explicitly needs text, use one short uneven hand-lettered annotation no larger than a floating glyph.",
+    "placement": "Keep optional lettering peripheral and never build a formal headline band.",
+    "restrictions": "No logos, captions copied from the source, clean corporate sans-serif, dimensional type, dense editorial columns, or poster slogans."
+  },
+  "color_palette": {
+    "photographic_base": "Faded sky blue, warm limestone, gray concrete, tan stucco, and muted brick from archival street photography.",
+    "ink_dominant": "Near-black and paper white cover most illustrated area.",
+    "primary_accents": "Cobalt blue and vermilion red for face masks, hands, shoes, or small props.",
+    "signature_accent": "One broad lemon-yellow ribbon, plume, scarf, parasol, or wing form that sweeps through the composition.",
+    "minor_accent": "Blush pink used only for a few motion strokes, textile marks, or facial details.",
+    "proportions": "About 55 percent photographic neutral color, 30 percent black, 8 percent white, 4 percent yellow, and 3 percent combined cobalt, vermilion, and blush."
+  },
+  "image_treatment": {
+    "mixed_media_split": "The background must read as a genuine photographed architectural scene; creatures, people, props, and airborne symbols must read as opaque flat hand-drawn paper layers.",
+    "photo_finish": "Slightly faded color, gentle analog grain, soft daylight, and restrained contrast without heavy distressing.",
+    "illustration_finish": "Solid ink fills, blunt white knockouts, irregular cut edges, thick wobbling contours, and fine scribbled surface marks.",
+    "depth_and_shadow": "No 3D modeling, no cinematic integration, and almost no cast shadows; retain the deliberate pasted-on mismatch.",
+    "output_quality": "High-resolution raster collage with crisp separation between photo detail and opaque ink shapes."
+  },
+  "design_rules": [
+    "Begin with a full-bleed archival-feeling urban photograph that contains strong vertical or diagonal architectural perspective.",
+    "Paste one gigantic black-and-white ink beast across the photo as a visibly flat foreground mass.",
+    "Counterbalance the giant with one smaller costumed figure whose action is whimsical, cooperative, or celebratory rather than violent.",
+    "Use cobalt and vermilion only on selected facial or prop details, then add one sweeping lemon-yellow form.",
+    "Draw contours with uneven pressure and decorate surfaces with loops, hairs, ticks, short dashes, curls, and spontaneous scribbles.",
+    "Place no more than three abstract rod-loop glyphs in open sky; keep them symbolic and clearly unlike aircraft.",
+    "Keep the final frame sparse enough that the giant silhouette, tiny partner, and architecture read immediately.",
+    "Maintain the tactile mismatch between faded photography and opaque flat illustration instead of blending them realistically."
+  ],
+  "do": [
+    "Use real-looking urban photography beneath unmistakably flat ink drawings.",
+    "Make the giant-to-small scale contrast extreme and readable at thumbnail size.",
+    "Crop the giant silhouette boldly and let one gesture connect the two subjects.",
+    "Use black and white as the illustrated foundation with disciplined primary-color accents.",
+    "Keep faces graphic, mask-like, expressive, and slightly unruly.",
+    "Use scribble texture and floating abstract glyphs to animate open space."
+  ],
+  "avoid": [
+    "Do not depict a gorilla, a captive woman, a plane attack, New York landmarks, or the original confrontation.",
+    "Do not render the creature photorealistically or blend it into cinematic lighting.",
+    "Do not turn the image into a conventional comic panel, manga page, children's illustration, clean vector poster, or 3D scene.",
+    "Do not add dense typography, speech bubbles, frames, UI panels, logos, watermarks, or brand marks.",
+    "Do not overfill the city with crowds, vehicles, signage, or excessive decorative assets.",
+    "Do not smooth the linework or remove the hand-cut, hand-inked irregularity."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"urban-photo-ink-beast-collage-style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: place a softly faded full-bleed architectural photograph behind one monumental black-dominant illustrated beast occupying roughly half the frame. Pair it asymmetrically with one much smaller theatrical figure. Use a low street-level or upward-looking photographic perspective, keep 15 to 25 percent open sky or pale architecture, boldly crop the giant form, and place no more than three tiny abstract glyphs in the open area.\n- Material split: the city must look genuinely photographed with analog grain and natural daylight, while every narrative subject, costume, prop, and symbol must look like opaque flat paper and hand ink pasted on top. Preserve the deliberate mismatch; do not blend the illustration into the photo.\n- Drawing: use broad near-solid black and paper-white masses, thick uneven wobbling contours, abrupt cut-paper silhouettes, mask-like eyes and mouths, and wiry loops, hairs, curls, ticks, and short dash textures. Keep volume flat with almost no cast shadows.\n- Typography: use no main headline and no secondary copy unless the case explicitly requests it. Never create a headline band, speech bubble, or editorial text grid.\n- Color: keep the photograph faded blue-gray, tan, and brick. Let black and white dominate the illustrated area; use cobalt blue and vermilion red sparingly, plus one sweeping lemon-yellow accent and only a trace of blush pink.\n- Graphic elements: add up to three small hand-drawn rod-and-loop glyphs, circular targets, motion curls, or wing-like strokes in the sky. These marks must remain abstract and must not resemble aircraft.\n- Mood: experimental editorial photomontage, absurd theatrical humor, playful menace, and late-20th-century underground magazine energy.\n\nAvoid: giant apes or gorillas, captive or screaming women, aircraft, New York landmarks, the source pose or story, photoreal monsters, cinematic integration, 3D rendering, clean vector art, manga, comic panels, children's-book softness, large typography, logos, QR codes, watermarks, usernames, platform marks, app UI, famous characters, and copied identity marks.\n\nImportant content rule: match the photo-versus-flat-ink style, scale hierarchy, palette behavior, scribbled line treatment, and sparse glyph grammar first; then change every literal subject, action, prop, location, costume, and story detail from the source.",
+  "negative_prompt": "giant gorilla, ape, King Kong, captive woman, damsel in distress, screaming woman, grabbing, attack scene, biplane, propeller aircraft, fighter plane, Empire State Building, Manhattan skyline, New York landmark, copied source pose, copied character anatomy, photorealistic creature, cinematic VFX, 3D render, smooth vector mascot, manga, anime, comic panels, children's-book illustration, dense typography, headline band, speech bubble, logo, brand mark, watermark, username, platform icon, QR code, app UI, famous character, excessive clutter, heavy glitch, muddy grain, blur, low resolution, malformed hands, illegible text",
+  "examples": [
+    {
+      "case_name": "moon-cat-brass-band",
+      "values": {
+        "SUBJECT": "a monumental black alley cat with a paper-white crescent chest, cobalt whisker mask, vermilion paws, and long looping ink hairs",
+        "SUBJECT_ACTION": "arching across the street like a bridge while a tiny brass trio performs cheerfully along its curled tail",
+        "PRODUCT_OR_PROP": "three small unbranded brass instruments and one sweeping lemon-yellow scarf tied loosely around the cat's tail",
+        "LOCATION": "a softly faded low-angle photograph of a steep Lisbon tram street with tiled facades and pale sky",
+        "BACKGROUND_ELEMENTS": "quiet windows, overhead tram wires, distant empty rails, soft cloud patches, and two tiny abstract loop-and-target sky glyphs",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "a black rod-and-loop moon glyph with cobalt and blush wing strokes",
+        "WARDROBE_STYLE": "the trio wears mismatched cobalt jackets, paper-white trousers, vermilion shoes, and scribbled hats"
+      }
+    },
+    {
+      "case_name": "octopus-laundry-waltz",
+      "values": {
+        "SUBJECT": "an enormous black octopus with paper-white suction-cup bands, cobalt eyelids, vermilion fingertip-like tentacle tips, and wiry ink textures",
+        "SUBJECT_ACTION": "lifting a line of clean fabric into a graceful spiral while a tiny rooftop launderer conducts the movement like a dance",
+        "PRODUCT_OR_PROP": "a sweeping lemon-yellow bedsheet, a small cobalt clothespin basket, and three vermilion socks",
+        "LOCATION": "a faded daylight photograph of a Marseille harbor apartment canyon with balconies and a narrow view of pale sky",
+        "BACKGROUND_ELEMENTS": "weathered shutters, thin laundry wires, quiet balconies, distant harbor haze, and two abstract circular wind glyphs",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "a floating spiral target crossed by thin cobalt and blush strokes",
+        "WARDROBE_STYLE": "the launderer wears a paper-white tunic, cobalt cap, vermilion gloves, and short black dash textures"
+      }
+    },
+    {
+      "case_name": "crocodile-market-parade",
+      "values": {
+        "SUBJECT": "a gigantic black crocodile with a blunt paper-white jaw, cobalt cheek plate, vermilion eye ring, and dense looping scale scribbles",
+        "SUBJECT_ACTION": "curving through the market street in a slow celebratory parade while a tiny cyclist offers it a bright fruit basket",
+        "PRODUCT_OR_PROP": "a shallow cobalt basket of abstract red fruit, one lemon-yellow parasol, and a small black bicycle",
+        "LOCATION": "a softly faded archival photograph of a sunlit Cairo market lane with stone walls and fabric awnings",
+        "BACKGROUND_ELEMENTS": "muted stalls with no readable signs, angular awning shadows, pale dusty sky, distant empty doorways, and three tiny rod-loop glyphs",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "a tiny circular sun target with black rods and blush motion ticks",
+        "WARDROBE_STYLE": "the cyclist wears a cobalt vest, paper-white trousers, vermilion shoes, and a scribbled black cap"
+      }
+    },
+    {
+      "case_name": "heron-rain-dance",
+      "values": {
+        "SUBJECT": "a towering black-and-paper-white heron with a cobalt eye mask, vermilion beak tip, angular wing cutouts, and unruly feather scribbles",
+        "SUBJECT_ACTION": "stepping delicately over the lane while a tiny dancer mirrors its pose beneath an open parasol",
+        "PRODUCT_OR_PROP": "one broad lemon-yellow parasol with thin black ribs and a small vermilion ribbon",
+        "LOCATION": "a faded overcast photograph of a narrow Kyoto lane with wooden facades, rooflines, and a pale strip of sky",
+        "BACKGROUND_ELEMENTS": "quiet timber walls, wet stone paving, soft roof reflections, empty doorways, and two abstract rain-curl sky glyphs",
+        "MAIN_TEXT": "none",
+        "SECONDARY_TEXT": "none",
+        "ACCENT_SYMBOL": "a black circular rain glyph with cobalt rods and blush wing strokes",
+        "WARDROBE_STYLE": "the dancer wears a cobalt coat, paper-white skirt panels, vermilion shoes, and fine black hair loops"
+      }
+    }
+  ]
+}

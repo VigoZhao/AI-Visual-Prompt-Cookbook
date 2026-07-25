@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 101,
+  "styleCount": 103,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Urban Photo Ink Beast Collage Style",
+      "slug": "urban-photo-ink-beast-collage-style",
+      "category": "Photo + Doodle",
+      "description": "Surreal collage posters layering monumental flat-ink beasts and tiny figures over faded archival city photography, with cut-paper masses, hand-drawn contours, and sparse bright accents.",
+      "summary": "A surreal editorial collage system that layers monumental flat-ink beasts and tiny theatrical figures over softly faded archival city photography, using black-and-white cut-paper masses, unruly hand-drawn contour work, and sparse cobalt, vermilion, lemon, and blush accents.",
+      "preview16": "../styles/urban-photo-ink-beast-collage-style/preview-16x9.jpg",
+      "preview9": "../styles/urban-photo-ink-beast-collage-style/preview-9x16.jpg",
+      "styleJson": "../styles/urban-photo-ink-beast-collage-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/urban-photo-ink-beast-collage-style.md",
+      "folder": "../styles/urban-photo-ink-beast-collage-style/",
+      "anchors": [
+        "A softly faded real architectural photograph forms the full-bleed background, while all narrative subjects are unmistakably flat hand-drawn collage layers.",
+        "One monumental black-dominant beast occupies roughly half the frame and breaks across the photographic perspective as an impossible foreground cutout.",
+        "A much smaller theatrical human or creature creates an asymmetrical two-character interaction with the giant subject.",
+        "Creature bodies use broad near-solid black and paper-white masses, abrupt cut-paper silhouettes, and minimal gray modeling instead of realistic volume.",
+        "Contours are thick, wobbly, uneven, and visibly hand-inked, with wiry scribbles, loops, ticks, and short dash textures inside hair, feathers, clothing, or skin.",
+        "The illustration palette is tightly controlled: black and white dominate, cobalt blue and vermilion red punctuate faces or props, lemon yellow creates one sweeping accent, and blush pink appears sparingly."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "moon-cat-brass-band",
+      "copyPrompt": "Use the \"Urban Photo Ink Beast Collage Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a monumental black alley cat with a paper-white crescent chest, cobalt whisker mask, vermilion paws, and long looping ink hairs\nSubject action: arching across the street like a bridge while a tiny brass trio performs cheerfully along its curled tail\nProduct or prop: three small unbranded brass instruments and one sweeping lemon-yellow scarf tied loosely around the cat's tail\nLocation: a softly faded low-angle photograph of a steep Lisbon tram street with tiled facades and pale sky\nBackground elements: quiet windows, overhead tram wires, distant empty rails, soft cloud patches, and two tiny abstract loop-and-target sky glyphs\nMain text: none\nSecondary text: none\nAccent symbol: a black rod-and-loop moon glyph with cobalt and blush wing strokes\nWardrobe style: the trio wears mismatched cobalt jackets, paper-white trousers, vermilion shoes, and scribbled hats\n\nStyle direction:\nA surreal editorial collage system that layers monumental flat-ink beasts and tiny theatrical\nfigures over softly faded archival city photography, using black-and-white cut-paper masses,\nunruly hand-drawn contour work, and sparse cobalt, vermilion, lemon, and blush accents.\n\nKeep visible:\n- A softly faded real architectural photograph forms the full-bleed background, while all narrative subjects are unmistakably flat hand-drawn collage layers.\n- One monumental black-dominant beast occupies roughly half the frame and breaks across the photographic perspective as an impossible foreground cutout.\n- A much smaller theatrical human or creature creates an asymmetrical two-character interaction with the giant subject.\n- Creature bodies use broad near-solid black and paper-white masses, abrupt cut-paper silhouettes, and minimal gray modeling instead of realistic volume.\n- Contours are thick, wobbly, uneven, and visibly hand-inked, with wiry scribbles, loops, ticks, and short dash textures inside hair, feathers, clothing, or skin.\n\nAvoid:\ngiant gorilla, ape, King Kong, captive woman, damsel in distress, screaming woman, grabbing,\nattack scene, biplane, propeller aircraft, fighter plane, Empire State Building, Manhattan\nskyline, New York landmark, copied source pose, copied character anatomy, photorealistic\ncreature, cinematic VFX, 3D render, smooth vector mascot, manga, anime, comic panels,\nchildren's-book illustration, dense typography, headline band, speech bubble, logo, brand mark,\nwatermark, username, platform icon, QR code, app UI, famous character, excessive clutter, heavy\nglitch, muddy grain, blur, low resolution, malformed hands, illegible text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Prismatic Glass Animal Weekend Editorial",
+      "slug": "prismatic-glass-animal-weekend-editorial",
+      "category": "Type Posters",
+      "description": "Sparse black posters built around one oversized translucent glass animal with smoky depth, liquid-chrome edges, rainbow refractions, and futuristic micro-editorial weekend copy.",
+      "summary": "A sparse black editorial-poster system built around one oversized translucent animal sculpture with smoky glass depth, liquid-chrome edges, and restrained rainbow refractions, framed by futuristic typographic micro-editorial content about small weekend rituals.",
+      "preview16": "../styles/prismatic-glass-animal-weekend-editorial/preview-16x9.jpg",
+      "preview9": "../styles/prismatic-glass-animal-weekend-editorial/preview-9x16.jpg",
+      "styleJson": "../styles/prismatic-glass-animal-weekend-editorial/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/prismatic-glass-animal-weekend-editorial.md",
+      "folder": "../styles/prismatic-glass-animal-weekend-editorial/",
+      "anchors": [
+        "A pure matte-black field dominates the image, with no scenery, horizon, floor, frame, border, or decorative color block.",
+        "One cute animal is rendered as an oversized high-end CGI sculpture occupying roughly 65 to 80 percent of the canvas and cropped boldly near one or more edges.",
+        "The animal uses a dynamic three-quarter view and a clearly readable, slightly exaggerated but anatomically coherent pose.",
+        "The sculpture combines transparent smoky glass volume, black liquid-chrome reflections, polished beveled edges, and crisp internal refraction.",
+        "Rainbow color appears only as narrow spectral streaks and caustic bands in cyan, electric blue, violet, magenta, orange, and warm white against otherwise near-black material.",
+        "Hard studio rim lights create brilliant specular contours and luminous internal reflections while the background remains perfectly black."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "miso-slow-saturday",
+      "copyPrompt": "Use the \"Prismatic Glass Animal Weekend Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a single cute short-haired cat rendered as a monumental transparent smoky-glass sculpture\nSubject action: resting in a compact loaf pose with one paw gently touching a tiny alarm clock, eyes half closed in a patient slow-morning expression\nProduct or prop: one small clear-glass analog alarm clock with blank face markers and no branding\nLocation: TOKYO\nBackground elements: pure black field; large open area above the cat; slim left headline column; tiny upper-right issue data; lower-right caption zone\nMain text: MISO / THE SLOW SATURDAY\nSecondary text: TINY REST CLUB / MONTH 7 · DAY 06 / NO RUSH / LET THE MORNING ARRIVE\nAccent symbol: 07\nWardrobe style: no clothing; thick smoky crystal anatomy, black liquid-chrome contours, silver bevels, and restrained cyan-magenta-orange refraction\n\nStyle direction:\nA sparse black editorial-poster system built around one oversized translucent animal sculpture\nwith smoky glass depth, liquid-chrome edges, and restrained rainbow refractions, framed by\nfuturistic typographic micro-editorial content about small weekend rituals.\n\nKeep visible:\n- A pure matte-black field dominates the image, with no scenery, horizon, floor, frame, border, or decorative color block.\n- One cute animal is rendered as an oversized high-end CGI sculpture occupying roughly 65 to 80 percent of the canvas and cropped boldly near one or more edges.\n- The animal uses a dynamic three-quarter view and a clearly readable, slightly exaggerated but anatomically coherent pose.\n- The sculpture combines transparent smoky glass volume, black liquid-chrome reflections, polished beveled edges, and crisp internal refraction.\n- Rainbow color appears only as narrow spectral streaks and caustic bands in cyan, electric blue, violet, magenta, orange, and warm white against otherwise near-black material.\n\nAvoid:\noriginal black glass dog, seated howling dog pose, curled dog tail silhouette, LEBRON, THE MINI\nWEEKEND, copied source copy, copied line breaks, pixel-for-pixel source layout, brand logo,\ncelebrity, mascot, copyright character, watermark, username, creator credit, hashtag, QR code,\nbarcode, app UI, illegible filler text, scenic room, floor plane, furniture set, landscape, busy\ncollage, ornamental frame, flat cartoon, vector mascot, plush toy, clay render, ordinary\nwildlife photo, opaque plastic, full rainbow gradient fill, colored smoke, lens flare, excessive\nbloom, fog, chromatic smearing, film grain, scratches, glitch, compression artifacts, low\nresolution, malformed animal anatomy, extra limbs, unreadable typography\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Sun-Faded Scenic Editorial Poster",
       "slug": "sun-faded-scenic-editorial-poster",

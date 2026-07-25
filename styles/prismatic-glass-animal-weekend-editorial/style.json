@@ -1,0 +1,167 @@
+{
+  "style_name": "Prismatic Glass Animal Weekend Editorial",
+  "style_slug": "prismatic-glass-animal-weekend-editorial",
+  "style_version": "2.1.0",
+  "style_summary": "A sparse black editorial-poster system built around one oversized translucent animal sculpture with smoky glass depth, liquid-chrome edges, and restrained rainbow refractions, framed by futuristic typographic micro-editorial content about small weekend rituals.",
+  "environment_variables": {
+    "SUBJECT": "The single cute animal sculpture used as the hero",
+    "SUBJECT_ACTION": "The animal's expressive weekend action and body pose",
+    "PRODUCT_OR_PROP": "One small translucent leisure prop, or no prop",
+    "LOCATION": "A short editorial location tag",
+    "BACKGROUND_ELEMENTS": "Sparse supporting details and typographic content zones",
+    "MAIN_TEXT": "The exact hero name and stacked weekend headline",
+    "SECONDARY_TEXT": "Exact microcopy, issue data, and lower caption text",
+    "ACCENT_SYMBOL": "A minimal issue marker, numeral, or tiny separator",
+    "WARDROBE_STYLE": "Material, surface, and styling direction for the sculpture",
+    "STYLE_FIDELITY_ANCHORS": "Observable visual traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content and identity details that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A pure matte-black field dominates the image, with no scenery, horizon, floor, frame, border, or decorative color block.",
+    "One cute animal is rendered as an oversized high-end CGI sculpture occupying roughly 65 to 80 percent of the canvas and cropped boldly near one or more edges.",
+    "The animal uses a dynamic three-quarter view and a clearly readable, slightly exaggerated but anatomically coherent pose.",
+    "The sculpture combines transparent smoky glass volume, black liquid-chrome reflections, polished beveled edges, and crisp internal refraction.",
+    "Rainbow color appears only as narrow spectral streaks and caustic bands in cyan, electric blue, violet, magenta, orange, and warm white against otherwise near-black material.",
+    "Hard studio rim lights create brilliant specular contours and luminous internal reflections while the background remains perfectly black.",
+    "The layout is asymmetrical and poster-like: typography occupies the negative space around the sculpture instead of sitting inside boxes or panels.",
+    "Typography mixes one very large extended italic uppercase identity word, ultra-light geometric uppercase stacked headline lines, tiny widely tracked microcopy, and a compact bold italic lower caption.",
+    "White typography is clean and razor sharp; only an occasional light-gray location line or tiny numeral softens the hierarchy.",
+    "The visual density stays sparse and premium, with large uninterrupted black gaps balancing the glossy hero render and scattered text clusters.",
+    "The finish evokes late-1990s and early-2000s experimental fashion graphics, futuristic product visualization, and independent editorial poster design without using retro grain.",
+    "All surfaces and type remain crisp, clean, high-resolution, and controlled, with no noise, fog, glow haze, bloom wash, chromatic smearing, or distressed print texture."
+  ],
+  "source_content_to_avoid": [
+    "The original black glass dog, its upward-looking open-mouth pose, curled tail, seated anatomy, exact crop, or distinctive silhouette.",
+    "The names LEBRON, THE MINI WEEKEND, TOO CUTE MINI SERIES, THE LEBRON TIMES, or any exact wording visible in the reference.",
+    "The original dog-centered napping joke, original issue numbers, original San Francisco line, original credits, hashtags, signatures, or footer copy.",
+    "A pixel-for-pixel recreation of the original typographic placement, line breaks, scale relationships, or exact poster composition.",
+    "Real brand marks, pet-product logos, celebrity identities, recognizable mascots, copyrighted characters, or fake publication endorsements.",
+    "Watermarks, usernames, creator IDs, platform icons, QR codes, barcodes, app interfaces, or illegible legal-text filler."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Experimental fashion-editorial poster fused with premium CGI character sculpture and Y2K futuristic typography.",
+    "composition_and_layout": "An asymmetrical black poster with a monumental animal render placed center-right or low-center, a large identity word near the top, thin stacked headline text in a side column, tiny issue data in the corners, and a bold italic caption near the lower edge.",
+    "subject_placement": "The animal dominates the canvas, extends beyond an edge or approaches it closely, and leaves deliberate black pockets for typography.",
+    "camera_or_perspective": "Close three-quarter studio view with mild low-angle monumentality, sculptural foreshortening, and no environmental perspective.",
+    "typography_style": "A contrast system of extended italic display sans, very light geometric uppercase sans, tiny tracked technical microcopy, and compact bold italic caption text.",
+    "color_palette_behavior": "Approximately 82 percent black, 11 percent smoky transparent gray and silver, 5 percent spectral cyan-magenta-orange reflections, and 2 percent white typography.",
+    "graphic_elements": "No frames or illustrations; the graphic grammar comes from disciplined text clusters, short rules of microcopy, issue numerals, location tags, and small separators.",
+    "texture_and_finish": "Ultra-clean CGI with polished glass, liquid-metal reflections, sharp caustics, smooth surfaces, and pristine digital typography.",
+    "lighting": "Multiple narrow studio rim lights and colored strip reflections carve the silhouette while deep blacks preserve negative space.",
+    "mood_and_cultural_reference": "Cute, self-aware, futuristic, and premium; a miniature lifestyle magazine for slow weekend rituals.",
+    "reusable_design_rules": "Use one oversized refractive animal, one black field, restrained rainbow edge color, and four typographic scales arranged around available negative space.",
+    "things_to_avoid": "No scenic room, no floor plane, no flat cartoon rendering, no opaque colorful plastic, no dense collage, no frames, no large gradients, and no copied source wording."
+  },
+  "composition": {
+    "primary_structure": "One monumental animal sculpture plus four sparse typography zones: identity word, stacked headline, corner microcopy, and lower caption.",
+    "layout_grid": "Use a loose editorial grid with the hero slightly off center. In 4:5, allow a tall stacked headline and low crop; in 5:4, place the animal across the center-right and distribute headline text in the left or upper negative space.",
+    "negative_space": "Keep at least one third of the image as uninterrupted black, including one large calm zone and several smaller gaps between text and sculpture.",
+    "cropping": "Let a paw, ear, tail, or body contour approach or cross the edge, but preserve the animal's identity and the gesture.",
+    "depth": "Create depth entirely inside the refractive sculpture through overlapping transparent forms, internal caustics, and mirrored contours; never add a room or floor."
+  },
+  "typography": {
+    "hero_identity": "One short animal name in huge extended italic uppercase sans, white, tight tracking, usually across the upper-left or upper span.",
+    "stacked_headline": "Three or four lines of ultra-light geometric uppercase sans, generous line spacing, aligned along a clean side column.",
+    "microcopy": "Tiny uppercase technical or editorial lines with wide tracking, arranged in one or two compact corner clusters.",
+    "lower_caption": "A small light-gray location tag above a two-line bold italic uppercase phrase, positioned in the lower negative space.",
+    "restrictions": "Use only the exact supplied case text; keep copy brief and legible; never imitate a real logo or add credits, handles, hashtags, or filler."
+  },
+  "color_palette": {
+    "dominant": "Near-total matte black, #000000 to #050505.",
+    "sculpture_neutrals": "Smoky transparent charcoal, mirror black, cool silver, and sharp white specular highlights.",
+    "spectral_accents": "Thin refracted bands of cyan, cobalt, violet, magenta, coral orange, and occasional warm yellow.",
+    "type": "Mostly pure white with a small amount of cool light gray.",
+    "proportions": "Roughly 82 percent black, 11 percent glass and silver, 5 percent spectral highlights, and 2 percent typography."
+  },
+  "image_treatment": {
+    "rendering_mode": "Photoreal high-end CGI character sculpture with transparent glass volume and liquid-chrome surface behavior.",
+    "material": "Thick blown-glass anatomy, smoky internal density, mirror-like dark reflections, beveled highlights, and controlled rainbow dispersion.",
+    "lighting": "Black-box studio lighting with narrow white and colored strip sources, crisp rim light, high contrast, and no ambient fill washing out the black.",
+    "finish": "Pristine 4K editorial key art with precise edges, readable typography, smooth surfaces, and clean antialiasing.",
+    "character_direction": "Cute but sculptural rather than cartoon-flat; emphasize recognizable ears, paws, face, and gesture without human clothing."
+  },
+  "design_rules": [
+    "Start with the black negative-space architecture and reserve clear zones for four distinct typography scales.",
+    "Make one refractive animal the only large physical subject and give it a playful, instantly readable weekend gesture.",
+    "Keep rainbow color narrow and reflective; never fill the whole animal with a saturated rainbow gradient.",
+    "Use typography as an editorial counterweight to the sculpture, not as a centered title card or boxed caption.",
+    "Adapt the same hierarchy to each aspect ratio instead of stretching or cropping an existing layout.",
+    "Keep the theme close to tiny weekend pleasures: slow mornings, brunch pauses, gentle stretching, and unhurried floating.",
+    "Ensure supplied headline and caption words are spelled correctly, cleanly typeset, and separated from the animal's busiest reflections."
+  ],
+  "do": [
+    "Use true black negative space and one monumental transparent animal.",
+    "Use glass, black chrome, and thin prismatic caustics together.",
+    "Balance one huge italic identity word with thin stacked uppercase lines and tiny microcopy.",
+    "Pose each animal in a clear, endearing weekend ritual.",
+    "Keep the result sparse, crisp, premium, and readable at poster scale."
+  ],
+  "avoid": [
+    "Do not reproduce the original dog, its pose, the name LEBRON, or any source wording.",
+    "Do not turn the animal into a flat mascot, plush toy, sticker, clay render, or ordinary wildlife photo.",
+    "Do not add rooms, furniture sets, landscapes, floor reflections, ornamental frames, or a busy collage.",
+    "Do not overuse rainbow gradients, colored smoke, lens flares, bloom, film grain, scratches, glitch, or compression artifacts.",
+    "Do not add logos, watermarks, signatures, handles, QR codes, or fabricated credits."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} finished editorial poster in the \"prismatic-glass-animal-weekend-editorial\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation tag: {LOCATION}\nBackground and text zones: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nSculpture styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these literal style rules:\n- Composition: use one oversized animal sculpture occupying about 65 to 80 percent of the canvas on a pure matte-black field. Arrange it in a dynamic three-quarter studio view, slightly off center, with a bold crop and at least one third of the image preserved as clean black negative space. Adapt the layout natively to the requested aspect ratio.\n- Typography: typeset the exact supplied words cleanly in white. Use the animal name as a huge extended italic uppercase sans identity word; set the remaining headline as ultra-light geometric uppercase lines stacked in a side column; place tiny widely tracked issue microcopy in a corner; place the location tag above a compact two-line bold italic caption near the lower edge. Keep all text clear of busy reflections.\n- Color: keep the field nearly pure black. Build the subject from transparent smoky charcoal glass, mirror-black liquid chrome, cool silver edges, and narrow prismatic caustics in cyan, cobalt, violet, magenta, coral orange, and warm white. Rainbow color must remain a restrained reflective accent, not a full multicolor fill.\n- Texture and lighting: render pristine high-end CGI with thick blown-glass depth, smooth anatomy, crisp internal refraction, razor-sharp beveled highlights, and narrow studio rim lights. Preserve deep blacks and avoid ambient haze.\n- Graphic elements: use only sparse typographic clusters, one tiny issue marker, short microcopy lines, and deliberate black gaps. Do not add boxes, frames, stickers, scenery, floor planes, or decorative illustrations.\n\nAvoid: the original dog and its seated upward-looking pose; the name LEBRON and every source phrase; exact source line breaks or pixel layout; logos; celebrities; mascots; watermarks; usernames; creator credits; QR codes; app UI; scenic backgrounds; furniture sets; flat cartoons; plush toys; clay renders; dense collages; opaque rainbow plastic; noisy grain; glow haze; chromatic smearing; illegible or invented filler text.\n\nImportant content rule: match the style fidelity anchors first, then present the specified new animal and new weekend ritual. Keep the theme close to cute miniature weekend life while changing the exact subject, action, prop, wording, and story from the source.",
+  "negative_prompt": "original black glass dog, seated howling dog pose, curled dog tail silhouette, LEBRON, THE MINI WEEKEND, copied source copy, copied line breaks, pixel-for-pixel source layout, brand logo, celebrity, mascot, copyright character, watermark, username, creator credit, hashtag, QR code, barcode, app UI, illegible filler text, scenic room, floor plane, furniture set, landscape, busy collage, ornamental frame, flat cartoon, vector mascot, plush toy, clay render, ordinary wildlife photo, opaque plastic, full rainbow gradient fill, colored smoke, lens flare, excessive bloom, fog, chromatic smearing, film grain, scratches, glitch, compression artifacts, low resolution, malformed animal anatomy, extra limbs, unreadable typography",
+  "examples": [
+    {
+      "case_name": "miso-slow-saturday",
+      "values": {
+        "SUBJECT": "a single cute short-haired cat rendered as a monumental transparent smoky-glass sculpture",
+        "SUBJECT_ACTION": "resting in a compact loaf pose with one paw gently touching a tiny alarm clock, eyes half closed in a patient slow-morning expression",
+        "PRODUCT_OR_PROP": "one small clear-glass analog alarm clock with blank face markers and no branding",
+        "LOCATION": "TOKYO",
+        "BACKGROUND_ELEMENTS": "pure black field; large open area above the cat; slim left headline column; tiny upper-right issue data; lower-right caption zone",
+        "MAIN_TEXT": "MISO / THE SLOW SATURDAY",
+        "SECONDARY_TEXT": "TINY REST CLUB / MONTH 7 · DAY 06 / NO RUSH / LET THE MORNING ARRIVE",
+        "ACCENT_SYMBOL": "07",
+        "WARDROBE_STYLE": "no clothing; thick smoky crystal anatomy, black liquid-chrome contours, silver bevels, and restrained cyan-magenta-orange refraction"
+      }
+    },
+    {
+      "case_name": "pippin-brunch-pause",
+      "values": {
+        "SUBJECT": "a single lop-eared rabbit rendered as a monumental transparent smoky-glass sculpture",
+        "SUBJECT_ACTION": "sitting upright with one ear folded and front paws gathered around a tiny croissant, caught in a calm weekend brunch pause",
+        "PRODUCT_OR_PROP": "one small clear amber-glass croissant sculpture with no plate and no branding",
+        "LOCATION": "PARIS",
+        "BACKGROUND_ELEMENTS": "pure black field; open upper-left identity zone; thin stacked text beside the rabbit; tiny corner issue notes; bold lower-left caption",
+        "MAIN_TEXT": "PIPPIN / THE BRUNCH PAUSE",
+        "SECONDARY_TEXT": "SMALL HOURS EDITION / MONTH 8 · DAY 17 / TAKE ONE MORE MINUTE / SOFT STARTS ONLY",
+        "ACCENT_SYMBOL": "08",
+        "WARDROBE_STYLE": "no clothing; blown smoky glass body, black-chrome ear edges, brilliant silver rims, and narrow cobalt-violet-coral spectral streaks"
+      }
+    },
+    {
+      "case_name": "momo-sunday-stretch",
+      "values": {
+        "SUBJECT": "a single baby sloth rendered as a monumental transparent smoky-glass sculpture",
+        "SUBJECT_ACTION": "leaning diagonally into an exaggerated slow full-body stretch with long curved arms and a peaceful closed-eye smile",
+        "PRODUCT_OR_PROP": "one minimal transparent glass branch used only as a small sculptural support",
+        "LOCATION": "SAN JOSE",
+        "BACKGROUND_ELEMENTS": "pure black field; wide top identity band; ultra-light stacked headline in the right gap; tiny issue block at upper left; lower caption below the outstretched arm",
+        "MAIN_TEXT": "MOMO / THE SUNDAY STRETCH",
+        "SECONDARY_TEXT": "LITTLE LEISURE SERIES / MONTH 9 · DAY 22 / MOVE AT YOUR OWN SPEED / STAY LOOSE",
+        "ACCENT_SYMBOL": "09",
+        "WARDROBE_STYLE": "no clothing; thick transparent charcoal glass, mirror-black reflective limbs, white edge lights, and controlled cyan-magenta-amber caustics"
+      }
+    },
+    {
+      "case_name": "nori-float-time",
+      "values": {
+        "SUBJECT": "a single small sea otter rendered as a monumental transparent smoky-glass sculpture",
+        "SUBJECT_ACTION": "reclining on its back in a gentle floating pose, hind paws relaxed and forepaws holding one smooth pebble above its chest",
+        "PRODUCT_OR_PROP": "one polished iridescent glass pebble with no symbols or branding",
+        "LOCATION": "MONTEREY",
+        "BACKGROUND_ELEMENTS": "pure black field with no water; open left identity zone; thin upper headline stack; tiny upper-right issue data; bold lower-right caption",
+        "MAIN_TEXT": "NORI / THE FLOAT TIME",
+        "SECONDARY_TEXT": "MINI TIDE JOURNAL / MONTH 10 · DAY 05 / DRIFT A LITTLE LONGER / NOTHING IS URGENT",
+        "ACCENT_SYMBOL": "10",
+        "WARDROBE_STYLE": "no clothing; transparent smoke-tinted glass fur masses, liquid-chrome paws, silver rim highlights, and restrained blue-violet-coral refraction"
+      }
+    }
+  ]
+}

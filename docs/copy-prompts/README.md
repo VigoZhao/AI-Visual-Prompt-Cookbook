@@ -70,6 +70,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Plush City Festival Mobile Poster | [Copy Prompt](plush-city-festival-mobile-poster-style.md) | [style.json](../../styles/plush-city-festival-mobile-poster-style/style.json) |
 | Plush Comic Toy Product Poster Style | [Copy Prompt](plush-comic-toy-product-poster-style.md) | [style.json](../../styles/plush-comic-toy-product-poster-style/style.json) |
 | Pop Bubble Letter Photo Poster Style | [Copy Prompt](pop-bubble-letter-photo-poster-style.md) | [style.json](../../styles/pop-bubble-letter-photo-poster-style/style.json) |
+| Prismatic Glass Animal Weekend Editorial | [Copy Prompt](prismatic-glass-animal-weekend-editorial.md) | [style.json](../../styles/prismatic-glass-animal-weekend-editorial/style.json) |
 | Quiet Luxury Furniture Nameplate Poster Style | [Copy Prompt](quiet-luxury-furniture-nameplate-poster-style.md) | [style.json](../../styles/quiet-luxury-furniture-nameplate-poster-style/style.json) |
 | Red Black Manga Tabloid Poster Style | [Copy Prompt](red-black-manga-tabloid-poster-style.md) | [style.json](../../styles/red-black-manga-tabloid-poster-style/style.json) |
 | Red Yellow Grunge Skate Cover Style | [Copy Prompt](red-yellow-grunge-skate-cover-style.md) | [style.json](../../styles/red-yellow-grunge-skate-cover-style/style.json) |
@@ -98,6 +99,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Tokyo Kawaii Travel Collage Poster | [Copy Prompt](tokyo-kawaii-travel-collage-poster-style.md) | [style.json](../../styles/tokyo-kawaii-travel-collage-poster-style/style.json) |
 | Tri Color Hardcut Portrait Poster Style | [Copy Prompt](tri-color-hardcut-portrait-poster-style.md) | [style.json](../../styles/tri-color-hardcut-portrait-poster-style/style.json) |
 | Turquoise Red Techno Manga Poster Style | [Copy Prompt](turquoise-red-techno-manga-poster-style.md) | [style.json](../../styles/turquoise-red-techno-manga-poster-style/style.json) |
+| Urban Photo Ink Beast Collage Style | [Copy Prompt](urban-photo-ink-beast-collage-style.md) | [style.json](../../styles/urban-photo-ink-beast-collage-style/style.json) |
 | Urban Transit Doodle Diary Style | [Copy Prompt](urban-transit-doodle-diary-style.md) | [style.json](../../styles/urban-transit-doodle-diary-style/style.json) |
 | Warm Fisheye Product Impact Ad Style | [Copy Prompt](warm-fisheye-product-impact-ad-style.md) | [style.json](../../styles/warm-fisheye-product-impact-ad-style/style.json) |
 | Xerox Neon Editorial Collage | [Copy Prompt](xerox-neon-editorial-collage-style.md) | [style.json](../../styles/xerox-neon-editorial-collage-style/style.json) |
