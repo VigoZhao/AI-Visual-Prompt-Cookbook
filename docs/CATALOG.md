@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 103 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 104 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Surreal Megatype Dossier Collage
+
+<a href="../styles/surreal-megatype-dossier-collage"><img src="../assets/thumbs/surreal-megatype-dossier-collage-16x9.jpg" width="720" alt="Surreal Megatype Dossier Collage preview"></a>
+
+A dense neo-editorial poster system that layers monumental white filled and outlined typography behind a centered surreal photographic cutout sculpture, then frames it with technical microcopy, serial numbers, ruled panels, small warning labels, celestial symbols, and coarse vintage print grain on a deep black field.
+
+Files: [style.json](../styles/surreal-megatype-dossier-collage/style.json) · [Copy Prompt](copy-prompts/surreal-megatype-dossier-collage.md) · [16:9 preview](../styles/surreal-megatype-dossier-collage/preview-16x9.jpg) · [9:16 preview](../styles/surreal-megatype-dossier-collage/preview-9x16.jpg) · [Folder](../styles/surreal-megatype-dossier-collage)
+
+---
 
 ### Urban Photo Ink Beast Collage Style
 

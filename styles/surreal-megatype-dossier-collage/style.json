@@ -1,0 +1,170 @@
+{
+  "style_name": "Surreal Megatype Dossier Collage",
+  "style_slug": "surreal-megatype-dossier-collage",
+  "style_version": "2.1.0",
+  "style_summary": "A dense neo-editorial poster system that layers monumental white filled and outlined typography behind a centered surreal photographic cutout sculpture, then frames it with technical microcopy, serial numbers, ruled panels, small warning labels, celestial symbols, and coarse vintage print grain on a deep black field.",
+  "environment_variables": {
+    "SUBJECT": "The monumental central subject or surreal object assemblage",
+    "SUBJECT_ACTION": "The subject's symbolic action or transformation",
+    "PRODUCT_OR_PROP": "Objects, materials, tools, or props fused into the central collage",
+    "LOCATION": "The poster environment or implied setting",
+    "BACKGROUND_ELEMENTS": "Secondary imagery, diagrams, labels, or supporting collage fragments",
+    "MAIN_TEXT": "Short oversized headline repeated as filled and outlined display type",
+    "SECONDARY_TEXT": "Small editorial microcopy, serial data, or dossier captions",
+    "ACCENT_SYMBOL": "A simple celestial, directional, or technical separator symbol",
+    "WARDROBE_STYLE": "Human styling direction, material draping, or a no-people styling note",
+    "STYLE_FIDELITY_ANCHORS": "Observable visual traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "Literal source content and identity marks that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "Deep black poster field with dense edge-to-edge editorial information and very little empty space.",
+    "Monumental white uppercase sans-serif headline repeated in stacked rows, alternating solid fill, thin outline, and reversed or mirrored treatments.",
+    "One centered surreal photographic cutout sculpture occupying roughly two-thirds of the frame and overlapping the background type.",
+    "Front-facing montage perspective with shallow layered depth, crisp cutout contours, and an iconic monument-like silhouette.",
+    "Restricted palette led by black and off-white, with rust orange and cool cyan inside the hero collage plus tiny yellow and red warning accents.",
+    "Top utility strip and bottom dossier panel built from thin rules, small labels, serial numbers, pseudo-technical diagrams, and barcode-like line textures.",
+    "Small celestial and navigational symbols such as four-point stars, orbital rings, arrows, and symmetrical ornaments used as separators.",
+    "Coarse halftone, photocopy grain, ink speckle, slight registration drift, and softened photographic detail across the whole poster.",
+    "High-contrast flat poster lighting combined with localized glossy highlights on the central photographic materials.",
+    "Layered editorial typography remains partially obscured by the hero object while the short main words stay recognizable.",
+    "Mood combines underground music-poster energy, speculative spiritual symbolism, Y2K editorial graphics, and archival warning-label precision."
+  ],
+  "source_content_to_avoid": [
+    "The original side-profile human head or bust wrapped in striped orange and cyan fabric.",
+    "White doves or pigeons flying around the figure, red flowers placed in the face collage, and moon-like spheres in the same arrangement.",
+    "The exact phrases DON’T CRY, DON’T YOU CRY, SILENT KILLERS, CRYTHINGS.CO, or any copied mental-health explanatory text.",
+    "The yellow DON’T CRY placard, the handwritten signature above the headline, and the small circular face icons.",
+    "The source poster's exact stacked word order, identical silhouette, matching crop, or the same symbolic narrative.",
+    "The visible serial numbers, year marks, rating-style label, trademark sign, barcode, and footer ornaments from the source.",
+    "Any real organization name, campaign identity, brand logo, watermark, username, creator signature, platform mark, or QR code.",
+    "Identifiable real people, celebrity likenesses, copied faces, or protected album and campaign artwork."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Neo-editorial surreal photo-collage poster with Y2K dossier graphics and vintage photocopied zine texture.",
+    "composition_and_layout": "A dense rectangular poster grid: a narrow utility strip at the top, three or four oversized headline rows behind the subject, one monumental central collage, small side data blocks, a boxed dossier footer, and a final microcopy line with symmetric ornaments.",
+    "subject_placement": "The hero collage is centered, vertically dominant, and allowed to obscure large portions of the display typography while leaving enough outer letterforms visible to establish repetition.",
+    "camera_or_perspective": "Straight-on cutout montage with shallow overlap rather than a deep photographic scene; spherical fragments and draped materials add localized volume.",
+    "typography_style": "Extra-bold grotesk uppercase mixed with oversized monoline outline duplicates, occasional reversal or mirroring, compact utility sans text, serial numerals, and one small expressive label accent.",
+    "color_palette_behavior": "Black and warm white carry most of the page; the central object concentrates rust orange and desaturated cyan; yellow and red appear only as small high-priority labels or botanical-like accents.",
+    "graphic_elements": "Thin rules, framed panels, orbital rings, four-point stars, arrows, serial codes, technical stamps, barcode-like line fields, symmetrical footer ornaments, and small geometric badges.",
+    "texture_and_finish": "Visible halftone dots, paper tooth, photocopy noise, coarse screen-print grain, mild edge wear, muted photo detail, and slight color misregistration.",
+    "lighting": "Hard editorial contrast with flattened black shadows, pale highlights, and selective gloss on metallic, glass, or satin collage materials.",
+    "mood_and_cultural_reference": "Underground music flyer, speculative archive, fashion-editorial collage, spiritual sci-fi symbolism, and turn-of-the-century graphic design.",
+    "reusable_design_rules": "Keep one iconic surreal object at the center, let oversized repeated words behave as architecture, concentrate color in the collage, and organize all small information inside disciplined utility bands.",
+    "things_to_avoid": "Do not simplify into a clean Swiss poster, expand into a cinematic scene, use soft pastel minimalism, reproduce the source portrait-and-doves narrative, or add real brand identity."
+  },
+  "composition": {
+    "primary_structure": "One monumental central cutout assemblage over three or four stacked rows of repeated megatype.",
+    "layout_grid": "Use a narrow top utility bar, a dense central poster field, paired side data blocks, a ruled lower dossier panel, and a final ornamented footer line.",
+    "subject_scale": "The hero occupies about 60 to 72 percent of the frame height and overlaps both solid and outline type.",
+    "negative_space": "Keep negative space low; breathing room comes from black counters inside outline letters and thin gaps between framed information bands.",
+    "depth": "Use shallow paper-collage layering, partial occlusion, cutout overlaps, circular orbital fragments, and a few crisp contact shadows.",
+    "aspect_adaptation": "For 4:5, stack the headline vertically and elongate the hero; for 5:4, widen the repeated type rows and spread technical side panels while keeping the hero centered."
+  },
+  "typography": {
+    "headline": "Two to three short uppercase words set in a massive bold grotesk, repeated across the field with alternating solid white and thin white outline variants.",
+    "secondary_display": "One compact black-on-yellow or white-on-red warning label may overlap the hero object.",
+    "supporting_text": "Tiny all-caps dossier captions, serial numerals, compact paragraphs, and utility labels aligned to thin rules.",
+    "alignment": "Mostly centered display type with disciplined left and right technical blocks; allow deliberate reversal or mirroring in one background row.",
+    "restrictions": "Use only original short phrases and invented data; never copy source slogans, signatures, organization names, or serial numbers."
+  },
+  "color_palette": {
+    "dominant": "Near-black ink field.",
+    "secondary": "Warm off-white for display type, rules, symbols, and dossier panels.",
+    "hero_colors": "Rust orange, burnt sienna, and desaturated cyan or oxidized teal concentrated inside the central collage.",
+    "accents": "Small signal-yellow labels and restrained crimson fragments.",
+    "proportions": "Approximately 55 percent black, 25 percent off-white, 12 percent rust orange, 6 percent cyan, and 2 percent yellow or red accents."
+  },
+  "image_treatment": {
+    "rendering_mode": "Raster photo-collage combining photographic object cutouts with flat editorial typography and technical graphic overlays.",
+    "edge_quality": "Crisp hand-cut contours softened by consistent halftone and print grain rather than smooth vector perfection.",
+    "lighting": "Hard frontal editorial light with controlled highlights and compressed shadow detail.",
+    "finish": "A tactile offset-print and photocopy finish with mild ink spread, paper tooth, and subtle registration drift while preserving clear silhouettes.",
+    "legibility": "Keep the primary headline and warning label readable; treat the smallest microcopy and serial data as disciplined visual texture."
+  },
+  "design_rules": [
+    "Build the poster around one central surreal assemblage with a strong, readable monument-like silhouette.",
+    "Place oversized repeated headline words behind the subject and alternate solid, outline, and reversed treatments.",
+    "Keep black and off-white dominant while concentrating rust orange and cyan inside the central collage.",
+    "Use yellow or red only for one or two small warning-style accents.",
+    "Frame small text and data inside strict ruled bands so dense information still feels intentional.",
+    "Apply one coherent halftone and photocopy texture across photography, type, and graphic elements.",
+    "Use orbital circles, stars, arrows, and technical separators sparingly to connect the collage to the dossier grid.",
+    "Change every literal subject, phrase, symbol combination, identifier, and narrative from the source."
+  ],
+  "do": [
+    "Use a centered cutout object sculpture that breaks across multiple type rows.",
+    "Repeat a short original headline in bold filled and monoline outline variants.",
+    "Balance expressive surreal imagery with disciplined technical framing.",
+    "Keep the poster tactile, grainy, high-contrast, and densely layered.",
+    "Adapt the same hierarchy to both 4:5 and 5:4 without turning the horizontal version into a different genre."
+  ],
+  "avoid": [
+    "Do not recreate the source portrait, white birds, red flower placement, moon arrangement, slogans, signature, or footer data.",
+    "Do not include real logos, brand names, watermarks, usernames, QR codes, or copied identity marks.",
+    "Do not render a clean vector poster, glossy 3D scene, soft minimalist layout, or photoreal cinematic environment.",
+    "Do not scatter many unrelated objects until the central silhouette becomes unreadable.",
+    "Do not let artificial noise destroy the primary headline, hero contours, or main warning label."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"surreal-megatype-dossier-collage\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: place one monumental surreal photographic cutout assemblage at the center, occupying roughly two-thirds of the frame, over three or four dense rows of repeated white megatype. Build a narrow top utility strip, small side data blocks, a ruled lower dossier panel, and a final symmetric footer ornament. Keep negative space low and the perspective front-facing with shallow paper-collage overlap.\n- Typography: repeat the specified short main text in massive uppercase grotesk letters, alternating solid off-white, thin monoline outline, and one reversed or mirrored background treatment. Keep the primary words recognizable even when partly hidden. Add only original compact all-caps microcopy, serial-like numerals, and one small warning label; do not copy any source wording or identity.\n- Color: use a near-black field and warm off-white type as the dominant system. Concentrate rust orange, burnt sienna, and desaturated cyan inside the hero collage, with one small signal-yellow label and restrained crimson details.\n- Texture and lighting: combine hard frontal editorial lighting, crisp hand-cut object edges, compressed shadows, coarse halftone dots, paper tooth, photocopy grain, slight ink spread, and subtle color registration drift. Keep the hero silhouette and main type readable.\n- Graphic elements: use thin white rules, framed dossier panels, orbital rings, four-point stars, arrows, compact technical stamps, barcode-like abstract line fields, and symmetrical ornamental separators. These must be invented graphics, never real codes or copied marks.\n\nAvoid: real logos, watermarks, usernames, QR codes, identifiable people, copied faces, source slogans, white doves, the source side-profile head, exact flower and moon arrangement, clean vector rendering, glossy 3D, cinematic scenery, pastel minimalism, excessive glitch, illegible primary text, malformed anatomy, or unrelated clutter.\n\nImportant content rule: match the dense black-and-white megatype dossier layout, monumental surreal cutout treatment, restricted accent palette, and tactile print finish first; then change the subject, props, scene, symbols, text, and story completely.",
+  "negative_prompt": "source portrait, side-profile human head, white doves, pigeons, copied red-flower placement, copied moon arrangement, DON’T CRY, SILENT KILLERS, copied slogan, copied signature, real logo, brand name, watermark, username, platform mark, QR code, real barcode, identifiable person, celebrity likeness, album-cover copy, campaign-art copy, clean vector poster, glossy 3D render, cinematic scene, pastel minimalism, excessive glitch, destructive noise, unreadable primary headline, low resolution, blur, muddy silhouette, random object clutter",
+  "examples": [
+    {
+      "case_name": "midnight-radio-relic",
+      "values": {
+        "SUBJECT": "a monumental surreal shortwave radio relic fused with an abstract satellite dish",
+        "SUBJECT_ACTION": "broadcasting concentric frequency rings while its tuning parts unfold like a mechanical shrine",
+        "PRODUCT_OR_PROP": "a chrome radio chassis, blank tuning glass, brass knobs, coiled cables, burgundy satin folds, small moths, and translucent signal spheres",
+        "LOCATION": "a black archival poster void presented as an imaginary nocturnal transmission dossier",
+        "BACKGROUND_ELEMENTS": "invented frequency charts, thin rule frames, abstract barcode-like lines, serial labels, orbital rings, and small directional arrows",
+        "MAIN_TEXT": "TUNE IN",
+        "SECONDARY_TEXT": "NIGHT FREQUENCY / SIGNAL 47.12 / LISTEN BEYOND",
+        "ACCENT_SYMBOL": "four-point signal star",
+        "WARDROBE_STYLE": "no people; metallic components are wrapped in rust-orange and cyan satin fragments"
+      }
+    },
+    {
+      "case_name": "deep-sea-archive",
+      "values": {
+        "SUBJECT": "a colossal antique diving helmet transformed into a deep-sea archive monument",
+        "SUBJECT_ACTION": "opening its circular viewport as currents, bubbles, and translucent organisms spiral outward",
+        "PRODUCT_OR_PROP": "oxidized brass helmet plates, pressure gauges, cyan glass lenses, burnt-orange kelp, jellyfish, coral fragments, and pearl-like bubbles",
+        "LOCATION": "a black speculative oceanography dossier with no literal underwater scenery",
+        "BACKGROUND_ELEMENTS": "invented depth scales, specimen labels, orbital bubbles, thin frame rules, mirrored technical captions, and a compact warning panel",
+        "MAIN_TEXT": "DIVE DEEP",
+        "SECONDARY_TEXT": "PRESSURE LOG / BELOW THE SURFACE / DEPTH 08.31",
+        "ACCENT_SYMBOL": "compass-cross star",
+        "WARDROBE_STYLE": "no people; the helmet is draped with textured rust fabric and cool translucent membranes"
+      }
+    },
+    {
+      "case_name": "greenhouse-engine",
+      "values": {
+        "SUBJECT": "a monumental glass greenhouse engine assembled as a botanical machine",
+        "SUBJECT_ACTION": "unfolding brass ribs while rare leaves and mechanical seed pods emerge from its transparent chambers",
+        "PRODUCT_OR_PROP": "curved greenhouse glass, brass irrigation valves, rust-colored textile, cyan condensation, crimson seed pods, dark leaves, and tiny metallic dragonflies",
+        "LOCATION": "a black archival botany poster imagined as a future growth dossier",
+        "BACKGROUND_ELEMENTS": "invented germination charts, ruled specimen boxes, measurement ticks, orbital seed diagrams, serial data, and one yellow status label",
+        "MAIN_TEXT": "GROW WILD",
+        "SECONDARY_TEXT": "GERMINATION FILE / OPEN SYSTEM / CYCLE 13",
+        "ACCENT_SYMBOL": "eight-point seed star",
+        "WARDROBE_STYLE": "no people; glass and brass are partially wrapped in burnt-orange technical fabric"
+      }
+    },
+    {
+      "case_name": "nocturne-transit",
+      "values": {
+        "SUBJECT": "a monumental vintage train nose fused with a celestial transit instrument",
+        "SUBJECT_ACTION": "moving forward as its windows become orbital lenses and its rails curl into diagrammatic paths",
+        "PRODUCT_OR_PROP": "an unbranded steel train shell, round lamps, cyan glass windows, rust-orange upholstery folds, blank metal tickets, small paper kites, and dark planetary discs",
+        "LOCATION": "a black imaginary night-transit dossier with no realistic station scene",
+        "BACKGROUND_ELEMENTS": "invented route grids, departure codes, white rule frames, abstract line fields, orbital marks, arrows, and a compact status placard",
+        "MAIN_TEXT": "MOVE THROUGH",
+        "SECONDARY_TEXT": "NIGHT LINE / ROUTE UNKNOWN / DEPART 23.40",
+        "ACCENT_SYMBOL": "double-arrow star",
+        "WARDROBE_STYLE": "no people; industrial metal is softened by layered burnt-orange and oxidized-cyan textile"
+      }
+    }
+  ]
+}

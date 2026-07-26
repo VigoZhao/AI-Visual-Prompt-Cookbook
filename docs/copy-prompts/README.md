@@ -95,6 +95,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Sunlit Supermodel Nameplate Editorial | [Copy Prompt](sunlit-supermodel-nameplate-editorial.md) | [style.json](../../styles/sunlit-supermodel-nameplate-editorial/style.json) |
 | Sunny 3D Avatar Campaign Style | [Copy Prompt](sunny-3d-avatar-campaign-style.md) | [style.json](../../styles/sunny-3d-avatar-campaign-style/style.json) |
 | Surreal Fish Doodle Landmark Photo Collage Style | [Copy Prompt](surreal-fish-doodle-landmark-photo-collage-style.md) | [style.json](../../styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) |
+| Surreal Megatype Dossier Collage | [Copy Prompt](surreal-megatype-dossier-collage.md) | [style.json](../../styles/surreal-megatype-dossier-collage/style.json) |
 | Teenage Skate Scribble Screenprint Poster Style | [Copy Prompt](teenage-skate-scribble-screenprint-poster-style.md) | [style.json](../../styles/teenage-skate-scribble-screenprint-poster-style/style.json) |
 | Tokyo Kawaii Travel Collage Poster | [Copy Prompt](tokyo-kawaii-travel-collage-poster-style.md) | [style.json](../../styles/tokyo-kawaii-travel-collage-poster-style/style.json) |
 | Tri Color Hardcut Portrait Poster Style | [Copy Prompt](tri-color-hardcut-portrait-poster-style.md) | [style.json](../../styles/tri-color-hardcut-portrait-poster-style/style.json) |

@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 103,
+  "styleCount": 104,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Surreal Megatype Dossier Collage",
+      "slug": "surreal-megatype-dossier-collage",
+      "category": "Type Posters",
+      "description": "Dense neo-editorial posters layering monumental white typography behind a centered surreal photographic cutout, framed by technical microcopy, ruled panels, celestial symbols, and coarse vintage grain on black.",
+      "summary": "A dense neo-editorial poster system that layers monumental white filled and outlined typography behind a centered surreal photographic cutout sculpture, then frames it with technical microcopy, serial numbers, ruled panels, small warning labels, celestial symbols, and coarse vintage print grain on a deep black field.",
+      "preview16": "../styles/surreal-megatype-dossier-collage/preview-16x9.jpg",
+      "preview9": "../styles/surreal-megatype-dossier-collage/preview-9x16.jpg",
+      "styleJson": "../styles/surreal-megatype-dossier-collage/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/surreal-megatype-dossier-collage.md",
+      "folder": "../styles/surreal-megatype-dossier-collage/",
+      "anchors": [
+        "Deep black poster field with dense edge-to-edge editorial information and very little empty space.",
+        "Monumental white uppercase sans-serif headline repeated in stacked rows, alternating solid fill, thin outline, and reversed or mirrored treatments.",
+        "One centered surreal photographic cutout sculpture occupying roughly two-thirds of the frame and overlapping the background type.",
+        "Front-facing montage perspective with shallow layered depth, crisp cutout contours, and an iconic monument-like silhouette.",
+        "Restricted palette led by black and off-white, with rust orange and cool cyan inside the hero collage plus tiny yellow and red warning accents.",
+        "Top utility strip and bottom dossier panel built from thin rules, small labels, serial numbers, pseudo-technical diagrams, and barcode-like line textures."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "midnight-radio-relic",
+      "copyPrompt": "Use the \"Surreal Megatype Dossier Collage\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a monumental surreal shortwave radio relic fused with an abstract satellite dish\nSubject action: broadcasting concentric frequency rings while its tuning parts unfold like a mechanical shrine\nProduct or prop: a chrome radio chassis, blank tuning glass, brass knobs, coiled cables, burgundy satin folds, small moths, and translucent signal spheres\nLocation: a black archival poster void presented as an imaginary nocturnal transmission dossier\nBackground elements: invented frequency charts, thin rule frames, abstract barcode-like lines, serial labels, orbital rings, and small directional arrows\nMain text: TUNE IN\nSecondary text: NIGHT FREQUENCY / SIGNAL 47.12 / LISTEN BEYOND\nAccent symbol: four-point signal star\nWardrobe style: no people; metallic components are wrapped in rust-orange and cyan satin fragments\n\nStyle direction:\nA dense neo-editorial poster system that layers monumental white filled and outlined typography\nbehind a centered surreal photographic cutout sculpture, then frames it with technical\nmicrocopy, serial numbers, ruled panels, small warning labels, celestial symbols, and coarse\nvintage print grain on a deep black field.\n\nKeep visible:\n- Deep black poster field with dense edge-to-edge editorial information and very little empty space.\n- Monumental white uppercase sans-serif headline repeated in stacked rows, alternating solid fill, thin outline, and reversed or mirrored treatments.\n- One centered surreal photographic cutout sculpture occupying roughly two-thirds of the frame and overlapping the background type.\n- Front-facing montage perspective with shallow layered depth, crisp cutout contours, and an iconic monument-like silhouette.\n- Restricted palette led by black and off-white, with rust orange and cool cyan inside the hero collage plus tiny yellow and red warning accents.\n\nAvoid:\nsource portrait, side-profile human head, white doves, pigeons, copied red-flower placement,\ncopied moon arrangement, DON’T CRY, SILENT KILLERS, copied slogan, copied signature, real logo,\nbrand name, watermark, username, platform mark, QR code, real barcode, identifiable person,\ncelebrity likeness, album-cover copy, campaign-art copy, clean vector poster, glossy 3D render,\ncinematic scene, pastel minimalism, excessive glitch, destructive noise, unreadable primary\nheadline, low resolution, blur, muddy silhouette, random object clutter\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Urban Photo Ink Beast Collage Style",
       "slug": "urban-photo-ink-beast-collage-style",
