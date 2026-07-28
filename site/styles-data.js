@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 104,
+  "styleCount": 105,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Cobalt Megatype Roadside Travel Editorial",
+      "slug": "cobalt-megatype-roadside-travel-editorial-style",
+      "category": "Type Posters",
+      "description": "Nostalgic roadside-travel posters combining cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground.",
+      "summary": "A nostalgic roadside-travel editorial poster system that combines cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground.",
+      "preview16": "../styles/cobalt-megatype-roadside-travel-editorial-style/preview-16x9.jpg",
+      "preview9": "../styles/cobalt-megatype-roadside-travel-editorial-style/preview-9x16.jpg",
+      "styleJson": "../styles/cobalt-megatype-roadside-travel-editorial-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/cobalt-megatype-roadside-travel-editorial-style.md",
+      "folder": "../styles/cobalt-megatype-roadside-travel-editorial-style/",
+      "anchors": [
+        "A poster split into a cream editorial field above and a full-width documentary location photograph below, with the boundary near the middle.",
+        "Two enormous stacked words in ultra-heavy italic condensed sans type occupy the upper-left and crop decisively beyond the left edge.",
+        "The headline is printed in one saturated cobalt blue with tight spacing, hard silhouettes, and slightly weathered ink edges.",
+        "The upper-right stays relatively open and carries a tiny locator system: thin horizontal rule, small label stack, circular icon, and outlined capsule.",
+        "A short compact paragraph of cobalt microcopy sits low in the cream field, balancing the giant headline without filling the negative space.",
+        "The photograph uses a straight-on, eye-level, wide architectural viewpoint with one low building or transport structure spanning most of the frame."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "Coastal Ferry Gate",
+      "copyPrompt": "Use the \"Cobalt Megatype Roadside Travel Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a low cream-and-vermilion public ferry terminal with a compact passenger ferry beside it\nSubject action: opening for the first crossing while the ferry rests at the gangway\nProduct or prop: a striped boarding ramp, one circular harbor signal, and unbranded mooring posts\nLocation: a quiet windswept island harbor\nBackground elements: flat blue water, a long concrete breakwater, low distant islands, pale sky, and no mountains\nMain text: SEA GATE\nSecondary text: COASTAL TRANSIT / SOUTH PIER / FIRST CROSSING\nAccent symbol: depart\nWardrobe style: if any incidental traveler appears, use a plain navy windbreaker and cream trousers with no marks\n\nStyle direction:\nA nostalgic roadside-travel editorial poster system that combines cropped cobalt megatype,\nsparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and\none loose hand-painted word across the dark foreground.\n\nKeep visible:\n- A poster split into a cream editorial field above and a full-width documentary location photograph below, with the boundary near the middle.\n- Two enormous stacked words in ultra-heavy italic condensed sans type occupy the upper-left and crop decisively beyond the left edge.\n- The headline is printed in one saturated cobalt blue with tight spacing, hard silhouettes, and slightly weathered ink edges.\n- The upper-right stays relatively open and carries a tiny locator system: thin horizontal rule, small label stack, circular icon, and outlined capsule.\n- A short compact paragraph of cobalt microcopy sits low in the cream field, balancing the giant headline without filling the negative space.\n\nAvoid:\nDo not recreate Mount Fuji, a volcanic mountain silhouette, the LAWSON convenience store, blue-\nred retail stripe, convenience-store parking lot, branded storefront products, the MT. FUJI\nheadline, original Japanese captions, Fuji-Hakone-Izu location copy, Honshu Island label,\noriginal asphalt calligraphy, or the source travel premise. No logos, trademarks, watermarks,\nusernames, signatures, QR codes, platform marks, branded vehicles, dense retail signage, crowds,\nfeatured faces, glossy tourism advertising, corporate brochure polish, HDR, neon cyberpunk,\ncinematic night lighting, collage panels, stickers, prices, maps, UI chrome, anime,\nillustration, vector scenery, painterly architecture, 3D rendering, miniature diorama, plastic\ntextures, mountains dominating the horizon, excessive blur, heavy distress, severe chromatic\naberration, compression artifacts, or excessive noise.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Surreal Megatype Dossier Collage",
       "slug": "surreal-megatype-dossier-collage",

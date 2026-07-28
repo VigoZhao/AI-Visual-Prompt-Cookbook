@@ -1,0 +1,173 @@
+{
+  "style_name": "Cobalt Megatype Roadside Travel Editorial",
+  "style_slug": "cobalt-megatype-roadside-travel-editorial-style",
+  "style_version": "2.1.0",
+  "style_summary": "A nostalgic roadside-travel editorial poster system that combines cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A poster split into a cream editorial field above and a full-width documentary location photograph below, with the boundary near the middle.",
+    "Two enormous stacked words in ultra-heavy italic condensed sans type occupy the upper-left and crop decisively beyond the left edge.",
+    "The headline is printed in one saturated cobalt blue with tight spacing, hard silhouettes, and slightly weathered ink edges.",
+    "The upper-right stays relatively open and carries a tiny locator system: thin horizontal rule, small label stack, circular icon, and outlined capsule.",
+    "A short compact paragraph of cobalt microcopy sits low in the cream field, balancing the giant headline without filling the negative space.",
+    "The photograph uses a straight-on, eye-level, wide architectural viewpoint with one low building or transport structure spanning most of the frame.",
+    "Warm amber interior light or sunlit surfaces contrast with cool cobalt details and a deep petrol-charcoal foreground.",
+    "One oversized loose hand-painted word appears in bright cobalt across the dark road, pavement, water, or ground at the bottom.",
+    "The palette remains restrained to warm cream, saturated cobalt, faded amber-orange, petrol green, and soft charcoal.",
+    "Fine analog grain, offset-print speckle, gentle color fading, lifted blacks, mild halftone, and subtle ink misregistration unify type and photograph.",
+    "The mood is quiet, observant, slightly cinematic, and rooted in late-twentieth-century Japanese travel-magazine design without copying literal Japanese content."
+  ],
+  "source_content_to_avoid": [
+    "Mount Fuji, a conical snowless volcanic mountain, or the exact mountain-behind-store composition.",
+    "The LAWSON convenience store facade, blue-red retail stripe, convenience-store parking lot, storefront products, or any recognizable retail brand.",
+    "The exact source headline MT. FUJI, the word LAWSON, the original Japanese captions, or close translations of that copy.",
+    "The exact upper-right labels about Fuji-Hakone-Izu National Park, Honshu Island, Japan, or the source location-pin arrangement paired with that wording.",
+    "The exact blue Japanese calligraphy painted across the source asphalt.",
+    "Any logo, trademark, watermark, username, signature, QR code, platform mark, or creator identity.",
+    "A travel story centered on visiting Mount Fuji through a branded convenience-store forecourt."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Analog travel-editorial poster combining monumental modernist typography with warm documentary roadside photography.",
+    "composition_logic": "A cream upper editorial field carries an aggressively cropped two-line headline on the left, sparse locator data on the right, and a small paragraph near the lower-left; a straight-on location photograph fills the lower half and ends with one large painted word across a dark foreground.",
+    "subject_placement": "One low architectural or transport subject spans most of the photographic width, centered and viewed square-on, while the foreground remains open enough to hold the painted accent word.",
+    "camera_perspective": "Eye-level to slightly low, moderate wide lens, level horizon, minimal convergence, documentary distance, and no dramatic foreshortening.",
+    "typographic_behavior": "Giant cobalt condensed italic sans letters are cropped as physical masses; tiny serif and condensed information labels create an editorial scale contrast; one crude hand-painted word provides a human counterpoint.",
+    "color_behavior": "Cream paper and cobalt ink dominate the upper field; the photograph concentrates faded amber light, cool blue accents, petrol shadows, and charcoal ground.",
+    "graphic_elements": "Thin cobalt rules, a small circular locator glyph, one rounded outline capsule, sparse microcopy, and a single oversized brush-word accent.",
+    "texture_finish": "Uncoated paper fiber, fine film grain, mild halftone, lifted faded blacks, soft highlight bloom, tiny print flecks, and restrained registration drift.",
+    "lighting_mood": "Warm late-afternoon or early-evening ambient light with inviting interior glow, quiet streets, and calm travel-documentary atmosphere."
+  },
+  "composition": {
+    "layout": "Reserve roughly 44 to 52 percent of the canvas for the cream typographic field and 48 to 56 percent for one uninterrupted full-width photograph.",
+    "headline_structure": "Set the two headline words as separate stacked rows in the upper-left; scale them until the leftmost strokes crop beyond the edge while preserving immediate readability.",
+    "information_zone": "Keep a thin rule near the top, then place a compact locator label, tiny icon, short location stack, and one outlined capsule in the upper-right with generous cream space around them.",
+    "microcopy": "Place one short paragraph in very small cobalt type near the lower-left of the cream field; it should remain subordinate and occupy no more than a narrow block.",
+    "photo_structure": "Use one centered low building, pier, station, or civic structure across the photographic band, viewed straight-on with a calm horizon and no collage framing.",
+    "foreground_accent": "Preserve a dark open foreground along the bottom and paint one large loose cobalt word across it, slightly irregular but clearly intentional.",
+    "density": "Keep the object count and graphic vocabulary low; the tension comes from extreme type scale versus quiet documentary space."
+  },
+  "typography": {
+    "main_type": "Ultra-heavy italic condensed grotesk in saturated cobalt, tightly tracked and stacked, with hard blocky counters, decisive edge cropping, and faint ink wear.",
+    "locator_type": "A compact mixture of narrow serif and restrained condensed sans, right-aligned in cobalt and organized as short hierarchical lines.",
+    "capsule_label": "Small centered serif or condensed text inside a thin rounded cobalt outline with no fill, shadow, or gloss.",
+    "microcopy": "Tiny bold cobalt sans text in short lines with tight leading, reading like a travel-guide paragraph rather than advertising copy.",
+    "painted_word": "One oversized freehand brush word in cobalt, broad and slightly uneven, placed directly over the dark photographic foreground.",
+    "text_behavior": "All text should look physically printed or painted into the poster surface; avoid digital UI treatment, extrusion, glow, and decorative font mixing."
+  },
+  "color_palette": {
+    "paper": "Warm ivory and oatmeal cream, approximately #eee6d6, with visible uncoated fiber.",
+    "primary_ink": "Saturated travel-poster cobalt, approximately #0754ad, used for headline, rules, labels, and painted word.",
+    "photo_warmth": "Faded amber, tangerine, honey, and sun-baked ochre concentrated in architecture and practical lights.",
+    "cool_details": "Muted ultramarine, dusty cyan, and petrol green in trim, sky, glass, or transport details.",
+    "dark_ground": "Lifted charcoal and deep green-black rather than pure black.",
+    "proportion": "Approximately 42 percent cream, 28 percent dark photographic ground, 18 percent warm amber architecture and light, 10 percent cobalt graphics, and 2 percent cool secondary accents."
+  },
+  "photographic_direction": {
+    "rendering": "Believable analog location photography integrated into a printed poster, never illustration, vector scenery, or synthetic 3D architecture.",
+    "camera": "Straight-on eye-level or slightly low wide view, level verticals, centered architectural subject, and enough distance to show its full frontage or platform.",
+    "lighting": "Warm late-day sun or early-evening ambient light with a few practical interior lamps, gentle contrast, and no dramatic spotlighting.",
+    "grade": "Faded warm highlights, cool cobalt accents, petrol shadows, lifted blacks, modest saturation, fine grain, and soft edge definition.",
+    "environment": "Quiet public infrastructure, transit, waterfront, or civic architecture with minimal people, no crowds, and no commercial brand clutter.",
+    "integration": "Apply the same paper grain, halftone, print speckle, and subtle color drift across the photograph and all graphic layers."
+  },
+  "design_rules": [
+    "Build every poster from one cream typography zone and one uninterrupted full-width location photograph.",
+    "Keep the cropped two-line cobalt headline as the largest visual mass and preserve the upper-left to lower-right reading path.",
+    "Use only one small locator cluster, one thin rule, one capsule label, and one compact paragraph in the cream field.",
+    "Photograph a new low architectural or transit subject square-on at documentary distance.",
+    "Keep the foreground dark and open enough for one large cobalt hand-painted word.",
+    "Restrict the palette to cream, cobalt, faded amber-orange, petrol green, and soft charcoal.",
+    "Carry restrained analog grain and offset-print imperfection through every layer.",
+    "Use invented generic copy and unbranded environments only."
+  ],
+  "do": [
+    "Crop the giant condensed italic headline boldly at the left canvas edge.",
+    "Preserve generous cream negative space around the small locator graphics.",
+    "Use a centered, low, full-width public structure photographed straight-on.",
+    "Balance warm architectural light against cobalt graphic ink and a dark foreground.",
+    "Keep the painted bottom word loose, broad, and visibly different from the typeset headline.",
+    "Use fine physical grain and lightly faded printing without overwhelming legibility."
+  ],
+  "avoid": [
+    "No Mount Fuji, volcanic mountain silhouette, branded convenience store, recognizable retail facade, parking-lot recreation, or source text.",
+    "No copied Japanese writing, logos, trademarks, watermarks, usernames, signatures, QR codes, or platform identifiers.",
+    "No glossy modern tourism ad, clean corporate brochure, HDR, neon cyberpunk, dramatic night cinema, or luxury branding.",
+    "No collage, multiple photo cards, sticker pile, price burst, map screenshot, UI chrome, or dense promotional information.",
+    "No illustration, anime, vector-only scenery, painterly architecture, 3D render, miniature diorama, or plastic materials.",
+    "No mountains dominating the background, crowds, featured faces, product shelves, branded vehicles, or dense street traffic.",
+    "No excessive blur, heavy damage, severe chromatic aberration, dirty grunge, blocky compression, or noisy glitch artifacts."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} raster poster in the Cobalt Megatype Roadside Travel Editorial visual style. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Strictly exclude this source content: {SOURCE_CONTENT_TO_AVOID}. New subject: {SUBJECT}. Action or state: {SUBJECT_ACTION}. Prop or visual anchor: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Supporting locator and microcopy: {SECONDARY_TEXT}. Hand-painted foreground word or accent: {ACCENT_SYMBOL}. Human styling if incidental figures appear: {WARDROBE_STYLE}. Apply these concrete style rules: split the poster near the middle into a warm cream uncoated-paper editorial field above and one uninterrupted full-width documentary location photograph below; place two enormous stacked words of ultra-heavy italic condensed grotesk in saturated cobalt at the upper-left, tightly spaced and cropped decisively beyond the left edge; extend a thin cobalt rule across the top toward a sparse upper-right locator cluster made from tiny narrow type, one circular symbol, a short right-aligned label stack, and one thin outlined capsule; place a compact paragraph of tiny cobalt microcopy low in the cream field; photograph one low public, transit, waterfront, or civic structure straight-on from eye level or slightly low with a moderate wide lens, level horizon, minimal perspective distortion, and few or no people; use warm amber sun or practical interior glow against cobalt details, petrol shadows, and lifted charcoal ground; preserve a dark uncluttered foreground and lay one oversized loose cobalt brush word directly across it; restrict the palette to warm cream, saturated cobalt, faded amber-orange, petrol green, dusty cyan, and soft charcoal; unify the entire design with fine analog film grain, uncoated paper fiber, mild halftone, tiny offset-print flecks, gentle pigment fading, subtle misregistration, and soft highlight bloom; keep the mood quiet, observant, nostalgic, and travel-editorial with sparse graphic density. Render all requested text as clean intentional poster lettering, but use only the new supplied wording. Avoid Mount Fuji, mountains dominating the scene, branded convenience stores, retail stripes, parking-lot recreations, source Japanese text, source wording, recognizable trademarks, logos, watermarks, signatures, QR codes, platform marks, glossy HDR, corporate brochure polish, neon night scenes, dense collage, price tags, UI, anime, illustration, vector-only scenery, painterly rendering, synthetic 3D architecture, plastic surfaces, crowds, featured faces, severe blur, heavy grunge, chromatic aberration, blocky compression, and excessive noise. Important content rule: match the style fidelity anchors first, then change the subject, structure, location, props, text, and story premise completely.",
+  "negative_prompt": "Do not recreate Mount Fuji, a volcanic mountain silhouette, the LAWSON convenience store, blue-red retail stripe, convenience-store parking lot, branded storefront products, the MT. FUJI headline, original Japanese captions, Fuji-Hakone-Izu location copy, Honshu Island label, original asphalt calligraphy, or the source travel premise. No logos, trademarks, watermarks, usernames, signatures, QR codes, platform marks, branded vehicles, dense retail signage, crowds, featured faces, glossy tourism advertising, corporate brochure polish, HDR, neon cyberpunk, cinematic night lighting, collage panels, stickers, prices, maps, UI chrome, anime, illustration, vector scenery, painterly architecture, 3D rendering, miniature diorama, plastic textures, mountains dominating the horizon, excessive blur, heavy distress, severe chromatic aberration, compression artifacts, or excessive noise.",
+  "examples": [
+    {
+      "case_name": "Coastal Ferry Gate",
+      "values": {
+        "SUBJECT": "a low cream-and-vermilion public ferry terminal with a compact passenger ferry beside it",
+        "SUBJECT_ACTION": "opening for the first crossing while the ferry rests at the gangway",
+        "PRODUCT_OR_PROP": "a striped boarding ramp, one circular harbor signal, and unbranded mooring posts",
+        "LOCATION": "a quiet windswept island harbor",
+        "BACKGROUND_ELEMENTS": "flat blue water, a long concrete breakwater, low distant islands, pale sky, and no mountains",
+        "MAIN_TEXT": "SEA GATE",
+        "SECONDARY_TEXT": "COASTAL TRANSIT / SOUTH PIER / FIRST CROSSING",
+        "ACCENT_SYMBOL": "depart",
+        "WARDROBE_STYLE": "if any incidental traveler appears, use a plain navy windbreaker and cream trousers with no marks"
+      }
+    },
+    {
+      "case_name": "Desert Radio Relay",
+      "values": {
+        "SUBJECT": "a low ochre radio relay station with a slender steel antenna mast",
+        "SUBJECT_ACTION": "transmitting across the plateau in still late-afternoon light",
+        "PRODUCT_OR_PROP": "a round signal dish, one red maintenance lamp, and a plain utility cabinet",
+        "LOCATION": "an open high-desert communications outpost",
+        "BACKGROUND_ELEMENTS": "flat gravel apron, distant low mesas, sparse sage, pale cyan sky, and long soft shadows",
+        "MAIN_TEXT": "OPEN SIGNAL",
+        "SECONDARY_TEXT": "FIELD FREQUENCY / WEST RELAY / CLEAR AIR",
+        "ACCENT_SYMBOL": "listen",
+        "WARDROBE_STYLE": "if a tiny technician appears, use an unbranded rust work jacket, dark trousers, and canvas cap"
+      }
+    },
+    {
+      "case_name": "Forest Tram Station",
+      "values": {
+        "SUBJECT": "a compact cream forest tram station with one dark green cable car at the platform",
+        "SUBJECT_ACTION": "waiting quietly before the uphill morning departure",
+        "PRODUCT_OR_PROP": "steel rails, a simple round station clock, and an unbranded wooden bench",
+        "LOCATION": "a cedar valley transit stop",
+        "BACKGROUND_ELEMENTS": "dense vertical tree trunks, damp platform, thin mist, low roofline, and no mountain silhouette",
+        "MAIN_TEXT": "NORTH TRAM",
+        "SECONDARY_TEXT": "VALLEY LINE / PLATFORM TWO / MORNING CLIMB",
+        "ACCENT_SYMBOL": "ascend",
+        "WARDROBE_STYLE": "if a small passenger appears, use a plain mustard raincoat, charcoal trousers, and simple boots"
+      }
+    },
+    {
+      "case_name": "Riverside Bath House",
+      "values": {
+        "SUBJECT": "a low amber-tiled public bathhouse beside a slow urban canal",
+        "SUBJECT_ACTION": "glowing softly as evening visitors begin to arrive",
+        "PRODUCT_OR_PROP": "a curved entrance canopy, frosted glass doors, and two unbranded bicycles",
+        "LOCATION": "a quiet riverside neighborhood",
+        "BACKGROUND_ELEMENTS": "dark canal water, low concrete railing, leafless street trees, soft dusk sky, and sparse apartment silhouettes",
+        "MAIN_TEXT": "RIVER BATH",
+        "SECONDARY_TEXT": "PUBLIC WATER / EAST BANK / OPEN UNTIL LATE",
+        "ACCENT_SYMBOL": "warmth",
+        "WARDROBE_STYLE": "if tiny visitors appear, use plain mid-century coats in navy, cream, and rust with no visible marks"
+      }
+    }
+  ]
+}

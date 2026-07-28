@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 104 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 105 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Cobalt Megatype Roadside Travel Editorial
+
+<a href="../styles/cobalt-megatype-roadside-travel-editorial-style"><img src="../assets/thumbs/cobalt-megatype-roadside-travel-editorial-style-16x9.jpg" width="720" alt="Cobalt Megatype Roadside Travel Editorial preview"></a>
+
+A nostalgic roadside-travel editorial poster system that combines cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground.
+
+Files: [style.json](../styles/cobalt-megatype-roadside-travel-editorial-style/style.json) · [Copy Prompt](copy-prompts/cobalt-megatype-roadside-travel-editorial-style.md) · [16:9 preview](../styles/cobalt-megatype-roadside-travel-editorial-style/preview-16x9.jpg) · [9:16 preview](../styles/cobalt-megatype-roadside-travel-editorial-style/preview-9x16.jpg) · [Folder](../styles/cobalt-megatype-roadside-travel-editorial-style)
+
+---
 
 ### Surreal Megatype Dossier Collage
 
