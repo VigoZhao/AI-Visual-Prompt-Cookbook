@@ -19,6 +19,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Chromatic Fisheye Orbit Pop Poster Style | [Copy Prompt](chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](../../styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
 | Clean Triptych Travel Vlog Thumbnail Style | [Copy Prompt](clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](../../styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
 | Cobalt Megatype Roadside Travel Editorial | [Copy Prompt](cobalt-megatype-roadside-travel-editorial-style.md) | [style.json](../../styles/cobalt-megatype-roadside-travel-editorial-style/style.json) |
+| Coral Window Megatype Motion Poster | [Copy Prompt](coral-window-megatype-motion-poster-style.md) | [style.json](../../styles/coral-window-megatype-motion-poster-style/style.json) |
 | Cozy Bedroom Doodle Companion Snapshot Style | [Copy Prompt](cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](../../styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
 | Crayon Catalog Doodle Poster Style | [Copy Prompt](crayon-catalog-doodle-poster-style.md) | [style.json](../../styles/crayon-catalog-doodle-poster-style/style.json) |
 | Cream Smoke City Manga Poster Style | [Copy Prompt](cream-smoke-city-manga-poster-style.md) | [style.json](../../styles/cream-smoke-city-manga-poster-style/style.json) |

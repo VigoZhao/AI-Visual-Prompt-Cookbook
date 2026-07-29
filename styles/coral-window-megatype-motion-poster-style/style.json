@@ -1,0 +1,188 @@
+{
+  "style_name": "Coral Window Megatype Motion Poster",
+  "style_slug": "coral-window-megatype-motion-poster-style",
+  "style_version": "2.1.0",
+  "style_summary": "A tactile editorial motion-poster system built from a coral-red paper field, one cool pale-blue photographic window, colossal black condensed typography that crosses the image boundary, a single isolated action subject, sparse micro-editorial labels, and a bold geometric direction symbol.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A warm coral-red matte paper field dominates roughly two-thirds of the poster and acts as both border and graphic ground.",
+    "One large rectangular pale powder-blue photographic window sits off-center with a clean hard edge and no visible frame stroke.",
+    "A single realistic full-body subject is isolated against the quiet photo window and captured at a decisive moment of motion.",
+    "The subject, photo window, and typography interlock through deliberate occlusion, with the body crossing over some letterforms and behind others.",
+    "Colossal near-black ultra-heavy condensed sans-serif words run in opposing horizontal and vertical directions, exceed the canvas, and are cropped at the edges.",
+    "The main headline behaves as abstract black architecture while retaining a short, forceful, readable phrase.",
+    "Tiny black editorial credits, issue marks, dates, or technical labels sit sparsely near outer margins, often rotated ninety degrees.",
+    "A single chunky geometric directional symbol anchors an otherwise open corner without decorative clutter.",
+    "The palette stays tightly limited to coral red, pale cool blue, near-black, muted warm neutrals, and one restrained wardrobe accent.",
+    "Soft natural daylight and moderate photographic contrast preserve believable skin, fabric, and prop detail without cinematic effects.",
+    "Visible uncoated paper grain, subtle ink absorption, lightly softened photo contrast, and imperfect analog print texture unify photo and type.",
+    "The mood is energetic, experimental, fashion-editorial, and Swiss-modernist with controlled asymmetry and generous breathing room."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the young woman in a sleeveless beige dress or any identifiable face from the reference.",
+    "Do not recreate the exact airborne side-leap, bent-knee silhouette, flying hair, or dropped sunglasses.",
+    "Do not use the phrase SOME KINDA MOOD or any recognizable fragment of it.",
+    "Do not copy the original photographer credit, layout experiments label, issue number, date, or vertical margin text.",
+    "Do not recreate the exact red field, centered blue rectangle, three-word placement, and lower-right upward arrow as one-to-one geometry.",
+    "Do not use the same white chunky sneaker emphasis or dress-and-sneaker styling combination.",
+    "Do not repeat the story premise of a fashion model jumping across a minimal studio-sky window.",
+    "Do not reproduce any signature, watermark, creator ID, platform mark, logo, or brand identity.",
+    "Do not use an identifiable celebrity, model, performer, or copyrighted character likeness.",
+    "Do not imitate exact source letter shapes or preserve the source word lengths as a recognizable typographic tracing."
+  ],
+  "visual_deconstruction": {
+    "composition_logic": "A large coral paper field holds one cool photo rectangle. Oversized black words cross the rectangle and outer field in opposing orientations, while one cutout action figure ties the flat type and photographic depth together.",
+    "subject_placement": "The subject is large, nearly full-body, and positioned around the central third so limbs or a prop break at least one photo-window boundary and interrupt the headline.",
+    "camera_perspective": "Neutral to slightly low editorial camera with a clean open background, enough distance to read the body gesture, and no extreme lens distortion.",
+    "typography_system": "Ultra-heavy condensed neo-grotesk capitals function as slabs of black mass. One word can rotate vertically; other words stack or extend off-canvas. Microcopy is tiny, narrow, and rigorously aligned to the margins.",
+    "color_behavior": "Coral red is the dominant graphic field, powder blue fills the photo window, and near-black typography supplies maximum contrast. Skin, fabric, and props remain warm-muted with at most one quiet accent.",
+    "graphic_elements": "Use one bold block-built arrow or chevron, short hairline rules only when needed, and tiny issue-like labels. Avoid stickers, bursts, ornamental frames, and UI chrome.",
+    "texture_and_lighting": "Soft directional daylight, lightly subdued highlights, subtle film grain, uncoated paper tooth, mild ink spread, and tactile screen-printed black areas.",
+    "mood": "Kinetic yet disciplined editorial design: experimental fashion energy contained by a rational modernist grid."
+  },
+  "composition": {
+    "canvas": "Use the requested aspect ratio as a single flat poster sheet with a coral-red full-bleed ground.",
+    "photo_window": "Place one pale-blue rectangular photo window at 58 to 72 percent of the canvas width and 48 to 68 percent of its height, offset so a broad coral band remains on at least two sides.",
+    "subject_layer": "Use one isolated realistic subject at 52 to 72 percent of poster height, centered near the photo window but crossing one of its edges.",
+    "type_layer": "Build two or three massive black headline blocks; rotate at least one word ninety degrees and let multiple letterforms exceed the frame or photo boundary.",
+    "occlusion": "Alternate depth deliberately: some headline strokes sit behind the subject, at least one sits over a non-critical limb or prop edge, and the figure remains readable.",
+    "supporting_zones": "Place microcopy in two to four sparse margin clusters and reserve one open coral corner for the geometric direction symbol.",
+    "balance": "Keep the hierarchy unmistakable: megatype first, subject second, color field third, microcopy last. Preserve substantial open coral space around the small labels."
+  },
+  "typography": {
+    "display": "Near-black, ultra-heavy, ultra-condensed uppercase sans-serif with tight spacing, blunt terminals, and poster-scale cropping.",
+    "orientation": "Mix horizontal, vertical, and occasionally inverted word blocks; use rotation as structure, not decoration.",
+    "headline_length": "Use two to four short words with strong one-syllable shapes whenever possible so the letter masses stay legible.",
+    "microcopy": "Tiny black condensed sans-serif, mostly uppercase, set in narrow blocks or rotated margin columns with generous separation.",
+    "texture": "Apply very slight ink absorption and paper grain to the black letters while keeping their silhouettes crisp and solid.",
+    "text_behavior": "Treat words as architectural planes that bridge the coral field and photo window; never reduce the headline to a conventional top banner."
+  },
+  "color_palette": {
+    "dominant": [
+      "warm coral red #ee554b",
+      "pale powder blue #b9d6df",
+      "near-black charcoal #171717"
+    ],
+    "supporting": [
+      "muted sand beige",
+      "warm skin neutrals",
+      "soft off-white",
+      "smoky olive gray"
+    ],
+    "accent": [
+      "one restrained cobalt, saffron, or sea-green detail when the case requires it"
+    ],
+    "palette_rule": "Keep the coral field visually dominant, the blue window quiet and cool, and the typography nearly black. Do not introduce more than one small additional accent hue."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Realistic editorial photography integrated into a flat typographic poster, never illustration, collage stickers, or 3D rendering.",
+    "lighting": "Soft natural daylight with gentle directional modeling, clean sky-like fill, moderate contrast, and no dramatic rim light.",
+    "lens": "Normal to slightly wide editorial lens at neutral or subtly low height, preserving believable anatomy and full-body gesture.",
+    "background": "Quiet pale-blue sky, wall, mist, or seamless surface with almost no distracting objects inside the photo window.",
+    "motion": "Freeze one clear physical gesture with fabric, tool, wheels, water, or carried objects supplying secondary motion; avoid heavy motion blur.",
+    "finish": "Slightly faded photographic contrast, fine film grain, matte paper texture, and unified analog print character."
+  },
+  "design_rules": [
+    "Always begin with a coral-red full-sheet ground and one pale-blue photographic rectangle.",
+    "Use only one dominant subject and one primary action.",
+    "Let the subject cross one photo-window edge and at least one headline block.",
+    "Use two or three enormous black word blocks, with at least one rotated vertically and multiple cropped by the canvas.",
+    "Preserve legibility of the short main phrase even while treating it as abstract mass.",
+    "Alternate foreground and background type occlusion around the subject to create editorial depth.",
+    "Keep margin labels tiny, sparse, generic, and free of real names or credits.",
+    "Use exactly one chunky directional symbol in an open coral zone.",
+    "Maintain a restricted coral-blue-black palette and concentrate any accent color on one small subject or prop detail.",
+    "Apply tactile paper grain and subtle ink spread uniformly across photo, type, and flat color."
+  ],
+  "do": [
+    "Use one off-center cool photographic window inside a dominant coral field.",
+    "Use massive cropped black condensed type in mixed orientations.",
+    "Stage one decisive realistic action subject with clean readable anatomy.",
+    "Create deliberate subject-type-photo occlusion at multiple depths.",
+    "Use sparse rotated microcopy and one bold geometric arrow or chevron.",
+    "Keep the entire result tactile, matte, slightly faded, and print-like."
+  ],
+  "avoid": [
+    "No copied source phrase, credits, issue labels, dates, signature, watermark, platform mark, or logo.",
+    "No airborne fashion-model side leap, beige dress, white sneaker hero pose, or flying sunglasses.",
+    "No exact one-to-one recreation of the source geometry or letter arrangement.",
+    "No glossy digital gradient, neon glow, cinematic flare, deep shadow drama, or chrome effect.",
+    "No dense sticker collage, illustrated characters, painterly scene, vector-only substitute, or 3D render.",
+    "No multiple competing subjects, busy scenic background, excessive props, or more than one accent hue.",
+    "No thin elegant serif headline, rounded bubble lettering, handwritten main title, or small conventional headline band.",
+    "No corrupted anatomy, illegible main phrase, random gibberish labels, or decorative clutter."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} editorial poster in the Coral Window Megatype Motion Poster style. First preserve this style fidelity lock exactly: {STYLE_FIDELITY_ANCHORS}. Explicitly avoid this literal source content: {SOURCE_CONTENT_TO_AVOID}. New content: show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}; keep {BACKGROUND_ELEMENTS} quiet and secondary. Wardrobe and styling: {WARDROBE_STYLE}. Build the poster on a full-bleed warm coral-red matte paper field. Insert one large off-center pale powder-blue rectangular photographic window, leaving broad coral bands on at least two sides. Show one realistic, nearly full-body subject at a decisive frozen-motion moment, crossing one edge of the photo window. Use soft natural daylight, a neutral or subtly low editorial camera, believable anatomy, gently subdued photo contrast, and no heavy motion blur. Set the main phrase {MAIN_TEXT} in colossal near-black ultra-heavy condensed uppercase sans-serif. Split it into two or three architectural word blocks, rotate at least one block ninety degrees, crop letters beyond the canvas, and bridge the blue window and coral field. Interlock layers so the subject sits in front of some black letters and behind at least one non-critical letter stroke while remaining readable. Add sparse generic micro-editorial copy reading {SECONDARY_TEXT} near two or three outer margins, including at least one rotated label. Place one chunky geometric {ACCENT_SYMBOL} in an open coral corner. Keep the palette restricted to coral red, pale cool blue, near-black, warm muted neutrals, and at most one restrained accent on the prop or wardrobe. Unify everything with visible uncoated paper grain, slight ink absorption, subtle analog print softness, and clean hard-edged geometry. The mood is kinetic, experimental, fashion-editorial, and Swiss-modernist with controlled asymmetry and generous breathing room. Avoid conventional top-banner layouts, dense collage clutter, additional subjects, busy backgrounds, glossy gradients, neon glows, illustration, vector-only art, 3D rendering, real logos, watermarks, signatures, copied credits, random gibberish headline text, or any exact source composition. Important content rule: match the visual style first, then change the subject, action, prop, setting, text, identity, and story premise.",
+  "negative_prompt": "same woman, identifiable model, exact airborne side leap, bent-knee jump silhouette, flying hair, dropped sunglasses, beige sleeveless dress, white chunky sneaker hero pose, SOME KINDA MOOD, copied words, copied credits, copied issue labels, copied dates, exact source arrow placement, exact source geometry, signature, watermark, username, platform logo, QR code, brand mark, celebrity likeness, multiple subjects, busy scenic background, dense sticker collage, comic burst, painterly illustration, vector-only art, 3D render, glossy gradient, chrome, neon glow, cinematic flare, dark studio lighting, more than one accent hue, thin serif headline, bubble type, tiny conventional headline, random gibberish main text, corrupt anatomy, heavy motion blur, low-resolution texture",
+  "examples": [
+    {
+      "case_name": "rain-cargo-cyclist",
+      "values": {
+        "SUBJECT": "a city flower courier on a cargo bicycle",
+        "SUBJECT_ACTION": "leaning through a sharp wet-street turn while balancing a tall bundle of wrapped flowers",
+        "PRODUCT_OR_PROP": "an unbranded matte-black cargo bicycle and paper-wrapped flowers",
+        "LOCATION": "a quiet rain-washed city plaza",
+        "BACKGROUND_ELEMENTS": "a pale misty sky and only a faint wet-ground reflection",
+        "MAIN_TEXT": "TURN / WITH / COLOR",
+        "SECONDARY_TEXT": "ROUTE 07 / FLOWER SHIFT / RAIN OR SHINE",
+        "ACCENT_SYMBOL": "right-turn arrow",
+        "WARDROBE_STYLE": "charcoal waterproof jacket, loose sand trousers, and one small cobalt glove accent"
+      }
+    },
+    {
+      "case_name": "studio-drum-strike",
+      "values": {
+        "SUBJECT": "a contemporary percussionist",
+        "SUBJECT_ACTION": "driving one padded mallet downward into a large floor drum with a wide grounded stance",
+        "PRODUCT_OR_PROP": "a plain round black floor drum and two unbranded wooden mallets",
+        "LOCATION": "an open-air rehearsal terrace",
+        "BACKGROUND_ELEMENTS": "a seamless pale blue wall and a single soft shadow",
+        "MAIN_TEXT": "HIT / HOLD / ECHO",
+        "SECONDARY_TEXT": "SESSION 12 / ONE BEAT / OPEN AIR",
+        "ACCENT_SYMBOL": "stacked chevron",
+        "WARDROBE_STYLE": "boxy off-white work shirt, deep olive trousers, and a restrained saffron sock accent"
+      }
+    },
+    {
+      "case_name": "coastal-sail-trim",
+      "values": {
+        "SUBJECT": "a solo dinghy sailor",
+        "SUBJECT_ACTION": "pulling the mainsheet tight while the small boat cuts across a low wave",
+        "PRODUCT_OR_PROP": "a minimal white dinghy with a blank sail and coral rope",
+        "LOCATION": "a quiet near-shore training course",
+        "BACKGROUND_ELEMENTS": "flat powder-blue sea and sky with one narrow horizon line",
+        "MAIN_TEXT": "CUT / THE / WIND",
+        "SECONDARY_TEXT": "TIDE NOTE / COURSE 03 / CLEAN LINE",
+        "ACCENT_SYMBOL": "windward arrow",
+        "WARDROBE_STYLE": "dark slate spray top, muted beige buoyancy vest, and a small sea-green cuff accent"
+      }
+    },
+    {
+      "case_name": "bakery-dough-pull",
+      "values": {
+        "SUBJECT": "an artisan baker",
+        "SUBJECT_ACTION": "stretching a long ribbon of dough across a workbench in one sweeping sideward motion",
+        "PRODUCT_OR_PROP": "a pale wooden bench, a metal dough scraper, and a loose ribbon of dough",
+        "LOCATION": "a minimal daylight bakery workspace",
+        "BACKGROUND_ELEMENTS": "a pale blue plaster wall and a faint veil of flour dust",
+        "MAIN_TEXT": "PULL / FOLD / RISE",
+        "SECONDARY_TEXT": "BATCH 05 / SLOW PROOF / DAILY FORM",
+        "ACCENT_SYMBOL": "upward block arrow",
+        "WARDROBE_STYLE": "smoky olive apron over an off-white tee with one restrained coral neckerchief"
+      }
+    }
+  ]
+}

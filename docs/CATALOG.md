@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 105 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 106 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Coral Window Megatype Motion Poster
+
+<a href="../styles/coral-window-megatype-motion-poster-style"><img src="../assets/thumbs/coral-window-megatype-motion-poster-style-16x9.jpg" width="720" alt="Coral Window Megatype Motion Poster preview"></a>
+
+A tactile editorial motion-poster system built from a coral-red paper field, one cool pale-blue photographic window, colossal black condensed typography that crosses the image boundary, a single isolated action subject, sparse micro-editorial labels, and a bold geometric direction symbol.
+
+Files: [style.json](../styles/coral-window-megatype-motion-poster-style/style.json) · [Copy Prompt](copy-prompts/coral-window-megatype-motion-poster-style.md) · [16:9 preview](../styles/coral-window-megatype-motion-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/coral-window-megatype-motion-poster-style/preview-9x16.jpg) · [Folder](../styles/coral-window-megatype-motion-poster-style)
+
+---
 
 ### Cobalt Megatype Roadside Travel Editorial
 

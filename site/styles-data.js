@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 105,
+  "styleCount": 106,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Coral Window Megatype Motion Poster",
+      "slug": "coral-window-megatype-motion-poster-style",
+      "category": "Type Posters",
+      "description": "Tactile motion posters built from a coral-red paper field, one pale-blue photographic window, colossal black condensed type crossing the image boundary, a single action subject, sparse micro labels, and one bold direction symbol.",
+      "summary": "A tactile editorial motion-poster system built from a coral-red paper field, one cool pale-blue photographic window, colossal black condensed typography that crosses the image boundary, a single isolated action subject, sparse micro-editorial labels, and a bold geometric direction symbol.",
+      "preview16": "../styles/coral-window-megatype-motion-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/coral-window-megatype-motion-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/coral-window-megatype-motion-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/coral-window-megatype-motion-poster-style.md",
+      "folder": "../styles/coral-window-megatype-motion-poster-style/",
+      "anchors": [
+        "A warm coral-red matte paper field dominates roughly two-thirds of the poster and acts as both border and graphic ground.",
+        "One large rectangular pale powder-blue photographic window sits off-center with a clean hard edge and no visible frame stroke.",
+        "A single realistic full-body subject is isolated against the quiet photo window and captured at a decisive moment of motion.",
+        "The subject, photo window, and typography interlock through deliberate occlusion, with the body crossing over some letterforms and behind others.",
+        "Colossal near-black ultra-heavy condensed sans-serif words run in opposing horizontal and vertical directions, exceed the canvas, and are cropped at the edges.",
+        "The main headline behaves as abstract black architecture while retaining a short, forceful, readable phrase."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rain-cargo-cyclist",
+      "copyPrompt": "Use the \"Coral Window Megatype Motion Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a city flower courier on a cargo bicycle\nSubject action: leaning through a sharp wet-street turn while balancing a tall bundle of wrapped flowers\nProduct or prop: an unbranded matte-black cargo bicycle and paper-wrapped flowers\nLocation: a quiet rain-washed city plaza\nBackground elements: a pale misty sky and only a faint wet-ground reflection\nMain text: TURN / WITH / COLOR\nSecondary text: ROUTE 07 / FLOWER SHIFT / RAIN OR SHINE\nAccent symbol: right-turn arrow\nWardrobe style: charcoal waterproof jacket, loose sand trousers, and one small cobalt glove accent\n\nStyle direction:\nA tactile editorial motion-poster system built from a coral-red paper field, one cool pale-blue\nphotographic window, colossal black condensed typography that crosses the image boundary, a\nsingle isolated action subject, sparse micro-editorial labels, and a bold geometric direction\nsymbol.\n\nKeep visible:\n- A warm coral-red matte paper field dominates roughly two-thirds of the poster and acts as both border and graphic ground.\n- One large rectangular pale powder-blue photographic window sits off-center with a clean hard edge and no visible frame stroke.\n- A single realistic full-body subject is isolated against the quiet photo window and captured at a decisive moment of motion.\n- The subject, photo window, and typography interlock through deliberate occlusion, with the body crossing over some letterforms and behind others.\n- Colossal near-black ultra-heavy condensed sans-serif words run in opposing horizontal and vertical directions, exceed the canvas, and are cropped at the edges.\n\nAvoid:\nsame woman, identifiable model, exact airborne side leap, bent-knee jump silhouette, flying\nhair, dropped sunglasses, beige sleeveless dress, white chunky sneaker hero pose, SOME KINDA\nMOOD, copied words, copied credits, copied issue labels, copied dates, exact source arrow\nplacement, exact source geometry, signature, watermark, username, platform logo, QR code, brand\nmark, celebrity likeness, multiple subjects, busy scenic background, dense sticker collage,\ncomic burst, painterly illustration, vector-only art, 3D render, glossy gradient, chrome, neon\nglow, cinematic flare, dark studio lighting, more than one accent hue, thin serif headline,\nbubble type, tiny conventional headline, random gibberish main text, corrupt anatomy, heavy\nmotion blur, low-resolution texture\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Cobalt Megatype Roadside Travel Editorial",
       "slug": "cobalt-megatype-roadside-travel-editorial-style",
