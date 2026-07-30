@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 106 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 107 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Cobalt Xerox Script Editorial Poster
+
+<a href="../styles/cobalt-xerox-script-editorial-poster-style"><img src="../assets/thumbs/cobalt-xerox-script-editorial-poster-style-16x9.jpg" width="720" alt="Cobalt Xerox Script Editorial Poster preview"></a>
+
+A compressed, confrontational cobalt editorial poster system in which fragmented grotesk headlines, two enormous repeated outline-script words, an ambiguous macro halftone photograph, a dark flat Xerox cutout, and dense microcopy collide across nearly the entire page.
+
+Files: [style.json](../styles/cobalt-xerox-script-editorial-poster-style/style.json) · [Copy Prompt](copy-prompts/cobalt-xerox-script-editorial-poster-style.md) · [16:9 preview](../styles/cobalt-xerox-script-editorial-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/cobalt-xerox-script-editorial-poster-style/preview-9x16.jpg) · [Folder](../styles/cobalt-xerox-script-editorial-poster-style)
+
+---
 
 ### Coral Window Megatype Motion Poster
 

@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 106,
+  "styleCount": 107,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Cobalt Xerox Script Editorial Poster",
+      "slug": "cobalt-xerox-script-editorial-poster-style",
+      "category": "Type Posters",
+      "description": "Compressed cobalt posters where fragmented grotesk headlines, two enormous repeated outline-script words, an ambiguous macro halftone photo, a dark flat Xerox cutout, and dense microcopy collide edge to edge.",
+      "summary": "A compressed, confrontational cobalt editorial poster system in which fragmented grotesk headlines, two enormous repeated outline-script words, an ambiguous macro halftone photograph, a dark flat Xerox cutout, and dense microcopy collide across nearly the entire page.",
+      "preview16": "../styles/cobalt-xerox-script-editorial-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/cobalt-xerox-script-editorial-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/cobalt-xerox-script-editorial-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/cobalt-xerox-script-editorial-poster-style.md",
+      "folder": "../styles/cobalt-xerox-script-editorial-poster-style/",
+      "anchors": [
+        "The poster artwork fills the raster nearly edge to edge with only a thin black keyline; there is no outer black presentation mat, floating card, wall mockup, or large safe margin.",
+        "Page density is extremely high: typography, script, photo, cutout, and microcopy occupy roughly 88 to 94 percent of the usable poster, leaving only narrow cobalt seams rather than large calm blue fields.",
+        "The supplied all-caps headline is forcibly split into two separate monumental neo-grotesk blocks: the opening words crowd the upper band and the remaining words reappear below the photo, never as one tidy complete title at the top.",
+        "One selected word from the new headline is written twice as an enormous legible hairline cursive outline, each instance wider than the page and visibly cropped, crossing behind and in front of the headline and photo boundaries.",
+        "A single wide black-and-white photo panel uses an ambiguous extreme macro crop with almost no environmental context; surface, gesture, or anatomy fills the frame at confrontational scale instead of showing a normal documentary scene.",
+        "The photograph has aggressive Xerox and coarse newspaper-halftone treatment with visibly enlarged dots, crushed carbon-black shadows, chalk-white highlights, and rough tonal breakup."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "ceramic-archive",
+      "copyPrompt": "Use the \"Cobalt Xerox Script Editorial Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: the near-abstract macro junction of two white-gloved fingertips, a black sleeve edge, and a cracked ceramic glaze, with no face or full hand visible\nSubject action: pressing the two fractured glaze edges close enough that the dark seam dominates the image\nProduct or prop: an irregular mostly black silhouette of a broken porcelain fragment with one jagged white glaze vein and a torn catalog tag\nLocation: a silent museum conservation laboratory after hours\nBackground elements: only a sliver of shadowed caliper metal, a torn cotton fiber, and a nearly lost catalog grid\nMain text: FRAGMENTS FORM A MAP\nSecondary text: Every break records pressure, time, and repair. The archive begins where the original shape can no longer explain itself. A missing edge becomes evidence; a stain becomes chronology. Reconstruction does not erase damage. It gives the damage a position, a scale, and a relation to what remains.\nAccent symbol: ARCHIVE 07 / ◇\nWardrobe style: matte black cotton sleeves and plain white conservation gloves\n\nStyle direction:\nA compressed, confrontational cobalt editorial poster system in which fragmented grotesk\nheadlines, two enormous repeated outline-script words, an ambiguous macro halftone photograph, a\ndark flat Xerox cutout, and dense microcopy collide across nearly the entire page.\n\nKeep visible:\n- The poster artwork fills the raster nearly edge to edge with only a thin black keyline; there is no outer black presentation mat, floating card, wall mockup, or large safe margin.\n- Page density is extremely high: typography, script, photo, cutout, and microcopy occupy roughly 88 to 94 percent of the usable poster, leaving only narrow cobalt seams rather than large calm blue fields.\n- The supplied all-caps headline is forcibly split into two separate monumental neo-grotesk blocks: the opening words crowd the upper band and the remaining words reappear below the photo, never as one tidy complete title at the top.\n- One selected word from the new headline is written twice as an enormous legible hairline cursive outline, each instance wider than the page and visibly cropped, crossing behind and in front of the headline and photo boundaries.\n- A single wide black-and-white photo panel uses an ambiguous extreme macro crop with almost no environmental context; surface, gesture, or anatomy fills the frame at confrontational scale instead of showing a normal documentary scene.\n\nAvoid:\nOuter black presentation mat, floating poster card, wall mockup, room scene, clean infographic,\narchival placard, museum label, large empty blue field, generous safe margin, complete headline\nonly at top, small abstract script loop, only one cursive repetition, conventional documentary\nscene, medium shot, fully visible person, centered product hero, circular medallion floating\nalone, realistic object shadow, source face or eyes, pinecone, seed cone, source slogan, source\nmasthead, copied body text, copied line breaks, logo, watermark, username, signature, QR code,\nplatform mark, full-color photography, additional hues, gradient, glossy finish, smooth digital\ngrayscale, 3D type, extrusion, bevel, glow, cinematic lighting, lens flare, sticker clutter,\ncomic panels, illegible main headline.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Coral Window Megatype Motion Poster",
       "slug": "coral-window-megatype-motion-poster-style",
