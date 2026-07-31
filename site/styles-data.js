@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 107,
+  "styleCount": 108,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,42 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Vermilion Photocopy Tension Editorial",
+      "slug": "vermilion-photocopy-tension-editorial",
+      "category": "Editorial + Minimal",
+      "description": "Confrontational posters built from one monumentally cropped near-binary photocopy photograph, a vertical condensed headline rail, compact annotations, and a single vermilion ink layer of sharp shards and edge-born organic forms.",
+      "summary": "A confrontational editorial poster system built from one monumentally cropped black-and-white photograph, near-binary photocopy contrast, dense analog grain, an oversized vertical condensed headline, compact annotation blocks, and a single vermilion ink layer that cuts across the image as urgent shards and edge-born organic forms.",
+      "preview16": "../styles/vermilion-photocopy-tension-editorial/preview-16x9.jpg",
+      "preview9": "../styles/vermilion-photocopy-tension-editorial/preview-9x16.jpg",
+      "styleJson": "../styles/vermilion-photocopy-tension-editorial/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/vermilion-photocopy-tension-editorial.md",
+      "folder": "../styles/vermilion-photocopy-tension-editorial/",
+      "anchors": [
+        "One monochrome photographic subject fills almost the entire inner poster field at monumental scale and is aggressively cropped by multiple edges.",
+        "The photograph uses harsh near-binary black-and-white tonal separation with crushed blacks, chalky highlights, and very few smooth midtones.",
+        "Coarse photocopy dust, halftone speckling, toner breakup, and uneven analog print grain cover the photograph without becoming digital glitch noise.",
+        "A single vivid vermilion-red ink color is reserved for every typographic and graphic intervention; no other chromatic accent appears.",
+        "An oversized heavy condensed uppercase headline forms a vertical rail along one outer edge and is cropped or compressed by the frame.",
+        "Three compact editorial annotation blocks occupy the opposite upper quadrant with tight leading and pronounced headline-to-microcopy scale contrast."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "rain-cyclist-focus",
+      "copyPrompt": "Use the \"Vermilion Photocopy Tension Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an anonymous track cyclist seen in an extreme close crop of one focused eye, cheek, and helmet edge\nSubject action: leaning decisively into a rain-darkened velodrome turn with lips closed\nProduct or prop: a rain-beaded unbranded helmet visor\nLocation: a covered concrete velodrome during a night practice\nBackground elements: one blurred lane stripe, a cropped safety rail, and a few rain flecks\nMain text: BRAKE LATE. STAY AWAKE.\nSecondary text: Rain sharpens focus. / The corner arrives early. / Momentum keeps its own time.\nAccent symbol: a forked vermilion speed shard entering from the lower edge\nWardrobe style: a plain ventilated cycling helmet and unbranded dark track suit\n\nStyle direction:\nA confrontational editorial poster system built from one monumentally cropped black-and-white\nphotograph, near-binary photocopy contrast, dense analog grain, an oversized vertical condensed\nheadline, compact annotation blocks, and a single vermilion ink layer that cuts across the image\nas urgent shards and edge-born organic forms.\n\nKeep visible:\n- One monochrome photographic subject fills almost the entire inner poster field at monumental scale and is aggressively cropped by multiple edges.\n- The photograph uses harsh near-binary black-and-white tonal separation with crushed blacks, chalky highlights, and very few smooth midtones.\n- Coarse photocopy dust, halftone speckling, toner breakup, and uneven analog print grain cover the photograph without becoming digital glitch noise.\n- A single vivid vermilion-red ink color is reserved for every typographic and graphic intervention; no other chromatic accent appears.\n- An oversized heavy condensed uppercase headline forms a vertical rail along one outer edge and is cropped or compressed by the frame.\n\nAvoid:\nrecognizable source person, screaming face, open mouth, exposed teeth close-up, copied source\ncrop, WHAT'S THE WORST THAT I CAN SAY, Mixed emotions, Tracing my problems, Tired of being\nstill, copied paragraph text, copied red burst, copied shard path, exact source layout\nproportions, watermark, signature, username, creator ID, QR code, platform mark, brand logo,\nbranded clothing, branded tool, multiple people, full-color photograph, skin retouching, smooth\ngrayscale, cinematic depth, volumetric light, soft gradient, extra accent colors, neon glow, RGB\nsplit, digital glitch, scanlines, glossy 3D, chrome, sticker collage, UI panel, illegible\nsubject, muddy typography, uncontrolled noise\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Cobalt Xerox Script Editorial Poster",
       "slug": "cobalt-xerox-script-editorial-poster-style",

@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 107 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 108 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Vermilion Photocopy Tension Editorial
+
+<a href="../styles/vermilion-photocopy-tension-editorial"><img src="../assets/thumbs/vermilion-photocopy-tension-editorial-16x9.jpg" width="720" alt="Vermilion Photocopy Tension Editorial preview"></a>
+
+A confrontational editorial poster system built from one monumentally cropped black-and-white photograph, near-binary photocopy contrast, dense analog grain, an oversized vertical condensed headline, compact annotation blocks, and a single vermilion ink layer that cuts across the image as urgent shards and edge-born organic forms.
+
+Files: [style.json](../styles/vermilion-photocopy-tension-editorial/style.json) · [Copy Prompt](copy-prompts/vermilion-photocopy-tension-editorial.md) · [16:9 preview](../styles/vermilion-photocopy-tension-editorial/preview-16x9.jpg) · [9:16 preview](../styles/vermilion-photocopy-tension-editorial/preview-9x16.jpg) · [Folder](../styles/vermilion-photocopy-tension-editorial)
+
+---
 
 ### Cobalt Xerox Script Editorial Poster
 

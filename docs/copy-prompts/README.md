@@ -105,6 +105,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Turquoise Red Techno Manga Poster Style | [Copy Prompt](turquoise-red-techno-manga-poster-style.md) | [style.json](../../styles/turquoise-red-techno-manga-poster-style/style.json) |
 | Urban Photo Ink Beast Collage Style | [Copy Prompt](urban-photo-ink-beast-collage-style.md) | [style.json](../../styles/urban-photo-ink-beast-collage-style/style.json) |
 | Urban Transit Doodle Diary Style | [Copy Prompt](urban-transit-doodle-diary-style.md) | [style.json](../../styles/urban-transit-doodle-diary-style/style.json) |
+| Vermilion Photocopy Tension Editorial | [Copy Prompt](vermilion-photocopy-tension-editorial.md) | [style.json](../../styles/vermilion-photocopy-tension-editorial/style.json) |
 | Warm Fisheye Product Impact Ad Style | [Copy Prompt](warm-fisheye-product-impact-ad-style.md) | [style.json](../../styles/warm-fisheye-product-impact-ad-style/style.json) |
 | Xerox Neon Editorial Collage | [Copy Prompt](xerox-neon-editorial-collage-style.md) | [style.json](../../styles/xerox-neon-editorial-collage-style/style.json) |
 | Y2K Grunge Hip-Hop Cutout Poster Style | [Copy Prompt](y2k-grunge-hiphop-cutout-poster-style.md) | [style.json](../../styles/y2k-grunge-hiphop-cutout-poster-style/style.json) |

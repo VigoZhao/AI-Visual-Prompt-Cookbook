@@ -1,0 +1,165 @@
+{
+  "style_name": "Vermilion Photocopy Tension Editorial",
+  "style_slug": "vermilion-photocopy-tension-editorial",
+  "style_version": "2.1",
+  "style_summary": "A confrontational editorial poster system built from one monumentally cropped black-and-white photograph, near-binary photocopy contrast, dense analog grain, an oversized vertical condensed headline, compact annotation blocks, and a single vermilion ink layer that cuts across the image as urgent shards and edge-born organic forms.",
+  "environment_variables": {
+    "SUBJECT": "one anonymous person, body detail, instrument, crafted object, machine, or other photographic subject",
+    "SUBJECT_ACTION": "one tense, focused, or physically decisive action",
+    "PRODUCT_OR_PROP": "one unbranded object or tool integrated with the subject",
+    "LOCATION": "an implied location visible only through a few cropped photographic clues",
+    "BACKGROUND_ELEMENTS": "two or three sparse environmental fragments behind the dominant crop",
+    "MAIN_TEXT": "one original three-to-seven-word editorial headline",
+    "SECONDARY_TEXT": "three short original annotation phrases separated by slashes",
+    "ACCENT_SYMBOL": "one original angular shard or branching organic ink gesture",
+    "WARDROBE_STYLE": "unbranded functional clothing or material styling rendered in monochrome",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "One monochrome photographic subject fills almost the entire inner poster field at monumental scale and is aggressively cropped by multiple edges.",
+    "The photograph uses harsh near-binary black-and-white tonal separation with crushed blacks, chalky highlights, and very few smooth midtones.",
+    "Coarse photocopy dust, halftone speckling, toner breakup, and uneven analog print grain cover the photograph without becoming digital glitch noise.",
+    "A single vivid vermilion-red ink color is reserved for every typographic and graphic intervention; no other chromatic accent appears.",
+    "An oversized heavy condensed uppercase headline forms a vertical rail along one outer edge and is cropped or compressed by the frame.",
+    "Three compact editorial annotation blocks occupy the opposite upper quadrant with tight leading and pronounced headline-to-microcopy scale contrast.",
+    "Typography sits directly on the photograph without boxes, cards, outlines, shadows, or translucent panels.",
+    "One sharp diagonal vermilion shard crosses a large area of the photograph and directs the eye between subject and headline.",
+    "A second edge-born vermilion form branches organically like cut paper or flooded screen-print ink, while remaining different from the source geometry.",
+    "The composition is asymmetric, crowded at the edges, shallow, and poster-flat, with overlap creating tension instead of realistic depth.",
+    "The overall mood is raw, anxious, urgent, confessional, and culturally adjacent to independent music graphics, punk zines, and experimental editorial design."
+  ],
+  "source_content_to_avoid": [
+    "the exact screaming person or any recognizable reconstruction of the source face",
+    "an open mouth, exposed teeth, and nose arranged in the same monumental close-up crop",
+    "the headline WHAT'S THE WORST THAT I CAN SAY? or close paraphrases of it",
+    "the headings Mixed emotions, Tracing my problems, and Tired of being still",
+    "the original paragraph copy or any source sentence",
+    "the exact left-rail and upper-right layout proportions from the reference",
+    "the exact three-pronged lower-right vermilion burst and its long spike geometry",
+    "the same face, expression, pose, story premise, or emotional outburst",
+    "any signature, watermark, username, platform mark, creator ID, QR code, brand logo, or identity mark"
+  ],
+  "visual_deconstruction": {
+    "overall_style": "Brutalist culture-editorial poster, distressed photocopy portraiture, one-color screen-print intervention, and punk-zine typographic pressure.",
+    "layout": "A near-full-bleed monochrome photo is trapped inside a black outer field; a giant vertical type rail weights one edge, small note clusters counterbalance it, and red cut forms intrude from another edge.",
+    "subject_placement": "One subject or detail is enlarged beyond comfortable portrait scale so the frame amputates several boundaries and creates edge pressure.",
+    "perspective": "Frontal or slightly oblique extreme close-up with shallow spatial depth; the subject reads as a photographic surface rather than a scene.",
+    "texture": "Coarse Xerox grain, broken toner, newspaper halftone, dirty paper flecks, soft scan abrasion, and uneven ink density.",
+    "lighting": "Hard flat illumination translated into posterized black and white, with severe local contrast rather than cinematic modeling.",
+    "mood": "Immediate, tense, introspective, rebellious, loud, and tactile."
+  },
+  "composition": [
+    "Begin with a solid black outer field and inset a rectangular monochrome image area with a narrow uneven margin.",
+    "Crop one photographic subject so tightly that it occupies at least eighty percent of the inner field and exits two or more edges.",
+    "Run the main headline vertically along one outer edge as a dense rail; it may overlap the subject but must remain the largest red typographic mass.",
+    "Stack exactly three small annotation modules in the opposite upper quadrant, leaving enough separation to read them as an editorial series.",
+    "Drive one long angular red shard diagonally through the lower or middle field, then add one distinct branching edge form with a new silhouette.",
+    "Keep depth flat and hierarchy immediate: monumental crop first, vertical headline second, red shard third, compact notes fourth.",
+    "Adapt the rail and annotation spacing to the chosen aspect ratio without copying the source proportions."
+  ],
+  "typography": {
+    "headline": "Very heavy, tightly tracked, condensed uppercase neo-grotesk lettering set vertically as a single edge rail; flat vermilion ink with no outline, bevel, glow, or shadow.",
+    "annotations": "Three small vermilion modules combining a short bold heading with one or two compact lines; tight leading and imperfect print edges make copy function partly as texture.",
+    "hierarchy": "The vertical headline is monumental, the three annotation headings are medium-small, and their supporting copy is micro-scale.",
+    "text_behavior": "Use only original concise wording, preserve legibility where possible, and never reproduce source phrases, names, or slogans."
+  },
+  "color_palette": {
+    "outer_black": "#030303",
+    "toner_black": "#0B0B0B",
+    "dirty_paper_white": "#D8D6D1",
+    "photocopy_gray": "#77736E",
+    "vermilion_ink": "#F0160F"
+  },
+  "image_treatment": {
+    "subject": "Convert the source-like photograph into severe black, dirty white, and sparse gray posterization; preserve a readable silhouette or material detail while eroding smooth tonal transitions.",
+    "grain": "Layer coarse halftone speckle, toner dust, print skips, and irregular scan abrasion across highlights and shadows at multiple analog scales.",
+    "red_layer": "Treat every red element as one flat spot-color screen-print pass with occasional dry ink edges, never as light, glow, paint volume, or a gradient.",
+    "finish": "Tactile photocopied paper and distressed ink with controlled noise; the subject, headline, and main geometry must stay unmistakable."
+  },
+  "design_rules": [
+    "Use one dominant photographic crop, one vertical headline rail, three annotation blocks, one diagonal shard, and one branching edge form.",
+    "Limit the entire design to black, dirty white or gray, and one vermilion spot color.",
+    "Let crop, overlap, and asymmetry create emotional pressure; do not add realistic environmental depth.",
+    "Keep distress analog and print-like, with uneven toner and halftone rather than RGB glitch, scanlines, or compression artifacts.",
+    "Change the subject, action, tool, location clues, wording, and red geometry for every new application.",
+    "Keep people anonymous and all clothing, tools, instruments, and spaces free of brands and identity marks."
+  ],
+  "do": [
+    "Use a single photograph with an uncompromising close crop.",
+    "Preserve harsh monochrome contrast and visibly tactile photocopy grain.",
+    "Keep vermilion as the only chromatic ink.",
+    "Use strong type-scale contrast between the edge headline and tiny annotations.",
+    "Create a fresh shard angle and fresh branching edge silhouette in every image.",
+    "Use original subjects, actions, props, scenes, and copy."
+  ],
+  "avoid": [
+    "Do not recreate the screaming face, open mouth, teeth crop, original wording, paragraph copy, or exact red geometry.",
+    "Do not use a full-color photograph, soft beauty retouching, cinematic depth, volumetric light, or smooth grayscale gradients.",
+    "Do not add more accent colors, neon glow, chromatic aberration, digital glitch, glossy 3D, chrome, or polished vector gradients.",
+    "Do not add multiple competing subjects, dense collage scraps, sticker clutter, interface panels, or scenic background detail.",
+    "Do not let distress erase the subject silhouette, headline hierarchy, or red graphic forms.",
+    "Do not include watermarks, usernames, creator IDs, QR codes, platform marks, logos, or branded products."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Vermilion Photocopy Tension Editorial\" visual style. Style fidelity has first priority: {STYLE_FIDELITY_ANCHORS} Literal source content that must not be recreated: {SOURCE_CONTENT_TO_AVOID} Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or tool: {PRODUCT_OR_PROP}. Implied location: {LOCATION}. Sparse background clues: {BACKGROUND_ELEMENTS}. Wardrobe or material styling: {WARDROBE_STYLE}. Main headline: \"{MAIN_TEXT}\". Three annotation phrases: \"{SECONDARY_TEXT}\". Accent gesture: {ACCENT_SYMBOL}. Composition: place one monumental black-and-white photographic subject inside a rectangular inner poster field surrounded by solid black. Crop the subject through at least two edges so it occupies most of the image. Build an oversized condensed uppercase vermilion headline as a vertical rail along one edge; place exactly three compact vermilion editorial note blocks in the opposite upper quadrant. Send one flat vermilion angular shard diagonally across the lower or middle photograph and let one differently shaped branching vermilion form enter from an edge. Do not copy the source geometry or exact spacing. Typography sits directly over the photograph with no boxes, outlines, shadows, or translucent panels. Color is strictly black, dirty white or gray, and one vivid vermilion spot ink. Convert the photograph to near-binary photocopy contrast with crushed blacks, chalky highlights, sparse gray, coarse halftone, toner dust, print skips, and irregular scan abrasion. Keep the subject and headline readable; texture must feel analog, not digitally glitched. Lighting is hard, flat, and posterized. Depth stays shallow and collage-flat. The finished poster should feel raw, anxious, confessional, urgent, and art-directed like an independent culture magazine or punk-zine cover. Avoid full color, extra accent hues, soft gradients, glossy 3D, neon glow, RGB glitch, cinematic scenery, multiple subjects, sticker clutter, brand marks, logos, signatures, usernames, QR codes, platform marks, and watermarks. Important content rule: preserve the visual system first, then use a wholly new subject, action, tool, location, wording, red geometry, and story premise.",
+  "negative_prompt": "recognizable source person, screaming face, open mouth, exposed teeth close-up, copied source crop, WHAT'S THE WORST THAT I CAN SAY, Mixed emotions, Tracing my problems, Tired of being still, copied paragraph text, copied red burst, copied shard path, exact source layout proportions, watermark, signature, username, creator ID, QR code, platform mark, brand logo, branded clothing, branded tool, multiple people, full-color photograph, skin retouching, smooth grayscale, cinematic depth, volumetric light, soft gradient, extra accent colors, neon glow, RGB split, digital glitch, scanlines, glossy 3D, chrome, sticker collage, UI panel, illegible subject, muddy typography, uncontrolled noise",
+  "examples": [
+    {
+      "case_name": "rain-cyclist-focus",
+      "values": {
+        "SUBJECT": "an anonymous track cyclist seen in an extreme close crop of one focused eye, cheek, and helmet edge",
+        "SUBJECT_ACTION": "leaning decisively into a rain-darkened velodrome turn with lips closed",
+        "PRODUCT_OR_PROP": "a rain-beaded unbranded helmet visor",
+        "LOCATION": "a covered concrete velodrome during a night practice",
+        "BACKGROUND_ELEMENTS": "one blurred lane stripe, a cropped safety rail, and a few rain flecks",
+        "MAIN_TEXT": "BRAKE LATE. STAY AWAKE.",
+        "SECONDARY_TEXT": "Rain sharpens focus. / The corner arrives early. / Momentum keeps its own time.",
+        "ACCENT_SYMBOL": "a forked vermilion speed shard entering from the lower edge",
+        "WARDROBE_STYLE": "a plain ventilated cycling helmet and unbranded dark track suit"
+      }
+    },
+    {
+      "case_name": "cellist-bow-pressure",
+      "values": {
+        "SUBJECT": "an anonymous cellist represented by a monumental crop of bowing hand, strings, and the instrument shoulder",
+        "SUBJECT_ACTION": "drawing the bow through the final sustained note of a rehearsal",
+        "PRODUCT_OR_PROP": "an unbranded worn wooden cello and horsehair bow",
+        "LOCATION": "a nearly empty rehearsal room after midnight",
+        "BACKGROUND_ELEMENTS": "one cropped music-stand edge, a curtain fold, and floating rosin dust",
+        "MAIN_TEXT": "LET THE LAST NOTE BEND.",
+        "SECONDARY_TEXT": "Pressure in the wrist. / One breath between bars. / Silence enters last.",
+        "ACCENT_SYMBOL": "a vermilion tuning-fork shard splitting into an irregular edge branch",
+        "WARDROBE_STYLE": "plain black rehearsal clothing with no visible labels"
+      }
+    },
+    {
+      "case_name": "kiln-worker-center",
+      "values": {
+        "SUBJECT": "an anonymous ceramic artist shown through an extreme close crop of wet hands and a rising clay wall",
+        "SUBJECT_ACTION": "compressing the spinning clay inward to recover its center",
+        "PRODUCT_OR_PROP": "an unbranded wheel-thrown stoneware vessel",
+        "LOCATION": "a compact working pottery studio before dawn",
+        "BACKGROUND_ELEMENTS": "a cropped wheel rim, two shelf shadows, and suspended clay droplets",
+        "MAIN_TEXT": "CENTER IS A MOVING TARGET.",
+        "SECONDARY_TEXT": "Pressure finds the middle. / Water marks correction. / Form remembers the hands.",
+        "ACCENT_SYMBOL": "a flat vermilion cut-paper wedge branching like a fresh clay crack",
+        "WARDROBE_STYLE": "a plain dark work apron and rolled cotton sleeves without logos"
+      }
+    },
+    {
+      "case_name": "night-swimmer-surface",
+      "values": {
+        "SUBJECT": "an anonymous competitive swimmer seen in a severe close crop of one goggled eye, wet temple, and cap edge",
+        "SUBJECT_ACTION": "holding still at the wall and counting the final breaths with a closed mouth",
+        "PRODUCT_OR_PROP": "plain unbranded swim goggles dotted with pool water",
+        "LOCATION": "an indoor training pool during a solitary late session",
+        "BACKGROUND_ELEMENTS": "one tile seam, a sliced lane rope, and a broken reflection on dark water",
+        "MAIN_TEXT": "THE SURFACE CAN WAIT.",
+        "SECONDARY_TEXT": "Blue light goes quiet. / Count the turns. / The wall is not the end.",
+        "ACCENT_SYMBOL": "a vermilion pressure wave with one diagonal shard and an asymmetric fork",
+        "WARDROBE_STYLE": "a plain dark swim cap and goggles with no team or sponsor marks"
+      }
+    }
+  ]
+}
