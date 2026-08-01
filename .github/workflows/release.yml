@@ -1,0 +1,45 @@
+name: Release
+
+# Cut a dated, source-only GitHub release automatically whenever new styles
+# land on main. Triggered after the Validate workflow succeeds, so we only
+# ever release a commit that already passed every quality gate — and it fires
+# no matter who pushed the style (a local publish, another session, or an
+# automated flow), which is what the manual "cut a release" step kept missing.
+#
+# scripts/auto-release.sh releases every style added since the previous
+# release, so accumulated un-released pushes are all caught in one release,
+# and a run with nothing new is a harmless no-op.
+
+on:
+  workflow_run:
+    workflows: ["Validate"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    # Only for a successful Validate run that came from a push to main.
+    if: >-
+      ${{ github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.event == 'push' &&
+          github.event.workflow_run.head_branch == 'main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the validated commit (full history + tags)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Release styles added since the last release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TZ: Asia/Shanghai
+        run: bash scripts/auto-release.sh
