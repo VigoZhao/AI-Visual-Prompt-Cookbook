@@ -1,0 +1,181 @@
+{
+  "style_name": "Foreshortened Gradient Impact Ad Style",
+  "style_slug": "foreshortened-gradient-impact-ad-style",
+  "style_version": "2.1",
+  "style_summary": "A premium kinetic advertising system built around a worm's-eye ultra-wide photograph, one monumental foreground product or prop, a dynamic human figure receding behind it, giant edge-cropped diagonal neo-grotesk typography, restrained technical microcopy, and a near-black-to-luminous-color gradient field. The finish is sparse but forceful: commercial photocompositing, selective blur, soft bloom, rim light, and layered type create speed and depth without visual clutter.",
+  "environment_variables": {
+    "SUBJECT": "one new human subject appropriate to the campaign concept, with no copied identity",
+    "SUBJECT_ACTION": "one clear dynamic action that interacts with the new product or prop",
+    "PRODUCT_OR_PROP": "one new logo-free hero product or physical prop that can dominate the foreground",
+    "LOCATION": "a sparse campaign environment or abstracted real setting",
+    "BACKGROUND_ELEMENTS": "a near-black frame, one luminous gradient field, atmospheric haze, cropped geometric fragments, and restrained depth cues",
+    "MAIN_TEXT": "one short new uppercase headline, ideally four to eight letters",
+    "SECONDARY_TEXT": "a compact new technical label plus one or two short lines of supporting copy",
+    "ACCENT_SYMBOL": "one simple new numeric fragment, code, glyph, or geometric mark",
+    "WARDROBE_STYLE": "minimal contemporary wardrobe suited to the new subject, without logos",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible in every sample",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A single human subject and one hero object dominate an otherwise sparse premium advertising composition.",
+    "Extreme worm's-eye ultra-wide perspective creates pronounced foreground foreshortening.",
+    "The featured object occupies roughly the lower third to half of the frame and is partially cropped by an edge.",
+    "The person sits behind the object in the middle depth plane, with a smaller comparatively shadowed face and torso.",
+    "Subject, object, and typography share one energetic bottom-corner-to-opposite-top diagonal movement.",
+    "Monumental white uppercase neo-grotesk letterforms are rotated, fragmented, and cropped beyond the canvas.",
+    "Large type alternates between sitting behind the figure and emerging around it to create layered depth.",
+    "A compact lower-corner information block uses a bold italic label followed by very small italic descriptive copy.",
+    "The upper region retains substantial near-black negative space with only one or two tiny unbranded marks.",
+    "Palette behavior uses near-black framing, one saturated luminous color field, pale white highlights, and one restrained secondary accent.",
+    "Clean commercial photocompositing combines selective sharpness, shallow-focus blur, motion haze, soft bloom, and colored light spill.",
+    "The mood is fast, youthful, technical, aspirational, and slightly futuristic, with no borders, panels, or dense graphic clutter."
+  ],
+  "source_content_to_avoid": [
+    "Nike, the Swoosh, JUST DO IT, Pegasus, Pegasus 42, ReactX, Air Zoom, and every line of source campaign copy.",
+    "The exact white running shoe, teal side mark, sole construction, or recognizable source product silhouette.",
+    "A male runner stepping toward the camera, the exact raised-knee running pose, or a daily-running story premise.",
+    "The original white long-sleeve top, black shorts, white crew socks, and white footwear combination.",
+    "The exact PEGASUS42 letter sequence, the number 42, and the original arrangement of those characters.",
+    "The source face, body silhouette, action, performance-footwear narrative, or exact product-foot interaction.",
+    "The exact source layout traced element for element, including identical word placement and identical subject crop.",
+    "Any copied logo, slogan, brand mark, watermark, signature, creator ID, platform mark, or identifiable campaign identity."
+  ],
+  "visual_deconstruction": {
+    "overall_style_category": "Contemporary kinetic product-ad photomontage with a premium editorial campaign finish.",
+    "composition_and_layout": "A single monumental product or prop fills the lower foreground while one human figure rises behind it along a strong diagonal. Giant white letter fragments pass behind and around the body. The top stays dark and quiet; a small information block anchors a lower corner.",
+    "subject_placement": "The product or prop is the nearest and largest layer, usually cropped by the bottom or side edge. The human subject occupies the central-to-upper middle plane, with limbs creating a diagonal bridge toward the far corner.",
+    "camera_angle_or_perspective": "An extreme ground-level worm's-eye view through an ultra-wide lens exaggerates the nearest object and compresses the figure behind it. A blurred near-edge sliver can intensify forward motion.",
+    "typography_style": "Huge white geometric neo-grotesk uppercase type is tightly tracked, rotated, fragmented, and cropped. Small supporting copy is italic, technical, and low-contrast in scale rather than color.",
+    "color_palette_behavior": "Near-black at the perimeter transitions through one saturated glow into pale white atmospheric light. A deeper version of the glow color provides the product accent.",
+    "graphic_elements": "Oversized letter fragments, one short numeric or coded fragment, a tiny unbranded top mark, minimal geometric cuts, and one lower-corner technical copy block.",
+    "texture_and_finish": "Polished digital compositing with crisp product detail, slightly softer human detail, clean masks, subtle motion blur, soft atmospheric bloom, and no visible paper grain.",
+    "lighting": "The foreground object receives the brightest clean highlight and colored rim light. The body is backlit or rim-lit while the face remains comparatively shadowed.",
+    "mood_and_cultural_reference": "High-energy premium launch campaign, youth performance culture, experimental editorial typography, and futuristic technical confidence."
+  },
+  "composition": {
+    "primary_structure": "Three depth planes: a blurred near-edge streak, a sharply rendered monumental foreground product or prop, and a darker human figure behind it, all crossing a giant diagonal type field.",
+    "negative_space": "Reserve a broad near-black upper band or corner with only one or two tiny identity-like marks; avoid filling every gap.",
+    "subject_scale": "The product or prop occupies 35 to 50 percent of the canvas, while the human figure occupies approximately 25 to 40 percent and feels smaller because of perspective.",
+    "diagonal_flow": "Drive the eye from the oversized foreground corner through the body and headline toward the opposite upper corner.",
+    "layer_order": "gradient atmosphere, giant type, selected type fragments, human figure, monumental product, selective foreground blur, microcopy",
+    "aspect_ratio_notes": {
+      "4:5": "Stack the product in the lower half, let the person rise through the center, preserve a dark upper pocket, and rotate the headline steeply enough to crop at two edges.",
+      "5:4": "Place the product across one lower corner, stretch the person and headline diagonally through the wide field, and keep the far upper corner sparse and dark."
+    }
+  },
+  "typography": {
+    "headline": "Monumental bold uppercase geometric neo-grotesk, white, tightly tracked, rotated roughly 25 to 40 degrees, fragmented by crop, and partially occluded by the subject.",
+    "secondary": "Bold italic all-caps technical label plus one or two lines of very small italic sans-serif copy in a lower corner.",
+    "numeric_fragment": "Use one short code or number as a large secondary type fragment on the diagonal, never the source number 42.",
+    "text_behavior": "Treat headline letters as a structural depth layer, not as a centered caption; preserve legible fragments while allowing purposeful cropping.",
+    "avoid": "brand logos, copied campaign wording, centered title cards, ornate serif display type, long paragraphs, multiple competing headlines, outlines, bevels, or heavy 3D extrusion"
+  },
+  "color_palette": {
+    "deep_frame": "#030806",
+    "ink_black": "#07100D",
+    "atmospheric_white": "#F5F7F4",
+    "type_white": "#FFFFFF",
+    "default_luminous_mint": "#55D98A",
+    "default_deep_teal": "#087B72",
+    "violet_variant": "#7A5CFF",
+    "coral_variant": "#FF715E",
+    "cobalt_variant": "#2878FF",
+    "amber_variant": "#F4A62A"
+  },
+  "photographic_direction": {
+    "lens": "14 to 20 mm equivalent ultra-wide lens placed at ground or product level, with strong but plausible perspective distortion.",
+    "focus": "Keep the hero product or prop crisply resolved; let the person, face, and near-edge motion soften selectively without becoming unrecognizable.",
+    "lighting": "Bright diffused glow from below or behind, colored rim light on the product, shadowed upper body, and a controlled near-black vignette.",
+    "post_processing": "Clean premium cutout composite, smooth gradient atmosphere, soft bloom, directional motion haze, subtle chromatic spill, strong local contrast, and no noisy grain.",
+    "anatomy_and_geometry": "Maintain plausible limbs, hands, face, object geometry, labels, and contact points despite the extreme perspective."
+  },
+  "design_rules": [
+    "Use exactly one principal human subject and one monumental logo-free hero product or prop.",
+    "Put the camera at product level and let the nearest object dominate through foreshortening rather than simple scaling.",
+    "Build one clear diagonal shared by object, body, and headline.",
+    "Keep the upper region sparse and near-black while the lower or middle region blooms into one saturated glow and pale white.",
+    "Set one short new uppercase headline as huge diagonal white fragments behind and around the subject.",
+    "Add only one large code fragment, one tiny top mark, and one compact lower-corner technical text block.",
+    "Render the product sharper and brighter than the face to preserve the commercial hierarchy.",
+    "Use selective blur and haze as depth cues, not as global softness or noisy degradation.",
+    "Change the subject, action, object, text, wardrobe, setting, and story from the source.",
+    "Keep all identity elements generic, original, and unbranded."
+  ],
+  "do": [
+    "Use an extreme worm's-eye commercial camera angle.",
+    "Make one foreground object monumental and partially cropped.",
+    "Layer giant diagonal white type behind and around the human figure.",
+    "Preserve dark negative space and a single luminous gradient color field.",
+    "Use clean photoreal compositing, rim light, soft bloom, and selective motion blur.",
+    "Keep the campaign sparse, premium, technical, and logo-free."
+  ],
+  "avoid": [
+    "Running shoes, runners, raised-knee running poses, the source wardrobe, or the source performance-footwear story.",
+    "Nike, Swoosh-like marks, Pegasus, JUST DO IT, the number 42, or any copied source wording.",
+    "Dense collage layouts, many products, multiple people, UI panels, stickers, borders, price tags, or retail clutter.",
+    "Flat vector art, illustration-only rendering, 3D clay renders, storyboard frames, HTML mockups, or canvas substitutes.",
+    "Centered horizontal headlines, decorative serif type, rainbow palettes, busy textures, film grain, or glitch noise.",
+    "Malformed anatomy, broken object geometry, unreadable main text, random pseudo-logos, watermarks, QR codes, or barcodes."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} image in the Foreshortened Gradient Impact Ad visual style.\n\nSTYLE FIDELITY LOCK — obey these anchors before choosing or embellishing the content:\n{STYLE_FIDELITY_ANCHORS}\n\nSOURCE CONTENT MUST CHANGE — do not recreate any of the following:\n{SOURCE_CONTENT_TO_AVOID}\n\nNew subject: {SUBJECT}\nNew action: {SUBJECT_ACTION}\nNew hero product or prop: {PRODUCT_OR_PROP}\nNew location: {LOCATION}\nBackground elements: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol or code: {ACCENT_SYMBOL}\nWardrobe and styling: {WARDROBE_STYLE}\n\nApply these concrete style rules. Use one sparse premium advertising composition with a single human subject behind one monumental foreground object. Place the camera at ground or product level with a 14–20 mm ultra-wide worm's-eye lens so the nearest object fills roughly 35–50 percent of the canvas and crops beyond the lower or side edge. Keep the object sharply rendered and brightly rim-lit; keep the smaller face and torso behind it comparatively shadowed and slightly softer. Align the object, body, and headline on one forceful bottom-corner-to-opposite-top diagonal. Reserve substantial near-black negative space in the upper region. Transition the middle or lower field from near-black through one saturated luminous accent color into atmospheric white, with soft bloom and colored light spill.\n\nSet the exact main text as monumental white uppercase geometric neo-grotesk lettering, tightly tracked, rotated 25–40 degrees, broken into large fragments, and cropped by at least two canvas edges. Layer selected letter fragments behind the figure and others around it without covering the face or hero object. Place the accent code as one large secondary fragment on the same diagonal. Add only a tiny abstract unbranded mark in the dark upper area and one compact lower-corner information block using a bold italic label plus very small italic supporting copy. Use clean commercial photocompositing, plausible anatomy and object geometry, crisp masks, shallow-focus depth separation, selective directional motion haze, and restrained soft bloom. Keep the finish smooth, premium, fast, youthful, technical, and slightly futuristic.\n\nAvoid running footwear, a runner stepping toward the camera, copied campaign identity, real logos, Swoosh-like marks, the number 42, dense collage clutter, multiple people, many products, centered title-card layouts, flat vector illustration, 3D clay rendering, heavy film grain, global blur, glitch noise, watermarks, QR codes, barcodes, malformed anatomy, broken geometry, and random illegible headline text. Important content rule: match the visual style first, then change the source content completely through the new subject, action, object, setting, text, wardrobe, and story.",
+  "negative_prompt": "Nike, Swoosh, JUST DO IT, Pegasus, Pegasus 42, ReactX, Air Zoom, number 42, running shoe, white sneaker, runner stepping toward camera, raised-knee running pose, copied source wardrobe, copied source face, copied source layout, performance-footwear story, real brand logo, pseudo-logo, watermark, username, creator ID, platform mark, QR code, barcode, multiple people, many products, dense collage, retail price tag, UI panel, sticker clutter, centered title card, serif headline, flat vector art, illustration-only, 3D clay render, storyboard sketch, HTML mockup, canvas drawing, rainbow palette, film grain, glitch noise, global blur, malformed hands, extra limbs, distorted face, broken object geometry, unreadable headline, random gibberish text",
+  "examples": [
+    {
+      "case_name": "midnight-synth-pulse",
+      "values": {
+        "SUBJECT": "an electronic musician with an original non-identifiable face and short dark hair",
+        "SUBJECT_ACTION": "leaning over a modular synthesizer while reaching down to turn one control with focused energy",
+        "PRODUCT_OR_PROP": "a logo-free brushed-metal synthesizer control module with one oversized luminous knob dominating the foreground",
+        "LOCATION": "a sparse midnight sound studio abstracted into black space",
+        "BACKGROUND_ELEMENTS": "near-black ceiling void, electric-violet glow rising through pale haze, one thin waveform line, and a few cropped white geometric fragments",
+        "MAIN_TEXT": "PULSE",
+        "SECONDARY_TEXT": "MODULAR 808 — TACTILE SIGNAL CONTROL / LIVE CIRCUIT EDITION",
+        "ACCENT_SYMBOL": "808 and a minimal waveform glyph",
+        "WARDROBE_STYLE": "matte black technical jacket over a charcoal shirt, completely logo-free"
+      }
+    },
+    {
+      "case_name": "ceramic-form-lab",
+      "values": {
+        "SUBJECT": "a contemporary ceramic artist with an original non-identifiable face and tied-back hair",
+        "SUBJECT_ACTION": "pressing both hands into a spinning clay form while leaning toward the wheel",
+        "PRODUCT_OR_PROP": "the glossy sculptural rim of a coral-glazed ceramic vessel enlarged into the lower foreground",
+        "LOCATION": "a minimal experimental pottery studio reduced to atmospheric space",
+        "BACKGROUND_ELEMENTS": "charcoal upper void, coral-to-cream luminous gradient, drifting clay vapor, and two cropped white rectangular fragments",
+        "MAIN_TEXT": "SHAPE",
+        "SECONDARY_TEXT": "FORM C04 — HIGH-FIRE STONEWARE / HAND-FINISHED SURFACE",
+        "ACCENT_SYMBOL": "C04 and a thin circular clay-ring glyph",
+        "WARDROBE_STYLE": "graphite work apron over a clean long-sleeve cream shirt, no logos"
+      }
+    },
+    {
+      "case_name": "street-frame-35",
+      "values": {
+        "SUBJECT": "a documentary photographer with an original non-identifiable face and close-cropped hair",
+        "SUBJECT_ACTION": "crouching above the camera and framing a distant subject through the viewfinder",
+        "PRODUCT_OR_PROP": "a logo-free black mirrorless camera with an enormous cobalt-rimmed lens aimed past the viewer",
+        "LOCATION": "a city rooftop at blue hour abstracted into a clean campaign set",
+        "BACKGROUND_ELEMENTS": "near-black skyline suggestion, cobalt glow dissolving into white mist, one aperture outline, and sparse cropped type fragments",
+        "MAIN_TEXT": "FRAME",
+        "SECONDARY_TEXT": "FIELD 35 — FAST GLASS / WEATHER-SEALED BODY",
+        "ACCENT_SYMBOL": "35 and a minimal aperture glyph",
+        "WARDROBE_STYLE": "dark utility overshirt and plain black trousers with no labels"
+      }
+    },
+    {
+      "case_name": "precision-pour-92",
+      "values": {
+        "SUBJECT": "a specialty barista with an original non-identifiable face and short natural hair",
+        "SUBJECT_ACTION": "performing a controlled high pour from a steel kettle while leaning across the counter",
+        "PRODUCT_OR_PROP": "a clear ribbed brew glass with an amber liquid arc, enlarged dramatically in the lower foreground",
+        "LOCATION": "a sparse experimental coffee lab with no visible brand identity",
+        "BACKGROUND_ELEMENTS": "deep black upper field, amber-to-cream luminous fog, one droplet outline, and a few angular white letter fragments",
+        "MAIN_TEXT": "POUR",
+        "SECONDARY_TEXT": "FLOW 92 — PRECISION BREW / THERMAL GLASS SERIES",
+        "ACCENT_SYMBOL": "92 and a minimal droplet glyph",
+        "WARDROBE_STYLE": "black collarless café jacket over a white tee, fully unbranded"
+      }
+    }
+  ]
+}

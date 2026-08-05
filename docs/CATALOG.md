@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 108 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 110 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Cobalt Torn Didone Portrait Editorial
+
+<a href="../styles/cobalt-torn-didone-portrait-editorial-style"><img src="../assets/thumbs/cobalt-torn-didone-portrait-editorial-style-16x9.jpg" width="720" alt="Cobalt Torn Didone Portrait Editorial preview"></a>
+
+A sparse fashion-editorial poster system built from a warm paper field, one centered halftone portrait or sculptural subject, monumental cobalt Didone typography, an irregular horizontal torn-paper reveal, and restrained calligraphic and catalog-like corner notes.
+
+Files: [style.json](../styles/cobalt-torn-didone-portrait-editorial-style/style.json) · [Copy Prompt](copy-prompts/cobalt-torn-didone-portrait-editorial-style.md) · [16:9 preview](../styles/cobalt-torn-didone-portrait-editorial-style/preview-16x9.jpg) · [9:16 preview](../styles/cobalt-torn-didone-portrait-editorial-style/preview-9x16.jpg) · [Folder](../styles/cobalt-torn-didone-portrait-editorial-style)
+
+---
+
+### Foreshortened Gradient Impact Ad Style
+
+<a href="../styles/foreshortened-gradient-impact-ad-style"><img src="../assets/thumbs/foreshortened-gradient-impact-ad-style-16x9.jpg" width="720" alt="Foreshortened Gradient Impact Ad Style preview"></a>
+
+A premium kinetic advertising system built around a worm's-eye ultra-wide photograph, one monumental foreground product or prop, a dynamic human figure receding behind it, giant edge-cropped diagonal neo-grotesk typography, restrained technical microcopy, and a near-black-to-luminous-color gradient field. The finish is sparse but forceful: commercial photocompositing, selective blur, soft bloom, rim light, and layered type create speed and depth without visual clutter.
+
+Files: [style.json](../styles/foreshortened-gradient-impact-ad-style/style.json) · [Copy Prompt](copy-prompts/foreshortened-gradient-impact-ad-style.md) · [16:9 preview](../styles/foreshortened-gradient-impact-ad-style/preview-16x9.jpg) · [9:16 preview](../styles/foreshortened-gradient-impact-ad-style/preview-9x16.jpg) · [Folder](../styles/foreshortened-gradient-impact-ad-style)
+
+---
 
 ### Vermilion Photocopy Tension Editorial
 

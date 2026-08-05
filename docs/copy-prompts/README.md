@@ -19,6 +19,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Chromatic Fisheye Orbit Pop Poster Style | [Copy Prompt](chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](../../styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
 | Clean Triptych Travel Vlog Thumbnail Style | [Copy Prompt](clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](../../styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
 | Cobalt Megatype Roadside Travel Editorial | [Copy Prompt](cobalt-megatype-roadside-travel-editorial-style.md) | [style.json](../../styles/cobalt-megatype-roadside-travel-editorial-style/style.json) |
+| Cobalt Torn Didone Portrait Editorial | [Copy Prompt](cobalt-torn-didone-portrait-editorial-style.md) | [style.json](../../styles/cobalt-torn-didone-portrait-editorial-style/style.json) |
 | Cobalt Xerox Script Editorial Poster | [Copy Prompt](cobalt-xerox-script-editorial-poster-style.md) | [style.json](../../styles/cobalt-xerox-script-editorial-poster-style/style.json) |
 | Coral Window Megatype Motion Poster | [Copy Prompt](coral-window-megatype-motion-poster-style.md) | [style.json](../../styles/coral-window-megatype-motion-poster-style/style.json) |
 | Cozy Bedroom Doodle Companion Snapshot Style | [Copy Prompt](cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](../../styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
@@ -33,6 +34,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Folded Newspaper Product Ad Style | [Copy Prompt](folded-newspaper-product-ad-style.md) | [style.json](../../styles/folded-newspaper-product-ad-style/style.json) |
+| Foreshortened Gradient Impact Ad Style | [Copy Prompt](foreshortened-gradient-impact-ad-style.md) | [style.json](../../styles/foreshortened-gradient-impact-ad-style/style.json) |
 | Gothic Cat Doodle Photo Collage Style | [Copy Prompt](gothic-cat-doodle-photo-collage-style.md) | [style.json](../../styles/gothic-cat-doodle-photo-collage-style/style.json) |
 | Halftone Assemblage Metaphor PSA Poster Style | [Copy Prompt](halftone-assemblage-metaphor-psa-poster-style.md) | [style.json](../../styles/halftone-assemblage-metaphor-psa-poster-style/style.json) |
 | Hot Ink Comic Poster | [Copy Prompt](hot-ink-comic-poster.md) | [style.json](../../styles/hot-ink-comic-poster/style.json) |

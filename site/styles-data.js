@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 108,
+  "styleCount": 110,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Cobalt Torn Didone Portrait Editorial",
+      "slug": "cobalt-torn-didone-portrait-editorial-style",
+      "category": "Type Posters",
+      "description": "Sparse fashion-editorial posters with a warm paper field, a centered halftone portrait, monumental cobalt Didone type, and an irregular torn-paper reveal.",
+      "summary": "A sparse fashion-editorial poster system built from a warm paper field, one centered halftone portrait or sculptural subject, monumental cobalt Didone typography, an irregular horizontal torn-paper reveal, and restrained calligraphic and catalog-like corner notes.",
+      "preview16": "../styles/cobalt-torn-didone-portrait-editorial-style/preview-16x9.jpg",
+      "preview9": "../styles/cobalt-torn-didone-portrait-editorial-style/preview-9x16.jpg",
+      "styleJson": "../styles/cobalt-torn-didone-portrait-editorial-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/cobalt-torn-didone-portrait-editorial-style.md",
+      "folder": "../styles/cobalt-torn-didone-portrait-editorial-style/",
+      "anchors": [
+        "A warm ivory paper field remains visibly open around the subject, with roughly one third of the design functioning as calm negative space rather than a full-bleed scene.",
+        "One front-facing or gently turned chest-up subject dominates the center and lower field at near life-size scale, cropped by the bottom and sometimes by one side.",
+        "One broad irregular horizontal torn-paper reveal slices across the central subject; bright fibrous white edges and a slightly displaced photographic strip make the physical rip unmistakable.",
+        "The main headline uses monumental high-contrast Didone serif letterforms in saturated cobalt, split across upper and lower zones, extending beyond the canvas and passing both behind and in front of the subject.",
+        "A single elegant hairline calligraphic word crosses the torn central band, while two smaller curved or diagonal script labels counterbalance the lower corners.",
+        "A small numeric catalog or date notation with thin horizontal rules occupies the upper-left corner, balanced by a compact right-aligned four-line editorial note at upper right."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "midnight-cellist",
+      "copyPrompt": "Use the \"Cobalt Torn Didone Portrait Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an older Black male cellist with close-cropped silver hair and a weathered, calm face\nSubject action: pausing between notes with his head gently lowered while one hand steadies the cello neck\nProduct or prop: the dark wooden cello scroll and a slim bow entering the close portrait crop\nLocation: a nearly empty rehearsal studio after midnight\nBackground elements: one faint acoustic-panel seam and a soft fragment of a music stand, mostly lost into the ivory field\nMain text: KEEP THE ECHO\nSecondary text: 11—48 / A note remains after the room has gone quiet / STUDY 04\nAccent symbol: ◇ 04\nWardrobe style: a plain charcoal wool turtleneck with no jewelry or branding\n\nStyle direction:\nA sparse fashion-editorial poster system built from a warm paper field, one centered halftone\nportrait or sculptural subject, monumental cobalt Didone typography, an irregular horizontal\ntorn-paper reveal, and restrained calligraphic and catalog-like corner notes.\n\nKeep visible:\n- A warm ivory paper field remains visibly open around the subject, with roughly one third of the design functioning as calm negative space rather than a full-bleed scene.\n- One front-facing or gently turned chest-up subject dominates the center and lower field at near life-size scale, cropped by the bottom and sometimes by one side.\n- One broad irregular horizontal torn-paper reveal slices across the central subject; bright fibrous white edges and a slightly displaced photographic strip make the physical rip unmistakable.\n- The main headline uses monumental high-contrast Didone serif letterforms in saturated cobalt, split across upper and lower zones, extending beyond the canvas and passing both behind and in front of the subject.\n- A single elegant hairline calligraphic word crosses the torn central band, while two smaller curved or diagonal script labels counterbalance the lower corners.\n\nAvoid:\nSource woman, recognizable source face, sideways source gaze, dark shaggy bob, blue patterned\nshirt, repeated source eyes, exact eye-reveal strip, HOLD, YOUR, VISION, PERCEPTION, REALITY,\noriginal date, original slogan, copied line breaks, copied tear contour, future-vision premise,\nmultiple people, full scenic background, dense magazine cover lines, sticker collage, scrapbook,\ncomic panel, retail badge, product grid, sans-serif megatype, slab serif, bubble letters,\ngraffiti, ransom type, extra saturated color, neon gradient, glossy advertising finish, 3D type,\nbevel, extrusion, cast shadow, lens flare, dramatic colored lighting, extreme grunge, unreadable\ntext, pseudo-text, malformed anatomy, duplicated face, malformed hands, logo, watermark, creator\nID, username, signature, QR code, platform mark, wall mockup, floating poster card.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Foreshortened Gradient Impact Ad Style",
+      "slug": "foreshortened-gradient-impact-ad-style",
+      "category": "Product + Campaign",
+      "description": "Kinetic worm's-eye ad posters with a monumental foreground product, a receding figure, giant edge-cropped diagonal neo-grotesk type, and a dark-to-luminous gradient field.",
+      "summary": "A premium kinetic advertising system built around a worm's-eye ultra-wide photograph, one monumental foreground product or prop, a dynamic human figure receding behind it, giant edge-cropped diagonal neo-grotesk typography, restrained technical microcopy, and a near-black-to-luminous-color gradient field. The finish is sparse but forceful: commercial photocompositing, selective blur, soft bloom, rim light, and layered type create speed and depth without visual clutter.",
+      "preview16": "../styles/foreshortened-gradient-impact-ad-style/preview-16x9.jpg",
+      "preview9": "../styles/foreshortened-gradient-impact-ad-style/preview-9x16.jpg",
+      "styleJson": "../styles/foreshortened-gradient-impact-ad-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/foreshortened-gradient-impact-ad-style.md",
+      "folder": "../styles/foreshortened-gradient-impact-ad-style/",
+      "anchors": [
+        "A single human subject and one hero object dominate an otherwise sparse premium advertising composition.",
+        "Extreme worm's-eye ultra-wide perspective creates pronounced foreground foreshortening.",
+        "The featured object occupies roughly the lower third to half of the frame and is partially cropped by an edge.",
+        "The person sits behind the object in the middle depth plane, with a smaller comparatively shadowed face and torso.",
+        "Subject, object, and typography share one energetic bottom-corner-to-opposite-top diagonal movement.",
+        "Monumental white uppercase neo-grotesk letterforms are rotated, fragmented, and cropped beyond the canvas."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "midnight-synth-pulse",
+      "copyPrompt": "Use the \"Foreshortened Gradient Impact Ad Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an electronic musician with an original non-identifiable face and short dark hair\nSubject action: leaning over a modular synthesizer while reaching down to turn one control with focused energy\nProduct or prop: a logo-free brushed-metal synthesizer control module with one oversized luminous knob dominating the foreground\nLocation: a sparse midnight sound studio abstracted into black space\nBackground elements: near-black ceiling void, electric-violet glow rising through pale haze, one thin waveform line, and a few cropped white geometric fragments\nMain text: PULSE\nSecondary text: MODULAR 808 — TACTILE SIGNAL CONTROL / LIVE CIRCUIT EDITION\nAccent symbol: 808 and a minimal waveform glyph\nWardrobe style: matte black technical jacket over a charcoal shirt, completely logo-free\n\nStyle direction:\nA premium kinetic advertising system built around a worm's-eye ultra-wide photograph, one\nmonumental foreground product or prop, a dynamic human figure receding behind it, giant edge-\ncropped diagonal neo-grotesk typography, restrained technical microcopy, and a near-black-to-\nluminous-color gradient field. The finish is sparse but forceful: commercial photocompositing,\nselective blur, soft bloom, rim light, and layered type create speed and depth without visual\nclutter.\n\nKeep visible:\n- A single human subject and one hero object dominate an otherwise sparse premium advertising composition.\n- Extreme worm's-eye ultra-wide perspective creates pronounced foreground foreshortening.\n- The featured object occupies roughly the lower third to half of the frame and is partially cropped by an edge.\n- The person sits behind the object in the middle depth plane, with a smaller comparatively shadowed face and torso.\n- Subject, object, and typography share one energetic bottom-corner-to-opposite-top diagonal movement.\n\nAvoid:\nNike, Swoosh, JUST DO IT, Pegasus, Pegasus 42, ReactX, Air Zoom, number 42, running shoe, white\nsneaker, runner stepping toward camera, raised-knee running pose, copied source wardrobe, copied\nsource face, copied source layout, performance-footwear story, real brand logo, pseudo-logo,\nwatermark, username, creator ID, platform mark, QR code, barcode, multiple people, many\nproducts, dense collage, retail price tag, UI panel, sticker clutter, centered title card, serif\nheadline, flat vector art, illustration-only, 3D clay render, storyboard sketch, HTML mockup,\ncanvas drawing, rainbow palette, film grain, glitch noise, global blur, malformed hands, extra\nlimbs, distorted face, broken object geometry, unreadable headline, random gibberish text\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Vermilion Photocopy Tension Editorial",
       "slug": "vermilion-photocopy-tension-editorial",

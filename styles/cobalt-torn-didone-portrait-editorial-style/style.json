@@ -1,0 +1,170 @@
+{
+  "style_name": "Cobalt Torn Didone Portrait Editorial",
+  "style_slug": "cobalt-torn-didone-portrait-editorial-style",
+  "style_version": "2.1",
+  "style_summary": "A sparse fashion-editorial poster system built from a warm paper field, one centered halftone portrait or sculptural subject, monumental cobalt Didone typography, an irregular horizontal torn-paper reveal, and restrained calligraphic and catalog-like corner notes.",
+  "environment_variables": {
+    "SUBJECT": "the new central portrait subject or sculptural hero object",
+    "SUBJECT_ACTION": "the subject's subtle gesture or state",
+    "PRODUCT_OR_PROP": "one supporting prop integrated into the portrait crop",
+    "LOCATION": "the lightly implied editorial setting",
+    "BACKGROUND_ELEMENTS": "a very small number of secondary visual details",
+    "MAIN_TEXT": "a new two-to-four-word editorial headline",
+    "SECONDARY_TEXT": "new date-like notation and short editorial note",
+    "ACCENT_SYMBOL": "a small abstract non-branded catalog symbol",
+    "WARDROBE_STYLE": "new wardrobe, material, or surface direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "A warm ivory paper field remains visibly open around the subject, with roughly one third of the design functioning as calm negative space rather than a full-bleed scene.",
+    "One front-facing or gently turned chest-up subject dominates the center and lower field at near life-size scale, cropped by the bottom and sometimes by one side.",
+    "One broad irregular horizontal torn-paper reveal slices across the central subject; bright fibrous white edges and a slightly displaced photographic strip make the physical rip unmistakable.",
+    "The main headline uses monumental high-contrast Didone serif letterforms in saturated cobalt, split across upper and lower zones, extending beyond the canvas and passing both behind and in front of the subject.",
+    "A single elegant hairline calligraphic word crosses the torn central band, while two smaller curved or diagonal script labels counterbalance the lower corners.",
+    "A small numeric catalog or date notation with thin horizontal rules occupies the upper-left corner, balanced by a compact right-aligned four-line editorial note at upper right.",
+    "The palette is tightly restricted to warm ivory, electric cobalt blue, photographic skin or material tones, carbon-black shadows, and torn-paper white.",
+    "Photography carries visible newspaper halftone, scan grain, softened low-resolution edges, and lightly overprinted ink without becoming distressed beyond legibility.",
+    "Layering is flat and editorial: photo, type, and torn paper occlude each other sharply, with no realistic drop shadows, bevels, glossy depth, or floating-card presentation.",
+    "Lighting is soft, frontal, and low-contrast, preserving natural texture while the cobalt typography supplies nearly all graphic contrast.",
+    "The mood is poised, introspective, fashion-forward, and slightly surreal, recalling an independent art magazine rather than a commercial product advertisement."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate the identifiable young woman's face, sideways eye movement, expression, dark shaggy bob, or facial proportions from the reference.",
+    "Do not use the same blue patterned collared shirt, the same bust crop, or the same exposed shoulders and neckline.",
+    "Do not recreate a torn strip that specifically isolates and repeats the source woman's two eyes and eyebrows.",
+    "Do not reuse the words HOLD, YOUR, VISION, PERCEPTION, REALITY, or the original forward-looking slogan.",
+    "Do not reuse the source date, its exact top-corner copy arrangement, or the source line breaks and letter positions.",
+    "Do not reproduce the same face-plus-eye-reveal story premise, exact tear contour, or exact foreground/background masking order.",
+    "Do not include any source signature, watermark, username, logo, creator mark, QR code, or platform identity."
+  ],
+  "visual_deconstruction": {
+    "overall_style": "Experimental fashion and culture editorial cover combining a lo-fi color portrait, neo-classical Didone megatype, delicate calligraphy, and a tactile torn-paper photomontage intervention.",
+    "composition_and_layout": "A quiet ivory field supports a large centered subject. Small information blocks occupy the top corners, while enormous cobalt headline fragments span the middle and lower page. One horizontal paper tear interrupts both portrait and headline, creating a displaced reveal band and a layered depth cue.",
+    "subject_placement": "The subject begins near the upper-middle and fills the lower two thirds, with the head or hero form near center and the body or base cropped by the lower edge. The subject is large enough to collide with oversized letters.",
+    "camera_and_perspective": "Frontal chest-up editorial portraiture or a similarly frontal hero-object crop, made with a normal-to-short telephoto perspective and minimal environmental depth.",
+    "typography_behavior": "The headline is a two-tier composition of extremely large, thin, high-contrast Didone letters in cobalt. Hairline italic script supplies one central emphasis word and two small peripheral labels. Tiny ruled numerals and a compact upper-right note create catalog precision.",
+    "color_behavior": "Warm ivory dominates; vivid cobalt is the only graphic ink; natural photographic tones remain muted and slightly warm; the torn edges stay bright paper white and shadows remain carbon-black.",
+    "graphic_elements": "One physical horizontal rip, raw white paper fibers, one displaced photo strip, two thin rules around a number block, a compact editorial note, and three restrained calligraphic accents.",
+    "texture_and_finish": "Visible dot-screen halftone, paper tooth, gentle scan noise, slight edge softness, and modest color-print imperfection evoke a small-run magazine without sacrificing face, object, or headline clarity.",
+    "lighting_and_mood": "Diffuse frontal light and controlled contrast produce an intimate, observant, slightly surreal fashion-editorial mood."
+  },
+  "composition": [
+    "Keep roughly 28 to 40 percent of the ivory field visually open, concentrated around the upper corners and narrow side gutters.",
+    "Use exactly one large central chest-up subject or sculptural hero object; avoid secondary figures and full environmental scenes.",
+    "Split the supplied headline into two monumental Didone tiers that exceed the canvas width and are partially masked by the subject and tear.",
+    "Place exactly one broad torn-paper reveal across the middle third; expose a new detail such as hands, instrument strings, plans, material texture, or motion rather than copying the source eye strip.",
+    "Keep the upper-left numeric block and upper-right editorial note small, delicate, and spatially balanced.",
+    "Use one central script emphasis and two smaller lower-corner script labels, all legible and subordinate to the Didone headline.",
+    "Recompose the same hierarchy for 4:5 and 5:4 without rotating the artwork, adding panels, or reducing the torn strip to a decorative sticker."
+  ],
+  "typography": {
+    "headline": "Set the new two-to-four-word headline in a refined high-contrast Didone serif with very thin hairlines, sharp unbracketed serifs, generous internal counterforms, and enormous cropped cobalt letters. Split the phrase across two levels and keep it readable despite controlled occlusion.",
+    "script": "Choose one short keyword from the new headline for an elegant cobalt copperplate-like italic with long but restrained swashes. Add two brief contextual words in the same script near opposite lower corners, occasionally angled along the composition.",
+    "microcopy": "Use thin cobalt serif numerals between two hairline rules at upper left. At upper right, use a compact right-aligned stack of three to five short lines in a small refined serif or restrained display face.",
+    "hierarchy": "Megatype supplies mass, the central script supplies intimacy, and the small corner notes supply editorial specificity. Do not add cover-line clutter, badges, pricing, or extra captions.",
+    "text_safety": "Use only the supplied invented text and neutral abstract symbols; no real mastheads, brands, logos, handles, or identifying marks."
+  },
+  "color_palette": {
+    "warm_ivory": "#F2F1EB, approximately 45 to 58 percent of the image including negative space and paper",
+    "electric_cobalt": "#111BD4, approximately 18 to 28 percent as all graphic typography and rules",
+    "paper_white": "#FAFAF7, restricted to torn fibers and the displaced paper edge",
+    "carbon_black": "#111111, limited to deep photographic shadows and fine texture",
+    "photographic_tones": "muted natural skin, textile, wood, metal, or ceramic colors with a slightly warm printed cast",
+    "behavior": "Cobalt is the only saturated graphic color. Natural photo colors may remain but should look screened, softened, and subordinate to the blue type."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Lo-fi editorial color photography integrated with printed type and physical paper collage.",
+    "camera": "Frontal chest-up portrait or frontal macro hero-object crop, normal-to-short-telephoto perspective, minimal distortion, and a calm direct visual relationship to the viewer.",
+    "subject_finish": "Natural anatomy and material texture, modest retouching, soft edges, and visible print dots. Keep the subject believable and recognizable while avoiding glossy commercial polish.",
+    "lighting": "Large diffuse frontal source, gentle shadow rolloff, restrained highlights, and no colored rim light, flare, or cinematic haze.",
+    "print_finish": "Apply visible but controlled newspaper halftone, paper grain, slight registration softness, and low-resolution magazine scan character across both the main image and displaced reveal band."
+  },
+  "design_rules": [
+    "Preserve the five-part grammar in every sample: ivory field, central photo subject, cobalt Didone megatype, one physical horizontal rip, and delicate blue script and corner information.",
+    "Treat the rip as a structural edit that displaces a meaningful case-specific detail, not as a decorative white brushstroke.",
+    "Keep all graphic layers flat and printed; apparent depth comes only from occlusion and torn paper fibers.",
+    "Use cobalt for every graphic element and no second saturated accent ink.",
+    "Make the new headline legible in fragments even when cropped and masked; never replace it with random letterforms or pseudo-text.",
+    "Change subject identity, gesture, prop, wardrobe, location, displayed detail, headline, script labels, and story premise in every case.",
+    "Retain sparse editorial restraint; no more than one subject, one prop, one tear, one main headline, and three script accents."
+  ],
+  "do": [
+    "Use one commanding close-cropped portrait or sculptural hero form with enough scale to overlap the headline.",
+    "Keep the ivory field clean enough that the cobalt letterforms and paper tear read immediately.",
+    "Render genuinely fibrous ripped paper with an irregular white edge and a clearly displaced photo strip.",
+    "Use new short editorial language that is readable, elegant, and unrelated to the source wording.",
+    "Preserve visible halftone and print grain at a controlled, refined level.",
+    "Adapt spacing and crop deliberately for both portrait and landscape outputs."
+  ],
+  "avoid": [
+    "The source woman's identity, eye direction, dark bob, blue patterned shirt, facial crop, exact eye reveal, original copy, exact date, or future-vision premise.",
+    "Multiple subjects, scenic backgrounds, dense magazine cover lines, sticker packs, comic panels, retail badges, product grids, or unrelated props.",
+    "Sans-serif megatype, slab serif, bubble type, graffiti, ransom lettering, or heavy blackletter in place of the high-contrast Didone.",
+    "A smooth digital cutout without torn fibers, multiple paper rips, tape pieces, drop shadows, frames, or a scrapbook border.",
+    "Neon gradients, extra saturated colors, dramatic color grading, glossy 3D rendering, plastic surfaces, glow, or lens flare.",
+    "Extreme noise, illegible text, broken anatomy, duplicated facial features, malformed hands, or random pseudo-copy.",
+    "Logos, watermarks, usernames, creator IDs, QR codes, signatures, platform marks, or presentation mockups."
+  ],
+  "prompt_template": "Create a finished {ASPECT_RATIO} editorial poster in the \"cobalt-torn-didone-portrait-editorial-style\" visual system.\n\nSTYLE FIDELITY IS THE FIRST PRIORITY. These observable anchors are mandatory:\n{STYLE_FIDELITY_ANCHORS}\n\nLITERAL SOURCE CONTENT MUST CHANGE. Exclude all of the following:\n{SOURCE_CONTENT_TO_AVOID}\n\nNEW CONTENT\nSubject: {SUBJECT}\nAction or state: {SUBJECT_ACTION}\nSupporting prop: {PRODUCT_OR_PROP}\nImplied location: {LOCATION}\nMinimal background details: {BACKGROUND_ELEMENTS}\nMain headline: {MAIN_TEXT}\nSecondary corner copy: {SECONDARY_TEXT}\nSmall accent symbol: {ACCENT_SYMBOL}\nWardrobe or material styling: {WARDROBE_STYLE}\n\nCOMPOSITION\nUse a warm ivory paper field with roughly one third calm negative space. Place exactly one large central chest-up portrait or frontal sculptural hero form across the lower two thirds. Split the supplied main headline into two tiers of enormous cobalt high-contrast Didone serif letters, wider than the canvas, partially cropped and alternately passing behind and in front of the subject. Add one small ruled numeric block at upper left and one compact right-aligned three-to-five-line editorial note at upper right. Recompose the hierarchy specifically for the requested aspect ratio; do not rotate or letterbox it.\n\nTORN-PAPER STRUCTURE\nCreate exactly one broad irregular horizontal physical tear across the middle third. The bright white fibrous edges must be unmistakable. Inside the displaced strip reveal a case-specific detail such as hands, strings, plans, fabric, material, or motion; do not isolate or repeat the source eyes. The ripped strip must interrupt both the central image and portions of the headline.\n\nTYPOGRAPHY\nRender the supplied main headline as legible monumental cobalt Didone lettering with extreme thick-thin contrast, sharp serifs, and elegant open counters. Choose one short keyword from that new headline and repeat it once as a delicate copperplate-like cobalt italic crossing the torn band. Add two brief case-specific script labels near opposing lower corners. Keep microcopy restrained and use only the supplied text; no extra cover lines, brands, logos, or random pseudo-text.\n\nCOLOR, PHOTO, AND FINISH\nRestrict graphic ink to saturated cobalt blue on warm ivory and paper white. Keep the natural photographic tones muted, warm, and subordinate. Photograph the subject frontally with diffuse low-contrast light, minimal depth, and believable anatomy or material form. Apply visible controlled newspaper halftone, scan grain, paper tooth, and slight print softness without destroying text or facial detail. All layers are flat printed collage; use no realistic drop shadow, bevel, glossy depth, or presentation mockup.\n\nAVOID\nNo copied face, eye strip, hairstyle, shirt, source words, source date, source layout coordinates, or future-vision premise. No multiple subjects, scenic environment, stickers, scrapbook clutter, comic panels, sans-serif headline, slab serif, gradients, extra saturated inks, glossy commercial retouching, 3D type, glow, lens flare, extreme degradation, illegible headline, malformed anatomy, duplicated features, watermark, signature, username, QR code, platform UI, or logo.\n\nImportant content rule: match the sparse cobalt Didone, centered halftone portrait, one-rip editorial system first; then replace the source identity, gesture, prop, setting, text, and story premise with the new case content.",
+  "negative_prompt": "Source woman, recognizable source face, sideways source gaze, dark shaggy bob, blue patterned shirt, repeated source eyes, exact eye-reveal strip, HOLD, YOUR, VISION, PERCEPTION, REALITY, original date, original slogan, copied line breaks, copied tear contour, future-vision premise, multiple people, full scenic background, dense magazine cover lines, sticker collage, scrapbook, comic panel, retail badge, product grid, sans-serif megatype, slab serif, bubble letters, graffiti, ransom type, extra saturated color, neon gradient, glossy advertising finish, 3D type, bevel, extrusion, cast shadow, lens flare, dramatic colored lighting, extreme grunge, unreadable text, pseudo-text, malformed anatomy, duplicated face, malformed hands, logo, watermark, creator ID, username, signature, QR code, platform mark, wall mockup, floating poster card.",
+  "examples": [
+    {
+      "case_name": "midnight-cellist",
+      "values": {
+        "SUBJECT": "an older Black male cellist with close-cropped silver hair and a weathered, calm face",
+        "SUBJECT_ACTION": "pausing between notes with his head gently lowered while one hand steadies the cello neck",
+        "PRODUCT_OR_PROP": "the dark wooden cello scroll and a slim bow entering the close portrait crop",
+        "LOCATION": "a nearly empty rehearsal studio after midnight",
+        "BACKGROUND_ELEMENTS": "one faint acoustic-panel seam and a soft fragment of a music stand, mostly lost into the ivory field",
+        "MAIN_TEXT": "KEEP THE ECHO",
+        "SECONDARY_TEXT": "11—48 / A note remains after the room has gone quiet / STUDY 04",
+        "ACCENT_SYMBOL": "◇ 04",
+        "WARDROBE_STYLE": "a plain charcoal wool turtleneck with no jewelry or branding"
+      }
+    },
+    {
+      "case_name": "greenhouse-architect",
+      "values": {
+        "SUBJECT": "an elderly East African woman architect with a close silver crop and strong angular features",
+        "SUBJECT_ACTION": "leaning toward a small model while aligning two translucent roof planes with both hands",
+        "PRODUCT_OR_PROP": "a pale folded vellum greenhouse model and one graphite drafting pencil",
+        "LOCATION": "a sun-washed architecture studio beside a greenhouse",
+        "BACKGROUND_ELEMENTS": "two faint structural diagonals and a ghosted leaf shadow, kept extremely sparse",
+        "MAIN_TEXT": "BUILD FROM LIGHT",
+        "SECONDARY_TEXT": "06—17 / Structure begins where shadow changes direction / FIELD NOTE 12",
+        "ACCENT_SYMBOL": "△ 12",
+        "WARDROBE_STYLE": "an unbranded sand-colored linen work jacket with a high collar"
+      }
+    },
+    {
+      "case_name": "coastal-cyclist",
+      "values": {
+        "SUBJECT": "a middle-aged Latino endurance cyclist with a shaved head and a composed, wind-marked expression",
+        "SUBJECT_ACTION": "resting after a climb while tightening one glove and turning slightly toward the sea",
+        "PRODUCT_OR_PROP": "a matte white bicycle helmet and a narrow fragment of drop handlebar tape",
+        "LOCATION": "a quiet coastal overlook at first light",
+        "BACKGROUND_ELEMENTS": "one blurred horizon rule and a single wind-bent grass stroke, mostly absorbed by the ivory field",
+        "MAIN_TEXT": "TURN WITH WIND",
+        "SECONDARY_TEXT": "05—32 / Momentum is a conversation with resistance / ROUTE 09",
+        "ACCENT_SYMBOL": "○ 09",
+        "WARDROBE_STYLE": "a plain mineral-gray cycling jersey with subtle woven texture and no team marks"
+      }
+    },
+    {
+      "case_name": "glass-studio",
+      "values": {
+        "SUBJECT": "a mature South Asian woman glass artist with a long silver braid and protective clear spectacles",
+        "SUBJECT_ACTION": "watching a newly formed glass vessel cool while rotating the blowpipe with controlled hands",
+        "PRODUCT_OR_PROP": "a translucent smoky-amber glass form and a slim black metal blowpipe",
+        "LOCATION": "a quiet glass studio between furnace cycles",
+        "BACKGROUND_ELEMENTS": "one dim circular furnace echo and two pale tool silhouettes, heavily simplified",
+        "MAIN_TEXT": "SHAPE THE AIR",
+        "SECONDARY_TEXT": "08—21 / Heat gives the invisible a temporary edge / MATERIAL 03",
+        "ACCENT_SYMBOL": "+ 03",
+        "WARDROBE_STYLE": "an unbranded slate cotton apron over a cream high-neck shirt"
+      }
+    }
+  ]
+}
