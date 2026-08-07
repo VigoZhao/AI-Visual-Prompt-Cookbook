@@ -26,11 +26,13 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Crayon Catalog Doodle Poster Style | [Copy Prompt](crayon-catalog-doodle-poster-style.md) | [style.json](../../styles/crayon-catalog-doodle-poster-style/style.json) |
 | Cream Smoke City Manga Poster Style | [Copy Prompt](cream-smoke-city-manga-poster-style.md) | [style.json](../../styles/cream-smoke-city-manga-poster-style/style.json) |
 | Crimson Ink Manga Dossier | [Copy Prompt](crimson-ink-manga-dossier.md) | [style.json](../../styles/crimson-ink-manga-dossier/style.json) |
+| Crimson Noir Newsprint Editorial | [Copy Prompt](crimson-noir-newsprint-editorial-style.md) | [style.json](../../styles/crimson-noir-newsprint-editorial-style/style.json) |
 | Cyan Grain Macro Megatype Poster | [Copy Prompt](cyan-grain-macro-megatype-poster-style.md) | [style.json](../../styles/cyan-grain-macro-megatype-poster-style/style.json) |
 | Cyan Red Shockwave Type Poster Style | [Copy Prompt](cyan-red-shockwave-type-poster-style.md) | [style.json](../../styles/cyan-red-shockwave-type-poster-style/style.json) |
 | Dusk Cyan Layered Type Poster Style | [Copy Prompt](dusk-cyan-layered-type-poster-style.md) | [style.json](../../styles/dusk-cyan-layered-type-poster-style/style.json) |
 | Electric Blue Cutout Manga Poster Style | [Copy Prompt](electric-blue-cutout-manga-poster-style.md) | [style.json](../../styles/electric-blue-cutout-manga-poster-style/style.json) |
 | Electric Blue Silhouette Product Launch Style | [Copy Prompt](electric-blue-silhouette-product-launch-style.md) | [style.json](../../styles/electric-blue-silhouette-product-launch-style/style.json) |
+| Electric Cobalt Motion Type Poster | [Copy Prompt](electric-cobalt-motion-type-poster-style.md) | [style.json](../../styles/electric-cobalt-motion-type-poster-style/style.json) |
 | Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Folded Newspaper Product Ad Style | [Copy Prompt](folded-newspaper-product-ad-style.md) | [style.json](../../styles/folded-newspaper-product-ad-style/style.json) |

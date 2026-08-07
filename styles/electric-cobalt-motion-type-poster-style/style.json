@@ -1,0 +1,186 @@
+{
+  "style_name": "Electric Cobalt Motion Type Poster",
+  "style_slug": "electric-cobalt-motion-type-poster-style",
+  "style_version": "2.1.0",
+  "style_summary": "A high-energy community-event poster system that combines one full-bleed motion-smeared photograph, a cobalt-blue field, fluorescent green ultra-condensed display type, a compact white-and-orange center lockup, oversized lower-edge numerals, and deliberately imperfect analog print texture.",
+  "environment_variables": {
+    "SUBJECT": "main subject",
+    "SUBJECT_ACTION": "main action",
+    "PRODUCT_OR_PROP": "object, product, or prop",
+    "LOCATION": "environment or setting",
+    "BACKGROUND_ELEMENTS": "secondary scene details",
+    "MAIN_TEXT": "main headline or graphic text",
+    "SECONDARY_TEXT": "small repeated supporting text",
+    "ACCENT_SYMBOL": "separator or decorative symbol",
+    "WARDROBE_STYLE": "styling direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "One full-bleed photographic poster with a single dominant moving subject cropped tightly by multiple frame edges.",
+    "Strong directional motion smear follows the subject's gesture while the overall silhouette remains readable and energetic.",
+    "Saturated cobalt and ultramarine blue occupy most of the photographic field, with no gradient background treatment.",
+    "Fluorescent spring-green display lettering provides the dominant graphic contrast, supported by white and one concentrated orange-red accent.",
+    "Oversized ultra-condensed curvilinear display type sits directly on the photograph, with tall narrow letters, sharp waistlines, tight spacing, and dramatic vertical scale.",
+    "A loose three-column editorial rhythm structures both the upper headline band and the lower information band with very tight outer margins.",
+    "Typography deliberately overlaps the subject and may partially obscure anonymous facial or body detail rather than sitting in protected boxes.",
+    "The middle of the poster carries a dense white italic or serif-sans event lockup interrupted by one rough orange kinetic emblem.",
+    "Huge lower-edge numerals or date forms balance much smaller italic uppercase microcopy, producing an extreme scale contrast.",
+    "Visible fine analog grain, optical softness, panning blur, slight chromatic noise, and imperfect focus create a tactile low-fidelity photo-print finish.",
+    "Asymmetric bodily movement is contained inside a carefully balanced top-middle-bottom poster hierarchy.",
+    "The mood is youthful, exclusive, grassroots, and contemporary-Y2K athletic editorial rather than polished corporate fitness advertising."
+  ],
+  "source_content_to_avoid": [
+    "Do not recreate a sprint runner, running race, four-kilometer run, or the exact forward-running body silhouette from the source.",
+    "Do not reproduce the original blurred woman, facial likeness, ponytail, white racing vest, arm position, or blue-sky running photograph.",
+    "Do not reuse the sauna, cold-plunge, breathwork, summer-fragrance, or Sunday-morning event premise.",
+    "Do not use the original wording, names, dates, times, email address, venue address, web address, captions, or invitation language.",
+    "Do not imitate the source's custom central wordmark or reproduce its exact white script-and-italic lettering construction.",
+    "Do not recreate the orange duplicated-runner speed silhouette or any recognizable athlete icon from the source.",
+    "Do not include any source brand name, collaboration name, beverage mark, organizer identity, logo, or sponsor identity.",
+    "Do not duplicate the exact word-for-word three-column arrangement or the original lower date-and-time placement.",
+    "Do not include the small white lower-corner mascot, signature, creator mark, watermark, username, QR code, or platform identity.",
+    "Do not use identifiable people, celebrity likenesses, protected sports marks, or real event identities."
+  ],
+  "visual_deconstruction": {
+    "overall_style": "Experimental community-club event broadside combining blurred analog action photography with a tightly typeset editorial information system.",
+    "composition_logic": "The canvas is divided into three functional bands: a tall three-column headline at the top, a kinetic full-frame subject with a compact identity lockup across the middle, and a lower information grid terminating in enormous numerals.",
+    "subject_placement": "One close moving figure spans roughly two-thirds of the frame, enters and exits through the edges, and is cropped at the head, limbs, clothing, or prop to intensify immediacy.",
+    "camera_perspective": "Eye-level or slightly low panning photograph with a medium-to-close lens, shallow subject definition, lateral or diagonal travel, and plausible directional blur rather than radial effects.",
+    "typography_system": "Fluorescent green ultra-condensed eccentric display words dominate the top and bottom; a mixed white italic/serif-sans lockup anchors the center; small italic uppercase sans microcopy fills compact grid positions.",
+    "color_behavior": "Cobalt blue is the continuous field, neon green carries display information, white creates the central lockup and secondary contrast, natural skin or material warmth survives inside the blur, and orange-red appears only as a small kinetic interruption.",
+    "graphic_elements": "Use one thin oval or ring callout, one rough orange motion emblem, sparse rules or separators, and a tiny abstract lower-corner mark; avoid sticker packs, frames, UI chrome, or decorative collage.",
+    "texture_and_finish": "High-ISO analog grain, soft optical focus, slightly smeared edges, mild chromatic breakup, and printed-poster density without torn-paper or distressed overlays.",
+    "lighting_and_mood": "Bright even daylight or broad ambient venue light filtered through cobalt color, with medium contrast, warm subject highlights, and an urgent communal after-hours mood."
+  },
+  "composition": {
+    "canvas": "Use the requested {ASPECT_RATIO} frame as a borderless full-bleed poster with the photograph touching every edge.",
+    "headline_band": "Build a loose three-column top band from two to four very short green display words; let letters touch or nearly touch the top and side edges and overlap the photo.",
+    "photo_layer": "Scale one moving subject to occupy about 60-75 percent of the canvas, with directional blur and at least two decisive edge crops.",
+    "center_lockup": "Place a compact white event-name cluster across the lower torso, prop, or central negative pocket, then cross it with one small rough orange kinetic emblem.",
+    "information_band": "Arrange green and white microcopy in a modular lower-third grid, including one thin outlined callout, short organizer or location lines, and three large green numeral or date anchors along the lower edge.",
+    "ratio_adaptation": "For 4:5, stack the three bands vertically; for 5:4, widen the same three-column rhythm and keep the subject sweeping laterally across the center without converting the design into a banner."
+  },
+  "typography": {
+    "display": "Ultra-condensed, very tall, curvilinear display lettering in fluorescent green with tight tracking, narrow counters, slightly pinched strokes, and oversized scale.",
+    "center_lockup": "A dense white combination of sweeping italic serif, wide aerodynamic italic sans, and compact uppercase text, kept generic and non-branded.",
+    "microcopy": "Small italic uppercase grotesk in white or green, tracked moderately, aligned to short grid rows and allowed to function partly as editorial texture.",
+    "numerals": "Enormous green narrow numerals or abbreviated date forms sit on the bottom edge and may be cropped by the frame.",
+    "text_behavior": "Keep copy short and intentional; use extreme scale shifts and direct overlap on the photo, never cards, labels, shadows, bevels, gradients, or outlined headline effects."
+  },
+  "color_palette": {
+    "dominant": [
+      "deep cobalt blue",
+      "saturated ultramarine",
+      "electric royal blue"
+    ],
+    "display_accent": [
+      "fluorescent spring green",
+      "acid lime green"
+    ],
+    "supporting": [
+      "clean white",
+      "warm natural skin or material tones",
+      "deep blue-black shadow"
+    ],
+    "kinetic_accent": [
+      "signal orange-red"
+    ],
+    "palette_rule": "Let cobalt-blue photography dominate roughly three quarters of the image, use green for large type, reserve white for the center lockup and microcopy, and confine orange-red to one small rough emblem or word fragment."
+  },
+  "photographic_direction": {
+    "rendering_mode": "Realistic action or movement photography integrated with flat editorial typography; no illustration, CGI, or vector-only subject rendering.",
+    "camera": "Use eye-level or slightly low panning photography with medium-close framing and a readable but anonymous moving silhouette.",
+    "motion": "Apply directional subject motion blur along the travel path, with hair, limbs, fabric, wheels, water, or prop edges trailing naturally while the entire frame does not spin or zoom.",
+    "lighting": "Use broad daylight, bright pool or waterfront light, or diffuse venue illumination with warm subject highlights against the blue field.",
+    "finish": "Preserve fine film grain, soft focus, mild color noise, and printed-poster softness while avoiding muddy compression, grotesque facial distortion, and uncontrolled digital artifacts."
+  },
+  "design_rules": [
+    "Use exactly one dominant moving subject and keep secondary scene objects subordinate.",
+    "Preserve the top headline, middle lockup, and lower information hierarchy in both aspect ratios.",
+    "Make cobalt blue the photographic field and fluorescent green the main typographic signal in every case.",
+    "Use ultra-condensed curvilinear display type at an edge-to-edge scale instead of generic bold geometric sans.",
+    "Keep the subject and text physically interleaved so at least one major word crosses or obscures part of the moving form.",
+    "Use one concentrated orange-red kinetic mark and never distribute orange across the whole poster.",
+    "Keep microcopy compact, italic, and modular, with one thin outlined callout and oversized lower numerals.",
+    "Change the activity, location, wardrobe, prop, wording, and event premise in every reusable case."
+  ],
+  "do": [
+    "Use plausible directional panning blur and a large anonymous moving silhouette.",
+    "Use full-bleed cobalt photography with visible but controlled analog grain.",
+    "Use fluorescent green ultra-condensed display words with aggressive edge crops.",
+    "Use a compact generic white center lockup with one rough orange accent.",
+    "Use a three-column editorial rhythm and extreme size contrast between display type and microcopy.",
+    "Use short original event language and brand-neutral props, wardrobe, and symbols."
+  ],
+  "avoid": [
+    "No source runner, running event, sauna or plunge premise, original copy, original date, or source identity marks.",
+    "No real logos, sponsor names, watermarks, signatures, usernames, QR codes, platform marks, or celebrity likenesses.",
+    "No crisp frozen-action sports advertisement; the directional blur and optical softness must remain visible.",
+    "No cyberpunk glow, neon gradient, vaporwave grid, 3D chrome, glossy CGI, or holographic lighting.",
+    "No generic centered title block, tiny distant subject, protective text cards, wide empty margins, or minimalist museum-poster spacing.",
+    "No sticker collage, torn paper, heavy halftone, graffiti wall, paint splashes, or decorative clutter.",
+    "No excessive digital noise, muddy compression, malformed long copy, extra limbs, or grotesque facial distortion."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} borderless full-bleed community-event poster in the Electric Cobalt Motion Type Poster visual style. Preserve these style fidelity anchors before making any content changes: {STYLE_FIDELITY_ANCHORS}. Exclude and replace all literal source content: {SOURCE_CONTENT_TO_AVOID}. Photograph {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}; include only these subordinate background details: {BACKGROUND_ELEMENTS}. Style the subject in {WARDROBE_STYLE}. Use an eye-level or slightly low panning photograph with one tightly cropped anonymous moving subject occupying 60-75 percent of the canvas, plausible lateral or diagonal motion smear, readable gesture, and at least two edge crops. Make saturated cobalt and ultramarine blue fill the photographic field. Build a loose three-column headline and lower information grid directly over the image using huge fluorescent-green ultra-condensed curvilinear display lettering that reads {MAIN_TEXT}, with narrow counters, pinched strokes, tight spacing, direct overlap on the subject, and giant lower-edge numerals. Add compact italic white or green microcopy reading {SECONDARY_TEXT}, one thin outlined callout, and a dense generic white italic/serif-sans event lockup across the middle. Cross the center lockup with one small rough orange-red {ACCENT_SYMBOL}, used as the only orange accent. Keep fine analog grain, optical softness, slight chromatic noise, medium contrast, and tactile printed-poster density. Adapt the same top-middle-bottom hierarchy to the requested ratio; do not substitute a centered banner layout. Match the style first, then change the activity, location, prop, wardrobe, copy, identity, and story premise. Avoid real logos, copied text, watermarks, QR codes, protected identities, radial blur, gradients, cyberpunk glow, 3D rendering, vector-only art, sticker collage, torn-paper effects, decorative clutter, or grotesque anatomy.",
+  "negative_prompt": "source runner, sprint race, four-kilometer run, white racing vest, ponytail runner, sauna, cold plunge, breathwork, summer fragrance event, copied source headline, copied date or time, copied venue or URL, copied center wordmark, orange runner silhouette, source mascot, brand names, sponsor logos, real event marks, watermarks, signatures, usernames, QR codes, platform UI, identifiable celebrity, protected athlete likeness, crisp frozen pose, tiny distant subject, generic centered title, wide empty border, rounded card, radial zoom blur, cyberpunk lighting, neon gradient, vaporwave grid, 3D chrome, glossy CGI, vector-only subject, sticker pack, torn paper, heavy halftone, graffiti wall, paint splashes, uncontrolled orange palette, muddy compression, excessive digital noise, malformed anatomy, extra limbs, grotesque face, long illegible paragraphs",
+  "examples": [
+    {
+      "case_name": "velodrome-turn",
+      "values": {
+        "SUBJECT": "an anonymous track cyclist",
+        "SUBJECT_ACTION": "leaning through a steep banked turn with shoulders low and wheels sweeping sideways",
+        "PRODUCT_OR_PROP": "a matte silver fixed-gear bicycle with blank surfaces and acid-green bar tape",
+        "LOCATION": "an indoor cobalt-painted velodrome during an evening open session",
+        "BACKGROUND_ELEMENTS": "blurred lane markings, a low safety rail, and soft blue venue lights",
+        "MAIN_TEXT": "BANK / TURN / LATE",
+        "SECONDARY_TEXT": "OPEN LAPS / 21:15 / EAST TRACK / TWO-WHEEL SESSION",
+        "ACCENT_SYMBOL": "double-chevron speed smear",
+        "WARDROBE_STYLE": "brand-neutral black cycling skinsuit with a small white shoulder panel and no logos"
+      }
+    },
+    {
+      "case_name": "harbor-kayak",
+      "values": {
+        "SUBJECT": "an anonymous solo kayaker",
+        "SUBJECT_ACTION": "driving a paddle through a fast lateral stroke as the boat cuts across frame",
+        "PRODUCT_OR_PROP": "a clean orange-red paddle and a dark unbranded racing kayak",
+        "LOCATION": "a cobalt harbor channel at bright first light",
+        "BACKGROUND_ELEMENTS": "soft water streaks, distant concrete piers, and a low blue horizon",
+        "MAIN_TEXT": "TIDAL / PULL / CLUB",
+        "SECONDARY_TEXT": "HARBOR LINE / 06:40 / OPEN WATER / SINGLE CREW",
+        "ACCENT_SYMBOL": "rough wave-notch emblem",
+        "WARDROBE_STYLE": "plain white spray vest over a navy base layer with no numbers or sponsor marks"
+      }
+    },
+    {
+      "case_name": "subway-floorwork",
+      "values": {
+        "SUBJECT": "an anonymous street dancer",
+        "SUBJECT_ACTION": "sweeping through one-handed floorwork with the legs tracing a strong diagonal blur",
+        "PRODUCT_OR_PROP": "a compact silver portable speaker with all labels removed",
+        "LOCATION": "a cobalt-tiled underground concourse after closing",
+        "BACKGROUND_ELEMENTS": "soft fluorescent ceiling streaks, repeating blue columns, and an empty polished floor",
+        "MAIN_TEXT": "FLOOR / SIGNAL / NIGHT",
+        "SECONDARY_TEXT": "CIRCLE OPEN / 22:30 / LOWER HALL / ONE ROUND MORE",
+        "ACCENT_SYMBOL": "rough rotating-arrow emblem",
+        "WARDROBE_STYLE": "loose charcoal trousers, a plain cream tee, and one fluorescent-green wrist wrap"
+      }
+    },
+    {
+      "case_name": "plaza-roller",
+      "values": {
+        "SUBJECT": "an anonymous quad roller skater",
+        "SUBJECT_ACTION": "carving a wide turn while one leg crosses forward and fabric trails behind",
+        "PRODUCT_OR_PROP": "white quad skates with cobalt wheels and blank boot panels",
+        "LOCATION": "an open civic plaza washed in deep blue evening light",
+        "BACKGROUND_ELEMENTS": "long paving seams, a low concrete bench, and softly streaked trees at the edge",
+        "MAIN_TEXT": "ROLL / LATE / LOOP",
+        "SECONDARY_TEXT": "PLAZA CIRCUIT / 20:45 / OPEN WHEELS / LAST LOOP",
+        "ACCENT_SYMBOL": "rough orbit-ring slash",
+        "WARDROBE_STYLE": "a plain orange-red windbreaker over navy shorts with no patches, logos, or team marks"
+      }
+    }
+  ]
+}

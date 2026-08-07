@@ -1,0 +1,171 @@
+{
+  "style_name": "Crimson Noir Newsprint Editorial",
+  "style_slug": "crimson-noir-newsprint-editorial-style",
+  "style_version": "2.1",
+  "style_summary": "A prestige culture-magazine cover system built from one monumental grayscale portrait, narrow Didone display type, condensed editorial callouts, selective deep-crimson documentary fragments, and a visibly fibrous newsprint finish.",
+  "environment_variables": {
+    "SUBJECT": "fictional or non-identifiable editorial portrait subject",
+    "SUBJECT_ACTION": "controlled pose, gaze, or small gesture",
+    "PRODUCT_OR_PROP": "one restrained object connected to the profile story",
+    "LOCATION": "editorial setting or conceptual location",
+    "BACKGROUND_ELEMENTS": "secondary documentary fragments and contextual details",
+    "MAIN_TEXT": "large feature headline rendered verbatim",
+    "SECONDARY_TEXT": "short supporting cover lines rendered verbatim",
+    "ACCENT_SYMBOL": "small geometric editorial accent",
+    "WARDROBE_STYLE": "dark wardrobe and material direction",
+    "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
+    "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
+    "ASPECT_RATIO": "4:5 or 5:4"
+  },
+  "style_fidelity_anchors": [
+    "Prestige editorial-cover hierarchy with an oversized top masthead, one dominant central portrait, and a dark typography-heavy lower zone.",
+    "A single close-cropped grayscale head-and-shoulders portrait occupies most of the frame and partially occludes the masthead.",
+    "The subject sits slightly off center, leaving narrow asymmetric side gutters for tightly stacked editorial copy.",
+    "The background remains a flat warm bone-white paper field with no scenic depth; secondary fragments enter only as layered print collage.",
+    "The palette stays strictly warm off-white, soot black, grayscale, and deep crimson, with crimson used as a selective signal rather than a broad fill.",
+    "Ultra-large narrow high-contrast Didone serif lettering is paired with bold uppercase condensed grotesk callouts and tiny neutral metadata.",
+    "Dense but controlled copy blocks use short manual line breaks, tight leading, and crisp left or right alignment around the portrait.",
+    "Large pale serif feature lettering crosses the near-black lower portrait or garment mass and may crop at the canvas edge.",
+    "Small four-point diamond sparks, thin rules, and occasional crimson caption bars punctuate the page sparingly.",
+    "The entire image carries fibrous uncoated paper, dry-ink speckle, subtle halftone, slightly distressed letter edges, and mild registration imperfection.",
+    "Soft directional monochrome portrait lighting creates luminous silvery midtones, crisp eyes, textured skin, glossy dark hair, and deep garment shadows.",
+    "The mood remains cinematic, intellectual, austere, and archival, like contemporary arts journalism printed with mid-century press character."
+  ],
+  "source_content_to_avoid": [
+    "Any recognizable likeness, facial structure, hairstyle, gaze, pose, or silhouette of Cillian Murphy or another real public figure.",
+    "The original male-actor portrait concept, black formal jacket with decorative pins, or an identical three-quarter head position.",
+    "The original publication name, exact masthead lockup, star-shaped letterform, issue metadata, barcode, price, or publisher identity.",
+    "Every original English or Vietnamese headline, caption, date, award claim, personal name, and supporting cover line.",
+    "The best-actor, Oscar, game-of-the-year, AI-filmmaking, or Vietnamese war-cinema story premises.",
+    "Red-tinted duplicate images or film stills of the same person and the exact lower-background collage arrangement.",
+    "Any exact logo, signature, watermark, username, platform mark, QR code, brand mark, or identifiable publication device.",
+    "The precise source text coordinates or line breaks when they would reproduce the original cover instead of only its broader hierarchy."
+  ],
+  "visual_deconstruction": {
+    "overall_style": "Cinematic prestige-magazine cover combining monochrome portrait photography with archival print-modernist art direction.",
+    "composition_and_layout": "A giant masthead spans the top; a face dominates the center; short cover lines fill asymmetric side gutters; an oversized feature line lands over the dark lower third.",
+    "subject_placement": "Tight head-and-shoulders crop, slightly off center, with hair or head overlapping the masthead and the lower garment forming a dark base for pale typography.",
+    "camera_and_perspective": "Eye-level close portrait with a three-quarter turn, shallow environmental depth, compressed editorial framing, and direct psychological presence.",
+    "typography": "Narrow high-contrast Didone display serif for masthead and hero headline, condensed bold sans for topical callouts, and tiny neutral sans for folio-like metadata.",
+    "color": "Warm bone paper, soot black, neutral grays, and deep crimson; photographs are grayscale except for selective crimson duotone documentary fragments.",
+    "graphic_elements": "Sparse four-point sparks, thin rules, crimson caption bars, small folio lines, and torn or irregular collage transitions.",
+    "texture_and_finish": "Fibrous uncoated paper, dry ink, fine speckle, restrained halftone, slight registration drift, and gently distressed type edges.",
+    "lighting": "Soft directional monochrome light with luminous facial midtones, crisp eye detail, deep hair and wardrobe blacks, and minimal background modeling.",
+    "mood": "Severe, cerebral, cinematic, rebellious, and culturally prestigious without becoming glossy or luxurious."
+  },
+  "composition": {
+    "primary_hierarchy": "Top masthead, monumental portrait, asymmetric side-copy modules, then a large lower feature line across the dark garment or collage mass.",
+    "portrait_scale": "The head and shoulders occupy roughly 55 to 70 percent of the frame; crop hair, shoulders, or feature lettering when needed to create editorial tension.",
+    "copy_density": "Keep both side gutters active with three to five short typographic modules, but preserve a clean halo around the eyes and central facial planes.",
+    "ratio_adaptation": "For 4:5, use a tall magazine-cover stack. For 5:4, widen the masthead and distribute copy laterally while retaining the same cover hierarchy and dominant portrait rather than opening into a landscape scene.",
+    "depth": "Treat the page as flat layered print: portrait cutout, paper field, text, and documentary fragments. Do not build a deep cinematic environment."
+  },
+  "typography": {
+    "masthead": "Extremely large, narrow, high-contrast Didone capitals with sharp unbracketed serifs, close spacing, and selective black-to-crimson color changes.",
+    "feature_headline": "Oversized pale Didone capitals with tight leading, set over the darkest lower image mass and allowed to crop at an outer edge.",
+    "callouts": "Bold uppercase condensed grotesk sans, stacked in short blocks with selective crimson words or crimson label bars.",
+    "metadata": "Tiny neutral or condensed sans in black, with wide tracking only for brief folio-like lines.",
+    "rendering": "All supplied text should be rendered verbatim with editorially intentional line breaks, dry-ink edges, and no decorative fonts outside the defined pairing."
+  },
+  "color_palette": {
+    "paper_bone": "#E8E4D8",
+    "soot_black": "#11100F",
+    "deep_crimson": "#A40F18",
+    "silver_gray": "#A7A7A3",
+    "ink_white": "#F3F0E7",
+    "proportion_rule": "Approximately 52 percent bone paper and silver grayscale, 36 percent soot black, and no more than 12 percent deep crimson."
+  },
+  "photographic_direction": {
+    "subject": "Use a fictional adult with clearly original, non-celebrity facial features and natural skin texture.",
+    "lens_and_crop": "Simulate an 85 mm editorial portrait at eye level, tightly cropped to head and shoulders with a slight three-quarter turn.",
+    "light": "One broad directional key light, gentle facial falloff, bright catchlights, deep black hair and wardrobe, and no colorful rim light.",
+    "processing": "Convert the main portrait to rich neutral grayscale with restrained contrast; reserve crimson duotone for small background fragments only.",
+    "finish": "Merge photography into the paper through halftone, dry ink, and light grain without obscuring the eyes or major text."
+  },
+  "design_rules": [
+    "Establish the masthead and portrait overlap first; all smaller copy must defer to that silhouette.",
+    "Keep one face dominant and limit props to a single quiet story clue near an edge or in the lower crop.",
+    "Use crimson only for selected masthead letters, one or two callouts, documentary fragments, and tiny accent marks.",
+    "Preserve flat editorial layering and irregular collage edges instead of adding scenic perspective or floating 3D decoration.",
+    "Maintain deliberate type contrast: Didone for prestige and scale, condensed grotesk for urgency, neutral sans for metadata.",
+    "Apply grain and distress consistently across paper, photography, and type while protecting readability and facial detail.",
+    "Adapt horizontal output as a widened cover composition, not as a banner, film still, or environmental portrait."
+  ],
+  "do": [
+    "Use a close, psychologically present grayscale portrait with original non-celebrity features.",
+    "Let the portrait overlap the masthead and let pale feature type cross the darkest lower image area.",
+    "Keep short side-column headlines dense, legible, and rhythmically staggered around the face.",
+    "Use deep crimson as a measured editorial accent and in compact duotone documentary fragments.",
+    "Preserve visible bone-paper fibers, dry ink, fine speckle, and slight analog imperfection."
+  ],
+  "avoid": [
+    "Do not create a recognizable real person, celebrity likeness, copied pose, or copied wardrobe details.",
+    "Do not reuse the original masthead, publication identity, wording, awards story, actor theme, or film-war collage.",
+    "Do not use full-color portrait photography, broad red gradients, neon hues, glossy commercial retouching, or chrome effects.",
+    "Do not introduce deep environments, cinematic scenery, multiple equal-size people, or an open landscape composition.",
+    "Do not use rounded playful fonts, generic geometric sans for the masthead, script lettering, or decorative display clutter.",
+    "Do not make the page spacious or minimalist; preserve controlled editorial density without covering the eyes.",
+    "Do not add watermarks, logos, signatures, usernames, platform marks, QR codes, barcodes, or publisher identifiers.",
+    "Do not over-degrade the image with heavy scratches, crushed facial detail, illegible text, or chaotic registration errors."
+  ],
+  "prompt_template": "Create a {ASPECT_RATIO} prestige editorial image in the \"Crimson Noir Newsprint Editorial\" visual style.\n\nStyle fidelity takes priority over novelty. Before composing the content, obey these observable anchors: {STYLE_FIDELITY_ANCHORS}\nDo not recreate any of this literal source content: {SOURCE_CONTENT_TO_AVOID}\n\nSubject: {SUBJECT}\nAction and gaze: {SUBJECT_ACTION}\nStory prop: {PRODUCT_OR_PROP}\nConceptual location: {LOCATION}\nDocumentary fragments: {BACKGROUND_ELEMENTS}\nMain feature text, render verbatim: \"{MAIN_TEXT}\"\nSupporting cover text, render verbatim: \"{SECONDARY_TEXT}\"\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe and styling: {WARDROBE_STYLE}\n\nBuild a finished culture-magazine cover around one tight grayscale head-and-shoulders portrait. Place the original, fictional subject slightly off center at eye level with a small three-quarter turn; the head must occupy most of the frame and partially occlude an enormous top masthead made from narrow high-contrast Didone capitals. Leave only narrow asymmetric side gutters and fill them with three to five short, controlled cover-line modules. Keep the eyes and central facial planes unobstructed. Place the supplied main feature text in oversized pale Didone capitals across the darkest lower portrait or garment mass, with intentional edge cropping. Pair all display serif type with bold uppercase condensed grotesk callouts and tiny neutral sans metadata. Render only the supplied wording, with intentional line breaks and no extra names, claims, issue numbers, or publication identities.\n\nUse a strict warm bone-white, soot-black, grayscale, and deep-crimson palette. Keep the main portrait neutral monochrome; use crimson sparingly for selected letters, one or two callouts, the accent symbol, and small duotone documentary fragments entering through irregular torn lower edges. Treat the design as flat layered print rather than a deep scene. Cover the whole page with fibrous uncoated paper, dry-ink speckle, restrained halftone, slightly distressed letter edges, and mild analog registration imperfection. Light the face with a broad soft directional key for luminous silver midtones, crisp catchlights, real skin texture, glossy dark hair, and deep wardrobe blacks.\n\nFor 4:5, use a tall magazine-cover stack. For 5:4, widen the masthead and distribute the side copy laterally while keeping the portrait monumental and the hierarchy unmistakably cover-like; do not turn it into a cinematic landscape or banner. Add only sparse four-point diamond sparks, thin rules, or one crimson caption bar. The result must feel cerebral, severe, cinematic, archival, and editorially prestigious. Match the defined visual system first, then express the new subject, prop, story fragments, and text.\n\nAvoid recognizable public figures, copied publication devices, exact source wording, logos, watermarks, barcodes, QR codes, signatures, full-color portraiture, glossy gradients, neon, chrome, 3D typography, deep scenic perspective, multiple equal-size people, playful rounded fonts, illegible copy, excessive distress, and any extra text not supplied above.",
+  "negative_prompt": "Recognizable celebrity or public figure; copied face, hairstyle, pose, wardrobe pins, masthead, publication name, original English or Vietnamese copy, Oscar or best-actor framing, gaming awards, AI filmmaking, war-film premise, exact red film-still collage, logo, watermark, signature, username, platform mark, QR code, barcode, price, full-color skin, neon, broad gradients, glossy advertising retouch, chrome, 3D type, deep environment, wide cinematic scene, multiple equal subjects, smiling lifestyle photography, rounded playful typography, script font, sparse minimalist cover, blocked eyes, muddy face, unreadable text, excessive scratches, heavy glitch, random extra letters.",
+  "examples": [
+    {
+      "case_name": "lunar-habitat-architect",
+      "values": {
+        "SUBJECT": "a fictional middle-aged woman architect with a short silver bob and distinctly original non-celebrity facial features",
+        "SUBJECT_ACTION": "turning slightly toward camera with a calm analytical gaze",
+        "PRODUCT_OR_PROP": "a rolled lunar-habitat blueprint visible only at the lower edge of frame",
+        "LOCATION": "a conceptual editorial studio presented as a flat bone-paper cover field",
+        "BACKGROUND_ELEMENTS": "small crimson duotone fragments of modular moon habitats, textured regolith, and gloved construction crews",
+        "MAIN_TEXT": "ARCHITECT OF DUST",
+        "SECONDARY_TEXT": "LUNAR HOMES / NEW MATERIALS / ISSUE SEVEN",
+        "ACCENT_SYMBOL": "a small four-point diamond star",
+        "WARDROBE_STYLE": "a matte black technical jacket with a sculptural high collar and no insignia"
+      }
+    },
+    {
+      "case_name": "midnight-jazz-arranger",
+      "values": {
+        "SUBJECT": "a fictional older Black male jazz arranger with close-cropped gray hair and an original weathered face",
+        "SUBJECT_ACTION": "holding a steady sideward gaze as if listening for the next beat",
+        "PRODUCT_OR_PROP": "a small vintage brass metronome cropped near one shoulder",
+        "LOCATION": "an abstract late-night music journal cover with no visible room depth",
+        "BACKGROUND_ELEMENTS": "crimson duotone fragments of a horn section, marked score paper, and a conductor's hand in motion",
+        "MAIN_TEXT": "NIGHT HAS A PULSE",
+        "SECONDARY_TEXT": "JAZZ AFTER DARK / ANALOG RHYTHMS / VOLUME TWELVE",
+        "ACCENT_SYMBOL": "a thin four-point crimson spark",
+        "WARDROBE_STYLE": "a charcoal turtleneck beneath a soft black linen coat without lapel pins"
+      }
+    },
+    {
+      "case_name": "arctic-microbiologist",
+      "values": {
+        "SUBJECT": "a fictional Southeast Asian woman microbiologist in her forties with wind-marked skin and unique non-celebrity features",
+        "SUBJECT_ACTION": "meeting the camera with a quiet resolute expression after fieldwork",
+        "PRODUCT_OR_PROP": "a sealed ice-core sample vial held low and partly outside the crop",
+        "LOCATION": "a conceptual polar-science magazine cover reduced to layered paper and portrait",
+        "BACKGROUND_ELEMENTS": "crimson duotone fragments of ice drilling, microscopic cell forms, and a distant research shelter",
+        "MAIN_TEXT": "LIFE BELOW ZERO",
+        "SECONDARY_TEXT": "HIDDEN ECOSYSTEMS / FIELD LOG / THE COLD FRONTIER",
+        "ACCENT_SYMBOL": "a compact diamond snow-star",
+        "WARDROBE_STYLE": "a matte black insulated field parka with a plain raised collar and no branding"
+      }
+    },
+    {
+      "case_name": "kiln-form-artist",
+      "values": {
+        "SUBJECT": "a fictional young nonbinary ceramic artist with shaved sides, a loose curly top, and unmistakably original facial features",
+        "SUBJECT_ACTION": "looking past the camera with a composed questioning expression",
+        "PRODUCT_OR_PROP": "one rough clay shard held close to the dark lower crop",
+        "LOCATION": "a conceptual independent craft journal cover on flat warm paper",
+        "BACKGROUND_ELEMENTS": "crimson duotone fragments of kiln flames, stacked vessels, clay-coated hands, and workshop shelves",
+        "MAIN_TEXT": "FORM FROM FIRE",
+        "SECONDARY_TEXT": "NEW CERAMICS / EARTH AND HEAT / STUDIO NOTES",
+        "ACCENT_SYMBOL": "a small four-point ember star",
+        "WARDROBE_STYLE": "a soot-black work shirt and textured apron with no labels or logos"
+      }
+    }
+  ]
+}

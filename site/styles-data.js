@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 110,
+  "styleCount": 112,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,78 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Crimson Noir Newsprint Editorial",
+      "slug": "crimson-noir-newsprint-editorial-style",
+      "category": "Editorial + Minimal",
+      "description": "Prestige culture-magazine covers with a monumental grayscale portrait, narrow Didone display type, selective deep-crimson fragments, and a fibrous newsprint finish.",
+      "summary": "A prestige culture-magazine cover system built from one monumental grayscale portrait, narrow Didone display type, condensed editorial callouts, selective deep-crimson documentary fragments, and a visibly fibrous newsprint finish.",
+      "preview16": "../styles/crimson-noir-newsprint-editorial-style/preview-16x9.jpg",
+      "preview9": "../styles/crimson-noir-newsprint-editorial-style/preview-9x16.jpg",
+      "styleJson": "../styles/crimson-noir-newsprint-editorial-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/crimson-noir-newsprint-editorial-style.md",
+      "folder": "../styles/crimson-noir-newsprint-editorial-style/",
+      "anchors": [
+        "Prestige editorial-cover hierarchy with an oversized top masthead, one dominant central portrait, and a dark typography-heavy lower zone.",
+        "A single close-cropped grayscale head-and-shoulders portrait occupies most of the frame and partially occludes the masthead.",
+        "The subject sits slightly off center, leaving narrow asymmetric side gutters for tightly stacked editorial copy.",
+        "The background remains a flat warm bone-white paper field with no scenic depth; secondary fragments enter only as layered print collage.",
+        "The palette stays strictly warm off-white, soot black, grayscale, and deep crimson, with crimson used as a selective signal rather than a broad fill.",
+        "Ultra-large narrow high-contrast Didone serif lettering is paired with bold uppercase condensed grotesk callouts and tiny neutral metadata."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "lunar-habitat-architect",
+      "copyPrompt": "Use the \"Crimson Noir Newsprint Editorial\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a fictional middle-aged woman architect with a short silver bob and distinctly original non-celebrity facial features\nSubject action: turning slightly toward camera with a calm analytical gaze\nProduct or prop: a rolled lunar-habitat blueprint visible only at the lower edge of frame\nLocation: a conceptual editorial studio presented as a flat bone-paper cover field\nBackground elements: small crimson duotone fragments of modular moon habitats, textured regolith, and gloved construction crews\nMain text: ARCHITECT OF DUST\nSecondary text: LUNAR HOMES / NEW MATERIALS / ISSUE SEVEN\nAccent symbol: a small four-point diamond star\nWardrobe style: a matte black technical jacket with a sculptural high collar and no insignia\n\nStyle direction:\nA prestige culture-magazine cover system built from one monumental grayscale portrait, narrow\nDidone display type, condensed editorial callouts, selective deep-crimson documentary fragments,\nand a visibly fibrous newsprint finish.\n\nKeep visible:\n- Prestige editorial-cover hierarchy with an oversized top masthead, one dominant central portrait, and a dark typography-heavy lower zone.\n- A single close-cropped grayscale head-and-shoulders portrait occupies most of the frame and partially occludes the masthead.\n- The subject sits slightly off center, leaving narrow asymmetric side gutters for tightly stacked editorial copy.\n- The background remains a flat warm bone-white paper field with no scenic depth; secondary fragments enter only as layered print collage.\n- The palette stays strictly warm off-white, soot black, grayscale, and deep crimson, with crimson used as a selective signal rather than a broad fill.\n\nAvoid:\nRecognizable celebrity or public figure; copied face, hairstyle, pose, wardrobe pins, masthead,\npublication name, original English or Vietnamese copy, Oscar or best-actor framing, gaming\nawards, AI filmmaking, war-film premise, exact red film-still collage, logo, watermark,\nsignature, username, platform mark, QR code, barcode, price, full-color skin, neon, broad\ngradients, glossy advertising retouch, chrome, 3D type, deep environment, wide cinematic scene,\nmultiple equal subjects, smiling lifestyle photography, rounded playful typography, script font,\nsparse minimalist cover, blocked eyes, muddy face, unreadable text, excessive scratches, heavy\nglitch, random extra letters.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
+    {
+      "name": "Electric Cobalt Motion Type Poster",
+      "slug": "electric-cobalt-motion-type-poster-style",
+      "category": "Type Posters",
+      "description": "High-energy event posters with a full-bleed motion-smeared photo, a cobalt field, fluorescent-green ultra-condensed type, oversized lower-edge numerals, and analog print texture.",
+      "summary": "A high-energy community-event poster system that combines one full-bleed motion-smeared photograph, a cobalt-blue field, fluorescent green ultra-condensed display type, a compact white-and-orange center lockup, oversized lower-edge numerals, and deliberately imperfect analog print texture.",
+      "preview16": "../styles/electric-cobalt-motion-type-poster-style/preview-16x9.jpg",
+      "preview9": "../styles/electric-cobalt-motion-type-poster-style/preview-9x16.jpg",
+      "styleJson": "../styles/electric-cobalt-motion-type-poster-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/electric-cobalt-motion-type-poster-style.md",
+      "folder": "../styles/electric-cobalt-motion-type-poster-style/",
+      "anchors": [
+        "One full-bleed photographic poster with a single dominant moving subject cropped tightly by multiple frame edges.",
+        "Strong directional motion smear follows the subject's gesture while the overall silhouette remains readable and energetic.",
+        "Saturated cobalt and ultramarine blue occupy most of the photographic field, with no gradient background treatment.",
+        "Fluorescent spring-green display lettering provides the dominant graphic contrast, supported by white and one concentrated orange-red accent.",
+        "Oversized ultra-condensed curvilinear display type sits directly on the photograph, with tall narrow letters, sharp waistlines, tight spacing, and dramatic vertical scale.",
+        "A loose three-column editorial rhythm structures both the upper headline band and the lower information band with very tight outer margins."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO"
+      ],
+      "exampleName": "velodrome-turn",
+      "copyPrompt": "Use the \"Electric Cobalt Motion Type Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: an anonymous track cyclist\nSubject action: leaning through a steep banked turn with shoulders low and wheels sweeping sideways\nProduct or prop: a matte silver fixed-gear bicycle with blank surfaces and acid-green bar tape\nLocation: an indoor cobalt-painted velodrome during an evening open session\nBackground elements: blurred lane markings, a low safety rail, and soft blue venue lights\nMain text: BANK / TURN / LATE\nSecondary text: OPEN LAPS / 21:15 / EAST TRACK / TWO-WHEEL SESSION\nAccent symbol: double-chevron speed smear\nWardrobe style: brand-neutral black cycling skinsuit with a small white shoulder panel and no logos\n\nStyle direction:\nA high-energy community-event poster system that combines one full-bleed motion-smeared\nphotograph, a cobalt-blue field, fluorescent green ultra-condensed display type, a compact\nwhite-and-orange center lockup, oversized lower-edge numerals, and deliberately imperfect analog\nprint texture.\n\nKeep visible:\n- One full-bleed photographic poster with a single dominant moving subject cropped tightly by multiple frame edges.\n- Strong directional motion smear follows the subject's gesture while the overall silhouette remains readable and energetic.\n- Saturated cobalt and ultramarine blue occupy most of the photographic field, with no gradient background treatment.\n- Fluorescent spring-green display lettering provides the dominant graphic contrast, supported by white and one concentrated orange-red accent.\n- Oversized ultra-condensed curvilinear display type sits directly on the photograph, with tall narrow letters, sharp waistlines, tight spacing, and dramatic vertical scale.\n\nAvoid:\nsource runner, sprint race, four-kilometer run, white racing vest, ponytail runner, sauna, cold\nplunge, breathwork, summer fragrance event, copied source headline, copied date or time, copied\nvenue or URL, copied center wordmark, orange runner silhouette, source mascot, brand names,\nsponsor logos, real event marks, watermarks, signatures, usernames, QR codes, platform UI,\nidentifiable celebrity, protected athlete likeness, crisp frozen pose, tiny distant subject,\ngeneric centered title, wide empty border, rounded card, radial zoom blur, cyberpunk lighting,\nneon gradient, vaporwave grid, 3D chrome, glossy CGI, vector-only subject, sticker pack, torn\npaper, heavy halftone, graffiti wall, paint splashes, uncontrolled orange palette, muddy\ncompression, excessive digital noise, malformed anatomy, extra limbs, grotesque face, long\nillegible paragraphs\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Cobalt Torn Didone Portrait Editorial",
       "slug": "cobalt-torn-didone-portrait-editorial-style",

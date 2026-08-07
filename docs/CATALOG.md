@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 110 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 112 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Crimson Noir Newsprint Editorial
+
+<a href="../styles/crimson-noir-newsprint-editorial-style"><img src="../assets/thumbs/crimson-noir-newsprint-editorial-style-16x9.jpg" width="720" alt="Crimson Noir Newsprint Editorial preview"></a>
+
+A prestige culture-magazine cover system built from one monumental grayscale portrait, narrow Didone display type, condensed editorial callouts, selective deep-crimson documentary fragments, and a visibly fibrous newsprint finish.
+
+Files: [style.json](../styles/crimson-noir-newsprint-editorial-style/style.json) · [Copy Prompt](copy-prompts/crimson-noir-newsprint-editorial-style.md) · [16:9 preview](../styles/crimson-noir-newsprint-editorial-style/preview-16x9.jpg) · [9:16 preview](../styles/crimson-noir-newsprint-editorial-style/preview-9x16.jpg) · [Folder](../styles/crimson-noir-newsprint-editorial-style)
+
+---
+
+### Electric Cobalt Motion Type Poster
+
+<a href="../styles/electric-cobalt-motion-type-poster-style"><img src="../assets/thumbs/electric-cobalt-motion-type-poster-style-16x9.jpg" width="720" alt="Electric Cobalt Motion Type Poster preview"></a>
+
+A high-energy community-event poster system that combines one full-bleed motion-smeared photograph, a cobalt-blue field, fluorescent green ultra-condensed display type, a compact white-and-orange center lockup, oversized lower-edge numerals, and deliberately imperfect analog print texture.
+
+Files: [style.json](../styles/electric-cobalt-motion-type-poster-style/style.json) · [Copy Prompt](copy-prompts/electric-cobalt-motion-type-poster-style.md) · [16:9 preview](../styles/electric-cobalt-motion-type-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/electric-cobalt-motion-type-poster-style/preview-9x16.jpg) · [Folder](../styles/electric-cobalt-motion-type-poster-style)
+
+---
 
 ### Cobalt Torn Didone Portrait Editorial
 
