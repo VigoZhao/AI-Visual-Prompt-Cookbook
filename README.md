@@ -1125,19 +1125,19 @@ New style submissions should follow the public package shape and validation rule
 
 ## Star History
 
-<a href="https://star-history.com/#VigoZhao/AI-Visual-Prompt-Cookbook&Date">
+<a href="https://star-history.dera.page/#VigoZhao/AI-Visual-Prompt-Cookbook&type=date">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://api.star-history.com/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date&theme=dark"
+      srcset="https://star-history.dera.page/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date&theme=dark"
     >
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://api.star-history.com/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date"
+      srcset="https://star-history.dera.page/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date"
     >
     <img
       alt="Star History Chart"
-      src="https://api.star-history.com/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date"
+      src="https://star-history.dera.page/svg?repos=VigoZhao/AI-Visual-Prompt-Cookbook&type=Date"
     >
   </picture>
 </a>
