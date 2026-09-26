@@ -1,0 +1,122 @@
+{
+  "style_version": "1.0.0",
+  "style_name": "Slice Signal Editorial",
+  "style_slug": "slice-signal-editorial",
+  "style_summary": "Restrained, sharp experimental editorial posters built from oversized condensed headlines, black-white-and-scarlet blocks, and photographic subjects interrupted by vertical slices.",
+  "environment_variables": {
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "STYLE_FIDELITY_ANCHORS": "Prioritized style anchors",
+    "SOURCE_CONTENT_TO_AVOID": "Original content to replace",
+    "SUBJECT": "The person, object, or scene that carries this case",
+    "ACTION": "The visible action or visual state of the subject",
+    "MAIN_TEXT": "Exact large headline",
+    "SECONDARY_TEXT": "Exact small supporting line",
+    "DESIGN_DIRECTION": "Case-specific concept, composition, and slice interaction",
+    "SUBJECT_ACTION": "How the photographic subject is interrupted by vertical slices",
+    "PRODUCT_OR_PROP": "Scarlet block or sliced photographic fragment",
+    "LOCATION": "Black, white and scarlet editorial field",
+    "BACKGROUND_ELEMENTS": "Vertical slice interruptions and hard color planes",
+    "ACCENT_SYMBOL": "Scarlet signal block",
+    "WARDROBE_STYLE": "Clothing remaining in the sliced photographic subject"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Oversized uppercase condensed grotesk display type is a primary structural element, with forceful narrow proportions and strong contrast against quieter fields; keep at least one complete phrase readable.",
+    "[CORE] Treat a realistic photographic person, object, or scene with narrow vertical shutter-like slices that selectively shift, stretch, repeat, or interrupt image bands while leaving the subject recognizable.",
+    "[CORE] Build a stark palette from near-black, cool off-white, and one decisive signal-red accent; vary their proportions while keeping the overall contrast sharp.",
+    "[CORE] Use hard rectangular fields, abrupt horizontal cuts, and fine divider lines to organize the image like a tightly edited print poster.",
+    "[CORE] Pair the giant display title with a restrained secondary line in small clean sans-serif or slim italic lettering; it remains subordinate and intentional.",
+    "[CORE] Keep type fields crisp and graphic while any scan-like grain or softness stays subtle and localized to the photographic image.",
+    "[FLEX] Let each case decide the crop, band lengths, offset rhythm, title placement, and whether the red accent interrupts, frames, or redirects the subject.",
+    "[FLEX] Recompose portrait and landscape independently; change the type-image balance and negative space to serve the same case concept in each ratio."
+  ],
+  "source_content_to_avoid": [
+    "The source wording YOUR MOUTH., EVERYONE GOSSIPS, and shhh!!! everyone's talking behind your back.",
+    "The source person's identity, face, hairstyle, expression, clothing, and exact front-facing portrait.",
+    "The source poster's fixed centered face, uniform long vertical slit overlay, black frame, and red band across the lower portion as one copied layout.",
+    "The source's literal gossip and whisper-behind-someone's-back story premise."
+  ],
+  "visual_deconstruction": {
+    "source": "A narrow poster sets enormous pale condensed lettering against black at the top, tiny editorial labels below it, then a photographic face broken by long narrow vertical bands. Cool pale side fields and a saturated red lower field create an abrupt color interruption; a small italic sentence closes the black footer.",
+    "hierarchy": "The oversized title establishes the poster's voice first, the fragmented photographic subject creates a second focal plane, and small supporting copy provides a quiet editorial finish.",
+    "graphic_language": "Vertical image slits, sharp rectangular color fields, thin horizontal rules, and deliberate crop changes create a sense of interrupted communication."
+  },
+  "composition": {
+    "principle": "Make typography and a sliced photographic subject share the poster's structure, then use clean fields and one red interruption to establish a clear focal path.",
+    "adaptation": "The layout may stack, split, or stretch across the frame. Give each case a distinct title-image relationship, and rebuild that relationship for portrait or landscape instead of cropping one layout."
+  },
+  "typography": {
+    "form": "Oversized uppercase condensed grotesk display lettering with tall, tightly packed forms and crisp edges; supporting copy uses a small clean sans-serif or restrained italic.",
+    "hierarchy": "One short exact headline dominates. A single small supporting line may sit near an edge or divider. Keep both legible and do not add filler copy."
+  },
+  "color_palette": {
+    "frame": "Near-black and cool off-white form the primary high-contrast fields.",
+    "accent": "Signal red appears as one decisive block, bar, or narrow interruption, with freedom to shift its area and position."
+  },
+  "image_treatment": {
+    "type": "Editorial photography with a deliberate vertical shutter-slice treatment, integrated into hard-edged poster fields.",
+    "texture": "Subtle scan grain and slight tonal softness may live inside the photograph only; lettering and flat color blocks stay clean, unaged, and sharply bounded.",
+    "light": "Controlled high-contrast portrait or object lighting with readable tonal detail through the slices; keep skin and object materials plausible."
+  },
+  "design_rules": [
+    "Make the case concept visibly change how the title, subject, and vertical bands interact.",
+    "Keep the photographic subject recognizable; vary slice width and offsets instead of obscuring every essential feature.",
+    "Render only the exact main and secondary copy supplied by the case, with no invented labels, logos, or extra slogans.",
+    "Keep the red accent deliberate and visually connected to the case concept rather than using it as decoration without purpose.",
+    "Adapt composition and empty space independently for each output ratio while preserving the same case idea."
+  ],
+  "do": [
+    "Use large typographic scale changes, abrupt cuts, and restrained negative space.",
+    "Allow selected image bands to shift or stretch in a controlled, intentional rhythm.",
+    "Use the subject's action or state to shape the slicing pattern and red interruption."
+  ],
+  "avoid": [
+    "Reconstructing the reference's exact title, footer, portrait position, or red lower block.",
+    "Unreadable letterforms, accidental extra text, fake brand marks, or decorative logo-like symbols.",
+    "Random digital corruption, full-frame pixel noise, heavy distress, or slicing so dense that the subject disappears."
+  ],
+  "prompt_template": "Create a finished experimental editorial poster in {ASPECT_RATIO}.\n{STYLE_FIDELITY_ANCHORS}\nSubject: {SUBJECT}. Visible action or state: {ACTION}.\nRender the exact main headline {MAIN_TEXT} once in oversized uppercase condensed grotesk lettering. Render the exact small supporting line {SECONDARY_TEXT} once. These are the only words in the image; preserve spelling and do not add punctuation or filler copy.\nCase design direction: {DESIGN_DIRECTION}\nDevelop a fresh composition from the case concept. Use selected vertical shutter-like image bands as an intentional graphic structure, not a uniform filter, and let their rhythm interact with the headline and signal-red accent. Preserve a recognizable subject, sharp type edges, strong near-black/cool-off-white contrast, clean hard-edged fields, and useful negative space. Recompose specifically for the requested ratio. Exclude: {SOURCE_CONTENT_TO_AVOID}.",
+  "negative_prompt": "No source wording, copied poster layout, source-person identity, gossip scene, logos, brand names, watermarks, extra text, misspelled headline, pseudo-lettering, QR codes, UI, random glitch blocks, full-frame pixel noise, heavy grunge, sepia aging, unreadable face, or dense slices that erase the subject.",
+  "examples": [
+    {
+      "case_name": "speak-up",
+      "values": {
+        "SUBJECT": "A young adult woman in a strong side profile, face and shoulders lit against near-black, one hand cupped beside her mouth",
+        "ACTION": "calling out with a clear open-mouth expression and a grounded, confident posture",
+        "MAIN_TEXT": "SPEAK UP",
+        "SECONDARY_TEXT": "LET THE ROOM HEAR YOU",
+        "DESIGN_DIRECTION": "Make the voice feel like a physical interruption: a signal-red horizontal slab cuts through selected vertical face slices and breaks the headline's baseline, while the full phrase remains readable. Keep the portrait dynamic and distinct from a centered straight-on source portrait."
+      }
+    },
+    {
+      "case_name": "stay-private",
+      "values": {
+        "SUBJECT": "A young adult man seen through reflective glass, with one calm eye and part of his profile visible among layered reflections",
+        "ACTION": "looking away from the viewer as if choosing what to keep unseen",
+        "MAIN_TEXT": "STAY PRIVATE",
+        "SECONDARY_TEXT": "KEEP WHAT IS YOURS",
+        "DESIGN_DIRECTION": "Use uneven vertical reflection bands as a privacy veil: let a few slices reveal the eye while others slide sideways into cool off-white negative space. Place a narrow signal-red divider like a boundary, not a censor bar, and give the headline a quiet, protected pocket of space."
+      }
+    },
+    {
+      "case_name": "find-your-voice",
+      "values": {
+        "SUBJECT": "A young adult singer in profile holding an unbranded vintage handheld microphone close to the face",
+        "ACTION": "singing into the microphone with focused intensity",
+        "MAIN_TEXT": "FIND YOUR VOICE",
+        "SECONDARY_TEXT": "TUNE IN TO YOURSELF",
+        "DESIGN_DIRECTION": "Let the microphone become the sharp focal anchor while vertical photographic bands lengthen outward like a measured sound signal. The red accent should pulse from the microphone into the type field; compose the long headline as a sculptural stacked or side-running form without obscuring the singer."
+      }
+    },
+    {
+      "case_name": "cut-the-noise",
+      "values": {
+        "SUBJECT": "A young adult wearing plain over-ear headphones, eyes closed, shown in a close three-quarter portrait",
+        "ACTION": "listening quietly while the surrounding space feels crowded and loud",
+        "MAIN_TEXT": "CUT THE NOISE",
+        "SECONDARY_TEXT": "MAKE SPACE TO LISTEN",
+        "DESIGN_DIRECTION": "Compress several misaligned portrait bands around the head, then open a clean off-white or black negative-space pocket around the headphones. A signal-red bar should visibly stop the surrounding visual noise. Build the title in a strong split hierarchy, distinct from the other cases' image-text relationships."
+      }
+    }
+  ],
+  "category": "Editorial + Minimal"
+}

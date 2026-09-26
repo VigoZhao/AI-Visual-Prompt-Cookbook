@@ -6,7 +6,9 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Style | Copy Prompt | Full JSON |
 | --- | --- | --- |
 | Acid Burst Motion Type | [Copy Prompt](acid-burst-motion-type.md) | [style.json](../../styles/acid-burst-motion-type/style.json) |
+| Acid Jolt Portrait Collage | [Copy Prompt](acid-jolt-photo-collage.md) | [style.json](../../styles/acid-jolt-photo-collage/style.json) |
 | Acid Lime 3D Streetwear Type Poster Style | [Copy Prompt](acid-lime-3d-streetwear-type-poster-style.md) | [style.json](../../styles/acid-lime-3d-streetwear-type-poster-style/style.json) |
+| Amber Orbit Editorial | [Copy Prompt](amber-orbit-editorial.md) | [style.json](../../styles/amber-orbit-editorial/style.json) |
 | Analog Sticker Diary Portrait Poster Style | [Copy Prompt](analog-sticker-diary-portrait-poster-style.md) | [style.json](../../styles/analog-sticker-diary-portrait-poster-style/style.json) |
 | Annotated Absence | [Copy Prompt](annotated-absence.md) | [style.json](../../styles/annotated-absence/style.json) |
 | Backseat Transit Doodle Letter Poster Style | [Copy Prompt](backseat-transit-doodle-letter-poster-style.md) | [style.json](../../styles/backseat-transit-doodle-letter-poster-style/style.json) |
@@ -45,6 +47,8 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Electric Cobalt Motion Type Poster | [Copy Prompt](electric-cobalt-motion-type-poster-style.md) | [style.json](../../styles/electric-cobalt-motion-type-poster-style/style.json) |
 | Electric Yellow Cutout Megatype Poster Style | [Copy Prompt](electric-yellow-cutout-megatype-poster-style.md) | [style.json](../../styles/electric-yellow-cutout-megatype-poster-style/style.json) |
 | Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
+| Felt Motion Brand Campaign | [Copy Prompt](felt-motion-brand-campaign.md) | [style.json](../../styles/felt-motion-brand-campaign/style.json) |
+| Felt Motion Brand Campaign — Set 02 | [Copy Prompt](felt-motion-brand-campaign-set-02.md) | [style.json](../../styles/felt-motion-brand-campaign-set-02/style.json) |
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Folded Newspaper Product Ad Style | [Copy Prompt](folded-newspaper-product-ad-style.md) | [style.json](../../styles/folded-newspaper-product-ad-style/style.json) |
 | Foreshortened Gradient Impact Ad Style | [Copy Prompt](foreshortened-gradient-impact-ad-style.md) | [style.json](../../styles/foreshortened-gradient-impact-ad-style/style.json) |
@@ -75,6 +79,8 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Monochrome Grid Sneaker Tech Spec | [Copy Prompt](monochrome-grid-sneaker-tech-spec.md) | [style.json](../../styles/monochrome-grid-sneaker-tech-spec/style.json) |
 | Monochrome Tech-Grid Editorial | [Copy Prompt](monochrome-tech-grid-editorial.md) | [style.json](../../styles/monochrome-tech-grid-editorial/style.json) |
 | Monochrome Xerox Sports Dossier | [Copy Prompt](monochrome-xerox-sports-dossier.md) | [style.json](../../styles/monochrome-xerox-sports-dossier/style.json) |
+| Monumental Editorial — Set 02 | [Copy Prompt](monumental-editorial-set-02.md) | [style.json](../../styles/monumental-editorial-set-02/style.json) |
+| Monumental Sport Editorial | [Copy Prompt](monumental-sport-editorial.md) | [style.json](../../styles/monumental-sport-editorial/style.json) |
 | Motorsport Technical Editorial | [Copy Prompt](motorsport-technical-editorial.md) | [style.json](../../styles/motorsport-technical-editorial/style.json) |
 | Mountain Trail Monster Doodle Poster Style | [Copy Prompt](mountain-trail-monster-doodle-poster-style.md) | [style.json](../../styles/mountain-trail-monster-doodle-poster-style/style.json) |
 | Multi-Color Beverage Splash Ad System Style | [Copy Prompt](multi-color-beverage-splash-ad-system-style.md) | [style.json](../../styles/multi-color-beverage-splash-ad-system-style/style.json) |
@@ -121,6 +127,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Sky Blue Home Life Doodle Poster Style | [Copy Prompt](sky-blue-home-life-doodle-poster-style.md) | [style.json](../../styles/sky-blue-home-life-doodle-poster-style/style.json) |
 | Sky Blue Lucky Tag Doodle Poster Style | [Copy Prompt](sky-blue-lucky-tag-doodle-poster-style.md) | [style.json](../../styles/sky-blue-lucky-tag-doodle-poster-style/style.json) |
 | Skyward Condensed Action | [Copy Prompt](skyward-condensed-action.md) | [style.json](../../styles/skyward-condensed-action/style.json) |
+| Slice Signal Editorial | [Copy Prompt](slice-signal-editorial.md) | [style.json](../../styles/slice-signal-editorial/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Split Ink Monumental Editorial | [Copy Prompt](split-ink-monumental-editorial.md) | [style.json](../../styles/split-ink-monumental-editorial/style.json) |
 | Split Scorched Editorial Poster | [Copy Prompt](split-scorched-editorial-poster.md) | [style.json](../../styles/split-scorched-editorial-poster/style.json) |

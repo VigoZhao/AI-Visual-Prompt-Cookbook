@@ -1,0 +1,145 @@
+{
+  "style_version": "1.0",
+  "style_name": "Amber Orbit Editorial",
+  "style_slug": "amber-orbit-editorial",
+  "style_summary": "Intimate warm macro photography, grazing amber light, ivory serif typography and fine overlapping orbital lines turn tactile details into quiet editorial stories about attention, making and time.",
+  "environment_variables": {
+    "ASPECT_RATIO": "Output canvas ratio: 9:16 or 16:9.",
+    "STYLE_FIDELITY_ANCHORS": "Priority-ordered CORE and FLEX visual rules, injected from the canonical anchor list.",
+    "SOURCE_CONTENT_TO_AVOID": "Source-specific imagery, identity, wording and layout to replace.",
+    "SUBJECT": "A concrete tactile subject and the photographic detail that should dominate the image.",
+    "DESIGN_DIRECTION": "The new idea expressed through the relationship between the subject, the orbital geometry and the information hierarchy.",
+    "RATIO_DIRECTION": "Case-specific composition plans for portrait and landscape; apply the plan matching ASPECT_RATIO.",
+    "MAIN_TEXT": "Exact headline in delicate high-contrast serif lettering, without added punctuation.",
+    "LABEL_ONE": "Exact first small serif annotation label.",
+    "COPY_ONE": "Exact first subordinate sans-serif sentence fragment.",
+    "LABEL_TWO": "Exact second small serif annotation label.",
+    "COPY_TWO": "Exact second subordinate sans-serif sentence fragment.",
+    "LABEL_THREE": "Exact third small serif annotation label.",
+    "COPY_THREE": "Exact third subordinate sans-serif sentence fragment.",
+    "SUBJECT_ACTION": "How attention, making or time is shown through the tactile detail",
+    "PRODUCT_OR_PROP": "The intimate object under amber light",
+    "LOCATION": "Warm close editorial field",
+    "BACKGROUND_ELEMENTS": "Fine overlapping orbital lines",
+    "SECONDARY_TEXT": "Small ivory serif supporting lines",
+    "ACCENT_SYMBOL": "Grazing amber light and orbital line",
+    "WARDROBE_STYLE": "Hands, tools or surfaces that stay tactile and close"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Let one intimate, oversized photographic detail dominate the frame; render it as a tangible surface with real depth, an assertive crop and selective focal clarity.",
+    "[CORE] Keep a continuous warm tonal family of ivory, sand, honey amber, tobacco and deep brown, with luminous grazing highlights against quiet, sufficiently dark regions for pale lettering.",
+    "[CORE] Pair fine ivory high-contrast serif display lettering with small, restrained sans-serif supporting copy; preserve a quiet editorial hierarchy and ample breathing room.",
+    "[CORE] Overlay a small family of hairline, translucent ivory circles or circular arcs, nested, offset or tangent, that visibly relate to a meaningful contour or action in the photograph.",
+    "[CORE] Preserve tactile microtexture at the focal plane, gentle optical softness elsewhere and a few subtle horizontal light-drag veils across peripheral photo areas; keep the graphic lines and wording clear.",
+    "[FLEX] Let the subject's meaning determine the geometry: circles can suggest listening, rotation, refraction or unfolding, with projected ellipses permitted when motivated by photographic perspective.",
+    "[FLEX] Reposition subject, headline and annotations for each case and ratio; asymmetry, edge bleed and off-center visual balance may change freely while the warm photographic and ivory-line family stays recognizable.",
+    "[FLEX] Choose title line breaks and annotation placement for the available quiet space; labels may follow the orbital rhythm without forcing a fixed top-to-bottom timeline or copying the source."
+  ],
+  "source_content_to_avoid": [
+    "The reference woman's distinctive facial profile, eye, nose, lips and facial crop.",
+    "The headline Your longevity journey and the Month One, Month Two and Month Three labels.",
+    "The original skincare, anti-aging or health-outcome promises and their month-based narrative.",
+    "The exact centered title and vertically stacked circles meeting near the chin as a repeated layout.",
+    "Any source watermark, username, creator identity, platform mark, QR code or brand signature."
+  ],
+  "visual_deconstruction": "The reference is a tightly cropped side-profile beauty photograph. Cream and amber light crosses textured skin, while darker facial planes support ivory text. A narrow serif title sits above short stages, and several large thin circles overlap with displaced centers. Horizontal optical streaks soften the photograph without replacing its tactile surface. The reusable relationship is intimate photography plus a restrained orbital information layer; the particular face and month claims are source content.",
+  "composition": "Build a single immersive photographic field rather than panels or cards. Use the crop and the orbital geometry to connect the headline to three short annotations. Preserve visible negative space and a legible focal path. Plan a tall rhythm for 9:16 and a lateral relationship for 16:9; each case carries its own placement decisions, and landscape is freshly composed rather than cropped from portrait.",
+  "typography": "Ivory high-contrast serif with narrow elegant proportions, delicate hairlines, recognizable counters and moderate scale for the headline; sentence case and natural line breaks. Annotation labels use a smaller related serif, followed by very short clean sans-serif copy. All seven case text strings are exact, with no added punctuation, numbering, logos or filler. Protect text contrast by choosing quiet photographic regions rather than adding opaque backing panels.",
+  "color_palette": {
+    "base": [
+      "#E7DDC6 warm ivory",
+      "#C5AD83 sand",
+      "#B88342 amber",
+      "#7A4F2D tobacco",
+      "#302219 deep brown"
+    ],
+    "relationship": "Maintain a warm photographic continuum, using pale type and arcs as a small light accent. Each case may shift the balance between golden highlights and deep brown shadows; avoid a multicolor palette.",
+    "proportions": "Photography carries almost the whole canvas; ivory type and hairline graphics occupy only a small fraction. Reserve a meaningful quiet dark or midtone region for the information layer."
+  },
+  "image_treatment": "Photographic macro detail with realistic pores, clay ridges, glass imperfections or liquid surfaces at the focal plane. Fine low-strength film grain and shallow focus; localized, translucent horizontal light-drag veils appear mainly in the surrounding light field and soft edges, not across critical lettering. Highlights glow gently without broad blown-out patches. Avoid waxy retouching, global blur, crunchy oversharpening and added distress.",
+  "design_rules": [
+    "Make the circles respond to an actual subject feature so each case contributes a visible idea beyond a new object and headline.",
+    "Use one complete readable instance of each of the seven supplied text strings, preserving capitalization and punctuation exactly.",
+    "Keep the headline largest among the text while leaving the photograph as the main visual presence.",
+    "Protect the important contour, contact point or optical event from copy collisions and intrusive line tangles.",
+    "Adapt the orbit centers, subject crop and empty-space structure separately for each ratio.",
+    "Keep the annotations subordinate and sparse; orbital lines express a visual metaphor rather than a measured scientific diagram."
+  ],
+  "do": [
+    "Use a distinct photographic viewpoint and meaningful orbital relationship for each case.",
+    "Inspect exact wording, natural anatomy where present, focal texture, line delicacy and text contrast.",
+    "Keep both ratios in one coherent family while exploiting the available width or height."
+  ],
+  "avoid": [
+    "Do not reproduce the source person's identity, facial crop, longevity headline or monthly benefit claims.",
+    "Do not turn the four cases into the same centered title and vertically nested-circle template.",
+    "Do not add cards, decorative borders, pseudo-scientific scales, reticles, grids, numerals or unrelated symbols.",
+    "Do not use thick glowing rings, neon colors, flat vector subjects, plastic CGI materials, heavy grain or global motion blur.",
+    "Do not add copy, logos, watermarks, punctuation or brand marks beyond the seven supplied strings."
+  ],
+  "prompt_template": "Use case: ads-marketing. Create one finished {ASPECT_RATIO} raster editorial poster in the Amber Orbit Editorial visual system. The result is the designed poster itself, full bleed, not a photograph of a poster or a mockup. Apply the prioritized rules: {STYLE_FIDELITY_ANCHORS}\n\nPhotographic subject: {SUBJECT}\nDesign intention: {DESIGN_DIRECTION}\nRatio-specific art direction: {RATIO_DIRECTION}\n\nRender these seven strings exactly once each. Quotation marks delimit content and are not printed. Main serif headline: \"{MAIN_TEXT}\". First small serif label: \"{LABEL_ONE}\"; its short sans-serif copy: \"{COPY_ONE}\". Second small serif label: \"{LABEL_TWO}\"; its short sans-serif copy: \"{COPY_TWO}\". Third small serif label: \"{LABEL_THREE}\"; its short sans-serif copy: \"{COPY_THREE}\". Do not add punctuation, numbers, footers or other wording. Main title is elegant and moderately scaled, not an enormous typographic block. Supporting text remains readable in the intended small hierarchy; choose quiet midtone or dark photographic regions for ivory text, with no opaque text boxes. Keep labels and their copy together and separate them from other annotation blocks.\n\nSource-specific material to replace: {SOURCE_CONTENT_TO_AVOID}\n\nUse the case idea to compose an original subject-to-orbit relationship. Keep circles extremely thin, softly ivory and translucent, with clear real photographic texture under them. Lettering stays clear despite intentional optical softness in the photo. Follow only the ratio plan matching {ASPECT_RATIO}. Preserve essential subject contours and recompose deliberately for the canvas. Exclude unreadable or misspelled text, extra punctuation or filler, brand marks, logos, QR codes, borders, UI panels, technical measuring marks, thick glowing rings, random decorative props, dense diagram clutter, plastic CGI surfaces, global blur and excessive sharpening.",
+  "negative_prompt": "original woman's face or profile, Your longevity journey, Month One, Month Two, Month Three, skincare benefit claims, copied centered month timeline, extra words, extra punctuation, misspelling, duplicated text, tiny illegible copy, text on blown highlights, opaque text cards, brand logo, watermark, QR code, UI, frame, ruler, grid, reticle, thick luminous circles, neon rainbow palette, flat vector subject, plastic CGI texture, waxy skin, malformed hands, heavy grunge, global blur, excessive sharpening",
+  "examples": [
+    {
+      "case_name": "listening-field",
+      "values": {
+        "SUBJECT": "An extreme close photographic study of an anonymous adult's ear and adjoining neck, warm brown skin and short cropped hair, with no eye, nose or lips visible and no jewelry. The ear has natural, plausible anatomy, and warm grazing light reveals fine skin texture.",
+        "DESIGN_DIRECTION": "Treat listening as widening attention. Offset thin ivory circles radiate from the ear's concha into the open surrounding space, becoming visual sound fields. The photograph and circles share a clear origin, while three annotations follow different outward intervals. Avoid a full face or a centered portrait.",
+        "RATIO_DIRECTION": "For 9:16, place the ear high on the right and let the neck descend along the right edge; send large orbital arcs out toward the left and lower field, with the headline in quiet upper-left space and labels in staggered lower-left pockets. For 16:9, keep the ear and neck at the right third, spread the orbital sound field broadly leftward, and place headline and three annotations in a relaxed lateral rhythm across the darker left area.",
+        "MAIN_TEXT": "The art of listening",
+        "LABEL_ONE": "Arrive",
+        "COPY_ONE": "Let the room go quiet",
+        "LABEL_TWO": "Attend",
+        "COPY_TWO": "Notice the smallest sound",
+        "LABEL_THREE": "Resonate",
+        "COPY_THREE": "Carry the calm"
+      }
+    },
+    {
+      "case_name": "slow-becoming",
+      "values": {
+        "SUBJECT": "A macro photograph of a potter's clay-coated hand gently shaping the rim of a wet terracotta bowl on a turning wheel. Show the tactile finger-to-rim contact and the broad dark oval opening; crop the person out. The hand is anatomically plausible, with naturally occluded fingers, and the clay bears delicate turning ridges.",
+        "DESIGN_DIRECTION": "Express form emerging from circular motion. A few ivory orbital ellipses extend the bowl's real rim and wheel perspective into the empty field, linking gathering, shaping and keeping. Let the dark bowl aperture be a major compositional mass and the fingertip contact be the intimate focal event.",
+        "RATIO_DIRECTION": "For 9:16, compose the bowl mouth as a large oblique dark ellipse in the lower-right area, with the hand entering diagonally from upper left; keep the headline in the quiet upper region and annotations around separate intervals of the extended rim curves. For 16:9, use a low grazing camera angle, with clay rim and hand spanning the lower-left two thirds, a broad dark opening, and a quiet upper-right headline zone; projected orbit ellipses travel across the width, with annotations above and beside the rim.",
+        "MAIN_TEXT": "A slower becoming",
+        "LABEL_ONE": "Gather",
+        "COPY_ONE": "Begin with the earth",
+        "LABEL_TWO": "Shape",
+        "COPY_TWO": "Follow the turning form",
+        "LABEL_THREE": "Keep",
+        "COPY_THREE": "Let the hand remain"
+      }
+    },
+    {
+      "case_name": "light-settles",
+      "values": {
+        "SUBJECT": "A real studio macro photograph of two thick honey-amber glass lenses on a matte tobacco-colored surface, one partially overlapping the other. Their polished curved rims refract grazing sunlight into a concentrated warm caustic. Retain subtle physical glass imperfections, transparent depth and a photographic surface, with no product labels.",
+        "DESIGN_DIRECTION": "Make orbit lines behave like a visual continuation of the lens edges and their shifted light focus. Use two distinct circle centers and an off-center point of convergence, creating a quiet tension between solid glass and intangible light. The light event, rather than a centered object display, organizes the poster.",
+        "RATIO_DIRECTION": "For 9:16, let the two enlarged glass edges descend diagonally through the upper two thirds, with a bright refractive meeting point off center; reserve the lower-left shadow for the headline and distribute short annotations along separate open arc intervals above it. For 16:9, concentrate the overlapping lenses in the left half with caustic light reaching toward the center, place the title in quiet upper-right space, and use displaced circular arcs to carry the small labels into the lower-right field.",
+        "MAIN_TEXT": "Where light settles",
+        "LABEL_ONE": "Catch",
+        "COPY_ONE": "A sliver of morning",
+        "LABEL_TWO": "Bend",
+        "COPY_TWO": "A warmer point of view",
+        "LABEL_THREE": "Glow",
+        "COPY_THREE": "Light held for a moment"
+      }
+    },
+    {
+      "case_name": "day-steeps",
+      "values": {
+        "SUBJECT": "An intimate near-overhead macro photograph of warm amber tea inside a handmade ivory ceramic cup. The cup is cropped generously by a frame edge, its tactile rim catches a narrow golden highlight, and fine translucent steam drifts over a soft brown background. Show still tea, no pouring stream, no tea bag, no spoon and no visible handle.",
+        "DESIGN_DIRECTION": "Turn aroma into expanding space. Offset ivory circles begin at the cup's rim and rise out into the steam field, progressively opening away from the tangible vessel. The three annotations mark the quiet ritual, with the photograph's real rim anchoring the abstract rings.",
+        "RATIO_DIRECTION": "For 9:16, crop the large cup into the lower-left edge and send the arcs diagonally upward toward the right through a soft steam field; place the title in the quiet upper-left region and the three short annotations in separate darker pockets along the rising path. For 16:9, let the enlarged rim enter from the right edge, keep a long dark breathing space on the left for the headline around mid-height, and allow the rising orbital field and annotations to bridge the space between headline and cup.",
+        "MAIN_TEXT": "Let the day steep",
+        "LABEL_ONE": "Warm",
+        "COPY_ONE": "Bring warmth to the hands",
+        "LABEL_TWO": "Pour",
+        "COPY_TWO": "Watch the color open",
+        "LABEL_THREE": "Pause",
+        "COPY_THREE": "Make room for the moment"
+      }
+    }
+  ],
+  "category": "Editorial + Minimal"
+}

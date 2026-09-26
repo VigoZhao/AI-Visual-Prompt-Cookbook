@@ -1,0 +1,107 @@
+{
+  "style_version": "1.0",
+  "style_name": "Monumental Editorial — Set 02",
+  "style_slug": "monumental-editorial-set-02",
+  "style_summary": "A cross-domain extension of monumental sports editorial typography: clean giant condensed white lettering collides with tactile botanical, musical, food, and chrome-product photography, each in a distinct palette and spatial arrangement.",
+  "environment_variables": {
+    "ASPECT_RATIO": "9:16 or 16:9.",
+    "STYLE_FIDELITY_ANCHORS": "Joined priority-ordered style anchors.",
+    "SOURCE_CONTENT_TO_AVOID": "Joined source and previous-set content exclusions.",
+    "SUBJECT": "Concrete photographic subject and essential materials.",
+    "MAIN_TEXT": "Exact uppercase headline, without added punctuation.",
+    "PALETTE": "Case-specific dominant field color, white lettering, and material accent relationship.",
+    "DESIGN_DIRECTION": "Distinct concept and portrait/landscape composition intentions.",
+    "CAMERA": "Shell-seeded camera choice supporting the subject.",
+    "SUBJECT_ACTION": "How the tactile subject collides with giant condensed type",
+    "PRODUCT_OR_PROP": "Botanical, musical, food or chrome object in the photograph",
+    "LOCATION": "Distinct spatial field for this domain",
+    "BACKGROUND_ELEMENTS": "Deep shapes that hold the monumental white lettering",
+    "SECONDARY_TEXT": "No extra copy beyond the giant headline",
+    "ACCENT_SYMBOL": "Giant condensed white lettering",
+    "WARDROBE_STYLE": "Surfaces, hands or materials visible in the photograph"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Premium photographic editorial poster with one strongly art-directed focal subject at an extreme, tactile scale.",
+    "[CORE] Monumental heavy condensed uppercase sans-serif headline, white or cream, with clean graphic edges and clear complete words.",
+    "[CORE] Deliberate shared depth between image and typography: precise overlaps, a meaningful gap, a counter, or a reflection integrates them into one composition.",
+    "[CORE] Dramatic directional light and high tonal contrast reveal the subject material and shape without flattening the photographic detail.",
+    "[CORE] Sparse hierarchy: one subject relationship, one short headline, large simple background fields, and decisive scale contrast.",
+    "[FLEX] Content can be botanical, cultural, culinary, or industrial. Hands, a close face, or a pure object may dominate according to the concept; an athletic body is not required.",
+    "[FLEX] Use each case palette as a new dominant atmosphere with one field color, white lettering, and material accents; warm taupe and rust are choices from the earlier set, not obligatory colors.",
+    "[FLEX] Typography orientation, camera, crop, negative space, and the image-type interaction change with the subject. The four cases must have different compositional mechanics rather than one interchangeable template."
+  ],
+  "source_content_to_avoid": [
+    "The original basketball player, her identity, outfit, pose, ball, Nike swoosh, source slogans, and source names.",
+    "The previous set skater, tucked diver, leaping dancer, sprinter, skateboard bowl, swimming pool, track lanes, and sports clothing.",
+    "The previous exact phrases TAKE FLIGHT, HOLD YOUR BREATH, ONE CLEAN LINE, and OUTLAST LIGHT.",
+    "A repeated sepia/taupe cast, faux-aged beige typography, and the same athlete-over-two-title-bands arrangement across every case.",
+    "Recognizable brand marks, signatures, watermarks, platform identifiers, and invented additional readable copy."
+  ],
+  "visual_deconstruction": "The shared identity lies in the dramatic size of the condensed headline, intimate tactile photography, precise subject-type overlap, directional lighting, and sparse hierarchy. This set deliberately expands the subject domains and dominant colors in response to the user request for a clear difference from the preceding eight sports images.",
+  "composition": "Create four different systems: organic growth through a letter counter; a circular brass bell pressing into type; a bread tear splitting typographic masses; a polished metal loop reflecting text. Keep each headline whole and readable, and compose separately for portrait height and landscape width.",
+  "typography": "Very heavy narrow uppercase sans-serif lettering in pure white or cream, printed flat with clean edges. Keep all case headline words complete and unambiguous. Vary orientation, scale rhythm, spacing and depth relationship; do not apply the same stacked layout to all four. Reflections may repeat fragments but must not substitute for the complete primary headline.",
+  "color_palette": "Case-specific fields replace the preceding universal warm gray: deep ink green/chartreuse for botany, cobalt/brass for jazz, tomato red/honey for bread, ice blue/graphite/chrome for furniture. White or cream remains the shared headline contrast.",
+  "image_treatment": "High-end realistic editorial photography with fine natural photographic texture confined to the photo, directional lighting, accurate material-specific specular highlights, and believable anatomy where applicable. Botanical veins, brass reflections, moist bread crumb and clean chrome should be distinct. Typography remains clean and unweathered; avoid a global grain overlay, aged paper, muddy sepia or distressed text.",
+  "design_rules": [
+    "Preserve monumental condensed type and physical image-type interaction across all cases.",
+    "Change the subject domain, main color atmosphere, and compositional mechanism together for meaningful differentiation.",
+    "Maintain complete exact headline readability and clear subject identity despite layering.",
+    "Recompose for both ratios with useful negative space and no mechanical crop of the other version.",
+    "Request native 2K output: 1152x2048 for 9:16 and 2048x1152 for 16:9; verify actual saved pixel dimensions and document any required delivery-size conversion."
+  ],
+  "do": [
+    "Let material or action directly determine the typography interaction.",
+    "Keep clean high-contrast white or cream letter silhouettes.",
+    "Use case-specific light and color while preserving the same editorial scale language."
+  ],
+  "avoid": [
+    "Previous-set sports subjects or repeating the same warm gray grading.",
+    "Replacing content without changing the underlying layout relationship.",
+    "Extra words, punctuation drift, logos, watermarks, unreadable letter occlusion, or distressed graphic type."
+  ],
+  "prompt_template": "Create one finished editorial campaign poster in {ASPECT_RATIO}. Output native 2K pixels: 1152 x 2048 for a 9:16 canvas, or 2048 x 1152 for a 16:9 canvas. This is a new creative extension of a monumental photographic typography style. PRIORITIZED STYLE: {STYLE_FIDELITY_ANCHORS}\nSUBJECT: {SUBJECT}\nCAMERA: {CAMERA}\nPALETTE: {PALETTE}\nEXACT HEADLINE: {MAIN_TEXT}\nRender that phrase exactly once as the primary headline, without punctuation or any additional copy, in giant heavy condensed white or cream uppercase sans-serif type. All words must remain readable.\nDESIGN INTENTION: {DESIGN_DIRECTION}\nUse lifelike high-end editorial photography, material-appropriate directional light, sparse art direction and strong scale contrast. Keep fine texture inside the photographed material; graphic letters are clean, solid and unweathered. Preserve the specified reference-style texture, edge character and intentional softness at their described scale, intensity and locations. Avoid artifacts that are absent from the intended style; do not automatically denoise, sharpen, polish or distress the image.\nEXCLUDE: {SOURCE_CONTENT_TO_AVOID}\nDeliver one borderless poster, no mockup, no contact sheet, no UI, no watermark. Honor the requested 2K pixel dimensions.",
+  "negative_prompt": "basketball player, sports campaign subject, runner, skater, diver, dancer, athlete uniform, original identity, Nike swoosh, old slogans, warm sepia grade across all cases, distressed typography, gritty paper overlay, interchangeable title layout, misspelling, extra punctuation, illegible primary headline, extra text, brand logo, watermark, duplicated objects, malformed hands, impossible instrument grip, implausible chair structure",
+  "examples": [
+    {
+      "case_name": "grow-wild",
+      "values": {
+        "SUBJECT": "A sculptural botanical still life: one ivory calla lily with a dark plum spadix, two huge glossy folded green leaves, and long curved stems. Real botanical materials at extravagant macro scale; no human figure.",
+        "MAIN_TEXT": "GROW WILD",
+        "PALETTE": "Ink green and deep petrol field, electric chartreuse leaf edges, ivory flower and clean ivory-white type.",
+        "DESIGN_DIRECTION": "Make growth visibly disrupt an otherwise monumental typographic structure: a tall curved stem threads a large open letter counter while a broad leaf slips in front of one letter edge. The flower remains the photographic focal point. Use a diagonal organic thrust and an uneven pocket of empty dark green. In portrait, growth rises through the height; in landscape, extend the stems across a wide calm field without reducing the focal flower to a small object.",
+        "CAMERA": "Low three-quarter macro view looking through a translucent curled leaf toward the flower."
+      }
+    },
+    {
+      "case_name": "make-noise",
+      "values": {
+        "SUBJECT": "A fictional adult jazz trumpeter in a matte cobalt shirt, shown close enough to see the cheeks, hands, and one unbranded polished brass trumpet. The enormous foreshortened trumpet bell is prominent in the foreground, with natural musician hand placement and no stage crowd.",
+        "MAIN_TEXT": "MAKE NOISE",
+        "PALETTE": "Saturated cobalt and midnight blue backdrop, white headline, brass gold instrument, natural skin; a cool crisp spotlight.",
+        "DESIGN_DIRECTION": "Let the circular trumpet bell push into a rectangular wall of tall compressed letters and interrupt its rhythm. One word can sit behind the bell while the other crosses a different depth plane, preserving the full reading. The face and playing grip remain visible beside the huge reflective circular opening. Use a close human/instrument encounter rather than a distant performing figure. Recompose the bell-to-face relationship for each ratio.",
+        "CAMERA": "Oblique close view along the broad trumpet bell toward the musician face and two hands."
+      }
+    },
+    {
+      "case_name": "break-bread",
+      "values": {
+        "SUBJECT": "Two flour-dusted adult hands pulling a large warm sourdough loaf into two clearly separate halves. The moist open crumb and jagged crust dominate a close food photograph; no whole person and no table setting. A few crumbs remain near the tear.",
+        "MAIN_TEXT": "BREAK BREAD",
+        "PALETTE": "Flat deep tomato-red or coral-red field, clean cream-white headline, honey-gold crust, light flour and near-black small shadows.",
+        "DESIGN_DIRECTION": "Build the poster around the honest ragged tear through the loaf: the empty channel between the halves also separates two towering headline masses. Preserve intact readable words BREAK and BREAD while their alignment suggests opposite pulling forces. The bread texture and hands occupy the central collision with the type. In portrait use a steep diagonal rip; in landscape pull laterally across the width. Keep the background simple and vivid.",
+        "CAMERA": "Near-overhead close view emphasizing the opposing hands and the exposed bread interior."
+      }
+    },
+    {
+      "case_name": "soft-metal",
+      "values": {
+        "SUBJECT": "A single sculptural unbranded lounge chair made from one broad continuous mirror-polished stainless steel ribbon bent into a fluid seat and back. Show a plausible supported chair in a minimalist studio, with no person and no extra furniture.",
+        "MAIN_TEXT": "SOFT METAL",
+        "PALETTE": "Cold ice blue and graphite studio planes, bright white headline, liquid silver reflections and a narrow deep cobalt reflection.",
+        "DESIGN_DIRECTION": "Make the tension between soft curves and rigid lettering visible. The looping chair passes in front of one word and reflects fragments of the white typography in its polished surface; the original headline remains flat, crisp, whole and readable outside the reflections. Use one dense sculptural side of the frame and a sharply defined open field on the other, not a centered product label. In portrait emphasize the vertical bend; in landscape let the flowing seat carry the eye sideways.",
+        "CAMERA": "Slightly elevated three-quarter product view emphasizing the opening beneath the seat and broad curved reflective back."
+      }
+    }
+  ],
+  "category": "Type Posters"
+}

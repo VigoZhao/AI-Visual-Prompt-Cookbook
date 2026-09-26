@@ -1,0 +1,115 @@
+{
+  "style_version": "1.0",
+  "style_name": "Acid Jolt Portrait Collage",
+  "style_slug": "acid-jolt-photo-collage",
+  "style_summary": "A punchy portrait-poster system mixing warm, low-fi close-up photography, blunt photo-fragment inserts, massive lemon-yellow rounded lettering, and loose marker signals against dark, quiet fields.",
+  "environment_variables": {
+    "ASPECT_RATIO": "Output canvas ratio: 9:16 or 16:9.",
+    "STYLE_FIDELITY_ANCHORS": "Prioritized CORE and FLEX rules that define the reusable visual language.",
+    "SOURCE_CONTENT_TO_AVOID": "Specific source imagery and wording to replace rather than reproduce.",
+    "SUBJECT": "The new person or people shown in the poster.",
+    "SUBJECT_ACTION": "A clear gesture, pose, or activity that shapes the composition.",
+    "PRODUCT_OR_PROP": "A case-specific object that matters to the action or theme.",
+    "WARDROBE_STYLE": "Unbranded clothing suited to the person and scene.",
+    "MAIN_TEXT": "The exact short headline to render as large display lettering.",
+    "SECONDARY_TEXT": "The exact small supporting line, subordinate to the headline.",
+    "DESIGN_DIRECTION": "The case-specific idea for how subject, type, collage fragments, and yellow marks interact.",
+    "LOCATION": "Dark quiet field behind the portrait",
+    "BACKGROUND_ELEMENTS": "Loose marker signals and blunt photo-fragment inserts",
+    "ACCENT_SYMBOL": "Massive lemon-yellow rounded lettering"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Build the image around a large, close, warm-toned photographic portrait or human detail, with realistic peach, coral, and brown skin against a much darker, muted field.",
+    "[CORE] Use a small number of deliberately blunt rectangular or trapezoid photo fragments, visibly layered across or beside the main photo; the inserts may isolate a face detail, hand, clothing, or case-relevant prop without repeating one fixed anatomy layout.",
+    "[CORE] Make one short all-caps headline visually dominant in thick, rounded, tightly spaced sans-serif letters, usually lemon or acid yellow; let the type press into the photo layers while keeping the complete wording readable.",
+    "[CORE] Hold a stark warm-light / dark-field / acid-yellow contrast, with yellow reserved for the headline and a few hand-drawn graphic accents.",
+    "[CORE] Add one or two loose, hand-marked yellow strokes or simple signals that interact with the subject's gesture or theme; keep them irregular and editorial, not a dense technical interface.",
+    "[CORE] Preserve an intentionally low-fi photographic finish: visible grain or compression texture, slight softness, uneven flash-lit tonal transitions, and crisp collage boundaries where fragments overlap.",
+    "[FLEX] Recompose the portrait, headline, photo inserts, and marker strokes for the case and canvas ratio; explore asymmetric scale, cropping, stacking, or diagonal movement without reproducing the source's exact positions.",
+    "[FLEX] Keep secondary copy small and peripheral, and use open negative space wherever the headline and case-relevant action need clarity."
+  ],
+  "source_content_to_avoid": [
+    "The original woman's identity, face, expression, hairstyle, and close-up portrait.",
+    "The exact duplicated eye strips and polygon mouth cutout from the source.",
+    "The word POP and the original tiny footer sentence or any close paraphrase of it.",
+    "The source's precise centered face, eye-strip positions, giant-letter placement, and upper-left zigzag path as a copied layout.",
+    "Any watermark, creator mark, interface element, recognizable brand, or signature from the reference."
+  ],
+  "visual_deconstruction": "A compact, confrontational portrait poster where a warm flash-lit human image is cut into a few blunt photo fragments and interrupted by oversized rounded yellow type. Dark surroundings, loose marker strokes, and intentionally imperfect image texture give it an intimate, mischievous, low-fi pop-editorial mood.",
+  "composition": "Use a dominant close portrait or human detail, then create a clear depth order between the main photo, one to three hard-edged photo inserts, the headline, and a small caption. Composition is asymmetric and tightly cropped, but leaves the required headline fully legible. Recompose for each ratio: build a vertical rhythm for 9:16 and a wider, side-to-side relationship for 16:9 rather than stretching or mechanically cropping one layout.",
+  "typography": "Set the exact main phrase in oversized, heavy, rounded condensed sans-serif capitals with compact spacing and broad simple counters. Acid-yellow letterforms may sit behind and in front of the portrait, crop at the canvas edge only when the complete phrase remains readable, and bend or stack to express the case. Keep the exact secondary line in a narrow, small uppercase face near a quiet edge.",
+  "color_palette": "Prioritize lemon yellow (#F0E900), peach and coral skin tones, deep espresso or blue-black shadows, and restrained warm neutrals. Keep the background quiet and substantially darker than the lit portrait; avoid adding a competing saturated palette.",
+  "image_treatment": "Use close flash photography with honest skin texture, warm highlights, soft falloff, and slightly uneven low-fi grain or compression softness at a visible but controlled scale. Photo inserts have blunt rectangular or trapezoid contours and a subtle real paper/photo edge or shallow shadow, never sleek UI frames. Yellow marker strokes stay narrow and hand-drawn. Preserve intentional softness without introducing unrelated damage, heavy dirt, or artificial glitching.",
+  "design_rules": [
+    "Let the action and design direction determine which detail becomes the collage insert; do not repeat the same eye-and-mouth arrangement across cases.",
+    "Use the headline as a physical shape that helps organize the photo, while preserving a complete readable instance of the requested wording.",
+    "Use yellow marker gestures to clarify rhythm, focus, or movement rather than decorating every empty area.",
+    "Keep the face, action, and any required prop recognizable through overlaps and crop choices.",
+    "Preserve the same warm-photo, dark-field, yellow-type family across both ratios while changing subject placement and negative-space structure to suit each canvas."
+  ],
+  "do": [
+    "Give each case a distinct visual idea that changes how the subject, title, and cutout fragments interact.",
+    "Render the supplied headline and secondary line exactly, with the headline as the first read.",
+    "Keep the final image graphic and poster-like, with visible photographic layering and limited yellow annotation."
+  ],
+  "avoid": [
+    "Do not reproduce the reference person, exact face-fragment arrangement, exact phrase, or exact layout.",
+    "Do not make every case a centered beauty portrait with the same eye strips and lettering across the eyes.",
+    "Do not obscure the whole face, essential action, or required prop with unreadable foreground type.",
+    "Do not introduce brand logos, watermarks, dense interface graphics, clean vector-only art, glossy 3D styling, or a polished luxury-ad finish.",
+    "Do not add extra legible copy beyond the supplied main and secondary text."
+  ],
+  "prompt_template": "Create a finished {ASPECT_RATIO} portrait-led editorial poster in the Acid Jolt Portrait Collage visual system. Apply these prioritized style rules: {STYLE_FIDELITY_ANCHORS}.\n\nNew subject: {SUBJECT}.\nAction: {SUBJECT_ACTION}.\nRelevant prop: {PRODUCT_OR_PROP}.\nWardrobe: {WARDROBE_STYLE}.\nCase design direction: {DESIGN_DIRECTION}.\n\nRender the exact main headline {MAIN_TEXT} as the largest type and the exact secondary line {SECONDARY_TEXT} as small subordinate copy. Include no other readable wording.\n\nReplace the reference's source-specific content: {SOURCE_CONTENT_TO_AVOID}. Develop the case idea beyond a simple word or prop swap. Let its action change the portrait crop, the shape and placement of the photo fragments, the headline's relationship to the subject, and the meaning of the yellow marker stroke. For 9:16, compose a deliberate vertical rhythm with a clear caption zone; for 16:9, recompose across the width with a new subject-to-type balance. Do not stretch or mechanically crop a single layout. Keep the required phrase fully legible and preserve the key action or prop. Exclude the source identity and wording, repeated centered portrait template, unreadable or extra pseudo-copy, obscured action or props, logos, watermarks, QR codes, app UI, technical rails, vector-only art, glossy 3D, luxury beauty-ad styling, heavy grunge, random glitching, and unrelated props.",
+  "negative_prompt": "the source person's identity, POP, original footer text, duplicated eye strips, polygon mouth crop, exact source layout, exact upper-left zigzag, repeated face-centered template, unreadable headline, misspelled required text, extra pseudo-copy, obscured action, obscured essential prop, brand mark, watermark, QR code, app interface, dense technical rails, monochrome-only treatment, clean vector-only poster, glossy 3D render, luxury beauty advertising, heavy grunge, random glitch effects, rainbow palette, unrelated props",
+  "examples": [
+    {
+      "case_name": "voice-carries",
+      "values": {
+        "SUBJECT": "a charismatic Black woman vocalist in her early thirties",
+        "SUBJECT_ACTION": "singing with eyes closed, one hand lifted as if feeling the note leave her body",
+        "PRODUCT_OR_PROP": "a plain handheld stage microphone with no logo",
+        "WARDROBE_STYLE": "a vivid cobalt satin shirt under a simple dark jacket, no jewelry with visible branding",
+        "MAIN_TEXT": "LET IT RING",
+        "SECONDARY_TEXT": "LIVE WITHOUT STATIC • 9 PM",
+        "DESIGN_DIRECTION": "Make the breath and raised hand drive a broad sound-wave gesture: let a loose yellow line radiate from the microphone and let the headline break around the singer's jaw and shoulder, with one separate close photo fragment of the hand or mic rather than repeated eye crops."
+      }
+    },
+    {
+      "case_name": "edge-carve",
+      "values": {
+        "SUBJECT": "a South Asian skateboarder in their mid twenties, seen from a low three-quarter angle",
+        "SUBJECT_ACTION": "carving sharply around a concrete corner, body leaning into the turn",
+        "PRODUCT_OR_PROP": "a scuffed unbranded skateboard with a clearly visible front truck and wheel",
+        "WARDROBE_STYLE": "loose dark windbreaker, plain knee pads, and worn skate shoes without logos",
+        "MAIN_TEXT": "CARVE A LINE",
+        "SECONDARY_TEXT": "KEEP MOVING • FIELD NOTES 03",
+        "DESIGN_DIRECTION": "Use the board's diagonal and one enlarged wheel or shoe photo fragment to pull the eye through the poster; make the yellow hand-drawn stroke trace the actual turn, and angle the type to answer that curve while keeping the full board action visible."
+      }
+    },
+    {
+      "case_name": "make-room",
+      "values": {
+        "SUBJECT": "a middle-aged Mexican ceramic artist with clay-dusted hands",
+        "SUBJECT_ACTION": "opening a soft clay vessel on a pottery wheel while glancing toward the viewer",
+        "PRODUCT_OR_PROP": "a wet unfinished clay bowl turning on a small pottery wheel",
+        "WARDROBE_STYLE": "a plain earth-toned work apron over a faded shirt, no printed marks",
+        "MAIN_TEXT": "MAKE ROOM",
+        "SECONDARY_TEXT": "FORM STUDY • HAND BUILT",
+        "DESIGN_DIRECTION": "Let the rounded bowl and the open counters in the headline echo each other; place a hard-edged hand-and-clay photo fragment as a second focal plane, and use a yellow contour to suggest the vessel's expanding rim rather than a generic zigzag."
+      }
+    },
+    {
+      "case_name": "look-again",
+      "values": {
+        "SUBJECT": "an older East Asian analog photographer with short silver hair",
+        "SUBJECT_ACTION": "holding a compact film camera near one eye and turning slightly toward the light",
+        "PRODUCT_OR_PROP": "a small black 35mm film camera with a visible circular lens and no brand name",
+        "WARDROBE_STYLE": "a soft charcoal utility vest over a warm cream shirt, without badges",
+        "MAIN_TEXT": "LOOK AGAIN",
+        "SECONDARY_TEXT": "CONTACT SHEET • FRAME 12",
+        "DESIGN_DIRECTION": "Use the camera lens as a circular counterpoint to the block lettering: offset the portrait, layer a close lens-and-fingers fragment across one edge, and turn the yellow marker into two imperfect focus corners that point back to the photographer."
+      }
+    }
+  ],
+  "category": "Zine + Collage"
+}

@@ -1,0 +1,111 @@
+{
+  "style_version": "2.1",
+  "style_name": "Felt Motion Brand Campaign",
+  "style_slug": "felt-motion-brand-campaign",
+  "style_summary": "An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.",
+  "environment_variables": {
+    "ASPECT_RATIO": "Output ratio, 9:16 or 16:9.",
+    "STYLE_FIDELITY_ANCHORS": "Prioritized core and flexible rules.",
+    "SOURCE_CONTENT_TO_AVOID": "Original identity and wording to replace.",
+    "SUBJECT": "The adult athlete, wardrobe and physical setting.",
+    "STATE": "A single felt bodily moment with visible physical evidence.",
+    "WORDMARK": "Exact title-case two-word fictional brand; first word above second word.",
+    "LOGO": "Original simple flat-white logo design paired with the wordmark.",
+    "PORTRAIT_LAYOUT": "Photographic framing and optical-center lockup placement for 9:16.",
+    "LANDSCAPE_LAYOUT": "Photographic framing and optical-center lockup placement for 16:9.",
+    "SUBJECT_ACTION": "The single bodily state captured in selective focus",
+    "PRODUCT_OR_PROP": "Original white logo overlapping the optical center",
+    "LOCATION": "Moody warm-light sports environment",
+    "BACKGROUND_ELEMENTS": "Deep natural shadow and defocused surroundings",
+    "MAIN_TEXT": "Tight two-line wordmark",
+    "SECONDARY_TEXT": "No extra copy beyond the wordmark",
+    "ACCENT_SYMBOL": "Prominent original white logo",
+    "WARDROBE_STYLE": "Sport clothing remaining in the focused plane"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] One full-bleed, physically believable sports photograph captures an intimate bodily state: exertion, breath, water, heat, pressure or recovery. The felt moment drives the image.",
+    "[CORE] Bring the camera unusually close to the athlete, with an off-axis view and strong near/far scale. Use pronounced selective focus: the nearer eye and a small patch of skin or water are resolved, while the nearer forearm, farther shoulder and background melt into optical softness. Let a blurred foreground shape fill a meaningful part of the lower frame.",
+    "[CORE] Create the atmospheric depth of an underexposed sunlit film photograph: warm amber skin highlights against substantial deep natural shadow, muted blue sky or water, a gentle bloom around wet highlights and restrained fine grain. Keep irregular real sweat, water, flushed skin and damp hair. Preserve shadow volume and smooth optical softness instead of uniform digital microdetail.",
+    "[CORE] Overlay one prominent, tightly joined white logo-and-wordmark unit directly across the photograph optical center. Let it overlap the lower cheek or chin as well as the upper body, rather than sitting as a small label entirely below the face. Keep the important eye or eyes readable.",
+    "[CORE] The original logo sits immediately beside a tightly stacked two-line heavy italic sans-serif wordmark. The lockup is one graphic unit, with the photograph visually dominant. Keep the letters clean white and the two exact words in title case.",
+    "[FLEX] Change the sporting state, crop, perspective and physical textures while preserving the close photographic depth and central brand relationship requested by the user.",
+    "[FLEX] Reframe each ratio around the body and its visual weight. In portrait, the joined logo and wordmark typically span 60 to 66 percent of canvas width; in landscape, 38 to 44 percent. Keep the unit visually dense and central while allowing the face scale to guide final placement."
+  ],
+  "source_content_to_avoid": [
+    "The exact source cyclist identity and facial likeness.",
+    "The exact words Modern Human and its registered mark.",
+    "The exact source logo silhouette; draw the supplied original logo instead.",
+    "Any pixel fragmentation, scanlines, neon gel lighting or digital particles introduced by the rejected first version."
+  ],
+  "visual_deconstruction": "The reference is a close, tilted daylight photograph of a cyclist leaning forward, wet with sweat and water. Helmet shade cuts across the brow; warm skin and shining droplets project forward against dark clothing and blue sky. One white logo plus a small heavy italic two-line wordmark is centered over the lower face. The source has natural water, skin and lens texture, not digital glitch. User correction explicitly prioritizes this bodily state and central lockup relationship.",
+  "composition": "Fill every edge with the immersive photograph. Preserve a tight diagonal face/body crop and deliberately uneven focus: one important eye and nearby wet skin in focus, a large near arm or shoulder softly veiling the lower foreground, and a loose distant background. The prominent logo plus two-line wordmark overlaps the lower-face/upper-body center at roughly mid-frame, around 60 to 66 percent of portrait width or 38 to 44 percent of landscape width. Landscape uses real body/environment through the full frame without an empty copy panel.",
+  "typography": "Only the exact two-word fictional brand appears. Stack the first word above the second in heavy compact forward-leaning italic grotesk, retaining supplied upper/lower case. The original logo sits tightly to the left and is at least as tall as the two-line wordmark. Treat the whole unit as a strong white shape, not a small signature. No subtitle, footer, slogan or registration mark.",
+  "color_palette": "Warm natural skin, amber sunlight and reddish exertion against nearly black sports fabric and genuine medium sky-blue or water-blue. Shadow is deep and shaped by helmet, face or limbs. The only added graphic color is pure white. Avoid teal-orange studio grading and colored spotlights.",
+  "image_treatment": "A moody, slightly underexposed daylight film photograph with strong selective focus. Focus resolves the nearer eye, a small cheek plane and a few sweat beads; other facial planes soften gently. The much closer arm/hand and distant sky/water fall noticeably out of focus. Vary droplets by depth, with a few larger soft water shapes near the lens and tiny resolved beads on the focus plane. Keep deep warm-black shadows, luminous amber highlights with subtle halation, subdued blue background and fine restrained grain. Reduce digital microcontrast and clinical edge sharpness. Do not apply uniform blur or a heavy texture overlay.",
+  "design_rules": [
+    "Build the idea through the photographed bodily state and camera position; keep graphic design to the single logo-and-wordmark unit.",
+    "Let real occlusion, shallow focus and sunlight create depth; avoid a flat evenly lit face or pasted-on isolated subject.",
+    "Put the enlarged logo and wordmark as one dense white shape over the central lower-face/upper-body mass; its top may cross the lower cheek while the eyes stay legible.",
+    "Preserve exact wordmark spelling, title case and original logo motif across both ratios.",
+    "Judge each image against the reference material quality and central hierarchy before accepting the set."
+  ],
+  "do": [
+    "Capture a specific moment of effort or recovery with believable skin, breath and water.",
+    "Make the white lockup prominent and central while keeping the photograph immersive and full of depth.",
+    "Keep the important eye and bodily gesture clear while allowing the graphic unit to overlap the image."
+  ],
+  "avoid": [
+    "Digital glitch, square pixels, scanlines, neon edges or artificial particles.",
+    "Oversized side headlines, separate empty copy panels, vertical edge text, subtitles or footers.",
+    "Evenly sharp clinical photography, bright flat exposure, plasticky skin, uniform fake droplets, synthetic gradients or blanket blur."
+  ],
+  "prompt_template": "Create ONE finished {ASPECT_RATIO} premium sports campaign image. This is a faithful photographic and compositional transfer of the following language: {STYLE_FIDELITY_ANCHORS}\nSUBJECT: {SUBJECT}\nCAPTURED STATE: {STATE}\nThe ONLY written words are exactly \"{WORDMARK}\". Stack the first word above the second in heavy compact italic title-case white lettering. Make this ORIGINAL LOGO: {LOGO}. Place the white symbol immediately left of the two-line wordmark, tightly joined as ONE prominent tightly joined lockup at the photograph optical center. Do not separate the symbol from the words. The white group must read strongly at first glance and overlap the lower cheek/chin and upper body; it is not a small label below the face. The photograph continues fully behind the group.\nUse the layout plan matching the requested output ratio only. 9:16 plan: {PORTRAIT_LAYOUT}. 16:9 plan: {LANDSCAPE_LAYOUT}.\nBuild a moody underexposed sunlit atmosphere with warm amber highlights, substantial natural shadow, muted blue sky/water and gentle bloom on wet highlights. Focus sharply only on the nearer eye and a small nearby skin plane; let the very near arm/hand, some droplets, farther shoulder and background dissolve with clearly visible optical softness. Keep real skin and water tactile while lowering digital microcontrast; avoid an evenly sharp clinical result. No digital effects, pixel blocks, colored gels, synthetic gradient background, extra type or side copy panel. Source details to replace: {SOURCE_CONTENT_TO_AVOID}",
+  "negative_prompt": "pixel blocks, glitch, scanlines, cyberpunk, neon gel lights, studio spotlights, digital particles, glitter, giant headline, separate text panel, side-by-side ad layout, subtitle, footer, text at frame edge, vertical lettering, flat lighting, plasticky skin, uniform fake sweat, illustration, copied source logo, Modern Human, registered mark, malformed hands, extra limbs, stretched image, small logo, small wordmark, clinical digital sharpness, HDR, uniformly sharp foreground and face, flat high-key exposure, blanket gaussian blur",
+  "examples": [
+    {
+      "case_name": "signal-in-the-static",
+      "values": {
+        "SUBJECT": "an adult male road cyclist with short dark curls, an off-white vented helmet and a nearly black cycling jersey, against clear blue sky",
+        "STATE": "leaning heavily over the handlebars immediately after a punishing climb, breathing through parted lips, looking up toward the camera under the helmet shadow; irregular sweat beads and a few fresh drops of poured water run over flushed cheeks and hang under the chin",
+        "WORDMARK": "True Motion",
+        "LOGO": "a bold solid-white tilted open ring, with a clean wedge missing at the upper-right and unequal thick terminals; a simple original aerodynamic loop, without letters or a checkmark",
+        "PORTRAIT_LAYOUT": "camera almost at handlebar level and only an arm length from the face, slightly canted; brow and helmet crop into the top, the large diagonal face fills the upper two-thirds and the near shoulder sweeps across the lower foreground. Put the prominent white lockup across the lower cheek/upper chest at roughly the center of the frame, 60 to 66 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye.",
+        "LANDSCAPE_LAYOUT": "extreme near frontal three-quarter view from below the bars, face near the center with one shoulder and bent arm sweeping sideways across the full width, small blue-sky gaps between body and frame; keep the lockup across the lower-face/upper-chest visual center, 38 to 44 percent of canvas width, with no empty copy panel Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye."
+      }
+    },
+    {
+      "case_name": "motion-leaves-a-trace",
+      "values": {
+        "SUBJECT": "an adult woman trail runner with freckles and loose dark hair damp at the temples, wearing a black technical singlet under a clear blue late-afternoon sky",
+        "STATE": "stopped after a steep sprint, folded forward with hands on her knees, chest still heaving, hot red cheeks, mouth slightly open and eyes lifted with tired determination; sweat catches the raking sun and a loose wet strand sticks to the forehead",
+        "WORDMARK": "Still Moving",
+        "LOGO": "a bold white rounded rhombus split by one narrow rising diagonal channel, leaving two unequal rounded solid pieces; a compact original motion emblem without letters",
+        "PORTRAIT_LAYOUT": "very close low camera looks upward between a nearer blurred forearm and the face; the head tilts diagonally across upper frame and the dark bent shoulder fills the lower area. Place the joined logo and wordmark directly over the middle of this diagonal body mass, near the collarbone and lower cheek, 60 to 66 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye.",
+        "LANDSCAPE_LAYOUT": "wide close canted photograph with face near the central upper region, bent arms enclosing the lower foreground and a narrow sky gap above; the athlete fills the frame from edge to edge. Put the prominent lockup over the central chest/near shoulder transition, 38 to 44 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye."
+      }
+    },
+    {
+      "case_name": "skin-as-landscape",
+      "values": {
+        "SUBJECT": "an adult open-water swimmer with a black swim cap and plain clear goggles pushed onto the forehead, wet shoulders at the sea surface in strong warm sunlight",
+        "STATE": "just breaking the surface for a breath after a long swim, face taut with effort, water streaming from nose and chin, real droplets suspended between face and lens; the hand grips a low dark boat edge close to camera",
+        "WORDMARK": "Deep Current",
+        "LOGO": "two nested white offset teardrop-shaped loops with pointed ends aligned upward-right and a clear dark center; a simple original water-current emblem",
+        "PORTRAIT_LAYOUT": "camera right at the waterline and very close to the face, canted diagonally; cap grazes the top edge, the face leans toward the lens, a blurred wet arm and boat edge make the near lower foreground. Put the logo plus two-line wordmark across the central chin/shoulder transition, 60 to 66 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye.",
+        "LANDSCAPE_LAYOUT": "lens close to the water surface, face centered with the near gripping arm sweeping across the lower width; blue water and black cap form real depth layers around warm wet skin. Overlay the prominent lockup at the face-to-shoulder optical center, 38 to 44 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye."
+      }
+    },
+    {
+      "case_name": "human-unmuted",
+      "values": {
+        "SUBJECT": "an adult outdoor rock climber with cropped dark hair and a dark technical top, close against sun-warmed stone with a narrow wedge of blue sky",
+        "STATE": "resting one beat after a difficult move, cheek nearly brushing the rock, lips parted on an exhausted exhale, one chalked hand gripping a hold in the near foreground; skin flushed, sweat on temple and neck, chalk residue caught in finger creases",
+        "WORDMARK": "Raw Ascent",
+        "LOGO": "one thick white asymmetrical folded chevron made of two angular ribbon segments, with a square notch and a blunt cut end; a compact original ascent emblem, not a checkmark",
+        "PORTRAIT_LAYOUT": "camera extremely close beside the rock, looking through the large near gripping hand toward the tilted face; face and shoulder dominate, forearm crosses the lower edge, focus falls away across stone. Center the prominent joined white logo and two-line wordmark over the lower cheek and dark shoulder, 60 to 66 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye.",
+        "LANDSCAPE_LAYOUT": "close diagonal view with the huge near forearm leading across the image into a centrally placed face against the rock; retain a small blue-sky gap and deep limb shadows. Place the logo and wordmark as one prominent unit on the central face-to-shoulder mass, 38 to 44 percent of canvas width Keep the lockup high enough to overlap the lower cheek/chin as well as the upper body, and make the near foreground visibly softer than the focused eye."
+      }
+    }
+  ],
+  "category": "Product + Campaign"
+}

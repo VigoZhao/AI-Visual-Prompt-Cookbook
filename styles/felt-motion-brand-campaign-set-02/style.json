@@ -1,0 +1,111 @@
+{
+  "style_version": "2.1",
+  "style_name": "Felt Motion Brand Campaign — Set 02",
+  "style_slug": "felt-motion-brand-campaign-set-02",
+  "style_summary": "An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.",
+  "environment_variables": {
+    "ASPECT_RATIO": "Output ratio, 9:16 or 16:9.",
+    "STYLE_FIDELITY_ANCHORS": "Prioritized core and flexible rules.",
+    "SOURCE_CONTENT_TO_AVOID": "Original identity and wording to replace.",
+    "SUBJECT": "The adult athlete, wardrobe and physical setting.",
+    "STATE": "A single felt bodily moment with visible physical evidence.",
+    "WORDMARK": "Exact title-case two-word fictional brand; first word above second word.",
+    "LOGO": "Original simple flat-white logo design paired with the wordmark.",
+    "PORTRAIT_LAYOUT": "Photographic framing and optical-center lockup placement for 9:16.",
+    "LANDSCAPE_LAYOUT": "Photographic framing and optical-center lockup placement for 16:9.",
+    "SUBJECT_ACTION": "The single bodily state captured in selective focus",
+    "PRODUCT_OR_PROP": "Original white logo overlapping the optical center",
+    "LOCATION": "Moody warm-light sports environment",
+    "BACKGROUND_ELEMENTS": "Deep natural shadow and defocused surroundings",
+    "MAIN_TEXT": "Tight two-line wordmark",
+    "SECONDARY_TEXT": "No extra copy beyond the wordmark",
+    "ACCENT_SYMBOL": "Prominent original white logo",
+    "WARDROBE_STYLE": "Sport clothing remaining in the focused plane"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] One full-bleed, physically believable sports photograph captures an intimate bodily state: exertion, breath, water, heat, pressure or recovery. The felt moment drives the image.",
+    "[CORE] Bring the camera unusually close to the athlete, with an off-axis view and strong near/far scale. Use pronounced selective focus: the nearer eye and a small patch of skin or water are resolved, while the nearer forearm, farther shoulder and background melt into optical softness. Let a blurred foreground shape fill a meaningful part of the lower frame.",
+    "[CORE] Create the atmospheric depth of an underexposed sunlit film photograph: warm amber skin highlights against substantial deep natural shadow, muted blue sky or water, a gentle bloom around wet highlights and restrained fine grain. Keep irregular real sweat, water, flushed skin and damp hair. Preserve shadow volume and smooth optical softness instead of uniform digital microdetail.",
+    "[CORE] Overlay one prominent, tightly joined white logo-and-wordmark unit directly across the photograph optical center. Let it overlap the lower cheek or chin as well as the upper body, rather than sitting as a small label entirely below the face. Keep the important eye or eyes readable.",
+    "[CORE] The original logo sits immediately beside a tightly stacked two-line heavy italic sans-serif wordmark. The lockup is one graphic unit, with the photograph visually dominant. Keep the letters clean white and the two exact words in title case.",
+    "[FLEX] Change the sporting state, crop, perspective and physical textures while preserving the close photographic depth and central brand relationship requested by the user.",
+    "[FLEX] Reframe each ratio around the body and its visual weight. In portrait, the joined logo and wordmark typically span 60 to 66 percent of canvas width; in landscape, 38 to 44 percent. Keep the unit visually dense and central while allowing the face scale to guide final placement."
+  ],
+  "source_content_to_avoid": [
+    "The exact source cyclist identity and facial likeness.",
+    "The exact words Modern Human and its registered mark.",
+    "The exact source logo silhouette; draw the supplied original logo instead.",
+    "Any pixel fragmentation, scanlines, neon gel lighting or digital particles introduced by the rejected first version."
+  ],
+  "visual_deconstruction": "The reference is a close, tilted daylight photograph of a cyclist leaning forward, wet with sweat and water. Helmet shade cuts across the brow; warm skin and shining droplets project forward against dark clothing and blue sky. One white logo plus a small heavy italic two-line wordmark is centered over the lower face. The source has natural water, skin and lens texture, not digital glitch. User correction explicitly prioritizes this bodily state and central lockup relationship.",
+  "composition": "Fill every edge with the immersive photograph. Preserve a tight diagonal face/body crop and deliberately uneven focus: one important eye and nearby wet skin in focus, a large near arm or shoulder softly veiling the lower foreground, and a loose distant background. The prominent logo plus two-line wordmark overlaps the lower-face/upper-body center at roughly mid-frame, around 60 to 66 percent of portrait width or 38 to 44 percent of landscape width. Landscape uses real body/environment through the full frame without an empty copy panel.",
+  "typography": "Only the exact two-word fictional brand appears. Stack the first word above the second in heavy compact forward-leaning italic grotesk, retaining supplied upper/lower case. The original logo sits tightly to the left and is at least as tall as the two-line wordmark. Treat the whole unit as a strong white shape, not a small signature. No subtitle, footer, slogan or registration mark.",
+  "color_palette": "Warm natural skin, amber sunlight and reddish exertion against nearly black sports fabric and genuine medium sky-blue or water-blue. Shadow is deep and shaped by helmet, face or limbs. The only added graphic color is pure white. Avoid teal-orange studio grading and colored spotlights.",
+  "image_treatment": "A moody, slightly underexposed daylight film photograph with strong selective focus. Focus resolves the nearer eye, a small cheek plane and a few sweat beads; other facial planes soften gently. The much closer arm/hand and distant sky/water fall noticeably out of focus. Vary droplets by depth, with a few larger soft water shapes near the lens and tiny resolved beads on the focus plane. Keep deep warm-black shadows, luminous amber highlights with subtle halation, subdued blue background and fine restrained grain. Reduce digital microcontrast and clinical edge sharpness. Do not apply uniform blur or a heavy texture overlay.",
+  "design_rules": [
+    "Build the idea through the photographed bodily state and camera position; keep graphic design to the single logo-and-wordmark unit.",
+    "Let real occlusion, shallow focus and sunlight create depth; avoid a flat evenly lit face or pasted-on isolated subject.",
+    "Put the enlarged logo and wordmark as one dense white shape over the central lower-face/upper-body mass; its top may cross the lower cheek while the eyes stay legible.",
+    "Preserve exact wordmark spelling, title case and original logo motif across both ratios.",
+    "Judge each image against the reference material quality and central hierarchy before accepting the set."
+  ],
+  "do": [
+    "Capture a specific moment of effort or recovery with believable skin, breath and water.",
+    "Make the white lockup prominent and central while keeping the photograph immersive and full of depth.",
+    "Keep the important eye and bodily gesture clear while allowing the graphic unit to overlap the image."
+  ],
+  "avoid": [
+    "Digital glitch, square pixels, scanlines, neon edges or artificial particles.",
+    "Oversized side headlines, separate empty copy panels, vertical edge text, subtitles or footers.",
+    "Evenly sharp clinical photography, bright flat exposure, plasticky skin, uniform fake droplets, synthetic gradients or blanket blur."
+  ],
+  "prompt_template": "Create ONE finished {ASPECT_RATIO} premium sports campaign image. This is a faithful photographic and compositional transfer of the following language: {STYLE_FIDELITY_ANCHORS}\nSUBJECT: {SUBJECT}\nCAPTURED STATE: {STATE}\nThe ONLY written words are exactly \"{WORDMARK}\". Stack the first word above the second in heavy compact italic title-case white lettering. Make this ORIGINAL LOGO: {LOGO}. Place the white symbol immediately left of the two-line wordmark, tightly joined as ONE prominent tightly joined lockup at the photograph optical center. Do not separate the symbol from the words. The white group must read strongly at first glance and overlap the lower cheek/chin and upper body; it is not a small label below the face. The photograph continues fully behind the group.\nUse the layout plan matching the requested output ratio only. 9:16 plan: {PORTRAIT_LAYOUT}. 16:9 plan: {LANDSCAPE_LAYOUT}.\nBuild a moody underexposed sunlit atmosphere with warm amber highlights, substantial natural shadow, muted blue sky/water and gentle bloom on wet highlights. Focus sharply only on the nearer eye and a small nearby skin plane; let the very near arm/hand, some droplets, farther shoulder and background dissolve with clearly visible optical softness. Keep real skin and water tactile while lowering digital microcontrast; avoid an evenly sharp clinical result. No digital effects, pixel blocks, colored gels, synthetic gradient background, extra type or side copy panel. Source details to replace: {SOURCE_CONTENT_TO_AVOID}",
+  "negative_prompt": "pixel blocks, glitch, scanlines, cyberpunk, neon gel lights, studio spotlights, digital particles, glitter, giant headline, separate text panel, side-by-side ad layout, subtitle, footer, text at frame edge, vertical lettering, flat lighting, plasticky skin, uniform fake sweat, illustration, copied source logo, Modern Human, registered mark, malformed hands, extra limbs, stretched image, small logo, small wordmark, clinical digital sharpness, HDR, uniformly sharp foreground and face, flat high-key exposure, blanket gaussian blur",
+  "examples": [
+    {
+      "case_name": "last-stroke",
+      "values": {
+        "SUBJECT": "an adult woman sculler with deep brown skin and short natural curls, wearing a plain nearly black sleeveless rowing suit, sitting low in a narrow rowing shell on muted blue water after dawn",
+        "STATE": "the exhausted pause just after a hard interval; she folds forward over the oar handles, looks up under a furrowed brow and draws breath through parted lips; irregular sweat and a few lake-water beads glow on her face, shoulders tense and one large damp forearm is much nearer the lens than her eyes",
+        "WORDMARK": "Second Wind",
+        "LOGO": "a bold compact white oval formed by two unequal curved solid blade shapes, separated by a narrow sweeping S-shaped negative channel; the two white pieces form one original asymmetrical rowing emblem without letters",
+        "PORTRAIT_LAYOUT": "9:16 photograph from the very low front of the rowing shell at arm length, camera canted with the athlete leaning directly toward it; close diagonal face occupies the upper half, warm shoulder and a very blurred near forearm with the oar handle sweep across the lower third. Only slivers of defocused blue water remain. Center the tightly joined white emblem and two-line wordmark over the lower chin-to-upper-body mass around the middle of the canvas, spanning about 64 percent of canvas width. Preserve the eye as the focus anchor and allow the emblem top to overlap the lower jaw.",
+        "LANDSCAPE_LAYOUT": "16:9 intimate view from just above the bow, the diagonal face large at the central upper region and near shoulder and blurred oar-gripping forearm crossing the lower width. The shell and muted water extend naturally to both edges. Place the same white logo-wordmark unit over the central lower jaw and upper chest, about 42 percent of canvas width; keep both eyes uncovered and do not create an empty side panel."
+      }
+    },
+    {
+      "case_name": "between-points",
+      "values": {
+        "SUBJECT": "an adult East Asian male tennis player with short damp dark hair under a plain off-white cap, wearing an unbranded nearly black tennis shirt on an outdoor clay court under a muted blue afternoon sky",
+        "STATE": "between points after a brutal rally, bent toward the camera with one hand braced on his knee, lips parted as he steadies his breath; cap shadow crosses his brow, irregular sweat tracks over hot cheeks and jaw; a tennis racket held loosely in the other hand rests very close to the lens at the lower edge",
+        "WORDMARK": "After Point",
+        "LOGO": "one thick white asymmetrical rounded triangular loop, tilted forward, with a small off-center rounded triangular opening and a broad blunt upper shoulder; a simple original continuous emblem without letters",
+        "PORTRAIT_LAYOUT": "9:16 very close low diagonal camera beneath the cap brim, cutting part of the cap at the top edge. The face fills the upper half with one eye in precise focus; a huge optically blurred near forearm and a soft curved racket rim occupy the lower foreground, with no racket strings crossing the eyes. Put the joined white emblem and tight two-line wordmark across the lower cheek and upper chest near canvas center, about 64 percent of canvas width, leaving the eyes completely visible.",
+        "LANDSCAPE_LAYOUT": "16:9 low close three-quarter view with the tilted head centered above two bent shoulders and the near arm sweeping across the lower width; a partially cropped racket rim is out of focus at one lower corner. Deep cap shadow and warm wet skin dominate, with narrow real blue-sky and clay-court gaps. Put the same white lockup at the central jaw-to-chest transition, about 42 percent of canvas width. Recompose the body through the full width."
+      }
+    },
+    {
+      "case_name": "after-the-bell",
+      "values": {
+        "SUBJECT": "an adult female boxer with short damp dark hair and olive-tan skin, wearing a plain black athletic tank and unbranded black boxing gloves at an outdoor training ring in low afternoon sun",
+        "STATE": "the quiet breath immediately after a difficult round; she leans forward against the top rope, one heavy glove lowered very close to the camera and the other outside the crop; her shoulders sag, she looks up with fatigued concentration, sweat runs down temple and neck, and her parted lips release one long exhale. Skin is flushed from exercise without injury.",
+        "WORDMARK": "Quiet Force",
+        "LOGO": "a compact solid white rounded rectangular block split into two unequal pieces by a narrow rising diagonal zigzag channel, leaving a small square notch in the upper edge; an original bold pressure emblem with no letters",
+        "PORTRAIT_LAYOUT": "9:16 intimate off-axis camera just beyond the ring rope, face tilted and close in the upper half, a huge soft black glove veiling the lower left foreground, the rope only a thin softly blurred line at the very bottom. Focus locks onto the nearer eye and small wet cheek plane while glove, far shoulder and background dissolve. Center the joined white emblem and two-line wordmark across lower cheek, chin and dark upper chest around mid-frame, 64 percent of canvas width, with uncovered eyes.",
+        "LANDSCAPE_LAYOUT": "16:9 close low canted view across the ring rope, the face near the center and the large near glove filling a soft dark foreground at lower left, with shoulder sweeping toward the right edge. The outdoor blue sky appears only in irregular gaps; no wide ring establishing shot. Overlay the same white emblem and wordmark as one unit over the central jaw and shoulder mass, 42 percent of canvas width, leaving the eye readable."
+      }
+    },
+    {
+      "case_name": "beyond-the-break",
+      "values": {
+        "SUBJECT": "an adult male surfer with wet sandy-brown curls and lightly freckled sun-warmed skin, wearing a plain nearly black wetsuit, lying prone on a surfboard in muted blue ocean water",
+        "STATE": "a spent pause just beyond the breaking waves after a long paddle; he raises his head toward the close lens and breathes through slightly open lips, a thin run of salt water falls from his chin, wet hair sticks to the forehead, and one bent arm presses into the board immediately in front of the camera",
+        "WORDMARK": "Salt Form",
+        "LOGO": "one bold white curled wave ribbon with a short thick blunt base, a tapering inner curl and a generous open negative crescent; a compact original wave emblem that is wider at the base and contains no letters",
+        "PORTRAIT_LAYOUT": "9:16 waterline close view from the board nose, the diagonal face fills the upper half and wet shoulder looms into the right edge. A very near arm and a narrow pale surfboard rail curve across the lower foreground in deep optical blur, with a few soft real water drops close to the lens. Put the joined white emblem and two-line wordmark across the central chin-to-wetsuit transition, around 64 percent of canvas width, its upper edge overlapping the lower jaw but not the eyes.",
+        "LANDSCAPE_LAYOUT": "16:9 lens at the board nose near the water, a close diagonally leaning face at the center with the bent near arm and board rail sweeping across the lower width, soft blue sea filling small side gaps. Keep the wet face warmer and brighter than the shadowed wetsuit. Place the same white emblem and wordmark across the central lower face and upper body, about 42 percent of canvas width. Preserve lens depth instead of extending into a wide surfing scene."
+      }
+    }
+  ],
+  "category": "Product + Campaign"
+}

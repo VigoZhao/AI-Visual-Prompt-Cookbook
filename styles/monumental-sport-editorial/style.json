@@ -1,0 +1,107 @@
+{
+  "style_version": "1.0",
+  "style_name": "Monumental Sport Editorial",
+  "style_slug": "monumental-sport-editorial",
+  "style_summary": "A premium campaign-poster system built from lifelike athletic photography, monumental condensed white typography, warm stone neutrals, deep black shapes, and precise image-type collisions.",
+  "environment_variables": {
+    "ASPECT_RATIO": "Target canvas ratio: 9:16 or 16:9.",
+    "STYLE_FIDELITY_ANCHORS": "Priority-ordered CORE and FLEX anchors defining the reusable visual system.",
+    "SOURCE_CONTENT_TO_AVOID": "Distinctive source imagery, identity, wording, branding, and layout to replace.",
+    "SUBJECT": "The new athlete or performer who anchors this case.",
+    "SUBJECT_ACTION": "The exact readable athletic or performance action.",
+    "WARDROBE_STYLE": "Case-specific, unbranded wardrobe suited to the action.",
+    "MAIN_TEXT": "The exact short uppercase headline to render.",
+    "DESIGN_DIRECTION": "The case-specific visual idea; allow the action and headline to shape the composition.",
+    "PRODUCT_OR_PROP": "Sport object that collides with the monumental type",
+    "LOCATION": "Warm stone-neutral athletic field",
+    "BACKGROUND_ELEMENTS": "Deep black shapes around the type and body",
+    "SECONDARY_TEXT": "No extra copy beyond the condensed white headline",
+    "ACCENT_SYMBOL": "Monumental condensed white lettering"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Premium contemporary sports-editorial campaign art: tactile, lifelike photography presents a human body in a decisive moment of effort as a sculptural focal point.",
+    "[CORE] Monumental uppercase sans-serif typography with very heavy, narrow proportions and clean, decisive silhouettes; the exact headline is a major visual mass and stays readable.",
+    "[CORE] Photography and lettering share the same visual plane: purposeful overlap, occlusion, or interlocking makes the image and headline feel designed together.",
+    "[CORE] Restrained tonal architecture built from warm taupe or stone, bone white, charcoal or near-black, and a small controlled rust-orange accent.",
+    "[CORE] Directional hard or firm studio light creates deep shaped shadows and crisp separation while preserving believable skin, fabric, rubber, water, or concrete texture.",
+    "[CORE] Strong scale contrast and a simple focal hierarchy make the poster feel bold and immediate, with open tonal areas balancing the dense athlete and type.",
+    "[FLEX] Let each sport's movement determine crop, camera angle, type direction, negative space, and one supporting line or shape; do not reuse a single poster layout.",
+    "[FLEX] Headline letters may stack, split, bend, stretch, crop decoratively, or act as spatial forms when the exact phrase remains fully legible and intentional."
+  ],
+  "source_content_to_avoid": [
+    "The specific woman in the source image, her side-profile pose, face, pulled-back dark hair, gold hoop earrings, and identity.",
+    "The source's oversized white hoodie or cream jacket, black sports top, and the original clothing silhouette.",
+    "The orange basketball, the source hand placement, and the exact basketball close-up composition.",
+    "The exact source headline wording “YOU CAN'T WIN.” and “SO WIN.”, plus the small names “CAITLIN” and “CLARK”.",
+    "The Nike swoosh, Nike identity, team marks, campaign marks, or any other recognizable brand logo.",
+    "The exact source layout with a profile filling the left, ball at lower right, two fixed horizontal headline bands, and the same footer placements."
+  ],
+  "visual_deconstruction": "A high-impact sports editorial poster that combines a close, lifelike athlete photograph with huge condensed white headline typography. Warm greige or stone fields provide calm negative space; charcoal shadows and occasional rust-orange details anchor the image. Strong directional light gives the body dimensionality. The source uses an intimate side profile and stacked headline bands, but the reusable style is the contrast of human scale, type scale, light, and restrained color—not that one arrangement.",
+  "composition": "Build one decisive subject-action relationship with the headline, then compose freely for the chosen ratio. Use close crops, low angles, suspended action, or broad breathing room as the case requires. Let sport-derived marks, lines, curves, or surface geometry connect to the letterforms. Recompose independently in portrait and landscape so the movement reads clearly and the headline remains complete; do not default to the source's same left-profile/right-prop arrangement.",
+  "typography": "Render only the exact case headline as large, heavy, condensed uppercase sans-serif lettering with crisp simple forms and strong contrast against the image. Letter placement and orientation are open: the type can collide with the subject, frame an action, bridge open space, or become a structural plane. Preserve every supplied character and punctuation mark, with no invented readable copy, logo, or signature.",
+  "color_palette": "Use warm taupe, stone, greige, or muted concrete as the principal ground; pair bone or soft white lettering with charcoal and near-black shadows. A restrained rust, burnt orange, or warm skin-tone accent may echo a sport surface or garment. Keep overall saturation controlled and the value contrast decisive; any case variation stays inside this warm-neutral editorial family.",
+  "image_treatment": "Photoreal campaign photography with believable anatomy, skin, fabric, and equipment; a strong directional key light, deep sculptural shadow, and a clean cut against a matte or softly textured field. Retain natural fine texture and intentional edge softness at photographic scale. Avoid synthetic plastic skin, excessive grain, distressed print damage, or unrelated visual effects.",
+  "design_rules": [
+    "The human action and headline form one authored composition; create a visible physical or spatial relationship between them.",
+    "Prioritize one recognizable action, one exact headline, and one dominant visual idea; secondary details must support that hierarchy.",
+    "Use warm neutral fields and selective near-black / rust accents to preserve the reference's restrained tonal drama.",
+    "Adapt the crop, negative-space shape, headline placement, and action flow separately to each aspect ratio.",
+    "Keep the headline fully readable even when letters overlap the subject or extend to the frame edge."
+  ],
+  "do": [
+    "Make the athlete's pose and the sport-specific action immediately recognizable.",
+    "Use oversized condensed lettering as an active compositional element.",
+    "Allow the case concept to create a distinct line, arc, threshold, or spatial tension."
+  ],
+  "avoid": [
+    "Do not repeat the exact source subject, basketball, wording, logo, or fixed poster layout.",
+    "Do not add extra readable words, pseudo-copy, watermarks, signatures, QR codes, or brand marks.",
+    "Do not obscure the decisive movement or reduce the headline to illegible decoration.",
+    "Do not add decorative effects or textures that compete with the athlete, headline, and tonal hierarchy."
+  ],
+  "prompt_template": "Create a finished premium sports-editorial campaign poster in {ASPECT_RATIO}. Follow these priority-ordered style anchors: {STYLE_FIDELITY_ANCHORS}. New subject: {SUBJECT}. Capture this exact action: {SUBJECT_ACTION}. Wardrobe: {WARDROBE_STYLE}. Render the exact headline text “{MAIN_TEXT}” in very large, heavy, narrow uppercase sans-serif lettering; preserve every character and do not invent any other readable words. Case design intention: {DESIGN_DIRECTION}. Give the athlete and headline a specific physical or spatial interaction so the action changes the typography or composition, rather than placing a person beside passive text. Create a fresh layout for this ratio with a clear focal hierarchy, decisive crop, and useful negative space. Keep the visual family in warm taupe / stone / greige, bone-white typography, charcoal or black shadow, and restrained rust-orange accents. Use lifelike campaign photography, directional light, sculptural shadow, and believable material detail. Replace all source content described here: {SOURCE_CONTENT_TO_AVOID}. Do not reproduce the original identity, wording, Nike swoosh, team logos, or layout. No invented copy, pseudo-lettering, watermark, interface, or extra brand marks. Generate as a 4K ultra-high-resolution raster image. Preserve the specified reference-style texture, edge character and intentional softness at their described scale, intensity and locations. Avoid artifacts that are absent from the intended style; do not automatically denoise, sharpen, polish or distress the image.",
+  "negative_prompt": "the specific source woman or her likeness, side-profile face, pulled-back dark hair, gold hoop earrings, white hoodie from source, orange basketball, exact source pose, Nike swoosh, any real brand or team logo, source headline, Caitlin, Clark, original fixed layout, duplicated athlete, malformed anatomy, extra limbs, broken hands, unreadable or misspelled headline, changed headline wording, extra readable copy, pseudo-text, watermark, signature, QR code, app interface, clutter, overprocessed skin, plastic gloss, excessive grain, fake distressed print, unrelated neon palette, decorative effects that obscure the action",
+  "examples": [
+    {
+      "case_name": "skater-take-flight",
+      "values": {
+        "SUBJECT": "a woman skateboarder",
+        "SUBJECT_ACTION": "caught at the peak of a high aerial above a concrete bowl, board sharply visible beneath her feet",
+        "WARDROBE_STYLE": "cream windbreaker, dark trousers, and scuffed skate shoes",
+        "MAIN_TEXT": "TAKE FLIGHT",
+        "DESIGN_DIRECTION": "Use a low, close perspective; let the bowl's curved lip echo the headline's baseline and allow the board to slice between the two words like a moving underline."
+      }
+    },
+    {
+      "case_name": "diver-hold-breath",
+      "values": {
+        "SUBJECT": "a female platform diver",
+        "SUBJECT_ACTION": "folding into a precise tuck at the instant before entering a dark pool",
+        "WARDROBE_STYLE": "minimal black-and-ivory competition swimwear",
+        "MAIN_TEXT": "HOLD YOUR BREATH",
+        "DESIGN_DIRECTION": "Organize the poster around a crisp waterline; the diver passes through the gap between two typographic masses, with concentric ripples echoing letter counters below."
+      }
+    },
+    {
+      "case_name": "dancer-one-clean-line",
+      "values": {
+        "SUBJECT": "a male contemporary dancer",
+        "SUBJECT_ACTION": "holding a suspended, asymmetrical leap with one arm tracing a long arc",
+        "WARDROBE_STYLE": "soft ivory rehearsal clothes with a single black wrap",
+        "MAIN_TEXT": "ONE CLEAN LINE",
+        "DESIGN_DIRECTION": "Let the dancer's extended arm draw a sweeping path through the title; pair one enormous vertical word with a counterbalancing open field rather than a centered stack."
+      }
+    },
+    {
+      "case_name": "sprinter-outlast-light",
+      "values": {
+        "SUBJECT": "a female sprinter",
+        "SUBJECT_ACTION": "exploding from the blocks at dawn, seen in a close, low side angle",
+        "WARDROBE_STYLE": "ivory racing singlet, dark compression shorts, and rust-toned spikes",
+        "MAIN_TEXT": "OUTLAST LIGHT",
+        "DESIGN_DIRECTION": "Turn the lane marks into long graphic bars that lead through a giant condensed title; crop the runner's body across the frame so velocity is felt in the typographic spacing."
+      }
+    }
+  ],
+  "category": "Type Posters"
+}

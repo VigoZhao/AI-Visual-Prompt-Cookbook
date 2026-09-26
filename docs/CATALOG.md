@@ -1,8 +1,78 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 147 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 154 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Acid Jolt Portrait Collage
+
+<a href="../styles/acid-jolt-photo-collage"><img src="../assets/thumbs/acid-jolt-photo-collage-16x9.jpg" width="720" alt="Acid Jolt Portrait Collage preview"></a>
+
+A punchy portrait-poster system mixing warm, low-fi close-up photography, blunt photo-fragment inserts, massive lemon-yellow rounded lettering, and loose marker signals against dark, quiet fields.
+
+Files: [style.json](../styles/acid-jolt-photo-collage/style.json) · [Copy Prompt](copy-prompts/acid-jolt-photo-collage.md) · [16:9 preview](../styles/acid-jolt-photo-collage/preview-16x9.jpg) · [9:16 preview](../styles/acid-jolt-photo-collage/preview-9x16.jpg) · [Folder](../styles/acid-jolt-photo-collage)
+
+---
+
+### Amber Orbit Editorial
+
+<a href="../styles/amber-orbit-editorial"><img src="../assets/thumbs/amber-orbit-editorial-16x9.jpg" width="720" alt="Amber Orbit Editorial preview"></a>
+
+Intimate warm macro photography, grazing amber light, ivory serif typography and fine overlapping orbital lines turn tactile details into quiet editorial stories about attention, making and time.
+
+Files: [style.json](../styles/amber-orbit-editorial/style.json) · [Copy Prompt](copy-prompts/amber-orbit-editorial.md) · [16:9 preview](../styles/amber-orbit-editorial/preview-16x9.jpg) · [9:16 preview](../styles/amber-orbit-editorial/preview-9x16.jpg) · [Folder](../styles/amber-orbit-editorial)
+
+---
+
+### Felt Motion Brand Campaign
+
+<a href="../styles/felt-motion-brand-campaign"><img src="../assets/thumbs/felt-motion-brand-campaign-16x9.jpg" width="720" alt="Felt Motion Brand Campaign preview"></a>
+
+An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.
+
+Files: [style.json](../styles/felt-motion-brand-campaign/style.json) · [Copy Prompt](copy-prompts/felt-motion-brand-campaign.md) · [16:9 preview](../styles/felt-motion-brand-campaign/preview-16x9.jpg) · [9:16 preview](../styles/felt-motion-brand-campaign/preview-9x16.jpg) · [Folder](../styles/felt-motion-brand-campaign)
+
+---
+
+### Felt Motion Brand Campaign — Set 02
+
+<a href="../styles/felt-motion-brand-campaign-set-02"><img src="../assets/thumbs/felt-motion-brand-campaign-set-02-16x9.jpg" width="720" alt="Felt Motion Brand Campaign — Set 02 preview"></a>
+
+An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.
+
+Files: [style.json](../styles/felt-motion-brand-campaign-set-02/style.json) · [Copy Prompt](copy-prompts/felt-motion-brand-campaign-set-02.md) · [16:9 preview](../styles/felt-motion-brand-campaign-set-02/preview-16x9.jpg) · [9:16 preview](../styles/felt-motion-brand-campaign-set-02/preview-9x16.jpg) · [Folder](../styles/felt-motion-brand-campaign-set-02)
+
+---
+
+### Monumental Editorial — Set 02
+
+<a href="../styles/monumental-editorial-set-02"><img src="../assets/thumbs/monumental-editorial-set-02-16x9.jpg" width="720" alt="Monumental Editorial — Set 02 preview"></a>
+
+A cross-domain extension of monumental sports editorial typography: clean giant condensed white lettering collides with tactile botanical, musical, food, and chrome-product photography, each in a distinct palette and spatial arrangement.
+
+Files: [style.json](../styles/monumental-editorial-set-02/style.json) · [Copy Prompt](copy-prompts/monumental-editorial-set-02.md) · [16:9 preview](../styles/monumental-editorial-set-02/preview-16x9.jpg) · [9:16 preview](../styles/monumental-editorial-set-02/preview-9x16.jpg) · [Folder](../styles/monumental-editorial-set-02)
+
+---
+
+### Monumental Sport Editorial
+
+<a href="../styles/monumental-sport-editorial"><img src="../assets/thumbs/monumental-sport-editorial-16x9.jpg" width="720" alt="Monumental Sport Editorial preview"></a>
+
+A premium campaign-poster system built from lifelike athletic photography, monumental condensed white typography, warm stone neutrals, deep black shapes, and precise image-type collisions.
+
+Files: [style.json](../styles/monumental-sport-editorial/style.json) · [Copy Prompt](copy-prompts/monumental-sport-editorial.md) · [16:9 preview](../styles/monumental-sport-editorial/preview-16x9.jpg) · [9:16 preview](../styles/monumental-sport-editorial/preview-9x16.jpg) · [Folder](../styles/monumental-sport-editorial)
+
+---
+
+### Slice Signal Editorial
+
+<a href="../styles/slice-signal-editorial"><img src="../assets/thumbs/slice-signal-editorial-16x9.jpg" width="720" alt="Slice Signal Editorial preview"></a>
+
+Restrained, sharp experimental editorial posters built from oversized condensed headlines, black-white-and-scarlet blocks, and photographic subjects interrupted by vertical slices.
+
+Files: [style.json](../styles/slice-signal-editorial/style.json) · [Copy Prompt](copy-prompts/slice-signal-editorial.md) · [16:9 preview](../styles/slice-signal-editorial/preview-16x9.jpg) · [9:16 preview](../styles/slice-signal-editorial/preview-9x16.jpg) · [Folder](../styles/slice-signal-editorial)
+
+---
 
 ### Chromatic Impact Athlete
 
