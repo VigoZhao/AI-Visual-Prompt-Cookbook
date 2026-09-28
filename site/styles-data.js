@@ -8,6 +8,416 @@ window.COOKBOOK_STYLES = {
     "Editorial + Minimal",
     "Product + Campaign"
   ],
+  "quickTags": [
+    "Portrait",
+    "Manga & Comic",
+    "Hand-drawn",
+    "Halftone & Print",
+    "Retro",
+    "Neon",
+    "Monochrome",
+    "3D",
+    "Mascot",
+    "Sport",
+    "Food",
+    "Fashion",
+    "Product"
+  ],
+  "zhTerms": {
+    "海报": [
+      "poster"
+    ],
+    "封面": [
+      "cover",
+      "thumbnail"
+    ],
+    "缩略图": [
+      "thumbnail"
+    ],
+    "广告": [
+      "ad",
+      "campaign"
+    ],
+    "杂志": [
+      "editorial",
+      "magazine",
+      "zine"
+    ],
+    "编辑": [
+      "editorial"
+    ],
+    "排版": [
+      "editorial",
+      "layout",
+      "type"
+    ],
+    "卡片": [
+      "card"
+    ],
+    "传单": [
+      "flyer"
+    ],
+    "书封": [
+      "book cover"
+    ],
+    "包装": [
+      "packaging"
+    ],
+    "信封": [
+      "envelope"
+    ],
+    "字体": [
+      "type",
+      "typograph",
+      "lettering"
+    ],
+    "大字": [
+      "megatype",
+      "type",
+      "headline"
+    ],
+    "文字": [
+      "type",
+      "text",
+      "lettering"
+    ],
+    "字母": [
+      "letter"
+    ],
+    "涂鸦": [
+      "doodle",
+      "scribble",
+      "graffiti"
+    ],
+    "手绘": [
+      "hand-drawn",
+      "doodle",
+      "sketch",
+      "marker"
+    ],
+    "马克笔": [
+      "marker"
+    ],
+    "蜡笔": [
+      "crayon"
+    ],
+    "拼贴": [
+      "collage",
+      "cutout"
+    ],
+    "剪贴": [
+      "cutout",
+      "collage"
+    ],
+    "贴纸": [
+      "sticker"
+    ],
+    "网点": [
+      "halftone"
+    ],
+    "半调": [
+      "halftone"
+    ],
+    "油印": [
+      "riso"
+    ],
+    "复印": [
+      "xerox"
+    ],
+    "印刷": [
+      "print",
+      "riso"
+    ],
+    "版画": [
+      "engraved",
+      "print"
+    ],
+    "漫画": [
+      "manga",
+      "comic"
+    ],
+    "动漫": [
+      "anime",
+      "manga"
+    ],
+    "二次元": [
+      "anime",
+      "manga"
+    ],
+    "插画": [
+      "illustration",
+      "vector",
+      "doodle"
+    ],
+    "矢量": [
+      "vector"
+    ],
+    "扁平": [
+      "flat",
+      "vector"
+    ],
+    "摄影": [
+      "photo"
+    ],
+    "照片": [
+      "photo"
+    ],
+    "人像": [
+      "portrait"
+    ],
+    "肖像": [
+      "portrait"
+    ],
+    "鱼眼": [
+      "fisheye"
+    ],
+    "三维": [
+      "3d"
+    ],
+    "立体": [
+      "3d"
+    ],
+    "黏土": [
+      "clay"
+    ],
+    "玩具": [
+      "toy"
+    ],
+    "复古": [
+      "retro",
+      "vintage"
+    ],
+    "怀旧": [
+      "retro",
+      "vintage",
+      "analog"
+    ],
+    "胶片": [
+      "analog",
+      "film"
+    ],
+    "未来": [
+      "future",
+      "cyber"
+    ],
+    "赛博": [
+      "cyber"
+    ],
+    "科技": [
+      "tech",
+      "hud",
+      "cyber"
+    ],
+    "霓虹": [
+      "neon"
+    ],
+    "荧光": [
+      "neon",
+      "acid",
+      "fluorescent"
+    ],
+    "极简": [
+      "minimal"
+    ],
+    "简约": [
+      "minimal",
+      "clean"
+    ],
+    "黑白": [
+      "monochrome",
+      "black",
+      "noir"
+    ],
+    "单色": [
+      "monochrome"
+    ],
+    "双色": [
+      "duotone"
+    ],
+    "渐变": [
+      "gradient"
+    ],
+    "动感": [
+      "kinetic",
+      "motion",
+      "action"
+    ],
+    "速度": [
+      "speed",
+      "motion"
+    ],
+    "街头": [
+      "street"
+    ],
+    "街拍": [
+      "street"
+    ],
+    "朋克": [
+      "punk",
+      "grunge"
+    ],
+    "哥特": [
+      "gothic"
+    ],
+    "可爱": [
+      "kawaii",
+      "cute",
+      "playful"
+    ],
+    "红色": [
+      "red",
+      "crimson",
+      "scarlet"
+    ],
+    "蓝色": [
+      "blue",
+      "cobalt"
+    ],
+    "黄色": [
+      "yellow",
+      "lemon"
+    ],
+    "绿色": [
+      "green",
+      "lime"
+    ],
+    "橙色": [
+      "orange",
+      "tangerine"
+    ],
+    "粉色": [
+      "pink"
+    ],
+    "紫色": [
+      "purple",
+      "violet"
+    ],
+    "产品": [
+      "product"
+    ],
+    "电商": [
+      "product",
+      "retail",
+      "ad"
+    ],
+    "球鞋": [
+      "sneaker",
+      "footwear"
+    ],
+    "鞋": [
+      "footwear",
+      "sneaker",
+      "shoe"
+    ],
+    "运动": [
+      "sport",
+      "athlete",
+      "action"
+    ],
+    "跑步": [
+      "runner",
+      "running"
+    ],
+    "篮球": [
+      "basketball"
+    ],
+    "足球": [
+      "football"
+    ],
+    "赛车": [
+      "racing",
+      "motorsport"
+    ],
+    "美食": [
+      "food"
+    ],
+    "食物": [
+      "food"
+    ],
+    "咖啡": [
+      "coffee"
+    ],
+    "饮料": [
+      "drink"
+    ],
+    "时尚": [
+      "fashion"
+    ],
+    "穿搭": [
+      "fashion",
+      "outfit",
+      "streetwear"
+    ],
+    "吉祥物": [
+      "mascot"
+    ],
+    "角色": [
+      "character",
+      "mascot"
+    ],
+    "怪物": [
+      "monster"
+    ],
+    "宠物": [
+      "pet"
+    ],
+    "猫": [
+      "cat"
+    ],
+    "旅行": [
+      "travel"
+    ],
+    "旅游": [
+      "travel"
+    ],
+    "城市": [
+      "city",
+      "urban"
+    ],
+    "地铁": [
+      "subway",
+      "transit"
+    ],
+    "音乐": [
+      "music"
+    ],
+    "演出": [
+      "concert",
+      "live"
+    ],
+    "品牌": [
+      "brand",
+      "campaign"
+    ],
+    "发布": [
+      "launch"
+    ],
+    "日记": [
+      "diary"
+    ],
+    "笔记": [
+      "notebook",
+      "diary"
+    ],
+    "韩流": [
+      "k-pop"
+    ],
+    "韩国": [
+      "k-pop",
+      "korean",
+      "seoul"
+    ],
+    "日本": [
+      "tokyo",
+      "japan"
+    ],
+    "中国": [
+      "chinese"
+    ],
+    "中文": [
+      "chinese"
+    ]
+  },
   "styles": [
     {
       "name": "Acid Jolt Portrait Collage",
@@ -17,6 +427,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A punchy portrait-poster system mixing warm, low-fi close-up photography, blunt photo-fragment inserts, massive lemon-yellow rounded lettering, and loose marker signals against dark, quiet fields.",
       "preview16": "../styles/acid-jolt-photo-collage/preview-16x9.jpg",
       "preview9": "../styles/acid-jolt-photo-collage/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/acid-jolt-photo-collage-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/acid-jolt-photo-collage/01-16x9.webp",
+          "img9": "../assets/samples/acid-jolt-photo-collage/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/acid-jolt-photo-collage/02-16x9.webp",
+          "img9": "../assets/samples/acid-jolt-photo-collage/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/acid-jolt-photo-collage/03-16x9.webp",
+          "img9": "../assets/samples/acid-jolt-photo-collage/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/acid-jolt-photo-collage/04-16x9.webp",
+          "img9": "../assets/samples/acid-jolt-photo-collage/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Hand-drawn",
+        "Neon"
+      ],
       "styleJson": "../styles/acid-jolt-photo-collage/style.json",
       "copyPromptDoc": "../docs/copy-prompts/acid-jolt-photo-collage.md",
       "folder": "../styles/acid-jolt-photo-collage/",
@@ -57,6 +495,30 @@ window.COOKBOOK_STYLES = {
       "summary": "Intimate warm macro photography, grazing amber light, ivory serif typography and fine overlapping orbital lines turn tactile details into quiet editorial stories about attention, making and time.",
       "preview16": "../styles/amber-orbit-editorial/preview-16x9.jpg",
       "preview9": "../styles/amber-orbit-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/amber-orbit-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/amber-orbit-editorial/01-16x9.webp",
+          "img9": "../assets/samples/amber-orbit-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/amber-orbit-editorial/02-16x9.webp",
+          "img9": "../assets/samples/amber-orbit-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/amber-orbit-editorial/03-16x9.webp",
+          "img9": "../assets/samples/amber-orbit-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/amber-orbit-editorial/04-16x9.webp",
+          "img9": "../assets/samples/amber-orbit-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/amber-orbit-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/amber-orbit-editorial.md",
       "folder": "../styles/amber-orbit-editorial/",
@@ -104,6 +566,32 @@ window.COOKBOOK_STYLES = {
       "summary": "An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.",
       "preview16": "../styles/felt-motion-brand-campaign/preview-16x9.jpg",
       "preview9": "../styles/felt-motion-brand-campaign/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/felt-motion-brand-campaign-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/felt-motion-brand-campaign/01-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/felt-motion-brand-campaign/02-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/felt-motion-brand-campaign/03-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/felt-motion-brand-campaign/04-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/felt-motion-brand-campaign/style.json",
       "copyPromptDoc": "../docs/copy-prompts/felt-motion-brand-campaign.md",
       "folder": "../styles/felt-motion-brand-campaign/",
@@ -148,6 +636,32 @@ window.COOKBOOK_STYLES = {
       "summary": "An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.",
       "preview16": "../styles/felt-motion-brand-campaign-set-02/preview-16x9.jpg",
       "preview9": "../styles/felt-motion-brand-campaign-set-02/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/felt-motion-brand-campaign-set-02-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/felt-motion-brand-campaign-set-02/01-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign-set-02/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/felt-motion-brand-campaign-set-02/02-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign-set-02/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/felt-motion-brand-campaign-set-02/03-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign-set-02/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/felt-motion-brand-campaign-set-02/04-16x9.webp",
+          "img9": "../assets/samples/felt-motion-brand-campaign-set-02/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/felt-motion-brand-campaign-set-02/style.json",
       "copyPromptDoc": "../docs/copy-prompts/felt-motion-brand-campaign-set-02.md",
       "folder": "../styles/felt-motion-brand-campaign-set-02/",
@@ -192,6 +706,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A cross-domain extension of monumental sports editorial typography: clean giant condensed white lettering collides with tactile botanical, musical, food, and chrome-product photography, each in a distinct palette and spatial arrangement.",
       "preview16": "../styles/monumental-editorial-set-02/preview-16x9.jpg",
       "preview9": "../styles/monumental-editorial-set-02/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/monumental-editorial-set-02-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/monumental-editorial-set-02/01-16x9.webp",
+          "img9": "../assets/samples/monumental-editorial-set-02/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/monumental-editorial-set-02/02-16x9.webp",
+          "img9": "../assets/samples/monumental-editorial-set-02/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/monumental-editorial-set-02/03-16x9.webp",
+          "img9": "../assets/samples/monumental-editorial-set-02/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/monumental-editorial-set-02/04-16x9.webp",
+          "img9": "../assets/samples/monumental-editorial-set-02/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport",
+        "Food",
+        "Product"
+      ],
       "styleJson": "../styles/monumental-editorial-set-02/style.json",
       "copyPromptDoc": "../docs/copy-prompts/monumental-editorial-set-02.md",
       "folder": "../styles/monumental-editorial-set-02/",
@@ -234,6 +776,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A premium campaign-poster system built from lifelike athletic photography, monumental condensed white typography, warm stone neutrals, deep black shapes, and precise image-type collisions.",
       "preview16": "../styles/monumental-sport-editorial/preview-16x9.jpg",
       "preview9": "../styles/monumental-sport-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/monumental-sport-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/monumental-sport-editorial/01-16x9.webp",
+          "img9": "../assets/samples/monumental-sport-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/monumental-sport-editorial/02-16x9.webp",
+          "img9": "../assets/samples/monumental-sport-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/monumental-sport-editorial/03-16x9.webp",
+          "img9": "../assets/samples/monumental-sport-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/monumental-sport-editorial/04-16x9.webp",
+          "img9": "../assets/samples/monumental-sport-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/monumental-sport-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/monumental-sport-editorial.md",
       "folder": "../styles/monumental-sport-editorial/",
@@ -274,6 +842,30 @@ window.COOKBOOK_STYLES = {
       "summary": "Restrained, sharp experimental editorial posters built from oversized condensed headlines, black-white-and-scarlet blocks, and photographic subjects interrupted by vertical slices.",
       "preview16": "../styles/slice-signal-editorial/preview-16x9.jpg",
       "preview9": "../styles/slice-signal-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/slice-signal-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/slice-signal-editorial/01-16x9.webp",
+          "img9": "../assets/samples/slice-signal-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/slice-signal-editorial/02-16x9.webp",
+          "img9": "../assets/samples/slice-signal-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/slice-signal-editorial/03-16x9.webp",
+          "img9": "../assets/samples/slice-signal-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/slice-signal-editorial/04-16x9.webp",
+          "img9": "../assets/samples/slice-signal-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/slice-signal-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/slice-signal-editorial.md",
       "folder": "../styles/slice-signal-editorial/",
@@ -315,6 +907,32 @@ window.COOKBOOK_STYLES = {
       "summary": "High-contrast athletic editorial posters that turn a frozen movement into a collision of grayscale body photography, extreme perspective, and a single red-orange energy accent.",
       "preview16": "../styles/chromatic-impact-athlete/preview-16x9.jpg",
       "preview9": "../styles/chromatic-impact-athlete/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/chromatic-impact-athlete-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/chromatic-impact-athlete/01-16x9.webp",
+          "img9": "../assets/samples/chromatic-impact-athlete/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/chromatic-impact-athlete/02-16x9.webp",
+          "img9": "../assets/samples/chromatic-impact-athlete/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/chromatic-impact-athlete/03-16x9.webp",
+          "img9": "../assets/samples/chromatic-impact-athlete/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/chromatic-impact-athlete/04-16x9.webp",
+          "img9": "../assets/samples/chromatic-impact-athlete/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/chromatic-impact-athlete/style.json",
       "copyPromptDoc": "../docs/copy-prompts/chromatic-impact-athlete.md",
       "folder": "../styles/chromatic-impact-athlete/",
@@ -355,6 +973,30 @@ window.COOKBOOK_STYLES = {
       "summary": "Sunlit photographic editorial posters shaped by monumental condensed cream lettering, elastic curves and deliberate subject/type depth exchanges. Each theme gives the lettering a different spatial job.",
       "preview16": "../styles/cream-curve-editorial/preview-16x9.jpg",
       "preview9": "../styles/cream-curve-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cream-curve-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/cream-curve-editorial/01-16x9.webp",
+          "img9": "../assets/samples/cream-curve-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/cream-curve-editorial/02-16x9.webp",
+          "img9": "../assets/samples/cream-curve-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/cream-curve-editorial/03-16x9.webp",
+          "img9": "../assets/samples/cream-curve-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/cream-curve-editorial/04-16x9.webp",
+          "img9": "../assets/samples/cream-curve-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/cream-curve-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cream-curve-editorial.md",
       "folder": "../styles/cream-curve-editorial/",
@@ -399,6 +1041,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A premium, motion-led footwear campaign turns athletic movement into a compact visual process story: a newly invented shoe mechanism is shown through action, sequential states and tactile engineering close-ups, with restrained micro-labels.",
       "preview16": "../styles/kinetic-footwear-process/preview-16x9.jpg",
       "preview9": "../styles/kinetic-footwear-process/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/kinetic-footwear-process-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/kinetic-footwear-process/01-16x9.webp",
+          "img9": "../assets/samples/kinetic-footwear-process/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/kinetic-footwear-process/02-16x9.webp",
+          "img9": "../assets/samples/kinetic-footwear-process/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/kinetic-footwear-process/03-16x9.webp",
+          "img9": "../assets/samples/kinetic-footwear-process/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/kinetic-footwear-process/04-16x9.webp",
+          "img9": "../assets/samples/kinetic-footwear-process/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Product"
+      ],
       "styleJson": "../styles/kinetic-footwear-process/style.json",
       "copyPromptDoc": "../docs/copy-prompts/kinetic-footwear-process.md",
       "folder": "../styles/kinetic-footwear-process/",
@@ -442,6 +1111,33 @@ window.COOKBOOK_STYLES = {
       "summary": "Minimal future-sport product concepts pair tactile podded outsoles with quiet athletic gestures, modular editorial panels, ice-cool architecture and signal-coral accents.",
       "preview16": "../styles/sensory-footwear-lab/preview-16x9.jpg",
       "preview9": "../styles/sensory-footwear-lab/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sensory-footwear-lab-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sensory-footwear-lab/01-16x9.webp",
+          "img9": "../assets/samples/sensory-footwear-lab/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sensory-footwear-lab/02-16x9.webp",
+          "img9": "../assets/samples/sensory-footwear-lab/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sensory-footwear-lab/03-16x9.webp",
+          "img9": "../assets/samples/sensory-footwear-lab/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sensory-footwear-lab/04-16x9.webp",
+          "img9": "../assets/samples/sensory-footwear-lab/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport",
+        "Product"
+      ],
       "styleJson": "../styles/sensory-footwear-lab/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sensory-footwear-lab.md",
       "folder": "../styles/sensory-footwear-lab/",
@@ -483,6 +1179,32 @@ window.COOKBOOK_STYLES = {
       "summary": "Full-bleed future-sport posters isolate one razor-sharp piece of gear against directional motion trails, luminous gradients and a single giant white geometric slogan.",
       "preview16": "../styles/vector-atelier/preview-16x9.jpg",
       "preview9": "../styles/vector-atelier/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/vector-atelier-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/vector-atelier/01-16x9.webp",
+          "img9": "../assets/samples/vector-atelier/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/vector-atelier/02-16x9.webp",
+          "img9": "../assets/samples/vector-atelier/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/vector-atelier/03-16x9.webp",
+          "img9": "../assets/samples/vector-atelier/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/vector-atelier/04-16x9.webp",
+          "img9": "../assets/samples/vector-atelier/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/vector-atelier/style.json",
       "copyPromptDoc": "../docs/copy-prompts/vector-atelier.md",
       "folder": "../styles/vector-atelier/",
@@ -526,6 +1248,32 @@ window.COOKBOOK_STYLES = {
       "summary": "Premium footwear process boards explain load, flex, fit and construction through sequential image panels, tactile material macros, sparse micro-labels and a distinct sculptural shoe architecture.",
       "preview16": "../styles/vector-process-study/preview-16x9.jpg",
       "preview9": "../styles/vector-process-study/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/vector-process-study-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/vector-process-study/01-16x9.webp",
+          "img9": "../assets/samples/vector-process-study/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/vector-process-study/02-16x9.webp",
+          "img9": "../assets/samples/vector-process-study/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/vector-process-study/03-16x9.webp",
+          "img9": "../assets/samples/vector-process-study/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/vector-process-study/04-16x9.webp",
+          "img9": "../assets/samples/vector-process-study/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Product"
+      ],
       "styleJson": "../styles/vector-process-study/style.json",
       "copyPromptDoc": "../docs/copy-prompts/vector-process-study.md",
       "folder": "../styles/vector-process-study/",
@@ -567,6 +1315,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A photographic subject yields to white paper, retained as hand-traced contour, intimate word labels and sparse gray image fragments.",
       "preview16": "../styles/annotated-absence/preview-16x9.jpg",
       "preview9": "../styles/annotated-absence/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/annotated-absence-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/annotated-absence/01-16x9.webp",
+          "img9": "../assets/samples/annotated-absence/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/annotated-absence/02-16x9.webp",
+          "img9": "../assets/samples/annotated-absence/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/annotated-absence/03-16x9.webp",
+          "img9": "../assets/samples/annotated-absence/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/annotated-absence/04-16x9.webp",
+          "img9": "../assets/samples/annotated-absence/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/annotated-absence/style.json",
       "copyPromptDoc": "../docs/copy-prompts/annotated-absence.md",
       "folder": "../styles/annotated-absence/",
@@ -609,6 +1381,30 @@ window.COOKBOOK_STYLES = {
       "summary": "Realistic figures on pale gray-white ground, their torsos constructed from irregular black handwriting, with a compact heavy black headline and sparse red handwritten marks.",
       "preview16": "../styles/ink-body-manifesto/preview-16x9.jpg",
       "preview9": "../styles/ink-body-manifesto/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/ink-body-manifesto-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/ink-body-manifesto/01-16x9.webp",
+          "img9": "../assets/samples/ink-body-manifesto/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/ink-body-manifesto/02-16x9.webp",
+          "img9": "../assets/samples/ink-body-manifesto/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/ink-body-manifesto/03-16x9.webp",
+          "img9": "../assets/samples/ink-body-manifesto/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/ink-body-manifesto/04-16x9.webp",
+          "img9": "../assets/samples/ink-body-manifesto/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/ink-body-manifesto/style.json",
       "copyPromptDoc": "../docs/copy-prompts/ink-body-manifesto.md",
       "folder": "../styles/ink-body-manifesto/",
@@ -650,6 +1446,35 @@ window.COOKBOOK_STYLES = {
       "summary": "A coarse-halftone black-and-white portrait tiled by a regular white grid; selected cells become faded life photographs, blank paper, and one fluorescent-pink key memory. From afar it is a face; up close it is a relationship.",
       "preview16": "../styles/memory-fragment-portrait/preview-16x9.jpg",
       "preview9": "../styles/memory-fragment-portrait/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/memory-fragment-portrait-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/memory-fragment-portrait/01-16x9.webp",
+          "img9": "../assets/samples/memory-fragment-portrait/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/memory-fragment-portrait/02-16x9.webp",
+          "img9": "../assets/samples/memory-fragment-portrait/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/memory-fragment-portrait/03-16x9.webp",
+          "img9": "../assets/samples/memory-fragment-portrait/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/memory-fragment-portrait/04-16x9.webp",
+          "img9": "../assets/samples/memory-fragment-portrait/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Halftone & Print",
+        "Neon",
+        "Monochrome"
+      ],
       "styleJson": "../styles/memory-fragment-portrait/style.json",
       "copyPromptDoc": "../docs/copy-prompts/memory-fragment-portrait.md",
       "folder": "../styles/memory-fragment-portrait/",
@@ -691,6 +1516,53 @@ window.COOKBOOK_STYLES = {
       "summary": "Monochrome human fragments become monumental single-color landscapes inhabited by tiny figures.",
       "preview16": "../styles/portrait-as-terrain/preview-16x9.jpg",
       "preview9": "../styles/portrait-as-terrain/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/portrait-as-terrain-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/portrait-as-terrain/01-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/portrait-as-terrain/02-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/portrait-as-terrain/03-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/portrait-as-terrain/04-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/04-9x16.webp"
+        },
+        {
+          "index": 4,
+          "img16": "../assets/samples/portrait-as-terrain/05-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/05-9x16.webp"
+        },
+        {
+          "index": 5,
+          "img16": "../assets/samples/portrait-as-terrain/06-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/06-9x16.webp"
+        },
+        {
+          "index": 6,
+          "img16": "../assets/samples/portrait-as-terrain/07-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/07-9x16.webp"
+        },
+        {
+          "index": 7,
+          "img16": "../assets/samples/portrait-as-terrain/08-16x9.webp",
+          "img9": "../assets/samples/portrait-as-terrain/08-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Monochrome"
+      ],
       "styleJson": "../styles/portrait-as-terrain/style.json",
       "copyPromptDoc": "../docs/copy-prompts/portrait-as-terrain.md",
       "folder": "../styles/portrait-as-terrain/",
@@ -733,6 +1605,32 @@ window.COOKBOOK_STYLES = {
       "summary": "Extreme wide-angle action photography with an enlarged near-lens object, saturated blue environmental depth, one acid-colored angular burst behind the subject and oversized lean typography sweeping diagonally through the foreground.",
       "preview16": "../styles/acid-burst-motion-type/preview-16x9.jpg",
       "preview9": "../styles/acid-burst-motion-type/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/acid-burst-motion-type-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/acid-burst-motion-type/01-16x9.webp",
+          "img9": "../assets/samples/acid-burst-motion-type/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/acid-burst-motion-type/02-16x9.webp",
+          "img9": "../assets/samples/acid-burst-motion-type/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/acid-burst-motion-type/03-16x9.webp",
+          "img9": "../assets/samples/acid-burst-motion-type/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/acid-burst-motion-type/04-16x9.webp",
+          "img9": "../assets/samples/acid-burst-motion-type/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon"
+      ],
       "styleJson": "../styles/acid-burst-motion-type/style.json",
       "copyPromptDoc": "../docs/copy-prompts/acid-burst-motion-type.md",
       "folder": "../styles/acid-burst-motion-type/",
@@ -776,6 +1674,30 @@ window.COOKBOOK_STYLES = {
       "summary": "Close wide-angle action photographs interlocked with enormous warm-cream condensed background type, cobalt environmental depth, tactile ground or water, and a compact rule-divided editorial information rail.",
       "preview16": "../styles/cream-megatype-impact-editorial/preview-16x9.jpg",
       "preview9": "../styles/cream-megatype-impact-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cream-megatype-impact-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/cream-megatype-impact-editorial/01-16x9.webp",
+          "img9": "../assets/samples/cream-megatype-impact-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/cream-megatype-impact-editorial/02-16x9.webp",
+          "img9": "../assets/samples/cream-megatype-impact-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/cream-megatype-impact-editorial/03-16x9.webp",
+          "img9": "../assets/samples/cream-megatype-impact-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/cream-megatype-impact-editorial/04-16x9.webp",
+          "img9": "../assets/samples/cream-megatype-impact-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/cream-megatype-impact-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cream-megatype-impact-editorial.md",
       "folder": "../styles/cream-megatype-impact-editorial/",
@@ -819,6 +1741,32 @@ window.COOKBOOK_STYLES = {
       "summary": "Oversized regular-weight grotesk typography, emphatic event numerals and a continuous grainy action photograph selectively re-inked through hard-edged stepped color windows.",
       "preview16": "../styles/duotone-step-window-editorial/preview-16x9.jpg",
       "preview9": "../styles/duotone-step-window-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/duotone-step-window-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/duotone-step-window-editorial/01-16x9.webp",
+          "img9": "../assets/samples/duotone-step-window-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/duotone-step-window-editorial/02-16x9.webp",
+          "img9": "../assets/samples/duotone-step-window-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/duotone-step-window-editorial/03-16x9.webp",
+          "img9": "../assets/samples/duotone-step-window-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/duotone-step-window-editorial/04-16x9.webp",
+          "img9": "../assets/samples/duotone-step-window-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Monochrome"
+      ],
       "styleJson": "../styles/duotone-step-window-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/duotone-step-window-editorial.md",
       "folder": "../styles/duotone-step-window-editorial/",
@@ -865,6 +1813,33 @@ window.COOKBOOK_STYLES = {
       "summary": "High-contrast editorial collage in which monumental coarse black-and-white photographic halftones interact with selective crisp color fragments, heavy display typography and sparse handwritten interventions.",
       "preview16": "../styles/halftone-chroma-fragment-editorial/preview-16x9.jpg",
       "preview9": "../styles/halftone-chroma-fragment-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/halftone-chroma-fragment-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/halftone-chroma-fragment-editorial/01-16x9.webp",
+          "img9": "../assets/samples/halftone-chroma-fragment-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/halftone-chroma-fragment-editorial/02-16x9.webp",
+          "img9": "../assets/samples/halftone-chroma-fragment-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/halftone-chroma-fragment-editorial/03-16x9.webp",
+          "img9": "../assets/samples/halftone-chroma-fragment-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/halftone-chroma-fragment-editorial/04-16x9.webp",
+          "img9": "../assets/samples/halftone-chroma-fragment-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Monochrome"
+      ],
       "styleJson": "../styles/halftone-chroma-fragment-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/halftone-chroma-fragment-editorial.md",
       "folder": "../styles/halftone-chroma-fragment-editorial/",
@@ -909,6 +1884,33 @@ window.COOKBOOK_STYLES = {
       "summary": "Product-led oblique photography, muted grey environments and precise highlighter editorial typography; each product generates a distinct composition.",
       "preview16": "../styles/neon-strip-low-angle-campaign/preview-16x9.jpg",
       "preview9": "../styles/neon-strip-low-angle-campaign/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-strip-low-angle-campaign-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/neon-strip-low-angle-campaign/01-16x9.webp",
+          "img9": "../assets/samples/neon-strip-low-angle-campaign/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/neon-strip-low-angle-campaign/02-16x9.webp",
+          "img9": "../assets/samples/neon-strip-low-angle-campaign/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/neon-strip-low-angle-campaign/03-16x9.webp",
+          "img9": "../assets/samples/neon-strip-low-angle-campaign/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/neon-strip-low-angle-campaign/04-16x9.webp",
+          "img9": "../assets/samples/neon-strip-low-angle-campaign/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon",
+        "Product"
+      ],
       "styleJson": "../styles/neon-strip-low-angle-campaign/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-strip-low-angle-campaign.md",
       "folder": "../styles/neon-strip-low-angle-campaign/",
@@ -953,6 +1955,30 @@ window.COOKBOOK_STYLES = {
       "summary": "Playing-card editorial language meets optical black ink ribbons, monumental high-contrast serif type and a crisp colored photographic person on subtly textured light paper.",
       "preview16": "../styles/op-stripe-card-editorial/preview-16x9.jpg",
       "preview9": "../styles/op-stripe-card-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/op-stripe-card-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/op-stripe-card-editorial/01-16x9.webp",
+          "img9": "../assets/samples/op-stripe-card-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/op-stripe-card-editorial/02-16x9.webp",
+          "img9": "../assets/samples/op-stripe-card-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/op-stripe-card-editorial/03-16x9.webp",
+          "img9": "../assets/samples/op-stripe-card-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/op-stripe-card-editorial/04-16x9.webp",
+          "img9": "../assets/samples/op-stripe-card-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/op-stripe-card-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/op-stripe-card-editorial.md",
       "folder": "../styles/op-stripe-card-editorial/",
@@ -998,6 +2024,33 @@ window.COOKBOOK_STYLES = {
       "summary": "Worm-eye airborne sports photography against expansive cool blue sky, with monumental ultra-condensed fluorescent uppercase type occluded by a sharply foreshortened human silhouette.",
       "preview16": "../styles/skyward-condensed-action/preview-16x9.jpg",
       "preview9": "../styles/skyward-condensed-action/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/skyward-condensed-action-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/skyward-condensed-action/01-16x9.webp",
+          "img9": "../assets/samples/skyward-condensed-action/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/skyward-condensed-action/02-16x9.webp",
+          "img9": "../assets/samples/skyward-condensed-action/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/skyward-condensed-action/03-16x9.webp",
+          "img9": "../assets/samples/skyward-condensed-action/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/skyward-condensed-action/04-16x9.webp",
+          "img9": "../assets/samples/skyward-condensed-action/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon",
+        "Sport"
+      ],
       "styleJson": "../styles/skyward-condensed-action/style.json",
       "copyPromptDoc": "../docs/copy-prompts/skyward-condensed-action.md",
       "folder": "../styles/skyward-condensed-action/",
@@ -1041,6 +2094,32 @@ window.COOKBOOK_STYLES = {
       "summary": "Dense playful hand-drawn megatype: irregular interlocking colored letters, bold black contours, sparse doodles and neutral paper.",
       "preview16": "../styles/color-pop-interlocked-marker-type/preview-16x9.jpg",
       "preview9": "../styles/color-pop-interlocked-marker-type/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/color-pop-interlocked-marker-type-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/color-pop-interlocked-marker-type/01-16x9.webp",
+          "img9": "../assets/samples/color-pop-interlocked-marker-type/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/color-pop-interlocked-marker-type/02-16x9.webp",
+          "img9": "../assets/samples/color-pop-interlocked-marker-type/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/color-pop-interlocked-marker-type/03-16x9.webp",
+          "img9": "../assets/samples/color-pop-interlocked-marker-type/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/color-pop-interlocked-marker-type/04-16x9.webp",
+          "img9": "../assets/samples/color-pop-interlocked-marker-type/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/color-pop-interlocked-marker-type/style.json",
       "copyPromptDoc": "../docs/copy-prompts/color-pop-interlocked-marker-type.md",
       "folder": "../styles/color-pop-interlocked-marker-type/",
@@ -1087,6 +2166,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A tactile event poster built around repeated photocopied flyers emerging from a saturated paper envelope, framed by cutout icons and spare black type.",
       "preview16": "../styles/grainy-envelope-flyer-collage/preview-16x9.jpg",
       "preview9": "../styles/grainy-envelope-flyer-collage/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/grainy-envelope-flyer-collage-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/grainy-envelope-flyer-collage/01-16x9.webp",
+          "img9": "../assets/samples/grainy-envelope-flyer-collage/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/grainy-envelope-flyer-collage/02-16x9.webp",
+          "img9": "../assets/samples/grainy-envelope-flyer-collage/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/grainy-envelope-flyer-collage/03-16x9.webp",
+          "img9": "../assets/samples/grainy-envelope-flyer-collage/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/grainy-envelope-flyer-collage/04-16x9.webp",
+          "img9": "../assets/samples/grainy-envelope-flyer-collage/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/grainy-envelope-flyer-collage/style.json",
       "copyPromptDoc": "../docs/copy-prompts/grainy-envelope-flyer-collage.md",
       "folder": "../styles/grainy-envelope-flyer-collage/",
@@ -1132,6 +2235,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A severe black-and-white editorial poster system that combines an oversized compressed headline, a dense modular field of technical micro-information, and one documentary photograph cropped with monumental scale. Off-white paper, distressed ink, thin rules, registration motifs, and a restrained safety-red accent make the layout feel like an experimental identity manual crossed with an archival industrial contact sheet.",
       "preview16": "../styles/monochrome-tech-grid-editorial/preview-16x9.jpg",
       "preview9": "../styles/monochrome-tech-grid-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/monochrome-tech-grid-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/monochrome-tech-grid-editorial/01-16x9.webp",
+          "img9": "../assets/samples/monochrome-tech-grid-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/monochrome-tech-grid-editorial/02-16x9.webp",
+          "img9": "../assets/samples/monochrome-tech-grid-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/monochrome-tech-grid-editorial/03-16x9.webp",
+          "img9": "../assets/samples/monochrome-tech-grid-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/monochrome-tech-grid-editorial/04-16x9.webp",
+          "img9": "../assets/samples/monochrome-tech-grid-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Monochrome"
+      ],
       "styleJson": "../styles/monochrome-tech-grid-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/monochrome-tech-grid-editorial.md",
       "folder": "../styles/monochrome-tech-grid-editorial/",
@@ -1171,6 +2300,32 @@ window.COOKBOOK_STYLES = {
       "summary": "Refinement of the existing four helix portraits: retain subjects, props, palette and material families; improve close camera impact, letter hierarchy and scene integration without introducing new concepts.",
       "preview16": "../styles/tangerine-type-helix-fisheye/preview-16x9.jpg",
       "preview9": "../styles/tangerine-type-helix-fisheye/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/tangerine-type-helix-fisheye-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/tangerine-type-helix-fisheye/01-16x9.webp",
+          "img9": "../assets/samples/tangerine-type-helix-fisheye/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/tangerine-type-helix-fisheye/02-16x9.webp",
+          "img9": "../assets/samples/tangerine-type-helix-fisheye/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/tangerine-type-helix-fisheye/03-16x9.webp",
+          "img9": "../assets/samples/tangerine-type-helix-fisheye/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/tangerine-type-helix-fisheye/04-16x9.webp",
+          "img9": "../assets/samples/tangerine-type-helix-fisheye/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait"
+      ],
       "styleJson": "../styles/tangerine-type-helix-fisheye/style.json",
       "copyPromptDoc": "../docs/copy-prompts/tangerine-type-helix-fisheye.md",
       "folder": "../styles/tangerine-type-helix-fisheye/",
@@ -1214,6 +2369,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-energy motorsport editorial visual system that combines a dramatic original racing photograph with oversized condensed typography, industrial information cards, signal-yellow accents, and disciplined technical-document graphic grammar.",
       "preview16": "../styles/motorsport-technical-editorial/preview-16x9.jpg",
       "preview9": "../styles/motorsport-technical-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/motorsport-technical-editorial-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/motorsport-technical-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/motorsport-technical-editorial.md",
       "folder": "../styles/motorsport-technical-editorial/",
@@ -1253,6 +2413,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-contrast editorial-collage system built from a strict warm-cream and vermilion split field, enormous cropped black letter architecture, a central monochrome full-body subject, and tactile foreground forms. A crumpled red material and an angular dark backdrop provide diagonal drama while microtype, dot grids, and distressed ink create a dense screenprinted poster surface.",
       "preview16": "../styles/split-ink-monumental-editorial/preview-16x9.jpg",
       "preview9": "../styles/split-ink-monumental-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/split-ink-monumental-editorial-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Monochrome"
+      ],
       "styleJson": "../styles/split-ink-monumental-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/split-ink-monumental-editorial.md",
       "folder": "../styles/split-ink-monumental-editorial/",
@@ -1292,6 +2458,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-pressure editorial-poster system that turns a monochrome, ultra-wide one-point-perspective public interior into a typographic corridor. A lone central figure moves away from the viewer as enormous scarlet letters become receding floor, wall, and ceiling planes, while blurred peripheral bodies and faint technical text create urgency without clutter.",
       "preview16": "../styles/crimson-vanishing-point-editorial/preview-16x9.jpg",
       "preview9": "../styles/crimson-vanishing-point-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/crimson-vanishing-point-editorial-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Monochrome"
+      ],
       "styleJson": "../styles/crimson-vanishing-point-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/crimson-vanishing-point-editorial.md",
       "folder": "../styles/crimson-vanishing-point-editorial/",
@@ -1331,6 +2502,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A loud retro-pop scrapbook poster system that layers an oversized yellow display headline, red offset print shadows, a central natural-color portrait cutout with a thick irregular white die-cut border, cobalt-blue paper texture, and small playful sticker marks. The result feels handmade, glossy-magazine inspired, and high-energy without copying any character, celebrity, or source design.",
       "preview16": "../styles/retro-pop-sticker-cutout/preview-16x9.jpg",
       "preview9": "../styles/retro-pop-sticker-cutout/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/retro-pop-sticker-cutout-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/retro-pop-sticker-cutout/style.json",
       "copyPromptDoc": "../docs/copy-prompts/retro-pop-sticker-cutout.md",
       "folder": "../styles/retro-pop-sticker-cutout/",
@@ -1370,6 +2548,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A confrontational editorial-poster system built from monumental condensed typography, red-and-black duotone photography, rigid off-white gutters, and paper-like ink grain. The design treats photographic crops and type blocks as equal grid modules rather than placing a single hero image behind type.",
       "preview16": "../styles/red-monochrome-editorial-grid/preview-16x9.jpg",
       "preview9": "../styles/red-monochrome-editorial-grid/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/red-monochrome-editorial-grid-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/red-monochrome-editorial-grid/01-16x9.webp",
+          "img9": "../assets/samples/red-monochrome-editorial-grid/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/red-monochrome-editorial-grid/02-16x9.webp",
+          "img9": "../assets/samples/red-monochrome-editorial-grid/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/red-monochrome-editorial-grid/03-16x9.webp",
+          "img9": "../assets/samples/red-monochrome-editorial-grid/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/red-monochrome-editorial-grid/04-16x9.webp",
+          "img9": "../assets/samples/red-monochrome-editorial-grid/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Monochrome"
+      ],
       "styleJson": "../styles/red-monochrome-editorial-grid/style.json",
       "copyPromptDoc": "../docs/copy-prompts/red-monochrome-editorial-grid.md",
       "folder": "../styles/red-monochrome-editorial-grid/",
@@ -1409,6 +2613,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-contrast editorial campaign-poster system built from three interacting depth planes: a shadowed atmosphere, a monumental cropped hero, and one oversized foreground object that breaks the dark-versus-paper seam. The visual tension comes from that object intruding into the otherwise quiet warm-paper information field.",
       "preview16": "../styles/split-scorched-editorial-poster/preview-16x9.jpg",
       "preview9": "../styles/split-scorched-editorial-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/split-scorched-editorial-poster-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/split-scorched-editorial-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/split-scorched-editorial-poster.md",
       "folder": "../styles/split-scorched-editorial-poster/",
@@ -1448,6 +2655,15 @@ window.COOKBOOK_STYLES = {
       "summary": "A confrontational editorial poster system built from monumental ultra-condensed red typography, one centrally cropped black-and-white halftone portrait, offset rectangular photo fragments, and spontaneous electric-blue and acid-green marker annotations on warm cream paper.",
       "preview16": "../styles/neon-scribble-editorial-poster/preview-16x9.jpg",
       "preview9": "../styles/neon-scribble-editorial-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-scribble-editorial-poster-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Hand-drawn",
+        "Halftone & Print",
+        "Neon",
+        "Monochrome"
+      ],
       "styleJson": "../styles/neon-scribble-editorial-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-scribble-editorial-poster.md",
       "folder": "../styles/neon-scribble-editorial-poster/",
@@ -1487,6 +2703,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A hand-pulled theatrical poster system built around one monumental front-facing character, a warm uncoated paper field, a tightly limited vermilion-to-rose ink family, carved folk-pattern fills, and hand-lettered display type that behaves as part of the illustration.",
       "preview16": "../styles/vermilion-folk-screenprint-character-poster/preview-16x9.jpg",
       "preview9": "../styles/vermilion-folk-screenprint-character-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/vermilion-folk-screenprint-character-poster-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/vermilion-folk-screenprint-character-poster/01-16x9.webp",
+          "img9": "../assets/samples/vermilion-folk-screenprint-character-poster/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/vermilion-folk-screenprint-character-poster/02-16x9.webp",
+          "img9": "../assets/samples/vermilion-folk-screenprint-character-poster/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/vermilion-folk-screenprint-character-poster/03-16x9.webp",
+          "img9": "../assets/samples/vermilion-folk-screenprint-character-poster/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/vermilion-folk-screenprint-character-poster/04-16x9.webp",
+          "img9": "../assets/samples/vermilion-folk-screenprint-character-poster/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/vermilion-folk-screenprint-character-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/vermilion-folk-screenprint-character-poster.md",
       "folder": "../styles/vermilion-folk-screenprint-character-poster/",
@@ -1526,6 +2768,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A crisp editorial poster system built from a sparse diagonal cluster of oversized rounded cuboids, oblique isometric depth, black hairline construction, bright primary-color top planes, darker side faces, oversized grotesk labels, and tiny Swiss-style perimeter copy on warm white paper.",
       "preview16": "../styles/primary-block-isometric-editorial-poster-style/preview-16x9.jpg",
       "preview9": "../styles/primary-block-isometric-editorial-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/primary-block-isometric-editorial-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/primary-block-isometric-editorial-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/primary-block-isometric-editorial-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/primary-block-isometric-editorial-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/primary-block-isometric-editorial-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/primary-block-isometric-editorial-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/primary-block-isometric-editorial-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/primary-block-isometric-editorial-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/primary-block-isometric-editorial-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait"
+      ],
       "styleJson": "../styles/primary-block-isometric-editorial-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/primary-block-isometric-editorial-poster-style.md",
       "folder": "../styles/primary-block-isometric-editorial-poster-style/",
@@ -1565,6 +2833,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A severe two-ink public-information poster system built from a near-black field, one monumental flat silhouette defined by an agitated signal-red contour, and detached white grotesk text arranged around the perimeter like urgent fragments.",
       "preview16": "../styles/signal-red-contour-poster/preview-16x9.jpg",
       "preview9": "../styles/signal-red-contour-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/signal-red-contour-poster-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/signal-red-contour-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/signal-red-contour-poster.md",
       "folder": "../styles/signal-red-contour-poster/",
@@ -1604,6 +2875,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact pop advertising poster system that places one oversized photoreal cutout subject over monumental warped display lettering, using an electric-yellow field, black upper type, cobalt-blue lower type, severe cropping, and tiny editorial metadata for scale contrast.",
       "preview16": "../styles/electric-yellow-cutout-megatype-poster-style/preview-16x9.jpg",
       "preview9": "../styles/electric-yellow-cutout-megatype-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/electric-yellow-cutout-megatype-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/electric-yellow-cutout-megatype-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/electric-yellow-cutout-megatype-poster-style.md",
       "folder": "../styles/electric-yellow-cutout-megatype-poster-style/",
@@ -1643,6 +2917,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense celebratory editorial poster system that combines one warm, flash-lit photographic hero cutout with burnt-orange screenprint panels, monumental condensed headline type, coarse halftone diagrams, dry-brush lettering, a looping foreground flourish, a monochrome base strip, and disciplined magazine microtype on aged cream paper.",
       "preview16": "../styles/burnt-orange-halftone-hero-collage/preview-16x9.jpg",
       "preview9": "../styles/burnt-orange-halftone-hero-collage/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/burnt-orange-halftone-hero-collage-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Monochrome"
+      ],
       "styleJson": "../styles/burnt-orange-halftone-hero-collage/style.json",
       "copyPromptDoc": "../docs/copy-prompts/burnt-orange-halftone-hero-collage.md",
       "folder": "../styles/burnt-orange-halftone-hero-collage/",
@@ -1682,6 +2962,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A maximal independent-magazine cover system built from a fragmented signal-red masthead, one monumental flat-color side-profile portrait, a sparse off-white editorial rail, and a huge right-heavy mantle of overlapping cobalt, coral, and hot-pink petal lobes. Multiple typographic voices, a single black burst, tiny drawn ephemera, and restrained uncoated-paper texture create a cheeky fashion-editorial rhythm without copying any real publication or person.",
       "preview16": "../styles/signal-red-petal-profile-editorial-cover/preview-16x9.jpg",
       "preview9": "../styles/signal-red-petal-profile-editorial-cover/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/signal-red-petal-profile-editorial-cover-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Mascot",
+        "Fashion"
+      ],
       "styleJson": "../styles/signal-red-petal-profile-editorial-cover/style.json",
       "copyPromptDoc": "../docs/copy-prompts/signal-red-petal-profile-editorial-cover.md",
       "folder": "../styles/signal-red-petal-profile-editorial-cover/",
@@ -1721,6 +3008,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-saturation editorial poster system that combines one low-angle full-body photographic cutout with oversized irregular orange display lettering, a cobalt-to-sky-blue field, flat green organic edge shapes, and tiny cream callouts. The look is playful, spacious, and street-culture adjacent without becoming grungy or collage-dense.",
       "preview16": "../styles/cobalt-pop-cutout-editorial/preview-16x9.jpg",
       "preview9": "../styles/cobalt-pop-cutout-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cobalt-pop-cutout-editorial-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/cobalt-pop-cutout-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cobalt-pop-cutout-editorial.md",
       "folder": "../styles/cobalt-pop-cutout-editorial/",
@@ -1760,6 +3050,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A prestige culture-magazine cover system built from one monumental grayscale portrait, narrow Didone display type, condensed editorial callouts, selective deep-crimson documentary fragments, and a visibly fibrous newsprint finish.",
       "preview16": "../styles/crimson-noir-newsprint-editorial-style/preview-16x9.jpg",
       "preview9": "../styles/crimson-noir-newsprint-editorial-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/crimson-noir-newsprint-editorial-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Monochrome"
+      ],
       "styleJson": "../styles/crimson-noir-newsprint-editorial-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/crimson-noir-newsprint-editorial-style.md",
       "folder": "../styles/crimson-noir-newsprint-editorial-style/",
@@ -1799,6 +3095,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-energy community-event poster system that combines one full-bleed motion-smeared photograph, a cobalt-blue field, fluorescent green ultra-condensed display type, a compact white-and-orange center lockup, oversized lower-edge numerals, and deliberately imperfect analog print texture.",
       "preview16": "../styles/electric-cobalt-motion-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/electric-cobalt-motion-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/electric-cobalt-motion-type-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Retro",
+        "Neon"
+      ],
       "styleJson": "../styles/electric-cobalt-motion-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/electric-cobalt-motion-type-poster-style.md",
       "folder": "../styles/electric-cobalt-motion-type-poster-style/",
@@ -1838,6 +3141,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse fashion-editorial poster system built from a warm paper field, one centered halftone portrait or sculptural subject, monumental cobalt Didone typography, an irregular horizontal torn-paper reveal, and restrained calligraphic and catalog-like corner notes.",
       "preview16": "../styles/cobalt-torn-didone-portrait-editorial-style/preview-16x9.jpg",
       "preview9": "../styles/cobalt-torn-didone-portrait-editorial-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cobalt-torn-didone-portrait-editorial-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Halftone & Print",
+        "Fashion"
+      ],
       "styleJson": "../styles/cobalt-torn-didone-portrait-editorial-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cobalt-torn-didone-portrait-editorial-style.md",
       "folder": "../styles/cobalt-torn-didone-portrait-editorial-style/",
@@ -1877,6 +3187,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A premium kinetic advertising system built around a worm's-eye ultra-wide photograph, one monumental foreground product or prop, a dynamic human figure receding behind it, giant edge-cropped diagonal neo-grotesk typography, restrained technical microcopy, and a near-black-to-luminous-color gradient field. The finish is sparse but forceful: commercial photocompositing, selective blur, soft bloom, rim light, and layered type create speed and depth without visual clutter.",
       "preview16": "../styles/foreshortened-gradient-impact-ad-style/preview-16x9.jpg",
       "preview9": "../styles/foreshortened-gradient-impact-ad-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/foreshortened-gradient-impact-ad-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Product"
+      ],
       "styleJson": "../styles/foreshortened-gradient-impact-ad-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/foreshortened-gradient-impact-ad-style.md",
       "folder": "../styles/foreshortened-gradient-impact-ad-style/",
@@ -1916,6 +3231,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A confrontational editorial poster system built from one monumentally cropped black-and-white photograph, near-binary photocopy contrast, dense analog grain, an oversized vertical condensed headline, compact annotation blocks, and a single vermilion ink layer that cuts across the image as urgent shards and edge-born organic forms.",
       "preview16": "../styles/vermilion-photocopy-tension-editorial/preview-16x9.jpg",
       "preview9": "../styles/vermilion-photocopy-tension-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/vermilion-photocopy-tension-editorial-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Retro",
+        "Monochrome"
+      ],
       "styleJson": "../styles/vermilion-photocopy-tension-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/vermilion-photocopy-tension-editorial.md",
       "folder": "../styles/vermilion-photocopy-tension-editorial/",
@@ -1955,6 +3276,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A compressed, confrontational cobalt editorial poster system in which fragmented grotesk headlines, two enormous repeated outline-script words, an ambiguous macro halftone photograph, a dark flat Xerox cutout, and dense microcopy collide across nearly the entire page.",
       "preview16": "../styles/cobalt-xerox-script-editorial-poster-style/preview-16x9.jpg",
       "preview9": "../styles/cobalt-xerox-script-editorial-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cobalt-xerox-script-editorial-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/cobalt-xerox-script-editorial-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cobalt-xerox-script-editorial-poster-style.md",
       "folder": "../styles/cobalt-xerox-script-editorial-poster-style/",
@@ -1994,6 +3320,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A tactile editorial motion-poster system built from a coral-red paper field, one cool pale-blue photographic window, colossal black condensed typography that crosses the image boundary, a single isolated action subject, sparse micro-editorial labels, and a bold geometric direction symbol.",
       "preview16": "../styles/coral-window-megatype-motion-poster-style/preview-16x9.jpg",
       "preview9": "../styles/coral-window-megatype-motion-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/coral-window-megatype-motion-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/coral-window-megatype-motion-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/coral-window-megatype-motion-poster-style.md",
       "folder": "../styles/coral-window-megatype-motion-poster-style/",
@@ -2033,6 +3362,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A nostalgic roadside-travel editorial poster system that combines cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground.",
       "preview16": "../styles/cobalt-megatype-roadside-travel-editorial-style/preview-16x9.jpg",
       "preview9": "../styles/cobalt-megatype-roadside-travel-editorial-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cobalt-megatype-roadside-travel-editorial-style-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/cobalt-megatype-roadside-travel-editorial-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cobalt-megatype-roadside-travel-editorial-style.md",
       "folder": "../styles/cobalt-megatype-roadside-travel-editorial-style/",
@@ -2072,6 +3404,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense neo-editorial poster system that layers monumental white filled and outlined typography behind a centered surreal photographic cutout sculpture, then frames it with technical microcopy, serial numbers, ruled panels, small warning labels, celestial symbols, and coarse vintage print grain on a deep black field.",
       "preview16": "../styles/surreal-megatype-dossier-collage/preview-16x9.jpg",
       "preview9": "../styles/surreal-megatype-dossier-collage/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/surreal-megatype-dossier-collage-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/surreal-megatype-dossier-collage/style.json",
       "copyPromptDoc": "../docs/copy-prompts/surreal-megatype-dossier-collage.md",
       "folder": "../styles/surreal-megatype-dossier-collage/",
@@ -2111,6 +3449,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A surreal editorial collage system that layers monumental flat-ink beasts and tiny theatrical figures over softly faded archival city photography, using black-and-white cut-paper masses, unruly hand-drawn contour work, and sparse cobalt, vermilion, lemon, and blush accents.",
       "preview16": "../styles/urban-photo-ink-beast-collage-style/preview-16x9.jpg",
       "preview9": "../styles/urban-photo-ink-beast-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/urban-photo-ink-beast-collage-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Hand-drawn",
+        "Monochrome"
+      ],
       "styleJson": "../styles/urban-photo-ink-beast-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/urban-photo-ink-beast-collage-style.md",
       "folder": "../styles/urban-photo-ink-beast-collage-style/",
@@ -2150,6 +3494,9 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse black editorial-poster system built around one oversized translucent animal sculpture with smoky glass depth, liquid-chrome edges, and restrained rainbow refractions, framed by futuristic typographic micro-editorial content about small weekend rituals.",
       "preview16": "../styles/prismatic-glass-animal-weekend-editorial/preview-16x9.jpg",
       "preview9": "../styles/prismatic-glass-animal-weekend-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/prismatic-glass-animal-weekend-editorial-16x9.jpg",
+      "samples": [],
+      "tags": [],
       "styleJson": "../styles/prismatic-glass-animal-weekend-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/prismatic-glass-animal-weekend-editorial.md",
       "folder": "../styles/prismatic-glass-animal-weekend-editorial/",
@@ -2189,6 +3536,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A nostalgic scenic editorial poster system that combines enormous warm-ivory condensed headlines, one flowing tangerine script accent, tiny travel-magazine microcopy, and a low-angle analog photograph beneath a broad cyan sky with sun-faded film grain.",
       "preview16": "../styles/sun-faded-scenic-editorial-poster/preview-16x9.jpg",
       "preview9": "../styles/sun-faded-scenic-editorial-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sun-faded-scenic-editorial-poster-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Retro"
+      ],
       "styleJson": "../styles/sun-faded-scenic-editorial-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sun-faded-scenic-editorial-poster.md",
       "folder": "../styles/sun-faded-scenic-editorial-poster/",
@@ -2228,6 +3580,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse experimental editorial poster system built from one radically enlarged macro photograph, a saturated cyan field, monumental white geometric letterforms that interlock with the subject, wide white margins, compact technical metadata, and tactile analog print grain.",
       "preview16": "../styles/cyan-grain-macro-megatype-poster-style/preview-16x9.jpg",
       "preview9": "../styles/cyan-grain-macro-megatype-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cyan-grain-macro-megatype-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/cyan-grain-macro-megatype-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cyan-grain-macro-megatype-poster-style.md",
       "folder": "../styles/cyan-grain-macro-megatype-poster-style/",
@@ -2267,6 +3625,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A retro-futurist editorial portrait system built from an asymmetric technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, modular grid lines, optical diagrams, and coarse halftone print grain in midnight indigo, warm cream, hot magenta, cobalt, and coral.",
       "preview16": "../styles/retro-future-chrome-portrait-dossier/preview-16x9.jpg",
       "preview9": "../styles/retro-future-chrome-portrait-dossier/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/retro-future-chrome-portrait-dossier-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/retro-future-chrome-portrait-dossier/style.json",
       "copyPromptDoc": "../docs/copy-prompts/retro-future-chrome-portrait-dossier.md",
       "folder": "../styles/retro-future-chrome-portrait-dossier/",
@@ -2306,6 +3671,15 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense motorsport dossier poster system that pairs one original anime rider with one hero motorcycle. Each poster combines a glossy three-quarter product view, a full-body cel-shaded character, oversized italic model-code typography, a pale cream and hot-magenta editorial grid, a monochrome halftone character echo, a three-panel detail strip, and a compact technical specification card. The series keeps one visual grammar while changing the motorcycle, rider styling, accent color, text, and performance details in every case.",
       "preview16": "../styles/pink-anime-motorcycle-spec-poster-style/preview-16x9.jpg",
       "preview9": "../styles/pink-anime-motorcycle-spec-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/pink-anime-motorcycle-spec-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print",
+        "Monochrome",
+        "Sport",
+        "Product"
+      ],
       "styleJson": "../styles/pink-anime-motorcycle-spec-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/pink-anime-motorcycle-spec-poster-style.md",
       "folder": "../styles/pink-anime-motorcycle-spec-poster-style/",
@@ -2345,6 +3719,14 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact editorial poster system combining an oversized distressed black headline, one monochrome halftone photo cutout, electric cyan and green registration shadows, horizontal fluorescent paint swashes, loose marker scribbles, and a pale photocopied paper field.",
       "preview16": "../styles/xerox-neon-editorial-collage-style/preview-16x9.jpg",
       "preview9": "../styles/xerox-neon-editorial-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/xerox-neon-editorial-collage-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print",
+        "Neon",
+        "Monochrome"
+      ],
       "styleJson": "../styles/xerox-neon-editorial-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/xerox-neon-editorial-collage-style.md",
       "folder": "../styles/xerox-neon-editorial-collage-style/",
@@ -2384,6 +3766,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-density manga editorial dossier poster built from one dramatically foreshortened illustrated hero, oversized distressed condensed headlines, modular newspaper sidebars, monochrome comic insets, and a strict crimson-black-warm-paper palette.",
       "preview16": "../styles/crimson-ink-manga-dossier/preview-16x9.jpg",
       "preview9": "../styles/crimson-ink-manga-dossier/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/crimson-ink-manga-dossier-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Manga & Comic",
+        "Monochrome"
+      ],
       "styleJson": "../styles/crimson-ink-manga-dossier/style.json",
       "copyPromptDoc": "../docs/copy-prompts/crimson-ink-manga-dossier.md",
       "folder": "../styles/crimson-ink-manga-dossier/",
@@ -2423,6 +3811,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-energy studio action-poster system combining an overhead wide-angle photographic subject, enormous stacked dark-green display type, a continuous fluorescent-lime motion loop, clean white negative space, and crisp commercial lighting.",
       "preview16": "../styles/lime-loop-megatype-action-poster-style/preview-16x9.jpg",
       "preview9": "../styles/lime-loop-megatype-action-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/lime-loop-megatype-action-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Neon"
+      ],
       "styleJson": "../styles/lime-loop-megatype-action-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/lime-loop-megatype-action-poster-style.md",
       "folder": "../styles/lime-loop-megatype-action-poster-style/",
@@ -2462,6 +3855,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A hybrid street-poster system combining a cool fisheye urban photo base, a large manga ink cutout subject, oversized sprayed yellow graffiti type, compact white caption hits, pavement tag texture, and soft anxious character emotion.",
       "preview16": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-16x9.jpg",
       "preview9": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/yellow-graffiti-fisheye-manga-street-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Manga & Comic"
+      ],
       "styleJson": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/yellow-graffiti-fisheye-manga-street-poster-style.md",
       "folder": "../styles/yellow-graffiti-fisheye-manga-street-poster-style/",
@@ -2501,6 +3899,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A fast-food billboard inspired product collage system with saturated red and yellow poster blocks, oversized condensed typography, glossy cutout products, and a central world-champion trophy silhouette assembled from representative unbranded product objects.",
       "preview16": "../styles/red-yellow-product-trophy-collage-style/preview-16x9.jpg",
       "preview9": "../styles/red-yellow-product-trophy-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/red-yellow-product-trophy-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/red-yellow-product-trophy-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/red-yellow-product-trophy-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/red-yellow-product-trophy-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/red-yellow-product-trophy-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/red-yellow-product-trophy-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/red-yellow-product-trophy-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/red-yellow-product-trophy-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/red-yellow-product-trophy-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Food",
+        "Product"
+      ],
       "styleJson": "../styles/red-yellow-product-trophy-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/red-yellow-product-trophy-collage-style.md",
       "folder": "../styles/red-yellow-product-trophy-collage-style/",
@@ -2540,6 +3965,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A distressed manga character-dossier poster system with cream paper margins, oversized condensed typography, grayscale ink hero portraits, cobalt-blue technical panels, cyan kinetic effects, small inset frames, catalog labels, and editorial annotation rails.",
       "preview16": "../styles/manga-dossier-blueprint-poster/preview-16x9.jpg",
       "preview9": "../styles/manga-dossier-blueprint-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/manga-dossier-blueprint-poster-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/manga-dossier-blueprint-poster/01-16x9.webp",
+          "img9": "../assets/samples/manga-dossier-blueprint-poster/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/manga-dossier-blueprint-poster/02-16x9.webp",
+          "img9": "../assets/samples/manga-dossier-blueprint-poster/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/manga-dossier-blueprint-poster/03-16x9.webp",
+          "img9": "../assets/samples/manga-dossier-blueprint-poster/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/manga-dossier-blueprint-poster/04-16x9.webp",
+          "img9": "../assets/samples/manga-dossier-blueprint-poster/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Manga & Comic"
+      ],
       "styleJson": "../styles/manga-dossier-blueprint-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/manga-dossier-blueprint-poster.md",
       "folder": "../styles/manga-dossier-blueprint-poster/",
@@ -2579,6 +4031,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense black, white, and scarlet manga tabloid poster system with oversized condensed type, cropped ink characters, editorial metadata blocks, halftone shading, red spot-color shock graphics, and folded photocopy paper texture.",
       "preview16": "../styles/red-black-manga-tabloid-poster-style/preview-16x9.jpg",
       "preview9": "../styles/red-black-manga-tabloid-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/red-black-manga-tabloid-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/red-black-manga-tabloid-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/red-black-manga-tabloid-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/red-black-manga-tabloid-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/red-black-manga-tabloid-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/red-black-manga-tabloid-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/red-black-manga-tabloid-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/red-black-manga-tabloid-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/red-black-manga-tabloid-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/red-black-manga-tabloid-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/red-black-manga-tabloid-poster-style.md",
       "folder": "../styles/red-black-manga-tabloid-poster-style/",
@@ -2618,6 +4097,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A kinetic editorial action poster style built from an ice-white canvas, oversized deep-cyan condensed typography, pale gray ghost text layers, a central cutout action photograph, neon chartreuse motion blurs, small barcode and registration marks, and sparse magazine-style microcopy.",
       "preview16": "../styles/ice-cyan-megatype-action-poster-style/preview-16x9.jpg",
       "preview9": "../styles/ice-cyan-megatype-action-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/ice-cyan-megatype-action-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/ice-cyan-megatype-action-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/ice-cyan-megatype-action-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/ice-cyan-megatype-action-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/ice-cyan-megatype-action-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/ice-cyan-megatype-action-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/ice-cyan-megatype-action-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/ice-cyan-megatype-action-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/ice-cyan-megatype-action-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon"
+      ],
       "styleJson": "../styles/ice-cyan-megatype-action-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/ice-cyan-megatype-action-poster-style.md",
       "folder": "../styles/ice-cyan-megatype-action-poster-style/",
@@ -2657,6 +4162,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact action poster system built from a saturated scarlet field, oversized diagonal block typography, layered photographic cutout subjects, hard graphic shadows, compact editorial text blocks, and controlled print grain. It feels like a premium campaign key art poster for speed, pressure, and team momentum without preserving the original sports team, logo, phrase, or exact scene.",
       "preview16": "../styles/scarlet-megatype-action-collage-style/preview-16x9.jpg",
       "preview9": "../styles/scarlet-megatype-action-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/scarlet-megatype-action-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/scarlet-megatype-action-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/scarlet-megatype-action-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/scarlet-megatype-action-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/scarlet-megatype-action-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/scarlet-megatype-action-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/scarlet-megatype-action-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/scarlet-megatype-action-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/scarlet-megatype-action-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Sport",
+        "Food"
+      ],
       "styleJson": "../styles/scarlet-megatype-action-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/scarlet-megatype-action-collage-style.md",
       "folder": "../styles/scarlet-megatype-action-collage-style/",
@@ -2696,6 +4229,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact street event poster system combining a black-and-white documentary photo core, oversized jagged red and black display lettering, thick white sticker-like gutters, and sparse three-color print energy.",
       "preview16": "../styles/jagged-red-street-photo-event-poster-style/preview-16x9.jpg",
       "preview9": "../styles/jagged-red-street-photo-event-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/jagged-red-street-photo-event-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/jagged-red-street-photo-event-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/jagged-red-street-photo-event-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/jagged-red-street-photo-event-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/jagged-red-street-photo-event-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/jagged-red-street-photo-event-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/jagged-red-street-photo-event-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/jagged-red-street-photo-event-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/jagged-red-street-photo-event-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Monochrome"
+      ],
       "styleJson": "../styles/jagged-red-street-photo-event-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/jagged-red-street-photo-event-poster-style.md",
       "folder": "../styles/jagged-red-street-photo-event-poster-style/",
@@ -2735,6 +4295,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A hyper-saturated 3D event-poster style with toy-like heroic figures, extreme low-angle action, enormous cropped condensed typography, neon lime and purple color fields, orange-red graphic slashes, stadium light bloom, foreground motion blur, debris, and clean high-resolution tactile surfaces.",
       "preview16": "../styles/neon-stadium-3d-hero-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/neon-stadium-3d-hero-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-stadium-3d-hero-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/neon-stadium-3d-hero-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/neon-stadium-3d-hero-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/neon-stadium-3d-hero-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/neon-stadium-3d-hero-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/neon-stadium-3d-hero-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/neon-stadium-3d-hero-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/neon-stadium-3d-hero-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/neon-stadium-3d-hero-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon",
+        "3D"
+      ],
       "styleJson": "../styles/neon-stadium-3d-hero-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-stadium-3d-hero-type-poster-style.md",
       "folder": "../styles/neon-stadium-3d-hero-type-poster-style/",
@@ -2774,6 +4361,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A full-bleed dusk-photo poster system with dark navy silhouettes, oversized cyan and white typography, a huge cropped bottom word, script-like swashes, tiny editorial microcopy, and clean vector icon overlays.",
       "preview16": "../styles/dusk-cyan-layered-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/dusk-cyan-layered-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/dusk-cyan-layered-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/dusk-cyan-layered-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/dusk-cyan-layered-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/dusk-cyan-layered-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/dusk-cyan-layered-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/dusk-cyan-layered-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/dusk-cyan-layered-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/dusk-cyan-layered-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/dusk-cyan-layered-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/dusk-cyan-layered-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/dusk-cyan-layered-type-poster-style.md",
       "folder": "../styles/dusk-cyan-layered-type-poster-style/",
@@ -2813,6 +4424,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A reusable illustrated poster style built from saturated electric-blue fields, sharp white cutout geometry, oversized rounded modular typography, warm orange microtype, and one cel-shaded manga subject with a large foreground prop in exaggerated perspective.",
       "preview16": "../styles/electric-blue-cutout-manga-poster-style/preview-16x9.jpg",
       "preview9": "../styles/electric-blue-cutout-manga-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/electric-blue-cutout-manga-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/electric-blue-cutout-manga-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/electric-blue-cutout-manga-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/electric-blue-cutout-manga-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/electric-blue-cutout-manga-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/electric-blue-cutout-manga-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/electric-blue-cutout-manga-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/electric-blue-cutout-manga-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/electric-blue-cutout-manga-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic"
+      ],
       "styleJson": "../styles/electric-blue-cutout-manga-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/electric-blue-cutout-manga-poster-style.md",
       "folder": "../styles/electric-blue-cutout-manga-poster-style/",
@@ -2852,6 +4489,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense Y2K street-photo collage style with oversized cutout subjects, sticker props, loud comic typography, speech bubbles, saturated yellow-blue-green accents, and controlled high-contrast social-poster texture.",
       "preview16": "../styles/y2k-streetwear-sticker-collage-style/preview-16x9.jpg",
       "preview9": "../styles/y2k-streetwear-sticker-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/y2k-streetwear-sticker-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/y2k-streetwear-sticker-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/y2k-streetwear-sticker-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/y2k-streetwear-sticker-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/y2k-streetwear-sticker-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/y2k-streetwear-sticker-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/y2k-streetwear-sticker-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/y2k-streetwear-sticker-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/y2k-streetwear-sticker-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Retro",
+        "Fashion"
+      ],
       "styleJson": "../styles/y2k-streetwear-sticker-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/y2k-streetwear-sticker-collage-style.md",
       "folder": "../styles/y2k-streetwear-sticker-collage-style/",
@@ -2891,6 +4556,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A vertical and horizontal illustration system built from fine manga ink contour lines, huge cream-toned organic cloud masses, sparse teal framing shapes, peach skin or object accents, and precise miniature urban architecture rendered with clean paper space.",
       "preview16": "../styles/cream-smoke-city-manga-poster-style/preview-16x9.jpg",
       "preview9": "../styles/cream-smoke-city-manga-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cream-smoke-city-manga-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/cream-smoke-city-manga-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/cream-smoke-city-manga-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/cream-smoke-city-manga-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/cream-smoke-city-manga-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/cream-smoke-city-manga-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/cream-smoke-city-manga-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/cream-smoke-city-manga-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/cream-smoke-city-manga-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "3D",
+        "Food"
+      ],
       "styleJson": "../styles/cream-smoke-city-manga-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cream-smoke-city-manga-poster-style.md",
       "folder": "../styles/cream-smoke-city-manga-poster-style/",
@@ -2930,6 +4623,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A raw underground action-culture magazine cover style with oversized warped red-and-yellow headline type, flash-lit photographic cutouts, dark tilted street or venue backgrounds, dense boxed callouts, and coarse analog print degradation.",
       "preview16": "../styles/red-yellow-grunge-skate-cover-style/preview-16x9.jpg",
       "preview9": "../styles/red-yellow-grunge-skate-cover-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/red-yellow-grunge-skate-cover-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/red-yellow-grunge-skate-cover-style/01-16x9.webp",
+          "img9": "../assets/samples/red-yellow-grunge-skate-cover-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/red-yellow-grunge-skate-cover-style/02-16x9.webp",
+          "img9": "../assets/samples/red-yellow-grunge-skate-cover-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/red-yellow-grunge-skate-cover-style/03-16x9.webp",
+          "img9": "../assets/samples/red-yellow-grunge-skate-cover-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/red-yellow-grunge-skate-cover-style/04-16x9.webp",
+          "img9": "../assets/samples/red-yellow-grunge-skate-cover-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Retro",
+        "Sport"
+      ],
       "styleJson": "../styles/red-yellow-grunge-skate-cover-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/red-yellow-grunge-skate-cover-style.md",
       "folder": "../styles/red-yellow-grunge-skate-cover-style/",
@@ -2969,6 +4690,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A black-and-white photocopied editorial collage system with oversized cropped subjects, overlapping inset photo panels, huge distressed condensed type, micro dossier labels, paper grain, halftone, scratches, and a sparse sports-press-kit mood.",
       "preview16": "../styles/monochrome-xerox-sports-dossier/preview-16x9.jpg",
       "preview9": "../styles/monochrome-xerox-sports-dossier/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/monochrome-xerox-sports-dossier-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Monochrome",
+        "Sport"
+      ],
       "styleJson": "../styles/monochrome-xerox-sports-dossier/style.json",
       "copyPromptDoc": "../docs/copy-prompts/monochrome-xerox-sports-dossier.md",
       "folder": "../styles/monochrome-xerox-sports-dossier/",
@@ -3008,6 +4736,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact commercial poster system built around glossy liquid-chrome 3D typography, extreme editorial crop, acid-lime to mint gradients, black condensed sale-interface typography, micro technical markings, barcode-like metadata, and a dense grid of retail control panels.",
       "preview16": "../styles/liquid-chrome-clearance-poster-style/preview-16x9.jpg",
       "preview9": "../styles/liquid-chrome-clearance-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/liquid-chrome-clearance-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/liquid-chrome-clearance-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/liquid-chrome-clearance-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/liquid-chrome-clearance-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/liquid-chrome-clearance-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/liquid-chrome-clearance-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/liquid-chrome-clearance-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/liquid-chrome-clearance-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/liquid-chrome-clearance-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon",
+        "3D"
+      ],
       "styleJson": "../styles/liquid-chrome-clearance-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/liquid-chrome-clearance-poster-style.md",
       "folder": "../styles/liquid-chrome-clearance-poster-style/",
@@ -3047,6 +4802,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A loud flat comic flyer style built from a mustard-yellow field, coral-red cutout figures, heavy irregular black marker outlines, hand-lettered bubble type, scribbled microcopy, and dense comic symbols. It feels like an underground club poster or xeroxed street handbill, but the reusable system changes the subject, text, props, and story completely.",
       "preview16": "../styles/hot-ink-comic-poster/preview-16x9.jpg",
       "preview9": "../styles/hot-ink-comic-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/hot-ink-comic-poster-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/hot-ink-comic-poster/01-16x9.webp",
+          "img9": "../assets/samples/hot-ink-comic-poster/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/hot-ink-comic-poster/02-16x9.webp",
+          "img9": "../assets/samples/hot-ink-comic-poster/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/hot-ink-comic-poster/03-16x9.webp",
+          "img9": "../assets/samples/hot-ink-comic-poster/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/hot-ink-comic-poster/04-16x9.webp",
+          "img9": "../assets/samples/hot-ink-comic-poster/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn",
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/hot-ink-comic-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/hot-ink-comic-poster.md",
       "folder": "../styles/hot-ink-comic-poster/",
@@ -3086,6 +4869,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-energy action-poster system built from staggered photographic tiles on white space, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art urban scaffolding.",
       "preview16": "../styles/kinetic-editorial-photo-collage-style/preview-16x9.jpg",
       "preview9": "../styles/kinetic-editorial-photo-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/kinetic-editorial-photo-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/kinetic-editorial-photo-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/kinetic-editorial-photo-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/kinetic-editorial-photo-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/kinetic-editorial-photo-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/kinetic-editorial-photo-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/kinetic-editorial-photo-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/kinetic-editorial-photo-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/kinetic-editorial-photo-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/kinetic-editorial-photo-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/kinetic-editorial-photo-collage-style.md",
       "folder": "../styles/kinetic-editorial-photo-collage-style/",
@@ -3125,6 +4932,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-density photoreal coastal product advertising style built from sunlit tabletop hero products, tropical foreground botanicals, blue ocean depth, oversized distressed white brush typography, compact bilingual-style label blocks, curved callouts, and shiny gold seal badges.",
       "preview16": "../styles/sunlit-coastal-product-blitz/preview-16x9.jpg",
       "preview9": "../styles/sunlit-coastal-product-blitz/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sunlit-coastal-product-blitz-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Product"
+      ],
       "styleJson": "../styles/sunlit-coastal-product-blitz/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sunlit-coastal-product-blitz.md",
       "folder": "../styles/sunlit-coastal-product-blitz/",
@@ -3164,6 +4976,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A black-and-white footwear product analysis poster system with an oversized sneaker hero, pale engineering grid, top-strip evidence panels, macro material callouts, thin technical connector lines, pixelated uppercase typography, and coarse halftone print texture.",
       "preview16": "../styles/monochrome-grid-sneaker-tech-spec/preview-16x9.jpg",
       "preview9": "../styles/monochrome-grid-sneaker-tech-spec/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/monochrome-grid-sneaker-tech-spec-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Halftone & Print",
+        "Monochrome",
+        "Product"
+      ],
       "styleJson": "../styles/monochrome-grid-sneaker-tech-spec/style.json",
       "copyPromptDoc": "../docs/copy-prompts/monochrome-grid-sneaker-tech-spec.md",
       "folder": "../styles/monochrome-grid-sneaker-tech-spec/",
@@ -3203,6 +5022,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse flat doodle-poster system built around a saturated sky-blue field, chunky white headline type, an off-white hanging lucky-tag plaque, thick uneven black outlines, bright toy colors, and one large simplified mascot or prop crossing the tag like a playful charm illustration.",
       "preview16": "../styles/sky-blue-lucky-tag-doodle-poster-style/preview-16x9.jpg",
       "preview9": "../styles/sky-blue-lucky-tag-doodle-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sky-blue-lucky-tag-doodle-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/sky-blue-lucky-tag-doodle-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "3D",
+        "Mascot"
+      ],
       "styleJson": "../styles/sky-blue-lucky-tag-doodle-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sky-blue-lucky-tag-doodle-poster-style.md",
       "folder": "../styles/sky-blue-lucky-tag-doodle-poster-style/",
@@ -3242,6 +5089,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact event poster system built from a toxic neon color field, huge black condensed typography, a centered documentary photo crop, and a raw white spray-marker gesture that cuts across the middle of the composition.",
       "preview16": "../styles/neon-type-photo-scribble-poster/preview-16x9.jpg",
       "preview9": "../styles/neon-type-photo-scribble-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-type-photo-scribble-poster-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/neon-type-photo-scribble-poster/01-16x9.webp",
+          "img9": "../assets/samples/neon-type-photo-scribble-poster/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/neon-type-photo-scribble-poster/02-16x9.webp",
+          "img9": "../assets/samples/neon-type-photo-scribble-poster/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/neon-type-photo-scribble-poster/03-16x9.webp",
+          "img9": "../assets/samples/neon-type-photo-scribble-poster/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/neon-type-photo-scribble-poster/04-16x9.webp",
+          "img9": "../assets/samples/neon-type-photo-scribble-poster/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Neon"
+      ],
       "styleJson": "../styles/neon-type-photo-scribble-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-type-photo-scribble-poster.md",
       "folder": "../styles/neon-type-photo-scribble-poster/",
@@ -3281,6 +5155,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse handmade riso or screenprint poster style with one large simplified subject, wavering black contour drawing, rough off-white paper, flat blue and coral-red overprint accents, handwritten margin text, and visible print grain.",
       "preview16": "../styles/loose-scribble-riso-print-style/preview-16x9.jpg",
       "preview9": "../styles/loose-scribble-riso-print-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/loose-scribble-riso-print-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/loose-scribble-riso-print-style/01-16x9.webp",
+          "img9": "../assets/samples/loose-scribble-riso-print-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/loose-scribble-riso-print-style/02-16x9.webp",
+          "img9": "../assets/samples/loose-scribble-riso-print-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/loose-scribble-riso-print-style/03-16x9.webp",
+          "img9": "../assets/samples/loose-scribble-riso-print-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/loose-scribble-riso-print-style/04-16x9.webp",
+          "img9": "../assets/samples/loose-scribble-riso-print-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/loose-scribble-riso-print-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/loose-scribble-riso-print-style.md",
       "folder": "../styles/loose-scribble-riso-print-style/",
@@ -3320,6 +5221,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse East Asian grocer-poster system built from warm cream paper, oversized jade-green hand-cut glyphs, pale vegetable silhouette clouds, tiny editorial headers, and one glossy produce-photo centerpiece layered over the typography.",
       "preview16": "../styles/jade-glyph-grocer-collage-poster-style/preview-16x9.jpg",
       "preview9": "../styles/jade-glyph-grocer-collage-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/jade-glyph-grocer-collage-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/jade-glyph-grocer-collage-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/jade-glyph-grocer-collage-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/jade-glyph-grocer-collage-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/jade-glyph-grocer-collage-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/jade-glyph-grocer-collage-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/jade-glyph-grocer-collage-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/jade-glyph-grocer-collage-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/jade-glyph-grocer-collage-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/jade-glyph-grocer-collage-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/jade-glyph-grocer-collage-poster-style.md",
       "folder": "../styles/jade-glyph-grocer-collage-poster-style/",
@@ -3359,6 +5284,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A saturated action-ad poster style built from a flat scarlet field, a hard-edged blue photographic sports panel, one cutout subject crossing between those zones, oversized warm-cream display typography, vertical side microcopy, and gritty printed-poster texture.",
       "preview16": "../styles/scarlet-court-photo-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/scarlet-court-photo-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/scarlet-court-photo-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/scarlet-court-photo-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/scarlet-court-photo-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/scarlet-court-photo-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/scarlet-court-photo-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/scarlet-court-photo-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/scarlet-court-photo-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/scarlet-court-photo-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/scarlet-court-photo-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Sport"
+      ],
       "styleJson": "../styles/scarlet-court-photo-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/scarlet-court-photo-type-poster-style.md",
       "folder": "../styles/scarlet-court-photo-type-poster-style/",
@@ -3398,6 +5350,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-energy editorial sports and lifestyle poster style built from full-bleed sunlit photography, oversized cream condensed block typography, diagonal subject crops, compact microcopy clusters, and vivid blue-sky color fields.",
       "preview16": "../styles/sunlit-kinetic-block-type-photo-poster-style/preview-16x9.jpg",
       "preview9": "../styles/sunlit-kinetic-block-type-photo-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sunlit-kinetic-block-type-photo-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/sunlit-kinetic-block-type-photo-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Sport"
+      ],
       "styleJson": "../styles/sunlit-kinetic-block-type-photo-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sunlit-kinetic-block-type-photo-poster-style.md",
       "folder": "../styles/sunlit-kinetic-block-type-photo-poster-style/",
@@ -3437,6 +5415,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A stark literary cover system built from a white paper field, oversized scarlet serif letterforms, one central photoreal cutout object, rough black marker contour drawing, small bookish serif typography, and strong asymmetrical negative space.",
       "preview16": "../styles/scarlet-block-cutout-doodle-book-cover-style/preview-16x9.jpg",
       "preview9": "../styles/scarlet-block-cutout-doodle-book-cover-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/scarlet-block-cutout-doodle-book-cover-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/01-16x9.webp",
+          "img9": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/02-16x9.webp",
+          "img9": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/03-16x9.webp",
+          "img9": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/04-16x9.webp",
+          "img9": "../assets/samples/scarlet-block-cutout-doodle-book-cover-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/scarlet-block-cutout-doodle-book-cover-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/scarlet-block-cutout-doodle-book-cover-style.md",
       "folder": "../styles/scarlet-block-cutout-doodle-book-cover-style/",
@@ -3476,6 +5480,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.",
       "preview16": "../styles/halftone-assemblage-metaphor-psa-poster-style/preview-16x9.jpg",
       "preview9": "../styles/halftone-assemblage-metaphor-psa-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/halftone-assemblage-metaphor-psa-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/halftone-assemblage-metaphor-psa-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/halftone-assemblage-metaphor-psa-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/halftone-assemblage-metaphor-psa-poster-style.md",
       "folder": "../styles/halftone-assemblage-metaphor-psa-poster-style/",
@@ -3515,6 +5546,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows.",
       "preview16": "../styles/school-grid-paper-cutout-poster/preview-16x9.jpg",
       "preview9": "../styles/school-grid-paper-cutout-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/school-grid-paper-cutout-poster-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/school-grid-paper-cutout-poster/01-16x9.webp",
+          "img9": "../assets/samples/school-grid-paper-cutout-poster/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/school-grid-paper-cutout-poster/02-16x9.webp",
+          "img9": "../assets/samples/school-grid-paper-cutout-poster/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/school-grid-paper-cutout-poster/03-16x9.webp",
+          "img9": "../assets/samples/school-grid-paper-cutout-poster/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/school-grid-paper-cutout-poster/04-16x9.webp",
+          "img9": "../assets/samples/school-grid-paper-cutout-poster/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/school-grid-paper-cutout-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/school-grid-paper-cutout-poster.md",
       "folder": "../styles/school-grid-paper-cutout-poster/",
@@ -3554,6 +5611,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.",
       "preview16": "../styles/naive-marker-quote-card-style/preview-16x9.jpg",
       "preview9": "../styles/naive-marker-quote-card-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/naive-marker-quote-card-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/naive-marker-quote-card-style/01-16x9.webp",
+          "img9": "../assets/samples/naive-marker-quote-card-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/naive-marker-quote-card-style/02-16x9.webp",
+          "img9": "../assets/samples/naive-marker-quote-card-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/naive-marker-quote-card-style/03-16x9.webp",
+          "img9": "../assets/samples/naive-marker-quote-card-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/naive-marker-quote-card-style/04-16x9.webp",
+          "img9": "../assets/samples/naive-marker-quote-card-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "3D"
+      ],
       "styleJson": "../styles/naive-marker-quote-card-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/naive-marker-quote-card-style.md",
       "folder": "../styles/naive-marker-quote-card-style/",
@@ -3593,6 +5677,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.",
       "preview16": "../styles/sky-blue-home-life-doodle-poster-style/preview-16x9.jpg",
       "preview9": "../styles/sky-blue-home-life-doodle-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sky-blue-home-life-doodle-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sky-blue-home-life-doodle-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/sky-blue-home-life-doodle-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sky-blue-home-life-doodle-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/sky-blue-home-life-doodle-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sky-blue-home-life-doodle-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/sky-blue-home-life-doodle-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sky-blue-home-life-doodle-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/sky-blue-home-life-doodle-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/sky-blue-home-life-doodle-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sky-blue-home-life-doodle-poster-style.md",
       "folder": "../styles/sky-blue-home-life-doodle-poster-style/",
@@ -3632,6 +5742,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.",
       "preview16": "../styles/playful-marker-grounding-poster-style/preview-16x9.jpg",
       "preview9": "../styles/playful-marker-grounding-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/playful-marker-grounding-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/playful-marker-grounding-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/playful-marker-grounding-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/playful-marker-grounding-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/playful-marker-grounding-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/playful-marker-grounding-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/playful-marker-grounding-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/playful-marker-grounding-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/playful-marker-grounding-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Mascot"
+      ],
       "styleJson": "../styles/playful-marker-grounding-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/playful-marker-grounding-poster-style.md",
       "folder": "../styles/playful-marker-grounding-poster-style/",
@@ -3671,6 +5808,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.",
       "preview16": "../styles/rough-marker-monster-poster-style/preview-16x9.jpg",
       "preview9": "../styles/rough-marker-monster-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/rough-marker-monster-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/rough-marker-monster-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/rough-marker-monster-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/rough-marker-monster-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/rough-marker-monster-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/rough-marker-monster-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/rough-marker-monster-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/rough-marker-monster-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/rough-marker-monster-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Mascot"
+      ],
       "styleJson": "../styles/rough-marker-monster-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/rough-marker-monster-poster-style.md",
       "folder": "../styles/rough-marker-monster-poster-style/",
@@ -3710,6 +5874,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.",
       "preview16": "../styles/cyan-red-shockwave-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/cyan-red-shockwave-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cyan-red-shockwave-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/cyan-red-shockwave-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/cyan-red-shockwave-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/cyan-red-shockwave-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/cyan-red-shockwave-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/cyan-red-shockwave-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/cyan-red-shockwave-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/cyan-red-shockwave-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/cyan-red-shockwave-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/cyan-red-shockwave-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cyan-red-shockwave-type-poster-style.md",
       "folder": "../styles/cyan-red-shockwave-type-poster-style/",
@@ -3749,6 +5940,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.",
       "preview16": "../styles/fantasy-scribble-mascot-poster-style/preview-16x9.jpg",
       "preview9": "../styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/fantasy-scribble-mascot-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/fantasy-scribble-mascot-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/fantasy-scribble-mascot-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/fantasy-scribble-mascot-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/fantasy-scribble-mascot-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/fantasy-scribble-mascot-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/fantasy-scribble-mascot-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/fantasy-scribble-mascot-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/fantasy-scribble-mascot-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Neon",
+        "Mascot"
+      ],
       "styleJson": "../styles/fantasy-scribble-mascot-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/fantasy-scribble-mascot-poster-style.md",
       "folder": "../styles/fantasy-scribble-mascot-poster-style/",
@@ -3788,6 +6007,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse product-catalog poster system rendered like a child's wax-crayon drawing on folded white paper: huge rough red headline letters, simple green and warm-color doodle subjects, tiny black catalog captions, and lots of quiet blank space.",
       "preview16": "../styles/crayon-catalog-doodle-poster-style/preview-16x9.jpg",
       "preview9": "../styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/crayon-catalog-doodle-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/crayon-catalog-doodle-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/crayon-catalog-doodle-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/crayon-catalog-doodle-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/crayon-catalog-doodle-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/crayon-catalog-doodle-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/crayon-catalog-doodle-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/crayon-catalog-doodle-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/crayon-catalog-doodle-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "3D",
+        "Product"
+      ],
       "styleJson": "../styles/crayon-catalog-doodle-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/crayon-catalog-doodle-poster-style.md",
       "folder": "../styles/crayon-catalog-doodle-poster-style/",
@@ -3827,6 +6074,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.",
       "preview16": "../styles/blue-halftone-ransom-zine-poster-style/preview-16x9.jpg",
       "preview9": "../styles/blue-halftone-ransom-zine-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/blue-halftone-ransom-zine-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/blue-halftone-ransom-zine-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/blue-halftone-ransom-zine-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/blue-halftone-ransom-zine-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/blue-halftone-ransom-zine-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/blue-halftone-ransom-zine-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/blue-halftone-ransom-zine-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/blue-halftone-ransom-zine-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/blue-halftone-ransom-zine-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/blue-halftone-ransom-zine-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/blue-halftone-ransom-zine-poster-style.md",
       "folder": "../styles/blue-halftone-ransom-zine-poster-style/",
@@ -3866,6 +6140,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions.",
       "preview16": "../styles/market-brush-produce-poster-style/preview-16x9.jpg",
       "preview9": "../styles/market-brush-produce-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/market-brush-produce-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/market-brush-produce-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/market-brush-produce-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/market-brush-produce-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/market-brush-produce-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/market-brush-produce-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/market-brush-produce-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/market-brush-produce-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/market-brush-produce-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Product"
+      ],
       "styleJson": "../styles/market-brush-produce-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/market-brush-produce-poster-style.md",
       "folder": "../styles/market-brush-produce-poster-style/",
@@ -3905,6 +6205,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.",
       "preview16": "../styles/folded-newspaper-product-ad-style/preview-16x9.jpg",
       "preview9": "../styles/folded-newspaper-product-ad-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/folded-newspaper-product-ad-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/folded-newspaper-product-ad-style/01-16x9.webp",
+          "img9": "../assets/samples/folded-newspaper-product-ad-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/folded-newspaper-product-ad-style/02-16x9.webp",
+          "img9": "../assets/samples/folded-newspaper-product-ad-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/folded-newspaper-product-ad-style/03-16x9.webp",
+          "img9": "../assets/samples/folded-newspaper-product-ad-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/folded-newspaper-product-ad-style/04-16x9.webp",
+          "img9": "../assets/samples/folded-newspaper-product-ad-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Product"
+      ],
       "styleJson": "../styles/folded-newspaper-product-ad-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/folded-newspaper-product-ad-style.md",
       "folder": "../styles/folded-newspaper-product-ad-style/",
@@ -3944,6 +6270,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.",
       "preview16": "../styles/sunlit-supermodel-nameplate-editorial/preview-16x9.jpg",
       "preview9": "../styles/sunlit-supermodel-nameplate-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sunlit-supermodel-nameplate-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sunlit-supermodel-nameplate-editorial/01-16x9.webp",
+          "img9": "../assets/samples/sunlit-supermodel-nameplate-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sunlit-supermodel-nameplate-editorial/02-16x9.webp",
+          "img9": "../assets/samples/sunlit-supermodel-nameplate-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sunlit-supermodel-nameplate-editorial/03-16x9.webp",
+          "img9": "../assets/samples/sunlit-supermodel-nameplate-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sunlit-supermodel-nameplate-editorial/04-16x9.webp",
+          "img9": "../assets/samples/sunlit-supermodel-nameplate-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Retro",
+        "Fashion"
+      ],
       "styleJson": "../styles/sunlit-supermodel-nameplate-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sunlit-supermodel-nameplate-editorial.md",
       "folder": "../styles/sunlit-supermodel-nameplate-editorial/",
@@ -3983,6 +6336,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.",
       "preview16": "../styles/black-cutout-food-card-ad-style/preview-16x9.jpg",
       "preview9": "../styles/black-cutout-food-card-ad-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/black-cutout-food-card-ad-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/black-cutout-food-card-ad-style/01-16x9.webp",
+          "img9": "../assets/samples/black-cutout-food-card-ad-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/black-cutout-food-card-ad-style/02-16x9.webp",
+          "img9": "../assets/samples/black-cutout-food-card-ad-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/black-cutout-food-card-ad-style/03-16x9.webp",
+          "img9": "../assets/samples/black-cutout-food-card-ad-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/black-cutout-food-card-ad-style/04-16x9.webp",
+          "img9": "../assets/samples/black-cutout-food-card-ad-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Food"
+      ],
       "styleJson": "../styles/black-cutout-food-card-ad-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/black-cutout-food-card-ad-style.md",
       "folder": "../styles/black-cutout-food-card-ad-style/",
@@ -4022,6 +6402,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background.",
       "preview16": "../styles/kinetic-geometric-doodle-cutouts/preview-16x9.jpg",
       "preview9": "../styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/kinetic-geometric-doodle-cutouts-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/kinetic-geometric-doodle-cutouts/01-16x9.webp",
+          "img9": "../assets/samples/kinetic-geometric-doodle-cutouts/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/kinetic-geometric-doodle-cutouts/02-16x9.webp",
+          "img9": "../assets/samples/kinetic-geometric-doodle-cutouts/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/kinetic-geometric-doodle-cutouts/03-16x9.webp",
+          "img9": "../assets/samples/kinetic-geometric-doodle-cutouts/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/kinetic-geometric-doodle-cutouts/04-16x9.webp",
+          "img9": "../assets/samples/kinetic-geometric-doodle-cutouts/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/kinetic-geometric-doodle-cutouts/style.json",
       "copyPromptDoc": "../docs/copy-prompts/kinetic-geometric-doodle-cutouts.md",
       "folder": "../styles/kinetic-geometric-doodle-cutouts/",
@@ -4061,6 +6467,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.",
       "preview16": "../styles/quiet-luxury-furniture-nameplate-poster-style/preview-16x9.jpg",
       "preview9": "../styles/quiet-luxury-furniture-nameplate-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/quiet-luxury-furniture-nameplate-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/quiet-luxury-furniture-nameplate-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/quiet-luxury-furniture-nameplate-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/quiet-luxury-furniture-nameplate-poster-style.md",
       "folder": "../styles/quiet-luxury-furniture-nameplate-poster-style/",
@@ -4100,6 +6530,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.",
       "preview16": "../styles/kinetic-luxury-street-fashion-cover-style/preview-16x9.jpg",
       "preview9": "../styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/kinetic-luxury-street-fashion-cover-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/kinetic-luxury-street-fashion-cover-style/01-16x9.webp",
+          "img9": "../assets/samples/kinetic-luxury-street-fashion-cover-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/kinetic-luxury-street-fashion-cover-style/02-16x9.webp",
+          "img9": "../assets/samples/kinetic-luxury-street-fashion-cover-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/kinetic-luxury-street-fashion-cover-style/03-16x9.webp",
+          "img9": "../assets/samples/kinetic-luxury-street-fashion-cover-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/kinetic-luxury-street-fashion-cover-style/04-16x9.webp",
+          "img9": "../assets/samples/kinetic-luxury-street-fashion-cover-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Fashion"
+      ],
       "styleJson": "../styles/kinetic-luxury-street-fashion-cover-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md",
       "folder": "../styles/kinetic-luxury-street-fashion-cover-style/",
@@ -4139,6 +6595,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry. It recreates the premium fashion-campaign feeling without copying the original models, wardrobe, plaza, prop placement, or poses.",
       "preview16": "../styles/sunlit-architectural-fashion-editorial/preview-16x9.jpg",
       "preview9": "../styles/sunlit-architectural-fashion-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sunlit-architectural-fashion-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sunlit-architectural-fashion-editorial/01-16x9.webp",
+          "img9": "../assets/samples/sunlit-architectural-fashion-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sunlit-architectural-fashion-editorial/02-16x9.webp",
+          "img9": "../assets/samples/sunlit-architectural-fashion-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sunlit-architectural-fashion-editorial/03-16x9.webp",
+          "img9": "../assets/samples/sunlit-architectural-fashion-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sunlit-architectural-fashion-editorial/04-16x9.webp",
+          "img9": "../assets/samples/sunlit-architectural-fashion-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Fashion"
+      ],
       "styleJson": "../styles/sunlit-architectural-fashion-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sunlit-architectural-fashion-editorial.md",
       "folder": "../styles/sunlit-architectural-fashion-editorial/",
@@ -4178,6 +6660,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A reusable beverage launch advertising system with four color-varied templates, built from giant white 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and polished commercial product lighting.",
       "preview16": "../styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg",
       "preview9": "../styles/multi-color-beverage-splash-ad-system-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/multi-color-beverage-splash-ad-system-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/multi-color-beverage-splash-ad-system-style/01-16x9.webp",
+          "img9": "../assets/samples/multi-color-beverage-splash-ad-system-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/multi-color-beverage-splash-ad-system-style/02-16x9.webp",
+          "img9": "../assets/samples/multi-color-beverage-splash-ad-system-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/multi-color-beverage-splash-ad-system-style/03-16x9.webp",
+          "img9": "../assets/samples/multi-color-beverage-splash-ad-system-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/multi-color-beverage-splash-ad-system-style/04-16x9.webp",
+          "img9": "../assets/samples/multi-color-beverage-splash-ad-system-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "3D",
+        "Food",
+        "Product"
+      ],
       "styleJson": "../styles/multi-color-beverage-splash-ad-system-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md",
       "folder": "../styles/multi-color-beverage-splash-ad-system-style/",
@@ -4221,6 +6731,35 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.",
       "preview16": "../styles/yellow-black-manga-food-zine-ad-style/preview-16x9.jpg",
       "preview9": "../styles/yellow-black-manga-food-zine-ad-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/yellow-black-manga-food-zine-ad-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/yellow-black-manga-food-zine-ad-style/01-16x9.webp",
+          "img9": "../assets/samples/yellow-black-manga-food-zine-ad-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/yellow-black-manga-food-zine-ad-style/02-16x9.webp",
+          "img9": "../assets/samples/yellow-black-manga-food-zine-ad-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/yellow-black-manga-food-zine-ad-style/03-16x9.webp",
+          "img9": "../assets/samples/yellow-black-manga-food-zine-ad-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/yellow-black-manga-food-zine-ad-style/04-16x9.webp",
+          "img9": "../assets/samples/yellow-black-manga-food-zine-ad-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print",
+        "Food",
+        "Product"
+      ],
       "styleJson": "../styles/yellow-black-manga-food-zine-ad-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md",
       "folder": "../styles/yellow-black-manga-food-zine-ad-style/",
@@ -4260,6 +6799,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels, numbered sections, and dense social-note pacing.",
       "preview16": "../styles/neon-outdoor-diary-longform-collage-style/preview-16x9.jpg",
       "preview9": "../styles/neon-outdoor-diary-longform-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-outdoor-diary-longform-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/neon-outdoor-diary-longform-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/neon-outdoor-diary-longform-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/neon-outdoor-diary-longform-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/neon-outdoor-diary-longform-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/neon-outdoor-diary-longform-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/neon-outdoor-diary-longform-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/neon-outdoor-diary-longform-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/neon-outdoor-diary-longform-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Neon"
+      ],
       "styleJson": "../styles/neon-outdoor-diary-longform-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md",
       "folder": "../styles/neon-outdoor-diary-longform-collage-style/",
@@ -4299,6 +6865,36 @@ window.COOKBOOK_STYLES = {
       "summary": "A glossy C4D streetwear campaign poster system built from pale studio space, oversized black block typography, acid-lime marker strokes, sticker badges, fashion-tool props, low wide-angle character staging, and clean synthetic product lighting.",
       "preview16": "../styles/acid-lime-3d-streetwear-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/acid-lime-3d-streetwear-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/acid-lime-3d-streetwear-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/acid-lime-3d-streetwear-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Neon",
+        "3D",
+        "Fashion",
+        "Product"
+      ],
       "styleJson": "../styles/acid-lime-3d-streetwear-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/acid-lime-3d-streetwear-type-poster-style.md",
       "folder": "../styles/acid-lime-3d-streetwear-type-poster-style/",
@@ -4338,6 +6934,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant cropped blue background typography, and clean white announcement copy.",
       "preview16": "../styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg",
       "preview9": "../styles/electric-blue-silhouette-product-launch-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/electric-blue-silhouette-product-launch-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/electric-blue-silhouette-product-launch-style/01-16x9.webp",
+          "img9": "../assets/samples/electric-blue-silhouette-product-launch-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/electric-blue-silhouette-product-launch-style/02-16x9.webp",
+          "img9": "../assets/samples/electric-blue-silhouette-product-launch-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/electric-blue-silhouette-product-launch-style/03-16x9.webp",
+          "img9": "../assets/samples/electric-blue-silhouette-product-launch-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/electric-blue-silhouette-product-launch-style/04-16x9.webp",
+          "img9": "../assets/samples/electric-blue-silhouette-product-launch-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Product"
+      ],
       "styleJson": "../styles/electric-blue-silhouette-product-launch-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/electric-blue-silhouette-product-launch-style.md",
       "folder": "../styles/electric-blue-silhouette-product-launch-style/",
@@ -4377,6 +6999,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-fashion editorial poster style with low-angle luxury photography, sharp red-and-white checkerboard perspective planes, generous white space, oversized custom script typography, and restrained emerald or teal accents. It evokes international luxury maison advertising without copying any real brand mark, campaign, model, product, or exact layout.",
       "preview16": "../styles/luxury-perspective-checkerboard-editorial/preview-16x9.jpg",
       "preview9": "../styles/luxury-perspective-checkerboard-editorial/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/luxury-perspective-checkerboard-editorial-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/luxury-perspective-checkerboard-editorial/01-16x9.webp",
+          "img9": "../assets/samples/luxury-perspective-checkerboard-editorial/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/luxury-perspective-checkerboard-editorial/02-16x9.webp",
+          "img9": "../assets/samples/luxury-perspective-checkerboard-editorial/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/luxury-perspective-checkerboard-editorial/03-16x9.webp",
+          "img9": "../assets/samples/luxury-perspective-checkerboard-editorial/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/luxury-perspective-checkerboard-editorial/04-16x9.webp",
+          "img9": "../assets/samples/luxury-perspective-checkerboard-editorial/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Food",
+        "Fashion",
+        "Product"
+      ],
       "styleJson": "../styles/luxury-perspective-checkerboard-editorial/style.json",
       "copyPromptDoc": "../docs/copy-prompts/luxury-perspective-checkerboard-editorial.md",
       "folder": "../styles/luxury-perspective-checkerboard-editorial/",
@@ -4416,6 +7066,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A bright social campaign poster style built from glossy toy-like 3D avatars, saturated blue-sky outdoor lighting, exaggerated wide-angle perspective, oversized slanted headline typography, and neon hand-drawn motion marks.",
       "preview16": "../styles/sunny-3d-avatar-campaign-style/preview-16x9.jpg",
       "preview9": "../styles/sunny-3d-avatar-campaign-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sunny-3d-avatar-campaign-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sunny-3d-avatar-campaign-style/01-16x9.webp",
+          "img9": "../assets/samples/sunny-3d-avatar-campaign-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sunny-3d-avatar-campaign-style/02-16x9.webp",
+          "img9": "../assets/samples/sunny-3d-avatar-campaign-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sunny-3d-avatar-campaign-style/03-16x9.webp",
+          "img9": "../assets/samples/sunny-3d-avatar-campaign-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sunny-3d-avatar-campaign-style/04-16x9.webp",
+          "img9": "../assets/samples/sunny-3d-avatar-campaign-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Neon",
+        "3D"
+      ],
       "styleJson": "../styles/sunny-3d-avatar-campaign-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sunny-3d-avatar-campaign-style.md",
       "folder": "../styles/sunny-3d-avatar-campaign-style/",
@@ -4455,6 +7133,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A gritty Y2K photomontage style that combines wide-angle flash photography, floating desktop-like interface fragments, thick electric-blue marker outlines, hand-drawn graffiti lettering, and dense analog noise into a chaotic personal-screen collage.",
       "preview16": "../styles/y2k-mirror-ui-scribble-collage-style/preview-16x9.jpg",
       "preview9": "../styles/y2k-mirror-ui-scribble-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/y2k-mirror-ui-scribble-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/y2k-mirror-ui-scribble-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/y2k-mirror-ui-scribble-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/y2k-mirror-ui-scribble-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/y2k-mirror-ui-scribble-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/y2k-mirror-ui-scribble-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/y2k-mirror-ui-scribble-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/y2k-mirror-ui-scribble-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/y2k-mirror-ui-scribble-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Retro"
+      ],
       "styleJson": "../styles/y2k-mirror-ui-scribble-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/y2k-mirror-ui-scribble-collage-style.md",
       "folder": "../styles/y2k-mirror-ui-scribble-collage-style/",
@@ -4494,6 +7199,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A glossy toy-advertising 3D style built from acid lime studio backdrops, oversized fuzzy plush mascots, chunky tech props, soft textile surfaces, translucent plastic accessories, checkerboard cards, sticker-like icons, hot-pink burst graphics, and bright commercial lighting.",
       "preview16": "../styles/neon-plush-gadget-pop-3d-style/preview-16x9.jpg",
       "preview9": "../styles/neon-plush-gadget-pop-3d-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-plush-gadget-pop-3d-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/neon-plush-gadget-pop-3d-style/01-16x9.webp",
+          "img9": "../assets/samples/neon-plush-gadget-pop-3d-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/neon-plush-gadget-pop-3d-style/02-16x9.webp",
+          "img9": "../assets/samples/neon-plush-gadget-pop-3d-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/neon-plush-gadget-pop-3d-style/03-16x9.webp",
+          "img9": "../assets/samples/neon-plush-gadget-pop-3d-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/neon-plush-gadget-pop-3d-style/04-16x9.webp",
+          "img9": "../assets/samples/neon-plush-gadget-pop-3d-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Neon",
+        "3D",
+        "Mascot"
+      ],
       "styleJson": "../styles/neon-plush-gadget-pop-3d-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-plush-gadget-pop-3d-style.md",
       "folder": "../styles/neon-plush-gadget-pop-3d-style/",
@@ -4533,6 +7266,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.",
       "preview16": "../styles/blue-lime-kinetic-comic-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/blue-lime-kinetic-comic-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/blue-lime-kinetic-comic-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/blue-lime-kinetic-comic-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print",
+        "Neon"
+      ],
       "styleJson": "../styles/blue-lime-kinetic-comic-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/blue-lime-kinetic-comic-type-poster-style.md",
       "folder": "../styles/blue-lime-kinetic-comic-type-poster-style/",
@@ -4572,6 +7333,30 @@ window.COOKBOOK_STYLES = {
       "summary": "A Chinese typographic poster system built from an extreme one-point perspective corridor: a saturated blue central trapezoid plane carries stacked oversized white Chinese display type, while black side walls are packed with warped white and pale gray Chinese support copy.",
       "preview16": "../styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg",
       "preview9": "../styles/blue-chinese-perspective-type-canyon-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/blue-chinese-perspective-type-canyon-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/blue-chinese-perspective-type-canyon-style/01-16x9.webp",
+          "img9": "../assets/samples/blue-chinese-perspective-type-canyon-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/blue-chinese-perspective-type-canyon-style/02-16x9.webp",
+          "img9": "../assets/samples/blue-chinese-perspective-type-canyon-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/blue-chinese-perspective-type-canyon-style/03-16x9.webp",
+          "img9": "../assets/samples/blue-chinese-perspective-type-canyon-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/blue-chinese-perspective-type-canyon-style/04-16x9.webp",
+          "img9": "../assets/samples/blue-chinese-perspective-type-canyon-style/04-9x16.webp"
+        }
+      ],
+      "tags": [],
       "styleJson": "../styles/blue-chinese-perspective-type-canyon-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md",
       "folder": "../styles/blue-chinese-perspective-type-canyon-style/",
@@ -4611,6 +7396,35 @@ window.COOKBOOK_STYLES = {
       "summary": "A rough hand-inked poster style built from oversized dark green-black brush lettering, pale blush paper, hot pink secondary type, naive mascot drawings, teal and pink flat fills, sharp yellow burst marks, scattered music-note doodles, and scanned risograph-like print texture.",
       "preview16": "../styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg",
       "preview9": "../styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/rough-ink-music-doodle-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/rough-ink-music-doodle-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/rough-ink-music-doodle-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/rough-ink-music-doodle-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/rough-ink-music-doodle-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/rough-ink-music-doodle-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/rough-ink-music-doodle-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/rough-ink-music-doodle-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/rough-ink-music-doodle-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print",
+        "Mascot",
+        "Food"
+      ],
       "styleJson": "../styles/rough-ink-music-doodle-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/rough-ink-music-doodle-poster-style.md",
       "folder": "../styles/rough-ink-music-doodle-poster-style/",
@@ -4650,6 +7464,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A stark black-and-white editorial poster system pairing a close, high-contrast photographic portrait with oversized lowercase neo-grotesk typography. One headline word is reversed into a clean white rectangular label while the remaining words sit as heavy white type over a charcoal background.",
       "preview16": "../styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg",
       "preview9": "../styles/mono-noir-type-portrait-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/mono-noir-type-portrait-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/mono-noir-type-portrait-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/mono-noir-type-portrait-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/mono-noir-type-portrait-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/mono-noir-type-portrait-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/mono-noir-type-portrait-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/mono-noir-type-portrait-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/mono-noir-type-portrait-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/mono-noir-type-portrait-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Monochrome"
+      ],
       "styleJson": "../styles/mono-noir-type-portrait-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/mono-noir-type-portrait-poster-style.md",
       "folder": "../styles/mono-noir-type-portrait-poster-style/",
@@ -4689,6 +7530,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean off-white print surface.",
       "preview16": "../styles/bold-block-mascot-poster-style/preview-16x9.jpg",
       "preview9": "../styles/bold-block-mascot-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/bold-block-mascot-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/bold-block-mascot-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/bold-block-mascot-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/bold-block-mascot-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/bold-block-mascot-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/bold-block-mascot-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/bold-block-mascot-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/bold-block-mascot-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/bold-block-mascot-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Mascot"
+      ],
       "styleJson": "../styles/bold-block-mascot-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/bold-block-mascot-poster-style.md",
       "folder": "../styles/bold-block-mascot-poster-style/",
@@ -4726,6 +7594,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.",
       "preview16": "../styles/blue-hud-macro-product-poster/preview-16x9.jpg",
       "preview9": "../styles/blue-hud-macro-product-poster/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/blue-hud-macro-product-poster-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/blue-hud-macro-product-poster/01-16x9.webp",
+          "img9": "../assets/samples/blue-hud-macro-product-poster/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/blue-hud-macro-product-poster/02-16x9.webp",
+          "img9": "../assets/samples/blue-hud-macro-product-poster/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/blue-hud-macro-product-poster/03-16x9.webp",
+          "img9": "../assets/samples/blue-hud-macro-product-poster/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/blue-hud-macro-product-poster/04-16x9.webp",
+          "img9": "../assets/samples/blue-hud-macro-product-poster/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "3D",
+        "Product"
+      ],
       "styleJson": "../styles/blue-hud-macro-product-poster/style.json",
       "copyPromptDoc": "../docs/copy-prompts/blue-hud-macro-product-poster.md",
       "folder": "../styles/blue-hud-macro-product-poster/",
@@ -4766,6 +7661,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer.",
       "preview16": "../styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg",
       "preview9": "../styles/warm-fisheye-product-impact-ad-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/warm-fisheye-product-impact-ad-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/warm-fisheye-product-impact-ad-style/01-16x9.webp",
+          "img9": "../assets/samples/warm-fisheye-product-impact-ad-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/warm-fisheye-product-impact-ad-style/02-16x9.webp",
+          "img9": "../assets/samples/warm-fisheye-product-impact-ad-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/warm-fisheye-product-impact-ad-style/03-16x9.webp",
+          "img9": "../assets/samples/warm-fisheye-product-impact-ad-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/warm-fisheye-product-impact-ad-style/04-16x9.webp",
+          "img9": "../assets/samples/warm-fisheye-product-impact-ad-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Food",
+        "Product"
+      ],
       "styleJson": "../styles/warm-fisheye-product-impact-ad-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/warm-fisheye-product-impact-ad-style.md",
       "folder": "../styles/warm-fisheye-product-impact-ad-style/",
@@ -4806,6 +7729,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green dry-brush swaths, sparse debris, and handmade screenprint texture.",
       "preview16": "../styles/olive-scribble-sports-poster-style/preview-16x9.jpg",
       "preview9": "../styles/olive-scribble-sports-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/olive-scribble-sports-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/olive-scribble-sports-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/olive-scribble-sports-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/olive-scribble-sports-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/olive-scribble-sports-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/olive-scribble-sports-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/olive-scribble-sports-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/olive-scribble-sports-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/olive-scribble-sports-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print",
+        "Sport"
+      ],
       "styleJson": "../styles/olive-scribble-sports-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/olive-scribble-sports-poster-style.md",
       "folder": "../styles/olive-scribble-sports-poster-style/",
@@ -4846,6 +7797,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.",
       "preview16": "../styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg",
       "preview9": "../styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/bold-anime-reaction-thumbnail-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/bold-anime-reaction-thumbnail-style/01-16x9.webp",
+          "img9": "../assets/samples/bold-anime-reaction-thumbnail-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/bold-anime-reaction-thumbnail-style/02-16x9.webp",
+          "img9": "../assets/samples/bold-anime-reaction-thumbnail-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/bold-anime-reaction-thumbnail-style/03-16x9.webp",
+          "img9": "../assets/samples/bold-anime-reaction-thumbnail-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/bold-anime-reaction-thumbnail-style/04-16x9.webp",
+          "img9": "../assets/samples/bold-anime-reaction-thumbnail-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic"
+      ],
       "styleJson": "../styles/bold-anime-reaction-thumbnail-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/bold-anime-reaction-thumbnail-style.md",
       "folder": "../styles/bold-anime-reaction-thumbnail-style/",
@@ -4886,6 +7863,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
       "preview16": "../styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg",
       "preview9": "../styles/turquoise-red-techno-manga-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/turquoise-red-techno-manga-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/turquoise-red-techno-manga-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/turquoise-red-techno-manga-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/turquoise-red-techno-manga-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/turquoise-red-techno-manga-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/turquoise-red-techno-manga-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/turquoise-red-techno-manga-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/turquoise-red-techno-manga-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/turquoise-red-techno-manga-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/turquoise-red-techno-manga-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/turquoise-red-techno-manga-poster-style.md",
       "folder": "../styles/turquoise-red-techno-manga-poster-style/",
@@ -4923,6 +7928,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
       "preview16": "../styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg",
       "preview9": "../styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/chromatic-fisheye-orbit-pop-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/chromatic-fisheye-orbit-pop-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/chromatic-fisheye-orbit-pop-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md",
       "folder": "../styles/chromatic-fisheye-orbit-pop-poster-style/",
@@ -4960,6 +7992,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A friendly hand-drawn public-service poster style built from chunky irregular marker outlines, oversized blue-bordered speech-panel typography, simplified cartoon people, flattened civic props, pastel paper backgrounds, warning-sign motifs, and intentionally naive perspective.",
       "preview16": "../styles/naive-marker-psa-poster-style/preview-16x9.jpg",
       "preview9": "../styles/naive-marker-psa-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/naive-marker-psa-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/naive-marker-psa-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/naive-marker-psa-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/naive-marker-psa-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/naive-marker-psa-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/naive-marker-psa-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/naive-marker-psa-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/naive-marker-psa-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/naive-marker-psa-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/naive-marker-psa-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/naive-marker-psa-poster-style.md",
       "folder": "../styles/naive-marker-psa-poster-style/",
@@ -4997,6 +8055,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
       "preview16": "../styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg",
       "preview9": "../styles/blue-bubble-fisheye-action-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/blue-bubble-fisheye-action-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/blue-bubble-fisheye-action-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/blue-bubble-fisheye-action-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/blue-bubble-fisheye-action-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/blue-bubble-fisheye-action-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/blue-bubble-fisheye-action-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/blue-bubble-fisheye-action-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/blue-bubble-fisheye-action-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/blue-bubble-fisheye-action-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/blue-bubble-fisheye-action-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md",
       "folder": "../styles/blue-bubble-fisheye-action-poster-style/",
@@ -5034,6 +8118,27 @@ window.COOKBOOK_STYLES = {
       "summary": "A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen glow, and tiny handwritten doodle marks.",
       "preview16": "../styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg",
       "preview9": "../styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/cozy-bedroom-doodle-companion-snapshot-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/cozy-bedroom-doodle-companion-snapshot-style/01-16x9.webp",
+          "img9": "../assets/samples/cozy-bedroom-doodle-companion-snapshot-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/cozy-bedroom-doodle-companion-snapshot-style/02-16x9.webp",
+          "img9": "../assets/samples/cozy-bedroom-doodle-companion-snapshot-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/cozy-bedroom-doodle-companion-snapshot-style/03-16x9.webp",
+          "img9": "../assets/samples/cozy-bedroom-doodle-companion-snapshot-style/03-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/cozy-bedroom-doodle-companion-snapshot-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md",
       "folder": "../styles/cozy-bedroom-doodle-companion-snapshot-style/",
@@ -5075,6 +8180,28 @@ window.COOKBOOK_STYLES = {
       "summary": "A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
       "preview16": "../styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg",
       "preview9": "../styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/surreal-fish-doodle-landmark-photo-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/surreal-fish-doodle-landmark-photo-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/surreal-fish-doodle-landmark-photo-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/surreal-fish-doodle-landmark-photo-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/surreal-fish-doodle-landmark-photo-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/surreal-fish-doodle-landmark-photo-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/surreal-fish-doodle-landmark-photo-collage-style/03-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/surreal-fish-doodle-landmark-photo-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md",
       "folder": "../styles/surreal-fish-doodle-landmark-photo-collage-style/",
@@ -5112,6 +8239,36 @@ window.COOKBOOK_STYLES = {
       "summary": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
       "preview16": "../styles/plush-comic-toy-product-poster-style/preview-16x9.jpg",
       "preview9": "../styles/plush-comic-toy-product-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/plush-comic-toy-product-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/plush-comic-toy-product-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/plush-comic-toy-product-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/plush-comic-toy-product-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/plush-comic-toy-product-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/plush-comic-toy-product-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/plush-comic-toy-product-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/plush-comic-toy-product-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/plush-comic-toy-product-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn",
+        "Retro",
+        "3D",
+        "Product"
+      ],
       "styleJson": "../styles/plush-comic-toy-product-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/plush-comic-toy-product-poster-style.md",
       "folder": "../styles/plush-comic-toy-product-poster-style/",
@@ -5151,6 +8308,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.",
       "preview16": "../styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg",
       "preview9": "../styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/rough-animation-pet-sketch-storyboard-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/rough-animation-pet-sketch-storyboard-style/01-16x9.webp",
+          "img9": "../assets/samples/rough-animation-pet-sketch-storyboard-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/rough-animation-pet-sketch-storyboard-style/02-16x9.webp",
+          "img9": "../assets/samples/rough-animation-pet-sketch-storyboard-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/rough-animation-pet-sketch-storyboard-style/03-16x9.webp",
+          "img9": "../assets/samples/rough-animation-pet-sketch-storyboard-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/rough-animation-pet-sketch-storyboard-style/04-16x9.webp",
+          "img9": "../assets/samples/rough-animation-pet-sketch-storyboard-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn",
+        "Mascot"
+      ],
       "styleJson": "../styles/rough-animation-pet-sketch-storyboard-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md",
       "folder": "../styles/rough-animation-pet-sketch-storyboard-style/",
@@ -5188,6 +8373,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
       "preview16": "../styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg",
       "preview9": "../styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/tri-color-hardcut-portrait-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/tri-color-hardcut-portrait-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/tri-color-hardcut-portrait-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/tri-color-hardcut-portrait-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/tri-color-hardcut-portrait-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/tri-color-hardcut-portrait-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/tri-color-hardcut-portrait-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/tri-color-hardcut-portrait-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/tri-color-hardcut-portrait-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Food"
+      ],
       "styleJson": "../styles/tri-color-hardcut-portrait-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md",
       "folder": "../styles/tri-color-hardcut-portrait-poster-style/",
@@ -5225,6 +8437,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.",
       "preview16": "../styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg",
       "preview9": "../styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/clean-triptych-travel-vlog-thumbnail-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/01-16x9.webp",
+          "img9": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/02-16x9.webp",
+          "img9": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/03-16x9.webp",
+          "img9": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/04-16x9.webp",
+          "img9": "../assets/samples/clean-triptych-travel-vlog-thumbnail-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/clean-triptych-travel-vlog-thumbnail-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md",
       "folder": "../styles/clean-triptych-travel-vlog-thumbnail-style/",
@@ -5262,6 +8500,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
       "preview16": "../styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg",
       "preview9": "../styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/playful-mascot-doodle-snapshot-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/playful-mascot-doodle-snapshot-style/01-16x9.webp",
+          "img9": "../assets/samples/playful-mascot-doodle-snapshot-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/playful-mascot-doodle-snapshot-style/02-16x9.webp",
+          "img9": "../assets/samples/playful-mascot-doodle-snapshot-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/playful-mascot-doodle-snapshot-style/03-16x9.webp",
+          "img9": "../assets/samples/playful-mascot-doodle-snapshot-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/playful-mascot-doodle-snapshot-style/04-16x9.webp",
+          "img9": "../assets/samples/playful-mascot-doodle-snapshot-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Mascot"
+      ],
       "styleJson": "../styles/playful-mascot-doodle-snapshot-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/playful-mascot-doodle-snapshot-style.md",
       "folder": "../styles/playful-mascot-doodle-snapshot-style/",
@@ -5299,6 +8564,36 @@ window.COOKBOOK_STYLES = {
       "summary": "A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.",
       "preview16": "../styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg",
       "preview9": "../styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/teenage-skate-scribble-screenprint-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/teenage-skate-scribble-screenprint-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print",
+        "Retro",
+        "Monochrome",
+        "Sport"
+      ],
       "styleJson": "../styles/teenage-skate-scribble-screenprint-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md",
       "folder": "../styles/teenage-skate-scribble-screenprint-poster-style/",
@@ -5336,6 +8631,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
       "preview16": "../styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg",
       "preview9": "../styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/impact-burst-halftone-comic-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/impact-burst-halftone-comic-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/impact-burst-halftone-comic-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/impact-burst-halftone-comic-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/impact-burst-halftone-comic-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/impact-burst-halftone-comic-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/impact-burst-halftone-comic-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/impact-burst-halftone-comic-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/impact-burst-halftone-comic-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/impact-burst-halftone-comic-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/impact-burst-halftone-comic-poster-style.md",
       "folder": "../styles/impact-burst-halftone-comic-poster-style/",
@@ -5373,6 +8696,32 @@ window.COOKBOOK_STYLES = {
       "summary": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
       "preview16": "../styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/sunburst-fisheye-bubble-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/sunburst-fisheye-bubble-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Retro"
+      ],
       "styleJson": "../styles/sunburst-fisheye-bubble-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md",
       "folder": "../styles/sunburst-fisheye-bubble-type-poster-style/",
@@ -5413,6 +8762,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.",
       "preview16": "../styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg",
       "preview9": "../styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/backseat-transit-doodle-letter-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/backseat-transit-doodle-letter-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/backseat-transit-doodle-letter-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/backseat-transit-doodle-letter-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/backseat-transit-doodle-letter-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/backseat-transit-doodle-letter-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/backseat-transit-doodle-letter-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/backseat-transit-doodle-letter-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/backseat-transit-doodle-letter-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/backseat-transit-doodle-letter-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md",
       "folder": "../styles/backseat-transit-doodle-letter-poster-style/",
@@ -5450,6 +8826,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
       "preview16": "../styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg",
       "preview9": "../styles/analog-sticker-diary-portrait-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/analog-sticker-diary-portrait-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/analog-sticker-diary-portrait-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/analog-sticker-diary-portrait-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/analog-sticker-diary-portrait-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/analog-sticker-diary-portrait-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/analog-sticker-diary-portrait-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/analog-sticker-diary-portrait-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/analog-sticker-diary-portrait-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/analog-sticker-diary-portrait-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Halftone & Print",
+        "Retro"
+      ],
       "styleJson": "../styles/analog-sticker-diary-portrait-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md",
       "folder": "../styles/analog-sticker-diary-portrait-poster-style/",
@@ -5487,6 +8891,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
       "preview16": "../styles/folded-diamond-perspective-type-poster-style/preview-16x9.jpg",
       "preview9": "../styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/folded-diamond-perspective-type-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/folded-diamond-perspective-type-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/folded-diamond-perspective-type-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/folded-diamond-perspective-type-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/folded-diamond-perspective-type-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/folded-diamond-perspective-type-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/folded-diamond-perspective-type-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/folded-diamond-perspective-type-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/folded-diamond-perspective-type-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print"
+      ],
       "styleJson": "../styles/folded-diamond-perspective-type-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/folded-diamond-perspective-type-poster-style.md",
       "folder": "../styles/folded-diamond-perspective-type-poster-style/",
@@ -5524,6 +8954,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
       "preview16": "../styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg",
       "preview9": "../styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/gothic-cat-doodle-photo-collage-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/gothic-cat-doodle-photo-collage-style/01-16x9.webp",
+          "img9": "../assets/samples/gothic-cat-doodle-photo-collage-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/gothic-cat-doodle-photo-collage-style/02-16x9.webp",
+          "img9": "../assets/samples/gothic-cat-doodle-photo-collage-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/gothic-cat-doodle-photo-collage-style/03-16x9.webp",
+          "img9": "../assets/samples/gothic-cat-doodle-photo-collage-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/gothic-cat-doodle-photo-collage-style/04-16x9.webp",
+          "img9": "../assets/samples/gothic-cat-doodle-photo-collage-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Mascot"
+      ],
       "styleJson": "../styles/gothic-cat-doodle-photo-collage-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md",
       "folder": "../styles/gothic-cat-doodle-photo-collage-style/",
@@ -5561,6 +9018,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
       "preview16": "../styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg",
       "preview9": "../styles/k-pop-apocalypse-ransom-zine-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/k-pop-apocalypse-ransom-zine-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/k-pop-apocalypse-ransom-zine-style/01-16x9.webp",
+          "img9": "../assets/samples/k-pop-apocalypse-ransom-zine-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/k-pop-apocalypse-ransom-zine-style/02-16x9.webp",
+          "img9": "../assets/samples/k-pop-apocalypse-ransom-zine-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/k-pop-apocalypse-ransom-zine-style/03-16x9.webp",
+          "img9": "../assets/samples/k-pop-apocalypse-ransom-zine-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/k-pop-apocalypse-ransom-zine-style/04-16x9.webp",
+          "img9": "../assets/samples/k-pop-apocalypse-ransom-zine-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Monochrome",
+        "Fashion"
+      ],
       "styleJson": "../styles/k-pop-apocalypse-ransom-zine-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md",
       "folder": "../styles/k-pop-apocalypse-ransom-zine-style/",
@@ -5598,6 +9083,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
       "preview16": "../styles/metro-doodle-snapshot-diary-style/preview-16x9.jpg",
       "preview9": "../styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/metro-doodle-snapshot-diary-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/metro-doodle-snapshot-diary-style/01-16x9.webp",
+          "img9": "../assets/samples/metro-doodle-snapshot-diary-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/metro-doodle-snapshot-diary-style/02-16x9.webp",
+          "img9": "../assets/samples/metro-doodle-snapshot-diary-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/metro-doodle-snapshot-diary-style/03-16x9.webp",
+          "img9": "../assets/samples/metro-doodle-snapshot-diary-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/metro-doodle-snapshot-diary-style/04-16x9.webp",
+          "img9": "../assets/samples/metro-doodle-snapshot-diary-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Manga & Comic",
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/metro-doodle-snapshot-diary-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/metro-doodle-snapshot-diary-style.md",
       "folder": "../styles/metro-doodle-snapshot-diary-style/",
@@ -5635,6 +9148,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.",
       "preview16": "../styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg",
       "preview9": "../styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/mountain-trail-monster-doodle-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/mountain-trail-monster-doodle-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/mountain-trail-monster-doodle-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/mountain-trail-monster-doodle-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/mountain-trail-monster-doodle-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/mountain-trail-monster-doodle-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/mountain-trail-monster-doodle-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/mountain-trail-monster-doodle-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/mountain-trail-monster-doodle-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn",
+        "Mascot"
+      ],
       "styleJson": "../styles/mountain-trail-monster-doodle-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md",
       "folder": "../styles/mountain-trail-monster-doodle-poster-style/",
@@ -5672,6 +9213,35 @@ window.COOKBOOK_STYLES = {
       "summary": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
       "preview16": "../styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg",
       "preview9": "../styles/neon-doodle-gallery-snapshot-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-doodle-gallery-snapshot-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/neon-doodle-gallery-snapshot-style/01-16x9.webp",
+          "img9": "../assets/samples/neon-doodle-gallery-snapshot-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/neon-doodle-gallery-snapshot-style/02-16x9.webp",
+          "img9": "../assets/samples/neon-doodle-gallery-snapshot-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/neon-doodle-gallery-snapshot-style/03-16x9.webp",
+          "img9": "../assets/samples/neon-doodle-gallery-snapshot-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/neon-doodle-gallery-snapshot-style/04-16x9.webp",
+          "img9": "../assets/samples/neon-doodle-gallery-snapshot-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Hand-drawn",
+        "Halftone & Print",
+        "Neon",
+        "Mascot"
+      ],
       "styleJson": "../styles/neon-doodle-gallery-snapshot-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-doodle-gallery-snapshot-style.md",
       "folder": "../styles/neon-doodle-gallery-snapshot-style/",
@@ -5709,6 +9279,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
       "preview16": "../styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg",
       "preview9": "../styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/neon-kinetic-typographic-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Neon"
+      ],
       "styleJson": "../styles/neon-kinetic-typographic-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/neon-kinetic-typographic-poster-style.md",
       "folder": "../styles/neon-kinetic-typographic-poster-style/",
@@ -5746,6 +9321,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A sparse orange-white-black flat illustration system with a white mascot figure, oversized prop, rough black dry-brush linework, orange cheek circles, and screen-printed paper grain.",
       "preview16": "../styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg",
       "preview9": "../styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/orange-brush-mascot-action-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/orange-brush-mascot-action-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/orange-brush-mascot-action-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/orange-brush-mascot-action-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/orange-brush-mascot-action-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/orange-brush-mascot-action-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/orange-brush-mascot-action-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/orange-brush-mascot-action-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/orange-brush-mascot-action-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Mascot"
+      ],
       "styleJson": "../styles/orange-brush-mascot-action-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/orange-brush-mascot-action-poster-style.md",
       "folder": "../styles/orange-brush-mascot-action-poster-style/",
@@ -5783,6 +9385,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
       "preview16": "../styles/photo-illustration-overlay-poster-style/preview-16x9.jpg",
       "preview9": "../styles/photo-illustration-overlay-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/photo-illustration-overlay-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Manga & Comic",
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/photo-illustration-overlay-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/photo-illustration-overlay-poster-style.md",
       "folder": "../styles/photo-illustration-overlay-poster-style/",
@@ -5820,6 +9428,11 @@ window.COOKBOOK_STYLES = {
       "summary": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
       "preview16": "../styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg",
       "preview9": "../styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/plush-city-festival-mobile-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Mascot"
+      ],
       "styleJson": "../styles/plush-city-festival-mobile-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/plush-city-festival-mobile-poster-style.md",
       "folder": "../styles/plush-city-festival-mobile-poster-style/",
@@ -5857,6 +9470,33 @@ window.COOKBOOK_STYLES = {
       "summary": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
       "preview16": "../styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg",
       "preview9": "../styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/pop-bubble-letter-photo-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/pop-bubble-letter-photo-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/pop-bubble-letter-photo-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/pop-bubble-letter-photo-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/pop-bubble-letter-photo-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/pop-bubble-letter-photo-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/pop-bubble-letter-photo-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/pop-bubble-letter-photo-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/pop-bubble-letter-photo-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Fashion"
+      ],
       "styleJson": "../styles/pop-bubble-letter-photo-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/pop-bubble-letter-photo-poster-style.md",
       "folder": "../styles/pop-bubble-letter-photo-poster-style/",
@@ -5894,6 +9534,32 @@ window.COOKBOOK_STYLES = {
       "summary": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
       "preview16": "../styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg",
       "preview9": "../styles/soft-analog-future-editorial-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/soft-analog-future-editorial-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/soft-analog-future-editorial-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/soft-analog-future-editorial-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/soft-analog-future-editorial-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/soft-analog-future-editorial-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/soft-analog-future-editorial-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/soft-analog-future-editorial-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/soft-analog-future-editorial-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/soft-analog-future-editorial-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Retro"
+      ],
       "styleJson": "../styles/soft-analog-future-editorial-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/soft-analog-future-editorial-poster-style.md",
       "folder": "../styles/soft-analog-future-editorial-poster-style/",
@@ -5931,6 +9597,12 @@ window.COOKBOOK_STYLES = {
       "summary": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
       "preview16": "../styles/subway-doodle-photo-hybrid-style/preview-16x9.jpg",
       "preview9": "../styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/subway-doodle-photo-hybrid-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Portrait",
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/subway-doodle-photo-hybrid-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/subway-doodle-photo-hybrid-style.md",
       "folder": "../styles/subway-doodle-photo-hybrid-style/",
@@ -5968,6 +9640,13 @@ window.COOKBOOK_STYLES = {
       "summary": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
       "preview16": "../styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg",
       "preview9": "../styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/tokyo-kawaii-travel-collage-poster-style-16x9.jpg",
+      "samples": [],
+      "tags": [
+        "Manga & Comic",
+        "Halftone & Print",
+        "Fashion"
+      ],
       "styleJson": "../styles/tokyo-kawaii-travel-collage-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md",
       "folder": "../styles/tokyo-kawaii-travel-collage-poster-style/",
@@ -6005,6 +9684,34 @@ window.COOKBOOK_STYLES = {
       "summary": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
       "preview16": "../styles/urban-transit-doodle-diary-style/preview-16x9.jpg",
       "preview9": "../styles/urban-transit-doodle-diary-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/urban-transit-doodle-diary-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/urban-transit-doodle-diary-style/01-16x9.webp",
+          "img9": "../assets/samples/urban-transit-doodle-diary-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/urban-transit-doodle-diary-style/02-16x9.webp",
+          "img9": "../assets/samples/urban-transit-doodle-diary-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/urban-transit-doodle-diary-style/03-16x9.webp",
+          "img9": "../assets/samples/urban-transit-doodle-diary-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/urban-transit-doodle-diary-style/04-16x9.webp",
+          "img9": "../assets/samples/urban-transit-doodle-diary-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Portrait",
+        "Manga & Comic",
+        "Hand-drawn"
+      ],
       "styleJson": "../styles/urban-transit-doodle-diary-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/urban-transit-doodle-diary-style.md",
       "folder": "../styles/urban-transit-doodle-diary-style/",
@@ -6042,6 +9749,35 @@ window.COOKBOOK_STYLES = {
       "summary": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
       "preview16": "../styles/y2k-grunge-hiphop-cutout-poster-style/preview-16x9.jpg",
       "preview9": "../styles/y2k-grunge-hiphop-cutout-poster-style/preview-9x16.jpg",
+      "thumb16": "../assets/thumbs/y2k-grunge-hiphop-cutout-poster-style-16x9.jpg",
+      "samples": [
+        {
+          "index": 0,
+          "img16": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/01-16x9.webp",
+          "img9": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/01-9x16.webp"
+        },
+        {
+          "index": 1,
+          "img16": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/02-16x9.webp",
+          "img9": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/02-9x16.webp"
+        },
+        {
+          "index": 2,
+          "img16": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/03-16x9.webp",
+          "img9": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/03-9x16.webp"
+        },
+        {
+          "index": 3,
+          "img16": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/04-16x9.webp",
+          "img9": "../assets/samples/y2k-grunge-hiphop-cutout-poster-style/04-9x16.webp"
+        }
+      ],
+      "tags": [
+        "Halftone & Print",
+        "Retro",
+        "Neon",
+        "Monochrome"
+      ],
       "styleJson": "../styles/y2k-grunge-hiphop-cutout-poster-style/style.json",
       "copyPromptDoc": "../docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md",
       "folder": "../styles/y2k-grunge-hiphop-cutout-poster-style/",

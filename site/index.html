@@ -29,7 +29,7 @@
         document.documentElement.dataset.theme = "dark";
       }
     </script>
-    <link rel="stylesheet" href="styles.css?v=style-index-1">
+    <link rel="stylesheet" href="styles.css?v=ux-2">
   </head>
   <body>
     <main class="page-shell">
@@ -71,10 +71,10 @@
         </div>
         <div class="hero-side">
           <nav class="header-actions" aria-label="Primary links">
-            <a href="../README.md">README</a>
-            <a href="../docs/CATALOG.md">Catalog</a>
+            <a href="https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook#readme">README</a>
+            <a href="https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/main/docs/CATALOG.md">Catalog</a>
             <a href="#curator">About</a>
-            <a href="https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook">GitHub</a>
+            <a class="star-link" href="https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook" title="Star the repo on GitHub to get new style drops"><span aria-hidden="true">★</span> Star <span class="star-count" id="starCount"></span></a>
           </nav>
           <section class="creator-card" aria-label="Curator">
             <img class="creator-avatar" src="assets/vigo-avatar.jpg" alt="Vigo Zhao portrait">
@@ -91,22 +91,24 @@
         </div>
       </header>
 
-      <section class="howto" aria-label="How to use a style">
-        <p class="eyebrow">How to use</p>
+      <details class="howto" id="howto" open>
+        <summary class="eyebrow">How to use</summary>
         <ol>
-          <li>Copy JSON and paste it into ChatGPT, Gemini, or Claude.</li>
-          <li>Pick an example case or replace the variables.</li>
-          <li>Generate. Use Copy filled prompt if you want the rendered template instead of JSON.</li>
+          <li><strong>Copy style.json</strong> and paste it into ChatGPT, Gemini or Claude, then tell it your subject.</li>
+          <li>Using Midjourney or another image tool? <strong>Copy text prompt</strong> instead and paste it directly.</li>
+          <li>Open a style to see its example cases and swap in your own subject, text and ratio.</li>
         </ol>
-      </section>
+      </details>
 
       <section class="control-bar" aria-label="Style filters">
         <label class="search-box">
           <span>Search</span>
-          <input id="searchInput" type="search" placeholder="doodle, product, travel, manga...">
+          <input id="searchInput" type="search" placeholder="doodle, product, manga… 或 海报、漫画" autocomplete="off">
         </label>
         <div class="category-strip" id="categoryStrip"></div>
       </section>
+
+      <section class="tag-strip" id="tagStrip" aria-label="Quick visual tags"></section>
 
       <section class="status-row" aria-live="polite">
         <strong id="resultCount">0 styles</strong>
@@ -352,8 +354,8 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <script src="styles-data.js?v=styles-154"></script>
-    <script src="app.js?v=style-pages-1"></script>
+    <script src="styles-data.js?v=f952846566"></script>
+    <script src="app.js?v=ux-1"></script>
     <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8aeae43b7eea4bf991a493b61ca89f1a"}'></script><!-- End Cloudflare Web Analytics -->
   </body>
 </html>

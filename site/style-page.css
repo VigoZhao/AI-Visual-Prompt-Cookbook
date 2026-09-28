@@ -163,6 +163,36 @@ figcaption {
   font-size: 0.8rem;
 }
 
+.sp-cases {
+  margin-top: 36px;
+}
+
+.sp-cases > p {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.sp-case-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.sp-case-grid figure {
+  margin: 0;
+}
+
+.sp-case-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 .sp-columns {
   display: grid;
   grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
@@ -319,7 +349,8 @@ h2 {
     max-width: 260px;
   }
 
-  .related-grid {
+  .related-grid,
+  .sp-case-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

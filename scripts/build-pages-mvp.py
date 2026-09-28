@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import re
@@ -10,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import seo_pages
+from search_terms import QUICK_TAGS, ZH_TERMS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +19,7 @@ STYLES_DIR = ROOT / "styles"
 README = ROOT / "README.md"
 SITE_DIR = ROOT / "site"
 OUTPUT = SITE_DIR / "styles-data.js"
+SAMPLES_DIR = ROOT / "assets" / "samples"
 
 SWITCHABLE_ASPECT_RATIOS = ("16:9", "9:16", "4:5", "5:4")
 RATIO_RE = re.compile(r"\b(\d+:\d+)\b")
@@ -92,6 +95,33 @@ def category_for(slug: str, data: dict[str, Any]) -> str:
     return category
 
 
+def tags_for(slug: str, name: str, summary: str) -> list[str]:
+    haystack = f"{name} {summary} {slug.replace('-', ' ')}".lower()
+    return [
+        label
+        for label, terms in QUICK_TAGS
+        if any(re.search(r"\b" + re.escape(term), haystack) for term in terms)
+    ]
+
+
+def samples_for(slug: str, case_count: int) -> list[dict[str, Any]]:
+    """Per-case images imported by scripts/import-samples.py, keyed by example index."""
+    samples = []
+    for index in range(case_count):
+        stem = f"{index + 1:02d}"
+        img16 = SAMPLES_DIR / slug / f"{stem}-16x9.webp"
+        img9 = SAMPLES_DIR / slug / f"{stem}-9x16.webp"
+        if img16.exists() and img9.exists():
+            samples.append(
+                {
+                    "index": index,
+                    "img16": f"../assets/samples/{slug}/{stem}-16x9.webp",
+                    "img9": f"../assets/samples/{slug}/{stem}-9x16.webp",
+                }
+            )
+    return samples
+
+
 def build() -> None:
     readme_order, readme_descriptions = read_readme_order()
     style_paths = {path.parent.name: path for path in STYLES_DIR.glob("*/style.json")}
@@ -116,6 +146,9 @@ def build() -> None:
                 "summary": summary,
                 "preview16": f"../styles/{slug}/preview-16x9.jpg",
                 "preview9": f"../styles/{slug}/preview-9x16.jpg",
+                "thumb16": f"../assets/thumbs/{slug}-16x9.jpg",
+                "samples": samples_for(slug, len(data.get("examples") or [])),
+                "tags": tags_for(slug, name, summary),
                 "styleJson": f"../styles/{slug}/style.json",
                 "copyPromptDoc": f"../docs/copy-prompts/{slug}.md",
                 "folder": f"../styles/{slug}/",
@@ -130,6 +163,8 @@ def build() -> None:
     payload = {
         "styleCount": len(styles),
         "categories": [category for category in GALLERY_CATEGORIES if category in used_categories],
+        "quickTags": [label for label, _ in QUICK_TAGS if any(label in s["tags"] for s in styles)],
+        "zhTerms": ZH_TERMS,
         "styles": styles,
     }
     SITE_DIR.mkdir(exist_ok=True)
@@ -137,6 +172,13 @@ def build() -> None:
         "window.COOKBOOK_STYLES = "
         + json.dumps(payload, ensure_ascii=False, indent=2)
         + ";\n",
+        encoding="utf-8",
+    )
+    # Cache-bust the data file in index.html whenever its content changes.
+    digest = hashlib.sha1(OUTPUT.read_bytes()).hexdigest()[:10]
+    index_html = SITE_DIR / "index.html"
+    index_html.write_text(
+        re.sub(r"styles-data\.js\?v=[^\"]+", f"styles-data.js?v={digest}", index_html.read_text(encoding="utf-8")),
         encoding="utf-8",
     )
     seo_pages.build_all(ROOT, SITE_DIR, styles, payload["categories"])

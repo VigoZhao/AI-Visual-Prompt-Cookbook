@@ -92,6 +92,39 @@ def related_for(style: dict[str, Any], styles: list[dict[str, Any]], limit: int 
     return [same[(start + i) % len(same)] for i in range(limit)]
 
 
+def case_label(name: str) -> str:
+    if re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)+", name):
+        return " ".join(part.capitalize() for part in name.split("-"))
+    return name
+
+
+def samples_block(style: dict[str, Any]) -> str:
+    samples = style.get("samples") or []
+    if len(samples) < 2:
+        return ""
+    examples = json.loads(style["jsonText"]).get("examples") or []
+    figures = []
+    for sample in samples:
+        item = examples[sample["index"]] if sample["index"] < len(examples) else {}
+        label = case_label(str(item.get("case_name") or f"Example {sample['index'] + 1}"))
+        src = "../../" + sample["img16"]  # data paths are relative to site/
+        figures.append(
+            f"""          <figure>
+            <img src="{esc(src)}" alt="{esc(style['name'])} — example: {esc(label)}" loading="lazy" width="800" height="450">
+            <figcaption>{esc(label)}</figcaption>
+          </figure>"""
+        )
+    return f"""
+      <section class="sp-cases" aria-label="Example cases">
+        <h2>{len(samples)} example cases</h2>
+        <p>Same style.json, different subjects. Each case's values are in the <code>examples</code> section of the JSON.</p>
+        <div class="sp-case-grid">
+{chr(10).join(figures)}
+        </div>
+      </section>
+"""
+
+
 def style_page(style: dict[str, Any], styles: list[dict[str, Any]]) -> str:
     slug = style["slug"]
     name = style["name"]
@@ -105,7 +138,7 @@ def style_page(style: dict[str, Any], styles: list[dict[str, Any]]) -> str:
     variables = "".join(f"<li><code>{esc(v)}</code> <span>{esc(label_for(v))}</span></li>" for v in style["variables"])
     related = "\n".join(
         f"""        <a class="related-card" href="../{esc(r['slug'])}/">
-          <img src="../../../assets/thumbs/{esc(r['slug'])}-16x9.jpg" alt="{esc(r['name'])} style preview" loading="lazy">
+          <img src="../../../assets/thumbs/{esc(r['slug'])}-16x9.jpg" alt="{esc(r['name'])} style preview" loading="lazy" width="640" height="360">
           <span>{esc(r['name'])}</span>
         </a>"""
         for r in related_for(style, styles)
@@ -139,7 +172,7 @@ def style_page(style: dict[str, Any], styles: list[dict[str, Any]]) -> str:
         document.documentElement.dataset.theme = "dark";
       }}
     </script>
-    <link rel="stylesheet" href="../../style-page.css?v=1">
+    <link rel="stylesheet" href="../../style-page.css?v=2">
     <script type="application/ld+json">
 {json_ld(style)}
     </script>
@@ -160,6 +193,7 @@ def style_page(style: dict[str, Any], styles: list[dict[str, Any]]) -> str:
         <p class="sp-lede">{esc(style['description'])}</p>
         <div class="sp-actions">
           <button class="sp-button primary" type="button" data-copy-json>Copy style.json</button>
+          <a class="sp-button" href="{REPO_URL}" title="Star the repo to get new style drops">★ Star on GitHub</a>
           <a class="sp-button" href="../../#{esc(slug)}">Open in gallery</a>
           <a class="sp-button" href="{REPO_URL}/tree/main/styles/{esc(slug)}">View on GitHub</a>
         </div>
@@ -176,6 +210,7 @@ def style_page(style: dict[str, Any], styles: list[dict[str, Any]]) -> str:
         </figure>
       </section>
 
+{samples_block(style)}
       <div class="sp-columns">
         <section>
           <h2>What this style does</h2>

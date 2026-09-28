@@ -130,6 +130,11 @@ img {
   -webkit-mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 100%);
 }
 
+/* The 1200px glow below must not widen the page on phones. */
+.lamp-glow {
+  overflow-x: clip;
+}
+
 .lamp-glow::after {
   content: "";
   position: absolute;
@@ -634,10 +639,14 @@ h3,
 
 .section-heading {
   display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
   padding: 18px 0 12px;
+}
+
+.section-heading .eyebrow {
+  margin: 0;
 }
 
 .gallery-heading {
@@ -1138,18 +1147,257 @@ body.detail-open {
     grid-template-columns: 1fr 1fr;
   }
 
-  .header-actions a,
   .card-link,
   .action-button,
-  .category-button,
   .creator-links a,
   .curator-actions a {
     width: 100%;
     text-align: center;
   }
 
-  .category-strip {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .header-actions {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .hero-lede,
+  .byline {
+    font-size: 15px;
+  }
+
+  /* The curator block at the bottom of the page covers this on phones. */
+  .creator-card {
+    display: none;
+  }
+
+  /* No 100vw on phones: mobile browsers widen the layout viewport to fit a
+     100vw bar, which then keeps the page (and the detail sheet) 2x too wide. */
+  .control-bar {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    margin-inline: -10px;
+    padding: 10px;
+  }
+
+  .search-box > span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .search-box input {
+    height: 40px;
+  }
+
+  .category-strip,
+  .tag-strip {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-inline: -10px;
+    padding-inline: 10px;
+    scrollbar-width: none;
+  }
+
+  .category-strip::-webkit-scrollbar,
+  .tag-strip::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-button,
+  .tag-button {
+    flex: none;
+  }
+}
+
+/* ---- Usability upgrade: star link, how-to toggle, quick tags, samples ---- */
+
+.star-link {
+  border-color: var(--accent) !important;
+}
+
+.star-count:empty {
+  display: none;
+}
+
+.star-count {
+  margin-left: 4px;
+  padding-left: 6px;
+  border-left: 1px solid var(--line);
+  color: var(--muted);
+}
+
+details.howto > summary {
+  cursor: pointer;
+  list-style: none;
+  margin: 0;
+}
+
+details.howto > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.howto > summary::after {
+  content: " +";
+}
+
+details.howto[open] > summary::after {
+  content: " −";
+}
+
+details.howto[open] > summary {
+  margin-bottom: 8px;
+}
+
+.tag-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 12px 0 0;
+}
+
+.tag-button {
+  min-height: 30px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  padding: 5px 11px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tag-button span {
+  margin-left: 2px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.tag-button:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+
+.tag-button.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+.preview-button {
+  position: relative;
+}
+
+.preview-button img {
+  display: block;
+  height: auto;
+}
+
+.sample-badge {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 999px;
+  background: rgba(5, 5, 5, 0.78);
+  padding: 3px 9px;
+  color: #f7f4ec;
+  font-size: 11px;
+  font-weight: 700;
+  backdrop-filter: blur(6px);
+}
+
+.card-title {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.card-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.detail-actions--top {
+  margin: 14px 0 8px;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.case-button {
+  display: grid;
+  gap: 6px;
+  padding: 0 0 7px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.case-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.case-button span {
+  padding-inline: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.case-button:hover {
+  border-color: var(--muted);
+}
+
+.case-button.is-active {
+  border-color: var(--accent);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.toast.has-link {
+  pointer-events: auto;
+}
+
+.toast a {
+  color: inherit;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 560px) {
+  .case-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tag-strip {
+    flex-wrap: nowrap;
+    padding-top: 10px;
   }
 }

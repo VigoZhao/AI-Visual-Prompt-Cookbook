@@ -1,6 +1,8 @@
 const data = window.COOKBOOK_STYLES || { styles: [], categories: [], styleCount: 0 };
 
-const RESERVED_HASHES = new Set(["", "curator", "featuredTitle", "galleryTitle"]);
+const RESERVED_HASHES = new Set(["", "curator", "featuredTitle", "galleryTitle", "howto"]);
+const REPO_URL = "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook";
+const CJK = /[\u3400-\u9fff]/;
 const PORTRAIT_RATIOS = new Set(["9:16", "4:5"]);
 const LANDSCAPE_RATIOS = new Set(["16:9", "5:4"]);
 
@@ -17,6 +19,7 @@ function categoryFromUrl() {
 const state = {
   query: "",
   category: categoryFromUrl(),
+  tag: "",
 };
 
 const detailState = {
@@ -27,6 +30,9 @@ const detailState = {
 
 const searchInput = document.querySelector("#searchInput");
 const categoryStrip = document.querySelector("#categoryStrip");
+const tagStrip = document.querySelector("#tagStrip");
+const featuredSection = document.querySelector(".featured-section");
+const galleryTitle = document.querySelector("#galleryTitle");
 const featuredGrid = document.querySelector("#featuredGrid");
 const styleGrid = document.querySelector("#styleGrid");
 const resultCount = document.querySelector("#resultCount");
@@ -175,26 +181,59 @@ function setupPullSwitch() {
   });
 }
 
-function textIncludes(style, query) {
-  if (!query) return true;
-  const haystack = [
-    style.name,
-    style.slug,
-    style.category,
-    style.description,
-    style.summary,
-    style.anchors.join(" "),
-    style.variables.join(" "),
-  ]
-    .join(" ")
-    .toLowerCase();
-  return haystack.includes(query.toLowerCase());
+function normalize(text) {
+  return ` ${String(text).toLowerCase().replace(/[^a-z0-9\u3400-\u9fff]+/g, " ").trim()} `;
+}
+
+// Terms match at the start of a word ("mang" finds manga); terms of 3 letters
+// or fewer must match a whole word so "red" does not hit "redesign".
+function termPattern(term) {
+  const clean = normalize(term).trimEnd();
+  return clean.trim().length <= 3 ? `${clean} ` : clean;
+}
+
+function haystackFor(style) {
+  // Variable names are left out on purpose: every style declares PRODUCT_OR_PROP etc.
+  if (!style.haystack) {
+    style.haystack = normalize(
+      [style.name, style.slug, style.category, style.description, style.summary, style.anchors.join(" "), style.tags.join(" ")].join(" "),
+    );
+  }
+  return style.haystack;
+}
+
+// Each query word becomes a group of alternatives; a style must match every group.
+// Chinese words are expanded through data.zhTerms (e.g. 海报 → poster).
+function queryGroups(query) {
+  const groups = [];
+  for (const word of query.toLowerCase().split(/\s+/).filter(Boolean)) {
+    if (CJK.test(word)) {
+      const found = Object.entries(data.zhTerms || {}).filter(([zh]) => word.includes(zh));
+      if (found.length) {
+        for (const [, terms] of found) groups.push(terms);
+        continue;
+      }
+    }
+    groups.push([word]);
+  }
+  return groups.map((terms) => terms.map((term) => termPattern(term)));
+}
+
+function matchesQuery(style, groups) {
+  const haystack = haystackFor(style);
+  return groups.every((terms) => terms.some((term) => haystack.includes(term)));
+}
+
+function isFiltering() {
+  return Boolean(state.query.trim()) || state.category !== "All" || Boolean(state.tag);
 }
 
 function visibleStyles() {
+  const groups = queryGroups(state.query.trim());
   return data.styles.filter((style) => {
     const categoryMatch = state.category === "All" || style.category === state.category;
-    return categoryMatch && textIncludes(style, state.query.trim());
+    const tagMatch = !state.tag || style.tags.includes(state.tag);
+    return categoryMatch && tagMatch && matchesQuery(style, groups);
   });
 }
 
@@ -213,6 +252,16 @@ function labelFor(key) {
     .split("_")
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
+}
+
+function caseLabel(name) {
+  return /^[a-z0-9]+(-[a-z0-9]+)+$/.test(name)
+    ? name.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ")
+    : name;
+}
+
+function sampleFor(style, index) {
+  return (style.samples || []).find((sample) => sample.index === index) || null;
 }
 
 function findStyle(slug) {
@@ -357,17 +406,17 @@ function cardTemplate(style, featured = false) {
   const cardClass = featured ? "style-card featured" : "style-card";
   return `
     <article class="${cardClass}" data-slug="${escapeHtml(style.slug)}">
-      <button class="preview-button" type="button" data-open-detail="${escapeHtml(style.slug)}">
-        <img src="${escapeHtml(style.preview16)}" alt="${escapeHtml(style.name)} preview" loading="lazy">
+      <button class="preview-button" type="button" data-open-detail="${escapeHtml(style.slug)}" aria-label="Open ${escapeHtml(style.name)}">
+        <img src="${escapeHtml(style.thumb16 || style.preview16)}" alt="${escapeHtml(style.name)} preview" width="640" height="360" loading="lazy">
+        ${style.samples && style.samples.length > 1 ? `<span class="sample-badge">${style.samples.length} examples</span>` : ""}
       </button>
       <div class="card-body">
         <span class="category-label">${escapeHtml(style.category)}</span>
-        <h3>${escapeHtml(style.name)}</h3>
+        <h3><button class="card-title" type="button" data-open-detail="${escapeHtml(style.slug)}">${escapeHtml(style.name)}</button></h3>
         <p class="card-description">${escapeHtml(style.description)}</p>
         <div class="card-actions">
-          <button class="action-button primary" type="button" data-copy-json="${escapeHtml(style.slug)}" title="Copy the full style.json for ChatGPT, Gemini, or Claude">Copy JSON</button>
-          <button class="action-button" type="button" data-open-detail="${escapeHtml(style.slug)}">Details</button>
-          <button class="action-button" type="button" data-copy-prompt="${escapeHtml(style.slug)}" title="Short chat paste">Copy Prompt</button>
+          <button class="action-button primary" type="button" data-copy-json="${escapeHtml(style.slug)}" title="For ChatGPT, Gemini or Claude">Copy style.json</button>
+          <button class="action-button" type="button" data-copy-filled="${escapeHtml(style.slug)}" title="For Midjourney and other image tools">Copy text prompt</button>
         </div>
       </div>
     </article>
@@ -384,16 +433,35 @@ function renderCategories() {
     .join("");
 }
 
+function renderTags() {
+  if (!tagStrip) return;
+  const tags = data.quickTags || [];
+  tagStrip.innerHTML = tags
+    .map((tag) => {
+      const active = tag === state.tag ? " is-active" : "";
+      const count = data.styles.filter((style) => style.tags.includes(tag)).length;
+      return `<button class="tag-button${active}" type="button" data-tag="${escapeHtml(tag)}" aria-pressed="${active ? "true" : "false"}">${escapeHtml(tag)} <span>${count}</span></button>`;
+    })
+    .join("");
+}
+
 function renderFeatured() {
   featuredGrid.innerHTML = data.styles.slice(0, 6).map((style) => cardTemplate(style, true)).join("");
 }
 
 function renderGrid() {
   const styles = visibleStyles();
+  const filtering = isFiltering();
   styleGrid.innerHTML = styles.map((style) => cardTemplate(style)).join("");
   resultCount.textContent = `${styles.length} of ${data.styleCount} styles`;
-  activeFilter.textContent = state.category === "All" ? "All categories" : state.category;
+  const filters = [state.category === "All" ? "" : state.category, state.tag].filter(Boolean);
+  activeFilter.textContent = filters.length ? filters.join(" · ") : "All categories";
+  if (featuredSection) featuredSection.hidden = filtering;
+  if (galleryTitle) galleryTitle.textContent = filtering ? "Results" : "All Styles";
   emptyState.hidden = styles.length > 0;
+  emptyState.textContent = CJK.test(state.query)
+    ? "No matching styles. Try another word, or search in English (e.g. poster, manga, product)."
+    : "No matching styles. Try a broader word or clear a filter.";
 }
 
 function choiceButtons(items, selected, attrName) {
@@ -447,20 +515,43 @@ function detailTemplate(style) {
   const landscapeCaption = ratio === "5:4" ? "16:9 preview · stand-in for 5:4" : "16:9";
   const portraitCaption = ratio === "4:5" ? "9:16 preview · stand-in for 4:5" : "9:16";
   const filled = filledPrompt(style, example, ratio);
+  const sample = sampleFor(style, detailState.exampleIndex);
+  const img16 = sample ? sample.img16 : style.preview16;
+  const img9 = sample ? sample.img9 : style.preview9;
+  const caseLabelText = caseLabel(example.name);
+  const casePicker = (style.samples || []).length > 1
+    ? `<div class="case-grid" role="group" aria-label="Example case">
+        ${style.examples
+          .map((item, index) => {
+            const itemSample = sampleFor(style, index);
+            if (!itemSample) return "";
+            const active = index === detailState.exampleIndex;
+            return `<button class="case-button${active ? " is-active" : ""}" type="button" data-example-index="${index}" aria-pressed="${active}">
+              <img src="${escapeHtml(itemSample.img16)}" alt="" loading="lazy" width="160" height="90">
+              <span>${escapeHtml(caseLabel(item.name))}</span>
+            </button>`;
+          })
+          .join("")}
+      </div>`
+    : `<div class="choice-strip" role="group" aria-label="Example case">
+        ${choiceButtons(style.examples.map((item) => caseLabel(item.name)), caseLabelText, "example-label")}
+      </div>`;
 
   return `
     <div class="detail-content">
       <span class="category-label">${escapeHtml(style.category)}</span>
       <h2>${escapeHtml(style.name)}</h2>
       <p>${escapeHtml(style.summary || style.description)}</p>
-      <p class="copy-legend">Copy JSON for ChatGPT / Gemini / Claude workflows. Copy filled prompt to paste <code>prompt_template</code> with this example and ratio. Copy Prompt is a short chat paste.</p>
+      <div class="detail-actions detail-actions--top">
+        <button class="action-button primary" type="button" data-copy-json="${escapeHtml(style.slug)}">Copy style.json</button>
+        <button class="action-button" type="button" data-copy-filled="${escapeHtml(style.slug)}">Copy text prompt</button>
+      </div>
+      <p class="copy-legend"><strong>style.json</strong> → paste into ChatGPT, Gemini or Claude. <strong>Text prompt</strong> → paste into Midjourney or any image tool; it uses the example case and ratio selected below.</p>
 
       <div class="detail-controls">
         <div class="control-block">
           <h3>Example case</h3>
-          <div class="choice-strip" role="group" aria-label="Example case">
-            ${choiceButtons(style.examples, detailState.exampleIndex, "example-index")}
-          </div>
+          ${casePicker}
         </div>
         <div class="control-block">
           <h3>Aspect ratio</h3>
@@ -472,11 +563,11 @@ function detailTemplate(style) {
 
       <div class="detail-images">
         <figure class="preview-frame${landscapeOn ? " is-emphasized" : ""}">
-          <img src="${escapeHtml(style.preview16)}" alt="${escapeHtml(style.name)} 16:9 preview">
-          <figcaption>${escapeHtml(landscapeCaption)}</figcaption>
+          <img src="${escapeHtml(img16)}" alt="${escapeHtml(style.name)} — ${escapeHtml(caseLabelText)}, 16:9">
+          <figcaption>${escapeHtml(sample ? `${caseLabelText} · ${landscapeCaption}` : landscapeCaption)}</figcaption>
         </figure>
         <figure class="preview-frame preview-frame--portrait${portraitOn ? " is-emphasized" : ""}">
-          <img src="${escapeHtml(style.preview9)}" alt="${escapeHtml(style.name)} 9:16 preview">
+          <img src="${escapeHtml(img9)}" alt="${escapeHtml(style.name)} — ${escapeHtml(caseLabelText)}, 9:16">
           <figcaption>${escapeHtml(portraitCaption)}</figcaption>
         </figure>
       </div>
@@ -489,13 +580,13 @@ function detailTemplate(style) {
       <h3>Variables</h3>
       ${variableRows(style, values)}
 
-      <h3>Filled prompt</h3>
+      <h3>Text prompt</h3>
       <pre class="filled-prompt" id="filledPromptPreview">${escapeHtml(filled)}</pre>
 
       <div class="detail-actions">
-        <button class="action-button primary" type="button" data-copy-json="${escapeHtml(style.slug)}">Copy JSON</button>
-        <button class="action-button" type="button" data-copy-filled="${escapeHtml(style.slug)}">Copy filled prompt</button>
-        <button class="action-button" type="button" data-copy-prompt="${escapeHtml(style.slug)}">Copy Prompt</button>
+        <button class="action-button primary" type="button" data-copy-json="${escapeHtml(style.slug)}">Copy style.json</button>
+        <button class="action-button" type="button" data-copy-filled="${escapeHtml(style.slug)}">Copy text prompt</button>
+        <button class="action-button" type="button" data-copy-prompt="${escapeHtml(style.slug)}" title="A short brief for chat assistants">Copy short brief</button>
         <a class="card-link" href="${escapeHtml(style.styleJson)}">Open style.json</a>
         <a class="card-link" href="styles/${escapeHtml(style.slug)}/">Style page</a>
         <a class="card-link" href="${escapeHtml(style.copyPromptDoc)}">Prompt doc</a>
@@ -583,13 +674,58 @@ function closeDetail(options = {}) {
   if (!options.fromUrl) writeStyleUrl("", options.replace);
 }
 
-function showToast(message) {
+function showToast(message, { withStar = false } = {}) {
   toast.textContent = message;
+  toast.classList.toggle("has-link", withStar);
+  if (withStar) {
+    const link = document.createElement("a");
+    link.href = REPO_URL;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = "★ Star on GitHub for new drops";
+    toast.append(" ", link);
+  }
   toast.classList.add("is-visible");
   window.clearTimeout(showToast.timer);
   showToast.timer = window.setTimeout(() => {
     toast.classList.remove("is-visible");
-  }, 2600);
+  }, withStar ? 6000 : 2600);
+}
+
+// Ask for a star once per browser session, right after the first successful copy.
+function shouldAskForStar() {
+  try {
+    if (sessionStorage.getItem("cookbook-star-asked")) return false;
+    sessionStorage.setItem("cookbook-star-asked", "1");
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function loadStarCount() {
+  const target = document.querySelector("#starCount");
+  if (!target) return;
+  let count = null;
+  try {
+    count = sessionStorage.getItem("cookbook-stars");
+  } catch {
+    // Storage may be blocked; fall through to the network.
+  }
+  if (!count) {
+    try {
+      const response = await fetch("https://api.github.com/repos/VigoZhao/AI-Visual-Prompt-Cookbook");
+      if (response.ok) count = String((await response.json()).stargazers_count ?? "");
+      try {
+        if (count) sessionStorage.setItem("cookbook-stars", count);
+      } catch {
+        // Not cached; harmless.
+      }
+    } catch {
+      return;
+    }
+  }
+  if (count) target.textContent = Number(count).toLocaleString("en-US");
 }
 
 function fallbackCopy(text) {
@@ -629,7 +765,11 @@ async function copyText(text, message) {
       copied = false;
     }
   }
-  showToast(copied ? message : "Copy failed. Please copy the text manually.");
+  if (!copied) {
+    showToast("Copy failed. Please copy the text manually.");
+    return;
+  }
+  showToast(`✓ ${message}`, { withStar: shouldAskForStar() });
 }
 
 async function copyJson(slug) {
@@ -643,7 +783,7 @@ async function copyFilled(slug) {
   if (!selection) return;
   await copyText(
     filledPrompt(selection.style, selection.example, selection.ratio),
-    `Copied filled ${selection.ratio} prompt`,
+    `Copied ${selection.style.name} text prompt (${selection.ratio})`,
   );
 }
 
@@ -652,7 +792,7 @@ async function copyPrompt(slug) {
   if (!selection) return;
   await copyText(
     shortCopyPrompt(selection.style, selection.example, selection.ratio),
-    `Copied short prompt for ${selection.style.name}`,
+    `Copied short brief for ${selection.style.name}`,
   );
 }
 
@@ -678,6 +818,23 @@ document.addEventListener("click", (event) => {
     syncCategoryUrl();
     renderCategories();
     renderGrid();
+    return;
+  }
+
+  const tagButton = event.target.closest("[data-tag]");
+  if (tagButton) {
+    state.tag = state.tag === tagButton.dataset.tag ? "" : tagButton.dataset.tag;
+    renderTags();
+    renderGrid();
+    return;
+  }
+
+  const labelButton = event.target.closest("[data-example-label]");
+  if (labelButton && detailState.slug) {
+    const style = findStyle(detailState.slug);
+    const index = style.examples.findIndex((item) => caseLabel(item.name) === labelButton.dataset.exampleLabel);
+    detailState.exampleIndex = Math.max(0, index);
+    renderDetail();
     return;
   }
 
@@ -736,9 +893,14 @@ searchInput.addEventListener("input", () => {
   renderGrid();
 });
 
+const howto = document.querySelector("#howto");
+if (howto && window.matchMedia("(max-width: 560px)").matches) howto.open = false;
+
 setupPullSwitch();
 setTheme(document.documentElement.dataset.theme);
 renderCategories();
+renderTags();
 renderFeatured();
 renderGrid();
 syncDetailFromUrl();
+loadStarCount();
