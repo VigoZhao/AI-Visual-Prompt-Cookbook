@@ -904,6 +904,51 @@ body.detail-open {
   text-align: center;
 }
 
+.style-index {
+  margin-top: 36px;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
+
+.index-groups {
+  columns: 3 240px;
+  column-gap: 28px;
+}
+
+.index-group {
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+
+.index-group h3 {
+  margin: 0 0 8px;
+  color: var(--accent-text);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.index-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.index-group li {
+  padding: 2px 0;
+  font-size: 0.9rem;
+}
+
+.index-group a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.index-group a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
 .curator-section {
   display: grid;
   grid-template-columns: minmax(240px, 0.8fr) minmax(280px, 1.2fr) auto;

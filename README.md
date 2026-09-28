@@ -1,7 +1,7 @@
 <h1 align="center">AI Visual Prompt Cookbook</h1>
 
 <p align="center">
-  <img src="assets/hero-collage.jpg" alt="AI Visual Prompt Cookbook showcase">
+  <img src="assets/hero-collage.jpg" alt="AI Visual Prompt Cookbook: collage of AI image style prompts for Nano Banana Pro, GPT Image and Midjourney">
 </p>
 
 <p align="center">

@@ -9,6 +9,8 @@ import re
 from pathlib import Path
 from typing import Any
 
+import seo_pages
+
 
 ROOT = Path(__file__).resolve().parents[1]
 STYLES_DIR = ROOT / "styles"
@@ -137,7 +139,9 @@ def build() -> None:
         + ";\n",
         encoding="utf-8",
     )
+    seo_pages.build_all(ROOT, SITE_DIR, styles, payload["categories"])
     print(f"PASS: wrote {OUTPUT.relative_to(ROOT)} with {len(styles)} styles")
+    print(f"PASS: wrote {len(styles)} style pages, sitemap.xml and llms.txt")
 
 
 if __name__ == "__main__":

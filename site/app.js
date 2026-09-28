@@ -497,6 +497,7 @@ function detailTemplate(style) {
         <button class="action-button" type="button" data-copy-filled="${escapeHtml(style.slug)}">Copy filled prompt</button>
         <button class="action-button" type="button" data-copy-prompt="${escapeHtml(style.slug)}">Copy Prompt</button>
         <a class="card-link" href="${escapeHtml(style.styleJson)}">Open style.json</a>
+        <a class="card-link" href="styles/${escapeHtml(style.slug)}/">Style page</a>
         <a class="card-link" href="${escapeHtml(style.copyPromptDoc)}">Prompt doc</a>
         <a class="card-link" href="${escapeHtml(style.folder)}">Folder</a>
       </div>

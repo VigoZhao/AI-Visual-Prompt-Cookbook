@@ -18,10 +18,11 @@ jobs:
         run: |
           python3 scripts/build-pages-mvp.py
           python3 scripts/generate-copy-prompts.py
-          git diff --exit-code -- site/styles-data.js docs/ || {
-            echo "::error::Generated files are out of sync. Run scripts/build-pages-mvp.py and scripts/generate-copy-prompts.py, then commit the result."
+          if [ -n "$(git status --porcelain -- site/ docs/ sitemap.xml llms.txt)" ]; then
+            git status --porcelain -- site/ docs/ sitemap.xml llms.txt
+            echo "::error::Generated files are out of sync. Run scripts/build-pages-mvp.py and scripts/generate-copy-prompts.py, then commit the result (including new site/styles/<slug>/ pages)."
             exit 1
-          }
+          fi
 
       - name: Check every style has a gallery thumbnail
         run: |
