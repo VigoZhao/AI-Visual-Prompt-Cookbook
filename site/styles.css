@@ -1401,3 +1401,87 @@ details.howto[open] > summary {
     padding-top: 10px;
   }
 }
+
+/* ---- Style families + similar styles ---- */
+
+.family-badge {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  padding: 3px 9px;
+  color: #050505;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.family-block {
+  margin: 14px 0 4px;
+}
+
+.family-block h3,
+.detail-content .mini-grid + h3 {
+  margin-bottom: 8px;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.mini-grid--family {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 0;
+}
+
+.mini-card {
+  display: grid;
+  gap: 6px;
+  padding: 0 0 7px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.mini-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.mini-card span {
+  padding-inline: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mini-card:hover {
+  border-color: var(--muted);
+  color: var(--ink);
+}
+
+.mini-card.is-active {
+  border-color: var(--accent);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--accent);
+  cursor: default;
+}
+
+@media (max-width: 560px) {
+  .mini-grid,
+  .mini-grid--family {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

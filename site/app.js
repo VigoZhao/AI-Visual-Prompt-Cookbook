@@ -264,6 +264,41 @@ function sampleFor(style, index) {
   return (style.samples || []).find((sample) => sample.index === index) || null;
 }
 
+function familyOf(style) {
+  return style && style.family ? (data.families || {})[style.family] || null : null;
+}
+
+// Collapse variant sets into their newest member unless the visitor is filtering.
+function collapseFamilies(styles) {
+  const seen = new Set();
+  return styles.filter((style) => {
+    if (!style.family) return true;
+    if (seen.has(style.family)) return false;
+    seen.add(style.family);
+    return true;
+  });
+}
+
+function setLabel(style, family) {
+  const match = style.slug.match(/-(?:set|part)-(\d+)$/);
+  if (match) return `Set ${match[1].padStart(2, "0")}`;
+  return family.members.length > 1 ? "Set 01" : style.name;
+}
+
+function miniCards(slugs, activeSlug = "", family = null) {
+  return slugs
+    .map(findStyle)
+    .filter(Boolean)
+    .map((item) => {
+      const active = item.slug === activeSlug;
+      return `<button class="mini-card${active ? " is-active" : ""}" type="button" data-open-detail="${escapeHtml(item.slug)}"${active ? ' aria-current="true"' : ""}>
+        <img src="${escapeHtml(item.thumb16 || item.preview16)}" alt="" loading="lazy" width="640" height="360">
+        <span>${escapeHtml(family ? setLabel(item, family) : item.name)}</span>
+      </button>`;
+    })
+    .join("");
+}
+
 function findStyle(slug) {
   return data.styles.find((style) => style.slug === slug);
 }
@@ -402,13 +437,16 @@ function selectionFor(slug) {
   };
 }
 
-function cardTemplate(style, featured = false) {
+function cardTemplate(style, featured = false, collapsed = false) {
   const cardClass = featured ? "style-card featured" : "style-card";
+  const family = collapsed ? familyOf(style) : null;
+  const familyBadge = family ? `<span class="family-badge">${family.members.length} sets</span>` : "";
   return `
     <article class="${cardClass}" data-slug="${escapeHtml(style.slug)}">
       <button class="preview-button" type="button" data-open-detail="${escapeHtml(style.slug)}" aria-label="Open ${escapeHtml(style.name)}">
         <img src="${escapeHtml(style.thumb16 || style.preview16)}" alt="${escapeHtml(style.name)} preview" width="640" height="360" loading="lazy">
         ${style.samples && style.samples.length > 1 ? `<span class="sample-badge">${style.samples.length} examples</span>` : ""}
+        ${familyBadge}
       </button>
       <div class="card-body">
         <span class="category-label">${escapeHtml(style.category)}</span>
@@ -446,13 +484,14 @@ function renderTags() {
 }
 
 function renderFeatured() {
-  featuredGrid.innerHTML = data.styles.slice(0, 6).map((style) => cardTemplate(style, true)).join("");
+  featuredGrid.innerHTML = collapseFamilies(data.styles).slice(0, 6).map((style) => cardTemplate(style, true, true)).join("");
 }
 
 function renderGrid() {
   const styles = visibleStyles();
   const filtering = isFiltering();
-  styleGrid.innerHTML = styles.map((style) => cardTemplate(style)).join("");
+  const cards = filtering ? styles : collapseFamilies(styles);
+  styleGrid.innerHTML = cards.map((style) => cardTemplate(style, false, !filtering)).join("");
   resultCount.textContent = `${styles.length} of ${data.styleCount} styles`;
   const filters = [state.category === "All" ? "" : state.category, state.tag].filter(Boolean);
   activeFilter.textContent = filters.length ? filters.join(" · ") : "All categories";
@@ -515,6 +554,17 @@ function detailTemplate(style) {
   const landscapeCaption = ratio === "5:4" ? "16:9 preview · stand-in for 5:4" : "16:9";
   const portraitCaption = ratio === "4:5" ? "9:16 preview · stand-in for 4:5" : "9:16";
   const filled = filledPrompt(style, example, ratio);
+  const family = familyOf(style);
+  const familyBlock = family
+    ? `<div class="family-block">
+        <h3>${family.members.length} sets in this family</h3>
+        <div class="mini-grid mini-grid--family">${miniCards(family.members, style.slug, family)}</div>
+      </div>`
+    : "";
+  const similarBlock = (style.similar || []).length
+    ? `<h3>Similar styles</h3>
+      <div class="mini-grid">${miniCards(style.similar)}</div>`
+    : "";
   const sample = sampleFor(style, detailState.exampleIndex);
   const img16 = sample ? sample.img16 : style.preview16;
   const img9 = sample ? sample.img9 : style.preview9;
@@ -542,6 +592,7 @@ function detailTemplate(style) {
       <span class="category-label">${escapeHtml(style.category)}</span>
       <h2>${escapeHtml(style.name)}</h2>
       <p>${escapeHtml(style.summary || style.description)}</p>
+      ${familyBlock}
       <div class="detail-actions detail-actions--top">
         <button class="action-button primary" type="button" data-copy-json="${escapeHtml(style.slug)}">Copy style.json</button>
         <button class="action-button" type="button" data-copy-filled="${escapeHtml(style.slug)}">Copy text prompt</button>
@@ -571,6 +622,8 @@ function detailTemplate(style) {
           <figcaption>${escapeHtml(portraitCaption)}</figcaption>
         </figure>
       </div>
+
+      ${similarBlock}
 
       <h3>Style Anchors</h3>
       <ul class="anchor-list">
@@ -664,6 +717,7 @@ function openDetail(slug, options = {}) {
     detailState.ratio = defaultRatio(style);
   }
   renderDetail();
+  if (!sameStyle && detailSheet) detailSheet.scrollTop = 0;
   setDetailOpen(true);
   if (!options.fromUrl) writeStyleUrl(slug, options.replace);
 }

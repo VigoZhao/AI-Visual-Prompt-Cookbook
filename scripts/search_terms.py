@@ -138,3 +138,10 @@ ZH_TERMS = {
     "中国": ["chinese"],
     "中文": ["chinese"],
 }
+
+# Style families: variant sets of one style show as a single gallery card.
+# Slugs ending in -set-NN or -part-NN join the family named by the part before
+# that suffix automatically. List only exceptions here: slug -> family key.
+FAMILY_OVERRIDES = {
+    "monumental-sport-editorial": "monumental-editorial",
+}

@@ -84,12 +84,11 @@ def json_ld(style: dict[str, Any]) -> str:
 
 
 def related_for(style: dict[str, Any], styles: list[dict[str, Any]], limit: int = 6) -> list[dict[str, Any]]:
-    same = [s for s in styles if s["category"] == style["category"] and s["slug"] != style["slug"]]
-    if len(same) <= limit:
-        return same
-    # Rotate through the category so neighbours differ from page to page.
-    start = [s["slug"] for s in styles if s["category"] == style["category"]].index(style["slug"])
-    return [same[(start + i) % len(same)] for i in range(limit)]
+    """Other sets of the same family first, then the precomputed similar styles."""
+    by_slug = {s["slug"]: s for s in styles}
+    family = [s for s in styles if style.get("family") and s.get("family") == style["family"] and s["slug"] != style["slug"]]
+    similar = [by_slug[slug] for slug in style.get("similar", []) if slug in by_slug]
+    return (family + similar)[:limit]
 
 
 def case_label(name: str) -> str:
@@ -241,7 +240,7 @@ def style_page(style: dict[str, Any], styles: list[dict[str, Any]]) -> str:
       </section>
 
       <section class="sp-related">
-        <h2>More {esc(style['category'])} styles</h2>
+        <h2>Similar styles</h2>
         <div class="related-grid">
 {related}
         </div>

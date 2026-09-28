@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import seo_pages
-from search_terms import QUICK_TAGS, ZH_TERMS
+from search_terms import FAMILY_OVERRIDES, QUICK_TAGS, ZH_TERMS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +23,7 @@ SAMPLES_DIR = ROOT / "assets" / "samples"
 
 SWITCHABLE_ASPECT_RATIOS = ("16:9", "9:16", "4:5", "5:4")
 RATIO_RE = re.compile(r"\b(\d+:\d+)\b")
+VARIANT_RE = re.compile(r"^(?P<base>.+)-(?:set|part)-\d+$")
 
 GALLERY_CATEGORIES = (
     "Photo + Doodle",
@@ -122,6 +123,56 @@ def samples_for(slug: str, case_count: int) -> list[dict[str, Any]]:
     return samples
 
 
+def family_key(slug: str, slugs: set[str]) -> str:
+    if slug in FAMILY_OVERRIDES:
+        return FAMILY_OVERRIDES[slug]
+    match = VARIANT_RE.match(slug)
+    return match.group("base") if match else slug
+
+
+def assign_families(styles: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Group variant sets; returns {key: {name, members}} for families with 2+ members."""
+    slugs = {s["slug"] for s in styles}
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for style in styles:
+        groups.setdefault(family_key(style["slug"], slugs), []).append(style)
+    families = {}
+    for key, members in groups.items():
+        if len(members) < 2:
+            continue
+        # Name the family after its base style if published, else its oldest member.
+        base = next((m for m in members if m["slug"] == key), members[-1])
+        families[key] = {"name": base["name"], "members": [m["slug"] for m in members]}
+        for member in members:
+            member["family"] = key
+    return families
+
+
+def assign_similar(styles: list[dict[str, Any]], limit: int = 6) -> None:
+    """Rank other styles by shared quick tags (+ same category); skip own family."""
+    for style in styles:
+        own_family = style.get("family")
+        scored = []
+        for position, other in enumerate(styles):
+            if other["slug"] == style["slug"] or (own_family and other.get("family") == own_family):
+                continue
+            score = 2 * len(set(style["tags"]) & set(other["tags"])) + (other["category"] == style["category"])
+            if score:
+                scored.append((-score, position, other["slug"]))
+        # One pick per family so a multi-set family does not fill the row.
+        picked, families_used = [], set()
+        by_slug = {s["slug"]: s for s in styles}
+        for _, _, slug in sorted(scored):
+            fam = by_slug[slug].get("family")
+            if fam and fam in families_used:
+                continue
+            families_used.add(fam)
+            picked.append(slug)
+            if len(picked) == limit:
+                break
+        style["similar"] = picked
+
+
 def build() -> None:
     readme_order, readme_descriptions = read_readme_order()
     style_paths = {path.parent.name: path for path in STYLES_DIR.glob("*/style.json")}
@@ -159,12 +210,15 @@ def build() -> None:
             }
         )
 
+    families = assign_families(styles)
+    assign_similar(styles)
     used_categories = {style["category"] for style in styles}
     payload = {
         "styleCount": len(styles),
         "categories": [category for category in GALLERY_CATEGORIES if category in used_categories],
         "quickTags": [label for label, _ in QUICK_TAGS if any(label in s["tags"] for s in styles)],
         "zhTerms": ZH_TERMS,
+        "families": families,
         "styles": styles,
     }
     SITE_DIR.mkdir(exist_ok=True)
