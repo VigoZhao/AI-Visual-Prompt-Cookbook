@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  🖼️ <strong><a href="https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/">온라인 갤러리</a></strong> · 또는 아래 <a href="#all-styles">All Styles 갤러리</a> / <a href="docs/CATALOG.md">전체 카탈로그</a>를 확인하세요.
+  🖼️ <strong><a href="https://prompts.vigocreativeai.com/site/">온라인 갤러리</a></strong> · 또는 아래 <a href="#all-styles">All Styles 갤러리</a> / <a href="docs/CATALOG.md">전체 카탈로그</a>를 확인하세요.
 </p>
 
 ## 빠른 링크

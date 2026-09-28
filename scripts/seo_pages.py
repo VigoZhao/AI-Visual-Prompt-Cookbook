@@ -15,7 +15,7 @@ import shutil
 from pathlib import Path
 from typing import Any
 
-BASE_URL = "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook"
+BASE_URL = "https://prompts.vigocreativeai.com"
 REPO_URL = "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook"
 AUTHOR = "Vigo Zhao"
 AUTHOR_URL = "https://x.com/VigoCreativeAI"

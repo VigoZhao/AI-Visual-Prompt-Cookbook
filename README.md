@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  🖼️ <strong><a href="https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/">Browse the online gallery</a></strong> · or jump to the <a href="#all-styles">All Styles gallery</a> / <a href="docs/CATALOG.md">full catalog</a> below.
+  🖼️ <strong><a href="https://prompts.vigocreativeai.com/site/">Browse the online gallery</a></strong> · or jump to the <a href="#all-styles">All Styles gallery</a> / <a href="docs/CATALOG.md">full catalog</a> below.
 </p>
 
 ## Quick Links
