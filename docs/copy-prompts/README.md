@@ -150,6 +150,10 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Urban Transit Doodle Diary Style | [Copy Prompt](urban-transit-doodle-diary-style.md) | [style.json](../../styles/urban-transit-doodle-diary-style/style.json) |
 | Visual OS 051 — Freeze the Gear | [Copy Prompt](vector-atelier.md) | [style.json](../../styles/vector-atelier/style.json) |
 | Vector Process Study | [Copy Prompt](vector-process-study.md) | [style.json](../../styles/vector-process-study/style.json) |
+| Velocity Type Sport | [Copy Prompt](velocity-type-sport.md) | [style.json](../../styles/velocity-type-sport/style.json) |
+| Velocity Type Sport — Part 2 | [Copy Prompt](velocity-type-sport-part-02.md) | [style.json](../../styles/velocity-type-sport-part-02/style.json) |
+| Velocity Type Sport — Part 3 | [Copy Prompt](velocity-type-sport-part-03.md) | [style.json](../../styles/velocity-type-sport-part-03/style.json) |
+| Velocity Type Sport — Part 4 | [Copy Prompt](velocity-type-sport-part-04.md) | [style.json](../../styles/velocity-type-sport-part-04/style.json) |
 | Vermilion Folk Screenprint Character Poster | [Copy Prompt](vermilion-folk-screenprint-character-poster.md) | [style.json](../../styles/vermilion-folk-screenprint-character-poster/style.json) |
 | Vermilion Photocopy Tension Editorial | [Copy Prompt](vermilion-photocopy-tension-editorial.md) | [style.json](../../styles/vermilion-photocopy-tension-editorial/style.json) |
 | Warm Fisheye Product Impact Ad Style | [Copy Prompt](warm-fisheye-product-impact-ad-style.md) | [style.json](../../styles/warm-fisheye-product-impact-ad-style/style.json) |

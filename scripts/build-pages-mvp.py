@@ -228,11 +228,15 @@ def build() -> None:
         + ";\n",
         encoding="utf-8",
     )
-    # Cache-bust the data file in index.html whenever its content changes.
+    # Cache-bust the data file and keep the hand-written style counts in index.html current.
     digest = hashlib.sha1(OUTPUT.read_bytes()).hexdigest()[:10]
     index_html = SITE_DIR / "index.html"
     index_html.write_text(
-        re.sub(r"styles-data\.js\?v=[^\"]+", f"styles-data.js?v={digest}", index_html.read_text(encoding="utf-8")),
+        re.sub(
+            r"(Browse )\d+( (?:plug-and-play|reusable))",
+            rf"\g<1>{len(styles)}\2",
+            re.sub(r"styles-data\.js\?v=[^\"]+", f"styles-data.js?v={digest}", index_html.read_text(encoding="utf-8")),
+        ),
         encoding="utf-8",
     )
     seo_pages.build_all(ROOT, SITE_DIR, styles, payload["categories"])

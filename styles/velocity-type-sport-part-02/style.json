@@ -1,0 +1,143 @@
+{
+  "style_version": "1.0.0",
+  "style_name": "Velocity Type Sport — Part 2",
+  "style_slug": "velocity-type-sport-part-02",
+  "style_summary": "Continues Velocity Type Sport's near-to-far athletic photography, giant white oblique lettering, dark fields with a single-color light haze and selective motion blur, now with basketball, snowboarding, kayaking and boxing.",
+  "environment_variables": {
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "STYLE_FIDELITY_ANCHORS": "Runtime ordered CORE and FLEX style anchors",
+    "SOURCE_CONTENT_TO_AVOID": "Runtime source identities and content to replace",
+    "SUBJECT": "Concrete athlete, sport, action and unmarked clothing",
+    "FOCAL_DETAIL": "Physically connected near-camera contact point or equipment",
+    "DESIGN_DIRECTION": "Case design contribution and independent portrait/landscape composition",
+    "PALETTE": "Dominant hue and dark-to-light atmospheric relationship",
+    "MAIN_TEXT": "Exact large headline",
+    "SERIES_TEXT": "Exact small series label",
+    "SUPPORT_TEXT": "Exact short supporting line",
+    "SUBJECT_ACTION": "The athlete's peak moment of force, shot extreme near-to-far",
+    "PRODUCT_OR_PROP": "Sport gear or contact point pushed into the extreme foreground",
+    "LOCATION": "Dark vignetted field, court or arena for the chosen sport",
+    "BACKGROUND_ELEMENTS": "Near-black gradient lit by one bright single-color haze",
+    "SECONDARY_TEXT": "Short series line and small support copy",
+    "ACCENT_SYMBOL": "Giant white oblique headline cutting through the athlete",
+    "WARDROBE_STYLE": "Unbranded performance sportswear for the chosen sport"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Photographic athletic action uses an extreme near-to-far scale jump: one physically connected piece of equipment or body part dominates the foreground while the athlete recedes into depth.",
+    "[CORE] Monumental white heavyweight oblique sans-serif typography cuts through the composition; the athlete occludes selected letter areas without destroying the exact headline.",
+    "[CORE] A near-black edge field opens into a luminous single-hue atmospheric band behind the action, producing sharp white-type contrast and dark sculptural human form.",
+    "[CORE] Directional photographic motion softness and colored atmospheric streaks carry the force vector while the critical contact point or equipment retains selective detail.",
+    "[FLEX] Let each sport determine the spatial structure: a spherical basketball raised above a receding jumper, a broad snowboard underside passing overhead, a paddle slicing a luminous water wedge, or a compact boxing fist crossing the frame. Keep the established series language while changing its content and force geometry.",
+    "[FLEX] Place, rotate, stagger or stretch the type around the movement; protect complete headline comprehension while allowing scale, selected edge cropping, and controlled overlap.",
+    "[FLEX] Choose one dominant hue per case, with dark and pale related tones; hues may vary across the family.",
+    "[FLEX] Recompose subject, title and negative space independently for portrait and landscape, preserving the same case concept rather than cropping the other ratio."
+  ],
+  "source_content_to_avoid": [
+    "The source Nike swoosh, Nike wordmark, JUST DO IT slogan and any recognizable sportswear brand logo.",
+    "The PEGASUS42 or PEGASUS 42 model wording and the reference advertising paragraph.",
+    "The white running shoe with a teal swoosh as a giant foreground product.",
+    "The exact front-facing male runner, lifted knee, grey long-sleeve top and black shorts combination.",
+    "The source arrangement of fragmented PEG, S42 and giant brand letters; do not trace its composition.",
+    "Part 1 content: track bicycle wheel, chalked climbing hand on rock, freestyle swimming hand, fencing blade, and the headlines BREAK AWAY, HOLD FAST, CUT THROUGH and STRIKE FIRST."
+  ],
+  "visual_deconstruction": {
+    "reference_observations": "The supplied portrait uses a huge near-camera shoe, a receding runner, dark green-to-mint glow, monumental slanted white type and broad foreground speed softness. Small white copy acts as a calm secondary layer. These describe the source; exact product, brand, pose and type positions are not retained.",
+    "reusable_system": "Oppose an enlarged near contact point with a receding human figure and giant planar lettering; align haze and letter force with the case-specific movement.",
+    "continuation_scope": "Part 2 retains the verified series vocabulary from the preceding eight posters. New sports, equipment, material interactions and camera relationships replace every case; neither previous scene nor layout is traced."
+  },
+  "composition": {
+    "hierarchy": "Near contact point or equipment first, athlete and movement second, monumental headline sharing the hero scale, small series label and single supporting line last.",
+    "depth": "Three overlapping planes: atmospheric field, white headline, photographic action, with selected foreground streaks passing in front.",
+    "ratio_adaptation": "Each case includes separate 9:16 and 16:9 plans. Rebalance scale and negative space rather than center-cropping."
+  },
+  "typography": {
+    "headline": "Heavy geometric grotesk, uppercase, oblique or dynamically rotated, white, monumental, exactly spelled and readable as complete words despite selected occlusion.",
+    "secondary": "Small but clearly readable white sans-serif, slightly oblique optional; restrained case series and one supporting line; no body paragraph.",
+    "copy_policy": "Render only the three exact case strings, each once; line breaks are flexible but letters and punctuation are not."
+  },
+  "color_palette": {
+    "relationship": "Near-black edges 35-50%, one luminous case hue 20-35%, white typography and lit photographic surfaces 20-35%; estimates are compositional guidance.",
+    "case_hues": [
+      "burnt orange",
+      "ultraviolet and icy lilac",
+      "acid lime",
+      "deep magenta"
+    ]
+  },
+  "image_treatment": {
+    "texture": "Clean commercial photographic compositing without paper grain or halftone. Keep tactile microtexture on the near basketball, snowboard base, wet paddle blade or boxing leather. Put broad soft directional motion into passing surfaces and colored atmosphere; preserve purposeful peripheral softness. Snow and water appear only as physically motivated spray near the action, never random decorative particles.",
+    "lighting": "Sculptural hard/soft mixed lighting: dark athlete with bright rim and light on the near contact surface; light and haze share the case hue."
+  },
+  "design_rules": [
+    "Keep the foreground object physically connected to a coherent athlete and valid sporting action.",
+    "White lettering must function as a large spatial plane interacting with the movement.",
+    "Limit finished artwork to the three exact case text strings; do not add logos, pseudocopy or punctuation.",
+    "Maintain clean separation between sharp focal evidence and intentional directional softness.",
+    "Treat each case concept and each aspect ratio as a designed composition."
+  ],
+  "do": [
+    "Check anatomy, contact and equipment continuity at full size.",
+    "Keep the headline readable and white type dominant at thumbnail scale.",
+    "Preserve atmospheric softness and useful quiet space.",
+    "Use sport-specific force geometry to distinguish the four cases."
+  ],
+  "avoid": [
+    "Copying the source shoe, swoosh, slogan or runner pose.",
+    "Four interchangeable centered figures with only color or props changed.",
+    "Random particles, paper grain, fake film damage or decorative HUD graphics.",
+    "Overblurring the contact point, malformed hands, floating equipment or illegible headline."
+  ],
+  "prompt_template": "Use case: ads-marketing. Create one finished premium sports campaign poster as a {ASPECT_RATIO} full-bleed raster. The visual system is extreme near-to-far athletic photography, monumental white oblique typography and dark-to-luminous colored atmosphere. Prioritized visual anchors:\n{STYLE_FIDELITY_ANCHORS}\nSubject and action: {SUBJECT}\nNear-camera focal evidence: {FOCAL_DETAIL}\nDesign intention and ratio planning: {DESIGN_DIRECTION}\nPalette: {PALETTE}\nRender exactly three text strings, each once, with no quotation marks: large headline \"{MAIN_TEXT}\"; small series label \"{SERIES_TEXT}\"; small supporting line \"{SUPPORT_TEXT}\". The headline must remain completely readable with correct letter order; choose line breaks and bounded overlap to serve the action. Keep small copy clear and comfortably inside the canvas.\nImage treatment: Clean commercial photographic compositing without paper grain or halftone. Keep tactile microtexture on the near basketball, snowboard base, wet paddle blade or boxing leather. Put broad soft directional motion into passing surfaces and colored atmosphere; preserve purposeful peripheral softness. Snow and water appear only as physically motivated spray near the action, never random decorative particles.\nUse dramatic sculptural lighting and physically plausible connected anatomy/equipment. Clothes and equipment are plain and unmarked: no logos, emblems, patches, numbers or decorative pseudo-lettering on jerseys, gloves, board bases, boats, helmets or balls. No extra words or symbols.\nSource content to replace entirely:\n{SOURCE_CONTENT_TO_AVOID}\nDeliver a polished, sparse campaign image with a clear sport-specific design contribution, not a mockup on a wall.",
+  "negative_prompt": "Nike logo, swoosh, PEGASUS42, JUST DO IT, original running-shoe hero, logo-like symbols, extra text, extra punctuation, watermark, QR code, duplicate limbs, disconnected equipment, fused fingers, fake sharpness, halftone, paper grain, random particles, busy stadium, border, poster mockup, small timid headline, unreadable headline, generic repeated layout, Part 1 sports or headlines, branded ball, printed snowboard underside, jersey number, chest emblem, glove logo",
+  "examples": [
+    {
+      "case_name": "rise-above",
+      "values": {
+        "SUBJECT": "An adult female basketball player in a plain black sleeveless basketball jersey and plain shorts, leaping high with one arm extended overhead carrying a single orange basketball. A sparse dark indoor basketball space recedes below her; no other players.",
+        "FOCAL_DETAIL": "The single near-camera basketball and the visibly connected hand become a huge textured sphere in the upper foreground. Correctly formed fingers spread naturally around one side of the ball. The connected straight arm, torso and bent jumping legs recede far below it. No detached ball and no duplicate ball.",
+        "DESIGN_DIRECTION": "Shoot from an extreme overhead close view beside the lifted ball, looking down the foreshortened arm toward the airborne player: the ball reads as a rising planet and the body falls away into dark depth. Use the oversized white words as two staggered planes around the ball and body rather than an identical top headline block. Portrait: near ball high-left, athlete receding down-right, RISE can occupy upper-right open space and ABOVE the lower dark field. Landscape: ball dominates left third with athlete receding to lower center, giant title across the right half. Protect all letters from the ball and fingers.",
+        "PALETTE": "Near-black charcoal, burnt orange and warm white, with a broad amber-orange illumination halo around the spherical foreground and faint directional haze beneath the jumper.",
+        "MAIN_TEXT": "RISE ABOVE",
+        "SERIES_TEXT": "COURT SERIES 05",
+        "SUPPORT_TEXT": "TAKE THE HIGH GROUND"
+      }
+    },
+    {
+      "case_name": "carve-wild",
+      "values": {
+        "SUBJECT": "An adult snowboarder wearing a plain ivory snow jacket, black snow pants, unmarked dark helmet and goggles, in a dynamic compact airborne jump over a sparse icy slope. Both boots are secured to the same snowboard bindings and knees are flexed.",
+        "FOCAL_DETAIL": "A single broad snowboard underside sweeps extremely close over the low camera. Its plain graphite-purple base, thin bright metal edge and a little attached snow are visible in the foreground; no text or decorative brand graphics on its base. Both boots and coherent flexed legs connect it to the receding athlete.",
+        "DESIGN_DIRECTION": "Use a broad planar slash overhead, distinct from the spherical basketball. The underside of the board foreshortens strongly and a curved ribbon of snow traces the takeoff. Giant white oblique typography inhabits the dark negative space around the board arc. Portrait: board crosses lower-left to upper-right with the athlete centered above and beyond it, title split between top-left and lower-right open zones. Landscape: long board sweeps diagonally across the lower foreground, small connected crouched athlete above center-left and giant title across upper-right. Keep bindings and both legs clear enough to understand the action.",
+        "PALETTE": "Ink-black violet, luminous ultraviolet and icy lilac-white; cold light along the metal board edge and a sparse violet haze behind the jump.",
+        "MAIN_TEXT": "CARVE WILD",
+        "SERIES_TEXT": "SNOW SERIES 06",
+        "SUPPORT_TEXT": "FOLLOW YOUR OWN LINE"
+      }
+    },
+    {
+      "case_name": "drive-deep",
+      "values": {
+        "SUBJECT": "An adult male whitewater kayaker in an unmarked black helmet and dark paddling jacket, wearing a plain dark buoyancy vest, seated in a single lime-green creek kayak and driving one end of a double-bladed paddle into the water.",
+        "FOCAL_DETAIL": "The near carbon paddle blade slices into water very close to the lens and fills a large diagonal foreground wedge. A single shaft connects it continuously to two hands and the visible opposite blade. The athlete sits inside the kayak cockpit; the hull points away through a narrow streaked wake. No detached shafts or extra paddles.",
+        "DESIGN_DIRECTION": "Make the blade a cutting plane between dark water and a luminous lime spray wall. The kayak hull forms a second smaller diagonal receding behind the paddle, creating crossed vectors instead of a front-facing swimmer layout. White megatype occupies the quieter dark zones beyond the spray. Portrait: near blade lower-right, shaft leads to kayaker upper-left, giant type split down the left and upper-right without breaking word order. Landscape: paddle blade occupies left foreground, kayak and paddler pull away to the right, giant headline spans the top with only selective overlap. Use a sparse night-dark river atmosphere rather than a detailed canyon scene.",
+        "PALETTE": "Near-black forest green, acid lime illumination and pale green-white foam; one concentrated backlit green spray band against dark water.",
+        "MAIN_TEXT": "DRIVE DEEP",
+        "SERIES_TEXT": "RIVER SERIES 07",
+        "SUPPORT_TEXT": "POWER THROUGH THE CURRENT"
+      }
+    },
+    {
+      "case_name": "make-impact",
+      "values": {
+        "SUBJECT": "An adult female boxer in a plain sleeveless black training top, plain black shorts and a matching pair of unmarked deep-magenta boxing gloves, throwing a technically coherent straight punch toward the camera while her other glove stays close to her chin.",
+        "FOCAL_DETAIL": "One large near-camera magenta boxing glove is the compact foreground mass; leather grain, stitching and padded knuckle volume are sharp. The wrist and extended forearm visibly connect to the boxer, whose guarded face and other glove recede. Two arms and two gloves only, with no badges, lettering or emblems on the gloves or clothes.",
+        "DESIGN_DIRECTION": "Frame the near fist as a compact block colliding with a monumental typographic field. Use abrupt scale contrast and a tight recoil pose rather than a long fencer-like lunge. A broad magenta motion smear follows the arm but stops short of the sharp glove. Portrait: fist occupies the middle-left foreground, athlete upper-right farther back, huge MAKE in upper-left and IMPACT across lower open space. Landscape: near fist dominates left-center, athlete recedes to right, title can form one giant diagonal band behind the arm with clear letter shapes. Dark studio ring atmosphere with at most one soft low rope line; no opponent, no injury.",
+        "PALETTE": "Near-black aubergine, vivid deep magenta and bright white; a warm-pink rim light on the glove with magenta haze behind the shoulder.",
+        "MAIN_TEXT": "MAKE IMPACT",
+        "SERIES_TEXT": "BOX SERIES 08",
+        "SUPPORT_TEXT": "EVERY MOVE MATTERS"
+      }
+    }
+  ],
+  "category": "Type Posters"
+}

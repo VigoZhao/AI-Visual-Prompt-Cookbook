@@ -1,8 +1,48 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 154 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 158 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Velocity Type Sport
+
+<a href="../styles/velocity-type-sport"><img src="../assets/thumbs/velocity-type-sport-16x9.jpg" width="720" alt="Velocity Type Sport preview"></a>
+
+Extreme near-to-far sports photography interlocked with giant white oblique type, a dark vignetted gradient lit by a bright colored haze, and close-up gear or contact points that express each sport's force and direction.
+
+Files: [style.json](../styles/velocity-type-sport/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport.md) · [16:9 preview](../styles/velocity-type-sport/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport)
+
+---
+
+### Velocity Type Sport — Part 2
+
+<a href="../styles/velocity-type-sport-part-02"><img src="../assets/thumbs/velocity-type-sport-part-02-16x9.jpg" width="720" alt="Velocity Type Sport — Part 2 preview"></a>
+
+Continues Velocity Type Sport's near-to-far athletic photography, giant white oblique lettering, dark fields with a single-color light haze and selective motion blur, now with basketball, snowboarding, kayaking and boxing.
+
+Files: [style.json](../styles/velocity-type-sport-part-02/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport-part-02.md) · [16:9 preview](../styles/velocity-type-sport-part-02/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport-part-02/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport-part-02)
+
+---
+
+### Velocity Type Sport — Part 3
+
+<a href="../styles/velocity-type-sport-part-03"><img src="../assets/thumbs/velocity-type-sport-part-03-16x9.jpg" width="720" alt="Velocity Type Sport — Part 3 preview"></a>
+
+Continues the near-to-far sports photography, giant white oblique type, near-black backgrounds and single-color haze, switching to tennis, still rings, speed skating and archery to show four force structures: net, ring, blade and bowstring.
+
+Files: [style.json](../styles/velocity-type-sport-part-03/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport-part-03.md) · [16:9 preview](../styles/velocity-type-sport-part-03/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport-part-03/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport-part-03)
+
+---
+
+### Velocity Type Sport — Part 4
+
+<a href="../styles/velocity-type-sport-part-04"><img src="../assets/thumbs/velocity-type-sport-part-04-16x9.jpg" width="720" alt="Velocity Type Sport — Part 4 preview"></a>
+
+Continues the strong-perspective sports photography, giant white oblique type, near-black field and single-color haze, using a baseball swing, a barbell lift, barrel-wave surfing and a rhythmic-gymnastics ribbon to show four spatial structures: cylinder, heavy plates, wave tube and flexible curve.
+
+Files: [style.json](../styles/velocity-type-sport-part-04/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport-part-04.md) · [16:9 preview](../styles/velocity-type-sport-part-04/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport-part-04/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport-part-04)
+
+---
 
 ### Acid Jolt Portrait Collage
 

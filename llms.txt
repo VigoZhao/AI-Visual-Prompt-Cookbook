@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 154 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 158 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -61,6 +61,10 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Velocity Type Sport](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport/): Extreme-perspective sports photos woven through giant white oblique type, with a bright color haze in a dark field. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport/style.json
+- [Velocity Type Sport — Part 2](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport-part-02/): Part 2: basketball, snowboarding, kayaking and boxing in giant white oblique type and single-color haze. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport-part-02/style.json
+- [Velocity Type Sport — Part 3](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport-part-03/): Part 3: tennis, still rings, speed skating and archery, framed as net, ring, blade and bowstring force structures. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport-part-03/style.json
+- [Velocity Type Sport — Part 4](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport-part-04/): Part 4: baseball swing, barbell lift, barrel surfing and gymnastics ribbon in giant white oblique type. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport-part-04/style.json
 - [Monumental Editorial — Set 02](https://prompts.vigocreativeai.com/site/styles/monumental-editorial-set-02/): Giant condensed white lettering colliding with tactile botanical, musical, food, and chrome-product photography. Raw JSON: https://prompts.vigocreativeai.com/styles/monumental-editorial-set-02/style.json
 - [Monumental Sport Editorial](https://prompts.vigocreativeai.com/site/styles/monumental-sport-editorial/): Athletic photography colliding with monumental condensed white type on warm stone neutrals and deep black shapes. Raw JSON: https://prompts.vigocreativeai.com/styles/monumental-sport-editorial/style.json
 - [Chromatic Impact Athlete](https://prompts.vigocreativeai.com/site/styles/chromatic-impact-athlete/): High-contrast athletic posters colliding grayscale body photography, extreme perspective, and a single red-orange energy accent. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-impact-athlete/style.json
