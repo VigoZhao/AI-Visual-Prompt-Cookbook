@@ -1,0 +1,150 @@
+{
+  "style_version": "1.0.0",
+  "style_name": "Chromatic Gesture Characters — Part 7",
+  "style_slug": "chromatic-gesture-characters-part-07",
+  "style_summary": "Part 7 of Chromatic Gesture Characters: carries the geometric exaggeration, hot-pink clashes and grainy print feel into paper folding, headphone listening, canoe paddling and a sideways crab.",
+  "environment_variables": {
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "STYLE_FIDELITY_ANCHORS": "Runtime joined CORE and FLEX anchors from this spec",
+    "SOURCE_CONTENT_TO_AVOID": "Runtime joined source-specific content exclusions",
+    "SUBJECT": "New character identity and a small number of theme-bearing objects",
+    "ACTION": "Readable physical interaction and emotional expression",
+    "DESIGN_DIRECTION": "The case concept and its visible contribution to hierarchy and silhouette",
+    "PALETTE_DIRECTION": "Roles of saturated colors within the shared chromatic system",
+    "MAIN_TEXT": "Only visible wording, exact uppercase spelling without added punctuation",
+    "PORTRAIT_PLAN": "Composition intention for the 9:16 image",
+    "LANDSCAPE_PLAN": "Composition intention for the 16:9 image",
+    "SUBJECT_ACTION": "the readable physical interaction and emotional expression described in ACTION",
+    "PRODUCT_OR_PROP": "one or two oversized theme-bearing objects that join the character silhouette",
+    "LOCATION": "edge-to-edge off-white paper with no scene; depth implied only by overlapping shapes",
+    "BACKGROUND_ELEMENTS": "bare paper gaps, selective grainy airbrushed shadow and the small black caption",
+    "SECONDARY_TEXT": "none; MAIN_TEXT is the only visible wording",
+    "ACCENT_SYMBOL": "the minimal black cut-paper facial marks",
+    "WARDROBE_STYLE": "flat sculptural garment blocks in hot pink, coral red, cobalt and emerald"
+  },
+  "style_fidelity_anchors": [
+    "[CORE] Build a monumental, asymmetric character silhouette from few interlocking circles, flattened capsules, wedges, tapered limbs and large flowing contour cuts; enlarge anatomy according to the emotional gesture.",
+    "[CORE] Use nearly black, radically reduced facial marks and weight-bearing accents; eyes, brows and mouth read as deliberately cut graphic shapes rather than detailed drawing.",
+    "[CORE] Pair a dominant hot pink or magenta color field with one adjacent warm red or coral gradient and two saturated cool counterweights, on an open off-white paper ground.",
+    "[CORE] Keep most shapes flat and crisply bounded, with localized dark-to-color airbrushed shading at overlaps or bends and the specified fine print texture; depth must remain graphic.",
+    "[CORE] Let the character-object interaction carry the poster; sparse small bold black uppercase sans-serif copy occupies a useful pocket of negative space.",
+    "[FLEX] Change pose, gaze, crop, size relationships and title location to make the action legible; a full body, profile crop, enclosing gesture or reclining arrangement are equally valid.",
+    "[FLEX] Let folded paper wings, a giant headphone arch, a shallow canoe and single paddle, or an asymmetric crab silhouette create new shape and negative-space relationships.",
+    "[FLEX] Recompose portrait and landscape around their available width and height; preserve the case's conceptual relationship while changing overlaps and focal placement."
+  ],
+  "source_content_to_avoid": [
+    "The original angry seated man with enormous sideways ear, black side-parted hair and crossed short legs",
+    "The two white pointed steam puffs issuing from nostrils",
+    "The exact phrase A LITTLE(BIG) MAD. and all source wording",
+    "The small oval creator stamp, source signature, watermark or brand identity",
+    "The original green sleeves, blue trousers, pink head and large black shoes repeated in the same placement",
+    "Part 1 content: saxophone player and puffed cheek, giant pear embrace, umbrella dance, reclining reader and giant book; replace their subjects, actions and wording.",
+    "Part 2 content: baker stretching dough, bicycle rider, giant dog and walker, frontal photographer and camera; replace their subjects, actions and captions.",
+    "Part 3 content: topiary gardener and shears, freediver with water ribbon, chess player and giant knight, mover with three-box stack; replace these subjects, actions and captions.",
+    "Part 4 content: potter and clay vessel, kite flyer, accordion player and stretching cat; replace these subjects, actions and captions.",
+    "Part 5 content: tea pouring, giant needle and thread, bowling, spiral snail; replace these subjects, actions and captions.",
+    "Part 6 content: paint roller and swath, key and padlock, tightrope walker, toucan with berry; replace these subjects, actions and captions."
+  ],
+  "visual_deconstruction": {
+    "source_observations": "The source enlarges the head and ear into a compressed standing monument. The tiny two-line caption is secondary. Magenta cheeks shift into red forehead; curved black mouth and slanted brows establish anger. Green and cobalt body forms stabilize the composition. White steam marks carve the figure.",
+    "reusable_system": "Emotion becomes shape, not facial detail. Scale contrast, black cut-shape expressions, complementary saturated blocks, grainy localized gradients and sparse paper space are transferable.",
+    "scope": "Part 7 continuation, replacing all twenty-four earlier subjects and actions. Explore creased wings, sound-listening enclosure, long boat and diagonal paddle, and an animal with contrasting pincers."
+  },
+  "composition": {
+    "hierarchy": "Gesture silhouette first, face/object relationship second, small caption third. Keep visual complexity low.",
+    "negative_space": "Use paper gaps to separate limbs and objects and to carry the caption; no decorative panel framing.",
+    "ratio_adaptation": "Use the applicable case plan. Portrait may stack or climb; landscape may unfold or stretch. Do not crop a finished portrait to fill the landscape."
+  },
+  "typography": {
+    "family": "Compact bold grotesk sans-serif, plain black uppercase",
+    "role": "Small editorial aside, approximately 4 to 7 percent of image height as a complete text block, subordinate to the illustration",
+    "copy": "Render MAIN_TEXT verbatim once. Line breaks are flexible; no additional punctuation, byline, labels or fabricated logo."
+  },
+  "color_palette": {
+    "paper": "#F3F1EB",
+    "ink": "#10100F",
+    "hot_pink": "#F553D2",
+    "warm_red": "#F42726",
+    "cobalt": "#293EA1",
+    "emerald": "#13785D",
+    "relationships": "Hot pink plus warm gradient against emerald and cobalt; roles may shift per case. Use off-white as active negative space and near-black as graphic weight."
+  },
+  "image_treatment": {
+    "medium": "Raster illustration with the shape economy of cut-paper and airbrushed screen print",
+    "texture": "Fine, low-contrast stochastic halftone-like ink stipple and paper tooth, approximately 1 to 3 pixels at a 1500-pixel short edge. Most visible inside saturated and black shapes; very faint in the off-white background. Dark grain concentrates in shaded overlaps. No large scratches, folds, distress or coarse canvas weave.",
+    "edges_and_light": "Crisp contour silhouettes, softly diffused interior gradient shadows limited to overlaps and volume turns; matte ink, no glossy 3D illumination."
+  },
+  "design_rules": [
+    "Each case must turn its action into a distinct silhouette and meaningful negative-space relationship.",
+    "Keep limb and hand anatomy intentionally simplified but physically readable; no accidental extra appendages.",
+    "Objects must participate in the gesture at an expressive scale instead of floating as accessories.",
+    "Keep the exact short caption clearly readable with generous separation from the focal face and object.",
+    "Produce a full-bleed artwork on off-white paper, without a framed mockup or photographic scene.",
+    "Keep color count controlled and reduce background detail to marks necessary for the case."
+  ],
+  "do": [
+    "Use large asymmetric masses with small facial marks.",
+    "Use white gaps as structural parts of the gesture.",
+    "Recompose both ratios deliberately.",
+    "Keep texture integrated with ink and preserve clean silhouette contours."
+  ],
+  "avoid": [
+    "Copying the source character, angry pose, steam icons or signature.",
+    "Photorealistic people, shiny toy renderings, generic cute mascots or outlined cartoons.",
+    "Huge headline typography, dense labels, decorative stars and extra logos.",
+    "Four identical centered seated poses with different accessories."
+  ],
+  "prompt_template": "Use case: stylized-concept. Create one finished {ASPECT_RATIO} editorial character poster in the Chromatic Gesture Characters visual system. This is a standalone raster artwork, edge-to-edge off-white paper, with no surrounding mockup.\n\nPRIORITIZED STYLE:\n{STYLE_FIDELITY_ANCHORS}\n\nSUBJECT: {SUBJECT}\nACTION AND EMOTION: {ACTION}\nDESIGN INTENTION: {DESIGN_DIRECTION}\nCOLOR ROLES: {PALETTE_DIRECTION}\n\nRATIO ADAPTATION: if 9:16, follow this portrait direction: {PORTRAIT_PLAN} If 16:9, follow this landscape direction: {LANDSCAPE_PLAN} Use only the plan appropriate to the requested ratio. Make a coherent single image with natural paper margins.\n\nTEXT: Render exactly \"{MAIN_TEXT}\" once, without quotation marks or punctuation. Plain bold black uppercase grotesk sans-serif, small editorial caption rather than headline. Flexible line breaks in a meaningful empty pocket. No other text or logo.\n\nPRINT FINISH: Fine, low-contrast stochastic halftone-like ink stipple and paper tooth, about 1 to 3 pixels at a 1500-pixel short edge, most visible inside saturated and black shapes, very faint in the off-white background. Dark grain concentrates in shaded overlaps. Crisp silhouette edges; selective soft dark-to-color spray gradients inside overlapping shapes. Matte ink, predominantly flat graphic forms; no glossy 3D rendering or coarse distress.\n\nSOURCE CONTENT TO REPLACE:\n{SOURCE_CONTENT_TO_AVOID}\n\nEXCLUSIONS: no additional words, signatures, logos, watermark, angry source character, steam puffs, extra fingers or limbs, realistic skin, outlined cartoon look, 3D plastic, photographic set, border, dense background, coarse canvas weave, oversized headline or gratuitous decoration.",
+  "negative_prompt": "Source angry man, steam puffs, original caption, creator oval stamp, copied identity, watermark, logo, extra text, punctuation, extra limbs, disconnected grips, glossy 3D toy, photorealism, outlined cartoon, coarse weave, distress scratches, huge headline, clutter, frames, poster mockup; no previous saxophone, pear, umbrella, book, dough, bicycle, dog walker, camera, topiary, diver, chess knight or box-stack concepts. No pottery wheel, kite, accordion or stretching cat. No tea pouring, needle thread, bowling or snail. No paint roller, padlock/key, tightrope or toucan.",
+  "examples": [
+    {
+      "case_name": "fold-the-future",
+      "values": {
+        "SUBJECT": "An absorbed adult paper folder with tiny pink face, black compact hair, emerald sleeves and enormous hot-pink hands holding one large cobalt origami crane with emerald underside planes.",
+        "ACTION": "One hand supports the crane body from below while the other pinches the base of one raised triangular wing to finish a crease. The bird is clearly folded paper, with angular neck and pointed tail, no real feathers, scissors or extra sheets.",
+        "DESIGN_DIRECTION": "Angular paper wings open above two rounded pink hands; a deep white triangular gap between the wings becomes the main negative space. Small face watches the crease from behind. Keep two hands and paper tips readable.",
+        "PALETTE_DIRECTION": "Hot-pink hands with coral bends, cobalt crane with emerald reverse folds and sleeves, black tiny expression and hair, off-white paper.",
+        "MAIN_TEXT": "FOLD THE FUTURE",
+        "PORTRAIT_PLAN": "Crane wings rise as two angular peaks through the upper half; two giant hands and a tiny face anchor the lower half. Keep wing tips, neck and tail fully inside paper margins. Caption in upper-side whitespace.",
+        "LANDSCAPE_PLAN": "Spread two crane wings across center, small face behind left, pink hands supporting body and pinching wing base below. Keep folded neck and tail visible, caption in upper pocket; paper geometry dominates."
+      }
+    },
+    {
+      "case_name": "listen-in",
+      "values": {
+        "SUBJECT": "An adult music listener with a monumental hot-pink oval head, coral cheek planes, tiny closed black eyes and a small relaxed smile, wearing oversized cobalt headphones with emerald ear cushions and a black curved headband.",
+        "ACTION": "Both rounded pink hands lightly cup the two earcups. Head tilts gently, eyes closed in quiet enjoyment; an emerald shoulder shape supports the head. No music notes, player device, cables or logos.",
+        "DESIGN_DIRECTION": "A wide headphone arch embraces an enormous simplified tilted face, with the two blue earcups as cool side anchors and fingers touching their outside. The experience is inward and still, unlike instrument-playing poses.",
+        "PALETTE_DIRECTION": "Dominant hot-pink face and palms, coral cheeks, cobalt earcups, emerald cushions and shoulders, nearly black hair/headband/facial marks, off-white paper.",
+        "MAIN_TEXT": "TUNE INTO JOY",
+        "PORTRAIT_PLAN": "Tall close-up portrait with complete headband arch and both earcups inside paper edges, shoulders low and hands lifting from below. Small caption in an upper corner pocket separated from arch.",
+        "LANDSCAPE_PLAN": "Tilt the enormous face diagonally across the middle, complete headphone arch curves from left to right with both earcups and hands visible. Low emerald shoulder strip and small caption in upper-side paper. Do not crop arch."
+      }
+    },
+    {
+      "case_name": "paddle-on",
+      "values": {
+        "SUBJECT": "A calm adult canoe paddler with tiny pink face, black swept hair, huge hot-pink bent arms, emerald shirt and cobalt trousers, seated in a long shallow cobalt canoe with emerald interior.",
+        "ACTION": "Two hands grip separated points on one straight black paddle shaft; one broad emerald blade dips beside the canoe into a single short pink-coral water ribbon. Seated hips clearly inside hull, no second paddle or scenery.",
+        "DESIGN_DIRECTION": "The thin long canoe is a horizontal crescent under sweeping pink arms; the paddle cuts a strong diagonal between paper gaps. One short water ribbon at blade contact is enough to indicate paddling. Keep hand grips, hull and blade readable.",
+        "PALETTE_DIRECTION": "Hot-pink arms and face, coral-pink small water ribbon, cobalt canoe/trousers, emerald inner hull/shirt/blade, black paddle shaft/hair/face, open off-white paper.",
+        "MAIN_TEXT": "FIND YOUR CURRENT",
+        "PORTRAIT_PLAN": "Canoe angles gently upward across lower half, seated figure above it, paddle leans steeply down to a visible blade and small pink water ribbon. Keep bow and stern and blade inside paper margins; caption high at side.",
+        "LANDSCAPE_PLAN": "Long shallow canoe spans lower width with both pointed ends inside paper margins; figure offset left and one paddle angles down right beside hull. Blade meets one small pink ribbon. Small exact caption upper right, broad white air."
+      }
+    },
+    {
+      "case_name": "sideways-story",
+      "values": {
+        "SUBJECT": "One oversized graphic crab with broad hot-pink and coral shell, two short black-tipped eye stalks, emerald jointed walking legs and two cobalt pincers on pink curved arms.",
+        "ACTION": "Crab steps sideways with four simple walking legs on each side in a rhythmic fan. One large pincer lifts high and the other smaller pincer extends low. Both claws have clear two-part gripping shapes, no object held.",
+        "DESIGN_DIRECTION": "The wide shell is a flattened pink oval, bracketed by unequal blue claw shapes. Splayed green legs create small triangular white gaps and the high/low pincer contrast gives an asymmetric animal silhouette. No beach scene, sand pile or extra creatures.",
+        "PALETTE_DIRECTION": "Pink oval shell and claw arms with coral upper plane, cobalt two pincers, emerald walking legs, black eye tips and tiny mouth, off-white paper.",
+        "MAIN_TEXT": "A DIFFERENT WAY",
+        "PORTRAIT_PLAN": "Wide oval shell in the middle, one large blue claw reaching upward and other lower to the opposite side. Walking legs fan below, all feet and both claw tips inside paper margins. Small caption in high side whitespace.",
+        "LANDSCAPE_PLAN": "Stretch shell across central width, larger raised pincer at left and smaller low pincer at right; eight simple green walking legs spread beneath without merging. Full claws and feet inside frame, exact caption above shell."
+      }
+    }
+  ],
+  "category": "Type Posters"
+}

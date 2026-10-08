@@ -22,6 +22,13 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Bold Block Mascot Poster Style | [Copy Prompt](bold-block-mascot-poster-style.md) | [style.json](../../styles/bold-block-mascot-poster-style/style.json) |
 | Burnt Orange Halftone Hero Collage | [Copy Prompt](burnt-orange-halftone-hero-collage.md) | [style.json](../../styles/burnt-orange-halftone-hero-collage/style.json) |
 | Chromatic Fisheye Orbit Pop Poster Style | [Copy Prompt](chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](../../styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
+| Chromatic Gesture Characters | [Copy Prompt](chromatic-gesture-characters.md) | [style.json](../../styles/chromatic-gesture-characters/style.json) |
+| Chromatic Gesture Characters — Part 2 | [Copy Prompt](chromatic-gesture-characters-part-02.md) | [style.json](../../styles/chromatic-gesture-characters-part-02/style.json) |
+| Chromatic Gesture Characters — Part 3 | [Copy Prompt](chromatic-gesture-characters-part-03.md) | [style.json](../../styles/chromatic-gesture-characters-part-03/style.json) |
+| Chromatic Gesture Characters — Part 4 | [Copy Prompt](chromatic-gesture-characters-part-04.md) | [style.json](../../styles/chromatic-gesture-characters-part-04/style.json) |
+| Chromatic Gesture Characters — Part 5 | [Copy Prompt](chromatic-gesture-characters-part-05.md) | [style.json](../../styles/chromatic-gesture-characters-part-05/style.json) |
+| Chromatic Gesture Characters — Part 6 | [Copy Prompt](chromatic-gesture-characters-part-06.md) | [style.json](../../styles/chromatic-gesture-characters-part-06/style.json) |
+| Chromatic Gesture Characters — Part 7 | [Copy Prompt](chromatic-gesture-characters-part-07.md) | [style.json](../../styles/chromatic-gesture-characters-part-07/style.json) |
 | Chromatic Impact Athlete | [Copy Prompt](chromatic-impact-athlete.md) | [style.json](../../styles/chromatic-impact-athlete/style.json) |
 | Clean Triptych Travel Vlog Thumbnail Style | [Copy Prompt](clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](../../styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
 | Cobalt Megatype Roadside Travel Editorial | [Copy Prompt](cobalt-megatype-roadside-travel-editorial-style.md) | [style.json](../../styles/cobalt-megatype-roadside-travel-editorial-style/style.json) |

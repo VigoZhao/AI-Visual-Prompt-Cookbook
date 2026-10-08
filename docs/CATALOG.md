@@ -1,8 +1,78 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 158 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 165 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Chromatic Gesture Characters
+
+<a href="../styles/chromatic-gesture-characters"><img src="../assets/thumbs/chromatic-gesture-characters-16x9.jpg" width="720" alt="Chromatic Gesture Characters preview"></a>
+
+Exaggerated geometric character illustration: sculptural color blocks, minimal black cut-paper faces, hot-pink clashes, selectively airbrushed shadows and fine print grain compress emotion and action into a bold poster silhouette.
+
+Files: [style.json](../styles/chromatic-gesture-characters/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters.md) · [16:9 preview](../styles/chromatic-gesture-characters/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters)
+
+---
+
+### Chromatic Gesture Characters — Part 2
+
+<a href="../styles/chromatic-gesture-characters-part-02"><img src="../assets/thumbs/chromatic-gesture-characters-part-02-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 2 preview"></a>
+
+Part 2 of Chromatic Gesture Characters: the same exaggerated geometric figures, hot-pink clashes, airbrushed shadows and fine print grain, now built around bread baking, cycling, dog walking and photography.
+
+Files: [style.json](../styles/chromatic-gesture-characters-part-02/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-02.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-02/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-02/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-02)
+
+---
+
+### Chromatic Gesture Characters — Part 3
+
+<a href="../styles/chromatic-gesture-characters-part-03"><img src="../assets/thumbs/chromatic-gesture-characters-part-03-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 3 preview"></a>
+
+Part 3 of Chromatic Gesture Characters: keeps the exaggerated geometric figures, hot-pink clashes, grainy airbrush and off-white paper while exploring topiary gardening, freediving, a chess move and carrying stacked boxes.
+
+Files: [style.json](../styles/chromatic-gesture-characters-part-03/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-03.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-03/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-03/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-03)
+
+---
+
+### Chromatic Gesture Characters — Part 4
+
+<a href="../styles/chromatic-gesture-characters-part-04"><img src="../assets/thumbs/chromatic-gesture-characters-part-04-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 4 preview"></a>
+
+Part 4 of Chromatic Gesture Characters: continues the large geometric bodies, hot-pink clashes, minimal black faces and grainy print feel with pottery throwing, kite flying, accordion playing and a stretching cat.
+
+Files: [style.json](../styles/chromatic-gesture-characters-part-04/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-04.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-04/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-04/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-04)
+
+---
+
+### Chromatic Gesture Characters — Part 5
+
+<a href="../styles/chromatic-gesture-characters-part-05"><img src="../assets/thumbs/chromatic-gesture-characters-part-05-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 5 preview"></a>
+
+Part 5 of Chromatic Gesture Characters: carries the exaggerated geometry, hot-pink clashes, minimal black faces and grainy print texture into tea pouring, threading a needle, bowling and a snail.
+
+Files: [style.json](../styles/chromatic-gesture-characters-part-05/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-05.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-05/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-05/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-05)
+
+---
+
+### Chromatic Gesture Characters — Part 6
+
+<a href="../styles/chromatic-gesture-characters-part-06"><img src="../assets/thumbs/chromatic-gesture-characters-part-06-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 6 preview"></a>
+
+Part 6 of Chromatic Gesture Characters: keeps the geometric exaggeration, hot-pink clashes and grainy print feel, building four new structures from roller painting, turning a key, tightrope balancing and a toucan holding fruit.
+
+Files: [style.json](../styles/chromatic-gesture-characters-part-06/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-06.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-06/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-06/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-06)
+
+---
+
+### Chromatic Gesture Characters — Part 7
+
+<a href="../styles/chromatic-gesture-characters-part-07"><img src="../assets/thumbs/chromatic-gesture-characters-part-07-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 7 preview"></a>
+
+Part 7 of Chromatic Gesture Characters: carries the geometric exaggeration, hot-pink clashes and grainy print feel into paper folding, headphone listening, canoe paddling and a sideways crab.
+
+Files: [style.json](../styles/chromatic-gesture-characters-part-07/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-07.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-07/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-07/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-07)
+
+---
 
 ### Velocity Type Sport
 

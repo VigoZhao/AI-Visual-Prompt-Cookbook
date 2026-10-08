@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 158 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 165 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -61,6 +61,13 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Chromatic Gesture Characters](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters/): Exaggerated geometric character posters with sculptural color blocks, minimal black faces, hot-pink clashes, airbrushed shadows and fine print grain. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters/style.json
+- [Chromatic Gesture Characters — Part 2](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-02/): Part 2: bread baking, cycling, dog walking and photography in exaggerated geometric figures, hot-pink clashes and grainy print texture. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-02/style.json
+- [Chromatic Gesture Characters — Part 3](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-03/): Part 3: topiary gardening, freediving, a chess move and carrying boxes in exaggerated geometric figures and hot-pink clashes. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-03/style.json
+- [Chromatic Gesture Characters — Part 4](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-04/): Part 4: pottery throwing, kite flying, accordion playing and a stretching cat in large geometric bodies and hot-pink clashes. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-04/style.json
+- [Chromatic Gesture Characters — Part 5](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-05/): Part 5: tea pouring, threading a needle, bowling and a snail in exaggerated geometry, hot-pink clashes and grainy print texture. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-05/style.json
+- [Chromatic Gesture Characters — Part 6](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-06/): Part 6: roller painting, turning a key, tightrope balancing and a toucan in geometric exaggeration and hot-pink clashes. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-06/style.json
+- [Chromatic Gesture Characters — Part 7](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-07/): Part 7: paper folding, headphone listening, canoe paddling and a sideways crab in geometric exaggeration and hot-pink clashes. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-07/style.json
 - [Velocity Type Sport](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport/): Extreme-perspective sports photos woven through giant white oblique type, with a bright color haze in a dark field. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport/style.json
 - [Velocity Type Sport — Part 2](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport-part-02/): Part 2: basketball, snowboarding, kayaking and boxing in giant white oblique type and single-color haze. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport-part-02/style.json
 - [Velocity Type Sport — Part 3](https://prompts.vigocreativeai.com/site/styles/velocity-type-sport-part-03/): Part 3: tennis, still rings, speed skating and archery, framed as net, ring, blade and bowstring force structures. Raw JSON: https://prompts.vigocreativeai.com/styles/velocity-type-sport-part-03/style.json

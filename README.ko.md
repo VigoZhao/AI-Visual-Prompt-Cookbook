@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="Styles" src="https://img.shields.io/badge/styles-158-ff5a7a?style=flat-square">
-  <img alt="Previews" src="https://img.shields.io/badge/previews-316-4cc9f0?style=flat-square">
+  <img alt="Styles" src="https://img.shields.io/badge/styles-165-ff5a7a?style=flat-square">
+  <img alt="Previews" src="https://img.shields.io/badge/previews-330-4cc9f0?style=flat-square">
   <img alt="Format" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="Languages" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -119,12 +119,18 @@ noise." as three short left-aligned lines with tight leading; put the first head
 
 ## 추천 스타일
 
-이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 158개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
+이 6개 스타일로 시작하면 라이브러리의 범위를 빠르게 이해할 수 있습니다. 모든 스타일은 JSON 하나와 미리보기 이미지 두 장으로 구성됩니다. 전체 165개는 아래 [All Styles](#all-styles) 갤러리에서 볼 수 있습니다.
 
 <!-- HTML table used for rich image+link cells -->
 
 <table>
 <tr>
+<td width="33%" valign="top">
+<a href="styles/chromatic-gesture-characters"><img src="assets/thumbs/chromatic-gesture-characters-16x9.jpg" alt="Chromatic Gesture Characters preview"></a>
+<h3>Chromatic Gesture Characters</h3>
+<p>Exaggerated geometric character illustration: sculptural color blocks, minimal black cut-paper faces, hot-pink clashes, selectively airbrushed shadows and fine print grain compress emotion and action into a bold poster silhouette.</p>
+<p><a href="styles/chromatic-gesture-characters/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/chromatic-gesture-characters.md">프롬프트 복사</a> · <a href="styles/chromatic-gesture-characters">폴더</a></p>
+</td>
 <td width="33%" valign="top">
 <a href="styles/velocity-type-sport"><img src="assets/thumbs/velocity-type-sport-16x9.jpg" alt="Velocity Type Sport preview"></a>
 <h3>Velocity Type Sport</h3>
@@ -137,14 +143,14 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <p>A punchy portrait-poster system mixing warm, low-fi close-up photography, blunt photo-fragment inserts, massive lemon-yellow rounded lettering, and loose marker signals against dark, quiet fields.</p>
 <p><a href="styles/acid-jolt-photo-collage/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/acid-jolt-photo-collage.md">프롬프트 복사</a> · <a href="styles/acid-jolt-photo-collage">폴더</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="styles/amber-orbit-editorial"><img src="assets/thumbs/amber-orbit-editorial-16x9.jpg" alt="Amber Orbit Editorial preview"></a>
 <h3>Amber Orbit Editorial</h3>
 <p>Intimate warm macro photography, grazing amber light, ivory serif typography and fine overlapping orbital lines turn tactile details into quiet editorial stories about attention, making and time.</p>
 <p><a href="styles/amber-orbit-editorial/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/amber-orbit-editorial.md">프롬프트 복사</a> · <a href="styles/amber-orbit-editorial">폴더</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="styles/felt-motion-brand-campaign"><img src="assets/thumbs/felt-motion-brand-campaign-16x9.jpg" alt="Felt Motion Brand Campaign preview"></a>
 <h3>Felt Motion Brand Campaign</h3>
@@ -156,12 +162,6 @@ noise." as three short left-aligned lines with tight leading; put the first head
 <h3>Felt Motion Brand Campaign — Set 02</h3>
 <p>An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.</p>
 <p><a href="styles/felt-motion-brand-campaign-set-02/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/felt-motion-brand-campaign-set-02.md">프롬프트 복사</a> · <a href="styles/felt-motion-brand-campaign-set-02">폴더</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/monumental-editorial-set-02"><img src="assets/thumbs/monumental-editorial-set-02-16x9.jpg" alt="Monumental Editorial — Set 02 preview"></a>
-<h3>Monumental Editorial — Set 02</h3>
-<p>A cross-domain extension of monumental sports editorial typography: clean giant condensed white lettering collides with tactile botanical, musical, food, and chrome-product photography, each in a distinct palette and spatial arrangement.</p>
-<p><a href="styles/monumental-editorial-set-02/style.json"><strong>style.json 열기</strong></a> · <a href="docs/copy-prompts/monumental-editorial-set-02.md">프롬프트 복사</a> · <a href="styles/monumental-editorial-set-02">폴더</a></p>
 </td>
 </tr>
 </table>
@@ -195,7 +195,7 @@ python3 scripts/validate-style-json.py .
 
 ## All Styles
 
-아래에서 전체 158개 스타일을 둘러볼 수 있습니다.
+아래에서 전체 165개 스타일을 둘러볼 수 있습니다.
 
 위 추천 스타일을 포함한 전체 라이브러리입니다. 각 스타일의 전체 설명과 모든 파일 링크는 [docs/CATALOG.md](docs/CATALOG.md)를 참고하세요.
 
@@ -203,6 +203,59 @@ python3 scripts/validate-style-json.py .
 
 <table>
 <tr>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters"></a>
+<a href="styles/chromatic-gesture-characters"><img src="assets/thumbs/chromatic-gesture-characters-16x9.jpg" alt="Chromatic Gesture Characters preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters">Chromatic Gesture Characters</a></strong><br>
+<em>Exaggerated geometric character posters with sculptural color blocks, minimal black faces, hot-pink clashes, airbrushed shadows and fine print grain.</em><br>
+<a href="styles/chromatic-gesture-characters/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters.md">prompt</a> · <a href="styles/chromatic-gesture-characters/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters-part-02"></a>
+<a href="styles/chromatic-gesture-characters-part-02"><img src="assets/thumbs/chromatic-gesture-characters-part-02-16x9.jpg" alt="Chromatic Gesture Characters — Part 2 preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters-part-02">Chromatic Gesture Characters — Part 2</a></strong><br>
+<em>Part 2: bread baking, cycling, dog walking and photography in exaggerated geometric figures, hot-pink clashes and grainy print texture.</em><br>
+<a href="styles/chromatic-gesture-characters-part-02/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters-part-02.md">prompt</a> · <a href="styles/chromatic-gesture-characters-part-02/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters-part-03"></a>
+<a href="styles/chromatic-gesture-characters-part-03"><img src="assets/thumbs/chromatic-gesture-characters-part-03-16x9.jpg" alt="Chromatic Gesture Characters — Part 3 preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters-part-03">Chromatic Gesture Characters — Part 3</a></strong><br>
+<em>Part 3: topiary gardening, freediving, a chess move and carrying boxes in exaggerated geometric figures and hot-pink clashes.</em><br>
+<a href="styles/chromatic-gesture-characters-part-03/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters-part-03.md">prompt</a> · <a href="styles/chromatic-gesture-characters-part-03/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters-part-04"></a>
+<a href="styles/chromatic-gesture-characters-part-04"><img src="assets/thumbs/chromatic-gesture-characters-part-04-16x9.jpg" alt="Chromatic Gesture Characters — Part 4 preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters-part-04">Chromatic Gesture Characters — Part 4</a></strong><br>
+<em>Part 4: pottery throwing, kite flying, accordion playing and a stretching cat in large geometric bodies and hot-pink clashes.</em><br>
+<a href="styles/chromatic-gesture-characters-part-04/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters-part-04.md">prompt</a> · <a href="styles/chromatic-gesture-characters-part-04/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters-part-05"></a>
+<a href="styles/chromatic-gesture-characters-part-05"><img src="assets/thumbs/chromatic-gesture-characters-part-05-16x9.jpg" alt="Chromatic Gesture Characters — Part 5 preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters-part-05">Chromatic Gesture Characters — Part 5</a></strong><br>
+<em>Part 5: tea pouring, threading a needle, bowling and a snail in exaggerated geometry, hot-pink clashes and grainy print texture.</em><br>
+<a href="styles/chromatic-gesture-characters-part-05/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters-part-05.md">prompt</a> · <a href="styles/chromatic-gesture-characters-part-05/preview-9x16.jpg">9:16</a></p>
+</td>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters-part-06"></a>
+<a href="styles/chromatic-gesture-characters-part-06"><img src="assets/thumbs/chromatic-gesture-characters-part-06-16x9.jpg" alt="Chromatic Gesture Characters — Part 6 preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters-part-06">Chromatic Gesture Characters — Part 6</a></strong><br>
+<em>Part 6: roller painting, turning a key, tightrope balancing and a toucan in geometric exaggeration and hot-pink clashes.</em><br>
+<a href="styles/chromatic-gesture-characters-part-06/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters-part-06.md">prompt</a> · <a href="styles/chromatic-gesture-characters-part-06/preview-9x16.jpg">9:16</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a id="chromatic-gesture-characters-part-07"></a>
+<a href="styles/chromatic-gesture-characters-part-07"><img src="assets/thumbs/chromatic-gesture-characters-part-07-16x9.jpg" alt="Chromatic Gesture Characters — Part 7 preview"></a>
+<p><strong><a href="styles/chromatic-gesture-characters-part-07">Chromatic Gesture Characters — Part 7</a></strong><br>
+<em>Part 7: paper folding, headphone listening, canoe paddling and a sideways crab in geometric exaggeration and hot-pink clashes.</em><br>
+<a href="styles/chromatic-gesture-characters-part-07/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-gesture-characters-part-07.md">prompt</a> · <a href="styles/chromatic-gesture-characters-part-07/preview-9x16.jpg">9:16</a></p>
+</td>
 <td width="33%" valign="top">
 <a id="velocity-type-sport"></a>
 <a href="styles/velocity-type-sport"><img src="assets/thumbs/velocity-type-sport-16x9.jpg" alt="Velocity Type Sport preview"></a>
@@ -217,6 +270,8 @@ python3 scripts/validate-style-json.py .
 <em>Part 2: basketball, snowboarding, kayaking and boxing in giant white oblique type and single-color haze.</em><br>
 <a href="styles/velocity-type-sport-part-02/style.json">style.json</a> · <a href="docs/copy-prompts/velocity-type-sport-part-02.md">prompt</a> · <a href="styles/velocity-type-sport-part-02/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="velocity-type-sport-part-03"></a>
 <a href="styles/velocity-type-sport-part-03"><img src="assets/thumbs/velocity-type-sport-part-03-16x9.jpg" alt="Velocity Type Sport — Part 3 preview"></a>
@@ -224,8 +279,6 @@ python3 scripts/validate-style-json.py .
 <em>Part 3: tennis, still rings, speed skating and archery, framed as net, ring, blade and bowstring force structures.</em><br>
 <a href="styles/velocity-type-sport-part-03/style.json">style.json</a> · <a href="docs/copy-prompts/velocity-type-sport-part-03.md">prompt</a> · <a href="styles/velocity-type-sport-part-03/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="velocity-type-sport-part-04"></a>
 <a href="styles/velocity-type-sport-part-04"><img src="assets/thumbs/velocity-type-sport-part-04-16x9.jpg" alt="Velocity Type Sport — Part 4 preview"></a>
@@ -240,6 +293,8 @@ python3 scripts/validate-style-json.py .
 <em>Punchy portrait posters mixing warm low-fi close-ups, blunt photo fragments, massive lemon-yellow lettering, and loose marker signals.</em><br>
 <a href="styles/acid-jolt-photo-collage/style.json">style.json</a> · <a href="docs/copy-prompts/acid-jolt-photo-collage.md">prompt</a> · <a href="styles/acid-jolt-photo-collage/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="amber-orbit-editorial"></a>
 <a href="styles/amber-orbit-editorial"><img src="assets/thumbs/amber-orbit-editorial-16x9.jpg" alt="Amber Orbit Editorial preview"></a>
@@ -247,8 +302,6 @@ python3 scripts/validate-style-json.py .
 <em>Warm amber macros with ivory serif type and fine orbital lines, turning tactile details into quiet editorial stories.</em><br>
 <a href="styles/amber-orbit-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/amber-orbit-editorial.md">prompt</a> · <a href="styles/amber-orbit-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="felt-motion-brand-campaign"></a>
 <a href="styles/felt-motion-brand-campaign"><img src="assets/thumbs/felt-motion-brand-campaign-16x9.jpg" alt="Felt Motion Brand Campaign preview"></a>
@@ -263,6 +316,8 @@ python3 scripts/validate-style-json.py .
 <em>A second Felt Motion set: intimate sports photographs, selective focus, and a centered white logo with a tight two-line wordmark.</em><br>
 <a href="styles/felt-motion-brand-campaign-set-02/style.json">style.json</a> · <a href="docs/copy-prompts/felt-motion-brand-campaign-set-02.md">prompt</a> · <a href="styles/felt-motion-brand-campaign-set-02/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="monumental-editorial-set-02"></a>
 <a href="styles/monumental-editorial-set-02"><img src="assets/thumbs/monumental-editorial-set-02-16x9.jpg" alt="Monumental Editorial — Set 02 preview"></a>
@@ -270,8 +325,6 @@ python3 scripts/validate-style-json.py .
 <em>Giant condensed white lettering colliding with tactile botanical, musical, food, and chrome-product photography.</em><br>
 <a href="styles/monumental-editorial-set-02/style.json">style.json</a> · <a href="docs/copy-prompts/monumental-editorial-set-02.md">prompt</a> · <a href="styles/monumental-editorial-set-02/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="monumental-sport-editorial"></a>
 <a href="styles/monumental-sport-editorial"><img src="assets/thumbs/monumental-sport-editorial-16x9.jpg" alt="Monumental Sport Editorial preview"></a>
@@ -286,6 +339,8 @@ python3 scripts/validate-style-json.py .
 <em>Experimental editorial posters with oversized condensed headlines, scarlet blocks, and photograph subjects cut by vertical slices.</em><br>
 <a href="styles/slice-signal-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/slice-signal-editorial.md">prompt</a> · <a href="styles/slice-signal-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="chromatic-impact-athlete"></a>
 <a href="styles/chromatic-impact-athlete"><img src="assets/thumbs/chromatic-impact-athlete-16x9.jpg" alt="Chromatic Impact Athlete preview"></a>
@@ -293,8 +348,6 @@ python3 scripts/validate-style-json.py .
 <em>High-contrast athletic posters colliding grayscale body photography, extreme perspective, and a single red-orange energy accent.</em><br>
 <a href="styles/chromatic-impact-athlete/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-impact-athlete.md">prompt</a> · <a href="styles/chromatic-impact-athlete/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cream-curve-editorial"></a>
 <a href="styles/cream-curve-editorial"><img src="assets/thumbs/cream-curve-editorial-16x9.jpg" alt="Cream Curve Editorial preview"></a>
@@ -309,6 +362,8 @@ python3 scripts/validate-style-json.py .
 <em>Motion-led footwear campaigns showing a shoe mechanism through action, sequential states, and tactile engineering close-ups.</em><br>
 <a href="styles/kinetic-footwear-process/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-footwear-process.md">prompt</a> · <a href="styles/kinetic-footwear-process/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sensory-footwear-lab"></a>
 <a href="styles/sensory-footwear-lab"><img src="assets/thumbs/sensory-footwear-lab-16x9.jpg" alt="Sensory Footwear Lab preview"></a>
@@ -316,8 +371,6 @@ python3 scripts/validate-style-json.py .
 <em>Minimal future-sport concepts pairing tactile podded outsoles with quiet athletic gestures, ice-cool architecture, and signal-coral accents.</em><br>
 <a href="styles/sensory-footwear-lab/style.json">style.json</a> · <a href="docs/copy-prompts/sensory-footwear-lab.md">prompt</a> · <a href="styles/sensory-footwear-lab/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="vector-atelier"></a>
 <a href="styles/vector-atelier"><img src="assets/thumbs/vector-atelier-16x9.jpg" alt="Visual OS 051 — Freeze the Gear preview"></a>
@@ -332,6 +385,8 @@ python3 scripts/validate-style-json.py .
 <em>Premium footwear process boards explaining load, flex, fit, and construction through sequential panels and tactile macros.</em><br>
 <a href="styles/vector-process-study/style.json">style.json</a> · <a href="docs/copy-prompts/vector-process-study.md">prompt</a> · <a href="styles/vector-process-study/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="annotated-absence"></a>
 <a href="styles/annotated-absence"><img src="assets/thumbs/annotated-absence-16x9.jpg" alt="Annotated Absence preview"></a>
@@ -339,8 +394,6 @@ python3 scripts/validate-style-json.py .
 <em>Photographic subjects dissolve into white paper, kept as hand-traced contours, intimate word labels, and sparse gray fragments.</em><br>
 <a href="styles/annotated-absence/style.json">style.json</a> · <a href="docs/copy-prompts/annotated-absence.md">prompt</a> · <a href="styles/annotated-absence/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="ink-body-manifesto"></a>
 <a href="styles/ink-body-manifesto"><img src="assets/thumbs/ink-body-manifesto-16x9.jpg" alt="Ink Body Manifesto preview"></a>
@@ -355,6 +408,8 @@ python3 scripts/validate-style-json.py .
 <em>Halftone portraits tiled by a white grid, with cells swapped for faded snapshots, blanks, and one fluorescent-pink memory.</em><br>
 <a href="styles/memory-fragment-portrait/style.json">style.json</a> · <a href="docs/copy-prompts/memory-fragment-portrait.md">prompt</a> · <a href="styles/memory-fragment-portrait/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="portrait-as-terrain"></a>
 <a href="styles/portrait-as-terrain"><img src="assets/thumbs/portrait-as-terrain-16x9.jpg" alt="Portrait as Terrain preview"></a>
@@ -362,8 +417,6 @@ python3 scripts/validate-style-json.py .
 <em>Monumental single-color landscapes made from human fragments, inhabited by tiny figures.</em><br>
 <a href="styles/portrait-as-terrain/style.json">style.json</a> · <a href="docs/copy-prompts/portrait-as-terrain.md">prompt</a> · <a href="styles/portrait-as-terrain/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="acid-burst-motion-type"></a>
 <a href="styles/acid-burst-motion-type"><img src="assets/thumbs/acid-burst-motion-type-16x9.jpg" alt="Acid Burst Motion Type preview"></a>
@@ -378,6 +431,8 @@ python3 scripts/validate-style-json.py .
 <em>Close wide-angle action photography interlocked with enormous warm-cream condensed type, cobalt depth, and a compact rule-divided editorial rail.</em><br>
 <a href="styles/cream-megatype-impact-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/cream-megatype-impact-editorial.md">prompt</a> · <a href="styles/cream-megatype-impact-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="duotone-step-window-editorial"></a>
 <a href="styles/duotone-step-window-editorial"><img src="assets/thumbs/duotone-step-window-editorial-16x9.jpg" alt="Duotone Step Window Editorial preview"></a>
@@ -385,8 +440,6 @@ python3 scripts/validate-style-json.py .
 <em>Oversized grotesk type and emphatic event numerals over a grainy action photograph selectively re-inked through hard-edged stepped color windows.</em><br>
 <a href="styles/duotone-step-window-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/duotone-step-window-editorial.md">prompt</a> · <a href="styles/duotone-step-window-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="halftone-chroma-fragment-editorial"></a>
 <a href="styles/halftone-chroma-fragment-editorial"><img src="assets/thumbs/halftone-chroma-fragment-editorial-16x9.jpg" alt="Halftone Chroma Fragment Editorial preview"></a>
@@ -401,6 +454,8 @@ python3 scripts/validate-style-json.py .
 <em>Product-led oblique photography on muted grey, with precise highlighter editorial typography and a distinct composition for every product.</em><br>
 <a href="styles/neon-strip-low-angle-campaign/style.json">style.json</a> · <a href="docs/copy-prompts/neon-strip-low-angle-campaign.md">prompt</a> · <a href="styles/neon-strip-low-angle-campaign/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="op-stripe-card-editorial"></a>
 <a href="styles/op-stripe-card-editorial"><img src="assets/thumbs/op-stripe-card-editorial-16x9.jpg" alt="Op Stripe Card Editorial preview"></a>
@@ -408,8 +463,6 @@ python3 scripts/validate-style-json.py .
 <em>Playing-card editorial language with optical black ink ribbons, monumental high-contrast serif type, and a crisp colored figure on textured light paper.</em><br>
 <a href="styles/op-stripe-card-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/op-stripe-card-editorial.md">prompt</a> · <a href="styles/op-stripe-card-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="skyward-condensed-action"></a>
 <a href="styles/skyward-condensed-action"><img src="assets/thumbs/skyward-condensed-action-16x9.jpg" alt="Skyward Condensed Action preview"></a>
@@ -424,6 +477,8 @@ python3 scripts/validate-style-json.py .
 <em>Playful hand-drawn megatype posters with irregular interlocking colored letters, bold black marker contours, sparse doodles, and neutral paper.</em><br>
 <a href="styles/color-pop-interlocked-marker-type/style.json">style.json</a> · <a href="docs/copy-prompts/color-pop-interlocked-marker-type.md">prompt</a> · <a href="styles/color-pop-interlocked-marker-type/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="grainy-envelope-flyer-collage"></a>
 <a href="styles/grainy-envelope-flyer-collage"><img src="assets/thumbs/grainy-envelope-flyer-collage-16x9.jpg" alt="Grainy Envelope Flyer Collage preview"></a>
@@ -431,8 +486,6 @@ python3 scripts/validate-style-json.py .
 <em>Tactile event posters with repeated photocopied flyers spilling from a saturated paper envelope, framed by cutout icons and spare black type.</em><br>
 <a href="styles/grainy-envelope-flyer-collage/style.json">style.json</a> · <a href="docs/copy-prompts/grainy-envelope-flyer-collage.md">prompt</a> · <a href="styles/grainy-envelope-flyer-collage/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="monochrome-tech-grid-editorial"></a>
 <a href="styles/monochrome-tech-grid-editorial"><img src="assets/thumbs/monochrome-tech-grid-editorial-16x9.jpg" alt="Monochrome Tech-Grid Editorial preview"></a>
@@ -447,6 +500,8 @@ python3 scripts/validate-style-json.py .
 <em>Close wide-angle portraits wrapped by a descending sculptural 3D type helix, with strong near/far letter scale, unobstructed faces, and case-specific materials and palettes.</em><br>
 <a href="styles/tangerine-type-helix-fisheye/style.json">style.json</a> · <a href="docs/copy-prompts/tangerine-type-helix-fisheye.md">prompt</a> · <a href="styles/tangerine-type-helix-fisheye/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="motorsport-technical-editorial"></a>
 <a href="styles/motorsport-technical-editorial"><img src="assets/thumbs/motorsport-technical-editorial-16x9.jpg" alt="Motorsport Technical Editorial preview"></a>
@@ -454,8 +509,6 @@ python3 scripts/validate-style-json.py .
 <em>High-energy motorsport editorial posters with dramatic racing photography, oversized condensed type, industrial info cards, and signal-yellow technical accents.</em><br>
 <a href="styles/motorsport-technical-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/motorsport-technical-editorial.md">prompt</a> · <a href="styles/motorsport-technical-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="split-ink-monumental-editorial"></a>
 <a href="styles/split-ink-monumental-editorial"><img src="assets/thumbs/split-ink-monumental-editorial-16x9.jpg" alt="Split Ink Monumental Editorial preview"></a>
@@ -470,6 +523,8 @@ python3 scripts/validate-style-json.py .
 <em>Monochrome ultra-wide forced-perspective corridors with a lone silhouette walker, giant scarlet geometric letter planes receding toward the vanishing point, and motion-blurred crowds.</em><br>
 <a href="styles/crimson-vanishing-point-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/crimson-vanishing-point-editorial.md">prompt</a> · <a href="styles/crimson-vanishing-point-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="retro-pop-sticker-cutout"></a>
 <a href="styles/retro-pop-sticker-cutout"><img src="assets/thumbs/retro-pop-sticker-cutout-16x9.jpg" alt="Retro Pop Sticker Cutout preview"></a>
@@ -477,8 +532,6 @@ python3 scripts/validate-style-json.py .
 <em>Retro-pop scrapbook posters with oversized yellow headline typography, scarlet offset shadows, thick white die-cut photo cutouts, textured cobalt-blue paper, and playful accent stickers.</em><br>
 <a href="styles/retro-pop-sticker-cutout/style.json">style.json</a> · <a href="docs/copy-prompts/retro-pop-sticker-cutout.md">prompt</a> · <a href="styles/retro-pop-sticker-cutout/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="red-monochrome-editorial-grid"></a>
 <a href="styles/red-monochrome-editorial-grid"><img src="assets/thumbs/red-monochrome-editorial-grid-16x9.jpg" alt="Red Monochrome Editorial Grid preview"></a>
@@ -493,6 +546,8 @@ python3 scripts/validate-style-json.py .
 <em>High-contrast editorial campaign posters with a dark ember-lit cropped hero, an oversized foreground prop that breaks the dark-versus-paper seam, and a quiet warm-paper type field.</em><br>
 <a href="styles/split-scorched-editorial-poster/style.json">style.json</a> · <a href="docs/copy-prompts/split-scorched-editorial-poster.md">prompt</a> · <a href="styles/split-scorched-editorial-poster/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-scribble-editorial-poster"></a>
 <a href="styles/neon-scribble-editorial-poster"><img src="assets/thumbs/neon-scribble-editorial-poster-16x9.jpg" alt="Neon Scribble Editorial Poster preview"></a>
@@ -500,8 +555,6 @@ python3 scripts/validate-style-json.py .
 <em>Confrontational editorial posters with monumental ultra-condensed red type, a cropped black-and-white halftone portrait, offset photo fragments, and electric-blue and acid-green marker scribbles.</em><br>
 <a href="styles/neon-scribble-editorial-poster/style.json">style.json</a> · <a href="docs/copy-prompts/neon-scribble-editorial-poster.md">prompt</a> · <a href="styles/neon-scribble-editorial-poster/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="vermilion-folk-screenprint-character-poster"></a>
 <a href="styles/vermilion-folk-screenprint-character-poster"><img src="assets/thumbs/vermilion-folk-screenprint-character-poster-16x9.jpg" alt="Vermilion Folk Screenprint Character Poster preview"></a>
@@ -516,6 +569,8 @@ python3 scripts/validate-style-json.py .
 <em>Crisp editorial posters built from a diagonal cluster of oversized rounded cuboids in oblique isometric depth, with primary-color top planes, oversized grotesk labels, and Swiss-style perimeter copy.</em><br>
 <a href="styles/primary-block-isometric-editorial-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/primary-block-isometric-editorial-poster-style.md">prompt</a> · <a href="styles/primary-block-isometric-editorial-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="signal-red-contour-poster"></a>
 <a href="styles/signal-red-contour-poster"><img src="assets/thumbs/signal-red-contour-poster-16x9.jpg" alt="Signal Red Contour Poster preview"></a>
@@ -523,8 +578,6 @@ python3 scripts/validate-style-json.py .
 <em>Severe two-ink public-information posters with a near-black field, a monumental flat silhouette traced by an agitated signal-red contour, and detached white grotesk text fragments.</em><br>
 <a href="styles/signal-red-contour-poster/style.json">style.json</a> · <a href="docs/copy-prompts/signal-red-contour-poster.md">prompt</a> · <a href="styles/signal-red-contour-poster/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="electric-yellow-cutout-megatype-poster-style"></a>
 <a href="styles/electric-yellow-cutout-megatype-poster-style"><img src="assets/thumbs/electric-yellow-cutout-megatype-poster-style-16x9.jpg" alt="Electric Yellow Cutout Megatype Poster Style preview"></a>
@@ -539,6 +592,8 @@ python3 scripts/validate-style-json.py .
 <em>Dense celebratory editorial posters with a flash-lit photographic hero cutout, burnt-orange screenprint panels, monumental condensed headlines, coarse halftone diagrams, and dry-brush lettering.</em><br>
 <a href="styles/burnt-orange-halftone-hero-collage/style.json">style.json</a> · <a href="docs/copy-prompts/burnt-orange-halftone-hero-collage.md">prompt</a> · <a href="styles/burnt-orange-halftone-hero-collage/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="signal-red-petal-profile-editorial-cover"></a>
 <a href="styles/signal-red-petal-profile-editorial-cover"><img src="assets/thumbs/signal-red-petal-profile-editorial-cover-16x9.jpg" alt="Signal Red Petal Profile Editorial Cover preview"></a>
@@ -546,8 +601,6 @@ python3 scripts/validate-style-json.py .
 <em>Maximal indie-magazine covers with a fragmented signal-red masthead, a monumental flat-color side-profile portrait, and a right-heavy mantle of overlapping cobalt, coral, and pink petal lobes.</em><br>
 <a href="styles/signal-red-petal-profile-editorial-cover/style.json">style.json</a> · <a href="docs/copy-prompts/signal-red-petal-profile-editorial-cover.md">prompt</a> · <a href="styles/signal-red-petal-profile-editorial-cover/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cobalt-pop-cutout-editorial"></a>
 <a href="styles/cobalt-pop-cutout-editorial"><img src="assets/thumbs/cobalt-pop-cutout-editorial-16x9.jpg" alt="Cobalt Pop Cutout Editorial preview"></a>
@@ -562,6 +615,8 @@ python3 scripts/validate-style-json.py .
 <em>Prestige culture-magazine covers with a monumental grayscale portrait, narrow Didone display type, selective deep-crimson fragments, and a fibrous newsprint finish.</em><br>
 <a href="styles/crimson-noir-newsprint-editorial-style/style.json">style.json</a> · <a href="docs/copy-prompts/crimson-noir-newsprint-editorial-style.md">prompt</a> · <a href="styles/crimson-noir-newsprint-editorial-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="electric-cobalt-motion-type-poster-style"></a>
 <a href="styles/electric-cobalt-motion-type-poster-style"><img src="assets/thumbs/electric-cobalt-motion-type-poster-style-16x9.jpg" alt="Electric Cobalt Motion Type Poster preview"></a>
@@ -569,8 +624,6 @@ python3 scripts/validate-style-json.py .
 <em>High-energy event posters with a full-bleed motion-smeared photo, a cobalt field, fluorescent-green ultra-condensed type, oversized lower-edge numerals, and analog print texture.</em><br>
 <a href="styles/electric-cobalt-motion-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/electric-cobalt-motion-type-poster-style.md">prompt</a> · <a href="styles/electric-cobalt-motion-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cobalt-torn-didone-portrait-editorial-style"></a>
 <a href="styles/cobalt-torn-didone-portrait-editorial-style"><img src="assets/thumbs/cobalt-torn-didone-portrait-editorial-style-16x9.jpg" alt="Cobalt Torn Didone Portrait Editorial preview"></a>
@@ -585,6 +638,8 @@ python3 scripts/validate-style-json.py .
 <em>Kinetic worm's-eye ad posters with a monumental foreground product, a receding figure, giant edge-cropped diagonal neo-grotesk type, and a dark-to-luminous gradient field.</em><br>
 <a href="styles/foreshortened-gradient-impact-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/foreshortened-gradient-impact-ad-style.md">prompt</a> · <a href="styles/foreshortened-gradient-impact-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="vermilion-photocopy-tension-editorial"></a>
 <a href="styles/vermilion-photocopy-tension-editorial"><img src="assets/thumbs/vermilion-photocopy-tension-editorial-16x9.jpg" alt="Vermilion Photocopy Tension Editorial preview"></a>
@@ -592,8 +647,6 @@ python3 scripts/validate-style-json.py .
 <em>Confrontational posters built from one monumentally cropped near-binary photocopy photograph, a vertical condensed headline rail, compact annotations, and a single vermilion ink layer of sharp shards and edge-born organic forms.</em><br>
 <a href="styles/vermilion-photocopy-tension-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/vermilion-photocopy-tension-editorial.md">prompt</a> · <a href="styles/vermilion-photocopy-tension-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cobalt-xerox-script-editorial-poster-style"></a>
 <a href="styles/cobalt-xerox-script-editorial-poster-style"><img src="assets/thumbs/cobalt-xerox-script-editorial-poster-style-16x9.jpg" alt="Cobalt Xerox Script Editorial Poster preview"></a>
@@ -608,6 +661,8 @@ python3 scripts/validate-style-json.py .
 <em>Tactile motion posters built from a coral-red paper field, one pale-blue photographic window, colossal black condensed type crossing the image boundary, a single action subject, sparse micro labels, and one bold direction symbol.</em><br>
 <a href="styles/coral-window-megatype-motion-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/coral-window-megatype-motion-poster-style.md">prompt</a> · <a href="styles/coral-window-megatype-motion-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="cobalt-megatype-roadside-travel-editorial-style"></a>
 <a href="styles/cobalt-megatype-roadside-travel-editorial-style"><img src="assets/thumbs/cobalt-megatype-roadside-travel-editorial-style-16x9.jpg" alt="Cobalt Megatype Roadside Travel Editorial preview"></a>
@@ -615,8 +670,6 @@ python3 scripts/validate-style-json.py .
 <em>Nostalgic roadside-travel posters combining cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground.</em><br>
 <a href="styles/cobalt-megatype-roadside-travel-editorial-style/style.json">style.json</a> · <a href="docs/copy-prompts/cobalt-megatype-roadside-travel-editorial-style.md">prompt</a> · <a href="styles/cobalt-megatype-roadside-travel-editorial-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="surreal-megatype-dossier-collage"></a>
 <a href="styles/surreal-megatype-dossier-collage"><img src="assets/thumbs/surreal-megatype-dossier-collage-16x9.jpg" alt="Surreal Megatype Dossier Collage preview"></a>
@@ -631,6 +684,8 @@ python3 scripts/validate-style-json.py .
 <em>Surreal collage posters layering monumental flat-ink beasts and tiny figures over faded archival city photography, with cut-paper masses, hand-drawn contours, and sparse bright accents.</em><br>
 <a href="styles/urban-photo-ink-beast-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/urban-photo-ink-beast-collage-style.md">prompt</a> · <a href="styles/urban-photo-ink-beast-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="prismatic-glass-animal-weekend-editorial"></a>
 <a href="styles/prismatic-glass-animal-weekend-editorial"><img src="assets/thumbs/prismatic-glass-animal-weekend-editorial-16x9.jpg" alt="Prismatic Glass Animal Weekend Editorial preview"></a>
@@ -638,8 +693,6 @@ python3 scripts/validate-style-json.py .
 <em>Sparse black posters built around one oversized translucent glass animal with smoky depth, liquid-chrome edges, rainbow refractions, and futuristic micro-editorial weekend copy.</em><br>
 <a href="styles/prismatic-glass-animal-weekend-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/prismatic-glass-animal-weekend-editorial.md">prompt</a> · <a href="styles/prismatic-glass-animal-weekend-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sun-faded-scenic-editorial-poster"></a>
 <a href="styles/sun-faded-scenic-editorial-poster"><img src="assets/thumbs/sun-faded-scenic-editorial-poster-16x9.jpg" alt="Sun-Faded Scenic Editorial Poster preview"></a>
@@ -654,6 +707,8 @@ python3 scripts/validate-style-json.py .
 <em>Sparse experimental posters built from one radically enlarged macro photograph, a saturated cyan field, monumental interlocking white letterforms, and tactile analog print grain.</em><br>
 <a href="styles/cyan-grain-macro-megatype-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/cyan-grain-macro-megatype-poster-style.md">prompt</a> · <a href="styles/cyan-grain-macro-megatype-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="retro-future-chrome-portrait-dossier"></a>
 <a href="styles/retro-future-chrome-portrait-dossier"><img src="assets/thumbs/retro-future-chrome-portrait-dossier-16x9.jpg" alt="Retro Future Chrome Portrait Dossier preview"></a>
@@ -661,8 +716,6 @@ python3 scripts/validate-style-json.py .
 <em>Retro-futurist editorial portrait posters with a technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, optical diagrams, and coarse halftone print grain.</em><br>
 <a href="styles/retro-future-chrome-portrait-dossier/style.json">style.json</a> · <a href="docs/copy-prompts/retro-future-chrome-portrait-dossier.md">prompt</a> · <a href="styles/retro-future-chrome-portrait-dossier/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="pink-anime-motorcycle-spec-poster-style"></a>
 <a href="styles/pink-anime-motorcycle-spec-poster-style"><img src="assets/thumbs/pink-anime-motorcycle-spec-poster-style-16x9.jpg" alt="Pink Anime Motorcycle Spec Poster Style preview"></a>
@@ -677,6 +730,8 @@ python3 scripts/validate-style-json.py .
 <em>Photocopied editorial collage posters with a distressed black headline, a halftone photo cutout, cyan-green misregistration, fluorescent paint swashes, and marker scribbles.</em><br>
 <a href="styles/xerox-neon-editorial-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/xerox-neon-editorial-collage-style.md">prompt</a> · <a href="styles/xerox-neon-editorial-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="crimson-ink-manga-dossier"></a>
 <a href="styles/crimson-ink-manga-dossier"><img src="assets/thumbs/crimson-ink-manga-dossier-16x9.jpg" alt="Crimson Ink Manga Dossier preview"></a>
@@ -684,8 +739,6 @@ python3 scripts/validate-style-json.py .
 <em>High-density manga dossier posters with a foreshortened hero, distressed condensed headlines, newspaper sidebars, and a crimson-black-paper palette.</em><br>
 <a href="styles/crimson-ink-manga-dossier/style.json">style.json</a> · <a href="docs/copy-prompts/crimson-ink-manga-dossier.md">prompt</a> · <a href="styles/crimson-ink-manga-dossier/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="lime-loop-megatype-action-poster-style"></a>
 <a href="styles/lime-loop-megatype-action-poster-style"><img src="assets/thumbs/lime-loop-megatype-action-poster-style-16x9.jpg" alt="Lime Loop Megatype Action Poster preview"></a>
@@ -700,6 +753,8 @@ python3 scripts/validate-style-json.py .
 <em>Fisheye street posters mixing manga ink cutouts, sprayed yellow graffiti type, pavement tag texture, and anxious character energy.</em><br>
 <a href="styles/yellow-graffiti-fisheye-manga-street-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/yellow-graffiti-fisheye-manga-street-poster-style.md">prompt</a> · <a href="styles/yellow-graffiti-fisheye-manga-street-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="red-yellow-product-trophy-collage-style"></a>
 <a href="styles/red-yellow-product-trophy-collage-style"><img src="assets/thumbs/red-yellow-product-trophy-collage-style-16x9.jpg" alt="Red Yellow Product Trophy Collage Style preview"></a>
@@ -707,8 +762,6 @@ python3 scripts/validate-style-json.py .
 <em>Fast-food billboard collages with red-and-yellow blocks, glossy cutout products, and a trophy silhouette built from product objects.</em><br>
 <a href="styles/red-yellow-product-trophy-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/red-yellow-product-trophy-collage-style.md">prompt</a> · <a href="styles/red-yellow-product-trophy-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="manga-dossier-blueprint-poster"></a>
 <a href="styles/manga-dossier-blueprint-poster"><img src="assets/thumbs/manga-dossier-blueprint-poster-16x9.jpg" alt="Manga Dossier Blueprint Poster preview"></a>
@@ -723,6 +776,8 @@ python3 scripts/validate-style-json.py .
 <em>Dense red-black manga tabloids with cropped ink characters, editorial metadata blocks, halftone shading, and photocopy paper texture.</em><br>
 <a href="styles/red-black-manga-tabloid-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/red-black-manga-tabloid-poster-style.md">prompt</a> · <a href="styles/red-black-manga-tabloid-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="ice-cyan-megatype-action-poster-style"></a>
 <a href="styles/ice-cyan-megatype-action-poster-style"><img src="assets/thumbs/ice-cyan-megatype-action-poster-style-16x9.jpg" alt="Ice Cyan Megatype Action Poster Style preview"></a>
@@ -730,8 +785,6 @@ python3 scripts/validate-style-json.py .
 <em>Ice-white action posters with oversized cyan megatype, ghost text layers, a cutout action photo, and chartreuse motion blur.</em><br>
 <a href="styles/ice-cyan-megatype-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/ice-cyan-megatype-action-poster-style.md">prompt</a> · <a href="styles/ice-cyan-megatype-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="scarlet-megatype-action-collage-style"></a>
 <a href="styles/scarlet-megatype-action-collage-style"><img src="assets/thumbs/scarlet-megatype-action-collage-style-16x9.jpg" alt="Scarlet Megatype Action Collage Style preview"></a>
@@ -746,6 +799,8 @@ python3 scripts/validate-style-json.py .
 <em>High-impact street posters with black-and-white photo cores, jagged red-and-black display type, thick white gutters, and three-color print energy.</em><br>
 <a href="styles/jagged-red-street-photo-event-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/jagged-red-street-photo-event-poster-style.md">prompt</a> · <a href="styles/jagged-red-street-photo-event-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-stadium-3d-hero-type-poster-style"></a>
 <a href="styles/neon-stadium-3d-hero-type-poster-style"><img src="assets/thumbs/neon-stadium-3d-hero-type-poster-style-16x9.jpg" alt="Neon Stadium 3D Hero Type Poster Style preview"></a>
@@ -753,8 +808,6 @@ python3 scripts/validate-style-json.py .
 <em>Hyper-saturated 3D stadium posters with toy-like heroes, cropped condensed type, lime-and-purple fields, and motion-blurred debris.</em><br>
 <a href="styles/neon-stadium-3d-hero-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-stadium-3d-hero-type-poster-style.md">prompt</a> · <a href="styles/neon-stadium-3d-hero-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="dusk-cyan-layered-type-poster-style"></a>
 <a href="styles/dusk-cyan-layered-type-poster-style"><img src="assets/thumbs/dusk-cyan-layered-type-poster-style-16x9.jpg" alt="Dusk Cyan Layered Type Poster Style preview"></a>
@@ -769,6 +822,8 @@ python3 scripts/validate-style-json.py .
 <em>Electric-blue manga posters with white cutout geometry, rounded modular type, orange microtype, and a cel-shaded subject in exaggerated perspective.</em><br>
 <a href="styles/electric-blue-cutout-manga-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/electric-blue-cutout-manga-poster-style.md">prompt</a> · <a href="styles/electric-blue-cutout-manga-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="y2k-streetwear-sticker-collage-style"></a>
 <a href="styles/y2k-streetwear-sticker-collage-style"><img src="assets/thumbs/y2k-streetwear-sticker-collage-style-16x9.jpg" alt="Y2K Streetwear Sticker Collage Style preview"></a>
@@ -776,8 +831,6 @@ python3 scripts/validate-style-json.py .
 <em>Dense Y2K street collages with cutout subjects, sticker props, comic typography, and saturated yellow-blue-green accents.</em><br>
 <a href="styles/y2k-streetwear-sticker-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-streetwear-sticker-collage-style.md">prompt</a> · <a href="styles/y2k-streetwear-sticker-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cream-smoke-city-manga-poster-style"></a>
 <a href="styles/cream-smoke-city-manga-poster-style"><img src="assets/thumbs/cream-smoke-city-manga-poster-style-16x9.jpg" alt="Cream Smoke City Manga Poster Style preview"></a>
@@ -792,6 +845,8 @@ python3 scripts/validate-style-json.py .
 <em>Raw red-and-yellow action-culture covers with flash-lit cutouts, warped headline type, boxed callouts, and analog print grit.</em><br>
 <a href="styles/red-yellow-grunge-skate-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/red-yellow-grunge-skate-cover-style.md">prompt</a> · <a href="styles/red-yellow-grunge-skate-cover-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="monochrome-xerox-sports-dossier"></a>
 <a href="styles/monochrome-xerox-sports-dossier"><img src="assets/thumbs/monochrome-xerox-sports-dossier-16x9.jpg" alt="Monochrome Xerox Sports Dossier preview"></a>
@@ -799,8 +854,6 @@ python3 scripts/validate-style-json.py .
 <em>Black-and-white xerox sports dossiers with cropped subjects, inset photo panels, distressed condensed type, and press-kit grain.</em><br>
 <a href="styles/monochrome-xerox-sports-dossier/style.json">style.json</a> · <a href="docs/copy-prompts/monochrome-xerox-sports-dossier.md">prompt</a> · <a href="styles/monochrome-xerox-sports-dossier/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="liquid-chrome-clearance-poster-style"></a>
 <a href="styles/liquid-chrome-clearance-poster-style"><img src="assets/thumbs/liquid-chrome-clearance-poster-style-16x9.jpg" alt="Liquid Chrome Clearance Poster Style preview"></a>
@@ -815,6 +868,8 @@ python3 scripts/validate-style-json.py .
 <em>Loud underground comic flyers with mustard fields, coral cutouts, heavy marker outlines, hand-lettered bubble type, and dense comic symbols.</em><br>
 <a href="styles/hot-ink-comic-poster/style.json">style.json</a> · <a href="docs/copy-prompts/hot-ink-comic-poster.md">prompt</a> · <a href="styles/hot-ink-comic-poster/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="kinetic-editorial-photo-collage-style"></a>
 <a href="styles/kinetic-editorial-photo-collage-style"><img src="assets/thumbs/kinetic-editorial-photo-collage-style-16x9.jpg" alt="Kinetic Editorial Photo Collage preview"></a>
@@ -822,8 +877,6 @@ python3 scripts/validate-style-json.py .
 <em>High-energy action posters built from staggered photo tiles, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art scaffolding.</em><br>
 <a href="styles/kinetic-editorial-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-editorial-photo-collage-style.md">prompt</a> · <a href="styles/kinetic-editorial-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sunlit-coastal-product-blitz"></a>
 <a href="styles/sunlit-coastal-product-blitz"><img src="assets/thumbs/sunlit-coastal-product-blitz-16x9.jpg" alt="Sunlit Coastal Product Blitz preview"></a>
@@ -838,6 +891,8 @@ python3 scripts/validate-style-json.py .
 <em>Black-and-white footwear tech-spec posters with an oversized sneaker hero, engineering grid, evidence panels, macro callouts, pixelated uppercase type, and coarse halftone print.</em><br>
 <a href="styles/monochrome-grid-sneaker-tech-spec/style.json">style.json</a> · <a href="docs/copy-prompts/monochrome-grid-sneaker-tech-spec.md">prompt</a> · <a href="styles/monochrome-grid-sneaker-tech-spec/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sky-blue-lucky-tag-doodle-poster-style"></a>
 <a href="styles/sky-blue-lucky-tag-doodle-poster-style"><img src="assets/thumbs/sky-blue-lucky-tag-doodle-poster-style-16x9.jpg" alt="Sky Blue Lucky Tag Doodle Poster Style preview"></a>
@@ -845,8 +900,6 @@ python3 scripts/validate-style-json.py .
 <em>Sky-blue doodle posters with chunky white type, a hanging lucky-tag plaque, thick black outlines, and one big playful mascot.</em><br>
 <a href="styles/sky-blue-lucky-tag-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sky-blue-lucky-tag-doodle-poster-style.md">prompt</a> · <a href="styles/sky-blue-lucky-tag-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="neon-type-photo-scribble-poster"></a>
 <a href="styles/neon-type-photo-scribble-poster"><img src="assets/thumbs/neon-type-photo-scribble-poster-16x9.jpg" alt="Neon Type Photo Scribble Poster preview"></a>
@@ -861,6 +914,8 @@ python3 scripts/validate-style-json.py .
 <em>Sparse riso posters with wavering contours, overprint accents, handwritten margins, and visible paper grain.</em><br>
 <a href="styles/loose-scribble-riso-print-style/style.json">style.json</a> · <a href="docs/copy-prompts/loose-scribble-riso-print-style.md">prompt</a> · <a href="styles/loose-scribble-riso-print-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="jade-glyph-grocer-collage-poster-style"></a>
 <a href="styles/jade-glyph-grocer-collage-poster-style"><img src="assets/thumbs/jade-glyph-grocer-collage-poster-style-16x9.jpg" alt="Jade Glyph Grocer Collage Poster Style preview"></a>
@@ -868,8 +923,6 @@ python3 scripts/validate-style-json.py .
 <em>Cream grocer posters with jade glyphs, vegetable silhouettes, and glossy produce-photo centerpieces.</em><br>
 <a href="styles/jade-glyph-grocer-collage-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/jade-glyph-grocer-collage-poster-style.md">prompt</a> · <a href="styles/jade-glyph-grocer-collage-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="scarlet-court-photo-type-poster-style"></a>
 <a href="styles/scarlet-court-photo-type-poster-style"><img src="assets/thumbs/scarlet-court-photo-type-poster-style-16x9.jpg" alt="Scarlet Court Photo Type Poster preview"></a>
@@ -884,6 +937,8 @@ python3 scripts/validate-style-json.py .
 <em>Sunlit sports editorials with oversized cream block type, diagonal photo crops, and bright sky fields.</em><br>
 <a href="styles/sunlit-kinetic-block-type-photo-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-kinetic-block-type-photo-poster-style.md">prompt</a> · <a href="styles/sunlit-kinetic-block-type-photo-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="scarlet-block-cutout-doodle-book-cover-style"></a>
 <a href="styles/scarlet-block-cutout-doodle-book-cover-style"><img src="assets/thumbs/scarlet-block-cutout-doodle-book-cover-style-16x9.jpg" alt="Scarlet Block Cutout Doodle Book Cover Style preview"></a>
@@ -891,8 +946,6 @@ python3 scripts/validate-style-json.py .
 <em>Literary white-paper covers with scarlet letterforms, central cutout objects, marker contours, and asymmetrical space.</em><br>
 <a href="styles/scarlet-block-cutout-doodle-book-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/scarlet-block-cutout-doodle-book-cover-style.md">prompt</a> · <a href="styles/scarlet-block-cutout-doodle-book-cover-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="halftone-assemblage-metaphor-psa-poster-style"></a>
 <a href="styles/halftone-assemblage-metaphor-psa-poster-style"><img src="assets/thumbs/halftone-assemblage-metaphor-psa-poster-style-16x9.jpg" alt="Halftone Assemblage Metaphor PSA Poster Style preview"></a>
@@ -907,6 +960,8 @@ python3 scripts/validate-style-json.py .
 <em>격자 종이에 찢은 종이 오브젝트, 손글씨 메모, 부드러운 그림자를 얹은 향수 어린 포스터.</em><br>
 <a href="styles/school-grid-paper-cutout-poster/style.json">style.json</a> · <a href="docs/copy-prompts/school-grid-paper-cutout-poster.md">prompt</a> · <a href="styles/school-grid-paper-cutout-poster/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="naive-marker-quote-card-style"></a>
 <a href="styles/naive-marker-quote-card-style"><img src="assets/thumbs/naive-marker-quote-card-style-16x9.jpg" alt="Naive Marker Quote Card Style preview"></a>
@@ -914,8 +969,6 @@ python3 scripts/validate-style-json.py .
 <em>거친 마커 윤곽, 파스텔 패널, 파란 블록 글자, 사물 개그가 있는 부조리한 인용 카드 포스터.</em><br>
 <a href="styles/naive-marker-quote-card-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-quote-card-style.md">prompt</a> · <a href="styles/naive-marker-quote-card-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sky-blue-home-life-doodle-poster-style"></a>
 <a href="styles/sky-blue-home-life-doodle-poster-style"><img src="assets/thumbs/sky-blue-home-life-doodle-poster-style-16x9.jpg" alt="Sky Blue Home Life Doodle Poster Style preview"></a>
@@ -930,6 +983,8 @@ python3 scripts/validate-style-json.py .
 <em>크림 여백, 마커 색면, 굵은 불균형 선, 큰 글자, 마스코트 인물이 있는 경쾌한 그라운딩 포스터.</em><br>
 <a href="styles/playful-marker-grounding-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-marker-grounding-poster-style.md">prompt</a> · <a href="styles/playful-marker-grounding-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="rough-marker-monster-poster-style"></a>
 <a href="styles/rough-marker-monster-poster-style"><img src="assets/thumbs/rough-marker-monster-poster-style-16x9.jpg" alt="Rough Marker Monster Poster Style preview"></a>
@@ -937,8 +992,6 @@ python3 scripts/validate-style-json.py .
 <em>굵은 마커 윤곽, 크레용 채색, 크림 종이, 손글씨 타입의 순진한 몬스터 포스터.</em><br>
 <a href="styles/rough-marker-monster-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-marker-monster-poster-style.md">prompt</a> · <a href="styles/rough-marker-monster-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="cyan-red-shockwave-type-poster-style"></a>
 <a href="styles/cyan-red-shockwave-type-poster-style"><img src="assets/thumbs/cyan-red-shockwave-type-poster-style-16x9.jpg" alt="Cyan Red Shockwave Type Poster Style preview"></a>
@@ -953,6 +1006,8 @@ python3 scripts/validate-style-json.py .
 <em>네온 마커 마스코트, 커다란 손글씨, 빽빽한 낙서로 만든 순진한 판타지 포스터.</em><br>
 <a href="styles/fantasy-scribble-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/fantasy-scribble-mascot-poster-style.md">prompt</a> · <a href="styles/fantasy-scribble-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="crayon-catalog-doodle-poster-style"></a>
 <a href="styles/crayon-catalog-doodle-poster-style"><img src="assets/thumbs/crayon-catalog-doodle-poster-style-16x9.jpg" alt="Crayon Catalog Doodle Poster Style preview"></a>
@@ -960,8 +1015,6 @@ python3 scripts/validate-style-json.py .
 <em>빨간 손글씨 헤드라인, 단순한 낙서, 접힌 종이 질감의 성긴 크레용 카탈로그 포스터.</em><br>
 <a href="styles/crayon-catalog-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/crayon-catalog-doodle-poster-style.md">prompt</a> · <a href="styles/crayon-catalog-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="blue-halftone-ransom-zine-poster-style"></a>
 <a href="styles/blue-halftone-ransom-zine-poster-style"><img src="assets/thumbs/blue-halftone-ransom-zine-poster-style-16x9.jpg" alt="Blue Halftone Ransom Zine Poster Style preview"></a>
@@ -976,6 +1029,8 @@ python3 scripts/validate-style-json.py .
 <em>거대한 광택 농산물, 거친 붓글씨, 아이보리 종이 여백의 시장 포스터.</em><br>
 <a href="styles/market-brush-produce-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/market-brush-produce-poster-style.md">prompt</a> · <a href="styles/market-brush-produce-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="folded-newspaper-product-ad-style"></a>
 <a href="styles/folded-newspaper-product-ad-style"><img src="assets/thumbs/folded-newspaper-product-ad-style-16x9.jpg" alt="Folded Newspaper Product Ad Style preview"></a>
@@ -983,8 +1038,6 @@ python3 scripts/validate-style-json.py .
 <em>접힌 신문 애드버토리얼, 거대한 제품 컷아웃, 촘촘한 칼럼, 스탬프, 앤티크 골드 타이프.</em><br>
 <a href="styles/folded-newspaper-product-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/folded-newspaper-product-ad-style.md">prompt</a> · <a href="styles/folded-newspaper-product-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sunlit-supermodel-nameplate-editorial"></a>
 <a href="styles/sunlit-supermodel-nameplate-editorial"><img src="assets/thumbs/sunlit-supermodel-nameplate-editorial-16x9.jpg" alt="Sunlit Supermodel Nameplate Editorial preview"></a>
@@ -999,6 +1052,8 @@ python3 scripts/validate-style-json.py .
 <em>검은 음식 카드 광고, 손글씨 중국어, 컷아웃 사진, 길거리 간식 인쇄 질감.</em><br>
 <a href="styles/black-cutout-food-card-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/black-cutout-food-card-ad-style.md">prompt</a> · <a href="styles/black-cutout-food-card-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="kinetic-geometric-doodle-cutouts"></a>
 <a href="styles/kinetic-geometric-doodle-cutouts"><img src="assets/thumbs/kinetic-geometric-doodle-cutouts-16x9.jpg" alt="Kinetic Geometric Doodle Cutouts preview"></a>
@@ -1006,8 +1061,6 @@ python3 scripts/validate-style-json.py .
 <em>플랫 기하 색면, 느슨한 선, 종이 질감의 장난스러운 낙서 컷아웃.</em><br>
 <a href="styles/kinetic-geometric-doodle-cutouts/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-geometric-doodle-cutouts.md">prompt</a> · <a href="styles/kinetic-geometric-doodle-cutouts/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="quiet-luxury-furniture-nameplate-poster-style"></a>
 <a href="styles/quiet-luxury-furniture-nameplate-poster-style"><img src="assets/thumbs/quiet-luxury-furniture-nameplate-poster-style-16x9.jpg" alt="Quiet Luxury Furniture Nameplate Poster Style preview"></a>
@@ -1022,6 +1075,8 @@ python3 scripts/validate-style-json.py .
 <em>모션 블러 건축, 럭셔리 의상, 넓은 자간 세리프체의 패션 커버.</em><br>
 <a href="styles/kinetic-luxury-street-fashion-cover-style/style.json">style.json</a> · <a href="docs/copy-prompts/kinetic-luxury-street-fashion-cover-style.md">prompt</a> · <a href="styles/kinetic-luxury-street-fashion-cover-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="sunlit-architectural-fashion-editorial"></a>
 <a href="styles/sunlit-architectural-fashion-editorial"><img src="assets/thumbs/sunlit-architectural-fashion-editorial-16x9.jpg" alt="Sunlit Architectural Fashion Editorial preview"></a>
@@ -1029,8 +1084,6 @@ python3 scripts/validate-style-json.py .
 <em>낮은 건축 시점, 따뜻한 석재, 길어진 실루엣의 햇빛 하이패션 에디토리얼.</em><br>
 <a href="styles/sunlit-architectural-fashion-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/sunlit-architectural-fashion-editorial.md">prompt</a> · <a href="styles/sunlit-architectural-fashion-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="multi-color-beverage-splash-ad-system-style"></a>
 <a href="styles/multi-color-beverage-splash-ad-system-style"><img src="assets/thumbs/multi-color-beverage-splash-ad-system-style-16x9.jpg" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
@@ -1045,6 +1098,8 @@ python3 scripts/validate-style-json.py .
 <em>검정-노랑 만화 음식 zine 광고, 뒤틀린 대형 타이포와 광택 주인공 오브젝트.</em><br>
 <a href="styles/yellow-black-manga-food-zine-ad-style/style.json">style.json</a> · <a href="docs/copy-prompts/yellow-black-manga-food-zine-ad-style.md">prompt</a> · <a href="styles/yellow-black-manga-food-zine-ad-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-outdoor-diary-longform-collage-style"></a>
 <a href="styles/neon-outdoor-diary-longform-collage-style"><img src="assets/thumbs/neon-outdoor-diary-longform-collage-style-16x9.jpg" alt="Neon Outdoor Diary Longform Collage Style preview"></a>
@@ -1052,8 +1107,6 @@ python3 scripts/validate-style-json.py .
 <em>산성 그린 제목, 찢어진 종이 패널, 사진 컷아웃의 야외 다이어리 롱폼 콜라주.</em><br>
 <a href="styles/neon-outdoor-diary-longform-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-outdoor-diary-longform-collage-style.md">prompt</a> · <a href="styles/neon-outdoor-diary-longform-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="acid-lime-3d-streetwear-type-poster-style"></a>
 <a href="styles/acid-lime-3d-streetwear-type-poster-style"><img src="assets/thumbs/acid-lime-3d-streetwear-type-poster-style-16x9.jpg" alt="Acid Lime 3D Streetwear Type Poster Style preview"></a>
@@ -1068,6 +1121,8 @@ python3 scripts/validate-style-json.py .
 <em>검정과 블루의 프리미엄 제품 런칭, 빛나는 실루엣과 크롭 타이포.</em><br>
 <a href="styles/electric-blue-silhouette-product-launch-style/style.json">style.json</a> · <a href="docs/copy-prompts/electric-blue-silhouette-product-launch-style.md">prompt</a> · <a href="styles/electric-blue-silhouette-product-launch-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="luxury-perspective-checkerboard-editorial"></a>
 <a href="styles/luxury-perspective-checkerboard-editorial"><img src="assets/thumbs/luxury-perspective-checkerboard-editorial-16x9.jpg" alt="Luxury Perspective Checkerboard Editorial preview"></a>
@@ -1075,8 +1130,6 @@ python3 scripts/validate-style-json.py .
 <em>체크보드 원근, 스크립트 타이포, 세련된 여백의 럭셔리 에디토리얼.</em><br>
 <a href="styles/luxury-perspective-checkerboard-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/luxury-perspective-checkerboard-editorial.md">prompt</a> · <a href="styles/luxury-perspective-checkerboard-editorial/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="sunny-3d-avatar-campaign-style"></a>
 <a href="styles/sunny-3d-avatar-campaign-style"><img src="assets/thumbs/sunny-3d-avatar-campaign-style-16x9.jpg" alt="Sunny 3D Avatar Campaign Style preview"></a>
@@ -1091,6 +1144,8 @@ python3 scripts/validate-style-json.py .
 <em>플래시 사진 위에 Y2K UI 패널, 전기 블루 낙서선, 거친 화면 노이즈.</em><br>
 <a href="styles/y2k-mirror-ui-scribble-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/y2k-mirror-ui-scribble-collage-style.md">prompt</a> · <a href="styles/y2k-mirror-ui-scribble-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="neon-plush-gadget-pop-3d-style"></a>
 <a href="styles/neon-plush-gadget-pop-3d-style"><img src="assets/thumbs/neon-plush-gadget-pop-3d-style-16x9.jpg" alt="Neon Plush Gadget Pop 3D Style preview"></a>
@@ -1098,8 +1153,6 @@ python3 scripts/validate-style-json.py .
 <em>플러시 마스코트와 두툼한 가젯 소품을 결합한 네온 장난감 제품 3D 렌더.</em><br>
 <a href="styles/neon-plush-gadget-pop-3d-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-plush-gadget-pop-3d-style.md">prompt</a> · <a href="styles/neon-plush-gadget-pop-3d-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="blue-lime-kinetic-comic-type-poster-style"></a>
 <a href="styles/blue-lime-kinetic-comic-type-poster-style"><img src="assets/thumbs/blue-lime-kinetic-comic-type-poster-style-16x9.jpg" alt="Blue Lime Kinetic Comic Type Poster Style preview"></a>
@@ -1114,6 +1167,8 @@ python3 scripts/validate-style-json.py .
 <em>Blue perspective corridors with stacked Chinese display type.</em><br>
 <a href="styles/blue-chinese-perspective-type-canyon-style/style.json">style.json</a> · <a href="docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md">prompt</a> · <a href="styles/blue-chinese-perspective-type-canyon-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="rough-ink-music-doodle-poster-style"></a>
 <a href="styles/rough-ink-music-doodle-poster-style"><img src="assets/thumbs/rough-ink-music-doodle-poster-style-16x9.jpg" alt="Rough Ink Music Doodle Poster Style preview"></a>
@@ -1121,8 +1176,6 @@ python3 scripts/validate-style-json.py .
 <em>Hand-inked music posters with brush lettering and playful doodles.</em><br>
 <a href="styles/rough-ink-music-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-ink-music-doodle-poster-style.md">prompt</a> · <a href="styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="mono-noir-type-portrait-poster-style"></a>
 <a href="styles/mono-noir-type-portrait-poster-style"><img src="assets/thumbs/mono-noir-type-portrait-poster-style-16x9.jpg" alt="Mono Noir Type Portrait Poster Style preview"></a>
@@ -1137,6 +1190,8 @@ python3 scripts/validate-style-json.py .
 <em>Flat mascot posters with chunky block type and sticker figures.</em><br>
 <a href="styles/bold-block-mascot-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-block-mascot-poster-style.md">prompt</a> · <a href="styles/bold-block-mascot-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="blue-hud-macro-product-poster"></a>
 <a href="styles/blue-hud-macro-product-poster"><img src="assets/thumbs/blue-hud-macro-product-poster-16x9.jpg" alt="Blue HUD Macro Creator Tech Poster preview"></a>
@@ -1144,8 +1199,6 @@ python3 scripts/validate-style-json.py .
 <em>Glossy macro product posters with blue HUD launch graphics.</em><br>
 <a href="styles/blue-hud-macro-product-poster/style.json">style.json</a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">prompt</a> · <a href="styles/blue-hud-macro-product-poster/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="warm-fisheye-product-impact-ad-style"></a>
 <a href="styles/warm-fisheye-product-impact-ad-style"><img src="assets/thumbs/warm-fisheye-product-impact-ad-style-16x9.jpg" alt="Warm Fisheye Product Impact Ad Style preview"></a>
@@ -1160,6 +1213,8 @@ python3 scripts/validate-style-json.py .
 <em>Handmade sports posters with olive blocks and kinetic scribbles.</em><br>
 <a href="styles/olive-scribble-sports-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/olive-scribble-sports-poster-style.md">prompt</a> · <a href="styles/olive-scribble-sports-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="bold-anime-reaction-thumbnail-style"></a>
 <a href="styles/bold-anime-reaction-thumbnail-style"><img src="assets/thumbs/bold-anime-reaction-thumbnail-style-16x9.jpg" alt="Bold Anime Reaction Thumbnail Style preview"></a>
@@ -1167,8 +1222,6 @@ python3 scripts/validate-style-json.py .
 <em>High-impact anime thumbnails with bold yellow reaction typography.</em><br>
 <a href="styles/bold-anime-reaction-thumbnail-style/style.json">style.json</a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">prompt</a> · <a href="styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="turquoise-red-techno-manga-poster-style"></a>
 <a href="styles/turquoise-red-techno-manga-poster-style"><img src="assets/thumbs/turquoise-red-techno-manga-poster-style-16x9.jpg" alt="Turquoise Red Techno Manga Poster Style preview"></a>
@@ -1183,6 +1236,8 @@ python3 scripts/validate-style-json.py .
 <em>Pop fisheye posters with orbiting type and chromatic arcs.</em><br>
 <a href="styles/chromatic-fisheye-orbit-pop-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md">prompt</a> · <a href="styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="naive-marker-psa-poster-style"></a>
 <a href="styles/naive-marker-psa-poster-style"><img src="assets/thumbs/naive-marker-psa-poster-style-16x9.jpg" alt="Naive Marker PSA Poster Style preview"></a>
@@ -1190,8 +1245,6 @@ python3 scripts/validate-style-json.py .
 <em>Friendly civic PSA posters with naive marker drawings.</em><br>
 <a href="styles/naive-marker-psa-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/naive-marker-psa-poster-style.md">prompt</a> · <a href="styles/naive-marker-psa-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="blue-bubble-fisheye-action-poster-style"></a>
 <a href="styles/blue-bubble-fisheye-action-poster-style"><img src="assets/thumbs/blue-bubble-fisheye-action-poster-style-16x9.jpg" alt="Blue Bubble Fisheye Action Poster Style preview"></a>
@@ -1206,6 +1259,8 @@ python3 scripts/validate-style-json.py .
 <em>Low-light bedroom snapshots with quiet doodle companion energy.</em><br>
 <a href="styles/cozy-bedroom-doodle-companion-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md">prompt</a> · <a href="styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="surreal-fish-doodle-landmark-photo-collage-style"></a>
 <a href="styles/surreal-fish-doodle-landmark-photo-collage-style"><img src="assets/thumbs/surreal-fish-doodle-landmark-photo-collage-style-16x9.jpg" alt="Surreal Fish Doodle Landmark Photo Collage Style preview"></a>
@@ -1213,8 +1268,6 @@ python3 scripts/validate-style-json.py .
 <em>Landmark travel photos remixed with folk-art fish doodles.</em><br>
 <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md">prompt</a> · <a href="styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="plush-comic-toy-product-poster-style"></a>
 <a href="styles/plush-comic-toy-product-poster-style"><img src="assets/thumbs/plush-comic-toy-product-poster-style-16x9.jpg" alt="Plush Comic Toy Product Poster Style preview"></a>
@@ -1229,6 +1282,8 @@ python3 scripts/validate-style-json.py .
 <em>Loose pet-comedy storyboard frames with warm sketch texture.</em><br>
 <a href="styles/rough-animation-pet-sketch-storyboard-style/style.json">style.json</a> · <a href="docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md">prompt</a> · <a href="styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="tri-color-hardcut-portrait-poster-style"></a>
 <a href="styles/tri-color-hardcut-portrait-poster-style"><img src="assets/thumbs/tri-color-hardcut-portrait-poster-style-16x9.jpg" alt="Tri Color Hardcut Portrait Poster Style preview"></a>
@@ -1236,8 +1291,6 @@ python3 scripts/validate-style-json.py .
 <em>Three-color portrait posters built from hard-edged cutout planes.</em><br>
 <a href="styles/tri-color-hardcut-portrait-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md">prompt</a> · <a href="styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="clean-triptych-travel-vlog-thumbnail-style"></a>
 <a href="styles/clean-triptych-travel-vlog-thumbnail-style"><img src="assets/thumbs/clean-triptych-travel-vlog-thumbnail-style-16x9.jpg" alt="Clean Triptych Travel Vlog Thumbnail Style preview"></a>
@@ -1252,6 +1305,8 @@ python3 scripts/validate-style-json.py .
 <em>Real-life snapshots layered with mascot stickers and doodles.</em><br>
 <a href="styles/playful-mascot-doodle-snapshot-style/style.json">style.json</a> · <a href="docs/copy-prompts/playful-mascot-doodle-snapshot-style.md">prompt</a> · <a href="styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="teenage-skate-scribble-screenprint-poster-style"></a>
 <a href="styles/teenage-skate-scribble-screenprint-poster-style"><img src="assets/thumbs/teenage-skate-scribble-screenprint-poster-style-16x9.jpg" alt="Teenage Skate Scribble Screenprint Poster Style preview"></a>
@@ -1259,8 +1314,6 @@ python3 scripts/validate-style-json.py .
 <em>Retro skate posters with scribbled borders and screenprint grit.</em><br>
 <a href="styles/teenage-skate-scribble-screenprint-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md">prompt</a> · <a href="styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="impact-burst-halftone-comic-poster-style"></a>
 <a href="styles/impact-burst-halftone-comic-poster-style"><img src="assets/thumbs/impact-burst-halftone-comic-poster-style-16x9.jpg" alt="Impact Burst Halftone Comic Poster Style preview"></a>
@@ -1275,6 +1328,8 @@ python3 scripts/validate-style-json.py .
 <em>Summer fisheye posters with sunny bubble typography.</em><br>
 <a href="styles/sunburst-fisheye-bubble-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md">prompt</a> · <a href="styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="backseat-transit-doodle-letter-poster-style"></a>
 <a href="styles/backseat-transit-doodle-letter-poster-style"><img src="assets/thumbs/backseat-transit-doodle-letter-poster-style-16x9.jpg" alt="Backseat Transit Doodle Letter Poster Style preview"></a>
@@ -1282,8 +1337,6 @@ python3 scripts/validate-style-json.py .
 <em>Transit photos turned into energetic hand-lettered travel posters.</em><br>
 <a href="styles/backseat-transit-doodle-letter-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md">prompt</a> · <a href="styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="analog-sticker-diary-portrait-poster-style"></a>
 <a href="styles/analog-sticker-diary-portrait-poster-style"><img src="assets/thumbs/analog-sticker-diary-portrait-poster-style-16x9.jpg" alt="Analog Sticker Diary Portrait Poster Style preview"></a>
@@ -1298,6 +1351,8 @@ python3 scripts/validate-style-json.py .
 <em>Minimal diamond-aperture posters with folded perspective typography.</em><br>
 <a href="styles/folded-diamond-perspective-type-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/folded-diamond-perspective-type-poster-style.md">prompt</a> · <a href="styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="gothic-cat-doodle-photo-collage-style"></a>
 <a href="styles/gothic-cat-doodle-photo-collage-style"><img src="assets/thumbs/gothic-cat-doodle-photo-collage-style-16x9.jpg" alt="Gothic Cat Doodle Photo Collage Style preview"></a>
@@ -1305,8 +1360,6 @@ python3 scripts/validate-style-json.py .
 <em>Dramatic architecture photos with playful cartoon creature overlays.</em><br>
 <a href="styles/gothic-cat-doodle-photo-collage-style/style.json">style.json</a> · <a href="docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md">prompt</a> · <a href="styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="k-pop-apocalypse-ransom-zine-style"></a>
 <a href="styles/k-pop-apocalypse-ransom-zine-style"><img src="assets/thumbs/k-pop-apocalypse-ransom-zine-style-16x9.jpg" alt="K-Pop Apocalypse Ransom Zine Style preview"></a>
@@ -1321,6 +1374,8 @@ python3 scripts/validate-style-json.py .
 <em>Crowded transit snapshots layered with marker doodles and oversized comic faces.</em><br>
 <a href="styles/metro-doodle-snapshot-diary-style/style.json">style.json</a> · <a href="docs/copy-prompts/metro-doodle-snapshot-diary-style.md">prompt</a> · <a href="styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="mountain-trail-monster-doodle-poster-style"></a>
 <a href="styles/mountain-trail-monster-doodle-poster-style"><img src="assets/thumbs/mountain-trail-monster-doodle-poster-style-16x9.jpg" alt="Mountain Trail Monster Doodle Poster Style preview"></a>
@@ -1328,8 +1383,6 @@ python3 scripts/validate-style-json.py .
 <em>Outdoor hiking photos remixed with monster companions and annotations.</em><br>
 <a href="styles/mountain-trail-monster-doodle-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md">prompt</a> · <a href="styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="neon-doodle-gallery-snapshot-style"></a>
 <a href="styles/neon-doodle-gallery-snapshot-style"><img src="assets/thumbs/neon-doodle-gallery-snapshot-style-16x9.jpg" alt="Neon Doodle Gallery Snapshot preview"></a>
@@ -1344,6 +1397,8 @@ python3 scripts/validate-style-json.py .
 <em>Outdoor editorial posters with warped neon kinetic typography.</em><br>
 <a href="styles/neon-kinetic-typographic-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/neon-kinetic-typographic-poster-style.md">prompt</a> · <a href="styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="orange-brush-mascot-action-poster-style"></a>
 <a href="styles/orange-brush-mascot-action-poster-style"><img src="assets/thumbs/orange-brush-mascot-action-poster-style-16x9.jpg" alt="Orange Brush Mascot Action Poster Style preview"></a>
@@ -1351,8 +1406,6 @@ python3 scripts/validate-style-json.py .
 <em>Sparse mascot illustrations with orange brush texture and print grain.</em><br>
 <a href="styles/orange-brush-mascot-action-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/orange-brush-mascot-action-poster-style.md">prompt</a> · <a href="styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="photo-illustration-overlay-poster-style"></a>
 <a href="styles/photo-illustration-overlay-poster-style"><img src="assets/thumbs/photo-illustration-overlay-poster-style-16x9.jpg" alt="Photo Illustration Overlay Poster preview"></a>
@@ -1367,6 +1420,8 @@ python3 scripts/validate-style-json.py .
 <em>Mobile city-event posters with fuzzy mascots and app-card framing.</em><br>
 <a href="styles/plush-city-festival-mobile-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/plush-city-festival-mobile-poster-style.md">prompt</a> · <a href="styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="pop-bubble-letter-photo-poster-style"></a>
 <a href="styles/pop-bubble-letter-photo-poster-style"><img src="assets/thumbs/pop-bubble-letter-photo-poster-style-16x9.jpg" alt="Pop Bubble Letter Photo Poster Style preview"></a>
@@ -1374,8 +1429,6 @@ python3 scripts/validate-style-json.py .
 <em>Fashion photo posters framed by candy-colored bubble letters.</em><br>
 <a href="styles/pop-bubble-letter-photo-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/pop-bubble-letter-photo-poster-style.md">prompt</a> · <a href="styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="soft-analog-future-editorial-poster-style"></a>
 <a href="styles/soft-analog-future-editorial-poster-style"><img src="assets/thumbs/soft-analog-future-editorial-poster-style-16x9.jpg" alt="Soft Analog Future Editorial Poster preview"></a>
@@ -1390,6 +1443,8 @@ python3 scripts/validate-style-json.py .
 <em>Subway photos overlaid with social-media-style cartoon doodles and handwritten notes.</em><br>
 <a href="styles/subway-doodle-photo-hybrid-style/style.json">style.json</a> · <a href="docs/copy-prompts/subway-doodle-photo-hybrid-style.md">prompt</a> · <a href="styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg">9:16</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a id="tokyo-kawaii-travel-collage-poster-style"></a>
 <a href="styles/tokyo-kawaii-travel-collage-poster-style"><img src="assets/thumbs/tokyo-kawaii-travel-collage-poster-style-16x9.jpg" alt="Tokyo Kawaii Travel Collage Poster preview"></a>
@@ -1397,8 +1452,6 @@ python3 scripts/validate-style-json.py .
 <em>Maximal Tokyo travel collages with manga bubbles and stickers.</em><br>
 <a href="styles/tokyo-kawaii-travel-collage-poster-style/style.json">style.json</a> · <a href="docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md">prompt</a> · <a href="styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg">9:16</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a id="urban-transit-doodle-diary-style"></a>
 <a href="styles/urban-transit-doodle-diary-style"><img src="assets/thumbs/urban-transit-doodle-diary-style-16x9.jpg" alt="Urban Transit Doodle Diary Style preview"></a>
