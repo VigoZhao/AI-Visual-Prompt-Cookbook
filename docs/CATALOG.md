@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 165 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 167 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Everyday Riso
+
+<a href="../styles/everyday-riso"><img src="../assets/thumbs/everyday-riso-16x9.jpg" width="720" alt="Everyday Riso preview"></a>
+
+Warm, cute everyday-life risograph posters: one chunky rounded person does an ordinary daily action while exactly one object is absurdly oversized. Printed in three inks only (warm orange, olive green, near-black details) on cream paper, with visible misregistration, ink grain, coarse halftone shading and brown orange-over-olive overprint, plus one tiny black corner label.
+
+Files: [style.json](../styles/everyday-riso/style.json) · [Copy Prompt](copy-prompts/everyday-riso.md) · [16:9 preview](../styles/everyday-riso/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso/preview-9x16.jpg) · [Folder](../styles/everyday-riso)
+
+---
+
+### Everyday Riso — Part 2
+
+<a href="../styles/everyday-riso-part-02"><img src="../assets/thumbs/everyday-riso-part-02-16x9.jpg" width="720" alt="Everyday Riso — Part 2 preview"></a>
+
+Part 2 of Everyday Riso: four new everyday cases — moving day, morning coffee, an ice-cream treat and a bakery bike ride — in the same three-ink orange, olive and near-black risograph system on cream paper, with one chunky rounded person, exactly one absurdly oversized object, visible misregistration and halftone grain, and one tiny black corner label.
+
+Files: [style.json](../styles/everyday-riso-part-02/style.json) · [Copy Prompt](copy-prompts/everyday-riso-part-02.md) · [16:9 preview](../styles/everyday-riso-part-02/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso-part-02/preview-9x16.jpg) · [Folder](../styles/everyday-riso-part-02)
+
+---
 
 ### Chromatic Gesture Characters
 

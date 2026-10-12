@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 165 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 167 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -61,6 +61,8 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Everyday Riso](https://prompts.vigocreativeai.com/site/styles/everyday-riso/): Three-ink risograph posters of one chunky rounded person doing a daily routine with exactly one absurdly oversized object, misregistration, halftone grain and a tiny corner label. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso/style.json
+- [Everyday Riso — Part 2](https://prompts.vigocreativeai.com/site/styles/everyday-riso-part-02/): Part 2: moving day, morning coffee, an ice-cream treat and a bakery bike ride in three-ink orange, olive and black riso with one oversized object. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso-part-02/style.json
 - [Chromatic Gesture Characters](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters/): Exaggerated geometric character posters with sculptural color blocks, minimal black faces, hot-pink clashes, airbrushed shadows and fine print grain. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters/style.json
 - [Chromatic Gesture Characters — Part 2](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-02/): Part 2: bread baking, cycling, dog walking and photography in exaggerated geometric figures, hot-pink clashes and grainy print texture. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-02/style.json
 - [Chromatic Gesture Characters — Part 3](https://prompts.vigocreativeai.com/site/styles/chromatic-gesture-characters-part-03/): Part 3: topiary gardening, freediving, a chess move and carrying boxes in exaggerated geometric figures and hot-pink clashes. Raw JSON: https://prompts.vigocreativeai.com/styles/chromatic-gesture-characters-part-03/style.json
