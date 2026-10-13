@@ -5,8 +5,9 @@
 1. Fork the repository and create a new branch.
 2. Add a new directory under `styles/<slug>/`.
 3. Add exactly one `style.json` file and two preview images.
-4. Run the validation command.
-5. Open a pull request with a short description of the visual system and sample use cases.
+4. Add the style to the top of `"styles"` in `data/catalog.json` with a one-line gallery `summary`, then run `python3 scripts/generate-readme.py` to update every README and `docs/CATALOG.md`.
+5. Run the validation command.
+6. Open a pull request with a short description of the visual system and sample use cases.
 
 ## Style Slug Naming
 
@@ -36,6 +37,13 @@ The template should preserve the reusable visual system while requiring new subj
 - Use JPG format, preferably under 1MB and always under 5MB.
 - Avoid visible watermarks, platform UI, QR codes, account handles, or brand-owned marks.
 
+## README and Catalog
+
+The Featured and All Styles galleries in all six READMEs, the badge counts, and `docs/CATALOG.md` are generated from `data/catalog.json` plus each `style.json`. Do not edit those sections by hand; CI regenerates them and fails if they differ.
+
+- `styles`: gallery order, newest first. Each entry has `slug`, a short `summary`, and optional `summary_i18n` translations keyed by `zh-CN`, `zh-TW`, `ja`, `ko`, `id`.
+- `featured`: exactly six styles. `description` is optional and defaults to the style's `style_summary`.
+
 ## Validation
 
 Run this command from the repository root before submitting:
@@ -54,5 +62,6 @@ Do not include original reference images, watermarks, platform identifiers, QR c
 - [ ] The folder contains only `style.json`, `preview-16x9.jpg`, and `preview-9x16.jpg`.
 - [ ] The slug is lowercase kebab-case and no longer than 60 characters.
 - [ ] The preview images are JPGs and meet the naming requirements.
+- [ ] The style is listed in `data/catalog.json` and `python3 scripts/generate-readme.py` has been run.
 - [ ] `python3 scripts/validate-style-json.py .` passes.
 - [ ] No source references, watermarks, QR codes, account handles, or unauthorized brand assets are included.

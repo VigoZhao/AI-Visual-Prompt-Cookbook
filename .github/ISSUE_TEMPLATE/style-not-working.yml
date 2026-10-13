@@ -1,0 +1,36 @@
+name: A style doesn't work as expected
+description: The output drifts from the preview, text renders wrong, or the JSON breaks in your tool.
+title: "[Style] <style-slug>: "
+labels: ["style-quality"]
+body:
+  - type: input
+    id: style
+    attributes:
+      label: Style
+      description: Folder name or link, e.g. styles/everyday-riso
+      placeholder: styles/everyday-riso
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: Image model
+      options:
+        - ChatGPT Images / GPT Image
+        - Nano Banana Pro (Gemini)
+        - Midjourney
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, what you got, and the variable values you used.
+    validations:
+      required: true
+  - type: textarea
+    id: images
+    attributes:
+      label: Result images
+      description: Drag your generated image(s) here if you can. They help most.

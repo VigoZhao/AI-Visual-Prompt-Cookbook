@@ -1,0 +1,21 @@
+title: "[Made with] <style name>"
+body:
+  - type: input
+    id: style
+    attributes:
+      label: Style used
+      placeholder: styles/everyday-riso
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Image model
+      placeholder: Nano Banana Pro, GPT Image, Midjourney...
+  - type: textarea
+    id: images
+    attributes:
+      label: Your images
+      description: Drag images here. Mention any variable values or tweaks that worked well.
+    validations:
+      required: true
