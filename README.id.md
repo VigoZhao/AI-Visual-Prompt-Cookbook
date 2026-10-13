@@ -181,12 +181,13 @@ styles/<style-slug>/
   preview-9x16.jpg    # Preview portrait
 ```
 
-## style.json v2.1
+## style.json v2.1 / v2.2
 
 Setiap `style.json` bersifat mandiri: salin seluruh file ke LLM, lalu isi nilai untuk variabel yang dideklarasikan di `environment_variables` atau edit salah satu case di `examples[*].values`.
 
 - `prompt_template` adalah prompt gaya reusable dengan placeholder `{VARIABLE}`.
 - `environment_variables` mendeklarasikan semua placeholder yang dapat dipakai template.
+- Gaya yang lebih baru memakai `"schema_version": "2.2"` dan hanya mendeklarasikan variabel yang dipakai template-nya (misalnya `SUBJECT`, `MAIN_TEXT`, `DESIGN_DIRECTION`); gaya v2.1 yang lebih lama memakai sepuluh variabel standar.
 - `examples` berisi kasus siap edit; setiap kasus hanya menyimpan `case_name` dan `values`.
 - `style_fidelity_anchors` dan `source_content_to_avoid` menjelaskan apa yang harus dipertahankan dan apa yang tidak boleh disalin.
 - `negative_prompt` membantu menghindari watermark, logo, rekreasi sumber langsung, dan output yang keluar dari gaya.

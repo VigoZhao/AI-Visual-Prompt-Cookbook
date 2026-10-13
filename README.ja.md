@@ -181,12 +181,13 @@ styles/<style-slug>/
   preview-9x16.jpg    # 縦長プレビュー
 ```
 
-## style.json v2.1
+## style.json v2.1 / v2.2
 
 各 `style.json` は自己完結しています。ファイル全体を LLM にコピーし、`environment_variables` で宣言された変数に値を指定するか、`examples[*].values` のケースを編集して使います。
 
 - `prompt_template` は `{VARIABLE}` プレースホルダーを持つ再利用可能なスタイルプロンプトです。
 - `environment_variables` はテンプレートで使えるすべての変数を宣言します。
+- 新しいスタイルは `"schema_version": "2.2"` を持ち、テンプレートで実際に使う変数だけを宣言します（例：`SUBJECT`、`MAIN_TEXT`、`DESIGN_DIRECTION`）。以前の v2.1 スタイルは 10 個の標準変数を使います。
 - `examples` は編集しやすいケース集で、各ケースは `case_name` と `values` だけを持ちます。
 - `style_fidelity_anchors` と `source_content_to_avoid` は、保つべきスタイル要素とコピーしてはいけない元内容を分けます。
 - `negative_prompt` はウォーターマーク、ロゴ、元画像の直接再現、スタイル外れを避けるために使います。

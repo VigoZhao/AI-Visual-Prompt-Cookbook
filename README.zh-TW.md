@@ -181,12 +181,13 @@ styles/<style-slug>/
   preview-9x16.jpg    # 直向預覽圖
 ```
 
-## style.json v2.1
+## style.json v2.1 / v2.2
 
 每個 `style.json` 都是自包含的：把完整文件複製給 LLM，然後根據 `environment_variables` 的變數說明填寫新值，或直接改寫某個 `examples[*].values` 案例。
 
 - `prompt_template` 是帶 `{VARIABLE}` 佔位符的可重用風格提示詞。
 - `environment_variables` 聲明模板裡可使用的所有變數。
+- 較新的風格帶有 `"schema_version": "2.2"`，只宣告模板真正用到的變數（如 `SUBJECT`、`MAIN_TEXT`、`DESIGN_DIRECTION`）；較早的 v2.1 風格使用固定的 10 個標準變數。
 - `examples` 提供可直接改寫的案例；每個案例只包含 `case_name` 和 `values`。
 - `style_fidelity_anchors` 和 `source_content_to_avoid` 分別說明要保留的風格錨點，以及不能複製的源內容。
 - `negative_prompt` 用來排除水印、Logo、直接複刻源圖和偏離風格的輸出。
