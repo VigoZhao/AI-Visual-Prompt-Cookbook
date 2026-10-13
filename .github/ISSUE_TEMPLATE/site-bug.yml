@@ -1,0 +1,18 @@
+name: Gallery or repo bug
+description: A broken link, missing preview, or something wrong on prompts.vigocreativeai.com.
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Page URL or file path.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong
+      description: What you saw, and what you expected instead. Add a screenshot if it helps.
+    validations:
+      required: true

@@ -1,0 +1,882 @@
+{
+  "featured": [
+    {
+      "slug": "everyday-riso",
+      "description": "Warm, cute everyday-life risograph posters: one chunky rounded person does an ordinary daily action while exactly one object is absurdly oversized, printed in three inks (warm orange, olive green, near-black) on cream paper with misregistration, ink grain, coarse halftone and overprint brown, plus one tiny corner label."
+    },
+    {
+      "slug": "chromatic-gesture-characters"
+    },
+    {
+      "slug": "velocity-type-sport"
+    },
+    {
+      "slug": "acid-jolt-photo-collage"
+    },
+    {
+      "slug": "amber-orbit-editorial"
+    },
+    {
+      "slug": "felt-motion-brand-campaign"
+    }
+  ],
+  "styles": [
+    {
+      "slug": "everyday-riso",
+      "summary": "Three-ink risograph posters of one chunky rounded person doing a daily routine with exactly one absurdly oversized object, misregistration, halftone grain and a tiny corner label."
+    },
+    {
+      "slug": "everyday-riso-part-02",
+      "summary": "Part 2: moving day, morning coffee, an ice-cream treat and a bakery bike ride in three-ink orange, olive and black riso with one oversized object."
+    },
+    {
+      "slug": "chromatic-gesture-characters",
+      "summary": "Exaggerated geometric character posters with sculptural color blocks, minimal black faces, hot-pink clashes, airbrushed shadows and fine print grain."
+    },
+    {
+      "slug": "chromatic-gesture-characters-part-02",
+      "summary": "Part 2: bread baking, cycling, dog walking and photography in exaggerated geometric figures, hot-pink clashes and grainy print texture."
+    },
+    {
+      "slug": "chromatic-gesture-characters-part-03",
+      "summary": "Part 3: topiary gardening, freediving, a chess move and carrying boxes in exaggerated geometric figures and hot-pink clashes."
+    },
+    {
+      "slug": "chromatic-gesture-characters-part-04",
+      "summary": "Part 4: pottery throwing, kite flying, accordion playing and a stretching cat in large geometric bodies and hot-pink clashes."
+    },
+    {
+      "slug": "chromatic-gesture-characters-part-05",
+      "summary": "Part 5: tea pouring, threading a needle, bowling and a snail in exaggerated geometry, hot-pink clashes and grainy print texture."
+    },
+    {
+      "slug": "chromatic-gesture-characters-part-06",
+      "summary": "Part 6: roller painting, turning a key, tightrope balancing and a toucan in geometric exaggeration and hot-pink clashes."
+    },
+    {
+      "slug": "chromatic-gesture-characters-part-07",
+      "summary": "Part 7: paper folding, headphone listening, canoe paddling and a sideways crab in geometric exaggeration and hot-pink clashes."
+    },
+    {
+      "slug": "velocity-type-sport",
+      "summary": "Extreme-perspective sports photos woven through giant white oblique type, with a bright color haze in a dark field."
+    },
+    {
+      "slug": "velocity-type-sport-part-02",
+      "summary": "Part 2: basketball, snowboarding, kayaking and boxing in giant white oblique type and single-color haze."
+    },
+    {
+      "slug": "velocity-type-sport-part-03",
+      "summary": "Part 3: tennis, still rings, speed skating and archery, framed as net, ring, blade and bowstring force structures."
+    },
+    {
+      "slug": "velocity-type-sport-part-04",
+      "summary": "Part 4: baseball swing, barbell lift, barrel surfing and gymnastics ribbon in giant white oblique type."
+    },
+    {
+      "slug": "acid-jolt-photo-collage",
+      "summary": "Punchy portrait posters mixing warm low-fi close-ups, blunt photo fragments, massive lemon-yellow lettering, and loose marker signals."
+    },
+    {
+      "slug": "amber-orbit-editorial",
+      "summary": "Warm amber macros with ivory serif type and fine orbital lines, turning tactile details into quiet editorial stories."
+    },
+    {
+      "slug": "felt-motion-brand-campaign",
+      "summary": "Intimate sports photographs with moody warm light, selective focus, and a white original logo plus two-line wordmark at center."
+    },
+    {
+      "slug": "felt-motion-brand-campaign-set-02",
+      "summary": "A second Felt Motion set: intimate sports photographs, selective focus, and a centered white logo with a tight two-line wordmark."
+    },
+    {
+      "slug": "monumental-editorial-set-02",
+      "summary": "Giant condensed white lettering colliding with tactile botanical, musical, food, and chrome-product photography."
+    },
+    {
+      "slug": "monumental-sport-editorial",
+      "summary": "Athletic photography colliding with monumental condensed white type on warm stone neutrals and deep black shapes."
+    },
+    {
+      "slug": "slice-signal-editorial",
+      "summary": "Experimental editorial posters with oversized condensed headlines, scarlet blocks, and photograph subjects cut by vertical slices."
+    },
+    {
+      "slug": "chromatic-impact-athlete",
+      "summary": "High-contrast athletic posters colliding grayscale body photography, extreme perspective, and a single red-orange energy accent."
+    },
+    {
+      "slug": "cream-curve-editorial",
+      "summary": "Sunlit editorial posters shaped by monumental condensed cream lettering, elastic curves, and subject/type depth exchanges."
+    },
+    {
+      "slug": "kinetic-footwear-process",
+      "summary": "Motion-led footwear campaigns showing a shoe mechanism through action, sequential states, and tactile engineering close-ups."
+    },
+    {
+      "slug": "sensory-footwear-lab",
+      "summary": "Minimal future-sport concepts pairing tactile podded outsoles with quiet athletic gestures, ice-cool architecture, and signal-coral accents."
+    },
+    {
+      "slug": "vector-atelier",
+      "summary": "Full-bleed future-sport posters isolating one razor-sharp piece of gear against directional motion trails and a giant white slogan."
+    },
+    {
+      "slug": "vector-process-study",
+      "summary": "Premium footwear process boards explaining load, flex, fit, and construction through sequential panels and tactile macros."
+    },
+    {
+      "slug": "annotated-absence",
+      "summary": "Photographic subjects dissolve into white paper, kept as hand-traced contours, intimate word labels, and sparse gray fragments."
+    },
+    {
+      "slug": "ink-body-manifesto",
+      "summary": "Figures whose bodies are built from irregular black handwriting on pale paper, with compact heavy titles and sparse red marks."
+    },
+    {
+      "slug": "memory-fragment-portrait",
+      "summary": "Halftone portraits tiled by a white grid, with cells swapped for faded snapshots, blanks, and one fluorescent-pink memory."
+    },
+    {
+      "slug": "portrait-as-terrain",
+      "summary": "Monumental single-color landscapes made from human fragments, inhabited by tiny figures."
+    },
+    {
+      "slug": "acid-burst-motion-type",
+      "summary": "Wide-angle action posters with an enlarged near-lens object, saturated blue environmental depth, an acid-colored angular burst, and oversized lean type sweeping through the foreground."
+    },
+    {
+      "slug": "cream-megatype-impact-editorial",
+      "summary": "Close wide-angle action photography interlocked with enormous warm-cream condensed type, cobalt depth, and a compact rule-divided editorial rail."
+    },
+    {
+      "slug": "duotone-step-window-editorial",
+      "summary": "Oversized grotesk type and emphatic event numerals over a grainy action photograph selectively re-inked through hard-edged stepped color windows."
+    },
+    {
+      "slug": "halftone-chroma-fragment-editorial",
+      "summary": "High-contrast collages where monumental coarse halftones meet crisp color fragments, heavy display typography, and sparse handwritten marks."
+    },
+    {
+      "slug": "neon-strip-low-angle-campaign",
+      "summary": "Product-led oblique photography on muted grey, with precise highlighter editorial typography and a distinct composition for every product."
+    },
+    {
+      "slug": "op-stripe-card-editorial",
+      "summary": "Playing-card editorial language with optical black ink ribbons, monumental high-contrast serif type, and a crisp colored figure on textured light paper."
+    },
+    {
+      "slug": "skyward-condensed-action",
+      "summary": "Worm-eye airborne sports photography against open cool blue sky, with monumental ultra-condensed fluorescent type occluded by a foreshortened silhouette."
+    },
+    {
+      "slug": "color-pop-interlocked-marker-type",
+      "summary": "Playful hand-drawn megatype posters with irregular interlocking colored letters, bold black marker contours, sparse doodles, and neutral paper."
+    },
+    {
+      "slug": "grainy-envelope-flyer-collage",
+      "summary": "Tactile event posters with repeated photocopied flyers spilling from a saturated paper envelope, framed by cutout icons and spare black type."
+    },
+    {
+      "slug": "monochrome-tech-grid-editorial",
+      "summary": "Severe black-and-white editorial posters with an oversized compressed headline, a dense technical micro-information grid, and one monumentally cropped documentary photograph."
+    },
+    {
+      "slug": "tangerine-type-helix-fisheye",
+      "summary": "Close wide-angle portraits wrapped by a descending sculptural 3D type helix, with strong near/far letter scale, unobstructed faces, and case-specific materials and palettes."
+    },
+    {
+      "slug": "motorsport-technical-editorial",
+      "summary": "High-energy motorsport editorial posters with dramatic racing photography, oversized condensed type, industrial info cards, and signal-yellow technical accents."
+    },
+    {
+      "slug": "split-ink-monumental-editorial",
+      "summary": "High-contrast editorial collage with cream-and-vermilion split fields, monumental cropped black letter architecture, monochrome full-body subjects, and tactile screenprint texture."
+    },
+    {
+      "slug": "crimson-vanishing-point-editorial",
+      "summary": "Monochrome ultra-wide forced-perspective corridors with a lone silhouette walker, giant scarlet geometric letter planes receding toward the vanishing point, and motion-blurred crowds."
+    },
+    {
+      "slug": "retro-pop-sticker-cutout",
+      "summary": "Retro-pop scrapbook posters with oversized yellow headline typography, scarlet offset shadows, thick white die-cut photo cutouts, textured cobalt-blue paper, and playful accent stickers."
+    },
+    {
+      "slug": "red-monochrome-editorial-grid",
+      "summary": "Confrontational editorial posters with monumental condensed type, red-and-black duotone photography, rigid off-white gutters, and paper-like ink grain treated as equal grid modules."
+    },
+    {
+      "slug": "split-scorched-editorial-poster",
+      "summary": "High-contrast editorial campaign posters with a dark ember-lit cropped hero, an oversized foreground prop that breaks the dark-versus-paper seam, and a quiet warm-paper type field."
+    },
+    {
+      "slug": "neon-scribble-editorial-poster",
+      "summary": "Confrontational editorial posters with monumental ultra-condensed red type, a cropped black-and-white halftone portrait, offset photo fragments, and electric-blue and acid-green marker scribbles."
+    },
+    {
+      "slug": "vermilion-folk-screenprint-character-poster",
+      "summary": "Hand-pulled theatrical screenprint posters with a monumental front-facing character, a limited vermilion-to-rose ink family, carved folk-pattern fills, and integrated hand-lettered type."
+    },
+    {
+      "slug": "primary-block-isometric-editorial-poster-style",
+      "summary": "Crisp editorial posters built from a diagonal cluster of oversized rounded cuboids in oblique isometric depth, with primary-color top planes, oversized grotesk labels, and Swiss-style perimeter copy."
+    },
+    {
+      "slug": "signal-red-contour-poster",
+      "summary": "Severe two-ink public-information posters with a near-black field, a monumental flat silhouette traced by an agitated signal-red contour, and detached white grotesk text fragments."
+    },
+    {
+      "slug": "electric-yellow-cutout-megatype-poster-style",
+      "summary": "High-impact pop ad posters placing an oversized photoreal cutout over monumental warped display lettering, on an electric-yellow field with black-and-cobalt type and severe cropping."
+    },
+    {
+      "slug": "burnt-orange-halftone-hero-collage",
+      "summary": "Dense celebratory editorial posters with a flash-lit photographic hero cutout, burnt-orange screenprint panels, monumental condensed headlines, coarse halftone diagrams, and dry-brush lettering."
+    },
+    {
+      "slug": "signal-red-petal-profile-editorial-cover",
+      "summary": "Maximal indie-magazine covers with a fragmented signal-red masthead, a monumental flat-color side-profile portrait, and a right-heavy mantle of overlapping cobalt, coral, and pink petal lobes."
+    },
+    {
+      "slug": "cobalt-pop-cutout-editorial",
+      "summary": "High-saturation editorial posters pairing a low-angle photographic cutout with oversized irregular orange lettering, a cobalt-to-sky-blue field, and flat green organic shapes."
+    },
+    {
+      "slug": "crimson-noir-newsprint-editorial-style",
+      "summary": "Prestige culture-magazine covers with a monumental grayscale portrait, narrow Didone display type, selective deep-crimson fragments, and a fibrous newsprint finish."
+    },
+    {
+      "slug": "electric-cobalt-motion-type-poster-style",
+      "summary": "High-energy event posters with a full-bleed motion-smeared photo, a cobalt field, fluorescent-green ultra-condensed type, oversized lower-edge numerals, and analog print texture."
+    },
+    {
+      "slug": "cobalt-torn-didone-portrait-editorial-style",
+      "summary": "Sparse fashion-editorial posters with a warm paper field, a centered halftone portrait, monumental cobalt Didone type, and an irregular torn-paper reveal."
+    },
+    {
+      "slug": "foreshortened-gradient-impact-ad-style",
+      "summary": "Kinetic worm's-eye ad posters with a monumental foreground product, a receding figure, giant edge-cropped diagonal neo-grotesk type, and a dark-to-luminous gradient field."
+    },
+    {
+      "slug": "vermilion-photocopy-tension-editorial",
+      "summary": "Confrontational posters built from one monumentally cropped near-binary photocopy photograph, a vertical condensed headline rail, compact annotations, and a single vermilion ink layer of sharp shards and edge-born organic forms."
+    },
+    {
+      "slug": "cobalt-xerox-script-editorial-poster-style",
+      "summary": "Compressed cobalt posters where fragmented grotesk headlines, two enormous repeated outline-script words, an ambiguous macro halftone photo, a dark flat Xerox cutout, and dense microcopy collide edge to edge."
+    },
+    {
+      "slug": "coral-window-megatype-motion-poster-style",
+      "summary": "Tactile motion posters built from a coral-red paper field, one pale-blue photographic window, colossal black condensed type crossing the image boundary, a single action subject, sparse micro labels, and one bold direction symbol."
+    },
+    {
+      "slug": "cobalt-megatype-roadside-travel-editorial-style",
+      "summary": "Nostalgic roadside-travel posters combining cropped cobalt megatype, sparse locator graphics, warm straight-on architectural photography, cream uncoated paper, and one loose hand-painted word across the dark foreground."
+    },
+    {
+      "slug": "surreal-megatype-dossier-collage",
+      "summary": "Dense neo-editorial posters layering monumental white typography behind a centered surreal photographic cutout, framed by technical microcopy, ruled panels, celestial symbols, and coarse vintage grain on black."
+    },
+    {
+      "slug": "urban-photo-ink-beast-collage-style",
+      "summary": "Surreal collage posters layering monumental flat-ink beasts and tiny figures over faded archival city photography, with cut-paper masses, hand-drawn contours, and sparse bright accents."
+    },
+    {
+      "slug": "prismatic-glass-animal-weekend-editorial",
+      "summary": "Sparse black posters built around one oversized translucent glass animal with smoky depth, liquid-chrome edges, rainbow refractions, and futuristic micro-editorial weekend copy."
+    },
+    {
+      "slug": "sun-faded-scenic-editorial-poster",
+      "summary": "Nostalgic scenic travel posters with enormous warm-ivory condensed headlines, a flowing tangerine script accent, tiny magazine microcopy, and sun-faded analog film grain."
+    },
+    {
+      "slug": "cyan-grain-macro-megatype-poster-style",
+      "summary": "Sparse experimental posters built from one radically enlarged macro photograph, a saturated cyan field, monumental interlocking white letterforms, and tactile analog print grain."
+    },
+    {
+      "slug": "retro-future-chrome-portrait-dossier",
+      "summary": "Retro-futurist editorial portrait posters with a technical dossier sidebar, an edge-cropped posterized face, liquid-chrome interruptions, optical diagrams, and coarse halftone print grain."
+    },
+    {
+      "slug": "pink-anime-motorcycle-spec-poster-style",
+      "summary": "Anime motorsport dossier posters pairing an original rider with a hero motorcycle, oversized italic model codes, a cream-and-magenta editorial grid, and a compact spec card."
+    },
+    {
+      "slug": "xerox-neon-editorial-collage-style",
+      "summary": "Photocopied editorial collage posters with a distressed black headline, a halftone photo cutout, cyan-green misregistration, fluorescent paint swashes, and marker scribbles."
+    },
+    {
+      "slug": "crimson-ink-manga-dossier",
+      "summary": "High-density manga dossier posters with a foreshortened hero, distressed condensed headlines, newspaper sidebars, and a crimson-black-paper palette."
+    },
+    {
+      "slug": "lime-loop-megatype-action-poster-style",
+      "summary": "Studio action posters with an overhead subject, stacked dark-green megatype, a fluorescent-lime motion loop, and clean white space."
+    },
+    {
+      "slug": "yellow-graffiti-fisheye-manga-street-poster-style",
+      "summary": "Fisheye street posters mixing manga ink cutouts, sprayed yellow graffiti type, pavement tag texture, and anxious character energy."
+    },
+    {
+      "slug": "red-yellow-product-trophy-collage-style",
+      "summary": "Fast-food billboard collages with red-and-yellow blocks, glossy cutout products, and a trophy silhouette built from product objects."
+    },
+    {
+      "slug": "manga-dossier-blueprint-poster",
+      "summary": "Manga dossier posters with cream margins, grayscale ink portraits, cobalt-blue technical panels, and editorial annotation rails."
+    },
+    {
+      "slug": "red-black-manga-tabloid-poster-style",
+      "summary": "Dense red-black manga tabloids with cropped ink characters, editorial metadata blocks, halftone shading, and photocopy paper texture."
+    },
+    {
+      "slug": "ice-cyan-megatype-action-poster-style",
+      "summary": "Ice-white action posters with oversized cyan megatype, ghost text layers, a cutout action photo, and chartreuse motion blur."
+    },
+    {
+      "slug": "scarlet-megatype-action-collage-style",
+      "summary": "Scarlet action key-art with diagonal block megatype, layered cutout subjects, hard graphic shadows, and controlled print grain."
+    },
+    {
+      "slug": "jagged-red-street-photo-event-poster-style",
+      "summary": "High-impact street posters with black-and-white photo cores, jagged red-and-black display type, thick white gutters, and three-color print energy."
+    },
+    {
+      "slug": "neon-stadium-3d-hero-type-poster-style",
+      "summary": "Hyper-saturated 3D stadium posters with toy-like heroes, cropped condensed type, lime-and-purple fields, and motion-blurred debris."
+    },
+    {
+      "slug": "dusk-cyan-layered-type-poster-style",
+      "summary": "Full-bleed dusk photo posters with navy silhouettes, oversized cyan-and-white type, script swashes, and crisp vector icons."
+    },
+    {
+      "slug": "electric-blue-cutout-manga-poster-style",
+      "summary": "Electric-blue manga posters with white cutout geometry, rounded modular type, orange microtype, and a cel-shaded subject in exaggerated perspective."
+    },
+    {
+      "slug": "y2k-streetwear-sticker-collage-style",
+      "summary": "Dense Y2K street collages with cutout subjects, sticker props, comic typography, and saturated yellow-blue-green accents."
+    },
+    {
+      "slug": "cream-smoke-city-manga-poster-style",
+      "summary": "Manga ink city scenes with cream cloud masses, sparse teal frames, peach accents, and precise miniature urban architecture."
+    },
+    {
+      "slug": "red-yellow-grunge-skate-cover-style",
+      "summary": "Raw red-and-yellow action-culture covers with flash-lit cutouts, warped headline type, boxed callouts, and analog print grit."
+    },
+    {
+      "slug": "monochrome-xerox-sports-dossier",
+      "summary": "Black-and-white xerox sports dossiers with cropped subjects, inset photo panels, distressed condensed type, and press-kit grain."
+    },
+    {
+      "slug": "liquid-chrome-clearance-poster-style",
+      "summary": "High-impact clearance posters with glossy liquid-chrome 3D type, acid-lime gradients, sale-interface microcopy, and barcode-style retail panels."
+    },
+    {
+      "slug": "hot-ink-comic-poster",
+      "summary": "Loud underground comic flyers with mustard fields, coral cutouts, heavy marker outlines, hand-lettered bubble type, and dense comic symbols."
+    },
+    {
+      "slug": "kinetic-editorial-photo-collage-style",
+      "summary": "High-energy action posters built from staggered photo tiles, a cutout motion subject, bold black condensed type, loose ink speed marks, and sparse line-art scaffolding."
+    },
+    {
+      "slug": "sunlit-coastal-product-blitz",
+      "summary": "Sunlit photoreal coastal product ads with tropical botanicals, ocean-blue depth, distressed white brush type, dense label blocks, curved callouts, and gold seal badges."
+    },
+    {
+      "slug": "monochrome-grid-sneaker-tech-spec",
+      "summary": "Black-and-white footwear tech-spec posters with an oversized sneaker hero, engineering grid, evidence panels, macro callouts, pixelated uppercase type, and coarse halftone print."
+    },
+    {
+      "slug": "sky-blue-lucky-tag-doodle-poster-style",
+      "summary": "Sky-blue doodle posters with chunky white type, a hanging lucky-tag plaque, thick black outlines, and one big playful mascot."
+    },
+    {
+      "slug": "neon-type-photo-scribble-poster",
+      "summary": "Neon event posters with huge condensed type, documentary photo crops, and raw white scribble gestures."
+    },
+    {
+      "slug": "loose-scribble-riso-print-style",
+      "summary": "Sparse riso posters with wavering contours, overprint accents, handwritten margins, and visible paper grain."
+    },
+    {
+      "slug": "jade-glyph-grocer-collage-poster-style",
+      "summary": "Cream grocer posters with jade glyphs, vegetable silhouettes, and glossy produce-photo centerpieces."
+    },
+    {
+      "slug": "scarlet-court-photo-type-poster-style",
+      "summary": "Scarlet action posters with blue sports panels, cutout athletes, cream typography, and gritty print texture."
+    },
+    {
+      "slug": "sunlit-kinetic-block-type-photo-poster-style",
+      "summary": "Sunlit sports editorials with oversized cream block type, diagonal photo crops, and bright sky fields."
+    },
+    {
+      "slug": "scarlet-block-cutout-doodle-book-cover-style",
+      "summary": "Literary white-paper covers with scarlet letterforms, central cutout objects, marker contours, and asymmetrical space."
+    },
+    {
+      "slug": "halftone-assemblage-metaphor-psa-poster-style",
+      "summary": "Retro PSA posters where everyday materials form symbolic halftone silhouettes on aged paper.",
+      "summary_i18n": {
+        "zh-CN": "复古公益海报，用日常材料拼出象征性网点剪影，铺在老纸张上。",
+        "zh-TW": "復古公益海報，用日常材料拼出象徵性網點剪影，鋪在老紙張上。",
+        "ja": "日用品で象徴的なハーフトーンシルエットを作る、古紙風のレトロPSAポスター。",
+        "ko": "일상 소재로 상징적 하프톤 실루엣을 만드는 낡은 종이 질감의 레트로 PSA 포스터.",
+        "id": "Poster PSA retro dengan material sehari-hari yang membentuk siluet halftone simbolik di atas kertas tua."
+      }
+    },
+    {
+      "slug": "school-grid-paper-cutout-poster",
+      "summary": "Nostalgic grid-paper posters with torn-paper cutout objects, handwritten notes, and soft shadows.",
+      "summary_i18n": {
+        "zh-CN": "怀旧方格纸海报，撕纸剪贴物件、手写笔记和柔和纸影。",
+        "zh-TW": "懷舊方格紙海報，撕紙剪貼物件、手寫筆記和柔和紙影。",
+        "ja": "方眼紙に切り貼りした紙のオブジェ、手書きメモ、柔らかな影を置く懐かしいポスター。",
+        "ko": "격자 종이에 찢은 종이 오브젝트, 손글씨 메모, 부드러운 그림자를 얹은 향수 어린 포스터.",
+        "id": "Poster kertas grid bernuansa nostalgia dengan objek potongan kertas, catatan tangan, dan bayangan lembut."
+      }
+    },
+    {
+      "slug": "naive-marker-quote-card-style",
+      "summary": "Absurd quote-card posters with crude marker outlines, pastel panels, blue lettering, and object gags.",
+      "summary_i18n": {
+        "zh-CN": "荒诞语录卡海报，粗马克笔轮廓、粉彩面板、蓝色块字和物件笑点。",
+        "zh-TW": "荒誕語錄卡海報，粗麥克筆輪廓、粉彩面板、藍色塊字和物件笑點。",
+        "ja": "粗いマーカー線、パステル面、青い角文字、物のギャグで作る不条理な引用カードポスター。",
+        "ko": "거친 마커 윤곽, 파스텔 패널, 파란 블록 글자, 사물 개그가 있는 부조리한 인용 카드 포스터.",
+        "id": "Poster quote-card absurd dengan outline marker kasar, panel pastel, huruf biru, dan gag objek."
+      }
+    },
+    {
+      "slug": "sky-blue-home-life-doodle-poster-style",
+      "summary": "Sky-blue home-life posters with house insets, giant black lettering, badges, and marker doodle scenes.",
+      "summary_i18n": {
+        "zh-CN": "天蓝家居生活海报，房屋白框、巨大黑色手写字、徽章和马克笔场景。",
+        "zh-TW": "天藍居家生活海報，房屋白框、巨大黑色手寫字、徽章和麥克筆場景。",
+        "ja": "空色の家型フレーム、巨大な黒手描き文字、バッジ、マーカー日常シーンのホームポスター。",
+        "ko": "하늘색 집 모양 인셋, 거대한 검은 손글씨, 배지, 마커 일상 장면의 홈 라이프 포스터.",
+        "id": "Poster home-life biru langit dengan inset rumah, lettering hitam besar, badge, dan adegan doodle marker."
+      }
+    },
+    {
+      "slug": "playful-marker-grounding-poster-style",
+      "summary": "Playful grounding posters with cream margins, marker blocks, uneven keylines, big lettering, and mascot figures.",
+      "summary_i18n": {
+        "zh-CN": "轻快 grounding 海报，米色边距、马克笔色块、粗描边、大字和吉祥物人物。",
+        "zh-TW": "輕快 grounding 海報，米色邊距、麥克筆色塊、粗描邊、大字和吉祥物人物。",
+        "ja": "クリーム余白、マーカー色面、太い不均一線、大きな文字、マスコット人物の軽快な啓発ポスター。",
+        "ko": "크림 여백, 마커 색면, 굵은 불균형 선, 큰 글자, 마스코트 인물이 있는 경쾌한 그라운딩 포스터.",
+        "id": "Poster grounding playful dengan margin krem, blok marker, keyline kasar, huruf besar, dan figur maskot."
+      }
+    },
+    {
+      "slug": "rough-marker-monster-poster-style",
+      "summary": "Naive monster posters with thick marker outlines, crayon fills, cream paper, and chunky handmade type.",
+      "summary_i18n": {
+        "zh-CN": "童趣怪物海报，粗马克笔轮廓、蜡笔色块、米色纸纹和手写粗字。",
+        "zh-TW": "童趣怪物海報，粗麥克筆輪廓、蠟筆色塊、米色紙紋和手寫粗字。",
+        "ja": "太いマーカー線、クレヨン塗り、クリーム紙、手描き文字の素朴なモンスターポスター。",
+        "ko": "굵은 마커 윤곽, 크레용 채색, 크림 종이, 손글씨 타입의 순진한 몬스터 포스터.",
+        "id": "Poster monster naif dengan outline marker tebal, warna krayon, kertas krem, dan huruf handmade."
+      }
+    },
+    {
+      "slug": "cyan-red-shockwave-type-poster-style",
+      "summary": "Cyan-red impact posters with giant block type, jagged shockwaves, yellow accents, and rotated microcopy.",
+      "summary_i18n": {
+        "zh-CN": "青红冲击海报，巨大块状字、锯齿冲击波、柠檬黄人物点缀和旋转微文案。",
+        "zh-TW": "青紅衝擊海報，巨大塊狀字、鋸齒衝擊波、檸檬黃人物點綴和旋轉微文案。",
+        "ja": "巨大な赤いブロック文字、ギザギザ衝撃波、黄色アクセント、回転小文字のシアン系インパクトポスター。",
+        "ko": "거대한 빨간 블록 타입, 들쭉날쭉한 쇼크웨이브, 노란 포인트, 회전 마이크로카피의 시안 임팩트 포스터.",
+        "id": "Poster impact sian-merah dengan tipe blok raksasa, shockwave bergerigi, aksen kuning, dan microcopy miring."
+      }
+    },
+    {
+      "slug": "fantasy-scribble-mascot-poster-style",
+      "summary": "Naive fantasy mascot posters with neon marker fills, huge wobbly type, and dense scribbles.",
+      "summary_i18n": {
+        "zh-CN": "幻想吉祥物手绘海报，荧光马克笔色块、摇晃大字和密集涂鸦。",
+        "zh-TW": "幻想吉祥物手繪海報，螢光麥克筆色塊、搖晃大字和密集塗鴉。",
+        "ja": "ネオンマーカーのマスコット、巨大な手描き文字、密な落書きで作る素朴な幻想ポスター。",
+        "ko": "네온 마커 마스코트, 커다란 손글씨, 빽빽한 낙서로 만든 순진한 판타지 포스터.",
+        "id": "Poster maskot fantasi naif dengan warna marker neon, huruf goyah besar, dan coretan padat."
+      }
+    },
+    {
+      "slug": "crayon-catalog-doodle-poster-style",
+      "summary": "Sparse crayon catalog posters with red handmade headlines, simple doodles, and folded paper texture.",
+      "summary_i18n": {
+        "zh-CN": "蜡笔目录海报，红色手写标题、简单产品涂鸦和折纸质感。",
+        "zh-TW": "蠟筆目錄海報，紅色手寫標題、簡單產品塗鴉和摺紙質感。",
+        "ja": "赤い手描き見出し、シンプルな落書き、折り紙質感で作る余白の多いクレヨン目録ポスター。",
+        "ko": "빨간 손글씨 헤드라인, 단순한 낙서, 접힌 종이 질감의 성긴 크레용 카탈로그 포스터.",
+        "id": "Poster katalog krayon yang lapang dengan headline merah handmade, doodle sederhana, dan tekstur kertas lipat."
+      }
+    },
+    {
+      "slug": "blue-halftone-ransom-zine-poster-style",
+      "summary": "Cobalt ransom-zine posters with torn scraps, halftone cutouts, and marker lettering.",
+      "summary_i18n": {
+        "zh-CN": "钴蓝 ransom zine 海报，撕纸块、半调切图和马克笔字。",
+        "zh-TW": "鈷藍 ransom zine 海報，撕紙塊、半調切圖和麥克筆字。",
+        "ja": "破れ紙、ハーフトーン切り抜き、マーカー文字で作るコバルトブルーのransom zineポスター。",
+        "ko": "찢어진 종이 조각, 하프톤 컷아웃, 마커 글자를 결합한 코발트 블루 랜섬 진 포스터.",
+        "id": "Poster ransom-zine biru kobalt dengan sobekan kertas, cutout halftone, dan lettering marker."
+      }
+    },
+    {
+      "slug": "market-brush-produce-poster-style",
+      "summary": "Farmers-market produce posters with giant glossy crops, rough brush type, and ivory paper space.",
+      "summary_i18n": {
+        "zh-CN": "菜市场蔬果海报，超大光泽作物、粗刷字体和象牙色纸面留白。",
+        "zh-TW": "菜市場蔬果海報，超大光澤作物、粗刷字體和象牙色紙面留白。",
+        "ja": "巨大な光沢ある青果、荒い筆文字、アイボリーの余白を使う市場ポスター。",
+        "ko": "거대한 광택 농산물, 거친 붓글씨, 아이보리 종이 여백의 시장 포스터.",
+        "id": "Poster pasar hasil bumi dengan tanaman glossy raksasa, huruf kuas kasar, dan ruang kertas ivory."
+      }
+    },
+    {
+      "slug": "folded-newspaper-product-ad-style",
+      "summary": "Folded newspaper advertorials with oversized product cutouts, dense columns, stamps, and antique-gold type.",
+      "summary_i18n": {
+        "zh-CN": "折叠报纸广告视觉，超大产品切图、密集分栏、印章和古金色标题。",
+        "zh-TW": "折疊報紙廣告視覺，超大產品切圖、密集分欄、印章和古金色標題。",
+        "ja": "折りたたみ新聞広告風。巨大な商品切り抜き、密なカラム、スタンプ、古金色の見出し。",
+        "ko": "접힌 신문 애드버토리얼, 거대한 제품 컷아웃, 촘촘한 칼럼, 스탬프, 앤티크 골드 타이프.",
+        "id": "Advertorial koran lipat dengan cutout produk besar, kolom padat, stempel, dan judul antique-gold."
+      }
+    },
+    {
+      "slug": "sunlit-supermodel-nameplate-editorial",
+      "summary": "Sunlit supermodel editorials with outdoor texture, nameplate details, and clean lower-third type.",
+      "summary_i18n": {
+        "zh-CN": "日光超模编辑视觉，户外质感、名牌细节和干净下三分之一排版。",
+        "zh-TW": "日光超模編輯視覺，戶外質感、名牌細節和乾淨下三分之一排版。",
+        "ja": "日差しのあるスーパーモデル編集ビジュアル、屋外質感、ネームプレート、整った下三分の一組版。",
+        "ko": "햇빛 슈퍼모델 에디토리얼, 야외 질감, 네임플레이트, 정돈된 하단 타이포.",
+        "id": "Editorial supermodel sunlit dengan tekstur outdoor, nameplate, dan tipografi lower-third bersih."
+      }
+    },
+    {
+      "slug": "black-cutout-food-card-ad-style",
+      "summary": "Black food-card ads with brush lettering, cutout photography, and street-snack print texture.",
+      "summary_i18n": {
+        "zh-CN": "黑底食物卡片广告，手刷中文、裁切摄影和街头小吃印刷质感。",
+        "zh-TW": "黑底食物卡片廣告，手刷中文、裁切攝影和街頭小吃印刷質感。",
+        "ja": "黒背景フードカード広告、手描き文字、切り抜き写真、屋台印刷テクスチャ。",
+        "ko": "검은 음식 카드 광고, 손글씨 중국어, 컷아웃 사진, 길거리 간식 인쇄 질감.",
+        "id": "Iklan kartu makanan hitam dengan lettering kuas, foto cutout, dan tekstur street-snack."
+      }
+    },
+    {
+      "slug": "kinetic-geometric-doodle-cutouts",
+      "summary": "Playful geometric doodle cutouts with flat color pieces, loose lines, and paper grain.",
+      "summary_i18n": {
+        "zh-CN": "几何涂鸦切图插画，扁平色块、松散线条和纸张颗粒。",
+        "zh-TW": "幾何塗鴉切圖插畫，扁平色塊、鬆散線條和紙張顆粒。",
+        "ja": "幾何カットアウトとドゥードル線、紙粒子で作る遊び心あるイラスト。",
+        "ko": "플랫 기하 색면, 느슨한 선, 종이 질감의 장난스러운 낙서 컷아웃.",
+        "id": "Cutout doodle geometris playful dengan bidang warna datar, garis longgar, dan grain kertas."
+      }
+    },
+    {
+      "slug": "quiet-luxury-furniture-nameplate-poster-style",
+      "summary": "Quiet luxury furniture nameplates with forest-green type, catalog chips, and warm studio restraint.",
+      "summary_i18n": {
+        "zh-CN": "静奢家具名牌海报，森林绿大字、目录标签和温暖棚拍克制感。",
+        "zh-TW": "靜奢家具名牌海報，森林綠大字、目錄標籤和溫暖棚拍克制感。",
+        "ja": "フォレストグリーンの大文字とカタログ感を持つ静かな高級家具ポスター。",
+        "ko": "포레스트 그린 대형 글자와 카탈로그 칩이 있는 조용한 럭셔리 가구 포스터.",
+        "id": "Poster nameplate furnitur quiet luxury dengan type hijau hutan dan chip katalog."
+      }
+    },
+    {
+      "slug": "kinetic-luxury-street-fashion-cover-style",
+      "summary": "Street-fashion cover editorials with motion-blurred architecture, luxury garments, and wide-spaced serif type.",
+      "summary_i18n": {
+        "zh-CN": "街头时尚封面大片，运动模糊建筑、奢华服装和宽字距衬线标题。",
+        "zh-TW": "街頭時尚封面大片，運動模糊建築、奢華服裝和寬字距襯線標題。",
+        "ja": "ブレた建築、ラグジュアリー衣装、広い字間のセリフ体によるファッションカバー。",
+        "ko": "모션 블러 건축, 럭셔리 의상, 넓은 자간 세리프체의 패션 커버.",
+        "id": "Sampul street-fashion dengan arsitektur blur, busana mewah, dan type serif renggang."
+      }
+    },
+    {
+      "slug": "sunlit-architectural-fashion-editorial",
+      "summary": "Sunlit fashion editorials with low-angle architecture, warm stone, and elongated silhouettes.",
+      "summary_i18n": {
+        "zh-CN": "日光建筑时装大片，低机位、温暖石材和拉长模特轮廓。",
+        "zh-TW": "日光建築時裝大片，低機位、溫暖石材和拉長模特輪廓。",
+        "ja": "低い建築視点、暖かな石材、長いシルエットで作る日差しのファッション編集写真。",
+        "ko": "낮은 건축 시점, 따뜻한 석재, 길어진 실루엣의 햇빛 하이패션 에디토리얼.",
+        "id": "Editorial fashion berpencahayaan matahari dengan arsitektur rendah, batu hangat, dan siluet panjang."
+      }
+    },
+    {
+      "slug": "multi-color-beverage-splash-ad-system-style",
+      "summary": "Color-varied beverage launch ads with giant white 3D type and frozen splash motion.",
+      "summary_i18n": {
+        "zh-CN": "多配色饮料发布广告，白色 3D 大字、斜向包装和冻结液体动势。",
+        "zh-TW": "多配色飲料發布廣告，白色 3D 大字、斜向包裝和凍結液體動勢。",
+        "ja": "巨大な白い3D文字と凍った飛沫で作る多色飲料ローンチ広告。",
+        "ko": "흰색 3D 대형 타이포와 얼어붙은 스플래시가 있는 다색 음료 출시 광고.",
+        "id": "Iklan peluncuran minuman multiwarna dengan type 3D putih besar dan gerak splash beku."
+      }
+    },
+    {
+      "slug": "yellow-black-manga-food-zine-ad-style",
+      "summary": "Black-yellow manga food zine ads with warped type and glossy hero objects.",
+      "summary_i18n": {
+        "zh-CN": "黑黄漫画食物 zine 广告，变形大字、中文小字和发亮主体物。",
+        "zh-TW": "黑黃漫畫食物 zine 廣告，變形大字、中文小字和發亮主體物。",
+        "ja": "黒黄の漫画フード zine 広告、歪んだ大文字と光沢ある主役オブジェクト。",
+        "ko": "검정-노랑 만화 음식 zine 광고, 뒤틀린 대형 타이포와 광택 주인공 오브젝트.",
+        "id": "Iklan zine makanan manga hitam-kuning dengan type melengkung dan objek glossy."
+      }
+    },
+    {
+      "slug": "neon-outdoor-diary-longform-collage-style",
+      "summary": "Longform outdoor diary collages with acid-green type and torn field-note panels.",
+      "summary_i18n": {
+        "zh-CN": "户外日记长图拼贴，酸性绿色标题、撕纸信息板和纪实切图。",
+        "zh-TW": "戶外日記長圖拼貼，酸性綠標題、撕紙資訊板和紀實切圖。",
+        "ja": "酸性グリーン見出し、破れ紙パネル、写真切り抜きの屋外日記ロングコラージュ。",
+        "ko": "산성 그린 제목, 찢어진 종이 패널, 사진 컷아웃의 야외 다이어리 롱폼 콜라주.",
+        "id": "Kolase diary outdoor longform dengan type acid-green, panel kertas robek, dan cutout foto."
+      }
+    },
+    {
+      "slug": "acid-lime-3d-streetwear-type-poster-style",
+      "summary": "Glossy C4D streetwear campaigns with black block type and acid-lime accents.",
+      "summary_i18n": {
+        "zh-CN": "光滑 C4D 街头服饰活动海报，黑色块字和酸性青柠点缀。",
+        "zh-TW": "光滑 C4D 街頭服飾活動海報，黑色塊字和酸性萊姆點綴。",
+        "ja": "黒いブロック文字と酸性ライムのアクセントが効いた光沢 C4D ストリートウェア広告。",
+        "ko": "검정 블록 타이포와 산성 라임 포인트의 광택 C4D 스트리트웨어 캠페인.",
+        "id": "Kampanye streetwear C4D glossy dengan type blok hitam dan aksen acid-lime."
+      }
+    },
+    {
+      "slug": "electric-blue-silhouette-product-launch-style",
+      "summary": "Premium black-and-blue product launches with glowing silhouettes and cropped type.",
+      "summary_i18n": {
+        "zh-CN": "黑蓝高端产品发布海报，发光剪影、裁切大字和极简发布文案。",
+        "zh-TW": "黑藍高端產品發布海報，發光剪影、裁切大字和極簡發布文案。",
+        "ja": "黒と青の高級製品発表、発光シルエットとクロップ文字。",
+        "ko": "검정과 블루의 프리미엄 제품 런칭, 빛나는 실루엣과 크롭 타이포.",
+        "id": "Peluncuran produk hitam-biru premium dengan siluet bercahaya dan tipografi terpotong."
+      }
+    },
+    {
+      "slug": "luxury-perspective-checkerboard-editorial",
+      "summary": "Luxury editorials with checkerboard perspective, script typography, and polished white space.",
+      "summary_i18n": {
+        "zh-CN": "奢侈品编辑海报，棋盘格透视、手写体大字和精致留白。",
+        "zh-TW": "奢侈品編輯海報，棋盤格透視、手寫體大字和精緻留白。",
+        "ja": "チェック遠近法、スクリプト文字、洗練された余白のラグジュアリー編集。",
+        "ko": "체크보드 원근, 스크립트 타이포, 세련된 여백의 럭셔리 에디토리얼.",
+        "id": "Editorial mewah dengan perspektif checkerboard, script besar, dan ruang putih halus."
+      }
+    },
+    {
+      "slug": "sunny-3d-avatar-campaign-style",
+      "summary": "Sunny campaign 3D avatars with blue skies, bold type, and neon motion marks.",
+      "summary_i18n": {
+        "zh-CN": "阳光 3D 活动海报，玩具感头像、蓝天、斜体大标题和荧光涂鸦动线。",
+        "zh-TW": "陽光 3D 活動海報，玩具感頭像、藍天、斜體大標題和螢光塗鴉動線。",
+        "ja": "晴れたキャンペーン向け3Dアバター、青空、大きな斜体文字、ネオンの動線。",
+        "ko": "맑은 캠페인형 3D 아바타, 푸른 하늘, 큰 사선 타이포와 네온 동선.",
+        "id": "Avatar 3D kampanye cerah dengan langit biru, tipografi miring besar, dan garis neon."
+      }
+    },
+    {
+      "slug": "y2k-mirror-ui-scribble-collage-style",
+      "summary": "Flash-photo Y2K collages with mirror UI panels and electric-blue scribbles.",
+      "summary_i18n": {
+        "zh-CN": "闪光灯 Y2K 拼贴，镜面 UI 面板、电蓝涂鸦线和粗粝屏幕噪点。",
+        "zh-TW": "閃光燈 Y2K 拼貼，鏡面 UI 面板、電藍塗鴉線和粗糙螢幕噪點。",
+        "ja": "フラッシュ写真にY2KのUI断片、青い落書き線、粗い画面ノイズを重ねる。",
+        "ko": "플래시 사진 위에 Y2K UI 패널, 전기 블루 낙서선, 거친 화면 노이즈.",
+        "id": "Kolase foto flash Y2K dengan panel UI cermin, coretan biru elektrik, dan noise kasar."
+      }
+    },
+    {
+      "slug": "neon-plush-gadget-pop-3d-style",
+      "summary": "Neon toy-product 3D renders with plush mascots and chunky gadget props.",
+      "summary_i18n": {
+        "zh-CN": "荧光玩具产品 3D 渲染，毛绒吉祥物搭配厚重小工具道具。",
+        "zh-TW": "螢光玩具產品 3D 渲染，毛絨吉祥物搭配厚重小工具道具。",
+        "ja": "ぬいぐるみマスコットと分厚いガジェット小物のネオントイ商品 3D レンダー。",
+        "ko": "플러시 마스코트와 두툼한 가젯 소품을 결합한 네온 장난감 제품 3D 렌더.",
+        "id": "Render 3D produk mainan neon dengan maskot plush dan gadget chunky."
+      }
+    },
+    {
+      "slug": "blue-lime-kinetic-comic-type-poster-style",
+      "summary": "Electric-blue comic posters with lime speech panels and massive black type."
+    },
+    {
+      "slug": "blue-chinese-perspective-type-canyon-style",
+      "summary": "Blue perspective corridors with stacked Chinese display type."
+    },
+    {
+      "slug": "rough-ink-music-doodle-poster-style",
+      "summary": "Hand-inked music posters with brush lettering and playful doodles."
+    },
+    {
+      "slug": "mono-noir-type-portrait-poster-style",
+      "summary": "Black-and-white editorial portraits with massive lowercase type."
+    },
+    {
+      "slug": "bold-block-mascot-poster-style",
+      "summary": "Flat mascot posters with chunky block type and sticker figures."
+    },
+    {
+      "slug": "blue-hud-macro-product-poster",
+      "summary": "Glossy macro product posters with blue HUD launch graphics."
+    },
+    {
+      "slug": "warm-fisheye-product-impact-ad-style",
+      "summary": "Warm fisheye product ads with bold Chinese social-commerce type."
+    },
+    {
+      "slug": "olive-scribble-sports-poster-style",
+      "summary": "Handmade sports posters with olive blocks and kinetic scribbles."
+    },
+    {
+      "slug": "bold-anime-reaction-thumbnail-style",
+      "summary": "High-impact anime thumbnails with bold yellow reaction typography."
+    },
+    {
+      "slug": "turquoise-red-techno-manga-poster-style",
+      "summary": "Retro techno-manga posters with turquoise hardware and red lettering."
+    },
+    {
+      "slug": "chromatic-fisheye-orbit-pop-poster-style",
+      "summary": "Pop fisheye posters with orbiting type and chromatic arcs."
+    },
+    {
+      "slug": "naive-marker-psa-poster-style",
+      "summary": "Friendly civic PSA posters with naive marker drawings."
+    },
+    {
+      "slug": "blue-bubble-fisheye-action-poster-style",
+      "summary": "Youth action posters with blue bubble type and fisheye photos."
+    },
+    {
+      "slug": "cozy-bedroom-doodle-companion-snapshot-style",
+      "summary": "Low-light bedroom snapshots with quiet doodle companion energy."
+    },
+    {
+      "slug": "surreal-fish-doodle-landmark-photo-collage-style",
+      "summary": "Landmark travel photos remixed with folk-art fish doodles."
+    },
+    {
+      "slug": "plush-comic-toy-product-poster-style",
+      "summary": "Toy-product posters with fuzzy plush heroes and comic typography."
+    },
+    {
+      "slug": "rough-animation-pet-sketch-storyboard-style",
+      "summary": "Loose pet-comedy storyboard frames with warm sketch texture."
+    },
+    {
+      "slug": "tri-color-hardcut-portrait-poster-style",
+      "summary": "Three-color portrait posters built from hard-edged cutout planes."
+    },
+    {
+      "slug": "clean-triptych-travel-vlog-thumbnail-style",
+      "summary": "Clean travel thumbnails with three photo panels and soft notes."
+    },
+    {
+      "slug": "playful-mascot-doodle-snapshot-style",
+      "summary": "Real-life snapshots layered with mascot stickers and doodles."
+    },
+    {
+      "slug": "teenage-skate-scribble-screenprint-poster-style",
+      "summary": "Retro skate posters with scribbled borders and screenprint grit."
+    },
+    {
+      "slug": "impact-burst-halftone-comic-poster-style",
+      "summary": "Loud comic posters with impact type and halftone bursts."
+    },
+    {
+      "slug": "sunburst-fisheye-bubble-type-poster-style",
+      "summary": "Summer fisheye posters with sunny bubble typography."
+    },
+    {
+      "slug": "backseat-transit-doodle-letter-poster-style",
+      "summary": "Transit photos turned into energetic hand-lettered travel posters."
+    },
+    {
+      "slug": "analog-sticker-diary-portrait-poster-style",
+      "summary": "Nostalgic diary portraits with stickers and distressed lettering."
+    },
+    {
+      "slug": "folded-diamond-perspective-type-poster-style",
+      "summary": "Minimal diamond-aperture posters with folded perspective typography."
+    },
+    {
+      "slug": "gothic-cat-doodle-photo-collage-style",
+      "summary": "Dramatic architecture photos with playful cartoon creature overlays."
+    },
+    {
+      "slug": "k-pop-apocalypse-ransom-zine-style",
+      "summary": "Maximal K-pop zines with ransom type and sticker blocks."
+    },
+    {
+      "slug": "metro-doodle-snapshot-diary-style",
+      "summary": "Crowded transit snapshots layered with marker doodles and oversized comic faces."
+    },
+    {
+      "slug": "mountain-trail-monster-doodle-poster-style",
+      "summary": "Outdoor hiking photos remixed with monster companions and annotations."
+    },
+    {
+      "slug": "neon-doodle-gallery-snapshot-style",
+      "summary": "Phone photos covered in hot neon diary doodles."
+    },
+    {
+      "slug": "neon-kinetic-typographic-poster-style",
+      "summary": "Outdoor editorial posters with warped neon kinetic typography."
+    },
+    {
+      "slug": "orange-brush-mascot-action-poster-style",
+      "summary": "Sparse mascot illustrations with orange brush texture and print grain."
+    },
+    {
+      "slug": "photo-illustration-overlay-poster-style",
+      "summary": "City photos composited with saturated 2D character overlays."
+    },
+    {
+      "slug": "plush-city-festival-mobile-poster-style",
+      "summary": "Mobile city-event posters with fuzzy mascots and app-card framing."
+    },
+    {
+      "slug": "pop-bubble-letter-photo-poster-style",
+      "summary": "Fashion photo posters framed by candy-colored bubble letters."
+    },
+    {
+      "slug": "soft-analog-future-editorial-poster-style",
+      "summary": "Quiet analog-future editorials with grids and retro technology."
+    },
+    {
+      "slug": "subway-doodle-photo-hybrid-style",
+      "summary": "Subway photos overlaid with social-media-style cartoon doodles and handwritten notes."
+    },
+    {
+      "slug": "tokyo-kawaii-travel-collage-poster-style",
+      "summary": "Maximal Tokyo travel collages with manga bubbles and stickers."
+    },
+    {
+      "slug": "urban-transit-doodle-diary-style",
+      "summary": "Public-space photos remixed with bold foreground gestures and travel diary notes."
+    },
+    {
+      "slug": "y2k-grunge-hiphop-cutout-poster-style",
+      "summary": "Y2K hip-hop collage posters with acid type and photocopy grit."
+    }
+  ]
+}

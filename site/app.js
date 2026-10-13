@@ -484,7 +484,10 @@ function renderTags() {
 }
 
 function renderFeatured() {
-  featuredGrid.innerHTML = collapseFamilies(data.styles).slice(0, 6).map((style) => cardTemplate(style, true, true)).join("");
+  // Curated in data/catalog.json "featured"; fall back to the six newest families.
+  const curated = (data.featured || []).map(findStyle).filter(Boolean);
+  const picks = curated.length ? curated : collapseFamilies(data.styles).slice(0, 6);
+  featuredGrid.innerHTML = picks.map((style) => cardTemplate(style, true, true)).join("");
 }
 
 function renderGrid() {

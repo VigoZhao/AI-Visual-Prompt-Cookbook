@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Request a new style
+    url: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/discussions/new?category=ideas
+    about: Suggest a visual style you want added. Other people can upvote it.
+  - name: Show what you made
+    url: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/discussions/new?category=show-and-tell
+    about: Share images you generated with a style from this library.
+  - name: Ask a question
+    url: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/discussions/new?category=q-a
+    about: How to use a style.json, which model to pick, and other usage questions.

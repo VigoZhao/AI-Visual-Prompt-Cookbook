@@ -14,13 +14,14 @@ jobs:
       - name: Validate style.json files
         run: python3 scripts/validate-style-json.py
 
-      - name: Check generated site data is in sync
+      - name: Check generated READMEs, catalog and site data are in sync
         run: |
+          python3 scripts/generate-readme.py
           python3 scripts/build-pages-mvp.py
           python3 scripts/generate-copy-prompts.py
-          if [ -n "$(git status --porcelain -- site/ docs/ sitemap.xml llms.txt)" ]; then
-            git status --porcelain -- site/ docs/ sitemap.xml llms.txt
-            echo "::error::Generated files are out of sync. Run scripts/build-pages-mvp.py and scripts/generate-copy-prompts.py, then commit the result (including new site/styles/<slug>/ pages)."
+          if [ -n "$(git status --porcelain -- README*.md site/ docs/ sitemap.xml llms.txt)" ]; then
+            git status --porcelain -- README*.md site/ docs/ sitemap.xml llms.txt
+            echo "::error::Generated files are out of sync. Run scripts/generate-readme.py, scripts/build-pages-mvp.py and scripts/generate-copy-prompts.py, then commit the result (including new site/styles/<slug>/ pages)."
             exit 1
           fi
 

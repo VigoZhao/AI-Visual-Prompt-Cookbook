@@ -1098,7 +1098,7 @@ Files: [style.json](../styles/blue-halftone-ransom-zine-poster-style/style.json)
 
 <a href="../styles/market-brush-produce-poster-style"><img src="../assets/thumbs/market-brush-produce-poster-style-16x9.jpg" width="720" alt="Market Brush Produce Poster Style preview"></a>
 
-A contemporary fresh-market poster system with warm ivory negative space, one oversized glossy produce hero, rough black brush typography, thin editorial microcopy, seasonal seals, and soft analog print grain.
+A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions.
 
 Files: [style.json](../styles/market-brush-produce-poster-style/style.json) · [Copy Prompt](copy-prompts/market-brush-produce-poster-style.md) · [16:9 preview](../styles/market-brush-produce-poster-style/preview-16x9.jpg) · [9:16 preview](../styles/market-brush-produce-poster-style/preview-9x16.jpg) · [Folder](../styles/market-brush-produce-poster-style)
 
@@ -1108,7 +1108,7 @@ Files: [style.json](../styles/market-brush-produce-poster-style/style.json) · [
 
 <a href="../styles/folded-newspaper-product-ad-style"><img src="../assets/thumbs/folded-newspaper-product-ad-style-16x9.jpg" width="720" alt="Folded Newspaper Product Ad Style preview"></a>
 
-A folded broadsheet advertorial style combining off-white newspaper texture, dense bilingual editorial columns, oversized commercial product photography, black and antique-gold headline typography, angled stamp frames, red date tabs, and tactile print distress.
+A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.
 
 Files: [style.json](../styles/folded-newspaper-product-ad-style/style.json) · [Copy Prompt](copy-prompts/folded-newspaper-product-ad-style.md) · [16:9 preview](../styles/folded-newspaper-product-ad-style/preview-16x9.jpg) · [9:16 preview](../styles/folded-newspaper-product-ad-style/preview-9x16.jpg) · [Folder](../styles/folded-newspaper-product-ad-style)
 

@@ -1,0 +1,14 @@
+title: "[Style request] "
+body:
+  - type: textarea
+    id: style
+    attributes:
+      label: What style do you want?
+      description: Describe the look, and what you'd use it for (posters, product ads, thumbnails...).
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Links or images that show the look. Only share images you're allowed to share.

@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import hashlib
-import html
 import json
 import re
 from pathlib import Path
@@ -16,7 +15,7 @@ from search_terms import FAMILY_OVERRIDES, QUICK_TAGS, ZH_TERMS
 
 ROOT = Path(__file__).resolve().parents[1]
 STYLES_DIR = ROOT / "styles"
-README = ROOT / "README.md"
+CATALOG_DATA = ROOT / "data" / "catalog.json"
 SITE_DIR = ROOT / "site"
 OUTPUT = SITE_DIR / "styles-data.js"
 SAMPLES_DIR = ROOT / "assets" / "samples"
@@ -43,24 +42,16 @@ def load_json(path: Path) -> dict[str, Any]:
     return data
 
 
-def read_readme_order() -> tuple[list[str], dict[str, str]]:
-    text = README.read_text(encoding="utf-8")
-    match = re.search(r"^## All Styles\n(?P<body>.*?)(?=^## )", text, re.MULTILINE | re.DOTALL)
-    if not match:
-        return [], {}
-
-    body = match.group("body")
-    pairs = re.findall(
-        r'<a id="([^"]+)"></a>.*?<em>(.*?)</em>',
-        body,
-        flags=re.DOTALL,
-    )
+def read_catalog_order() -> tuple[list[str], dict[str, str], list[str]]:
+    """Gallery order, short descriptions and Featured slugs from data/catalog.json (also the README source)."""
+    data = load_json(CATALOG_DATA)
     order: list[str] = []
     descriptions: dict[str, str] = {}
-    for slug, description in pairs:
-        order.append(slug)
-        descriptions[slug] = html.unescape(re.sub(r"\s+", " ", description).strip())
-    return order, descriptions
+    for entry in data.get("styles", []):
+        order.append(entry["slug"])
+        descriptions[entry["slug"]] = re.sub(r"\s+", " ", entry.get("summary", "")).strip()
+    featured = [entry["slug"] for entry in data.get("featured", [])]
+    return order, descriptions, featured
 
 
 def first_text_list(items: Any, limit: int) -> list[str]:
@@ -174,9 +165,9 @@ def assign_similar(styles: list[dict[str, Any]], limit: int = 6) -> None:
 
 
 def build() -> None:
-    readme_order, readme_descriptions = read_readme_order()
+    catalog_order, catalog_descriptions, featured_slugs = read_catalog_order()
     style_paths = {path.parent.name: path for path in STYLES_DIR.glob("*/style.json")}
-    ordered_slugs = [slug for slug in readme_order if slug in style_paths]
+    ordered_slugs = [slug for slug in catalog_order if slug in style_paths]
     ordered_slugs.extend(sorted(slug for slug in style_paths if slug not in ordered_slugs))
 
     styles: list[dict[str, Any]] = []
@@ -193,7 +184,7 @@ def build() -> None:
                 "name": name,
                 "slug": slug,
                 "category": category_for(slug, data),
-                "description": readme_descriptions.get(slug) or summary,
+                "description": catalog_descriptions.get(slug) or summary,
                 "summary": summary,
                 "preview16": f"../styles/{slug}/preview-16x9.jpg",
                 "preview9": f"../styles/{slug}/preview-9x16.jpg",
@@ -219,6 +210,7 @@ def build() -> None:
         "quickTags": [label for label, _ in QUICK_TAGS if any(label in s["tags"] for s in styles)],
         "zhTerms": ZH_TERMS,
         "families": families,
+        "featured": [slug for slug in featured_slugs if slug in style_paths],
         "styles": styles,
     }
     SITE_DIR.mkdir(exist_ok=True)
