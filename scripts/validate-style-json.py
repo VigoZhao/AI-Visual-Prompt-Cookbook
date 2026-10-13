@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Validate AI Visual Prompt Cookbook style.json files."""
+"""Validate AI Visual Prompt Cookbook style.json files.
+
+Two schema versions are accepted:
+  - v2.1 (no "schema_version" field): the ten standard environment_variables
+    (SUBJECT ... ASPECT_RATIO) are required and every example sets at least five.
+  - v2.2 ("schema_version": "2.2"): each style declares its own variables. Only
+    ASPECT_RATIO is required, every declared variable must be used by
+    prompt_template, and every example must set every content variable.
+"""
 
 from __future__ import annotations
 
@@ -41,7 +49,10 @@ ALLOWED_TOP_LEVEL_FIELDS = {
     "prompt_template",
     "negative_prompt",
     "examples",
+    "schema_version",
 }
+
+SCHEMA_VERSIONS = ("2.1", "2.2")
 
 REQUIRED_TOP_LEVEL_FIELDS = {
     "style_name",
@@ -76,6 +87,10 @@ REQUIRED_ENVIRONMENT_VARIABLES = {
     "WARDROBE_STYLE",
     "ASPECT_RATIO",
 }
+
+# v2.2 variables that need no per-example value: the gallery fills ASPECT_RATIO
+# from the chosen ratio and the others from the style's own fields.
+AUTO_FILLED_VARIABLES = {"ASPECT_RATIO", "STYLE_FIDELITY_ANCHORS", "SOURCE_CONTENT_TO_AVOID", "NEGATIVE_PROMPT"}
 
 FORBIDDEN_EXAMPLE_FIELDS = {
     "prompt_9x16",
@@ -119,6 +134,7 @@ MIN_LIST_LENGTHS = {
 
 EXPECTED_STYLE_FILES = {"style.json", "preview-16x9.jpg", "preview-9x16.jpg"}
 PLACEHOLDER_RE = re.compile(r"\{([A-Z0-9_]+)\}")
+CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\uff00-\uffef]")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
@@ -195,6 +211,11 @@ def validate_style_file(style_json: Path, errors: ErrorCollector) -> None:
     if data is None:
         return
 
+    schema_version = data.get("schema_version", "2.1")
+    if schema_version not in SCHEMA_VERSIONS:
+        errors.add("schema_version must be one of: " + ", ".join(SCHEMA_VERSIONS))
+    v22 = schema_version == "2.2"
+
     extra = sorted(set(data) - ALLOWED_TOP_LEVEL_FIELDS)
     if extra:
         errors.add("unexpected top-level fields: " + ", ".join(extra))
@@ -215,6 +236,10 @@ def validate_style_file(style_json: Path, errors: ErrorCollector) -> None:
     style_name = data.get("style_name")
     if isinstance(style_name, str) and isinstance(slug, str) and style_name == slug:
         errors.add("style_name must be human-readable, not a duplicate of style_slug")
+
+    for field in ("style_name", "style_summary"):
+        if isinstance(data.get(field), str) and CJK_RE.search(data[field]):
+            errors.add(f"{field} must be written in English (README, catalog and gallery show it as is)")
 
     category = data.get("category")
     if isinstance(category, str) and category not in GALLERY_CATEGORIES:
@@ -246,7 +271,8 @@ def validate_style_file(style_json: Path, errors: ErrorCollector) -> None:
         env_keys: set[str] = set()
     else:
         env_keys = set(env)
-        missing_env = sorted(REQUIRED_ENVIRONMENT_VARIABLES - env_keys)
+        required_env = {"ASPECT_RATIO"} if v22 else REQUIRED_ENVIRONMENT_VARIABLES
+        missing_env = sorted(required_env - env_keys)
         if missing_env:
             errors.add("missing environment_variables keys: " + ", ".join(missing_env))
         for key, value in env.items():
@@ -261,6 +287,9 @@ def validate_style_file(style_json: Path, errors: ErrorCollector) -> None:
         undefined = sorted(placeholders - env_keys)
         if undefined:
             errors.add("prompt_template has undefined placeholders: " + ", ".join(undefined))
+        unused = sorted(env_keys - placeholders)
+        if v22 and unused:
+            errors.add("environment_variables not used by prompt_template: " + ", ".join(unused))
     else:
         errors.add("prompt_template must be a string")
 
@@ -293,10 +322,14 @@ def validate_style_file(style_json: Path, errors: ErrorCollector) -> None:
         if not isinstance(values, dict):
             errors.add(f"{prefix}.values must be an object")
             continue
-        if len(values) < 5:
+        value_keys = set(values)
+        if v22:
+            unset = sorted(env_keys - AUTO_FILLED_VARIABLES - value_keys)
+            if unset:
+                errors.add(f"{prefix}.values must set every content variable; missing: " + ", ".join(unset))
+        elif len(values) < 5:
             errors.add(f"{prefix}.values must define at least 5 usable variables")
 
-        value_keys = set(values)
         if "ASPECT_RATIO" in value_keys:
             errors.add(f"{prefix}.values must not include ASPECT_RATIO")
         unknown_value_keys = sorted(value_keys - env_keys)
@@ -331,7 +364,7 @@ def iter_style_folders(path: Path) -> list[Path]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Validate style.json v2.1 quality gates.")
+    parser = argparse.ArgumentParser(description="Validate style.json v2.1 / v2.2 quality gates.")
     parser.add_argument("path", type=Path, nargs="?", default=Path("."))
     args = parser.parse_args()
 
@@ -345,7 +378,7 @@ def main() -> None:
             print("FAIL:", message, file=sys.stderr)
         raise SystemExit(1)
 
-    print(f"PASS: {len(folders)} style folders validated against style.json v2.1 quality gates")
+    print(f"PASS: {len(folders)} style folders validated against style.json v2.1 / v2.2 quality gates")
 
 
 if __name__ == "__main__":

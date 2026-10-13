@@ -182,12 +182,13 @@ styles/<style-slug>/
   preview-9x16.jpg    # Portrait preview
 ```
 
-## style.json v2.1
+## style.json v2.1 / v2.2
 
 Every `style.json` is self-contained: copy the whole file into your LLM, then provide values for the variables declared in `environment_variables` or edit one of the `examples[*].values` cases.
 
 - `prompt_template` is the reusable style prompt with `{VARIABLE}` placeholders.
 - `environment_variables` declares every placeholder the template can use.
+- Newer styles set `"schema_version": "2.2"` and declare only the variables their template uses (for example `SUBJECT`, `MAIN_TEXT`, `DESIGN_DIRECTION`); older v2.1 styles use the ten standard variables.
 - `examples` contains ready-to-edit cases; each case stores only `case_name` and `values`.
 - `style_fidelity_anchors` and `source_content_to_avoid` tell the model what to preserve and what not to copy.
 - `negative_prompt` keeps watermarks, logos, direct source recreations, and off-style outputs away.

@@ -223,14 +223,10 @@ def build() -> None:
     # Cache-bust the data file and keep the hand-written style counts in index.html current.
     digest = hashlib.sha1(OUTPUT.read_bytes()).hexdigest()[:10]
     index_html = SITE_DIR / "index.html"
-    index_html.write_text(
-        re.sub(
-            r"(Browse )\d+( (?:plug-and-play|reusable))",
-            rf"\g<1>{len(styles)}\2",
-            re.sub(r"styles-data\.js\?v=[^\"]+", f"styles-data.js?v={digest}", index_html.read_text(encoding="utf-8")),
-        ),
-        encoding="utf-8",
-    )
+    text = re.sub(r"styles-data\.js\?v=[^\"]+", f"styles-data.js?v={digest}", index_html.read_text(encoding="utf-8"))
+    text = re.sub(r"(Browse )\d+( (?:plug-and-play|reusable))", rf"\g<1>{len(styles)}\2", text)
+    text = re.sub(r"(Cookbook — )\d+\+?( )", rf"\g<1>{len(styles)}\2", text)
+    index_html.write_text(text, encoding="utf-8")
     seo_pages.build_all(ROOT, SITE_DIR, styles, payload["categories"])
     print(f"PASS: wrote {OUTPUT.relative_to(ROOT)} with {len(styles)} styles")
     print(f"PASS: wrote {len(styles)} style pages, sitemap.xml and llms.txt")

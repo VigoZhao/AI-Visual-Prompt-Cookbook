@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/schemas/style-v2.1.schema.json",
-  "title": "AI Visual Prompt Cookbook style.json v2.1",
+  "title": "AI Visual Prompt Cookbook style.json v2.1 / v2.2",
+  "description": "Mirrors scripts/validate-style-json.py, which is authoritative (it also checks placeholders, example coverage and English text). v2.1 has no schema_version; v2.2 sets \"schema_version\": \"2.2\" and declares style-specific variables.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -28,7 +29,33 @@
     { "required": ["image_treatment"] },
     { "required": ["photographic_direction"] }
   ],
+  "if": {
+    "required": ["schema_version"],
+    "properties": { "schema_version": { "const": "2.2" } }
+  },
+  "else": {
+    "properties": {
+      "environment_variables": {
+        "required": [
+          "SUBJECT",
+          "SUBJECT_ACTION",
+          "PRODUCT_OR_PROP",
+          "LOCATION",
+          "BACKGROUND_ELEMENTS",
+          "MAIN_TEXT",
+          "SECONDARY_TEXT",
+          "ACCENT_SYMBOL",
+          "WARDROBE_STYLE",
+          "ASPECT_RATIO"
+        ]
+      },
+      "examples": {
+        "items": { "properties": { "values": { "minProperties": 5 } } }
+      }
+    }
+  },
   "properties": {
+    "schema_version": { "type": "string", "enum": ["2.1", "2.2"] },
     "style_name": { "type": "string", "minLength": 1 },
     "style_slug": {
       "type": "string",
@@ -50,18 +77,7 @@
     "environment_variables": {
       "type": "object",
       "additionalProperties": { "type": "string", "minLength": 1 },
-      "required": [
-        "SUBJECT",
-        "SUBJECT_ACTION",
-        "PRODUCT_OR_PROP",
-        "LOCATION",
-        "BACKGROUND_ELEMENTS",
-        "MAIN_TEXT",
-        "SECONDARY_TEXT",
-        "ACCENT_SYMBOL",
-        "WARDROBE_STYLE",
-        "ASPECT_RATIO"
-      ]
+      "required": ["ASPECT_RATIO"]
     },
     "style_fidelity_anchors": {
       "type": "array",
@@ -121,7 +137,7 @@
           "case_name": { "type": "string", "minLength": 1 },
           "values": {
             "type": "object",
-            "minProperties": 5,
+            "minProperties": 1,
             "propertyNames": {
               "not": {
                 "enum": [

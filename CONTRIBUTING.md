@@ -27,6 +27,9 @@ Each public style must include these fields:
 - `source_content_to_avoid`
 - `negative_prompt`
 - `category` (`Photo + Doodle`, `Zine + Collage`, `Type Posters`, `Travel + City`, `Editorial + Minimal`, or `Product + Campaign`)
+- `style_name` and `style_summary` written in English
+
+Two versions are accepted. A v2.1 style (no `schema_version`) declares the ten standard variables (`SUBJECT`, `SUBJECT_ACTION`, `PRODUCT_OR_PROP`, `LOCATION`, `BACKGROUND_ELEMENTS`, `MAIN_TEXT`, `SECONDARY_TEXT`, `ACCENT_SYMBOL`, `WARDROBE_STYLE`, `ASPECT_RATIO`). A v2.2 style sets `"schema_version": "2.2"` and declares only the variables its template uses: `ASPECT_RATIO` is required, every declared variable must appear in `prompt_template`, and every example sets every variable except `ASPECT_RATIO`, `STYLE_FIDELITY_ANCHORS`, `SOURCE_CONTENT_TO_AVOID` and `NEGATIVE_PROMPT`, which are filled from the style itself.
 
 The template should preserve the reusable visual system while requiring new subject matter, text, and scene values.
 

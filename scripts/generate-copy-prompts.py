@@ -34,6 +34,9 @@ VARIABLE_LABELS = {
     "WARDROBE_STYLE": "Styling",
 }
 
+# v2.2 styles declare their own variables; these are filled from the style itself.
+AUTO_FILLED_VARIABLES = {"ASPECT_RATIO", "STYLE_FIDELITY_ANCHORS", "SOURCE_CONTENT_TO_AVOID", "NEGATIVE_PROMPT"}
+
 
 def load_json(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as file:
@@ -91,6 +94,18 @@ def wrap_block(text: str, width: int = 96) -> str:
     return "\n".join(textwrap.fill(line, width=width) if line else "" for line in text.splitlines())
 
 
+def prompt_variables(data: dict[str, Any]) -> list[str]:
+    """v2.1 styles use the ten standard variables; v2.2 styles list their own, in declared order."""
+    env = data.get("environment_variables")
+    if data.get("schema_version") != "2.2" or not isinstance(env, dict):
+        return VARIABLE_ORDER
+    return [key for key in env if key not in AUTO_FILLED_VARIABLES]
+
+
+def label_for(key: str) -> str:
+    return VARIABLE_LABELS.get(key) or key.replace("_", " ").capitalize()
+
+
 def render_prompt(data: dict[str, Any], case_name: str, values: dict[str, str]) -> str:
     style_name = str(data.get("style_name", "Untitled Style")).strip()
     style_summary = str(data.get("style_summary", "")).strip()
@@ -104,9 +119,8 @@ def render_prompt(data: dict[str, Any], case_name: str, values: dict[str, str]) 
         "",
     ]
 
-    for key in VARIABLE_ORDER:
-        label = VARIABLE_LABELS[key]
-        lines.append(f"{label}: {fallback_value(data, values, key)}")
+    for key in prompt_variables(data):
+        lines.append(f"{label_for(key)}: {fallback_value(data, values, key)}")
 
     if style_summary:
         lines.extend(["", "Style direction:", wrap_block(style_summary)])
