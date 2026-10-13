@@ -5,7 +5,7 @@
 1. Fork the repository and create a new branch.
 2. Add a new directory under `styles/<slug>/`.
 3. Add exactly one `style.json` file and two preview images.
-4. Add the style to the top of `"styles"` in `data/catalog.json` with a one-line gallery `summary`, then run `python3 scripts/generate-readme.py` to update every README and `docs/CATALOG.md`.
+4. Run `python3 scripts/publish-style.py --add <slug>="one-line gallery summary"` (add `--feature <slug>` to feature it). It adds the style to the top of `data/catalog.json`, then regenerates every README, `docs/CATALOG.md`, the copy prompts and the site data, and validates everything.
 5. Run the validation command.
 6. Open a pull request with a short description of the visual system and sample use cases.
 
@@ -62,6 +62,6 @@ Do not include original reference images, watermarks, platform identifiers, QR c
 - [ ] The folder contains only `style.json`, `preview-16x9.jpg`, and `preview-9x16.jpg`.
 - [ ] The slug is lowercase kebab-case and no longer than 60 characters.
 - [ ] The preview images are JPGs and meet the naming requirements.
-- [ ] The style is listed in `data/catalog.json` and `python3 scripts/generate-readme.py` has been run.
+- [ ] `python3 scripts/publish-style.py --add <slug>="..."` has been run and passes.
 - [ ] `python3 scripts/validate-style-json.py .` passes.
 - [ ] No source references, watermarks, QR codes, account handles, or unauthorized brand assets are included.
