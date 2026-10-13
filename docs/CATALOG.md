@@ -1,6 +1,6 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 167 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 167 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
 
@@ -12,15 +12,18 @@ Warm, cute everyday-life risograph posters: one chunky rounded person does an or
 
 Files: [style.json](../styles/everyday-riso/style.json) · [Copy Prompt](copy-prompts/everyday-riso.md) · [16:9 preview](../styles/everyday-riso/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso/preview-9x16.jpg) · [Folder](../styles/everyday-riso)
 
----
+<details>
+<summary>1 more in this series: Part 2</summary>
 
-### Everyday Riso — Part 2
+#### Everyday Riso — Part 2
 
 <a href="../styles/everyday-riso-part-02"><img src="../assets/thumbs/everyday-riso-part-02-16x9.jpg" width="720" alt="Everyday Riso — Part 2 preview"></a>
 
 Part 2 of Everyday Riso: four new everyday cases — moving day, morning coffee, an ice-cream treat and a bakery bike ride — in the same three-ink orange, olive and near-black risograph system on cream paper, with one chunky rounded person, exactly one absurdly oversized object, visible misregistration and halftone grain, and one tiny black corner label.
 
 Files: [style.json](../styles/everyday-riso-part-02/style.json) · [Copy Prompt](copy-prompts/everyday-riso-part-02.md) · [16:9 preview](../styles/everyday-riso-part-02/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso-part-02/preview-9x16.jpg) · [Folder](../styles/everyday-riso-part-02)
+
+</details>
 
 ---
 
@@ -32,9 +35,10 @@ Exaggerated geometric character illustration: sculptural color blocks, minimal b
 
 Files: [style.json](../styles/chromatic-gesture-characters/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters.md) · [16:9 preview](../styles/chromatic-gesture-characters/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters)
 
----
+<details>
+<summary>6 more in this series: Part 2, Part 3, Part 4, Part 5, Part 6, Part 7</summary>
 
-### Chromatic Gesture Characters — Part 2
+#### Chromatic Gesture Characters — Part 2
 
 <a href="../styles/chromatic-gesture-characters-part-02"><img src="../assets/thumbs/chromatic-gesture-characters-part-02-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 2 preview"></a>
 
@@ -42,9 +46,7 @@ Part 2 of Chromatic Gesture Characters: the same exaggerated geometric figures, 
 
 Files: [style.json](../styles/chromatic-gesture-characters-part-02/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-02.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-02/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-02/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-02)
 
----
-
-### Chromatic Gesture Characters — Part 3
+#### Chromatic Gesture Characters — Part 3
 
 <a href="../styles/chromatic-gesture-characters-part-03"><img src="../assets/thumbs/chromatic-gesture-characters-part-03-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 3 preview"></a>
 
@@ -52,9 +54,7 @@ Part 3 of Chromatic Gesture Characters: keeps the exaggerated geometric figures,
 
 Files: [style.json](../styles/chromatic-gesture-characters-part-03/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-03.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-03/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-03/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-03)
 
----
-
-### Chromatic Gesture Characters — Part 4
+#### Chromatic Gesture Characters — Part 4
 
 <a href="../styles/chromatic-gesture-characters-part-04"><img src="../assets/thumbs/chromatic-gesture-characters-part-04-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 4 preview"></a>
 
@@ -62,9 +62,7 @@ Part 4 of Chromatic Gesture Characters: continues the large geometric bodies, ho
 
 Files: [style.json](../styles/chromatic-gesture-characters-part-04/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-04.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-04/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-04/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-04)
 
----
-
-### Chromatic Gesture Characters — Part 5
+#### Chromatic Gesture Characters — Part 5
 
 <a href="../styles/chromatic-gesture-characters-part-05"><img src="../assets/thumbs/chromatic-gesture-characters-part-05-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 5 preview"></a>
 
@@ -72,9 +70,7 @@ Part 5 of Chromatic Gesture Characters: carries the exaggerated geometry, hot-pi
 
 Files: [style.json](../styles/chromatic-gesture-characters-part-05/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-05.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-05/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-05/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-05)
 
----
-
-### Chromatic Gesture Characters — Part 6
+#### Chromatic Gesture Characters — Part 6
 
 <a href="../styles/chromatic-gesture-characters-part-06"><img src="../assets/thumbs/chromatic-gesture-characters-part-06-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 6 preview"></a>
 
@@ -82,15 +78,15 @@ Part 6 of Chromatic Gesture Characters: keeps the geometric exaggeration, hot-pi
 
 Files: [style.json](../styles/chromatic-gesture-characters-part-06/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-06.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-06/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-06/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-06)
 
----
-
-### Chromatic Gesture Characters — Part 7
+#### Chromatic Gesture Characters — Part 7
 
 <a href="../styles/chromatic-gesture-characters-part-07"><img src="../assets/thumbs/chromatic-gesture-characters-part-07-16x9.jpg" width="720" alt="Chromatic Gesture Characters — Part 7 preview"></a>
 
 Part 7 of Chromatic Gesture Characters: carries the geometric exaggeration, hot-pink clashes and grainy print feel into paper folding, headphone listening, canoe paddling and a sideways crab.
 
 Files: [style.json](../styles/chromatic-gesture-characters-part-07/style.json) · [Copy Prompt](copy-prompts/chromatic-gesture-characters-part-07.md) · [16:9 preview](../styles/chromatic-gesture-characters-part-07/preview-16x9.jpg) · [9:16 preview](../styles/chromatic-gesture-characters-part-07/preview-9x16.jpg) · [Folder](../styles/chromatic-gesture-characters-part-07)
+
+</details>
 
 ---
 
@@ -102,9 +98,10 @@ Extreme near-to-far sports photography interlocked with giant white oblique type
 
 Files: [style.json](../styles/velocity-type-sport/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport.md) · [16:9 preview](../styles/velocity-type-sport/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport)
 
----
+<details>
+<summary>3 more in this series: Part 2, Part 3, Part 4</summary>
 
-### Velocity Type Sport — Part 2
+#### Velocity Type Sport — Part 2
 
 <a href="../styles/velocity-type-sport-part-02"><img src="../assets/thumbs/velocity-type-sport-part-02-16x9.jpg" width="720" alt="Velocity Type Sport — Part 2 preview"></a>
 
@@ -112,9 +109,7 @@ Continues Velocity Type Sport's near-to-far athletic photography, giant white ob
 
 Files: [style.json](../styles/velocity-type-sport-part-02/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport-part-02.md) · [16:9 preview](../styles/velocity-type-sport-part-02/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport-part-02/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport-part-02)
 
----
-
-### Velocity Type Sport — Part 3
+#### Velocity Type Sport — Part 3
 
 <a href="../styles/velocity-type-sport-part-03"><img src="../assets/thumbs/velocity-type-sport-part-03-16x9.jpg" width="720" alt="Velocity Type Sport — Part 3 preview"></a>
 
@@ -122,15 +117,15 @@ Continues the near-to-far sports photography, giant white oblique type, near-bla
 
 Files: [style.json](../styles/velocity-type-sport-part-03/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport-part-03.md) · [16:9 preview](../styles/velocity-type-sport-part-03/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport-part-03/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport-part-03)
 
----
-
-### Velocity Type Sport — Part 4
+#### Velocity Type Sport — Part 4
 
 <a href="../styles/velocity-type-sport-part-04"><img src="../assets/thumbs/velocity-type-sport-part-04-16x9.jpg" width="720" alt="Velocity Type Sport — Part 4 preview"></a>
 
 Continues the strong-perspective sports photography, giant white oblique type, near-black field and single-color haze, using a baseball swing, a barbell lift, barrel-wave surfing and a rhythmic-gymnastics ribbon to show four spatial structures: cylinder, heavy plates, wave tube and flexible curve.
 
 Files: [style.json](../styles/velocity-type-sport-part-04/style.json) · [Copy Prompt](copy-prompts/velocity-type-sport-part-04.md) · [16:9 preview](../styles/velocity-type-sport-part-04/preview-16x9.jpg) · [9:16 preview](../styles/velocity-type-sport-part-04/preview-9x16.jpg) · [Folder](../styles/velocity-type-sport-part-04)
+
+</details>
 
 ---
 
@@ -162,15 +157,18 @@ An intimate sports photograph captures one bodily state through moody warm light
 
 Files: [style.json](../styles/felt-motion-brand-campaign/style.json) · [Copy Prompt](copy-prompts/felt-motion-brand-campaign.md) · [16:9 preview](../styles/felt-motion-brand-campaign/preview-16x9.jpg) · [9:16 preview](../styles/felt-motion-brand-campaign/preview-9x16.jpg) · [Folder](../styles/felt-motion-brand-campaign)
 
----
+<details>
+<summary>1 more in this series: Set 2</summary>
 
-### Felt Motion Brand Campaign — Set 02
+#### Felt Motion Brand Campaign — Set 02
 
 <a href="../styles/felt-motion-brand-campaign-set-02"><img src="../assets/thumbs/felt-motion-brand-campaign-set-02-16x9.jpg" width="720" alt="Felt Motion Brand Campaign — Set 02 preview"></a>
 
 An intimate sports photograph captures one bodily state through moody warm light, deep natural shadow and pronounced selective focus. A prominent white original logo and tight two-line wordmark overlap the optical center of the photograph.
 
 Files: [style.json](../styles/felt-motion-brand-campaign-set-02/style.json) · [Copy Prompt](copy-prompts/felt-motion-brand-campaign-set-02.md) · [16:9 preview](../styles/felt-motion-brand-campaign-set-02/preview-16x9.jpg) · [9:16 preview](../styles/felt-motion-brand-campaign-set-02/preview-9x16.jpg) · [Folder](../styles/felt-motion-brand-campaign-set-02)
+
+</details>
 
 ---
 
