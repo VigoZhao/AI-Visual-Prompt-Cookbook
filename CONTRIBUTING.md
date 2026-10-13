@@ -37,7 +37,7 @@ The template should preserve the reusable visual system while requiring new subj
 
 - Filenames must be exactly `preview-16x9.jpg` and `preview-9x16.jpg`.
 - Recommended minimum resolution: 1280x720 for 16:9 and 720x1280 for 9:16.
-- Use JPG format, preferably under 1MB and always under 5MB.
+- Use JPG format, at most 800 KB each and no more than 2560px on the long side. CI checks this. `python3 scripts/optimize-images.py <slug>` shrinks oversized previews (`publish-style.py` runs it for you).
 - Avoid visible watermarks, platform UI, QR codes, account handles, or brand-owned marks.
 
 ## README and Catalog

@@ -25,6 +25,9 @@ jobs:
             exit 1
           fi
 
+      - name: Check image sizes (previews, thumbnails, samples)
+        run: python3 scripts/optimize-images.py --check
+
       - name: Check every style has a gallery thumbnail
         run: |
           fail=0

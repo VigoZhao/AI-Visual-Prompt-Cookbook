@@ -4,13 +4,14 @@
 This is the one command a publish run needs after the style folders, preview
 JPGs and thumbnails are in place. It:
   1. checks each styles/<slug>/ has exactly style.json + the two preview JPGs,
-     and that assets/thumbs/<slug>-16x9.jpg exists;
+     and that assets/thumbs/<slug>-16x9.jpg exists, then shrinks oversized
+     previews with optimize-images.py;
   2. adds each style to the top of "styles" in data/catalog.json (in the order
      given, so pass a series' part 1 first), or updates its summary if it is
      already listed;
   3. optionally moves styles to the front of "featured" (keeping six);
-  4. runs validate-style-json.py, generate-readme.py, build-pages-mvp.py and
-     generate-copy-prompts.py.
+  4. runs validate-style-json.py, optimize-images.py --check, generate-readme.py,
+     build-pages-mvp.py and generate-copy-prompts.py.
 If any step fails, data/catalog.json is restored and the script exits non-zero.
 It never commits or pushes; review `git status` and commit as usual.
 
@@ -39,6 +40,7 @@ STYLE_FILES = ["preview-16x9.jpg", "preview-9x16.jpg", "style.json"]
 FEATURED_COUNT = 6
 STEPS = [
     ["scripts/validate-style-json.py", "."],
+    ["scripts/optimize-images.py", "--check"],
     ["scripts/generate-readme.py"],
     ["scripts/build-pages-mvp.py"],
     ["scripts/generate-copy-prompts.py"],
@@ -121,6 +123,10 @@ def main() -> None:
         fail(f"--add lists a style twice: {added}")
     for slug in added + args.feature:
         check_style_folder(slug)
+    if added:
+        result = subprocess.run([sys.executable, "scripts/optimize-images.py", *added], cwd=ROOT)
+        if result.returncode != 0:
+            fail("optimize-images.py failed (it needs Pillow: pip install pillow)")
 
     original = CATALOG_DATA.read_text(encoding="utf-8")
     data = json.loads(original)
