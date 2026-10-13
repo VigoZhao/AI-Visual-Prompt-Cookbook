@@ -42,15 +42,16 @@ def load_json(path: Path) -> dict[str, Any]:
     return data
 
 
-def read_catalog_order() -> tuple[list[str], dict[str, str]]:
-    """Gallery order and short descriptions from data/catalog.json (also the README source)."""
+def read_catalog_order() -> tuple[list[str], dict[str, str], list[str]]:
+    """Gallery order, short descriptions and Featured slugs from data/catalog.json (also the README source)."""
     data = load_json(CATALOG_DATA)
     order: list[str] = []
     descriptions: dict[str, str] = {}
     for entry in data.get("styles", []):
         order.append(entry["slug"])
         descriptions[entry["slug"]] = re.sub(r"\s+", " ", entry.get("summary", "")).strip()
-    return order, descriptions
+    featured = [entry["slug"] for entry in data.get("featured", [])]
+    return order, descriptions, featured
 
 
 def first_text_list(items: Any, limit: int) -> list[str]:
@@ -164,7 +165,7 @@ def assign_similar(styles: list[dict[str, Any]], limit: int = 6) -> None:
 
 
 def build() -> None:
-    catalog_order, catalog_descriptions = read_catalog_order()
+    catalog_order, catalog_descriptions, featured_slugs = read_catalog_order()
     style_paths = {path.parent.name: path for path in STYLES_DIR.glob("*/style.json")}
     ordered_slugs = [slug for slug in catalog_order if slug in style_paths]
     ordered_slugs.extend(sorted(slug for slug in style_paths if slug not in ordered_slugs))
@@ -209,6 +210,7 @@ def build() -> None:
         "quickTags": [label for label, _ in QUICK_TAGS if any(label in s["tags"] for s in styles)],
         "zhTerms": ZH_TERMS,
         "families": families,
+        "featured": [slug for slug in featured_slugs if slug in style_paths],
         "styles": styles,
     }
     SITE_DIR.mkdir(exist_ok=True)

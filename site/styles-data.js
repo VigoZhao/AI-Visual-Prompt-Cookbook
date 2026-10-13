@@ -462,6 +462,14 @@ window.COOKBOOK_STYLES = {
       ]
     }
   },
+  "featured": [
+    "everyday-riso",
+    "chromatic-gesture-characters",
+    "velocity-type-sport",
+    "acid-jolt-photo-collage",
+    "amber-orbit-editorial",
+    "felt-motion-brand-campaign"
+  ],
   "styles": [
     {
       "name": "Everyday Riso",
