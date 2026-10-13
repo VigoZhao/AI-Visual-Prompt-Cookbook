@@ -55,6 +55,8 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Electric Yellow Cutout Megatype Poster Style | [Copy Prompt](electric-yellow-cutout-megatype-poster-style.md) | [style.json](../../styles/electric-yellow-cutout-megatype-poster-style/style.json) |
 | Everyday Riso | [Copy Prompt](everyday-riso.md) | [style.json](../../styles/everyday-riso/style.json) |
 | Everyday Riso — Part 2 | [Copy Prompt](everyday-riso-part-02.md) | [style.json](../../styles/everyday-riso-part-02/style.json) |
+| Everyday Riso — Part 3 | [Copy Prompt](everyday-riso-part-03.md) | [style.json](../../styles/everyday-riso-part-03/style.json) |
+| Everyday Riso — Part 4 | [Copy Prompt](everyday-riso-part-04.md) | [style.json](../../styles/everyday-riso-part-04/style.json) |
 | Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
 | Felt Motion Brand Campaign | [Copy Prompt](felt-motion-brand-campaign.md) | [style.json](../../styles/felt-motion-brand-campaign/style.json) |
 | Felt Motion Brand Campaign — Set 02 | [Copy Prompt](felt-motion-brand-campaign-set-02.md) | [style.json](../../styles/felt-motion-brand-campaign-set-02/style.json) |

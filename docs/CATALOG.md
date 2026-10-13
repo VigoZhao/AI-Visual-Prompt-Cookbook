@@ -1,6 +1,6 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 167 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 169 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
 
@@ -13,7 +13,7 @@ Warm, cute everyday-life risograph posters: one chunky rounded person does an or
 Files: [style.json](../styles/everyday-riso/style.json) · [Copy Prompt](copy-prompts/everyday-riso.md) · [16:9 preview](../styles/everyday-riso/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso/preview-9x16.jpg) · [Folder](../styles/everyday-riso)
 
 <details>
-<summary>1 more in this series: Part 2</summary>
+<summary>3 more in this series: Part 2, Part 3, Part 4</summary>
 
 #### Everyday Riso — Part 2
 
@@ -22,6 +22,22 @@ Files: [style.json](../styles/everyday-riso/style.json) · [Copy Prompt](copy-pr
 Part 2 of Everyday Riso: four new everyday cases — moving day, morning coffee, an ice-cream treat and a bakery bike ride — in the same three-ink orange, olive and near-black risograph system on cream paper, with one chunky rounded person, exactly one absurdly oversized object, visible misregistration and halftone grain, and one tiny black corner label.
 
 Files: [style.json](../styles/everyday-riso-part-02/style.json) · [Copy Prompt](copy-prompts/everyday-riso-part-02.md) · [16:9 preview](../styles/everyday-riso-part-02/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso-part-02/preview-9x16.jpg) · [Folder](../styles/everyday-riso-part-02)
+
+#### Everyday Riso — Part 3
+
+<a href="../styles/everyday-riso-part-03"><img src="../assets/thumbs/everyday-riso-part-03-16x9.jpg" width="720" alt="Everyday Riso — Part 3 preview"></a>
+
+Part 3 of Everyday Riso: a recurring cheerful grandfather with a round paper-white beard, small round glasses and an olive cardigan — morning exercise, the paper, slow tea and a walk with an old friend — in the same three-ink orange, olive and near-black risograph system on cream paper, with exactly one absurdly oversized object, visible misregistration and halftone grain, and one tiny black corner label.
+
+Files: [style.json](../styles/everyday-riso-part-03/style.json) · [Copy Prompt](copy-prompts/everyday-riso-part-03.md) · [16:9 preview](../styles/everyday-riso-part-03/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso-part-03/preview-9x16.jpg) · [Folder](../styles/everyday-riso-part-03)
+
+#### Everyday Riso — Part 4
+
+<a href="../styles/everyday-riso-part-04"><img src="../assets/thumbs/everyday-riso-part-04-16x9.jpg" width="720" alt="Everyday Riso — Part 4 preview"></a>
+
+Part 4 of Everyday Riso: the cheerful bearded grandfather's afternoons — a giant harvest pumpkin, a winning xiangqi piece, an endless nap blanket and a huge fresh catch — in the same three-ink orange, olive and near-black risograph system on cream paper, with exactly one absurdly oversized object, visible misregistration and halftone grain, and one tiny black corner label.
+
+Files: [style.json](../styles/everyday-riso-part-04/style.json) · [Copy Prompt](copy-prompts/everyday-riso-part-04.md) · [16:9 preview](../styles/everyday-riso-part-04/preview-16x9.jpg) · [9:16 preview](../styles/everyday-riso-part-04/preview-9x16.jpg) · [Folder](../styles/everyday-riso-part-04)
 
 </details>
 
