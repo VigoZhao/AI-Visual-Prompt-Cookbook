@@ -105,11 +105,13 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Neon Stadium 3D Hero Type Poster Style | [Copy Prompt](neon-stadium-3d-hero-type-poster-style.md) | [style.json](../../styles/neon-stadium-3d-hero-type-poster-style/style.json) |
 | Neon Strip Low Angle Campaign | [Copy Prompt](neon-strip-low-angle-campaign.md) | [style.json](../../styles/neon-strip-low-angle-campaign/style.json) |
 | Neon Type Photo Scribble Poster | [Copy Prompt](neon-type-photo-scribble-poster.md) | [style.json](../../styles/neon-type-photo-scribble-poster/style.json) |
+| Obsidian Signal Motion | [Copy Prompt](obsidian-signal-motion.md) | [style.json](../../styles/obsidian-signal-motion/style.json) |
 | Olive Scribble Sports Poster Style | [Copy Prompt](olive-scribble-sports-poster-style.md) | [style.json](../../styles/olive-scribble-sports-poster-style/style.json) |
 | Op Stripe Card Editorial | [Copy Prompt](op-stripe-card-editorial.md) | [style.json](../../styles/op-stripe-card-editorial/style.json) |
 | Orange Brush Mascot Action Poster Style | [Copy Prompt](orange-brush-mascot-action-poster-style.md) | [style.json](../../styles/orange-brush-mascot-action-poster-style/style.json) |
 | Photo Illustration Overlay Poster | [Copy Prompt](photo-illustration-overlay-poster-style.md) | [style.json](../../styles/photo-illustration-overlay-poster-style/style.json) |
 | Pink Anime Motorcycle Spec Poster Style | [Copy Prompt](pink-anime-motorcycle-spec-poster-style.md) | [style.json](../../styles/pink-anime-motorcycle-spec-poster-style/style.json) |
+| Pixel Weave Editorial | [Copy Prompt](pixel-weave-editorial.md) | [style.json](../../styles/pixel-weave-editorial/style.json) |
 | Playful Marker Grounding Poster Style | [Copy Prompt](playful-marker-grounding-poster-style.md) | [style.json](../../styles/playful-marker-grounding-poster-style/style.json) |
 | Playful Mascot Doodle Snapshot Style | [Copy Prompt](playful-mascot-doodle-snapshot-style.md) | [style.json](../../styles/playful-mascot-doodle-snapshot-style/style.json) |
 | Plush City Festival Mobile Poster | [Copy Prompt](plush-city-festival-mobile-poster-style.md) | [style.json](../../styles/plush-city-festival-mobile-poster-style/style.json) |

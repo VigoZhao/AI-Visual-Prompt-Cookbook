@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 169 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 171 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Pixel Weave Editorial
+
+<a href="../styles/pixel-weave-editorial"><img src="../assets/thumbs/pixel-weave-editorial-16x9.jpg" width="720" alt="Pixel Weave Editorial preview"></a>
+
+Analog editorial photography meets local square displacement, restless ivory cut lettering and a fine woven print grid. Four content-led reinterpretations explore circular rhythm, bodily motion, an organic spiral and architectural steps.
+
+Files: [style.json](../styles/pixel-weave-editorial/style.json) · [Copy Prompt](copy-prompts/pixel-weave-editorial.md) · [16:9 preview](../styles/pixel-weave-editorial/preview-16x9.jpg) · [9:16 preview](../styles/pixel-weave-editorial/preview-9x16.jpg) · [Folder](../styles/pixel-weave-editorial)
+
+---
+
+### Obsidian Signal Motion
+
+<a href="../styles/obsidian-signal-motion"><img src="../assets/thumbs/obsidian-signal-motion-16x9.jpg" width="720" alt="Obsidian Signal Motion preview"></a>
+
+Near-black photographic forms against cool white silence, a concentrated ember-orange translucent signal, and horizontally stretched optical afterimages; restrained futuristic editorial typography.
+
+Files: [style.json](../styles/obsidian-signal-motion/style.json) · [Copy Prompt](copy-prompts/obsidian-signal-motion.md) · [16:9 preview](../styles/obsidian-signal-motion/preview-16x9.jpg) · [9:16 preview](../styles/obsidian-signal-motion/preview-9x16.jpg) · [Folder](../styles/obsidian-signal-motion)
+
+---
 
 ### Everyday Riso
 

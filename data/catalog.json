@@ -1,6 +1,12 @@
 {
   "featured": [
     {
+      "slug": "pixel-weave-editorial"
+    },
+    {
+      "slug": "obsidian-signal-motion"
+    },
+    {
       "slug": "everyday-riso",
       "description": "Warm, cute everyday-life risograph posters: one chunky rounded person does an ordinary daily action while exactly one object is absurdly oversized, printed in three inks (warm orange, olive green, near-black) on cream paper with misregistration, ink grain, coarse halftone and overprint brown, plus one tiny corner label."
     },
@@ -12,15 +18,17 @@
     },
     {
       "slug": "acid-jolt-photo-collage"
-    },
-    {
-      "slug": "amber-orbit-editorial"
-    },
-    {
-      "slug": "felt-motion-brand-campaign"
     }
   ],
   "styles": [
+    {
+      "slug": "pixel-weave-editorial",
+      "summary": "Analog editorial photography with local square pixel displacement, restless ivory cut-out lettering and a fine woven print grid across vinyl, motion, citrus and architecture."
+    },
+    {
+      "slug": "obsidian-signal-motion",
+      "summary": "Near-black photographic forms on cool white silence, one ember-orange translucent signal and stretched optical afterimages, set in restrained futuristic editorial type."
+    },
     {
       "slug": "everyday-riso",
       "summary": "Three-ink risograph posters of one chunky rounded person doing a daily routine with exactly one absurdly oversized object, misregistration, halftone grain and a tiny corner label."
