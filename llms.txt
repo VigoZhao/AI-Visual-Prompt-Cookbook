@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 171 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 172 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -61,6 +61,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Orange Type Street Editorial](https://prompts.vigocreativeai.com/site/styles/orange-type-street-editorial/): Street-magazine collage on white paper: giant vermilion ultra-condensed type, photoreal figure cutouts, black headline islands, oval callouts and blue marker gestures driven by each action. Raw JSON: https://prompts.vigocreativeai.com/styles/orange-type-street-editorial/style.json
 - [Everyday Riso](https://prompts.vigocreativeai.com/site/styles/everyday-riso/): Three-ink risograph posters of one chunky rounded person doing a daily routine with exactly one absurdly oversized object, misregistration, halftone grain and a tiny corner label. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso/style.json
 - [Everyday Riso — Part 2](https://prompts.vigocreativeai.com/site/styles/everyday-riso-part-02/): Part 2: moving day, morning coffee, an ice-cream treat and a bakery bike ride in three-ink orange, olive and black riso with one oversized object. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso-part-02/style.json
 - [Everyday Riso — Part 3](https://prompts.vigocreativeai.com/site/styles/everyday-riso-part-03/): Part 3: a bearded grandfather's mornings — a giant dumbbell, a wall-sized newspaper, a towering tea steam and a tortoise friend — in three-ink orange, olive and black riso. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso-part-03/style.json

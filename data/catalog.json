@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "orange-type-street-editorial"
+    },
+    {
       "slug": "pixel-weave-editorial"
     },
     {
@@ -15,12 +18,13 @@
     },
     {
       "slug": "velocity-type-sport"
-    },
-    {
-      "slug": "acid-jolt-photo-collage"
     }
   ],
   "styles": [
+    {
+      "slug": "orange-type-street-editorial",
+      "summary": "Street-magazine collage on white paper: giant vermilion ultra-condensed type, photoreal figure cutouts, black headline islands, oval callouts and blue marker gestures driven by each action."
+    },
     {
       "slug": "pixel-weave-editorial",
       "summary": "Analog editorial photography with local square pixel displacement, restless ivory cut-out lettering and a fine woven print grid across vinyl, motion, citrus and architecture."

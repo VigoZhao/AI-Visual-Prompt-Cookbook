@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 171 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 172 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Orange Type Street Editorial
+
+<a href="../styles/orange-type-street-editorial"><img src="../assets/thumbs/orange-type-street-editorial-16x9.jpg" width="720" alt="Orange Type Street Editorial preview"></a>
+
+White-paper street-magazine collage: giant vermilion-orange ultra-condensed type, high-saturation photoreal figures, black headline islands, thin oval callouts and electric-blue hand-drawn marks. The action and the shape of the props drive each case's layout.
+
+Files: [style.json](../styles/orange-type-street-editorial/style.json) · [Copy Prompt](copy-prompts/orange-type-street-editorial.md) · [16:9 preview](../styles/orange-type-street-editorial/preview-16x9.jpg) · [9:16 preview](../styles/orange-type-street-editorial/preview-9x16.jpg) · [Folder](../styles/orange-type-street-editorial)
+
+---
 
 ### Pixel Weave Editorial
 
