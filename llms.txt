@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 172 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 173 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -38,6 +38,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Zine + Collage
 
+- [Fisheye Desktop Zine](https://prompts.vigocreativeai.com/site/styles/fisheye-desktop-zine/): Tactile digital scrapbook: extreme fisheye cutout photos, charcoal grain, loose pencil outlines, clean off-white editorial type and tiny cyan desktop-file fragments. Raw JSON: https://prompts.vigocreativeai.com/styles/fisheye-desktop-zine/style.json
 - [Acid Jolt Portrait Collage](https://prompts.vigocreativeai.com/site/styles/acid-jolt-photo-collage/): Punchy portrait posters mixing warm low-fi close-ups, blunt photo fragments, massive lemon-yellow lettering, and loose marker signals. Raw JSON: https://prompts.vigocreativeai.com/styles/acid-jolt-photo-collage/style.json
 - [Memory Fragment Portrait](https://prompts.vigocreativeai.com/site/styles/memory-fragment-portrait/): Halftone portraits tiled by a white grid, with cells swapped for faded snapshots, blanks, and one fluorescent-pink memory. Raw JSON: https://prompts.vigocreativeai.com/styles/memory-fragment-portrait/style.json
 - [Halftone Chroma Fragment Editorial](https://prompts.vigocreativeai.com/site/styles/halftone-chroma-fragment-editorial/): High-contrast collages where monumental coarse halftones meet crisp color fragments, heavy display typography, and sparse handwritten marks. Raw JSON: https://prompts.vigocreativeai.com/styles/halftone-chroma-fragment-editorial/style.json

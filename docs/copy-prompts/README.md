@@ -60,6 +60,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Fantasy Scribble Mascot Poster Style | [Copy Prompt](fantasy-scribble-mascot-poster-style.md) | [style.json](../../styles/fantasy-scribble-mascot-poster-style/style.json) |
 | Felt Motion Brand Campaign | [Copy Prompt](felt-motion-brand-campaign.md) | [style.json](../../styles/felt-motion-brand-campaign/style.json) |
 | Felt Motion Brand Campaign — Set 02 | [Copy Prompt](felt-motion-brand-campaign-set-02.md) | [style.json](../../styles/felt-motion-brand-campaign-set-02/style.json) |
+| Fisheye Desktop Zine | [Copy Prompt](fisheye-desktop-zine.md) | [style.json](../../styles/fisheye-desktop-zine/style.json) |
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Folded Newspaper Product Ad Style | [Copy Prompt](folded-newspaper-product-ad-style.md) | [style.json](../../styles/folded-newspaper-product-ad-style/style.json) |
 | Foreshortened Gradient Impact Ad Style | [Copy Prompt](foreshortened-gradient-impact-ad-style.md) | [style.json](../../styles/foreshortened-gradient-impact-ad-style/style.json) |

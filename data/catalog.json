@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "fisheye-desktop-zine"
+    },
+    {
       "slug": "orange-type-street-editorial"
     },
     {
@@ -15,12 +18,13 @@
     },
     {
       "slug": "chromatic-gesture-characters"
-    },
-    {
-      "slug": "velocity-type-sport"
     }
   ],
   "styles": [
+    {
+      "slug": "fisheye-desktop-zine",
+      "summary": "Tactile digital scrapbook: extreme fisheye cutout photos, charcoal grain, loose pencil outlines, clean off-white editorial type and tiny cyan desktop-file fragments."
+    },
     {
       "slug": "orange-type-street-editorial",
       "summary": "Street-magazine collage on white paper: giant vermilion ultra-condensed type, photoreal figure cutouts, black headline islands, oval callouts and blue marker gestures driven by each action."

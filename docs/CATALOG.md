@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 172 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 173 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Fisheye Desktop Zine
+
+<a href="../styles/fisheye-desktop-zine"><img src="../assets/thumbs/fisheye-desktop-zine-16x9.jpg" width="720" alt="Fisheye Desktop Zine preview"></a>
+
+A tactile digital scrapbook that collides extreme fisheye cutout photography, charcoal grain, imperfect pencil outlines, off-white editorial type and tiny cyan desktop-file fragments.
+
+Files: [style.json](../styles/fisheye-desktop-zine/style.json) · [Copy Prompt](copy-prompts/fisheye-desktop-zine.md) · [16:9 preview](../styles/fisheye-desktop-zine/preview-16x9.jpg) · [9:16 preview](../styles/fisheye-desktop-zine/preview-9x16.jpg) · [Folder](../styles/fisheye-desktop-zine)
+
+---
 
 ### Orange Type Street Editorial
 
