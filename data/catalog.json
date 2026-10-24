@@ -1,6 +1,12 @@
 {
   "featured": [
     {
+      "slug": "salvage-body-editorial"
+    },
+    {
+      "slug": "scarlet-outline-monument"
+    },
+    {
       "slug": "fisheye-desktop-zine"
     },
     {
@@ -11,16 +17,17 @@
     },
     {
       "slug": "obsidian-signal-motion"
-    },
-    {
-      "slug": "everyday-riso",
-      "description": "Warm, cute everyday-life risograph posters: one chunky rounded person does an ordinary daily action while exactly one object is absurdly oversized, printed in three inks (warm orange, olive green, near-black) on cream paper with misregistration, ink grain, coarse halftone and overprint brown, plus one tiny corner label."
-    },
-    {
-      "slug": "chromatic-gesture-characters"
     }
   ],
   "styles": [
+    {
+      "slug": "salvage-body-editorial",
+      "summary": "Speculative industrial fashion editorials: altered human silhouettes fused with oversized worn mechanical body interfaces, painterly abrasion, black clothing and signal-orange hardware isolated on white."
+    },
+    {
+      "slug": "scarlet-outline-monument",
+      "summary": "Vermilion-red concept posters: grey sculptural paintings in dramatic perspective, giant slanted serif type split into solid letters behind and thin outlines in front, with black annotations."
+    },
     {
       "slug": "fisheye-desktop-zine",
       "summary": "Tactile digital scrapbook: extreme fisheye cutout photos, charcoal grain, loose pencil outlines, clean off-white editorial type and tiny cyan desktop-file fragments."

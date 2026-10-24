@@ -132,9 +132,11 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
 | Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |
 | Rough Marker Monster Poster Style | [Copy Prompt](rough-marker-monster-poster-style.md) | [style.json](../../styles/rough-marker-monster-poster-style/style.json) |
+| Salvage Body Editorial | [Copy Prompt](salvage-body-editorial.md) | [style.json](../../styles/salvage-body-editorial/style.json) |
 | Scarlet Block Cutout Doodle Book Cover Style | [Copy Prompt](scarlet-block-cutout-doodle-book-cover-style.md) | [style.json](../../styles/scarlet-block-cutout-doodle-book-cover-style/style.json) |
 | Scarlet Court Photo Type Poster | [Copy Prompt](scarlet-court-photo-type-poster-style.md) | [style.json](../../styles/scarlet-court-photo-type-poster-style/style.json) |
 | Scarlet Megatype Action Collage Style | [Copy Prompt](scarlet-megatype-action-collage-style.md) | [style.json](../../styles/scarlet-megatype-action-collage-style/style.json) |
+| Scarlet Outline Monument | [Copy Prompt](scarlet-outline-monument.md) | [style.json](../../styles/scarlet-outline-monument/style.json) |
 | School Grid Paper Cutout Poster | [Copy Prompt](school-grid-paper-cutout-poster.md) | [style.json](../../styles/school-grid-paper-cutout-poster/style.json) |
 | Sensory Footwear Lab | [Copy Prompt](sensory-footwear-lab.md) | [style.json](../../styles/sensory-footwear-lab/style.json) |
 | Signal Red Contour Poster | [Copy Prompt](signal-red-contour-poster.md) | [style.json](../../styles/signal-red-contour-poster/style.json) |

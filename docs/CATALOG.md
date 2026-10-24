@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 173 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 175 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Salvage Body Editorial
+
+<a href="../styles/salvage-body-editorial"><img src="../assets/thumbs/salvage-body-editorial-16x9.jpg" width="720" alt="Salvage Body Editorial preview"></a>
+
+Speculative industrial fashion editorials: altered human silhouettes, oversized worn mechanical body interfaces, painterly abrasion, black clothing and signal-orange hardware isolated on white.
+
+Files: [style.json](../styles/salvage-body-editorial/style.json) · [Copy Prompt](copy-prompts/salvage-body-editorial.md) · [16:9 preview](../styles/salvage-body-editorial/preview-16x9.jpg) · [9:16 preview](../styles/salvage-body-editorial/preview-9x16.jpg) · [Folder](../styles/salvage-body-editorial)
+
+---
+
+### Scarlet Outline Monument
+
+<a href="../styles/scarlet-outline-monument"><img src="../assets/thumbs/scarlet-outline-monument-16x9.jpg" width="720" alt="Scarlet Outline Monument preview"></a>
+
+Vermilion-red backgrounds with cool grey and black-and-white sculptural concept painting, exaggerated perspective and giant slanted serif type; solid letters hide behind the subject, thin outline letters cross the foreground, with sparse black engineering annotations.
+
+Files: [style.json](../styles/scarlet-outline-monument/style.json) · [Copy Prompt](copy-prompts/scarlet-outline-monument.md) · [16:9 preview](../styles/scarlet-outline-monument/preview-16x9.jpg) · [9:16 preview](../styles/scarlet-outline-monument/preview-9x16.jpg) · [Folder](../styles/scarlet-outline-monument)
+
+---
 
 ### Fisheye Desktop Zine
 

@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 173 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 175 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Scarlet Outline Monument](https://prompts.vigocreativeai.com/site/styles/scarlet-outline-monument/): Vermilion-red concept posters: grey sculptural paintings in dramatic perspective, giant slanted serif type split into solid letters behind and thin outlines in front, with black annotations. Raw JSON: https://prompts.vigocreativeai.com/styles/scarlet-outline-monument/style.json
 - [Orange Type Street Editorial](https://prompts.vigocreativeai.com/site/styles/orange-type-street-editorial/): Street-magazine collage on white paper: giant vermilion ultra-condensed type, photoreal figure cutouts, black headline islands, oval callouts and blue marker gestures driven by each action. Raw JSON: https://prompts.vigocreativeai.com/styles/orange-type-street-editorial/style.json
 - [Everyday Riso](https://prompts.vigocreativeai.com/site/styles/everyday-riso/): Three-ink risograph posters of one chunky rounded person doing a daily routine with exactly one absurdly oversized object, misregistration, halftone grain and a tiny corner label. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso/style.json
 - [Everyday Riso — Part 2](https://prompts.vigocreativeai.com/site/styles/everyday-riso-part-02/): Part 2: moving day, morning coffee, an ice-cream treat and a bakery bike ride in three-ink orange, olive and black riso with one oversized object. Raw JSON: https://prompts.vigocreativeai.com/styles/everyday-riso-part-02/style.json
@@ -142,6 +143,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Editorial + Minimal
 
+- [Salvage Body Editorial](https://prompts.vigocreativeai.com/site/styles/salvage-body-editorial/): Speculative industrial fashion editorials: altered human silhouettes fused with oversized worn mechanical body interfaces, painterly abrasion, black clothing and signal-orange hardware isolated on white. Raw JSON: https://prompts.vigocreativeai.com/styles/salvage-body-editorial/style.json
 - [Pixel Weave Editorial](https://prompts.vigocreativeai.com/site/styles/pixel-weave-editorial/): Analog editorial photography with local square pixel displacement, restless ivory cut-out lettering and a fine woven print grid across vinyl, motion, citrus and architecture. Raw JSON: https://prompts.vigocreativeai.com/styles/pixel-weave-editorial/style.json
 - [Obsidian Signal Motion](https://prompts.vigocreativeai.com/site/styles/obsidian-signal-motion/): Near-black photographic forms on cool white silence, one ember-orange translucent signal and stretched optical afterimages, set in restrained futuristic editorial type. Raw JSON: https://prompts.vigocreativeai.com/styles/obsidian-signal-motion/style.json
 - [Amber Orbit Editorial](https://prompts.vigocreativeai.com/site/styles/amber-orbit-editorial/): Warm amber macros with ivory serif type and fine orbital lines, turning tactile details into quiet editorial stories. Raw JSON: https://prompts.vigocreativeai.com/styles/amber-orbit-editorial/style.json
