@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "vermilion-marker-folk"
+    },
+    {
       "slug": "salvage-body-editorial"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "pixel-weave-editorial"
-    },
-    {
-      "slug": "obsidian-signal-motion"
     }
   ],
   "styles": [
+    {
+      "slug": "vermilion-marker-folk",
+      "summary": "Full-bleed vermilion folk event posters with uneven thick black marker strokes, naive round-headed figures sharing one action, dense dot textures and a compact two-typeface hierarchy."
+    },
     {
       "slug": "salvage-body-editorial",
       "summary": "Speculative industrial fashion editorials: altered human silhouettes fused with oversized worn mechanical body interfaces, painterly abrasion, black clothing and signal-orange hardware isolated on white."

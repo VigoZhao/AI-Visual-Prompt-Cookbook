@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 175 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 176 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Vermilion Marker Folk
+
+<a href="../styles/vermilion-marker-folk"><img src="../assets/thumbs/vermilion-marker-folk-16x9.jpg" width="720" alt="Vermilion Marker Folk preview"></a>
+
+Folk event poster in full-bleed vermilion with uneven thick black marker strokes: naive round-headed figures sharing an action, patches of dense dot texture, and a compact two-typeface information hierarchy. By default it redesigns the figures' interaction and layout around a new theme.
+
+Files: [style.json](../styles/vermilion-marker-folk/style.json) · [Copy Prompt](copy-prompts/vermilion-marker-folk.md) · [16:9 preview](../styles/vermilion-marker-folk/preview-16x9.jpg) · [9:16 preview](../styles/vermilion-marker-folk/preview-9x16.jpg) · [Folder](../styles/vermilion-marker-folk)
+
+---
 
 ### Salvage Body Editorial
 
