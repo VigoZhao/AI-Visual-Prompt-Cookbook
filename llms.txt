@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 176 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 177 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Vermilion Jade Halftone](https://prompts.vigocreativeai.com/site/styles/vermilion-jade-halftone/): Teal-green paper sci-fi film posters with giant vermilion CJK title glyphs, cream highlights and ink-black halftone, keeping occlusion, misregistration and print wear. Raw JSON: https://prompts.vigocreativeai.com/styles/vermilion-jade-halftone/style.json
 - [Vermilion Marker Folk](https://prompts.vigocreativeai.com/site/styles/vermilion-marker-folk/): Full-bleed vermilion folk event posters with uneven thick black marker strokes, naive round-headed figures sharing one action, dense dot textures and a compact two-typeface hierarchy. Raw JSON: https://prompts.vigocreativeai.com/styles/vermilion-marker-folk/style.json
 - [Scarlet Outline Monument](https://prompts.vigocreativeai.com/site/styles/scarlet-outline-monument/): Vermilion-red concept posters: grey sculptural paintings in dramatic perspective, giant slanted serif type split into solid letters behind and thin outlines in front, with black annotations. Raw JSON: https://prompts.vigocreativeai.com/styles/scarlet-outline-monument/style.json
 - [Orange Type Street Editorial](https://prompts.vigocreativeai.com/site/styles/orange-type-street-editorial/): Street-magazine collage on white paper: giant vermilion ultra-condensed type, photoreal figure cutouts, black headline islands, oval callouts and blue marker gestures driven by each action. Raw JSON: https://prompts.vigocreativeai.com/styles/orange-type-street-editorial/style.json

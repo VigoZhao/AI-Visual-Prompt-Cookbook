@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 176 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 177 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Vermilion Jade Halftone
+
+<a href="../styles/vermilion-jade-halftone"><img src="../assets/thumbs/vermilion-jade-halftone-16x9.jpg" width="720" alt="Vermilion Jade Halftone preview"></a>
+
+High-density sci-fi film poster language built from teal-green paper, giant vermilion title glyphs, cream highlights and ink-black halftone; it keeps occlusion, misregistration and wear while reorganizing the layout around new stories at different scales.
+
+Files: [style.json](../styles/vermilion-jade-halftone/style.json) · [Copy Prompt](copy-prompts/vermilion-jade-halftone.md) · [16:9 preview](../styles/vermilion-jade-halftone/preview-16x9.jpg) · [9:16 preview](../styles/vermilion-jade-halftone/preview-9x16.jpg) · [Folder](../styles/vermilion-jade-halftone)
+
+---
 
 ### Vermilion Marker Folk
 

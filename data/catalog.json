@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "vermilion-jade-halftone"
+    },
+    {
       "slug": "vermilion-marker-folk"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "orange-type-street-editorial"
-    },
-    {
-      "slug": "pixel-weave-editorial"
     }
   ],
   "styles": [
+    {
+      "slug": "vermilion-jade-halftone",
+      "summary": "Teal-green paper sci-fi film posters with giant vermilion CJK title glyphs, cream highlights and ink-black halftone, keeping occlusion, misregistration and print wear."
+    },
     {
       "slug": "vermilion-marker-folk",
       "summary": "Full-bleed vermilion folk event posters with uneven thick black marker strokes, naive round-headed figures sharing one action, dense dot textures and a compact two-typeface hierarchy."

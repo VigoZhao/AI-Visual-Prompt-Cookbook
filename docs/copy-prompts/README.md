@@ -172,6 +172,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Velocity Type Sport — Part 3 | [Copy Prompt](velocity-type-sport-part-03.md) | [style.json](../../styles/velocity-type-sport-part-03/style.json) |
 | Velocity Type Sport — Part 4 | [Copy Prompt](velocity-type-sport-part-04.md) | [style.json](../../styles/velocity-type-sport-part-04/style.json) |
 | Vermilion Folk Screenprint Character Poster | [Copy Prompt](vermilion-folk-screenprint-character-poster.md) | [style.json](../../styles/vermilion-folk-screenprint-character-poster/style.json) |
+| Vermilion Jade Halftone | [Copy Prompt](vermilion-jade-halftone.md) | [style.json](../../styles/vermilion-jade-halftone/style.json) |
 | Vermilion Marker Folk | [Copy Prompt](vermilion-marker-folk.md) | [style.json](../../styles/vermilion-marker-folk/style.json) |
 | Vermilion Photocopy Tension Editorial | [Copy Prompt](vermilion-photocopy-tension-editorial.md) | [style.json](../../styles/vermilion-photocopy-tension-editorial/style.json) |
 | Warm Fisheye Product Impact Ad Style | [Copy Prompt](warm-fisheye-product-impact-ad-style.md) | [style.json](../../styles/warm-fisheye-product-impact-ad-style/style.json) |
