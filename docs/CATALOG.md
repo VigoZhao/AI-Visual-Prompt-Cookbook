@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 177 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 178 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Ink Orbit Club
+
+<a href="../styles/ink-orbit-club"><img src="../assets/thumbs/ink-orbit-club-16x9.jpg" width="720" alt="Ink Orbit Club preview"></a>
+
+Flat, slightly naive hand-inked maker posters in densely lived-in workshops: cold teal/cyan and grey-green, strong fisheye perspective, fluorescent pink katakana and blue serif top mastheads.
+
+Files: [style.json](../styles/ink-orbit-club/style.json) · [Copy Prompt](copy-prompts/ink-orbit-club.md) · [16:9 preview](../styles/ink-orbit-club/preview-16x9.jpg) · [9:16 preview](../styles/ink-orbit-club/preview-9x16.jpg) · [Folder](../styles/ink-orbit-club)
+
+---
 
 ### Vermilion Jade Halftone
 

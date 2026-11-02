@@ -72,6 +72,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Ice Cyan Megatype Action Poster Style | [Copy Prompt](ice-cyan-megatype-action-poster-style.md) | [style.json](../../styles/ice-cyan-megatype-action-poster-style/style.json) |
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
 | Ink Body Manifesto | [Copy Prompt](ink-body-manifesto.md) | [style.json](../../styles/ink-body-manifesto/style.json) |
+| Ink Orbit Club | [Copy Prompt](ink-orbit-club.md) | [style.json](../../styles/ink-orbit-club/style.json) |
 | Jade Glyph Grocer Collage Poster Style | [Copy Prompt](jade-glyph-grocer-collage-poster-style.md) | [style.json](../../styles/jade-glyph-grocer-collage-poster-style/style.json) |
 | Jagged Red Street Photo Event Poster Style | [Copy Prompt](jagged-red-street-photo-event-poster-style.md) | [style.json](../../styles/jagged-red-street-photo-event-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |

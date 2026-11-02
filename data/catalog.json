@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "ink-orbit-club"
+    },
+    {
       "slug": "vermilion-jade-halftone"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "fisheye-desktop-zine"
-    },
-    {
-      "slug": "orange-type-street-editorial"
     }
   ],
   "styles": [
+    {
+      "slug": "ink-orbit-club",
+      "summary": "Flat, naive hand-inked maker posters in dense fisheye workshops: cold teal and grey-green rooms, fluorescent pink katakana and bold blue serif mastheads."
+    },
     {
       "slug": "vermilion-jade-halftone",
       "summary": "Teal-green paper sci-fi film posters with giant vermilion CJK title glyphs, cream highlights and ink-black halftone, keeping occlusion, misregistration and print wear."
