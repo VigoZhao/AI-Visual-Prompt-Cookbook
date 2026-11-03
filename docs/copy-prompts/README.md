@@ -150,6 +150,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Split Ink Monumental Editorial | [Copy Prompt](split-ink-monumental-editorial.md) | [style.json](../../styles/split-ink-monumental-editorial/style.json) |
 | Split Scorched Editorial Poster | [Copy Prompt](split-scorched-editorial-poster.md) | [style.json](../../styles/split-scorched-editorial-poster/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
+| Sulphur Shift | [Copy Prompt](sulphur-shift.md) | [style.json](../../styles/sulphur-shift/style.json) |
 | Sun-Faded Scenic Editorial Poster | [Copy Prompt](sun-faded-scenic-editorial-poster.md) | [style.json](../../styles/sun-faded-scenic-editorial-poster/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
 | Sunlit Architectural Fashion Editorial | [Copy Prompt](sunlit-architectural-fashion-editorial.md) | [style.json](../../styles/sunlit-architectural-fashion-editorial/style.json) |

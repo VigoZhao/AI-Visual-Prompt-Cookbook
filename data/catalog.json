@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "sulphur-shift"
+    },
+    {
       "slug": "ink-orbit-club"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "scarlet-outline-monument"
-    },
-    {
-      "slug": "fisheye-desktop-zine"
     }
   ],
   "styles": [
+    {
+      "slug": "sulphur-shift",
+      "summary": "Sulphur-yellow shift-worker character posters: anime operators, oversized tools and perforated recorder strips colliding with a heavy black slab-serif word in rough riso-like print."
+    },
     {
       "slug": "ink-orbit-club",
       "summary": "Flat, naive hand-inked maker posters in dense fisheye workshops: cold teal and grey-green rooms, fluorescent pink katakana and bold blue serif mastheads."

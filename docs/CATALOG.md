@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 178 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 179 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Sulphur Shift
+
+<a href="../styles/sulphur-shift"><img src="../assets/thumbs/sulphur-shift-16x9.jpg" width="720" alt="Sulphur Shift preview"></a>
+
+A shift-worker character zine on sulphur paper: workers, oversized tools and perforated recorder strips spat from machines compress each moment of operation into a rough-printed character poster.
+
+Files: [style.json](../styles/sulphur-shift/style.json) · [Copy Prompt](copy-prompts/sulphur-shift.md) · [16:9 preview](../styles/sulphur-shift/preview-16x9.jpg) · [9:16 preview](../styles/sulphur-shift/preview-9x16.jpg) · [Folder](../styles/sulphur-shift)
+
+---
 
 ### Ink Orbit Club
 
