@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 179 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 180 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Jade Scarlet Panel Press
+
+<a href="../styles/jade-scarlet-panel-press"><img src="../assets/thumbs/jade-scarlet-panel-press-16x9.jpg" width="720" alt="Jade Scarlet Panel Press preview"></a>
+
+A fused character-led neighborhood bulletin: scarlet comic panel energy and cream outlined lettering intersect jade-and-black street-print silhouettes, arranged as staggered editorial modules.
+
+Files: [style.json](../styles/jade-scarlet-panel-press/style.json) · [Copy Prompt](copy-prompts/jade-scarlet-panel-press.md) · [16:9 preview](../styles/jade-scarlet-panel-press/preview-16x9.jpg) · [9:16 preview](../styles/jade-scarlet-panel-press/preview-9x16.jpg) · [Folder](../styles/jade-scarlet-panel-press)
+
+---
 
 ### Sulphur Shift
 

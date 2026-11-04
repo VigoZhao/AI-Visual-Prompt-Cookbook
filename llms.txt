@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 179 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 180 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Jade Scarlet Panel Press](https://prompts.vigocreativeai.com/site/styles/jade-scarlet-panel-press/): Character-led neighborhood bulletin posters: scarlet comic panels and cream outlined capitals cut across jade grounds with black street-print silhouettes in staggered editorial modules. Raw JSON: https://prompts.vigocreativeai.com/styles/jade-scarlet-panel-press/style.json
 - [Sulphur Shift](https://prompts.vigocreativeai.com/site/styles/sulphur-shift/): Sulphur-yellow shift-worker character posters: anime operators, oversized tools and perforated recorder strips colliding with a heavy black slab-serif word in rough riso-like print. Raw JSON: https://prompts.vigocreativeai.com/styles/sulphur-shift/style.json
 - [Ink Orbit Club](https://prompts.vigocreativeai.com/site/styles/ink-orbit-club/): Flat, naive hand-inked maker posters in dense fisheye workshops: cold teal and grey-green rooms, fluorescent pink katakana and bold blue serif mastheads. Raw JSON: https://prompts.vigocreativeai.com/styles/ink-orbit-club/style.json
 - [Vermilion Jade Halftone](https://prompts.vigocreativeai.com/site/styles/vermilion-jade-halftone/): Teal-green paper sci-fi film posters with giant vermilion CJK title glyphs, cream highlights and ink-black halftone, keeping occlusion, misregistration and print wear. Raw JSON: https://prompts.vigocreativeai.com/styles/vermilion-jade-halftone/style.json

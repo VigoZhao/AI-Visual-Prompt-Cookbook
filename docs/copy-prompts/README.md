@@ -74,6 +74,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Ink Body Manifesto | [Copy Prompt](ink-body-manifesto.md) | [style.json](../../styles/ink-body-manifesto/style.json) |
 | Ink Orbit Club | [Copy Prompt](ink-orbit-club.md) | [style.json](../../styles/ink-orbit-club/style.json) |
 | Jade Glyph Grocer Collage Poster Style | [Copy Prompt](jade-glyph-grocer-collage-poster-style.md) | [style.json](../../styles/jade-glyph-grocer-collage-poster-style/style.json) |
+| Jade Scarlet Panel Press | [Copy Prompt](jade-scarlet-panel-press.md) | [style.json](../../styles/jade-scarlet-panel-press/style.json) |
 | Jagged Red Street Photo Event Poster Style | [Copy Prompt](jagged-red-street-photo-event-poster-style.md) | [style.json](../../styles/jagged-red-street-photo-event-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |
 | Kinetic Editorial Photo Collage | [Copy Prompt](kinetic-editorial-photo-collage-style.md) | [style.json](../../styles/kinetic-editorial-photo-collage-style/style.json) |
