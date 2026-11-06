@@ -164,6 +164,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Sculptural Type Helix — Refined | [Copy Prompt](tangerine-type-helix-fisheye.md) | [style.json](../../styles/tangerine-type-helix-fisheye/style.json) |
 | Teenage Skate Scribble Screenprint Poster Style | [Copy Prompt](teenage-skate-scribble-screenprint-poster-style.md) | [style.json](../../styles/teenage-skate-scribble-screenprint-poster-style/style.json) |
 | Tokyo Kawaii Travel Collage Poster | [Copy Prompt](tokyo-kawaii-travel-collage-poster-style.md) | [style.json](../../styles/tokyo-kawaii-travel-collage-poster-style/style.json) |
+| Toner Riot | [Copy Prompt](toner-riot.md) | [style.json](../../styles/toner-riot/style.json) |
 | Tri Color Hardcut Portrait Poster Style | [Copy Prompt](tri-color-hardcut-portrait-poster-style.md) | [style.json](../../styles/tri-color-hardcut-portrait-poster-style/style.json) |
 | Turquoise Red Techno Manga Poster Style | [Copy Prompt](turquoise-red-techno-manga-poster-style.md) | [style.json](../../styles/turquoise-red-techno-manga-poster-style/style.json) |
 | Urban Photo Ink Beast Collage Style | [Copy Prompt](urban-photo-ink-beast-collage-style.md) | [style.json](../../styles/urban-photo-ink-beast-collage-style/style.json) |

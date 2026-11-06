@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 180 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 181 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Toner Riot
+
+<a href="../styles/toner-riot"><img src="../assets/thumbs/toner-riot-16x9.jpg" width="720" alt="Toner Riot preview"></a>
+
+Electric-green character key art crushed into coarse circular screen and acid-lime square dither, with industrial titles and abrupt straight print splices. The image emerges from damaged information, not polished illustration.
+
+Files: [style.json](../styles/toner-riot/style.json) · [Copy Prompt](copy-prompts/toner-riot.md) · [16:9 preview](../styles/toner-riot/preview-16x9.jpg) · [9:16 preview](../styles/toner-riot/preview-9x16.jpg) · [Folder](../styles/toner-riot)
+
+---
 
 ### Jade Scarlet Panel Press
 

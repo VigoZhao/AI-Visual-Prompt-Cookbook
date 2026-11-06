@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "toner-riot"
+    },
+    {
       "slug": "jade-scarlet-panel-press"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "vermilion-marker-folk"
-    },
-    {
-      "slug": "salvage-body-editorial"
     }
   ],
   "styles": [
+    {
+      "slug": "toner-riot",
+      "summary": "Electric-green character key art crushed into coarse round screen and acid-lime square dither, with huge industrial titles and straight print splices."
+    },
     {
       "slug": "jade-scarlet-panel-press",
       "summary": "Character-led neighborhood bulletin posters: scarlet comic panels and cream outlined capitals cut across jade grounds with black street-print silhouettes in staggered editorial modules."
