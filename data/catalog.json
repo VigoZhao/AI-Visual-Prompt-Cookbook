@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "nocturne-orbit-manga"
+    },
+    {
       "slug": "toner-riot"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "vermilion-jade-halftone"
-    },
-    {
-      "slug": "vermilion-marker-folk"
     }
   ],
   "styles": [
+    {
+      "slug": "nocturne-orbit-manga",
+      "summary": "Playful adult night workers through an extreme circular fisheye: lens-touching faces and hands, densely wrapped workplaces, hard black ink with flat teal, coral and cream cel color."
+    },
     {
       "slug": "toner-riot",
       "summary": "Electric-green character key art crushed into coarse round screen and acid-lime square dither, with huge industrial titles and straight print splices."

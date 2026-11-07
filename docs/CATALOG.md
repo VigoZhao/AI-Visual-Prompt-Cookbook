@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 181 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 182 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Nocturne Orbit Manga
+
+<a href="../styles/nocturne-orbit-manga"><img src="../assets/thumbs/nocturne-orbit-manga-16x9.jpg" width="720" alt="Nocturne Orbit Manga preview"></a>
+
+Playful adult night workers seen through an extreme circular fisheye: lens-touching exaggerated faces or hands, densely wrapped workplaces, hard black ink and flat teal/coral/cream cel color.
+
+Files: [style.json](../styles/nocturne-orbit-manga/style.json) · [Copy Prompt](copy-prompts/nocturne-orbit-manga.md) · [16:9 preview](../styles/nocturne-orbit-manga/preview-16x9.jpg) · [9:16 preview](../styles/nocturne-orbit-manga/preview-9x16.jpg) · [Folder](../styles/nocturne-orbit-manga)
+
+---
 
 ### Toner Riot
 
