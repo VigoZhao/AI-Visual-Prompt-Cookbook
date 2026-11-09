@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "oblique-interval"
+    },
+    {
       "slug": "nocturne-orbit-manga"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "ink-orbit-club"
-    },
-    {
-      "slug": "vermilion-jade-halftone"
     }
   ],
   "styles": [
+    {
+      "slug": "oblique-interval",
+      "summary": "White-ground cultural posters with receding saturated colour panels, sliced arc-cut curves and mobile black grotesk type, unified by ultramarine and signal red."
+    },
     {
       "slug": "nocturne-orbit-manga",
       "summary": "Playful adult night workers through an extreme circular fisheye: lens-touching faces and hands, densely wrapped workplaces, hard black ink with flat teal, coral and cream cel color."

@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 182 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 183 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Oblique Interval](https://prompts.vigocreativeai.com/site/styles/oblique-interval/): White-ground cultural posters with receding saturated colour panels, sliced arc-cut curves and mobile black grotesk type, unified by ultramarine and signal red. Raw JSON: https://prompts.vigocreativeai.com/styles/oblique-interval/style.json
 - [Nocturne Orbit Manga](https://prompts.vigocreativeai.com/site/styles/nocturne-orbit-manga/): Playful adult night workers through an extreme circular fisheye: lens-touching faces and hands, densely wrapped workplaces, hard black ink with flat teal, coral and cream cel color. Raw JSON: https://prompts.vigocreativeai.com/styles/nocturne-orbit-manga/style.json
 - [Toner Riot](https://prompts.vigocreativeai.com/site/styles/toner-riot/): Electric-green character key art crushed into coarse round screen and acid-lime square dither, with huge industrial titles and straight print splices. Raw JSON: https://prompts.vigocreativeai.com/styles/toner-riot/style.json
 - [Jade Scarlet Panel Press](https://prompts.vigocreativeai.com/site/styles/jade-scarlet-panel-press/): Character-led neighborhood bulletin posters: scarlet comic panels and cream outlined capitals cut across jade grounds with black street-print silhouettes in staggered editorial modules. Raw JSON: https://prompts.vigocreativeai.com/styles/jade-scarlet-panel-press/style.json

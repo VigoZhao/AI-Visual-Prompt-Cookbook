@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 182 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 183 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Oblique Interval
+
+<a href="../styles/oblique-interval"><img src="../assets/thumbs/oblique-interval-16x9.jpg" width="720" alt="Oblique Interval preview"></a>
+
+White-ground cultural posters fusing receding saturated colour panels, sliced arc-cut curves and mobile black grotesk typography; ultramarine and signal red unify four distinct structures.
+
+Files: [style.json](../styles/oblique-interval/style.json) · [Copy Prompt](copy-prompts/oblique-interval.md) · [16:9 preview](../styles/oblique-interval/preview-16x9.jpg) · [9:16 preview](../styles/oblique-interval/preview-9x16.jpg) · [Folder](../styles/oblique-interval)
+
+---
 
 ### Nocturne Orbit Manga
 

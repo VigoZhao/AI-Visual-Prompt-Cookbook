@@ -109,6 +109,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Neon Strip Low Angle Campaign | [Copy Prompt](neon-strip-low-angle-campaign.md) | [style.json](../../styles/neon-strip-low-angle-campaign/style.json) |
 | Neon Type Photo Scribble Poster | [Copy Prompt](neon-type-photo-scribble-poster.md) | [style.json](../../styles/neon-type-photo-scribble-poster/style.json) |
 | Nocturne Orbit Manga | [Copy Prompt](nocturne-orbit-manga.md) | [style.json](../../styles/nocturne-orbit-manga/style.json) |
+| Oblique Interval | [Copy Prompt](oblique-interval.md) | [style.json](../../styles/oblique-interval/style.json) |
 | Obsidian Signal Motion | [Copy Prompt](obsidian-signal-motion.md) | [style.json](../../styles/obsidian-signal-motion/style.json) |
 | Olive Scribble Sports Poster Style | [Copy Prompt](olive-scribble-sports-poster-style.md) | [style.json](../../styles/olive-scribble-sports-poster-style/style.json) |
 | Op Stripe Card Editorial | [Copy Prompt](op-stripe-card-editorial.md) | [style.json](../../styles/op-stripe-card-editorial/style.json) |
