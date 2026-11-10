@@ -34,7 +34,9 @@ def resize_with_sips(source: Path, thumb: Path) -> str | None:
         ],
         capture_output=True,
     )
-    return result.stderr.decode().strip() if result.returncode != 0 else None
+    if result.returncode != 0:
+        return result.stderr.decode().strip() or f"sips exited with status {result.returncode}"
+    return None
 
 
 def resize_with_pillow(source: Path, thumb: Path) -> str | None:
