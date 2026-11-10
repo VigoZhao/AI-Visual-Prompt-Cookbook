@@ -5,7 +5,7 @@
 1. Fork the repository and create a new branch.
 2. Add a new directory under `styles/<slug>/`.
 3. Add exactly one `style.json` file and two preview images.
-4. Run `python3 scripts/optimize-images.py <slug>` (shrinks oversized previews), then `python3 scripts/generate-thumbnails.py` to create the gallery thumbnail `assets/thumbs/<slug>-16x9.jpg` (CI requires it). It uses macOS `sips` when available and Pillow (`pip install pillow`) everywhere else.
+4. Install Pillow (`pip install pillow`, needed on every platform), then run `python3 scripts/optimize-images.py <slug>` (shrinks oversized previews), then `python3 scripts/generate-thumbnails.py` to create the gallery thumbnail `assets/thumbs/<slug>-16x9.jpg` (CI requires it). The thumbnail step uses macOS `sips` when available and Pillow everywhere else; it only rewrites thumbnails older than their preview.
 5. Run `python3 scripts/publish-style.py --add <slug>="one-line gallery summary"` (add `--feature <slug>` to feature it). It adds the style to the top of `data/catalog.json`, then regenerates every README, `docs/CATALOG.md`, the copy prompts and the site data, and validates everything.
 6. Open a pull request with a short description of the visual system and sample use cases.
 
