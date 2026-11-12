@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 183 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 184 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Kinetic Slice
+
+<a href="../styles/kinetic-slice"><img src="../assets/thumbs/kinetic-slice-16x9.jpg" width="720" alt="Kinetic Slice preview"></a>
+
+Restrained photographic sports-equipment editorials: soft grey daylight, visible film grain, optical body ghosts, quiet fields and small condensed titles.
+
+Files: [style.json](../styles/kinetic-slice/style.json) · [Copy Prompt](copy-prompts/kinetic-slice.md) · [16:9 preview](../styles/kinetic-slice/preview-16x9.jpg) · [9:16 preview](../styles/kinetic-slice/preview-9x16.jpg) · [Folder](../styles/kinetic-slice)
+
+---
 
 ### Oblique Interval
 

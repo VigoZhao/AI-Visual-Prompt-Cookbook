@@ -81,6 +81,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Kinetic Footwear Process | [Copy Prompt](kinetic-footwear-process.md) | [style.json](../../styles/kinetic-footwear-process/style.json) |
 | Kinetic Geometric Doodle Cutouts | [Copy Prompt](kinetic-geometric-doodle-cutouts.md) | [style.json](../../styles/kinetic-geometric-doodle-cutouts/style.json) |
 | Kinetic Luxury Street Fashion Cover Style | [Copy Prompt](kinetic-luxury-street-fashion-cover-style.md) | [style.json](../../styles/kinetic-luxury-street-fashion-cover-style/style.json) |
+| Kinetic Slice | [Copy Prompt](kinetic-slice.md) | [style.json](../../styles/kinetic-slice/style.json) |
 | Lime Loop Megatype Action Poster | [Copy Prompt](lime-loop-megatype-action-poster-style.md) | [style.json](../../styles/lime-loop-megatype-action-poster-style/style.json) |
 | Liquid Chrome Clearance Poster Style | [Copy Prompt](liquid-chrome-clearance-poster-style.md) | [style.json](../../styles/liquid-chrome-clearance-poster-style/style.json) |
 | Loose Scribble Riso Print Style | [Copy Prompt](loose-scribble-riso-print-style.md) | [style.json](../../styles/loose-scribble-riso-print-style/style.json) |

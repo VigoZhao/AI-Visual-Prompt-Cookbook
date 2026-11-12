@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "kinetic-slice"
+    },
+    {
       "slug": "oblique-interval"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "sulphur-shift"
-    },
-    {
-      "slug": "ink-orbit-club"
     }
   ],
   "styles": [
+    {
+      "slug": "kinetic-slice",
+      "summary": "Restrained photographic sports-equipment editorials: soft overcast light, film grain, slow-shutter body ghosts around one sharp worn product, 40% quiet grey field and a small condensed title."
+    },
     {
       "slug": "oblique-interval",
       "summary": "White-ground cultural posters with receding saturated colour panels, sliced arc-cut curves and mobile black grotesk type, unified by ultramarine and signal red."

@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 183 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 184 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -188,6 +188,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Product + Campaign
 
+- [Kinetic Slice](https://prompts.vigocreativeai.com/site/styles/kinetic-slice/): Restrained photographic sports-equipment editorials: soft overcast light, film grain, slow-shutter body ghosts around one sharp worn product, 40% quiet grey field and a small condensed title. Raw JSON: https://prompts.vigocreativeai.com/styles/kinetic-slice/style.json
 - [Felt Motion Brand Campaign](https://prompts.vigocreativeai.com/site/styles/felt-motion-brand-campaign/): Intimate sports photographs with moody warm light, selective focus, and a white original logo plus two-line wordmark at center. Raw JSON: https://prompts.vigocreativeai.com/styles/felt-motion-brand-campaign/style.json
 - [Felt Motion Brand Campaign — Set 02](https://prompts.vigocreativeai.com/site/styles/felt-motion-brand-campaign-set-02/): A second Felt Motion set: intimate sports photographs, selective focus, and a centered white logo with a tight two-line wordmark. Raw JSON: https://prompts.vigocreativeai.com/styles/felt-motion-brand-campaign-set-02/style.json
 - [Kinetic Footwear Process](https://prompts.vigocreativeai.com/site/styles/kinetic-footwear-process/): Motion-led footwear campaigns showing a shoe mechanism through action, sequential states, and tactile engineering close-ups. Raw JSON: https://prompts.vigocreativeai.com/styles/kinetic-footwear-process/style.json
