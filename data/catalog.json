@@ -1,6 +1,12 @@
 {
   "featured": [
     {
+      "slug": "acid-parallax"
+    },
+    {
+      "slug": "acid-phase-operatives"
+    },
+    {
       "slug": "kinetic-slice"
     },
     {
@@ -11,15 +17,17 @@
     },
     {
       "slug": "toner-riot"
-    },
-    {
-      "slug": "jade-scarlet-panel-press"
-    },
-    {
-      "slug": "sulphur-shift"
     }
   ],
   "styles": [
+    {
+      "slug": "acid-parallax",
+      "summary": "Acid-yellow fisheye character posters: frame-breaking black type, wet blue brush gestures, magenta splatter, flat flower shapes and hand-drawn RGB misregistration around one adult original character."
+    },
+    {
+      "slug": "acid-phase-operatives",
+      "summary": "Sci-fi operative key visuals: acid fluorescent fields, cool-grey synthetic humans, coarse local halftone dots and diagonally sliced title tracks."
+    },
     {
       "slug": "kinetic-slice",
       "summary": "Restrained photographic sports-equipment editorials: soft overcast light, film grain, slow-shutter body ghosts around one sharp worn product, 40% quiet grey field and a small condensed title."

@@ -8,6 +8,8 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Acid Burst Motion Type | [Copy Prompt](acid-burst-motion-type.md) | [style.json](../../styles/acid-burst-motion-type/style.json) |
 | Acid Jolt Portrait Collage | [Copy Prompt](acid-jolt-photo-collage.md) | [style.json](../../styles/acid-jolt-photo-collage/style.json) |
 | Acid Lime 3D Streetwear Type Poster Style | [Copy Prompt](acid-lime-3d-streetwear-type-poster-style.md) | [style.json](../../styles/acid-lime-3d-streetwear-type-poster-style/style.json) |
+| Acid Parallax | [Copy Prompt](acid-parallax.md) | [style.json](../../styles/acid-parallax/style.json) |
+| Acid Phase Operatives | [Copy Prompt](acid-phase-operatives.md) | [style.json](../../styles/acid-phase-operatives/style.json) |
 | Amber Orbit Editorial | [Copy Prompt](amber-orbit-editorial.md) | [style.json](../../styles/amber-orbit-editorial/style.json) |
 | Analog Sticker Diary Portrait Poster Style | [Copy Prompt](analog-sticker-diary-portrait-poster-style.md) | [style.json](../../styles/analog-sticker-diary-portrait-poster-style/style.json) |
 | Annotated Absence | [Copy Prompt](annotated-absence.md) | [style.json](../../styles/annotated-absence/style.json) |

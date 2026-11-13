@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 184 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 186 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Acid Parallax
+
+<a href="../styles/acid-parallax"><img src="../assets/thumbs/acid-parallax-16x9.jpg" width="720" alt="Acid Parallax preview"></a>
+
+Adult original-character posters on flat acid-yellow fields with extreme fisheye distortion: frame-breaking black type, wet blue brush gestures, magenta splatter, flat flower shapes and local hand-drawn RGB misregistration build a high-tension structure.
+
+Files: [style.json](../styles/acid-parallax/style.json) · [Copy Prompt](copy-prompts/acid-parallax.md) · [16:9 preview](../styles/acid-parallax/preview-16x9.jpg) · [9:16 preview](../styles/acid-parallax/preview-9x16.jpg) · [Folder](../styles/acid-parallax)
+
+---
+
+### Acid Phase Operatives
+
+<a href="../styles/acid-phase-operatives"><img src="../assets/thumbs/acid-phase-operatives-16x9.jpg" width="720" alt="Acid Phase Operatives preview"></a>
+
+Sci-fi character key visuals fusing acid fluorescent fields, cool-grey synthetic humans, local coarse halftone dots and diagonally sliced title tracks.
+
+Files: [style.json](../styles/acid-phase-operatives/style.json) · [Copy Prompt](copy-prompts/acid-phase-operatives.md) · [16:9 preview](../styles/acid-phase-operatives/preview-16x9.jpg) · [9:16 preview](../styles/acid-phase-operatives/preview-9x16.jpg) · [Folder](../styles/acid-phase-operatives)
+
+---
 
 ### Kinetic Slice
 

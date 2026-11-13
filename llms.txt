@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 184 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 186 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,8 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Acid Parallax](https://prompts.vigocreativeai.com/site/styles/acid-parallax/): Acid-yellow fisheye character posters: frame-breaking black type, wet blue brush gestures, magenta splatter, flat flower shapes and hand-drawn RGB misregistration around one adult original character. Raw JSON: https://prompts.vigocreativeai.com/styles/acid-parallax/style.json
+- [Acid Phase Operatives](https://prompts.vigocreativeai.com/site/styles/acid-phase-operatives/): Sci-fi operative key visuals: acid fluorescent fields, cool-grey synthetic humans, coarse local halftone dots and diagonally sliced title tracks. Raw JSON: https://prompts.vigocreativeai.com/styles/acid-phase-operatives/style.json
 - [Oblique Interval](https://prompts.vigocreativeai.com/site/styles/oblique-interval/): White-ground cultural posters with receding saturated colour panels, sliced arc-cut curves and mobile black grotesk type, unified by ultramarine and signal red. Raw JSON: https://prompts.vigocreativeai.com/styles/oblique-interval/style.json
 - [Nocturne Orbit Manga](https://prompts.vigocreativeai.com/site/styles/nocturne-orbit-manga/): Playful adult night workers through an extreme circular fisheye: lens-touching faces and hands, densely wrapped workplaces, hard black ink with flat teal, coral and cream cel color. Raw JSON: https://prompts.vigocreativeai.com/styles/nocturne-orbit-manga/style.json
 - [Toner Riot](https://prompts.vigocreativeai.com/site/styles/toner-riot/): Electric-green character key art crushed into coarse round screen and acid-lime square dither, with huge industrial titles and straight print splices. Raw JSON: https://prompts.vigocreativeai.com/styles/toner-riot/style.json
