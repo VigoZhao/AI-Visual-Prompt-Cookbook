@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 186 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 187 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Soft Giants](https://prompts.vigocreativeai.com/site/styles/soft-giants/): Plush-and-vinyl 3D toy-mascot giants in wide-angle scale play: creatures peek, hang and loom over tiny worlds with fuzzy acid-lime spray titles, star-highlight eyes and rainbow light leaks. Raw JSON: https://prompts.vigocreativeai.com/styles/soft-giants/style.json
 - [Acid Parallax](https://prompts.vigocreativeai.com/site/styles/acid-parallax/): Acid-yellow fisheye character posters: frame-breaking black type, wet blue brush gestures, magenta splatter, flat flower shapes and hand-drawn RGB misregistration around one adult original character. Raw JSON: https://prompts.vigocreativeai.com/styles/acid-parallax/style.json
 - [Acid Phase Operatives](https://prompts.vigocreativeai.com/site/styles/acid-phase-operatives/): Sci-fi operative key visuals: acid fluorescent fields, cool-grey synthetic humans, coarse local halftone dots and diagonally sliced title tracks. Raw JSON: https://prompts.vigocreativeai.com/styles/acid-phase-operatives/style.json
 - [Oblique Interval](https://prompts.vigocreativeai.com/site/styles/oblique-interval/): White-ground cultural posters with receding saturated colour panels, sliced arc-cut curves and mobile black grotesk type, unified by ultramarine and signal red. Raw JSON: https://prompts.vigocreativeai.com/styles/oblique-interval/style.json

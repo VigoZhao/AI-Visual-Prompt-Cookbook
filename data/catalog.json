@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "soft-giants"
+    },
+    {
       "slug": "acid-parallax"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "nocturne-orbit-manga"
-    },
-    {
-      "slug": "toner-riot"
     }
   ],
   "styles": [
+    {
+      "slug": "soft-giants",
+      "summary": "Plush-and-vinyl 3D toy-mascot giants in wide-angle scale play: creatures peek, hang and loom over tiny worlds with fuzzy acid-lime spray titles, star-highlight eyes and rainbow light leaks."
+    },
     {
       "slug": "acid-parallax",
       "summary": "Acid-yellow fisheye character posters: frame-breaking black type, wet blue brush gestures, magenta splatter, flat flower shapes and hand-drawn RGB misregistration around one adult original character."

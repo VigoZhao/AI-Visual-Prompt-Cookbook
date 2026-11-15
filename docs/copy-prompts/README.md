@@ -153,6 +153,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Skyward Condensed Action | [Copy Prompt](skyward-condensed-action.md) | [style.json](../../styles/skyward-condensed-action/style.json) |
 | Slice Signal Editorial | [Copy Prompt](slice-signal-editorial.md) | [style.json](../../styles/slice-signal-editorial/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
+| Soft Giants | [Copy Prompt](soft-giants.md) | [style.json](../../styles/soft-giants/style.json) |
 | Split Ink Monumental Editorial | [Copy Prompt](split-ink-monumental-editorial.md) | [style.json](../../styles/split-ink-monumental-editorial/style.json) |
 | Split Scorched Editorial Poster | [Copy Prompt](split-scorched-editorial-poster.md) | [style.json](../../styles/split-scorched-editorial-poster/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |

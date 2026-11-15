@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 186 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 187 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Soft Giants
+
+<a href="../styles/soft-giants"><img src="../assets/thumbs/soft-giants-16x9.jpg" width="720" alt="Soft Giants preview"></a>
+
+Original 3D toy-mascot giant posters in plush and vinyl: wide-angle near-far scale exaggeration, creatures playing with the frame and gravity, giant acid-lime spray-edged fuzzy titles, four-point star eye highlights, rainbow light leaks and drifting particles.
+
+Files: [style.json](../styles/soft-giants/style.json) · [Copy Prompt](copy-prompts/soft-giants.md) · [16:9 preview](../styles/soft-giants/preview-16x9.jpg) · [9:16 preview](../styles/soft-giants/preview-9x16.jpg) · [Folder](../styles/soft-giants)
+
+---
 
 ### Acid Parallax
 
