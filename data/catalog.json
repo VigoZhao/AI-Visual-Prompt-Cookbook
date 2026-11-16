@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "paddock-pop"
+    },
+    {
       "slug": "soft-giants"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "oblique-interval"
-    },
-    {
-      "slug": "nocturne-orbit-manga"
     }
   ],
   "styles": [
+    {
+      "slug": "paddock-pop",
+      "summary": "Anime cel-shaded racing posters: ink-line drivers and machines, halftone shading, sticker cutouts with offset shadows, a custom title typeface and rotating bold base color per poster."
+    },
     {
       "slug": "soft-giants",
       "summary": "Plush-and-vinyl 3D toy-mascot giants in wide-angle scale play: creatures peek, hang and loom over tiny worlds with fuzzy acid-lime spray titles, star-highlight eyes and rainbow light leaks."

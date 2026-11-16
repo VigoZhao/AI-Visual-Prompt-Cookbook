@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 187 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 188 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Paddock Pop
+
+<a href="../styles/paddock-pop"><img src="../assets/thumbs/paddock-pop-16x9.jpg" width="720" alt="Paddock Pop preview"></a>
+
+Original anime cel-shaded posters of racing drivers and machines: ink-line sketching with halftone shading, sticker-style cutouts with offset drop shadows, a custom title typeface per case (wedge racing type, dry-brush handwriting, slanted ultra-condensed, warning stencil), a rotating base color per case (ink black / vermilion / bone white with purple circle / electric violet), dry-brush speed scratches, checkerboards and sticker kits.
+
+Files: [style.json](../styles/paddock-pop/style.json) · [Copy Prompt](copy-prompts/paddock-pop.md) · [16:9 preview](../styles/paddock-pop/preview-16x9.jpg) · [9:16 preview](../styles/paddock-pop/preview-9x16.jpg) · [Folder](../styles/paddock-pop)
+
+---
 
 ### Soft Giants
 

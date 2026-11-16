@@ -118,6 +118,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Op Stripe Card Editorial | [Copy Prompt](op-stripe-card-editorial.md) | [style.json](../../styles/op-stripe-card-editorial/style.json) |
 | Orange Brush Mascot Action Poster Style | [Copy Prompt](orange-brush-mascot-action-poster-style.md) | [style.json](../../styles/orange-brush-mascot-action-poster-style/style.json) |
 | Orange Type Street Editorial | [Copy Prompt](orange-type-street-editorial.md) | [style.json](../../styles/orange-type-street-editorial/style.json) |
+| Paddock Pop | [Copy Prompt](paddock-pop.md) | [style.json](../../styles/paddock-pop/style.json) |
 | Photo Illustration Overlay Poster | [Copy Prompt](photo-illustration-overlay-poster-style.md) | [style.json](../../styles/photo-illustration-overlay-poster-style/style.json) |
 | Pink Anime Motorcycle Spec Poster Style | [Copy Prompt](pink-anime-motorcycle-spec-poster-style.md) | [style.json](../../styles/pink-anime-motorcycle-spec-poster-style/style.json) |
 | Pixel Weave Editorial | [Copy Prompt](pixel-weave-editorial.md) | [style.json](../../styles/pixel-weave-editorial/style.json) |
