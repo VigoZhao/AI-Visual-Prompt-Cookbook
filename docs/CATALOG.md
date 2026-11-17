@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 188 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 189 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Cobalt Pals
+
+<a href="../styles/cobalt-pals"><img src="../assets/thumbs/cobalt-pals-16x9.jpg" width="720" alt="Cobalt Pals preview"></a>
+
+Original white blob-animal mascot event posters on a solid cobalt blue ground: thick black marker outlines, pure flat fills and a fixed five-colour palette (cobalt blue, white, black, yolk yellow, bubblegum pink). Each case gets its own hand-drawn title lettering (bubble letters, puffy capitals with a black extrude, tight heavy grotesk with brush script, slanted rounded italics with an offset shadow), plus pill labels, starburst stickers, four-point sparkles and short motion ticks.
+
+Files: [style.json](../styles/cobalt-pals/style.json) · [Copy Prompt](copy-prompts/cobalt-pals.md) · [16:9 preview](../styles/cobalt-pals/preview-16x9.jpg) · [9:16 preview](../styles/cobalt-pals/preview-9x16.jpg) · [Folder](../styles/cobalt-pals)
+
+---
 
 ### Paddock Pop
 

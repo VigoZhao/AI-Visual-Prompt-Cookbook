@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "cobalt-pals"
+    },
+    {
       "slug": "paddock-pop"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "kinetic-slice"
-    },
-    {
-      "slug": "oblique-interval"
     }
   ],
   "styles": [
+    {
+      "slug": "cobalt-pals",
+      "summary": "Original white blob-animal mascot event posters on solid cobalt blue: thick black marker outlines, flat fills, yolk yellow props, bubblegum pink accents and a different hand-drawn title lettering per case."
+    },
     {
       "slug": "paddock-pop",
       "summary": "Anime cel-shaded racing posters: ink-line drivers and machines, halftone shading, sticker cutouts with offset shadows, a custom title typeface and rotating bold base color per poster."
