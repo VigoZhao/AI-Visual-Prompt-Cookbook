@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 189 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 190 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Paper Premiere
+
+<a href="../styles/paper-premiere"><img src="../assets/thumbs/paper-premiere-16x9.jpg" width="720" alt="Paper Premiere preview"></a>
+
+Fictional animated-film posters on off-white paper: original adult characters built from hard-edged cut-paper blocks, angular like papercraft, in oversized streetwear coats with one crisp cast shadow on the ground. A fixed four-colour palette (paper white, deep indigo, signal red, yolk yellow). Each case gets its own distressed display title (ultra-bold wide sans with yellow lightning scratches, ultra-tall condensed type half-covered by a yellow block, jagged shard-brush lettering, slanted tech face with knife-cut notches), plus a full movie-poster information layer: two-line tagline, director credit, laurels, five-star pull quote, release date, billing-block credits and a barcode.
+
+Files: [style.json](../styles/paper-premiere/style.json) · [Copy Prompt](copy-prompts/paper-premiere.md) · [16:9 preview](../styles/paper-premiere/preview-16x9.jpg) · [9:16 preview](../styles/paper-premiere/preview-9x16.jpg) · [Folder](../styles/paper-premiere)
+
+---
 
 ### Cobalt Pals
 

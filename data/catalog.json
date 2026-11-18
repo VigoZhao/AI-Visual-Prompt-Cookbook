@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "paper-premiere"
+    },
+    {
       "slug": "cobalt-pals"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "acid-phase-operatives"
-    },
-    {
-      "slug": "kinetic-slice"
     }
   ],
   "styles": [
+    {
+      "slug": "paper-premiere",
+      "summary": "Fictional animated-film posters with cut-paper adult characters in oversized streetwear, a fixed paper-indigo-red-yolk palette, distressed display titles and a full movie-poster credit layer."
+    },
     {
       "slug": "cobalt-pals",
       "summary": "Original white blob-animal mascot event posters on solid cobalt blue: thick black marker outlines, flat fills, yolk yellow props, bubblegum pink accents and a different hand-drawn title lettering per case."
