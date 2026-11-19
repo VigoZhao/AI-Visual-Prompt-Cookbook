@@ -1,6 +1,6 @@
 # AI Visual Prompt Cookbook
 
-> 190 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
+> 191 plug-and-play visual style packs for AI image generation (Nano Banana Pro, GPT Image, Midjourney, ChatGPT, Gemini, Claude).
 > Each style is one structured style.json: paste it into an LLM image workflow, replace the variables, keep the look.
 
 Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
@@ -62,6 +62,7 @@ Curated by Vigo Zhao (https://x.com/VigoCreativeAI). Source: https://github.com/
 
 ## Type Posters
 
+- [Cover Unit](https://prompts.vigocreativeai.com/site/styles/cover-unit/): Fictional mecha anime film key art laid out like an animation monthly cover: ink-line cel-shaded work-frame robots on white paper, violet brush swashes, vermilion and amber blocks, masthead titles and a full cover info… Raw JSON: https://prompts.vigocreativeai.com/styles/cover-unit/style.json
 - [Paper Premiere](https://prompts.vigocreativeai.com/site/styles/paper-premiere/): Fictional animated-film posters with cut-paper adult characters in oversized streetwear, a fixed paper-indigo-red-yolk palette, distressed display titles and a full movie-poster credit layer. Raw JSON: https://prompts.vigocreativeai.com/styles/paper-premiere/style.json
 - [Cobalt Pals](https://prompts.vigocreativeai.com/site/styles/cobalt-pals/): Original white blob-animal mascot event posters on solid cobalt blue: thick black marker outlines, flat fills, yolk yellow props, bubblegum pink accents and a different hand-drawn title lettering per case. Raw JSON: https://prompts.vigocreativeai.com/styles/cobalt-pals/style.json
 - [Paddock Pop](https://prompts.vigocreativeai.com/site/styles/paddock-pop/): Anime cel-shaded racing posters: ink-line drivers and machines, halftone shading, sticker cutouts with offset shadows, a custom title typeface and rotating bold base color per poster. Raw JSON: https://prompts.vigocreativeai.com/styles/paddock-pop/style.json

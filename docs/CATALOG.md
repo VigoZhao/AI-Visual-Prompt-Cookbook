@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 190 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 191 styles. Parts of a series are collapsed under the first style of the series. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Cover Unit
+
+<a href="../styles/cover-unit"><img src="../assets/thumbs/cover-unit-16x9.jpg" width="720" alt="Cover Unit preview"></a>
+
+Key art for a fictional mecha anime film on white paper, laid out like an animation monthly cover: an original engineering work-frame robot drawn in fine black ink line with two-step hard-edge cel shading, irregular vermilion and amber color blocks thrown across its shadow areas, ultramarine-violet watercolor brush swashes behind it, and a pilot in a white flight suit beside it for scale. Fixed palette (paper white with cool gray, ultramarine violet with deep indigo, vermilion, amber yellow, black ink line). Each case gets one masthead-scale title (violet dry-brush lettering, distressed vermilion condensed bold, rounded bold with an offset vermilion outline, or amber-outlined italic) plus a cover information layer: director line, two-line vermilion tagline, three triangle-bulleted teaser lines, a huge stacked release date, a hazard strip with a unit number, and one line of production small print.
+
+Files: [style.json](../styles/cover-unit/style.json) · [Copy Prompt](copy-prompts/cover-unit.md) · [16:9 preview](../styles/cover-unit/preview-16x9.jpg) · [9:16 preview](../styles/cover-unit/preview-9x16.jpg) · [Folder](../styles/cover-unit)
+
+---
 
 ### Paper Premiere
 

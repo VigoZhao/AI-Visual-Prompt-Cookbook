@@ -1,6 +1,9 @@
 {
   "featured": [
     {
+      "slug": "cover-unit"
+    },
+    {
       "slug": "paper-premiere"
     },
     {
@@ -14,12 +17,13 @@
     },
     {
       "slug": "acid-parallax"
-    },
-    {
-      "slug": "acid-phase-operatives"
     }
   ],
   "styles": [
+    {
+      "slug": "cover-unit",
+      "summary": "Fictional mecha anime film key art laid out like an animation monthly cover: ink-line cel-shaded work-frame robots on white paper, violet brush swashes, vermilion and amber blocks, masthead titles and a full cover info layer."
+    },
     {
       "slug": "paper-premiere",
       "summary": "Fictional animated-film posters with cut-paper adult characters in oversized streetwear, a fixed paper-indigo-red-yolk palette, distressed display titles and a full movie-poster credit layer."
