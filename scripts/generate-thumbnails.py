@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Generate README gallery thumbnails (assets/thumbs/<slug>-16x9.jpg).
 
-Uses macOS `sips` to resample each style's preview-16x9.jpg down to 640px wide.
-Skips thumbnails that are already newer than their source. Run after adding or
+Resamples each style's preview-16x9.jpg down to 640px wide at JPEG quality 72.
+Uses macOS `sips` when it is available and falls back to Pillow elsewhere
+(Linux, Windows, CI), so contributors are not limited to a Mac. Skips thumbnails that are already newer than their source. Run after adding or
 updating any style preview, before updating the README galleries.
 """
 
 from __future__ import annotations
 
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -16,12 +18,46 @@ ROOT = Path(__file__).resolve().parents[1]
 STYLES_DIR = ROOT / "styles"
 THUMBS_DIR = ROOT / "assets" / "thumbs"
 
-THUMB_WIDTH = "640"
-JPEG_QUALITY = "72"
+THUMB_WIDTH = 640
+JPEG_QUALITY = 72
+
+
+def resize_with_sips(source: Path, thumb: Path) -> str | None:
+    result = subprocess.run(
+        [
+            "sips",
+            "--resampleWidth", str(THUMB_WIDTH),
+            "-s", "format", "jpeg",
+            "-s", "formatOptions", str(JPEG_QUALITY),
+            str(source),
+            "--out", str(thumb),
+        ],
+        capture_output=True,
+    )
+    if result.returncode != 0:
+        return result.stderr.decode().strip() or f"sips exited with status {result.returncode}"
+    return None
+
+
+def resize_with_pillow(source: Path, thumb: Path) -> str | None:
+    try:
+        from PIL import Image
+    except ImportError:
+        return "neither macOS sips nor Pillow is available (pip install pillow)"
+    try:
+        with Image.open(source) as im:
+            im = im.convert("RGB")
+            height = round(im.height * THUMB_WIDTH / im.width)
+            im = im.resize((THUMB_WIDTH, height), Image.LANCZOS)
+            im.save(thumb, "JPEG", quality=JPEG_QUALITY, optimize=True)
+    except OSError as error:
+        return str(error)
+    return None
 
 
 def main() -> int:
     THUMBS_DIR.mkdir(parents=True, exist_ok=True)
+    resize = resize_with_sips if shutil.which("sips") else resize_with_pillow
     generated = skipped = failed = 0
 
     for style_dir in sorted(STYLES_DIR.iterdir()):
@@ -36,19 +72,9 @@ def main() -> int:
         if thumb.exists() and thumb.stat().st_mtime >= source.stat().st_mtime:
             skipped += 1
             continue
-        result = subprocess.run(
-            [
-                "sips",
-                "--resampleWidth", THUMB_WIDTH,
-                "-s", "format", "jpeg",
-                "-s", "formatOptions", JPEG_QUALITY,
-                str(source),
-                "--out", str(thumb),
-            ],
-            capture_output=True,
-        )
-        if result.returncode != 0:
-            print(f"FAIL: {style_dir.name}: {result.stderr.decode().strip()}", file=sys.stderr)
+        error = resize(source, thumb)
+        if error:
+            print(f"FAIL: {style_dir.name}: {error}", file=sys.stderr)
             failed += 1
         else:
             generated += 1
